@@ -1,15 +1,15 @@
 {
   "pdf": "riemann_clock/paper_spectroscopy/feii_relative_frequencies.pdf",
-  "pdf_sha256": "43c56476f3469df44deca214b7b42c60d53530c573858797b0af427c6eb4068d",
+  "pdf_sha256": "b44ff7c46b1922e8b4619f0bb565a584d7f2809fbeb55a67026079411745c172",
   "page_count": 20,
-  "revision": "Brief prospective experiment in Section 5.4 and detailed Appendix A.",
-  "reviewed_pages": "Main-text addition p15; final appendix and references p16\u201320; earlier main-body figures retain their previously reviewed sources.",
+  "revision": "Repository URL and raw-source recovery statement added to data availability; scientific sections unchanged.",
+  "reviewed_pages": "Current PDF: data availability and continuation on pp15–16. Earlier prediction integration reviewed pp15–20 of the preceding PDF; those scientific source sections are unchanged.",
   "findings": [
-    "Single-column layout retained",
-    "Prediction equations, covariance, Table4 and Figure6 render without clipping",
-    "Prospective section and appendix references resolve",
+    "Current data availability URL and its continuation render without clipping on pp15–16",
+    "Repository URI annotation targets https://github.com/maris205/riemann_clock",
+    "Single-column layout and total20pages retained",
     "No undefined references or overfull boxes in final compilation",
-    "Instrument overview bibliography now uses its verified 2020 update date with2026 access date"
+    "Scientific section, equation, table and figure sources unchanged from preceding publication snapshot"
   ],
   "science_review": "spectroscopy_prediction_integration_review.md",
   "limitations": "Scoped visual and internal scientific review; no external peer review or physical-detection certification.",
@@ -17,5 +17,7 @@
     "paper_spectroscopy/prediction_appendix.tex": "43f9892b5cf60622969eb5083a41f69114929711de637a9575fc1c7a0e42836f",
     "paper_spectroscopy/discussion.tex": "b6489d36c846649293d3324908c0cfd880e45493ba6158f1ab974c79760631d6",
     "reports/spectroscopy_prediction_integration_review.md": "b226b02c2710aa865cfee774b7a403e807b0be3304a6fe3496a1f55b2580dedf"
-  }
+  },
+  "previous_pdf_sha256": "43c56476f3469df44deca214b7b42c60d53530c573858797b0af427c6eb4068d",
+  "generated_utc": "2026-09-21T06:56:59.326296+00:00"
 }

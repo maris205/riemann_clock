@@ -1,6 +1,6 @@
 # Existing-data extension: delivery verification
 
-**PASS: 204/204 delivery checks.** The compiled single-column PDF contains 35 pages.
+**PASS: 237/237 delivery checks.** The compiled single-column PDF contains 35 pages.
 
 Saved model comparisons, pilot error-array controls, archive counts, independent audit statuses, export source hashes, local links and compiled values agree. The original validated ESPRESSO core is unchanged. All five UVES continuation endpoints remain explicitly capped and nonstationary.
 

@@ -2,6 +2,18 @@
 
 [中文说明](readme_cn.md)
 
+Project repository: [maris205/riemann_clock](https://github.com/maris205/riemann_clock).
+Clone using SSH:
+
+```bash
+git clone git@github.com:maris205/riemann_clock.git
+cd riemann_clock
+```
+
+Both manuscript PDFs, processed data and saved fit results are included. See the
+[repository contents and recovery guide](reports/repository_contents.md) for
+restoring the large third-party raw spectra omitted from Git.
+
 An exploratory study of **finite-resource physical estimates of Riemann zeros**, with a separately stated hypothesis that an additional uncertainty scale may evolve with cosmic age.
 
 The mathematical zeros remain fixed. The proposed time dependence concerns the performance of a specified physical encoding and estimator. Current public experiments do **not** identify a cosmic aging component or a universal maximum observable zero height.
