@@ -1,0 +1,426 @@
+{
+  "passed": true,
+  "n_checks": 83,
+  "maximum_derivative_relative_l2_error": 1.6615239147286946e-08,
+  "failures": [],
+  "checks": [
+    {
+      "name": "J233156-090802 original archive SHA256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 original FITS SHA256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII1608 original native source indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 wavelengths reconstructed from original FITS",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 original valid status mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 original expected error row2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 original statistical error row1",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 original flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 actual native log dispersion",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 finite positive expected error on fixed mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII1608 contiguous native wavelength window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII1608 nominal LSF from coadd metadata",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII1608 atomic opacity terms without repeated abundance",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 original native source indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 wavelengths reconstructed from original FITS",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 original valid status mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 original expected error row2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 original statistical error row1",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 original flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 actual native log dispersion",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 finite positive expected error on fixed mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII2374 contiguous native wavelength window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII2374 nominal LSF from coadd metadata",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2374 atomic opacity terms without repeated abundance",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 original native source indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 wavelengths reconstructed from original FITS",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 original valid status mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 original expected error row2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 original statistical error row1",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 original flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 actual native log dispersion",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 finite positive expected error on fixed mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII2382 contiguous native wavelength window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FeII2382 nominal LSF from coadd metadata",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 FeII2382 atomic opacity terms without repeated abundance",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 globally unique source indices in likelihood",
+      "passed": true,
+      "detail": {
+        "retained": 1176,
+        "unique": 1176
+      }
+    },
+    {
+      "name": "J233156-090802 no separate1611 likelihood region",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 logN lower bounds",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 logN upper bounds",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 component velocity lower",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 component velocity upper",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 logb lower",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 logb upper",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance lower 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance upper 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance lower 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance upper 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance lower 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 line nuisance upper 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 shift lower",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 shift upper",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 cache copies parameter key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 cache same parameter hit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 finite difference logN_0",
+      "passed": true,
+      "detail": 4.1345428901013465e-09
+    },
+    {
+      "name": "J233156-090802 finite difference logN_1",
+      "passed": true,
+      "detail": 3.0768156440485116e-09
+    },
+    {
+      "name": "J233156-090802 finite difference logN_2",
+      "passed": true,
+      "detail": 2.687104551420236e-09
+    },
+    {
+      "name": "J233156-090802 finite difference v_0",
+      "passed": true,
+      "detail": 1.05085321950189e-08
+    },
+    {
+      "name": "J233156-090802 finite difference v_1",
+      "passed": true,
+      "detail": 1.1538545798045212e-08
+    },
+    {
+      "name": "J233156-090802 finite difference v_2",
+      "passed": true,
+      "detail": 1.1299335926280377e-08
+    },
+    {
+      "name": "J233156-090802 finite difference logb_0",
+      "passed": true,
+      "detail": 1.2498873894220834e-08
+    },
+    {
+      "name": "J233156-090802 finite difference logb_1",
+      "passed": true,
+      "detail": 1.6615239147286946e-08
+    },
+    {
+      "name": "J233156-090802 finite difference logb_2",
+      "passed": true,
+      "detail": 1.3098198811539667e-08
+    },
+    {
+      "name": "J233156-090802 finite difference cont0_1608",
+      "passed": true,
+      "detail": 3.033042859295178e-12
+    },
+    {
+      "name": "J233156-090802 finite difference cont1_1608",
+      "passed": true,
+      "detail": 1.6917163278405631e-12
+    },
+    {
+      "name": "J233156-090802 finite difference zero_1608",
+      "passed": true,
+      "detail": 3.3233175616913274e-11
+    },
+    {
+      "name": "J233156-090802 finite difference logfwhm_1608",
+      "passed": true,
+      "detail": 2.7114640030002963e-11
+    },
+    {
+      "name": "J233156-090802 finite difference cont0_2374",
+      "passed": true,
+      "detail": 5.615931103602642e-12
+    },
+    {
+      "name": "J233156-090802 finite difference cont1_2374",
+      "passed": true,
+      "detail": 1.7354914702814356e-12
+    },
+    {
+      "name": "J233156-090802 finite difference zero_2374",
+      "passed": true,
+      "detail": 3.376061172030591e-11
+    },
+    {
+      "name": "J233156-090802 finite difference logfwhm_2374",
+      "passed": true,
+      "detail": 2.42349506612022e-11
+    },
+    {
+      "name": "J233156-090802 finite difference cont0_2382",
+      "passed": true,
+      "detail": 3.80958777351656e-12
+    },
+    {
+      "name": "J233156-090802 finite difference cont1_2382",
+      "passed": true,
+      "detail": 1.636019149702794e-12
+    },
+    {
+      "name": "J233156-090802 finite difference zero_2382",
+      "passed": true,
+      "detail": 2.7663419793838016e-11
+    },
+    {
+      "name": "J233156-090802 finite difference logfwhm_2382",
+      "passed": true,
+      "detail": 2.4146329711539683e-11
+    },
+    {
+      "name": "J233156-090802 finite difference shift_1608",
+      "passed": true,
+      "detail": 1.0873845836176824e-08
+    },
+    {
+      "name": "J233156-090802 finite difference shift_2382",
+      "passed": true,
+      "detail": 1.1773927144062308e-08
+    },
+    {
+      "name": "J233156-090802 independent cgs Voigt convolution 1608",
+      "passed": true,
+      "detail": 3.288523897637674e-10
+    },
+    {
+      "name": "J233156-090802 independent cgs Voigt convolution 2374",
+      "passed": true,
+      "detail": 1.8070228646749342e-10
+    },
+    {
+      "name": "J233156-090802 independent cgs Voigt convolution 2382",
+      "passed": true,
+      "detail": 1.3553719258041497e-10
+    },
+    {
+      "name": "J233156-090802 exact nested null profile",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 identical H0 H1 retained indices 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 identical H0 H1 retained indices 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J233156-090802 identical H0 H1 retained indices 2382",
+      "passed": true,
+      "detail": 0.0
+    }
+  ]
+}

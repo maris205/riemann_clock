@@ -1,0 +1,298 @@
+common support exposure 0
+common support exposure 1
+common support exposure 2
+common support exposure 3
+common support exposure 4
+common support exposure 5
+common support exposure 6
+common support exposure 7
+common support exposure 8
+common support exposure 9
+common support exposure 10
+common support exposure 11
+common support exposure 12
+common support exposure 13
+common support exposure 14
+common support exposure 15
+common support exposure 16
+{
+  "protocol_sha256": "5a9cd2a604f908a78681ec54bd6c5eaa449a5a1363bae993c877f8a97d60352f",
+  "script_sha256": "6f7236fc0226da4fd152f767d49b954ef655eb8de57aec8c92dffbfcbe4ac570",
+  "points": [
+    {
+      "exposure_index": 0,
+      "date_obs": "2018-11-04T07:00:00.643",
+      "line": 2382,
+      "delta_m_s": -55.435874988335364,
+      "variance_m2_s2": 4368.188961016486
+    },
+    {
+      "exposure_index": 0,
+      "date_obs": "2018-11-04T07:00:00.643",
+      "line": 2600,
+      "delta_m_s": -72.0896745689983,
+      "variance_m2_s2": 2745.890556383147
+    },
+    {
+      "exposure_index": 1,
+      "date_obs": "2018-11-05T03:36:08.626",
+      "line": 2382,
+      "delta_m_s": -283.7061683718534,
+      "variance_m2_s2": 14485.715653250118
+    },
+    {
+      "exposure_index": 1,
+      "date_obs": "2018-11-05T03:36:08.626",
+      "line": 2600,
+      "delta_m_s": 13.082007965465396,
+      "variance_m2_s2": 8511.289392445862
+    },
+    {
+      "exposure_index": 2,
+      "date_obs": "2018-11-05T04:37:13.377",
+      "line": 2382,
+      "delta_m_s": 5.967704715883482,
+      "variance_m2_s2": 9680.534210893642
+    },
+    {
+      "exposure_index": 2,
+      "date_obs": "2018-11-05T04:37:13.377",
+      "line": 2600,
+      "delta_m_s": -127.54576407623128,
+      "variance_m2_s2": 5303.938453796586
+    },
+    {
+      "exposure_index": 3,
+      "date_obs": "2018-11-05T05:38:18.858",
+      "line": 2382,
+      "delta_m_s": 16.016844422801334,
+      "variance_m2_s2": 6173.548048639866
+    },
+    {
+      "exposure_index": 3,
+      "date_obs": "2018-11-05T05:38:18.858",
+      "line": 2600,
+      "delta_m_s": -96.20276164738165,
+      "variance_m2_s2": 3862.4494583344085
+    },
+    {
+      "exposure_index": 4,
+      "date_obs": "2018-11-05T06:39:23.131",
+      "line": 2382,
+      "delta_m_s": -11.8561191090696,
+      "variance_m2_s2": 5247.9641921783905
+    },
+    {
+      "exposure_index": 4,
+      "date_obs": "2018-11-05T06:39:23.131",
+      "line": 2600,
+      "delta_m_s": -61.43703098010626,
+      "variance_m2_s2": 3281.662347821358
+    },
+    {
+      "exposure_index": 5,
+      "date_obs": "2018-11-05T07:40:31.723",
+      "line": 2382,
+      "delta_m_s": -134.0838652035896,
+      "variance_m2_s2": 6612.498774443636
+    },
+    {
+      "exposure_index": 5,
+      "date_obs": "2018-11-05T07:40:31.723",
+      "line": 2600,
+      "delta_m_s": -158.37733161211528,
+      "variance_m2_s2": 3965.396909564687
+    },
+    {
+      "exposure_index": 6,
+      "date_obs": "2018-11-07T05:21:38.136",
+      "line": 2382,
+      "delta_m_s": 115.94330762431878,
+      "variance_m2_s2": 6775.8767329235725
+    },
+    {
+      "exposure_index": 6,
+      "date_obs": "2018-11-07T05:21:38.136",
+      "line": 2600,
+      "delta_m_s": -11.00961543839287,
+      "variance_m2_s2": 4216.818406453941
+    },
+    {
+      "exposure_index": 7,
+      "date_obs": "2018-11-07T06:22:41.723",
+      "line": 2382,
+      "delta_m_s": 60.28687172784788,
+      "variance_m2_s2": 6362.178364339152
+    },
+    {
+      "exposure_index": 7,
+      "date_obs": "2018-11-07T06:22:41.723",
+      "line": 2600,
+      "delta_m_s": -11.969902830389902,
+      "variance_m2_s2": 4716.824770163035
+    },
+    {
+      "exposure_index": 8,
+      "date_obs": "2018-11-07T07:27:27.754",
+      "line": 2382,
+      "delta_m_s": 35.53967089748501,
+      "variance_m2_s2": 12094.003716541842
+    },
+    {
+      "exposure_index": 8,
+      "date_obs": "2018-11-07T07:27:27.754",
+      "line": 2600,
+      "delta_m_s": 72.78983146660086,
+      "variance_m2_s2": 7054.6172662863155
+    },
+    {
+      "exposure_index": 9,
+      "date_obs": "2019-11-26T06:53:13.315",
+      "line": 2382,
+      "delta_m_s": -35.56473936137507,
+      "variance_m2_s2": 4901.31764587972
+    },
+    {
+      "exposure_index": 9,
+      "date_obs": "2019-11-26T06:53:13.315",
+      "line": 2600,
+      "delta_m_s": 25.490892077895904,
+      "variance_m2_s2": 2698.3851936087367
+    },
+    {
+      "exposure_index": 10,
+      "date_obs": "2020-02-28T01:14:22.245",
+      "line": 2382,
+      "delta_m_s": 247.53836645900444,
+      "variance_m2_s2": 395258.66055656364
+    },
+    {
+      "exposure_index": 10,
+      "date_obs": "2020-02-28T01:14:22.245",
+      "line": 2600,
+      "delta_m_s": -656.7073803576299,
+      "variance_m2_s2": 139973.12010968805
+    },
+    {
+      "exposure_index": 11,
+      "date_obs": "2020-02-28T01:33:25.748",
+      "line": 2382,
+      "delta_m_s": 72.16589438716656,
+      "variance_m2_s2": 13267.387189854186
+    },
+    {
+      "exposure_index": 11,
+      "date_obs": "2020-02-28T01:33:25.748",
+      "line": 2600,
+      "delta_m_s": 33.33449657351294,
+      "variance_m2_s2": 7545.362190091245
+    },
+    {
+      "exposure_index": 12,
+      "date_obs": "2020-02-28T02:34:08.443",
+      "line": 2382,
+      "delta_m_s": -387.47288089164067,
+      "variance_m2_s2": 21882.946476066423
+    },
+    {
+      "exposure_index": 12,
+      "date_obs": "2020-02-28T02:34:08.443",
+      "line": 2600,
+      "delta_m_s": -78.35510026815784,
+      "variance_m2_s2": 10770.59215952681
+    },
+    {
+      "exposure_index": 13,
+      "date_obs": "2020-03-03T00:34:34.966",
+      "line": 2382,
+      "delta_m_s": -102.73414010724089,
+      "variance_m2_s2": 11792.684304244232
+    },
+    {
+      "exposure_index": 13,
+      "date_obs": "2020-03-03T00:34:34.966",
+      "line": 2600,
+      "delta_m_s": -72.93918546502144,
+      "variance_m2_s2": 5949.10313035054
+    },
+    {
+      "exposure_index": 14,
+      "date_obs": "2020-03-19T02:34:22.171",
+      "line": 2382,
+      "delta_m_s": -33.31653762204183,
+      "variance_m2_s2": 8115.401292124914
+    },
+    {
+      "exposure_index": 14,
+      "date_obs": "2020-03-19T02:34:22.171",
+      "line": 2600,
+      "delta_m_s": -97.43477693008975,
+      "variance_m2_s2": 4646.442260937182
+    },
+    {
+      "exposure_index": 15,
+      "date_obs": "2020-03-20T01:41:48.982",
+      "line": 2382,
+      "delta_m_s": 187.2426335392995,
+      "variance_m2_s2": 8841.959765323887
+    },
+    {
+      "exposure_index": 15,
+      "date_obs": "2020-03-20T01:41:48.982",
+      "line": 2600,
+      "delta_m_s": -168.38838675258438,
+      "variance_m2_s2": 3973.9710037031505
+    },
+    {
+      "exposure_index": 16,
+      "date_obs": "2020-03-21T01:39:59.503",
+      "line": 2382,
+      "delta_m_s": 5.019697181031244,
+      "variance_m2_s2": 7776.222496588478
+    },
+    {
+      "exposure_index": 16,
+      "date_obs": "2020-03-21T01:39:59.503",
+      "line": 2600,
+      "delta_m_s": -33.01839556443248,
+      "variance_m2_s2": 3977.832524586656
+    }
+  ],
+  "summary": {
+    "2382": {
+      "mean_m_s": -15.444946811038616,
+      "sigma_m_s": 21.980353432642037,
+      "heterogeneity_chi2": 23.883371012740795,
+      "heterogeneity_ndf": 16,
+      "conditional_heterogeneity_p": 0.09208292898963537,
+      "original_mean_m_s": -10.527688923747721,
+      "descriptive_change_from_original_m_s": -4.917257887290894
+    },
+    "2600": {
+      "mean_m_s": -58.6501525812624,
+      "sigma_m_s": 16.745045313236805,
+      "heterogeneity_chi2": 17.77992637260551,
+      "heterogeneity_ndf": 16,
+      "conditional_heterogeneity_p": 0.33694060033106193,
+      "original_mean_m_s": -60.24711702426351,
+      "descriptive_change_from_original_m_s": 1.596964443001113
+    }
+  },
+  "total_fits": 68,
+  "successes": 68,
+  "bound_active_count": 0,
+  "total_original_good": 62404,
+  "total_retained_good": 62154,
+  "retained_by_line": {
+    "2382": {
+      "original": 31182,
+      "retained": 30995
+    },
+    "2600": {
+      "original": 31222,
+      "retained": 31159
+    }
+  },
+  "notes": "Tests differing support/mask sensitivity, does not equalize pixel sampling, per-pixel SNR, instrumental response or noise covariance; not a calibration-only test.",
+  "comparison": "Each common-support same-line order difference has variance equal to sum of its disjoint order variances. Change relative to original estimator is descriptive, without independent-estimator error combination because photons overlap."
+}

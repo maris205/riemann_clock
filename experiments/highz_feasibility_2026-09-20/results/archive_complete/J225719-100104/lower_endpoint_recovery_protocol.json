@@ -1,0 +1,76 @@
+{
+  "frozen_utc": "2026-09-21T04:03:36.064639+00:00",
+  "reason": "A capped same-architecture null endpoint has chi2=422.187928, below both earlier successful null463.718227 and alternative454.225607. Successful stopping must not discard this lower feasible endpoint.",
+  "source_low_endpoint": "n30_null_extension_s2_os9",
+  "source_sha256": "0d0738d99a0223cfdb0733b17eb671d8d5752179f409b9ea9aeec3d5ab8a0d05",
+  "budget": "One600-evaluation null continuation atOS21, oneH1fromrecoverednull, oneH0cross, atmostoneH1cross, sparse5pointprofile300each. Noadditionalcountsorwindows.",
+  "previous_pair": {
+    "target": "J225719-100104",
+    "z_abs": 1.836,
+    "lines": [
+      2344,
+      2374,
+      2382
+    ],
+    "window": [
+      -310.0,
+      110.0
+    ],
+    "ncomp": 30,
+    "ndata": 504,
+    "null": "n30_null_extension_refined_os21",
+    "alternative": "n30_shift_fromnull_os21",
+    "chi2_null": 463.71822680824897,
+    "chi2_alternative": 454.2256072248765,
+    "nominal_ndf_null": 402,
+    "delta_chi2": 9.49261958337246,
+    "extra_shifts": 2,
+    "both_optimizer_success": true,
+    "ordinary_gate": true,
+    "local_pair_uncertainty": {
+      "observable": "velocity(FeII2382)-velocity(FeII2374)",
+      "shift_m_s": -64.60263635211493,
+      "method": "Weighted-Jacobian 2382 column projected off ALL other gas/continuum/zero/LSF/shift nuisance columns, after nuisance-column normalization.",
+      "rank_sensitivity": [
+        {
+          "svd_relative_cutoff": 1e-08,
+          "nuisance_rank": 103,
+          "information_per_km_s_squared": 17.61527179863063,
+          "conditional_sigma_m_s": 238.26229774217637
+        },
+        {
+          "svd_relative_cutoff": 1e-10,
+          "nuisance_rank": 103,
+          "information_per_km_s_squared": 17.61527179863063,
+          "conditional_sigma_m_s": 238.26229774217637
+        },
+        {
+          "svd_relative_cutoff": 1e-12,
+          "nuisance_rank": 103,
+          "information_per_km_s_squared": 17.61527179863063,
+          "conditional_sigma_m_s": 238.26229774217637
+        }
+      ],
+      "active_bounds": [
+        "logb_4",
+        "logb_9"
+      ],
+      "limitations": "Local linear, fixed selected architecture and expected diagonal errors; ignores active-bound truncation, calibration, blends and architecture uncertainty. Not alpha or a cosmic-time observation."
+    },
+    "null_stationarity": {
+      "scipy_optimality": 0.1627790988600782,
+      "independent_coleman_li": 0.1627790988600782,
+      "normalized_gradient_mapping_inf": 0.3171611153067744,
+      "column_normalized_gradient_inf": 0.034876726201654155,
+      "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+    },
+    "alternative_stationarity": {
+      "scipy_optimality": 0.15930787418941528,
+      "independent_coleman_li": 0.1593078741894153,
+      "normalized_gradient_mapping_inf": 0.2787719331639096,
+      "column_normalized_gradient_inf": 0.03829492945008992,
+      "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+    },
+    "interpretation": "Exploratory, conditional relative-line comparison. No calibrated discovery significance, alpha or cosmic-time-law fit."
+  }
+}

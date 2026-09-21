@@ -1,0 +1,12 @@
+[
+  {
+    "key": "Lee2023Models",
+    "url": "https://api.crossref.org/works/10.1093/mnras/stad600",
+    "sha256": "5f6e95ae42f9b495ca881748d029f3e55a7c38a3ee35c41149ffca3aff8e228c"
+  },
+  {
+    "key": "Schmidt2024LSF",
+    "url": "https://api.crossref.org/works/10.1093/mnras/stae920",
+    "sha256": "a53a4d6a31a8d18a062ffd9172794134764852ff1dbe4dcf193d1a93ca9807ff"
+  }
+]

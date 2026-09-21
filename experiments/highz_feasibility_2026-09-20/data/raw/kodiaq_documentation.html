@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>KODIAQ Archive: Documentation</title>
+
+<link rel="stylesheet" type="text/css" href="/applications/KODIAQ/kodiaq.css" />
+</head>
+
+<body>
+
+<table class="toptable" width="820px">
+<tr>
+<td class="tdcenter">
+
+<a href="/"><img src="/applications/KODIAQ/koaheader.jpg" width="700px" height="104px" alt="KOA banner" border="0"/></a>
+<a href="/applications/KODIAQ"><img src="/applications/KODIAQ/KODIAQ_logo.jpg" width="104px" height="104px" alt="KODIAQ logo" border="0"/> 
+
+  <table class="linktable" width="100%">
+  <tr>
+    <td>&nbsp; &nbsp; &nbsp; </td>
+    <td>
+      <a href="/applications/KODIAQ/index.html">
+        <font size="2" color="#ffffff"><b>
+	  Home
+	</b></font>
+      </a>
+    </td>
+    <td> 
+      <font size="2" color="#ffffff"><b>
+	    &nbsp;&nbsp; | &nbsp;&nbsp; 
+      </b></font>
+    </td>
+    <td>
+      <a href="/applications/KODIAQ/kodiaqDocument.html">
+        <font size="2" color="#ffffff"><b>
+          Documentation
+        </b></font>
+      </a>
+    </td>
+    <td> 
+      <font size="2" color="#ffffff"><b>
+        &nbsp;&nbsp; | &nbsp;&nbsp; 
+      </b></font>
+    </td>
+    <td>
+          <a href="https://koa.ipac.caltech.edu/cgi-bin/Helpdesk/nph-genTicketForm?projname=KOA">
+        <font size="2" color="#ffffff"><b>
+          KOA Helpdesk</a>
+        </b></font>
+      </a>
+    </td>
+  </tr>
+  </table>
+
+  <center>
+  <p align="justify" 
+      style="padding:2px; width:700px; font-size:14px;">
+    <a href="/applications/KODIAQ/kodiaqPositionSearch.html">Position/Object Name Search</a> <font color="#880000">(Search form spatial search)</font><br />
+    <a href="/applications/KODIAQ/kodiaqResults.html">Results Column Descriptions</a> <font color="#880000">(Column descriptions in the spatial search return page)</font><br />
+    <a href="/applications/KODIAQ/kodiaqDataProducts.html">Data Products</a> <font color="#880000">(Data products description)</font><br />
+    <a href="/applications/KODIAQ/kodiaqDataProducts.html#20160627_update">Data Update</a> <font color="#880000">(June 27, 2016)</font><br />
+    <a href="/applications/KODIAQ/kodiaqDataProducts.html#20170726_update">DR2 Release</a> <font color="#880000">(July 26, 2017)</font>
+   </p>
+  <p align="center" 
+      style="padding:2px; width:700px; font-size:16px;">
+    <b><a name="overview">KODIAQ Overview</a></b>
+  </p>
+  <p align="justify" 
+      style="padding:2px; width:700px; font-size:14px;">
+
+The Keck Observatory Database of Ionized Absorption toward Quasars (KODIAQ) is a repository of reduced, continuum normalized quasar spectra derived from public <a href="http://www2.keck.hawaii.edu/inst/hires/">HIRES</a> raw data and flux calibrated quasar spectra derived from public <a href="http://www2.keck.hawaii.edu/inst/esi/">ESI</a> raw data  served through the <a href="/">Keck Observatory Archive</a> (KOA).  Data are provided in one dimensional flux and error fits files.  Intermediate data extraction products are also available.  The data are summarized in <a href="https://arxiv.org/abs/2010.09061">O'Meara et al 2020,  <a href="https://arxiv.org/abs/1707.07905">O'Meara et al. 2017, AJ in press, arXiv:1707.07905</a>, <a href="http://adsabs.harvard.edu/abs/2015AJ....150..111O">O'Meara et al. 2015, AJ, 150, 111</a>, and <a href="http://adsabs.harvard.edu/abs/2014ApJ...788..119L">Lehner et al. 2014, ApJ 788, 119</a>.  KODIAQ was funded through NASA ADAP grants NNX10AE84G and NNX16AF52G.<br /><br />
+
+All HIRES data in KODIAQ (DR1 and DR2) are taken in raw form from the KOA and organized by observing run, where an observing run is a group of nights with a single PI and a single HIRES cross-disperser configuration.  The data for the observing run are then processed together using the HIRedux (<a href="http://www.ucolick.org/~xavier/HIRedux">http://www.ucolick.org/~xavier/HIRedux</a>) suite of tools in IDL developed by J. X. Prochaska at UCSC.  Data are organized within each observing run by setups.  Each setup contains data having the same HIRES decker, binning, echelle angle and cross disperser angle (within a tolerance of 4 encoder steps for the latter value).  Upon completion of the HIRedux pipeline steps, all data for an individual quasar in a setup are coadded (weighted by signal to noise.) An order-by-order continuum fit is manually preformed using a high order Legendre polynomial.  The echelle orders are then combined (again weighting by signal to noise) to produce 1D flux and error fits files (_f.fits and _e.fits, respectively).  Finally, the files are placed in the KOA, after being renamed with their KODIAQ QSO ID.<br /><br />
+
+KODIAQ at the KOA provides access to these 1D files.  In addition, users can download the tarball for the entire observing run from which a KODIAQ quasar was observed to facilitate a user's ability to perform a different extraction, wavelength solution, or continuum fit.  Familiarity with HIRedux is strongly encouraged so that users can best make use of these tarballs.<br /></br />
+
+All KODIAQ data are provided to the community freely and without warranty.  We request that any published use of KODIAQ data use both the KOA and KODIAQ acknowledgements in the footer of this page, including acknowledgment of the original Keck program PIs for any of the data.<br /><br />
+
+Users of KODIAQ data with questions about the data reduction are strongly encouraged to first read <a href="http://adsabs.harvard.edu/abs/2015AJ....150..111O">O'Meara et al. 2015, AJ, 150, 111</a> and then download and install the HIRedux routines and familiarize themselves with their use.
+  </font>
+  </p>
+ </center>
+
+
+
+
+</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center" class="footer">
+<p>
+<hr style="height: 1px; width: 700px;" />
+<a href="/acknowledge.html">Acknowledging the Archive</a> &nbsp; &nbsp; &nbsp;
+<a href="/privacy.html">Privacy Policy</a> &nbsp; &nbsp; &nbsp;
+<a href="/image_policy.html">Image Use Policy</a> &nbsp; &nbsp; &nbsp;
+<a href="http://www.facebook.com/pages/Pasadena-CA/Keck-Observatory-Archive-KOA/100292941684?ref=ts"><img src="/images/facebook_logo.png" border="0" width="20" alt="KOA Facebook" /></a>&nbsp;
+<a href="https://twitter.com/KeckArchive"><img src="/images/twitter_logo_blue.png" border="0" width="20" alt="KOA Twitter" /></a> 
+</p>
+<p class="plainnote">
+In addition to acknowledging the use of the KOA, please acknowledge the use of KODIAQ by citing <a href="https://arxiv.org/abs/1707.07905">O'Meara et al. 2017, AJ in press, arXiv:1707.07905</a>, <a href="http://adsabs.harvard.edu/abs/2015AJ....150..111O">O'Meara et al. 2015, AJ, 150, 111</a>, and <a href="http://adsabs.harvard.edu/abs/2014ApJ...788..119L">Lehner et al. 2014, ApJ 788, 119</a> and including this text:
+</p>
+<p class="acknowledge">
+Some/all the data presented in this work were obtained from the 
+Keck Observatory Database of Ionized Absorbers toward QSOs (KODIAQ), 
+which was funded through NASA ADAP grant NNX10AE84G
+</p>
+<p class="plainnote">
+The Keck Observatory Archive (KOA) is a collaboration between the NASA Exoplanet Science Institute (NExScI) and the W. M. Keck Observatory (WMKO). NExScI is sponsored by NASA's Exoplanet Exploration Program, and operated by the California Institute of Technology in coordination with the Jet Propulsion Laboratory (JPL).
+</p>
+</div>  <!-- end footer -->
+
+<div align="center" class="logos">
+
+  <a href="http://www.caltech.edu"><img src="/images/Caltech_LOGO-Orange_RGB.jpg" border="0" width="130" height="55" alt="Caltech" style="background-color:#202020;"/></a>
+  <a href="http://www.keckobservatory.org"><img src="/images/logo_wmko.jpg" border="0" alt="WMKO" /></a> 
+  <a href="http://nexsci.caltech.edu"><img src="/images/logo_nexsci.gif" border="0" alt="NExScI" /></a>
+  <a href="http://www.nasa.gov"><img src="/images/logo_nasa.gif" border="0" alt="NASA" /></a>
+
+
+</div> <!-- end logos -->
+
+</body>
+</html>
+

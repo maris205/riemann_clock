@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/root/autodl-tmp/dsc_world/Cosmic-Chaos-Alpha/riemann_zeros_Fixed.pdf",
+    "sha256": "08dd6c5ccc94a429b33896c6ec386f29961d52bd170e27873a70b41d75dbcbaa",
+    "bytes": 1476070,
+    "archived_path": "riemann_zeros_Fixed.pdf"
+  },
+  {
+    "source": "/root/autodl-tmp/dsc_world/Cosmic-Chaos-Alpha/4-riemann_error_evolution_nyquist.ipynb",
+    "sha256": "03a7ded20152c31ffe4991916bad05fd1269c2b5fb50e71c656b3d4557eb972d",
+    "bytes": 755702,
+    "archived_path": "4-riemann_error_evolution_nyquist.ipynb"
+  },
+  {
+    "source": "/root/autodl-tmp/dsc_world/Cosmic-Chaos-Alpha/5-theoretical_observable_height_heatmap.ipynb",
+    "sha256": "b2e3e6e9f1af7b23450e70ba014135ef7d8e21e6a4681db2d78da4a88fab565b",
+    "bytes": 268610,
+    "archived_path": "5-theoretical_observable_height_heatmap.ipynb"
+  }
+]

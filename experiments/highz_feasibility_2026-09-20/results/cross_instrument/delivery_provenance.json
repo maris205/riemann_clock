@@ -1,0 +1,7 @@
+{
+  "adapter_sha256": "c470ec5abafbb83e7ec6395ac809c49cc7f0669e21e0b5b565a904f4c3217875",
+  "base_model_sha256": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+  "summary_sha256": "456253f6024e654dc1fd205a4d76d688aaf27071d69ec85c6a65675aaf6ed657",
+  "validation_sha256": "b58bcd426bb3d58c0ea7914c12b5a175ea3a7b84671dd5234d1a29b513bf1bd3",
+  "note": "Hashes identify the final reproducible implementation and saved replay audit, not an assertion that all optimization endpoints converged."
+}

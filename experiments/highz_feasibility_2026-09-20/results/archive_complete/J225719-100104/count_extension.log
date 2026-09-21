@@ -1,0 +1,97 @@
+J225719-100104 n26_null_extension_s0_os9 50 567.4440902889354
+J225719-100104 n26_null_extension_s2_os9 50 512.2997145921754
+J225719-100104 n26_null_extension_s1_os9 50 582.7185552934561
+J225719-100104 n26_null_extension_s0_os9 100 556.9445451926487
+J225719-100104 n26_null_extension_s2_os9 100 507.52270604731547
+J225719-100104 n26_null_extension_s1_os9 100 556.689529578279
+J225719-100104 n26_null_extension_s0_os9 150 556.265497212223
+J225719-100104 n26_null_extension_s2_os9 150 504.68744031269546
+J225719-100104 n26_null_extension_s2_os9 DONE 504.6872865962673 1.2190514168991964 True
+J225719-100104 n26_null_extension_s1_os9 150 556.4917266725964
+J225719-100104 n26_null_extension_s0_os9 200 556.1974243690147
+J225719-100104 n26_null_extension_s1_os9 DONE 556.4052983029186 1.3439741504901415 True
+J225719-100104 n30_null_extension_s0_os9 50 561.3189317490594
+J225719-100104 n26_null_extension_s0_os9 250 556.1352892636793
+J225719-100104 n30_null_extension_s0_os9 100 546.9127793251439
+J225719-100104 n30_null_extension_s1_os9 50 476.5740845407587
+J225719-100104 n26_null_extension_s0_os9 300 556.0819835977443
+J225719-100104 n30_null_extension_s0_os9 150 545.7660032731113
+J225719-100104 n30_null_extension_s1_os9 100 464.7335229943064
+J225719-100104 n26_null_extension_s0_os9 350 556.0392359277721
+J225719-100104 n26_null_extension_s0_os9 DONE 556.0392359277721 1.343089941854522 False
+J225719-100104 n30_null_extension_s0_os9 200 545.5565112416958
+J225719-100104 n30_null_extension_s1_os9 150 463.8687623832791
+J225719-100104 n30_null_extension_s2_os9 50 473.03656756755106
+J225719-100104 n30_null_extension_s0_os9 250 545.4479466817118
+J225719-100104 n30_null_extension_s1_os9 200 463.7179924873246
+J225719-100104 n30_null_extension_s1_os9 DONE 463.71796906379603 1.1535272862283483 True
+J225719-100104 n30_null_extension_s2_os9 100 427.3298109363446
+J225719-100104 n30_null_extension_s0_os9 300 545.4322904165628
+J225719-100104 n30_null_extension_s2_os9 150 422.80684776187303
+J225719-100104 n30_null_extension_s0_os9 350 545.4257343530711
+J225719-100104 n30_null_extension_s0_os9 DONE 545.4257343530711 1.3567804337141072 False
+J225719-100104 n30_null_extension_s2_os9 200 422.2196254595282
+J225719-100104 n30_null_extension_s2_os9 250 422.19603359527053
+J225719-100104 n30_null_extension_s2_os9 300 422.19056254509775
+J225719-100104 n30_null_extension_s2_os9 350 422.1879283618181
+J225719-100104 n30_null_extension_s2_os9 DONE 422.1879283618181 1.0502187272682042 False
+J225719-100104 n30_null_extension_refined_os21 DONE 463.71822680824897 1.1535279273837038 True
+J225719-100104 n30_shift_fromnull_os21 DONE 454.2256072248765 1.1355640180621913 True
+J225719-100104 n30_null_cross_os21 DONE 463.7182414789801 1.1535279638780598 True
+J225719-100104 n30_profile2382_0_os21 DONE 458.4212866898203 1.1431952286529186 True
+J225719-100104 n30_profile2382_1_os21 DONE 455.32362000496096 1.1354703740772094 True
+J225719-100104 n30_profile2382_2_os21 DONE 454.2256047733799 1.1327321814797504 True
+J225719-100104 n30_profile2382_3_os21 DONE 455.2939611783492 1.1353964119160829 True
+J225719-100104 n30_profile2382_4_os21 DONE 458.4320489212767 1.1432220671353535 True
+{
+  "target": "J225719-100104",
+  "selected_null": "n30_null_extension_refined_os21",
+  "ncomp": 30,
+  "passes_conditional_adequacy_gate": true,
+  "extension_count_records": [
+    {
+      "name": "n26_null_extension_s0_os9",
+      "ncomp": 26,
+      "chi2": 556.0392359277721,
+      "aicc": 775.7002528769247,
+      "optimizer_success": false
+    },
+    {
+      "name": "n26_null_extension_s1_os9",
+      "ncomp": 26,
+      "chi2": 556.4052983029186,
+      "aicc": 776.0663152520711,
+      "optimizer_success": true
+    },
+    {
+      "name": "n26_null_extension_s2_os9",
+      "ncomp": 26,
+      "chi2": 504.6872865962673,
+      "aicc": 724.3483035454199,
+      "optimizer_success": true
+    },
+    {
+      "name": "n30_null_extension_s0_os9",
+      "ncomp": 30,
+      "chi2": 545.4257343530711,
+      "aicc": 801.8247368468367,
+      "optimizer_success": false
+    },
+    {
+      "name": "n30_null_extension_s1_os9",
+      "ncomp": 30,
+      "chi2": 463.71796906379603,
+      "aicc": 720.1169715575617,
+      "optimizer_success": true
+    },
+    {
+      "name": "n30_null_extension_s2_os9",
+      "ncomp": 30,
+      "chi2": 422.1879283618181,
+      "aicc": 678.5869308555837,
+      "optimizer_success": false
+    }
+  ],
+  "unchanged_original_summary": "ordinary_model_summary.json",
+  "extension_protocol": "count_extension_protocol.json"
+}

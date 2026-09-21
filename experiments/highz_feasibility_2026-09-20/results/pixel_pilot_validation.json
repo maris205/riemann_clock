@@ -1,0 +1,813 @@
+{
+  "status": "PASS",
+  "n_checks": 63,
+  "source_code_sha256": "1e4d20cb3c05dd81e27944eae2664eb43b8a68552f814f071db796dde308faef",
+  "source_summary_sha256": "be31314d03f29473e6591ff53a867c7a8163544d3937370e6508081213a42a22",
+  "method": "Independent five-point finite differences, Cholesky-whitened nuisance projection, archive input hashes and statistical review of stored MC summaries; no observed flux fitted",
+  "checks": [
+    {
+      "check": "assumed Gaussian instrument convolution",
+      "pass": true,
+      "detail": {
+        "independent_width_kms": 3.536083520305104,
+        "R_is_assumed_not_measured": true
+      }
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_1608.4509_window.npz",
+      "pass": true,
+      "detail": "e4a0872be902589ab30733ddcf3857003fb97cafdd4e59075023e15a187dfabf"
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_2344.2128_window.npz",
+      "pass": true,
+      "detail": "708cb677cc2db197aefb7d7c269bd9bd62e78d3b6e57dd95f356b2573df8d54b"
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_2374.4601_window.npz",
+      "pass": true,
+      "detail": "a7904b037a54e69f104cbd129034fb364921681930252f49bc7a380d8dc99801"
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_2382.7642_window.npz",
+      "pass": true,
+      "detail": "c3cca6abf9f84412bf581eaadd1e789babf906c8b3d798c4832f28e4657d50d0"
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_2586.6493_window.npz",
+      "pass": true,
+      "detail": "9563ce81f7732098196a52e1e73a48598fbae70dabe40f39f0cee90c82532970"
+    },
+    {
+      "check": "source hash data/processed/J051707-441055_FeII_2600.1725_window.npz",
+      "pass": true,
+      "detail": "d45e0613d3bf41262d817cd4f1c0c1fcfc44e7b52435ce79457a87e82c670c6a"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_1608.4509_window.npz",
+      "pass": true,
+      "detail": "8dd8c1c9512c6829588fc336718784ba8b3a30929021236765ce8cef188c5655"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_2344.2128_window.npz",
+      "pass": true,
+      "detail": "e664d4774fc106bdb2b52245fa28b7747eb94e28c9497cb185ce5f4ed32e7318"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_2374.4601_window.npz",
+      "pass": true,
+      "detail": "d433a810bf0b691c3908542acc22a28072cffafbade2664f68b0afa928ee5dac"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_2382.7642_window.npz",
+      "pass": true,
+      "detail": "ff73d158c6432546547707f89614b3b19bda86fcaa2261853b6bbea51469c3d2"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_2586.6493_window.npz",
+      "pass": true,
+      "detail": "fcd3e0a493696f3b989eb4ec310a5510f3743226502e085f59c63838af2f1263"
+    },
+    {
+      "check": "source hash data/processed/J034943-381030_FeII_2600.1725_window.npz",
+      "pass": true,
+      "detail": "036e94ba662038da6c7527c5bb0faca864519da9221ab2df5a524e8cb8f76153"
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.007819268766842892
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.2102097102228981e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_1608.4509",
+        "independent_Fisher_sigma_diagonal_mps": 72.37277183422283,
+        "independent_Fisher_sigma_correlated_mps": 89.68541871540901,
+        "correlation_penalty_fraction": 0.23921492078322704,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_1608.4509",
+        "independent_Fisher_sigma_diagonal_mps": 72.37277183422283,
+        "independent_Fisher_sigma_correlated_mps": 89.68541871540901,
+        "correlation_penalty_fraction": 0.23921492078322704,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+        "coverage99percent_binomial_interval": [
+          0.8872646181166551,
+          0.9649780113678601
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.05513900567654979
+      }
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "N_pixels": 39,
+        "window_noise": 0.00435399201064117
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.2102097102228981e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2344.2128",
+        "independent_Fisher_sigma_diagonal_mps": 40.25092964246896,
+        "independent_Fisher_sigma_correlated_mps": 49.884823206697874,
+        "correlation_penalty_fraction": 0.23934586479871367,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2344.2128",
+        "independent_Fisher_sigma_diagonal_mps": 40.25092964246896,
+        "independent_Fisher_sigma_correlated_mps": 49.884823206697874,
+        "correlation_penalty_fraction": 0.23934586479871367,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+        "coverage99percent_binomial_interval": [
+          0.9167749107280254,
+          0.9811968805592418
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.6958422670536055
+      }
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.004358785529340988
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.2475687150015347e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2374.4601",
+        "independent_Fisher_sigma_diagonal_mps": 40.34403603566002,
+        "independent_Fisher_sigma_correlated_mps": 49.994855716067406,
+        "correlation_penalty_fraction": 0.23921304432399992,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2374.4601",
+        "independent_Fisher_sigma_diagonal_mps": 40.34403603566002,
+        "independent_Fisher_sigma_correlated_mps": 49.994855716067406,
+        "correlation_penalty_fraction": 0.23921304432399992,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+        "coverage99percent_binomial_interval": [
+          0.9167749107280254,
+          0.9811968805592418
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.6513491762678257
+      }
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.004185320578479711
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.3590795155948854e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2382.7642",
+        "independent_Fisher_sigma_diagonal_mps": 38.73873901113812,
+        "independent_Fisher_sigma_correlated_mps": 48.00550643283767,
+        "correlation_penalty_fraction": 0.23921190152924643,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2382.7642",
+        "independent_Fisher_sigma_diagonal_mps": 38.73873901113812,
+        "independent_Fisher_sigma_correlated_mps": 48.00550643283767,
+        "correlation_penalty_fraction": 0.23921190152924643,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+        "coverage99percent_binomial_interval": [
+          0.9167749107280254,
+          0.9811968805592418
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.22510284591807447
+      }
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.004026113502306352
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.633304602677299e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2586.6493",
+        "independent_Fisher_sigma_diagonal_mps": 37.264464914956626,
+        "independent_Fisher_sigma_correlated_mps": 46.17868371362449,
+        "correlation_penalty_fraction": 0.23921499527798162,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2586.6493",
+        "independent_Fisher_sigma_diagonal_mps": 37.264464914956626,
+        "independent_Fisher_sigma_correlated_mps": 46.17868371362449,
+        "correlation_penalty_fraction": 0.23921499527798162,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.94,
+        "coverage99percent_binomial_interval": [
+          0.8955401201113933,
+          0.9697784445020771
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.363984585876422
+      }
+    },
+    {
+      "check": "grid and noise J051707-441055 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "N_pixels": 39,
+        "window_noise": 0.004233382687145879
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J051707-441055 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.254119030846823e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J051707-441055 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2600.1725",
+        "independent_Fisher_sigma_diagonal_mps": 39.135611161442526,
+        "independent_Fisher_sigma_correlated_mps": 48.50261360109195,
+        "correlation_penalty_fraction": 0.2393472891226509,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J051707-441055 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "target": "J051707-441055",
+        "transition": "FeII_2600.1725",
+        "independent_Fisher_sigma_diagonal_mps": 39.135611161442526,
+        "independent_Fisher_sigma_correlated_mps": 48.50261360109195,
+        "correlation_penalty_fraction": 0.2393472891226509,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9433333333333334,
+        "coverage99percent_binomial_interval": [
+          0.8997197382125981,
+          0.9721342125145095
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.6930253190925875
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.011613908903624964
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.3467338355610536e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_1608.4509",
+        "independent_Fisher_sigma_diagonal_mps": 107.49680107041813,
+        "independent_Fisher_sigma_correlated_mps": 133.21129945135024,
+        "correlation_penalty_fraction": 0.2392117544417649,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J034943-381030 FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_1608.4509",
+        "independent_Fisher_sigma_diagonal_mps": 107.49680107041813,
+        "independent_Fisher_sigma_correlated_mps": 133.21129945135024,
+        "correlation_penalty_fraction": 0.2392117544417649,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+        "coverage99percent_binomial_interval": [
+          0.8872646181166551,
+          0.9649780113678601
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.3707375262938342
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.02349797722302681
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.0087486401744172e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2344.2128",
+        "independent_Fisher_sigma_diagonal_mps": 217.49113964132533,
+        "independent_Fisher_sigma_correlated_mps": 269.5180923894665,
+        "correlation_penalty_fraction": 0.23921412538433162,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J034943-381030 FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2344.2128",
+        "independent_Fisher_sigma_diagonal_mps": 217.49113964132533,
+        "independent_Fisher_sigma_correlated_mps": 269.5180923894665,
+        "correlation_penalty_fraction": 0.23921412538433162,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+        "coverage99percent_binomial_interval": [
+          0.8872646181166551,
+          0.9649780113678601
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.172256191221611
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "N_pixels": 39,
+        "window_noise": 0.040173558340834296
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.4253098701288991e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2374.4601",
+        "independent_Fisher_sigma_diagonal_mps": 371.3873182111283,
+        "independent_Fisher_sigma_correlated_mps": 460.2775543820879,
+        "correlation_penalty_fraction": 0.23934644995181764,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J034943-381030 FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2374.4601",
+        "independent_Fisher_sigma_diagonal_mps": 371.3873182111283,
+        "independent_Fisher_sigma_correlated_mps": 460.2775543820879,
+        "correlation_penalty_fraction": 0.23934644995181764,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.96,
+        "coverage99percent_binomial_interval": [
+          0.9211395095629034,
+          0.9833537374256658
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.5972765860368542
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "N_pixels": 39,
+        "window_noise": 0.04668185612571151
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.2102097102228981e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2382.7642",
+        "independent_Fisher_sigma_diagonal_mps": 431.5555838679846,
+        "independent_Fisher_sigma_correlated_mps": 534.8465722571274,
+        "correlation_penalty_fraction": 0.23934573494185196,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true
+      }
+    },
+    {
+      "check": "MC summary compatible with local Gaussian benchmark J034943-381030 FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2382.7642",
+        "independent_Fisher_sigma_diagonal_mps": 431.5555838679846,
+        "independent_Fisher_sigma_correlated_mps": 534.8465722571274,
+        "correlation_penalty_fraction": 0.23934573494185196,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": true,
+        "MC_fixed_Fisher_coverage95": 0.9533333333333334,
+        "coverage99percent_binomial_interval": [
+          0.912454507019641,
+          0.9789921190495544
+        ],
+        "MC_scaled_sd_two_sided_chi2_p": 0.5875079037863576
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "N_pixels": 38,
+        "window_noise": 0.7622988341089137
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.2102097102228981e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2586.6493",
+        "independent_Fisher_sigma_diagonal_mps": 7055.713943415013,
+        "independent_Fisher_sigma_correlated_mps": 8743.527580299336,
+        "correlation_penalty_fraction": 0.23921231081930894,
+        "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+        "MC_run": false
+      }
+    },
+    {
+      "check": "poor-SNR MC explicitly excluded J034943-381030 FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "SNR": 1.3118214999881852,
+        "no_use_as_precision_estimate": true
+      }
+    },
+    {
+      "check": "grid and noise J034943-381030 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "N_pixels": 39,
+        "window_noise": 0.4846479362266468
+      }
+    },
+    {
+      "check": "five-point independent Jacobian J034943-381030 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.3751555449914576e-11
+      }
+    },
+    {
+      "check": "projected Fisher with four nuisances J034943-381030 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "target": "J034943-381030",
+        "transition": "FeII_2600.1725",
+        "independent_Fisher_sigma_diagonal_mps": 4480.4007123163665,
+        "independent_Fisher_sigma_correlated_mps": 5552.762292283239,
+        "correlation_penalty_fraction": 0.23934501595337476,
+        "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+        "MC_run": false
+      }
+    },
+    {
+      "check": "poor-SNR MC explicitly excluded J034943-381030 FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "SNR": 2.063353468057166,
+        "no_use_as_precision_estimate": true
+      }
+    },
+    {
+      "check": "Jacobian stress case 0",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.0102252367971687e-11
+      }
+    },
+    {
+      "check": "Jacobian stress case 1",
+      "pass": true,
+      "detail": {
+        "max_absolute_difference": 1.3952616839674192e-11
+      }
+    }
+  ],
+  "windows": [
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_1608.4509",
+      "independent_Fisher_sigma_diagonal_mps": 72.37277183422283,
+      "independent_Fisher_sigma_correlated_mps": 89.68541871540901,
+      "correlation_penalty_fraction": 0.23921492078322704,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+      "coverage99percent_binomial_interval": [
+        0.8872646181166551,
+        0.9649780113678601
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.05513900567654979
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2344.2128",
+      "independent_Fisher_sigma_diagonal_mps": 40.25092964246896,
+      "independent_Fisher_sigma_correlated_mps": 49.884823206697874,
+      "correlation_penalty_fraction": 0.23934586479871367,
+      "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+      "coverage99percent_binomial_interval": [
+        0.9167749107280254,
+        0.9811968805592418
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.6958422670536055
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2374.4601",
+      "independent_Fisher_sigma_diagonal_mps": 40.34403603566002,
+      "independent_Fisher_sigma_correlated_mps": 49.994855716067406,
+      "correlation_penalty_fraction": 0.23921304432399992,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+      "coverage99percent_binomial_interval": [
+        0.9167749107280254,
+        0.9811968805592418
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.6513491762678257
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2382.7642",
+      "independent_Fisher_sigma_diagonal_mps": 38.73873901113812,
+      "independent_Fisher_sigma_correlated_mps": 48.00550643283767,
+      "correlation_penalty_fraction": 0.23921190152924643,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9566666666666667,
+      "coverage99percent_binomial_interval": [
+        0.9167749107280254,
+        0.9811968805592418
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.22510284591807447
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2586.6493",
+      "independent_Fisher_sigma_diagonal_mps": 37.264464914956626,
+      "independent_Fisher_sigma_correlated_mps": 46.17868371362449,
+      "correlation_penalty_fraction": 0.23921499527798162,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.94,
+      "coverage99percent_binomial_interval": [
+        0.8955401201113933,
+        0.9697784445020771
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.363984585876422
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2600.1725",
+      "independent_Fisher_sigma_diagonal_mps": 39.135611161442526,
+      "independent_Fisher_sigma_correlated_mps": 48.50261360109195,
+      "correlation_penalty_fraction": 0.2393472891226509,
+      "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9433333333333334,
+      "coverage99percent_binomial_interval": [
+        0.8997197382125981,
+        0.9721342125145095
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.6930253190925875
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_1608.4509",
+      "independent_Fisher_sigma_diagonal_mps": 107.49680107041813,
+      "independent_Fisher_sigma_correlated_mps": 133.21129945135024,
+      "correlation_penalty_fraction": 0.2392117544417649,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+      "coverage99percent_binomial_interval": [
+        0.8872646181166551,
+        0.9649780113678601
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.3707375262938342
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2344.2128",
+      "independent_Fisher_sigma_diagonal_mps": 217.49113964132533,
+      "independent_Fisher_sigma_correlated_mps": 269.5180923894665,
+      "correlation_penalty_fraction": 0.23921412538433162,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9333333333333333,
+      "coverage99percent_binomial_interval": [
+        0.8872646181166551,
+        0.9649780113678601
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.172256191221611
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2374.4601",
+      "independent_Fisher_sigma_diagonal_mps": 371.3873182111283,
+      "independent_Fisher_sigma_correlated_mps": 460.2775543820879,
+      "correlation_penalty_fraction": 0.23934644995181764,
+      "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.96,
+      "coverage99percent_binomial_interval": [
+        0.9211395095629034,
+        0.9833537374256658
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.5972765860368542
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2382.7642",
+      "independent_Fisher_sigma_diagonal_mps": 431.5555838679846,
+      "independent_Fisher_sigma_correlated_mps": 534.8465722571274,
+      "correlation_penalty_fraction": 0.23934573494185196,
+      "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+      "MC_run": true,
+      "MC_fixed_Fisher_coverage95": 0.9533333333333334,
+      "coverage99percent_binomial_interval": [
+        0.912454507019641,
+        0.9789921190495544
+      ],
+      "MC_scaled_sd_two_sided_chi2_p": 0.5875079037863576
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2586.6493",
+      "independent_Fisher_sigma_diagonal_mps": 7055.713943415013,
+      "independent_Fisher_sigma_correlated_mps": 8743.527580299336,
+      "correlation_penalty_fraction": 0.23921231081930894,
+      "minimum_eigenvalue_correlation_matrix": 0.4019456151194739,
+      "MC_run": false
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2600.1725",
+      "independent_Fisher_sigma_diagonal_mps": 4480.4007123163665,
+      "independent_Fisher_sigma_correlated_mps": 5552.762292283239,
+      "correlation_penalty_fraction": 0.23934501595337476,
+      "minimum_eigenvalue_correlation_matrix": 0.40184959976012347,
+      "MC_run": false
+    }
+  ],
+  "limitations": [
+    "This calculation fits only synthetic profiles, never the archived observed flux. Its outputs are local statistical precision benchmarks for the specified mock line, not measured astronomical line errors or constraints.",
+    "The assumed R=45,000, intrinsic b=3 km/s and post-instrument depth 0.25 are fixed choices. Archived coadds may have varying instrumental profiles, and actual lines can be weaker, saturated, blended or multicomponent.",
+    "The mock noise is the median normalized error over the full archived window and is then held constant. This approximates a usable noise scale; it is not a refit of actual pixel-dependent photon statistics, continuum uncertainty, or pipeline error calibration.",
+    "Correlated noise is an illustrative positive-definite tridiagonal covariance with adjacent-index rho=0.3. It is not an estimate of the archive covariance, and the nonlinear MC was run only for independent noise.",
+    "All four specified profile nuisances are marginalized in the Fisher calculation and fitted in the nonlinear Monte Carlo. Additional real calibration and atomic uncertainties are excluded.",
+    "Each MC has 300 trials: coverage estimates fluctuate by about 1.26 percentage points under a true 95% coverage model. Individual observed coverages of 0.933\u20130.960 do not indicate a resolved failure or establish precise tail probabilities.",
+    "The two z\u22483.025 windows with SNR 1.31 and 2.06 are correctly excluded from MC. Their 4.5\u20137.1 km/s local-Fisher values must not be treated as attainable centroid errors for detections.",
+    "The high-redshift spectrum cannot supply six useful lines under these assumptions. Full-six-line equal-error forecasts therefore remain separate prospective scenarios, not descriptions of this pilot object."
+  ]
+}

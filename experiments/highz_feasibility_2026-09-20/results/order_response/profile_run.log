@@ -1,0 +1,52 @@
+profile_2600_G1_00 chi2 41634.01470815341 offset None success True active [] seconds 0.59
+profile_2600_G1_01 chi2 41627.202374423025 offset None success True active [] seconds 0.44
+profile_2600_G1_02 chi2 41623.27178857217 offset None success True active [] seconds 0.5
+profile_2600_G1_03 chi2 41622.225353417816 offset None success True active [] seconds 0.35
+profile_2600_G1_04 chi2 41624.06518085648 offset None success True active [] seconds 0.47
+profile_2600_G1_05 chi2 41628.7930917446 offset None success True active [] seconds 0.55
+profile_2600_G1_06 chi2 41636.41061491757 offset None success True active [] seconds 0.53
+profile_2600_G1_07 chi2 41646.918985734665 offset None success True active [] seconds 0.55
+profile_2600_G1_08 chi2 41660.319144730405 offset None success True active [] seconds 0.56
+profile_2600_G1_09 chi2 41676.611736915096 offset None success True active [] seconds 0.52
+profile_2600_G1_10 chi2 41695.79710982462 offset None success True active [] seconds 0.65
+profile_2600_G1_11 chi2 41717.87531364747 offset None success True active [] seconds 0.66
+profile_2600_G1_12 chi2 41742.84609826253 offset None success True active [] seconds 0.65
+profile_2600_A1_00 chi2 41631.30923324203 offset None success True active [] seconds 1.23
+profile_2600_A1_01 chi2 41625.15238698935 offset None success True active [] seconds 1.03
+profile_2600_A1_02 chi2 41621.401692534506 offset None success True active [] seconds 1.05
+profile_2600_A1_03 chi2 41620.04748976947 offset None success True active [] seconds 0.57
+profile_2600_A1_04 chi2 41621.100224586495 offset None success True active ['asymmetry_53'] seconds 1.03
+profile_2600_A1_05 chi2 41624.678139076095 offset None success True active ['asymmetry_53'] seconds 1.04
+profile_2600_A1_06 chi2 41630.899895590934 offset None success True active ['asymmetry_53'] seconds 0.97
+profile_2600_A1_07 chi2 41639.78386883099 offset None success True active ['asymmetry_53'] seconds 0.82
+profile_2600_A1_08 chi2 41651.33573009299 offset None success True active ['asymmetry_53'] seconds 0.98
+profile_2600_A1_09 chi2 41665.56131098382 offset None success True active ['asymmetry_53'] seconds 0.95
+profile_2600_A1_10 chi2 41682.465514730226 offset None success True active ['asymmetry_53'] seconds 1.1
+profile_2600_A1_11 chi2 41702.052206153945 offset None success True active ['asymmetry_53'] seconds 1.25
+profile_2600_A1_12 chi2 41724.369932956564 offset None success True active ['asymmetry_52', 'asymmetry_53'] seconds 1.37
+profile_2382_G1_00 chi2 40017.981239647845 offset None success True active [] seconds 0.59
+profile_2382_G1_01 chi2 40009.95292856101 offset None success True active [] seconds 0.57
+profile_2382_G1_02 chi2 40003.54465264821 offset None success True active [] seconds 0.56
+profile_2382_G1_03 chi2 39998.75773214581 offset None success True active [] seconds 0.45
+profile_2382_G1_04 chi2 39995.59332152617 offset None success True active [] seconds 0.48
+profile_2382_G1_05 chi2 39994.052411770805 offset None success True active [] seconds 0.45
+profile_2382_G1_06 chi2 39994.135827864135 offset None success True active [] seconds 0.44
+profile_2382_G1_07 chi2 39995.84422953706 offset None success True active [] seconds 0.44
+profile_2382_G1_08 chi2 39999.17811054762 offset None success True active [] seconds 0.46
+profile_2382_G1_09 chi2 40004.1377982102 offset None success True active [] seconds 0.55
+profile_2382_G1_10 chi2 40010.7234544296 offset None success True active [] seconds 0.54
+profile_2382_G1_11 chi2 40018.93507365345 offset None success True active [] seconds 0.58
+profile_2382_G1_12 chi2 40028.77248323312 offset None success True active [] seconds 0.58
+profile_2382_A1_00 chi2 40012.4554750086 offset None success True active ['asymmetry_41', 'asymmetry_42'] seconds 1.32
+profile_2382_A1_01 chi2 40005.68348416187 offset None success True active ['asymmetry_41', 'asymmetry_42'] seconds 1.2
+profile_2382_A1_02 chi2 40000.5336780806 offset None success True active ['asymmetry_41', 'asymmetry_42'] seconds 1.36
+profile_2382_A1_03 chi2 39996.96929881738 offset None success True active ['asymmetry_42'] seconds 1.17
+profile_2382_A1_04 chi2 39994.80554596566 offset None success True active [] seconds 0.78
+profile_2382_A1_05 chi2 39993.84918258386 offset None success True active [] seconds 0.67
+profile_2382_A1_06 chi2 39994.06175893013 offset None success True active [] seconds 0.77
+profile_2382_A1_07 chi2 39995.47219056076 offset None success True active [] seconds 0.91
+profile_2382_A1_08 chi2 39998.12330137038 offset None success True active ['asymmetry_42'] seconds 1.24
+profile_2382_A1_09 chi2 40002.17279099455 offset None success True active ['asymmetry_42'] seconds 1.08
+profile_2382_A1_10 chi2 40007.69082942698 offset None success True active ['asymmetry_42'] seconds 1.25
+profile_2382_A1_11 chi2 40014.6870567364 offset None success True active ['asymmetry_41', 'asymmetry_42'] seconds 1.54
+profile_2382_A1_12 chi2 40023.25326971978 offset None success True active ['asymmetry_41', 'asymmetry_42'] seconds 1.38

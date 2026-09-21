@@ -1,0 +1,24 @@
+{
+  "name": "n26_null_refined_os21",
+  "fixed_parameters": true,
+  "grid_comparison": [
+    {
+      "oversample": 9,
+      "chi2": 1672.8417433138072
+    },
+    {
+      "oversample": 21,
+      "chi2": 1672.841768419044
+    },
+    {
+      "oversample": 33,
+      "chi2": 1672.841769778124
+    },
+    {
+      "oversample": 55,
+      "chi2": 1672.841770763517
+    }
+  ],
+  "max_chi2_difference_from21": 2.510523677301535e-05,
+  "interpretation": "Integration check at saved parameters only; does not improve optimizer or certify physics."
+}

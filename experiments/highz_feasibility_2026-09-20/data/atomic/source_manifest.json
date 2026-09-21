@@ -1,0 +1,57 @@
+{
+  "database": "NIST Atomic Spectra Database",
+  "version_from_archived_query": "5.12",
+  "citation": "Kramida, A., Ralchenko, Yu., Reader, J., and NIST ASD Team (2024), NIST ASD ver. 5.12",
+  "doi": "https://doi.org/10.18434/T4W30F",
+  "usage": "Small factual data extract. Cite NIST ASD and original measurement sources. No blanket reuse licence inferred.",
+  "units": {
+    "wavelength": "vacuum angstrom, explicitly selected show_av=3",
+    "energy": "cm^-1 (E/hc)",
+    "uncertainty": "one standard deviation when supplied by ASD; missing stays missing"
+  },
+  "raw_row_counts": {
+    "Fe II": 17,
+    "Mg II": 3
+  },
+  "selected_row_count": 11,
+  "selection": "Allowed E1 transitions from Ei=0; Mg II M2 duplicate row retained in raw source and excluded from selected table",
+  "caveats": [
+    "Laboratory wavelength uncertainties may share calibration/energy-level covariance",
+    "Ritz and direct observed laboratory wavelengths are distinct, not independent measurements",
+    "No cosmic response coefficient or alpha sensitivity is encoded in this table"
+  ],
+  "sources": [
+    {
+      "file": "data/atomic/nist_fe_ii_ground_lines.tsv",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=Fe+II&low_w=1500&upp_w=2700&unit=0&format=3&line_out=0&en_unit=0&output=0&page_size=100&show_obs_wl=1&show_calc_wl=1&unc_out=1&order_out=0&show_av=3&tsb_value=0&A_out=0&intens_out=on&enrg_out=on&conf_out=on&term_out=on&J_out=on&allowed_out=1&forbid_out=1&max_low_enrg=1&min_accur=&bibrefs=1",
+      "bytes": 2967,
+      "sha256": "0bc54d4a27bb04ecb8f900eb668934ad29ba8b60072faf9c443d126d69f8fc83",
+      "retrieved_utc": "2026-09-20; initial retrieval before manifest creation",
+      "access": "Publicly accessible official NIST ASD; no authentication"
+    },
+    {
+      "file": "data/atomic/nist_mg_ii_ground_lines.tsv",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=Mg+II&low_w=2795&upp_w=2805&unit=0&format=3&line_out=0&en_unit=0&output=0&page_size=100&show_obs_wl=1&show_calc_wl=1&unc_out=1&order_out=0&show_av=3&tsb_value=0&A_out=0&intens_out=on&enrg_out=on&conf_out=on&term_out=on&J_out=on&allowed_out=1&forbid_out=1&max_low_enrg=1&min_accur=&bibrefs=1",
+      "bytes": 507,
+      "sha256": "3cddceda87d9ffcc8196c4f7d7445c3865a5022e378174386066d2425b116aa7",
+      "retrieved_utc": "2026-09-20; initial retrieval before manifest creation",
+      "access": "Publicly accessible official NIST ASD; no authentication"
+    },
+    {
+      "file": "data/atomic/nist_fe_ii_query.html",
+      "url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl?spectra=Fe+II&low_w=1500&upp_w=2700&unit=0&format=0&line_out=0&en_unit=0&output=0&page_size=100&show_obs_wl=1&show_calc_wl=1&unc_out=1&order_out=0&show_av=3&tsb_value=0&A_out=0&intens_out=on&enrg_out=on&conf_out=on&term_out=on&J_out=on&allowed_out=1&forbid_out=1&max_low_enrg=1&min_accur=&bibrefs=1",
+      "bytes": 84870,
+      "sha256": "d29dc1aabf65c10d25a42011301441fca6327887b62f80718a711e4847101703",
+      "retrieved_utc": "2026-09-20; initial retrieval before manifest creation",
+      "access": "Publicly accessible official NIST ASD; no authentication"
+    },
+    {
+      "file": "data/atomic/nist_asd_lineshelp.html",
+      "url": "https://physics.nist.gov/PhysRefData/ASD/Html/lineshelp.html",
+      "bytes": 97209,
+      "sha256": "376c87a3d23b0e9427705db9ac24087f1863ca1a6b5cc8e2f69a1887a3f67ee7",
+      "retrieved_utc": "2026-09-20; initial retrieval before manifest creation",
+      "access": "Publicly accessible official NIST ASD; no authentication"
+    }
+  ]
+}

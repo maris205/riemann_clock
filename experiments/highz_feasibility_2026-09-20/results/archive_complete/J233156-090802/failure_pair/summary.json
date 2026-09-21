@@ -1,0 +1,199 @@
+{
+  "target": "J233156-090802",
+  "primary_adequacy_gate": false,
+  "primary_precision_descriptor_D": "not estimated; unchanged",
+  "diagnostic_only": true,
+  "ncomp": 26,
+  "native_pixels": 1176,
+  "null": {
+    "name": "n26_null_refined_os21",
+    "chi2": 1672.841768419044,
+    "chi2_per_ndf": 1.5403699525037238,
+    "ndata": 1176,
+    "npar": 90,
+    "nominal_ndf": 1086,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev": 5,
+    "stationarity": {
+      "scipy_optimality": 0.2582231130159091,
+      "independent_coleman_li": 0.25822311301590906,
+      "normalized_gradient_mapping_inf": 0.3666472613899621,
+      "column_normalized_gradient_inf": 0.44996304340936527,
+      "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+    },
+    "active_bounds": [
+      "logb_14",
+      "logb_16",
+      "zero_1608"
+    ],
+    "shifts_m_s": {},
+    "per_line": [
+      {
+        "line": 1608,
+        "ndata": 392,
+        "chi2": 479.08554499454146,
+        "chi2_per_pixel": 1.2221570025370956
+      },
+      {
+        "line": 2374,
+        "ndata": 392,
+        "chi2": 445.60067892396114,
+        "chi2_per_pixel": 1.1367364258264314
+      },
+      {
+        "line": 2382,
+        "ndata": 392,
+        "chi2": 748.1555445005412,
+        "chi2_per_pixel": 1.9085600625013805
+      }
+    ]
+  },
+  "alternative": {
+    "name": "diagnostic_H1_from_primary_os21",
+    "chi2": 1667.2984871179206,
+    "chi2_per_ndf": 1.5380982353486352,
+    "ndata": 1176,
+    "npar": 92,
+    "nominal_ndf": 1084,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev": 13,
+    "stationarity": {
+      "scipy_optimality": 0.8015560650131225,
+      "independent_coleman_li": 0.8015560650131226,
+      "normalized_gradient_mapping_inf": 0.8841002780370879,
+      "column_normalized_gradient_inf": 0.3724271811236654,
+      "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+    },
+    "active_bounds": [
+      "logb_14",
+      "logb_16",
+      "zero_1608"
+    ],
+    "shifts_m_s": {
+      "1608": 561.9133948927987,
+      "2382": -11.861444258589783
+    },
+    "per_line": [
+      {
+        "line": 1608,
+        "ndata": 392,
+        "chi2": 477.16864125825003,
+        "chi2_per_pixel": 1.2172669419853317
+      },
+      {
+        "line": 2374,
+        "ndata": 392,
+        "chi2": 443.92076304416173,
+        "chi2_per_pixel": 1.1324509261330657
+      },
+      {
+        "line": 2382,
+        "ndata": 392,
+        "chi2": 746.2090828155086,
+        "chi2_per_pixel": 1.9035945990191547
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "name": "diagnostic_H1_from_primary_os21",
+      "chi2": 1667.2984871179206,
+      "chi2_per_ndf": 1.5380982353486352,
+      "ndata": 1176,
+      "npar": 92,
+      "nominal_ndf": 1084,
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "nfev": 13,
+      "stationarity": {
+        "scipy_optimality": 0.8015560650131225,
+        "independent_coleman_li": 0.8015560650131226,
+        "normalized_gradient_mapping_inf": 0.8841002780370879,
+        "column_normalized_gradient_inf": 0.3724271811236654,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "active_bounds": [
+        "logb_14",
+        "logb_16",
+        "zero_1608"
+      ],
+      "shifts_m_s": {
+        "1608": 561.9133948927987,
+        "2382": -11.861444258589783
+      },
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 477.16864125825003,
+          "chi2_per_pixel": 1.2172669419853317
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 443.92076304416173,
+          "chi2_per_pixel": 1.1324509261330657
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 746.2090828155086,
+          "chi2_per_pixel": 1.9035945990191547
+        }
+      ]
+    },
+    {
+      "name": "diagnostic_H0_cross_os21",
+      "chi2": 1672.841781033204,
+      "chi2_per_ndf": 1.5403699641189723,
+      "ndata": 1176,
+      "npar": 90,
+      "nominal_ndf": 1086,
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "nfev": 17,
+      "stationarity": {
+        "scipy_optimality": 0.9651674025867519,
+        "independent_coleman_li": 0.9651674025867519,
+        "normalized_gradient_mapping_inf": 0.8094768488799898,
+        "column_normalized_gradient_inf": 0.4500549496598118,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "active_bounds": [
+        "logb_14",
+        "logb_16",
+        "zero_1608"
+      ],
+      "shifts_m_s": {},
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 479.08432920157645,
+          "chi2_per_pixel": 1.2221539010244298
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 445.60110566785335,
+          "chi2_per_pixel": 1.1367375144588097
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 748.1563461637733,
+          "chi2_per_pixel": 1.908562107560646
+        }
+      ]
+    }
+  ],
+  "delta_chi2": 5.543281301123443,
+  "extra_region_shifts": 2,
+  "both_selected_optimizer_success": true,
+  "alternative_meets_same_numeric_quality_thresholds": false,
+  "interpretation": "Bounded gross-mismatch repair diagnostic only. Original gate is a quality screen, not a population-wide absence-of-variation test. Diagnostic offsets must not be promoted to precision D regardless of improvement.",
+  "protocol_sha256": "db550331c7692d802b49d957acbf5901ea02cf8ad6cc5a1b28111b2c7c8a93a5",
+  "primary_configuration_sha256": "5202efc55d480498f70230755819284699e9bf8685caf48ae0c2cac55742aaeb"
+}

@@ -1,0 +1,2633 @@
+{
+  "frozen_utc": "2026-09-20T17:26:34.392714+00:00",
+  "rationale": "Source-paper broad H2O bands added after primary metadata screen, before inspecting any new line profiles or measuring offsets. Preserve initial five candidates, add top three distinct targets that avoid broad H2O bands.",
+  "source": "Murphy et al.2019 DOI10.1093/mnras/sty2834, subsection Telluric features; locally pinned paper tex",
+  "water_bands_AA": [
+    [
+      6470.0,
+      6600.0
+    ],
+    [
+      6830.0,
+      7450.0
+    ],
+    [
+      7820.0,
+      8620.0
+    ],
+    [
+      8780.0,
+      10000.0
+    ]
+  ],
+  "heliocentric_padding_km_s": 30,
+  "catalogue_screen_sha256": "9cb2b452c219ad538a918b7bf938cefd0e6f13b1927141edf0ebc100881dd802",
+  "source_paper_sha256": "808a1a0a8662f8d19ff6f627aaef160353c8faa022d5f218f6f9b55d43650191",
+  "atomic_data_sha256": "28c6bc93b1bfa1ab58b06f534d32489de2cc8a935a3f9f74396d15a6f0c18390",
+  "atomic_basis": "Murphy/Berengut2014 terrestrial composite rest wavelengths and f-values; no individual isotope fitting in readiness diagnostics",
+  "eligible_count": 7,
+  "selected_additional": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_eligible": true,
+      "n_strong_eligible": 4,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2600"
+      ],
+      "rank_score": 52.0
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 46.0
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 36.0
+    }
+  ],
+  "ranked_eligible": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_eligible": true,
+      "n_strong_eligible": 4,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2600"
+      ],
+      "rank_score": 52.0
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 46.0
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 36.0
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 33.0
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 1.864,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2344",
+        "2374"
+      ],
+      "broad_water_warning_lines": [
+        "2260",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 31.0
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 29.0
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 20.0
+    }
+  ],
+  "all_absorbers": [
+    {
+      "target": "J000149-015939",
+      "z_abs": 2.095,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J000149-015939",
+      "z_abs": 2.154,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J000443-555044",
+      "z_abs": 1.886,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J000651-620803",
+      "z_abs": 2.97,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J000651-620803",
+      "z_abs": 3.202,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J000815-095854",
+      "z_abs": 1.768,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J001306+000431",
+      "z_abs": 2.025,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J001602-001225",
+      "z_abs": 1.973,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J003023-181956",
+      "z_abs": 2.402,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J004054-091526",
+      "z_abs": 4.74,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 33.0
+    },
+    {
+      "target": "J004216-333754",
+      "z_abs": 2.224,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J004435-262259",
+      "z_abs": 2.549,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J004508-291432",
+      "z_abs": 1.809,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J004508-291432",
+      "z_abs": 1.936,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J005127-280433",
+      "z_abs": 2.071,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J010104-285801",
+      "z_abs": 2.671,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J010311+131617",
+      "z_abs": 2.309,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J010516-184642",
+      "z_abs": 2.37,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "2586",
+        "2600"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J011453+031457",
+      "z_abs": 2.423,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J011504-302514",
+      "z_abs": 2.418,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J011504-302514",
+      "z_abs": 2.702,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J012517-001828",
+      "z_abs": 1.761,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J012550-535225",
+      "z_abs": 2.837,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J013340+040059",
+      "z_abs": 3.692,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J013340+040059",
+      "z_abs": 3.773,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J013754-270736",
+      "z_abs": 2.107,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J013754-270736",
+      "z_abs": 2.8,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J013901-082444",
+      "z_abs": 2.677,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J014049-083942",
+      "z_abs": 3.696,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J014214+002324",
+      "z_abs": 3.348,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J020900-455026",
+      "z_abs": 2.349,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J020944+051713",
+      "z_abs": 3.666,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J020944+051713",
+      "z_abs": 3.863,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J021741-370059",
+      "z_abs": 2.429,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J021741-370059",
+      "z_abs": 2.514,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J021857+081727",
+      "z_abs": 2.293,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J024449-290449",
+      "z_abs": 2.56,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J025240-553832",
+      "z_abs": 2.34,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J025634-401300",
+      "z_abs": 2.046,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J030211-314030",
+      "z_abs": 2.179,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J030722-494548",
+      "z_abs": 4.466,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J032412-320259",
+      "z_abs": 2.243,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J033025-495403",
+      "z_abs": 1.893,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J033413-161205",
+      "z_abs": 3.557,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J033854-000521",
+      "z_abs": 2.23,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J033900-013317",
+      "z_abs": 3.062,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J034943-381030",
+      "z_abs": 3.025,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 1.913,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.551,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.595,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.621,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J041656-284340",
+      "z_abs": 1.719,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "2344",
+        "2374"
+      ],
+      "broad_water_warning_lines": [
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J042353-261801",
+      "z_abs": 2.157,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J042644-520819",
+      "z_abs": 2.224,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J043255-355030",
+      "z_abs": 1.961,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J043403-435547",
+      "z_abs": 2.302,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J044017-433308",
+      "z_abs": 2.347,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2600"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J044534-354704",
+      "z_abs": 2.408,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J045313-130555",
+      "z_abs": 2.067,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J050112-015914",
+      "z_abs": 2.04,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 36.0
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.811,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J055246-363727",
+      "z_abs": 1.962,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J060008-504036",
+      "z_abs": 2.149,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 29.0
+    },
+    {
+      "target": "J080916+053941",
+      "z_abs": 2.319,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J081634+144612",
+      "z_abs": 3.287,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J082003+155932",
+      "z_abs": 1.926,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J083932+111206",
+      "z_abs": 2.465,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 1.864,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2344",
+        "2374"
+      ],
+      "broad_water_warning_lines": [
+        "2260",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 31.0
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 2.375,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 2.476,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J091613+070224",
+      "z_abs": 2.618,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J093509-333237",
+      "z_abs": 2.682,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J094008+023209",
+      "z_abs": 2.565,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J094438+194111",
+      "z_abs": 2.655,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J095355-050418",
+      "z_abs": 3.858,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J095355-050418",
+      "z_abs": 4.203,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J095500-013006",
+      "z_abs": 4.024,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J103842-272912",
+      "z_abs": 2.792,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J103909-231326",
+      "z_abs": 2.777,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J104252+011736",
+      "z_abs": 2.267,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J105744+062914",
+      "z_abs": 2.5,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J105800-302455",
+      "z_abs": 1.904,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J110855+120953",
+      "z_abs": 3.396,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J111109+144238",
+      "z_abs": 2.6,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J111113-080401",
+      "z_abs": 3.608,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J111119+133603",
+      "z_abs": 3.201,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J111350-153333",
+      "z_abs": 3.265,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J112010-134625",
+      "z_abs": 3.35,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J115122+020426",
+      "z_abs": 1.969,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2600"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J115411+063427",
+      "z_abs": 1.775,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J115538+053050",
+      "z_abs": 2.608,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J115538+053050",
+      "z_abs": 3.327,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J115944+011206",
+      "z_abs": 1.944,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J120523-074232",
+      "z_abs": 4.383,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J120550+020131",
+      "z_abs": 1.747,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J121134+090220",
+      "z_abs": 2.584,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J121303+171423",
+      "z_abs": 1.892,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "2586",
+        "2600"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J122040+092326",
+      "z_abs": 3.133,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J122607+173649",
+      "z_abs": 2.466,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J122848-010414",
+      "z_abs": 2.263,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J123313-102518",
+      "z_abs": 1.931,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J123437+075843",
+      "z_abs": 2.338,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J124020+145535",
+      "z_abs": 3.024,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J124524-000938",
+      "z_abs": 1.824,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J124924-023339",
+      "z_abs": 1.781,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J125316+114720",
+      "z_abs": 2.944,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J133335+164903",
+      "z_abs": 1.776,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J133941+054822",
+      "z_abs": 2.585,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J134002+110630",
+      "z_abs": 2.796,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J135334-031022",
+      "z_abs": 2.56,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J135646-110128",
+      "z_abs": 2.501,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J135646-110128",
+      "z_abs": 2.967,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J141217+091624",
+      "z_abs": 2.019,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J141217+091624",
+      "z_abs": 2.456,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J144331+272436",
+      "z_abs": 4.224,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J145418+121053",
+      "z_abs": 2.255,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J145418+121053",
+      "z_abs": 2.469,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J172323+224357",
+      "z_abs": 3.697,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [],
+      "rank_score": 0
+    },
+    {
+      "target": "J210244-355307",
+      "z_abs": 3.083,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J213605-430818",
+      "z_abs": 1.916,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J214159-441325",
+      "z_abs": 2.383,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J214159-441325",
+      "z_abs": 2.852,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J215502+135825",
+      "z_abs": 3.316,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J220852-194359",
+      "z_abs": 1.921,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J220852-194359",
+      "z_abs": 2.076,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J222540-392436",
+      "z_abs": 2.154,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J222826-400957",
+      "z_abs": 1.965,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J223235+024755",
+      "z_abs": 1.864,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2260",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J223408+000001",
+      "z_abs": 2.066,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J223953-055220",
+      "z_abs": 4.079,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J224708-601545",
+      "z_abs": 2.331,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J224931-441730",
+      "z_abs": 1.893,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J225310-365815",
+      "z_abs": 2.741,
+      "strict_eligible": false,
+      "n_strong_eligible": 2,
+      "strong_lines": [
+        "1608",
+        "2344"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 46.0
+    },
+    {
+      "target": "J230001-341319",
+      "z_abs": 2.129,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J231359-370446",
+      "z_abs": 2.182,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J231646-404120",
+      "z_abs": 1.857,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J231857-095551",
+      "z_abs": 1.93,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J232115+142131",
+      "z_abs": 2.573,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_eligible": true,
+      "n_strong_eligible": 4,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2600"
+      ],
+      "rank_score": 52.0
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.989,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 20.0
+    },
+    {
+      "target": "J233446-090812",
+      "z_abs": 3.057,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "1608",
+        "1611",
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J234403+034226",
+      "z_abs": 3.219,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J234451+343348",
+      "z_abs": 2.909,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J234512-433814",
+      "z_abs": 2.612,
+      "strict_eligible": false,
+      "n_strong_eligible": 0,
+      "strong_lines": [],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J234625+124743",
+      "z_abs": 2.574,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J234628+124858",
+      "z_abs": 2.431,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J235057-005209",
+      "z_abs": 2.426,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J235057-005209",
+      "z_abs": 2.615,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J235129-142756",
+      "z_abs": 2.279,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "2374"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    },
+    {
+      "target": "J235702-004824",
+      "z_abs": 2.479,
+      "strict_eligible": false,
+      "n_strong_eligible": 1,
+      "strong_lines": [
+        "1608"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2374",
+        "2382",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 0
+    }
+  ]
+}

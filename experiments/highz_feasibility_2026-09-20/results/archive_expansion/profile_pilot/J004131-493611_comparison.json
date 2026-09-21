@@ -1,0 +1,148 @@
+{
+  "configuration": {
+    "z": 2.248,
+    "lines": [
+      1608,
+      2374,
+      2382
+    ],
+    "window": [
+      -30.0,
+      85.0
+    ],
+    "component_bounds": [
+      -25.0,
+      75.0
+    ],
+    "centers": [
+      -10.0,
+      20.0,
+      30.0,
+      40.0,
+      49.0,
+      57.0
+    ],
+    "logtotal": 14.4
+  },
+  "comparisons": [
+    {
+      "ncomp": 1,
+      "null": "J004131-493611_n1_null_s2",
+      "alternative": "J004131-493611_n1_shift_s2_fromnull",
+      "chi2_null": 6534.558273887789,
+      "chi2_alternative": 4666.240335384736,
+      "delta_chi2": 1868.3179385030535,
+      "ndata": 138,
+      "nominal_ndf_null": 123,
+      "aicc_null": 6568.492700117297,
+      "shifts_m_s": {
+        "1608": 999.999999656856,
+        "2382": -999.9999999969045
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "logfwhm_1608",
+        "zero_2374",
+        "logfwhm_2374"
+      ],
+      "alternative_active_bounds": [
+        "logfwhm_1608",
+        "zero_2374",
+        "logfwhm_2374",
+        "shift_1608",
+        "shift_2382"
+      ]
+    },
+    {
+      "ncomp": 2,
+      "null": "J004131-493611_n2_null_s1",
+      "alternative": "J004131-493611_n2_shift_s1_fromnull",
+      "chi2_null": 502.0024096286838,
+      "chi2_alternative": 486.5867155136472,
+      "delta_chi2": 15.415694115036558,
+      "ndata": 138,
+      "nominal_ndf_null": 120,
+      "aicc_null": 543.7503087883478,
+      "shifts_m_s": {
+        "1608": -263.86175419484147,
+        "2382": -465.62389336003963
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "logfwhm_1608"
+      ]
+    },
+    {
+      "ncomp": 3,
+      "null": "J004131-493611_n3_null_s1",
+      "alternative": "J004131-493611_n3_shift_s1_fromnull",
+      "chi2_null": 341.805873256547,
+      "chi2_alternative": 337.0649586278639,
+      "delta_chi2": 4.740914628683072,
+      "ndata": 138,
+      "nominal_ndf_null": 117,
+      "aicc_null": 391.7713904979263,
+      "shifts_m_s": {
+        "1608": -93.16716795200973,
+        "2382": 440.48788543169485
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2374",
+        "logfwhm_2374"
+      ]
+    },
+    {
+      "ncomp": 4,
+      "null": "J004131-493611_n4_null_s0",
+      "alternative": "J004131-493611_n4_shift_s0_fromnull",
+      "chi2_null": 197.37093990464913,
+      "chi2_alternative": 190.68844961948818,
+      "delta_chi2": 6.682490285160952,
+      "ndata": 138,
+      "nominal_ndf_null": 114,
+      "aicc_null": 255.9904089311978,
+      "shifts_m_s": {
+        "1608": -247.08497771948984,
+        "2382": -57.93855451227705
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2374"
+      ]
+    },
+    {
+      "ncomp": 6,
+      "null": "J004131-493611_n6_null_s3_blue_cross",
+      "alternative": "J004131-493611_n6_shift_s3_blue_start",
+      "chi2_null": 113.18866414308314,
+      "chi2_alternative": 107.52757205287884,
+      "delta_chi2": 5.661092090204306,
+      "ndata": 138,
+      "nominal_ndf_null": 108,
+      "aicc_null": 190.5718417131766,
+      "shifts_m_s": {
+        "1608": -213.72014075175267,
+        "2382": 35.278169094784246
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2374"
+      ]
+    }
+  ],
+  "adaptive_followup": "For J004131 counts3/4/6, an added ordinary shared component start at -10 km/s tests a weak Fe2382 feature. No line-specific opacity or pixel clipping.",
+  "interpretation": "Exploratory conventional-profile feasibility; no alpha or cosmic-time-law measurement."
+}

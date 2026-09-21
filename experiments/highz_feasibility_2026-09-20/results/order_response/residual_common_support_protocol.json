@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-09-21T03:54:05.474645+00:00",
+  "status": "Exploratory sensitivity requested after original order-trend diagnostics; frozen before common-support masks/fits were computed.",
+  "source_hashes": {
+    "results/exposures/fit_rows.json": "b827a062d9f6f62d90f6b7bfb7dc96a39b24b13e941ba36a2ae87078aa3d8294",
+    "data/processed/exposures/metadata.json": "a000d37586d0462600475a617fa3038a6ade2b22fae1d9ec7b830fb6b9da3340",
+    "results/espresso_null/null_cross.json": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7",
+    "code/exposure_analysis.py": "87d26c6d5deb7d80f49b55efcf9eedbec47b834c25176643dd3804aa5d561f6f",
+    "data/processed/exposures/exposure_00.npz": "a39df96b9884b0f28b3391476c496b092361836da8170abe4510abc722d170f2",
+    "data/processed/exposures/exposure_01.npz": "4cbfa321355455bb9613b783d860b29d3110d7e3e13d42f33ee97617015ee245",
+    "data/processed/exposures/exposure_02.npz": "839efdcd73484ace195ea983716e8a3cbfb4698ca60d6a34d099c4230c9d2019",
+    "data/processed/exposures/exposure_03.npz": "34313dbc806d82df3c51968d621fcfab4d5a1d18f17ffc8d2ecb7e59212e853a",
+    "data/processed/exposures/exposure_04.npz": "21d6466ff7d31fbdfc2e8822a36f9b45137863f1e961c7fca87732ccb5cb33f9",
+    "data/processed/exposures/exposure_05.npz": "6410dc908f6b781f63de78ae318d7b4229db53075b53418a7e2440838b07b937",
+    "data/processed/exposures/exposure_06.npz": "b12e676ea6041b71a02f49159d8a3808bc6e3cccc1852d4fd26bfb5b5edbe836",
+    "data/processed/exposures/exposure_07.npz": "3cb4f0a34c9c967556253b97d7fc971ecc8fc77384a4a8a60cddf8da237d53e5",
+    "data/processed/exposures/exposure_08.npz": "df2882154fe6b0101f947d92b838f0fdba431848a390fa131a4b7492f3516934",
+    "data/processed/exposures/exposure_09.npz": "074a0b61427589a52ae49329061189fa21f02809d1be0617187cfdbdd9ce4772",
+    "data/processed/exposures/exposure_10.npz": "9ebb174a84a44e338655ef978cf45b6f7e4de7edf91597a56a90e661fbe5c67e",
+    "data/processed/exposures/exposure_11.npz": "33d219426444fa00471fa263f2b492cf8f4bf00038062194ff4330d699f17144",
+    "data/processed/exposures/exposure_12.npz": "b5349589c547193bd9f8f9d5d8a122dc32fd34e6f29393573f17737d3636cda5",
+    "data/processed/exposures/exposure_13.npz": "fd8fe78ba5ed41a97173d9243a28e3916d33f805a3b3ebdfb1d9cac43a0c4ee5",
+    "data/processed/exposures/exposure_14.npz": "97524db821b69bc42f54ccd7cedf92b1370c722d2d6894aa37f7dd29645d3698",
+    "data/processed/exposures/exposure_15.npz": "84114da7d4d476c9eeddc332e1b2a5b2a84754d4fdb19ce76e240f1c2228ef94",
+    "data/processed/exposures/exposure_16.npz": "7c512982a67214a8f3637dc58958f6d0c6d425993cb901e394644f83239316a0"
+  },
+  "lines": [
+    2382,
+    2600
+  ],
+  "number_of_fits": 68,
+  "mask_definition": "For each exposure and same transition, union all originally valid native wavelength pixel-bin intervals in each order across both traces. Retain an originally good pixel only if its whole wavelength bin lies inside a merged valid-support interval of the opposite order. Single pass using original valid support; no iterative erosion across mismatched native grids. Every retained bin lies in the intersection of original valid supports, although final native-bin unions can have small differing edge footprints.",
+  "interval_boundary_tolerance_A": 1e-10,
+  "fit": "Same frozen null_cross template, nominal Gaussian widths, native ERRDATA and separately profiled amplitude/slope/zero for each row as original per-order diagnostic.",
+  "scope": "Two orders x two transitions x17 exposures. No 2374 reference. All valid flux/errors/masks and original outputs retained unchanged; temporary arrays only.",
+  "comparison": "Each common-support same-line order difference has variance equal to sum of its disjoint order variances. Change relative to original estimator is descriptive, without independent-estimator error combination because photons overlap.",
+  "selection": "No observed flux/residual/significance-based masking or exposure exclusion; whole-bin geometry only.",
+  "interpretation": "Tests differing support/mask sensitivity, does not equalize pixel sampling, per-pixel SNR, instrumental response or noise covariance; not a calibration-only test."
+}

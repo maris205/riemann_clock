@@ -1,0 +1,44 @@
+\subsection{A joint physical baseline test with ESPRESSO}
+\label{sec:espresso_null}
+\input{espresso_null_numbers.tex}
+The descriptive registration above does not test whether ordinary absorption physics can explain the profiles. We therefore perform a separate joint Voigt-profile analysis of the public ESPRESSO spectrum of HE\,0515$-$4414 \cite{Murphy2022ESPRESSO}. We use six Fe\,II transitions, at 2260, 2344, 2374, 2382, 2586, and 2600\,\AA, in the published right region of the same $z\simeq1.1508$ absorber. These observations were acquired in 2018--2020; retrieval in 2026 is not new acquisition. Unlike the UVES set, this set includes weak 2260 but lacks 1608, which falls outside ESPRESSO coverage.
+
+Our conventional hypothesis $H_0$ fixes laboratory transition-frequency relations, including $\Delta\alpha/\alpha=0$, and fits a common set of gas components to all six lines. Each of the 45 published Fe\,II components supplies a column density $N_k$, velocity $v_k$, and Doppler parameter $b_k$, all re-optimized here. The opacity of each transition is the sum of Voigt opacities, including the isotope wavelengths and abundance-weighted oscillator strengths in the authors' archived atomic input \cite{MurphyBerengut2014}. Absorption is exponentiated before instrumental convolution. For pixel $i$ of transition $j$, the model is
+\begin{equation}
+ m_{ji}=C_j(v_{ji})\left\{Z_j+(1-Z_j)\,
+ \mathcal P_{ji}\!\left[L_j*\exp\!\left(-\sum_k\tau_{jk}\right)\right]\right\},
+ \label{eq:espresso_null_model}
+\end{equation}
+where $\mathcal P_{ji}$ averages the convolved intensity across the pixel, and $C_j$ is a linear continuum correction evaluated at its centre, taking the continuum as constant across one pixel. The Gaussian instrumental kernel $L_j$ has the published full width at half maximum of $2.10\,\mathrm{km\,s^{-1}}$ for 2260--2382 and $2.05\,\mathrm{km\,s^{-1}}$ for 2586 and 2600. The authors' fixed residual zero levels are retained: $Z_j=0.002$ for 2344 and 2382, $0.003$ for 2600, and zero otherwise. Published multiplicative continuum corrections initialize the fitted continuum terms. The zero-level correction rescales absorption contrast as well as adding residual flux.
+
+We adopt the published wavelength bounds and the exclusions already encoded in the released FITS product. There are 2931 usable pixels and 102 excluded pixels, including blends affecting 2344 and 2586. The baseline contains 135 gas parameters and 12 continuum parameters, or 147 parameters in total. Its alternative $H_1$ adds \EspressoAdded\ transition-dependent velocity shifts, keeping 2374 fixed as the reference and re-optimizing the same gas and continuum parameters. A common shift of every line is absorbed by the gas velocities.
+
+The baseline search bounds allow gas velocities within $\pm2\,\mathrm{km\,s^{-1}}$ of the published initialization, $0.15\leq b_k\leq30\,\mathrm{km\,s^{-1}}$, and column densities within $\pm2$ dex of initialization, bounded additionally by $7\leq\log_{10}(N_k/\mathrm{cm^{-2}})\leq17$. The dimensionless continuum coefficients are bounded by $\pm0.03$; the slope multiplies a centred velocity coordinate divided by $100\,\mathrm{km\,s^{-1}}$. The additional relative shifts lie within $\pm0.5\,\mathrm{km\,s^{-1}}$. These bounds define a restricted search, with the wider-bound comparison reported separately.
+
+\begin{table}[htbp]
+\caption{Joint Fe\,II comparison for the public ESPRESSO spectrum. The extra shifts are measured relative to Fe\,II 2374 within one absorber. Fit statistics are conditional on the specified absorption model, masks, instrumental profile and noise convention; they are not measurements of a cosmic-time trend.}
+\label{tab:espresso_null}
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\input{espresso_null_table.tex}
+\end{table}
+
+The baseline gives $\chi^2=\EspressoNullChi$ for a nominal $\nu=\EspressoNullNu$, and the relative-shift alternative reduces the statistic by $\Delta\chi^2=\EspressoDeltaChi$ (Table~\ref{tab:espresso_null}; Fig.~\ref{fig:espresso_null}). Thus the relative-shift alternative has a conditional preference even though the absolute baseline statistic is below unity per nominal degree of freedom. The two strong lines, 2382 and 2600, favour shifts of approximately $-0.12$ and $-0.11\,\mathrm{km\,s^{-1}}$ relative to 2374. These are parameters of a specified absorption fit, not direct physical-frequency measurements.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.97\textwidth,height=.54\textheight,keepaspectratio]{espresso_conventional_null.pdf}
+\caption{Joint conventional absorption fit to the six selected ESPRESSO Fe\,II transitions. The observed spectrum, model and residuals use the released masks and the same retained pixels. The lower strip in each panel displays normalized residuals, with one standard deviation corresponding to 0.05 on the plotted flux axis. Saturation, a shared multicomponent velocity structure, isotope sublines and instrumental convolution are included explicitly. This is a physical baseline test for one absorber, with no assumed inverse-logarithmic time response.}
+\label{fig:espresso_null}
+\end{figure}
+
+This is an independent implementation using a subset of the published transitions, rather than an exact reproduction of the authors' multi-ion VPFIT analysis. Their final parameter file includes a freely fitted $\Delta\alpha/\alpha$; our $H_0$ explicitly fixes it to zero and refits the nuisance parameters. The primary weights use the archived normalized-error array. The separately supplied expected-fluctuation array defines a noise-sensitivity check, not a complete pixel covariance. Nominal parameter counts also do not remove degeneracies or boundary effects among closely spaced components.
+
+Within each transition, the adjacent-pixel correlations of the fitted normalized residuals range from 0.31 to 0.46, excluding pairs across masked gaps. These empirical diagnostics can mix resampling covariance with remaining profile structure; they are not independent estimates of a complete noise model. They further preclude interpreting a diagonal-noise tail probability as a calibrated physical-discovery significance.
+
+The initial robustness comparisons change the error array, assume an AR(1) pixel correlation of 0.3, perturb the instrumental width by $\pm3\%$, or remove the two transitions with published blend exclusions. These choices do not eliminate the conditional shift preference (Table~\ref{tab:espresso_null}). Subsequent exploratory checks, motivated by the strong-line pattern, allow relative opacity factors between 0.9 and 1.1 and zero-level adjustments of $\pm0.01$, or widen the gas-velocity and continuum bounds. These ranges are stress tests, not independently measured calibration priors. The preference remains. Removing 2382 and 2600 reduces the improvement to $7.09$ for three extra shifts, compared with $51.71$ for five shifts in the full set. This shows the importance of the strong lines while also discarding information; it does not identify a conventional mechanism that explains their offsets.
+
+Independent implementations verify the opacity normalization, convolution and derivatives. A separate local analysis projects the shift derivatives against gas and continuum derivatives using singular-value decomposition. In 20,000 independent-Gaussian pixel simulations its five-dimensional score has mean 4.97 and variance 10.02. A $100\,\mathrm{m\,s^{-1}}$ shift injected into an exact forward spectrum is recovered as approximately $99.6\,\mathrm{m\,s^{-1}}$ by this local estimator. These checks establish numerical sensitivity under the stated model, not a calibrated discovery probability. The local score is distinct from the constrained nonlinear improvement; some unconstrained nuisance steps leave the allowed parameter ranges. A post-inspection blue/red velocity split shows compatible relative shifts under this same local approximation, so it does not isolate the effect to one side of the absorber. Global minima, full nuisance-model uncertainty and the true pixel covariance have not been established.
+
+The component choice and masks were informed by these same observations, so this is not a blinded confirmation. Alternative gas structures, continuum and zero-level errors, instrumental-kernel errors, correlated noise, laboratory wavelengths and isotope abundances remain conventional explanations requiring further assessment. The improvement found here is evidence for residual transition inconsistency within a restricted model; it has not isolated a change beyond conventional explanations. One absorber cannot establish a temporal law: we infer no $1/\ln^2(t/t_*)$ amplitude, physical zero cutoff or accessible Riemann-zero height.

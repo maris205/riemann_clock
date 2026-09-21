@@ -1,0 +1,280 @@
+{
+  "span": {
+    "z_min": 1.629,
+    "z_max": 2.659,
+    "age_min_Gyr": 2.444187250611145,
+    "age_max_Gyr": 3.965962981911199,
+    "G2_span": 0.2629859023055199
+  },
+  "nuisance": {
+    "common_offset": {
+      "nuisance_rank": 1,
+      "augmented_rank": 2,
+      "identifiable_additional_rank": 1,
+      "squared_projected_response_raw": 0.0411611296884367,
+      "squared_projected_response": 0.0411611296884367,
+      "information_fraction_vs_common_offset": 1.0000000000000007,
+      "singular_values": [
+        1.0
+      ],
+      "augmented_singular_values": [
+        1.4123011484050654,
+        0.07352187574955589
+      ],
+      "projected_response": [
+        -0.12852646793938327,
+        -0.06904405480397868,
+        0.011952906073838365,
+        0.012460326695313162,
+        0.03869785560807226,
+        0.13445943436613672
+      ],
+      "structural_nonidentifiability": false
+    },
+    "common_offset_and_shared_wavelength_slope": {
+      "nuisance_rank": 2,
+      "augmented_rank": 3,
+      "identifiable_additional_rank": 1,
+      "squared_projected_response_raw": 0.00011053509223163642,
+      "squared_projected_response": 0.00011053509223163642,
+      "information_fraction_vs_common_offset": 0.002685424162755398,
+      "singular_values": [
+        1.4123110864385948,
+        0.07333072427459564
+      ],
+      "augmented_singular_values": [
+        1.7299722311933365,
+        0.08474450124529269,
+        0.0038011588545465366
+      ],
+      "projected_response": [
+        -0.005810373002313685,
+        0.0007874496015710664,
+        0.003862670807341706,
+        0.003859129201458922,
+        0.003271141177939585,
+        -0.005970017785999593
+      ],
+      "structural_nonidentifiability": false
+    },
+    "one_wavelength_slope_per_target": {
+      "nuisance_rank": 6,
+      "augmented_rank": 6,
+      "identifiable_additional_rank": 0,
+      "squared_projected_response_raw": 7.395570986446986e-32,
+      "squared_projected_response": 0.0,
+      "information_fraction_vs_common_offset": 0.0,
+      "singular_values": [
+        1.414213562373095,
+        1.0,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "augmented_singular_values": [
+        1.730489680346655,
+        1.002699090561936,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "projected_response": [
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.1102230246251565e-16
+      ],
+      "structural_nonidentifiability": true
+    },
+    "one_environmental_pair_offset_per_target": {
+      "nuisance_rank": 6,
+      "augmented_rank": 6,
+      "identifiable_additional_rank": 0,
+      "squared_projected_response_raw": 7.395570986446986e-32,
+      "squared_projected_response": 0.0,
+      "information_fraction_vs_common_offset": 0.0,
+      "singular_values": [
+        1.414213562373095,
+        1.0,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "augmented_singular_values": [
+        1.730489680346655,
+        1.002699090561936,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "projected_response": [
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.1102230246251565e-16
+      ],
+      "structural_nonidentifiability": true
+    }
+  },
+  "competitor_shapes": {
+    "inverse_log_p1": {
+      "centered_correlation": 0.999999817136056,
+      "fitted_offset": -0.00417767091488675,
+      "fitted_amplitude": 1.003941711751513,
+      "residual_after_offset_and_amplitude": [
+        6.486866461385965e-05,
+        -1.3523390240521849e-05,
+        -4.4611918033843345e-05,
+        -4.4532200222713314e-05,
+        -3.5759655628520015e-05,
+        7.355849951007354e-05
+      ],
+      "residual_norm": 0.00012269381256021375,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0006047543751613509,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.007355849951007354,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.005008953922820091,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.004089793752007125,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "inverse_log_p3": {
+      "centered_correlation": 0.9999998170798873,
+      "fitted_offset": 0.0041491489932518185,
+      "fitted_amplitude": 0.9960869876093095,
+      "residual_after_offset_and_amplitude": [
+        -6.495123761995902e-05,
+        1.3430875772324491e-05,
+        4.4630974562642756e-05,
+        4.4552067224645775e-05,
+        3.58188869031828e-05,
+        -7.348156684250373e-05
+      ],
+      "residual_norm": 0.0001227126546098199,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0006048472470975843,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.007348156684250373,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.005009723146274146,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.00409042182032733,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "log_cosmic_age": {
+      "centered_correlation": 0.9999983547375607,
+      "fitted_offset": -0.012619454551299503,
+      "fitted_amplitude": 1.0119121103688398,
+      "residual_after_offset_and_amplitude": [
+        0.00019435763611552748,
+        -4.0847521686537824e-05,
+        -0.00013377797997071728,
+        -0.00013353639753144186,
+        -0.00010710088149301633,
+        0.00022090514456452048
+      ],
+      "residual_norm": 0.0003680239256444093,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0018139796502638279,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.02209051445645205,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.015024513849412995,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.012267464188146976,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "linear_cosmic_age": {
+      "centered_correlation": 0.9964446597272907,
+      "fitted_offset": -1.024593516404557,
+      "fitted_amplitude": 1.9930386528033506,
+      "residual_after_offset_and_amplitude": [
+        0.008310662747674447,
+        -0.0028096408557136687,
+        -0.006066219307808374,
+        -0.006047186268135829,
+        -0.004438899010984265,
+        0.011051282694970355
+      ],
+      "residual_norm": 0.017092786464748957,
+      "fractional_shape_residual_relative_to_centered_p2": 0.08424986706793099,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 1.1051282694970355,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.6978100853497619,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.5697595488249653,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "linear_redshift": {
+      "centered_correlation": 0.9986563852683489,
+      "fitted_offset": 0.25446497839737786,
+      "fitted_amplitude": 0.7664433410365207,
+      "residual_after_offset_and_amplitude": [
+        -0.0058103730023135736,
+        0.0007874496015709553,
+        0.003862670807341817,
+        0.003859129201459033,
+        0.003271141177939807,
+        -0.005970017785999038
+      ],
+      "residual_norm": 0.010513567055554052,
+      "fractional_shape_residual_relative_to_centered_p2": 0.051821078363492964,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.5970017785999038,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.4292145777107132,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.3504522351851351,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    }
+  },
+  "forecasts": [
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 49.28972069105451,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.962501670324023
+    },
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 49.289720691054306,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.96250167032397
+    },
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 49.28972069105425,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.962501670323954
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 147.8691620731648,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.887505010972404
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 147.86916207316304,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.88750501097194
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 147.869162073163,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.887505010971935
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 492.89720691054305,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.62501670323968
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 492.89720691054634,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.62501670324056
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 492.89720691054265,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.6250167032396
+    }
+  ]
+}

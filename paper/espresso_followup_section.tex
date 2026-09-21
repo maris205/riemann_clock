@@ -1,0 +1,40 @@
+\subsection{Continuum covariance, saturated cores and an independent instrument}
+\label{sec:espresso_followup}
+\input{espresso_followup_numbers.tex}
+We next address three conventional limitations of the relative-shift comparison: correlated pixels, the strongest absorption cores and reproducibility in another instrument. These follow-ups were designed after inspecting the preceding results. They are exploratory sensitivity tests, with a fixed pixel set shared by $H_0$ and $H_1$ within each comparison, rather than independent confirmations of a physical change.
+
+For a control outside the fitted absorption, we place 36 candidate continuum intervals at fixed velocity offsets from the six transitions, exclude the union of all 35 wavelength intervals listed in the authors' three published fit files, and assign overlapping pixels only once. Deterministic retention, median-flux and broad-feature criteria leave 25 disjoint intervals containing 13,750 pixels. We subtract a linear continuum in each interval without clipping individual residuals. Their adjacent-pixel correlation is $\widehat\rho_1=0.3726$, with a conditional 95\% interval $[0.3533,0.3916]$ from 10,000 resamples of whole intervals. The second-lag correlation is only $\widehat\rho_2=0.0440$, whereas an AR(1) model with this first-lag value predicts $0.1389$. Thus correlated residuals are present outside the absorption model, but a single AR(1) coefficient does not describe the measured correlation sequence (Fig.~\ref{fig:espresso_noise_controls}).
+
+We therefore perform an additional constrained nonlinear generalized least-squares fit using the fixed correlation kernel
+\begin{equation}
+ R_{ij}=\begin{cases}
+ \widehat\rho_k(1-k/11),&k=|n_i-n_j|\leq10,\\
+ 0,&k>10,
+ \end{cases}
+ \qquad C_{ij}=\sigma_i R_{ij}\sigma_j,
+ \label{eq:espresso_control_covariance}
+\end{equation}
+where $n_i$ is the original pixel index and $\sigma_i$ the supplied error. Correlations therefore respect the actual separations across masked pixels; widely separated transition windows are treated independently. The taper regularizes the empirical sequence and is part of this specified sensitivity model. Both hypotheses re-optimize the gas and continuum parameters after Cholesky whitening. The resulting nonlinear improvement is $\Delta\chi^2=\EspressoGLSDelta$ for five additional shifts, compared with $51.71$ under diagonal errors. This is distinct from the earlier local projected score. The continuum residual variance is $0.7048$ times the supplied variance. Transferring this amplitude as well as the correlation shape would divide both objectives and their difference by $0.7048$, without changing their optima. We report that rescaling separately because the error variance in deep absorption need not follow the continuum. Neither covariance transfer nor its estimation uncertainty has been calibrated as a complete absorption-noise model.
+
+\begin{table}[htbp]
+\caption{Exploratory nonlinear ESPRESSO follow-ups, each adding five relative shifts. Each row compares the conventional model with relative transition shifts on the same retained pixels. The core exclusions use diagonal errors, separately from the full-pixel covariance fit; they are not a combined covariance-and-mask test. The reported improvements are conditional fit diagnostics, not calibrated discovery significances.}
+\label{tab:espresso_followup}
+\centering
+\small
+\input{espresso_followup_table.tex}
+\end{table}
+
+To assess the strong cores without deleting the entire strong transitions, we freeze two masks from the preceding conventional model, before re-fitting either hypothesis. For 2382 and 2600 alone, we exclude model flux below 0.1, or below 0.3 with three additional native pixels on either side of each excluded run. The latter padding is $1.2\,\mathrm{km\,s^{-1}}$, obtained by rounding a requested $1\,\mathrm{km\,s^{-1}}$ upward on the $0.4\,\mathrm{km\,s^{-1}}$ grid. The resulting improvements are $\EspressoCoreOneDelta$ and $\EspressoCoreThreeDelta$, respectively (Table~\ref{tab:espresso_followup}). The masks do not follow noisy flux or move during optimization. Any weakening also removes velocity information, so it cannot by itself attribute the offsets to saturation or another particular mechanism.
+
+The reported endpoints are bounded local solutions, selected after cross-starts and continuation of capped attempts. Stopping is primarily based on small relative objective changes; some nuisance parameters remain on bounds. These criteria do not certify a stationary point or a global minimum, and differences between recorded local solutions remain part of the numerical limitation.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.96\textwidth,height=.34\textheight,keepaspectratio]{espresso_noise_controls.pdf}
+\caption{Continuum controls and subsequent nonlinear sensitivity tests. Left: the measured pixel autocorrelation, interval-resampling uncertainty, and the AR(1) and tapered empirical prescriptions. Right: improvements from adding the same five relative shifts in the original ESPRESSO comparison, the covariance re-fit and the two frozen core-mask re-fits. The covariance and masking changes are tested separately. These comparisons share the underlying observations and are not independent detections.}
+\label{fig:espresso_noise_controls}
+\end{figure}
+
+For an instrument comparison we fit the UVES SQUAD coadd of the same absorber using 2374, 2382 and 2600, a shared 45-component gas model, and fitted continua, zero levels and Gaussian instrumental widths. The archived reduction log records exposure-dependent wavelength shifts and slopes; this coadd must not be described as wholly uncorrected. Its equivalence to the final precision product of a dedicated analysis, and its residual calibration uncertainty, remain unestablished. The nominal catalogue resolution gives an inadequate fit, while allowing the widths to vary substantially improves it. Integration is refined to 21 subpixels. The gas structure is poorly constrained, several parameters reach bounds, and the shift alternative reaches the allowed narrow-width boundary for 2374. At the saved endpoints, the two strong-line shifts are approximately $-0.14$ and $-0.13\,\mathrm{km\,s^{-1}}$, directionally compatible with ESPRESSO. The objective decreases are about 11.0 and 10.0 for two extra shifts under the statistical-error and expected-fluctuation arrays, respectively. Both null searches still reach their evaluation caps after a further 500 evaluations, so these differences are provisional rather than final likelihood-ratio estimates. An additional $\pm10\%$ relative-opacity control also remains optimization-limited. The comparison uses diagonal error arrays and remains conditional on this width and gas model. Independent photons do not make the shared component initialization or laboratory atomic data independent. This exercise does not independently establish the ESPRESSO relative shifts or a change in $\alpha$.
+
+A recent route to a stronger test is HARPERFECT \cite{Milakovic2026HARPERFECT}, released as a preprint on 7 July 2026. It reprocesses approximately 52.5 hours of historical 2018 HARPS observations of this target, with explicit instrumental-response and sampling treatment. These are newly processed historical exposures. We did not locate downloadable science arrays and associated resolution matrices in the checked release channels, and therefore perform no HARPS re-fit here. Further independent calibration and gas-model checks remain necessary before asking whether any residual effect exceeds conventional explanations. None of these one-absorber comparisons identifies a cosmic-time law or an inverse-logarithmic amplitude.

@@ -1,0 +1,121 @@
+\section{Data, observables and methods}
+\label{sec:methods}
+
+\subsection{Released spectra and analysis scope}
+\label{sec:data}
+We use the public HE\,0515$-$4414 ESPRESSO combined spectrum, 17 extracted exposures from 2018--2020, and archived component, atomic, fitting-region and reduction inputs \citep{Murphy2022ESPRESSO}. The right-hand absorption region supplies 2931 valid pixels in six Fe\,II transitions, labelled 2260, 2344, 2374, 2382, 2586 and 2600 by approximate rest wavelength in \AA. Computations use precise archived wavelengths. Source blend exclusions particularly affect 2344 and 2586; 1608 is outside ESPRESSO coverage for this absorber.
+
+The FITS statistical-error and expected-fluctuation arrays are kept distinct; neither supplies complete covariance. Source validity, finite values and positive errors determine usable pixels, with no new pointwise residual clipping. The principal comparison uses statistical errors. Every hypothesis pair uses identical pixels and weights.
+
+Native S2D products are already extracted, wavelength-calibrated and sky-subtracted. Their vacuum-barycentric coordinates receive no second correction. We use \texttt{SCIDATA}, \texttt{ERRDATA} and \texttt{QUALDATA}=0, retaining separate traces and orders. Published clipping rectangles are transferred to overlapping native bins. Atmospheric intervals are shifted by exposure barycentric velocity and padded by $0.25\,\mathrm{km\,s^{-1}}$. This conservative transfer is not a full reduction replay.
+
+UVES comparisons use SQUAD DR1 vacuum--heliocentric grids \citep{Murphy2019SQUAD}. Its 1999--2009 HE\,0515$-$4414 product records exposure shift/slope corrections, without established equivalence to a dedicated precision-analysis product. Each spectrum is fitted on its supplied grid; retrieval dates are not observing epochs.
+
+\subsection{Relative shifts and the forward absorption model}
+\label{sec:estimand}
+For transition $j$, define a logarithmic velocity coordinate
+\begin{equation}
+ x_j=c\ln\!\left[\frac{\lambda}{\lambda_{j,\mathrm{lab}}(1+z_{
+ \mathrm{ref}})}\right].
+ \label{eq:velocity_coordinate}
+\end{equation}
+Common gas velocities remain free. Component $k$ supplies $N_k$, $v_k$ and Doppler width $b_k$, shared by all Fe\,II lines. Laboratory isotope wavelengths, damping constants and oscillator strengths use the archived \citet{MurphyBerengut2014} input. Isotope strengths already include abundances and are not weighted twice.
+
+The conventional model fixes laboratory frequency relations and sums component and isotope optical depths before exponentiation. Its combined-spectrum prediction is
+\begin{equation}
+ m_{ji}=C_j(x_{ji})\left\{Z_j+(1-Z_j)
+ \mathcal{P}_{ji}\!\left[L_j*\exp\!\left(-\sum_k\tau_{jk}\right)\right]\right\},
+ \label{eq:forward_model}
+\end{equation}
+where $L_j$ is the instrumental kernel and $\mathcal{P}_{ji}$ averages over pixel $i$. The linear continuum correction $C_j$ is evaluated at the pixel centre, with the published multiplicative corrections as its baseline. The Gaussian baseline widths follow the released analysis: FWHM $2.10\,\mathrm{km\,s^{-1}}$ for 2260--2382 and $2.05\,\mathrm{km\,s^{-1}}$ for 2586 and 2600. Fixed residual levels are $Z_j=0.002$ for 2344 and 2382, $0.003$ for 2600, and zero otherwise. These levels rescale the absorption contrast as well as adding flux. The normalized transmission is convolved before pixel integration; transforming an already convolved weak-line profile by a power would not implement this model.
+
+The 45-component $H_0$ re-optimizes 135 gas and 12 continuum parameters. $H_1$ adds shifts $\delta_j$ of the intrinsic opacity, fixing $\delta_{2374}=0$ and fitting the other five. Positive $\delta_j$ moves absorption to longer wavelength. Fixing the reference removes degeneracy with a common gas velocity.
+
+For comparison across absorbers we retain the 2382/2374 pair, write its fitted velocity contrast as $D=\widehat\delta_{2382}$, and define
+\begin{equation}
+ Y_{\rm app}=\widehat\eta=-\frac{D}{c}.
+ \label{eq:eta}
+\end{equation}
+If a fitted displacement were entirely a rest-frequency change, this would equal
+\begin{equation}
+ \eta=\ln\!\left[\frac{(\nu_{2382}/\nu_{2374})_{
+ \mathrm{abs}}}{(\nu_{2382}/\nu_{2374})_{\mathrm{lab}}}\right].
+ \label{eq:frequency_ratio}
+\end{equation}
+The fractional ratio change would be $e^\eta-1\simeq\eta$. Calibration, isotopes and gas modelling prevent automatically identifying the fitted descriptor with that physical change. Nor are five free shifts an $\alpha$ model, which instead predicts $\delta_j\simeq-c(K_j-K_{2374})\Delta\alpha/\alpha$ along one direction specified by atomic sensitivities $K_j=\partial\ln\nu_j/\partial\ln\alpha$.
+
+\subsection{Quadratic objectives, covariance and fixed core masks}
+\label{sec:covariance}
+For data vector $f$, fixed covariance $\Sigma$ and model $m(\theta)$, the working objective is
+\begin{equation}
+ Q(\theta)=[m(\theta)-f]^{\mathsf T}\Sigma^{-1}[m(\theta)-f].
+ \label{eq:objective}
+\end{equation}
+Under fixed Gaussian errors this is the usual $\chi^2$. We report $\Delta Q=Q_0-Q_1$ within a matched pair, equivalent to the historical output label $\Delta\chi^2$. Different masks or weights do not define one common likelihood-ratio statistic.
+
+Correlation controls place 36 candidate intervals at fixed offsets, excluding all authors' fitting windows and duplicate/invalid pixels. Recorded retention, median-flux and broad-feature criteria leave 25 disjoint intervals containing 13,750 pixels. After linear-continuum removal without pixel clipping, we correlate residuals normalized by supplied errors and bootstrap whole intervals 10,000 times. Alternative detrending and thresholds are saved. These controls were designed after data inspection.
+
+For the nonlinear covariance test we use the fixed tapered correlation matrix
+\begin{equation}
+ R_{ij}=\begin{cases}
+ \widehat\rho_{\ell}(1-\ell/11),&\ell=|n_i-n_j|\leq10,\\
+ 0,&\ell>10,
+ \end{cases}
+ \qquad \Sigma_{ij}=s_iR_{ij}s_j,
+ \label{eq:tapered_covariance}
+\end{equation}
+Original indices $n_i$ preserve separations across masked gaps; widely separated lines are treated independently. Residuals and derivatives receive the same Cholesky whitening. The continuum variance amplitude is not transferred; a uniform rescaling would leave optima unchanged. Transfer of the correlation shape to deep absorption remains conditional.
+
+Frozen masks use the original diagonal-noise $H_0$ prediction for 2382 and 2600: flux below 0.1, or below 0.3 with three-pixel ($1.2\,\mathrm{km\,s^{-1}}$) padding. We test masking and covariance separately and together. To quantify information loss, local derivatives at that fixed $H_0$ give both strong lines a $100\,\mathrm{m\,s^{-1}}$ shift, with other relative shifts zero; gas/continuum directions are projected out under GLS weights. This ignores bounds and characterizes one direction, not five-shift marginal information or a detection.
+
+\subsection{Gas structure, bounds and numerical endpoints}
+\label{sec:optimization}
+The principal gas search allows velocities within $\pm2\,\mathrm{km\,s^{-1}}$ and column densities within $\pm2$ dex of the published initialization, with $7\leq\log_{10}(N/\mathrm{cm^{-2}})\leq17$ and $0.15\leq b\leq30\,\mathrm{km\,s^{-1}}$. Continuum coefficients lie within $\pm0.03$, with the slope multiplying a centred velocity divided by $100\,\mathrm{km\,s^{-1}}$. Relative shifts lie within $\pm0.5\,\mathrm{km\,s^{-1}}$. Wider bounds, opacity/zero-level freedom, modified Gaussian widths and transition exclusions are separately recorded controls, not measured calibration priors.
+
+A fixed alternative architecture joins adjacent published component centres separated by less than $1.025\,\mathrm{km\,s^{-1}}$ into connected groups, producing 40 components. Each merged initialization preserves total column density, its weighted centre and the Doppler-core second moment:
+\begin{equation}
+ v_g=\sum_k w_kv_k,\qquad
+ b_g^2=\sum_k w_k\{b_k^2+2(v_k-v_g)^2\},\qquad
+ w_k=\frac{N_k}{\sum_{k\in g}N_k}.
+\end{equation}
+This is not preservation of a finite variance of the full Voigt profile. Nor does the separation rule prove that sub-resolution structure is unmeasurable. Bounds of the same widths are centred on the merged initialization, so this is a combined architecture-and-bounds sensitivity test, not a nested selection of the true cloud count.
+
+Constrained fits retain starts, opposite-hypothesis starts, continuations and unsuccessful endpoints. Stopping flags, first-order stationarity and global optimality are distinguished; UVES continuations include explicit bound-gradient checks. Independent implementations replay atomic normalization, residuals, derivatives, covariance and saved objectives, and refine pixel quadrature. These verify numerical consistency, not physical adequacy or significance.
+
+\subsection{Native exposures and centred response controls}
+\label{sec:orders}
+Native fits use a gas template fixed from the combined-spectrum $H_0$, exposure line velocities, and per-row continuum amplitude/slope and additive zero. Relative shifts subtract 2374 while retaining its shared-reference covariance. The same estimator is applied to the combined spectrum; it differs from re-optimizing all gas parameters.
+
+Overlapping orders provide the lower-index minus upper-index velocity of the same transition, cancelling 2374 entirely. Disjoint samples can still share extraction errors. We test leave-one-exposure stability, separate traces, and date, barycentric-velocity, signal-to-noise and detector-position predictors. Pixel phase is the fractional interpolated position of a fixed velocity reference, treated circularly. All regressions are reported; correlated predictors and post-inspection design preclude causal or multiplicity-calibrated interpretation.
+
+A further matched analysis fits each transition jointly across exposures. It compares Gaussian kernels with a positive, normalized asymmetric family. For order $o$ the latter is
+\begin{equation}
+ L_o(u)=0.8\,\phi_s(u+0.2d_o)+0.2\,\phi_s(u-0.8d_o),
+ \label{eq:mixture_lsf}
+\end{equation}
+where $\phi_s$ is a zero-mean Gaussian of standard deviation $s$, $d_o=1.2\,\mathrm{km\,s^{-1}}\,\mathrm{cbrt}(a_o)$, $-1\leq a_o\leq1$, and
+\begin{equation}
+ s^2=(w_o/2.354820045)^2-0.16d_o^2.
+\end{equation}
+Here $1.6\leq w_o\leq2.6\,\mathrm{km\,s^{-1}}$ is a Gaussian-equivalent variance width, not literal FWHM. The kernel centroid is zero at every asymmetry. Each order shares one width and shape across all 17 exposures and both traces: a strong sensitivity assumption given known slice dependence, not a calibrated response. Each family is fitted with/without a common order offset and with exposure velocities. Per-row continuum/zero coefficients are profiled by weighted linear least squares, retaining residual-dependent derivative terms.
+
+A transfer test freezes response parameters fitted to nine 2018 exposures when evaluating eight later exposures, refitting velocities and continua. The photon subsets are disjoint but the combined-data gas template is shared. This restricted shape family is a stress test, not an independent LSF calibration.
+
+\subsection{Archive screening and additional absorbers}
+\label{sec:archive_methods}
+We screen 155 catalogued damped Ly$\alpha$ absorbers in SQUAD for nine Fe\,II lines: full $\pm250\,\mathrm{km\,s^{-1}}$ coverage, forest avoidance with a $3000\,\mathrm{km\,s^{-1}}$ margin, atmospheric bands and catalogue CNR. Broader water-band exclusions are an explicit amendment. These approximate metadata gates do not certify clean observed lines.
+
+All 32 spectra containing 36 initial candidates are retrieved. Native-pixel validity, noise, absorption strength, three-line common structure and an unsaturated weaker-line candidate define readiness. Interpolation used for screening does not produce independent significance bins. Six systems pass, with residual edge/blend/calibration warnings retained. The targeted DLA subset does not exhaust SQUAD, and absorbers sharing a sightline share calibration.
+
+Profile pilots use common gas components, consistent atomic data and per-line continuum, zero and Gaussian-width freedom. Windows follow profile inspection; pixels are not residual-clipped. Stated component counts and multiple starts feed an exploratory diagonal-error $H_0$ AICc selection. Both error arrays are compared for the first two pilots; the remaining four use expected-fluctuation errors directly. Common-pair profiles fix $D$ while refitting gas, instrumental and other relative-shift parameters. Thus a $D=0$ profile point is not the full laboratory-frequency $H_0$. Lower profile endpoints seed renewed matched fits; inadequate models and boundary solutions remain visible.
+
+\subsection{A common descriptor and cosmic-age identifiability}
+\label{sec:age_methods}
+Section~\ref{sec:identifiability} defines a fixed illustrative age coordinate and normalized candidate schedules $G_p(z)$ (Eq.~\ref{eq:normalized_age}), with $G_p(0)=0$ and $G_p(3)=1$. These are not cosmological fits. Function shapes are compared after fitting an intercept and amplitude, independently of any measured signal.
+
+For a velocity descriptor $D_a=-c\widehat\eta_a$ per absorber, consider
+\begin{equation}
+ D_a=b+A G_p(z_a)+d_a+\epsilon_a.
+ \label{eq:age_nuisance}
+\end{equation}
+The amplitude $A$ is a velocity contrast in $\mathrm{m\,s^{-1}}$, not $\Delta\alpha/\alpha$. The absorber-specific $d_a$ describes a \emph{differential} calibration/model offset; a common log-wavelength zero point cancels. Unrestricted $d_a$ absorb $A\mapsto A+q$ through $d_a\mapsto d_a-qG_p(z_a)$. Rank and nuisance projections test this exact degeneracy. Finite nuisance constraints restore conditional information and must be distinguished from unrestricted coefficients; forecasts suppressing these terms are not independently calibrated physical bounds.

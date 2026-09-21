@@ -1,0 +1,461 @@
+{
+  "interpretation": "FIXED-DESIGN DIAGNOSTIC ONLY; no observed offsets or physical amplitude are inferred.",
+  "background": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "t0_Gyr": 13.796234644007173,
+    "flat": true,
+    "radiation": false,
+    "tstar_s": 5.391247e-44,
+    "tstar_fixed_not_fitted": true
+  },
+  "observable": {
+    "anchor": 2374,
+    "comparison": 2382,
+    "c_m_s": 299792458.0,
+    "reference_wavelengths_AA": [
+      2374.4600639902396,
+      2382.7639949541563
+    ],
+    "reference": "Oscillator-strength-weighted composite from the same isotope table used by profile fits; no standalone laboratory covariance supplied.",
+    "D": "c ln[(lambda_obs_2382/lambda_obs_2374)/(lambda_ref_2382/lambda_ref_2374)] = v_2382-v_2374",
+    "Y": "ln[(nu_abs_2382/nu_abs_2374)/(nu_lab_2382/nu_lab_2374)] = -D/c, conditional on differential calibration/propagation/gas effects",
+    "scope": "One ratio of two transition-energy differences sharing a lower level, not a complete atomic energy-level distribution.",
+    "line_center_caveat": "Fitted common-velocity offsets are conditional parameters of isotope/Voigt mixtures, not model-free observed centroids."
+  },
+  "design_targets": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "cosmic_age_Gyr": 3.965962981911199,
+      "G2_z3_normalized": 0.664833339577895,
+      "h2_minus_1": 0.018018154943557668,
+      "observed_2374_AA": 6242.4555082303405,
+      "observed_2382_AA": 6264.286542734477,
+      "observed_pair_separation_AA": 21.831034504136813,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.045358842027913
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "cosmic_age_Gyr": 3.553115917313673,
+      "G2_z3_normalized": 0.7243157527132995,
+      "h2_minus_1": 0.01963023314795532,
+      "observed_2374_AA": 6733.96874147632,
+      "observed_2382_AA": 6757.518689689988,
+      "observed_pair_separation_AA": 23.54994821366756,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.075657517976758
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "cosmic_age_Gyr": 3.060446116475909,
+      "G2_z3_normalized": 0.8053127135911166,
+      "h2_minus_1": 0.02182539350495603,
+      "observed_2374_AA": 7458.179060993342,
+      "observed_2382_AA": 7484.261708151005,
+      "observed_pair_separation_AA": 26.082647157662127,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.087542106915882
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "cosmic_age_Gyr": 3.0575902861503006,
+      "G2_z3_normalized": 0.8058201342125914,
+      "h2_minus_1": 0.02183914549787668,
+      "observed_2374_AA": 7462.927981121323,
+      "observed_2382_AA": 7489.0272361409125,
+      "observed_pair_separation_AA": 26.099255019589958,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.087521592504258
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "cosmic_age_Gyr": 2.9135716054188023,
+      "G2_z3_normalized": 0.8320576631253505,
+      "h2_minus_1": 0.022550228762122003,
+      "observed_2374_AA": 7712.2462878402985,
+      "observed_2382_AA": 7739.2174556111,
+      "observed_pair_separation_AA": 26.97116777080121,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.0849893864296454
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "cosmic_age_Gyr": 2.444187250611145,
+      "G2_z3_normalized": 0.9278192418834149,
+      "h2_minus_1": 0.025145536279037442,
+      "observed_2374_AA": 8688.149374140286,
+      "observed_2382_AA": 8718.533457537258,
+      "observed_pair_separation_AA": 30.38408339697094,
+      "velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s": 3.053635779501288
+    }
+  ],
+  "primary_phenomenological_model": "D_i = b + A G_2(z_i) + k_i DeltaLambda_obs_i + e_i + noise_i; G_2(0)=0, G_2(3)=1",
+  "null": "Constant pair offset b; this permits a common laboratory/instrumental offset and is not absolute D=0.",
+  "physical_identifiability": "A is exactly nonidentifiable with unrestricted per-target k_i or e_i. Finite conditional forecasts set those differential terms to known zero; they are not measured physical constraints.",
+  "practical_calibration_balance": "Full-rank unconstrained nuisances prove structural nonidentifiability, not that real calibration errors are arbitrarily large. The close pair suppresses smooth wavelength-slope errors, so finite external calibration constraints can preserve useful conditional precision. No such calibrated per-target prior is measured here.",
+  "hypothetical_slope_scenarios": [
+    {
+      "hypothetical_velocity_slope_m_s_per_1000_AA": 50.0,
+      "pair_effect_m_s": [
+        1.0915517252068407,
+        1.177497410683378,
+        1.3041323578831063,
+        1.3049627509794979,
+        1.3485583885400605,
+        1.519204169848547
+      ],
+      "minimum_pair_effect_m_s": 1.0915517252068407,
+      "maximum_pair_effect_m_s": 1.519204169848547,
+      "interpretation": "Magnitude propagation only; these are hypothetical scenarios, not measured slopes, uncertainty estimates or adopted priors."
+    },
+    {
+      "hypothetical_velocity_slope_m_s_per_1000_AA": 200.0,
+      "pair_effect_m_s": [
+        4.366206900827363,
+        4.709989642733512,
+        5.216529431532425,
+        5.2198510039179915,
+        5.394233554160242,
+        6.076816679394188
+      ],
+      "minimum_pair_effect_m_s": 4.366206900827363,
+      "maximum_pair_effect_m_s": 6.076816679394188,
+      "interpretation": "Magnitude propagation only; these are hypothetical scenarios, not measured slopes, uncertainty estimates or adopted priors."
+    },
+    {
+      "hypothetical_velocity_slope_m_s_per_1000_AA": 500.0,
+      "pair_effect_m_s": [
+        10.915517252068407,
+        11.77497410683378,
+        13.041323578831063,
+        13.049627509794979,
+        13.485583885400604,
+        15.19204169848547
+      ],
+      "minimum_pair_effect_m_s": 10.915517252068407,
+      "maximum_pair_effect_m_s": 15.19204169848547,
+      "interpretation": "Magnitude propagation only; these are hypothetical scenarios, not measured slopes, uncertainty estimates or adopted priors."
+    }
+  ],
+  "shared_slope_mimic_of_hypothetical_A_100_m_s": {
+    "fitted_common_offset_m_s": -0.10161352814643958,
+    "fitted_shared_velocity_slope_m_s_per_1000_AA": 3076.628584570273,
+    "residual_m_s": [
+      -0.5810373002312872,
+      0.07874496015713817,
+      0.3862670807342141,
+      0.38591292014594103,
+      0.3271141177939967,
+      -0.5970017785999033
+    ],
+    "residual_rms_m_s": 0.4292145777107111,
+    "residual_max_abs_m_s": 0.5970017785999033,
+    "interpretation": "Best unweighted affine approximation to an arbitrary A=100 m/s signal, not a measured instrumental distortion. Its required magnitude must be compared with independent calibration data, not inferred from rank alone."
+  },
+  "nuisance_projection": {
+    "common_offset": {
+      "nuisance_rank": 1,
+      "augmented_rank": 2,
+      "identifiable_additional_rank": 1,
+      "squared_projected_response_raw": 0.0411611296884367,
+      "squared_projected_response": 0.0411611296884367,
+      "information_fraction_vs_common_offset": 1.0000000000000007,
+      "singular_values": [
+        1.0
+      ],
+      "augmented_singular_values": [
+        1.4123011484050654,
+        0.07352187574955589
+      ],
+      "projected_response": [
+        -0.12852646793938327,
+        -0.06904405480397868,
+        0.011952906073838365,
+        0.012460326695313162,
+        0.03869785560807226,
+        0.13445943436613672
+      ],
+      "structural_nonidentifiability": false
+    },
+    "common_offset_and_shared_wavelength_slope": {
+      "nuisance_rank": 2,
+      "augmented_rank": 3,
+      "identifiable_additional_rank": 1,
+      "squared_projected_response_raw": 0.00011053509223163642,
+      "squared_projected_response": 0.00011053509223163642,
+      "information_fraction_vs_common_offset": 0.002685424162755398,
+      "singular_values": [
+        1.4123110864385948,
+        0.07333072427459564
+      ],
+      "augmented_singular_values": [
+        1.7299722311933365,
+        0.08474450124529269,
+        0.0038011588545465366
+      ],
+      "projected_response": [
+        -0.005810373002313685,
+        0.0007874496015710664,
+        0.003862670807341706,
+        0.003859129201458922,
+        0.003271141177939585,
+        -0.005970017785999593
+      ],
+      "structural_nonidentifiability": false
+    },
+    "one_wavelength_slope_per_target": {
+      "nuisance_rank": 6,
+      "augmented_rank": 6,
+      "identifiable_additional_rank": 0,
+      "squared_projected_response_raw": 7.395570986446986e-32,
+      "squared_projected_response": 0.0,
+      "information_fraction_vs_common_offset": 0.0,
+      "singular_values": [
+        1.414213562373095,
+        1.0,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "augmented_singular_values": [
+        1.730489680346655,
+        1.002699090561936,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "projected_response": [
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.1102230246251565e-16
+      ],
+      "structural_nonidentifiability": true
+    },
+    "one_environmental_pair_offset_per_target": {
+      "nuisance_rank": 6,
+      "augmented_rank": 6,
+      "identifiable_additional_rank": 0,
+      "squared_projected_response_raw": 7.395570986446986e-32,
+      "squared_projected_response": 0.0,
+      "information_fraction_vs_common_offset": 0.0,
+      "singular_values": [
+        1.414213562373095,
+        1.0,
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "augmented_singular_values": [
+        1.730489680346655,
+        1.002699090561936,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999997,
+        0.9999999999999996
+      ],
+      "projected_response": [
+        0.0,
+        -1.1102230246251565e-16,
+        0.0,
+        -2.220446049250313e-16,
+        0.0,
+        -1.1102230246251565e-16
+      ],
+      "structural_nonidentifiability": true
+    }
+  },
+  "competitor_shapes": {
+    "inverse_log_p1": {
+      "centered_correlation": 0.999999817136056,
+      "fitted_offset": -0.00417767091488675,
+      "fitted_amplitude": 1.003941711751513,
+      "residual_after_offset_and_amplitude": [
+        6.486866461385965e-05,
+        -1.3523390240521849e-05,
+        -4.4611918033843345e-05,
+        -4.4532200222713314e-05,
+        -3.5759655628520015e-05,
+        7.355849951007354e-05
+      ],
+      "residual_norm": 0.00012269381256021375,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0006047543751613509,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.007355849951007354,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.005008953922820091,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.004089793752007125,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "inverse_log_p3": {
+      "centered_correlation": 0.9999998170798873,
+      "fitted_offset": 0.0041491489932518185,
+      "fitted_amplitude": 0.9960869876093095,
+      "residual_after_offset_and_amplitude": [
+        -6.495123761995902e-05,
+        1.3430875772324491e-05,
+        4.4630974562642756e-05,
+        4.4552067224645775e-05,
+        3.58188869031828e-05,
+        -7.348156684250373e-05
+      ],
+      "residual_norm": 0.0001227126546098199,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0006048472470975843,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.007348156684250373,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.005009723146274146,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.00409042182032733,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "log_cosmic_age": {
+      "centered_correlation": 0.9999983547375607,
+      "fitted_offset": -0.012619454551299503,
+      "fitted_amplitude": 1.0119121103688398,
+      "residual_after_offset_and_amplitude": [
+        0.00019435763611552748,
+        -4.0847521686537824e-05,
+        -0.00013377797997071728,
+        -0.00013353639753144186,
+        -0.00010710088149301633,
+        0.00022090514456452048
+      ],
+      "residual_norm": 0.0003680239256444093,
+      "fractional_shape_residual_relative_to_centered_p2": 0.0018139796502638279,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.02209051445645205,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.015024513849412995,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.012267464188146976,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "linear_cosmic_age": {
+      "centered_correlation": 0.9964446597272907,
+      "fitted_offset": -1.024593516404557,
+      "fitted_amplitude": 1.9930386528033506,
+      "residual_after_offset_and_amplitude": [
+        0.008310662747674447,
+        -0.0028096408557136687,
+        -0.006066219307808374,
+        -0.006047186268135829,
+        -0.004438899010984265,
+        0.011051282694970355
+      ],
+      "residual_norm": 0.017092786464748957,
+      "fractional_shape_residual_relative_to_centered_p2": 0.08424986706793099,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 1.1051282694970355,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.6978100853497619,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.5697595488249653,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    },
+    "linear_redshift": {
+      "centered_correlation": 0.9986563852683489,
+      "fitted_offset": 0.25446497839737786,
+      "fitted_amplitude": 0.7664433410365207,
+      "residual_after_offset_and_amplitude": [
+        -0.0058103730023135736,
+        0.0007874496015709553,
+        0.003862670807341817,
+        0.003859129201459033,
+        0.003271141177939807,
+        -0.005970017785999038
+      ],
+      "residual_norm": 0.010513567055554052,
+      "fractional_shape_residual_relative_to_centered_p2": 0.051821078363492964,
+      "max_abs_residual_for_hypothetical_A_100_m_s": 0.5970017785999038,
+      "rms_residual_for_hypothetical_A_100_m_s": 0.4292145777107132,
+      "hypothetical_sigma_each_for_expected_delta_chi2_9_at_A_100_m_s": 0.3504522351851351,
+      "warning": "Fixed Gaussian mean separation only. A=100 m/s is arbitrary, not fitted or predicted. No detection significance, power calculation, or multiplicity correction."
+    }
+  },
+  "equal_weight_forecasts": [
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 49.28972069105451,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.962501670324023
+    },
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 49.289720691054306,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.96250167032397
+    },
+    {
+      "sigma_independent_pair_m_s": 10.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 49.28972069105425,
+      "conditional_sigma_sample_endpoint_difference_m_s": 12.962501670323954
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 147.8691620731648,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.887505010972404
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 147.86916207316304,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.88750501097194
+    },
+    {
+      "sigma_independent_pair_m_s": 30.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 147.869162073163,
+      "conditional_sigma_sample_endpoint_difference_m_s": 38.887505010971935
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 0.0,
+      "conditional_sigma_A_m_s": 492.89720691054305,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.62501670323968
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 20.0,
+      "conditional_sigma_A_m_s": 492.89720691054634,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.62501670324056
+    },
+    {
+      "sigma_independent_pair_m_s": 100.0,
+      "sigma_shared_laboratory_pair_m_s": 100.0,
+      "conditional_sigma_A_m_s": 492.89720691054265,
+      "conditional_sigma_sample_endpoint_difference_m_s": 129.6250167032396
+    }
+  ],
+  "common_laboratory_error": "A shared laboratory pair error adds sigma_lab^2 11^T; it is absorbed by free b and does not average down. It cancels from cross-target differences and does not degrade slope in this idealized covariance model.",
+  "sample_span": {
+    "z_min": 1.629,
+    "z_max": 2.659,
+    "age_min_Gyr": 2.444187250611145,
+    "age_max_Gyr": 3.965962981911199,
+    "G2_span": 0.2629859023055199
+  },
+  "near_same_age_control": {
+    "targets": [
+      "J053007-250329",
+      "J233156-090802"
+    ],
+    "redshifts": [
+      2.141,
+      2.143
+    ],
+    "age_separation_Myr": 2.8558303256085438,
+    "G2_difference": 0.0005074206214747967,
+    "expected_D_difference_if_hypothetical_A_100_m_s": 0.05074206214747967,
+    "interpretation": "Under a universal deterministic age-only pair law with the same response, the pair should have almost the same offset. Differences probe the combined sightline, environment, gas-model and calibration terms, not one specific cause; similarities do not establish cosmic variation."
+  },
+  "no_data_dependent_amplitude_selection": true,
+  "source_hashes": {
+    "results/archive_expansion/quality_summary.json": "8ec5b396e52e9bc3eac94da0d79aea537b82242fe80210c6f22e295bd7261354",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10.dat": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "code/cross_age_design.py": "5658b4636d2052a5de80663639f5f34fccd7abde5b39d7d17dba931a202eee3f"
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  }
+}

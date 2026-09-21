@@ -1,0 +1,94 @@
+{
+  "target": "J225719-100104",
+  "z": 1.836,
+  "lines": [
+    2344,
+    2374,
+    2382
+  ],
+  "window": [
+    -310.0,
+    110.0
+  ],
+  "component_bounds": [
+    -290.0,
+    85.0
+  ],
+  "logtotal": 15.0,
+  "component_counts": [
+    6,
+    10,
+    14,
+    18,
+    22
+  ],
+  "centers": [
+    -275,
+    -241,
+    -218,
+    -184,
+    -163,
+    -151,
+    -139,
+    -130,
+    -119,
+    -108,
+    -97,
+    -85,
+    -76,
+    -65,
+    -50,
+    -40,
+    -30,
+    -18,
+    20,
+    33,
+    55,
+    63
+  ],
+  "centers_by_n": {
+    "6": [
+      -241,
+      -151,
+      -108,
+      -76,
+      -30,
+      60
+    ],
+    "10": [
+      -275,
+      -241,
+      -183,
+      -150,
+      -120,
+      -95,
+      -65,
+      -30,
+      22,
+      60
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "max_nfev": 350,
+  "frozen_utc": "2026-09-21T03:51:32.265190+00:00",
+  "selection_stage": "Frozen after raw profile inspection, before any conventional or relative-shift fit.",
+  "selection_reason": "Dominant shared complex extends roughly -285 to +80km/s; common window provides margins. More blueward Fe2382 absorption around-330km/s is outside the modeled complex and has no obvious strong counterpart in this inspection; physical identity is not established.",
+  "excluded_lines": {
+    "1608": "Excluded by original catalogue-CNR policy; actualCNR~17 does not retroactively change primary line selection.",
+    "2586,2600": "Retain original broad water-band/coverage exclusions.",
+    "1611,2249,2260": "Not selected for primary multi-line fit; weak profiles are not a demonstrated clean unsaturated counterpart across this broad complex."
+  },
+  "limitations": [
+    "Exploratory dominant-complex window, not proof the whole physical absorber is captured.",
+    "Strong2382 saturation extends over150km/s; weaker2374 must constrain gas structure.",
+    "Finite count/initialization search does not certify global optimum."
+  ],
+  "source_hashes": {
+    "coadd": "fc76c14694422be4d3291344ac730f154b8c24cb25db51319c956d98ac5f8421",
+    "metadata": "47e75cb6ea756d75fa3138ba2de655ae2f7408a44176020881fa42da4013e6d1"
+  }
+}

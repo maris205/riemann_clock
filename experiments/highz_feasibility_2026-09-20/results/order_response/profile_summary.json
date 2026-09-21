@@ -1,0 +1,472 @@
+{
+  "2600": {
+    "G1": [
+      {
+        "order_offset_m_s": -120.0,
+        "chi2": 41634.01470815341,
+        "delta_chi2": 11.816571941286384,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_00.json"
+      },
+      {
+        "order_offset_m_s": -99.99999999999999,
+        "chi2": 41627.202374423025,
+        "delta_chi2": 5.004238210902258,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_01.json"
+      },
+      {
+        "order_offset_m_s": -79.99999999999999,
+        "chi2": 41623.27178857217,
+        "delta_chi2": 1.0736523600498913,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_02.json"
+      },
+      {
+        "order_offset_m_s": -60.0,
+        "chi2": 41622.225353417816,
+        "delta_chi2": 0.02721720569388708,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_03.json"
+      },
+      {
+        "order_offset_m_s": -39.99999999999999,
+        "chi2": 41624.06518085648,
+        "delta_chi2": 1.8670446443575202,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_04.json"
+      },
+      {
+        "order_offset_m_s": -19.99999999999999,
+        "chi2": 41628.7930917446,
+        "delta_chi2": 6.594955532476888,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_05.json"
+      },
+      {
+        "order_offset_m_s": 0.0,
+        "chi2": 41636.41061491757,
+        "delta_chi2": 14.21247870544903,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_06.json"
+      },
+      {
+        "order_offset_m_s": 20.000000000000018,
+        "chi2": 41646.918985734665,
+        "delta_chi2": 24.720849522542267,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_07.json"
+      },
+      {
+        "order_offset_m_s": 40.00000000000001,
+        "chi2": 41660.319144730405,
+        "delta_chi2": 38.121008518282906,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_08.json"
+      },
+      {
+        "order_offset_m_s": 60.0,
+        "chi2": 41676.611736915096,
+        "delta_chi2": 54.41360070297378,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_09.json"
+      },
+      {
+        "order_offset_m_s": 80.00000000000001,
+        "chi2": 41695.79710982462,
+        "delta_chi2": 73.5989736124975,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_10.json"
+      },
+      {
+        "order_offset_m_s": 100.0,
+        "chi2": 41717.87531364747,
+        "delta_chi2": 95.6771774353474,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_11.json"
+      },
+      {
+        "order_offset_m_s": 120.0,
+        "chi2": 41742.84609826253,
+        "delta_chi2": 120.64796205041057,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_G1_12.json"
+      }
+    ],
+    "A1": [
+      {
+        "order_offset_m_s": -120.0,
+        "chi2": 41631.30923324203,
+        "delta_chi2": 11.267263027206354,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_A1_00.json"
+      },
+      {
+        "order_offset_m_s": -99.99999999999999,
+        "chi2": 41625.15238698935,
+        "delta_chi2": 5.110416774528858,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_A1_01.json"
+      },
+      {
+        "order_offset_m_s": -79.99999999999999,
+        "chi2": 41621.401692534506,
+        "delta_chi2": 1.3597223196848063,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_A1_02.json"
+      },
+      {
+        "order_offset_m_s": -60.0,
+        "chi2": 41620.04748976947,
+        "delta_chi2": 0.005519554651982617,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2600_A1_03.json"
+      },
+      {
+        "order_offset_m_s": -39.99999999999999,
+        "chi2": 41621.100224586495,
+        "delta_chi2": 1.0582543716736836,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_04.json"
+      },
+      {
+        "order_offset_m_s": -19.99999999999999,
+        "chi2": 41624.678139076095,
+        "delta_chi2": 4.6361688612742,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_05.json"
+      },
+      {
+        "order_offset_m_s": 0.0,
+        "chi2": 41630.899895590934,
+        "delta_chi2": 10.85792537611269,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_06.json"
+      },
+      {
+        "order_offset_m_s": 20.000000000000018,
+        "chi2": 41639.78386883099,
+        "delta_chi2": 19.741898616171966,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_07.json"
+      },
+      {
+        "order_offset_m_s": 40.00000000000001,
+        "chi2": 41651.33573009299,
+        "delta_chi2": 31.29375987817184,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_08.json"
+      },
+      {
+        "order_offset_m_s": 60.0,
+        "chi2": 41665.56131098382,
+        "delta_chi2": 45.519340769002156,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_09.json"
+      },
+      {
+        "order_offset_m_s": 80.00000000000001,
+        "chi2": 41682.465514730226,
+        "delta_chi2": 62.4235445154045,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_10.json"
+      },
+      {
+        "order_offset_m_s": 100.0,
+        "chi2": 41702.052206153945,
+        "delta_chi2": 82.01023593912396,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_11.json"
+      },
+      {
+        "order_offset_m_s": 120.0,
+        "chi2": 41724.369932956564,
+        "delta_chi2": 104.32796274174325,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_52",
+          "asymmetry_53"
+        ],
+        "source": "profile_2600_A1_12.json"
+      }
+    ]
+  },
+  "2382": {
+    "G1": [
+      {
+        "order_offset_m_s": -120.0,
+        "chi2": 40017.981239647845,
+        "delta_chi2": 24.092345681769075,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_00.json"
+      },
+      {
+        "order_offset_m_s": -99.99999999999999,
+        "chi2": 40009.95292856101,
+        "delta_chi2": 16.064034594935947,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_01.json"
+      },
+      {
+        "order_offset_m_s": -79.99999999999999,
+        "chi2": 40003.54465264821,
+        "delta_chi2": 9.655758682136366,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_02.json"
+      },
+      {
+        "order_offset_m_s": -60.0,
+        "chi2": 39998.75773214581,
+        "delta_chi2": 4.8688381797328475,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_03.json"
+      },
+      {
+        "order_offset_m_s": -39.99999999999999,
+        "chi2": 39995.59332152617,
+        "delta_chi2": 1.7044275600928813,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_04.json"
+      },
+      {
+        "order_offset_m_s": -19.99999999999999,
+        "chi2": 39994.052411770805,
+        "delta_chi2": 0.16351780472905375,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_05.json"
+      },
+      {
+        "order_offset_m_s": 0.0,
+        "chi2": 39994.135827864135,
+        "delta_chi2": 0.24693389805906918,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_06.json"
+      },
+      {
+        "order_offset_m_s": 20.000000000000018,
+        "chi2": 39995.84422953706,
+        "delta_chi2": 1.9553355709867901,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_07.json"
+      },
+      {
+        "order_offset_m_s": 40.00000000000001,
+        "chi2": 39999.17811054762,
+        "delta_chi2": 5.28921658154286,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_08.json"
+      },
+      {
+        "order_offset_m_s": 60.0,
+        "chi2": 40004.1377982102,
+        "delta_chi2": 10.248904244122969,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_09.json"
+      },
+      {
+        "order_offset_m_s": 80.00000000000001,
+        "chi2": 40010.7234544296,
+        "delta_chi2": 16.834560463525122,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_10.json"
+      },
+      {
+        "order_offset_m_s": 100.0,
+        "chi2": 40018.93507365345,
+        "delta_chi2": 25.046179687371477,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_11.json"
+      },
+      {
+        "order_offset_m_s": 120.0,
+        "chi2": 40028.77248323312,
+        "delta_chi2": 34.88358926704677,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_G1_12.json"
+      }
+    ],
+    "A1": [
+      {
+        "order_offset_m_s": -120.0,
+        "chi2": 40012.4554750086,
+        "delta_chi2": 18.66889687400544,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_41",
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_00.json"
+      },
+      {
+        "order_offset_m_s": -99.99999999999999,
+        "chi2": 40005.68348416187,
+        "delta_chi2": 11.896906027272053,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_41",
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_01.json"
+      },
+      {
+        "order_offset_m_s": -79.99999999999999,
+        "chi2": 40000.5336780806,
+        "delta_chi2": 6.747099946005619,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_41",
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_02.json"
+      },
+      {
+        "order_offset_m_s": -60.0,
+        "chi2": 39996.96929881738,
+        "delta_chi2": 3.1827206827802,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_03.json"
+      },
+      {
+        "order_offset_m_s": -39.99999999999999,
+        "chi2": 39994.80554596566,
+        "delta_chi2": 1.0189678310634918,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_A1_04.json"
+      },
+      {
+        "order_offset_m_s": -19.99999999999999,
+        "chi2": 39993.84918258386,
+        "delta_chi2": 0.06260444926010678,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_A1_05.json"
+      },
+      {
+        "order_offset_m_s": 0.0,
+        "chi2": 39994.06175893013,
+        "delta_chi2": 0.27518079553556163,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_A1_06.json"
+      },
+      {
+        "order_offset_m_s": 20.000000000000018,
+        "chi2": 39995.47219056076,
+        "delta_chi2": 1.6856124261612422,
+        "optimizer_success": true,
+        "active_bounds": [],
+        "source": "profile_2382_A1_07.json"
+      },
+      {
+        "order_offset_m_s": 40.00000000000001,
+        "chi2": 39998.12330137038,
+        "delta_chi2": 4.33672323578503,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_08.json"
+      },
+      {
+        "order_offset_m_s": 60.0,
+        "chi2": 40002.17279099455,
+        "delta_chi2": 8.38621285995032,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_09.json"
+      },
+      {
+        "order_offset_m_s": 80.00000000000001,
+        "chi2": 40007.69082942698,
+        "delta_chi2": 13.904251292384288,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_10.json"
+      },
+      {
+        "order_offset_m_s": 100.0,
+        "chi2": 40014.6870567364,
+        "delta_chi2": 20.900478601804934,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_41",
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_11.json"
+      },
+      {
+        "order_offset_m_s": 120.0,
+        "chi2": 40023.25326971978,
+        "delta_chi2": 29.46669158518489,
+        "optimizer_success": true,
+        "active_bounds": [
+          "asymmetry_41",
+          "asymmetry_42"
+        ],
+        "source": "profile_2382_A1_12.json"
+      }
+    ]
+  }
+}

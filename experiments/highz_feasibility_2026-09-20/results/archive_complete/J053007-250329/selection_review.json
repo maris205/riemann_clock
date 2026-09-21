@@ -1,0 +1,1084 @@
+{
+  "target": "J053007-250329",
+  "review_scope": "Independent pre-fit selection review; no profile fitting and no new pixel masks.",
+  "verification_status": "VERIFIED numerical selection; visual morphology assessment remains conditional",
+  "decision": "PASS WITH CAVEATS: use fixed four-line window for exploratory shared-profile fits.",
+  "selection_sha256": "8160199cd9a13b72534006a8dd6726ffc79f2fa1f0d4ca635da952806e73e346",
+  "coadd_sha256": "76fa188f5eb17423e208e4619ce3aa02e9b4a11ad0229e98d6f3892de5abe30f",
+  "metadata_sha256": "af8f9169e7115ca316fc5e6aeaa1648a1f7194d15ae57615d91f16c7fe6867b7",
+  "atomic_sha256": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+  "pre_fit_figure_sha256": "73340102336a1a4f592733f3e3fabf9aab246651bc7bbf9b07ed94379a94f1df",
+  "checks": [
+    {
+      "name": "Frozen lines",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Frozen window",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Full coadd SHA256",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "All line-summary keys match selection",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Archived FITS SHA256",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Full wavelength reconstruction",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Full flux equals raw FITS row 0",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Full expected fluctuations equal raw FITS row 2",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Full status equals raw FITS row 4",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: atomic reference independently parsed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: 120 window pixels",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: all 120 window pixels valid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: all kept pixels raw status 1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: summary error median",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: summary flux minimum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1608: source indices contiguous",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: atomic reference independently parsed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: 120 window pixels",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: all 120 window pixels valid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: all kept pixels raw status 1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: summary error median",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: summary flux minimum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "1611: source indices contiguous",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: atomic reference independently parsed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: 120 window pixels",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: all 120 window pixels valid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: all kept pixels raw status 1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: summary error median",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: summary flux minimum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2374: source indices contiguous",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: atomic reference independently parsed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: 120 window pixels",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: all 120 window pixels valid",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: all kept pixels raw status 1",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: summary error median",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: summary flux minimum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "2382: source indices contiguous",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Total 480 valid pixels",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "checks_passed": 38,
+  "checks_total": 38,
+  "lines": [
+    {
+      "line": 1608,
+      "wavelength_reference_AA": 1608.4508522723688,
+      "total_oscillator_strength": 0.05769998999999999,
+      "full_500km_s_pixels": 500,
+      "window_pixels": 120,
+      "valid_window_pixels": 120,
+      "source_indices": [
+        75986,
+        75987,
+        75988,
+        75989,
+        75990,
+        75991,
+        75992,
+        75993,
+        75994,
+        75995,
+        75996,
+        75997,
+        75998,
+        75999,
+        76000,
+        76001,
+        76002,
+        76003,
+        76004,
+        76005,
+        76006,
+        76007,
+        76008,
+        76009,
+        76010,
+        76011,
+        76012,
+        76013,
+        76014,
+        76015,
+        76016,
+        76017,
+        76018,
+        76019,
+        76020,
+        76021,
+        76022,
+        76023,
+        76024,
+        76025,
+        76026,
+        76027,
+        76028,
+        76029,
+        76030,
+        76031,
+        76032,
+        76033,
+        76034,
+        76035,
+        76036,
+        76037,
+        76038,
+        76039,
+        76040,
+        76041,
+        76042,
+        76043,
+        76044,
+        76045,
+        76046,
+        76047,
+        76048,
+        76049,
+        76050,
+        76051,
+        76052,
+        76053,
+        76054,
+        76055,
+        76056,
+        76057,
+        76058,
+        76059,
+        76060,
+        76061,
+        76062,
+        76063,
+        76064,
+        76065,
+        76066,
+        76067,
+        76068,
+        76069,
+        76070,
+        76071,
+        76072,
+        76073,
+        76074,
+        76075,
+        76076,
+        76077,
+        76078,
+        76079,
+        76080,
+        76081,
+        76082,
+        76083,
+        76084,
+        76085,
+        76086,
+        76087,
+        76088,
+        76089,
+        76090,
+        76091,
+        76092,
+        76093,
+        76094,
+        76095,
+        76096,
+        76097,
+        76098,
+        76099,
+        76100,
+        76101,
+        76102,
+        76103,
+        76104,
+        76105
+      ],
+      "source_indices_sha256": "155305e50589cbad9d8034adb2d1d39ea56f70c7304a847069ffaf15f45eee89",
+      "velocity_range_km_s": [
+        -109.04461795054027,
+        128.9545881722583
+      ],
+      "native_spacing_km_s": 1.9999933288614358,
+      "pixels_flux_below_0p05": 7,
+      "pixels_flux_below_3expected_sigma": 0,
+      "bands": [
+        {
+          "velocity_limits_km_s": [
+            -110,
+            -95
+          ],
+          "pixels": 8,
+          "weighted_mean_flux": 0.9978333690883243,
+          "diagonal_mean_standard_error": 0.0031314192208430486,
+          "min_flux": 0.9853574380196948,
+          "velocity_at_min_km_s": -95.04466464912831
+        },
+        {
+          "velocity_limits_km_s": [
+            120,
+            130
+          ],
+          "pixels": 5,
+          "weighted_mean_flux": 0.9942973155247212,
+          "diagonal_mean_standard_error": 0.004073931268888364,
+          "min_flux": 0.9874630583197714,
+          "velocity_at_min_km_s": 128.9545881722583
+        },
+        {
+          "velocity_limits_km_s": [
+            -90,
+            -65
+          ],
+          "pixels": 13,
+          "weighted_mean_flux": 0.9607825196827295,
+          "diagonal_mean_standard_error": 0.0023941909339251564,
+          "min_flux": 0.8582874976436379,
+          "velocity_at_min_km_s": -77.0447246902316
+        },
+        {
+          "velocity_limits_km_s": [
+            -60,
+            30
+          ],
+          "pixels": 45,
+          "weighted_mean_flux": 0.17636143599947277,
+          "diagonal_mean_standard_error": 0.0006414669762341563,
+          "min_flux": 0.00721887160375472,
+          "velocity_at_min_km_s": 2.9550084603508817
+        },
+        {
+          "velocity_limits_km_s": [
+            60,
+            115
+          ],
+          "pixels": 28,
+          "weighted_mean_flux": 0.8817669114097748,
+          "diagonal_mean_standard_error": 0.0015890171918463822,
+          "min_flux": 0.7103633063230569,
+          "velocity_at_min_km_s": 82.95474161088632
+        },
+        {
+          "velocity_limits_km_s": [
+            -20,
+            20
+          ],
+          "pixels": 20,
+          "weighted_mean_flux": 0.06896541274569083,
+          "diagonal_mean_standard_error": 0.0007238125520330507,
+          "min_flux": 0.00721887160375472,
+          "velocity_at_min_km_s": 2.9550084603508817
+        },
+        {
+          "velocity_limits_km_s": [
+            130,
+            145
+          ],
+          "pixels": 8,
+          "weighted_mean_flux": 1.0024639363896661,
+          "diagonal_mean_standard_error": 0.0031817586175629004,
+          "min_flux": 0.9765756063579816,
+          "velocity_at_min_km_s": 144.95453480255617
+        }
+      ]
+    },
+    {
+      "line": 1611,
+      "wavelength_reference_AA": 1611.200368969589,
+      "total_oscillator_strength": 0.00138,
+      "full_500km_s_pixels": 500,
+      "window_pixels": 120,
+      "valid_window_pixels": 120,
+      "source_indices": [
+        76242,
+        76243,
+        76244,
+        76245,
+        76246,
+        76247,
+        76248,
+        76249,
+        76250,
+        76251,
+        76252,
+        76253,
+        76254,
+        76255,
+        76256,
+        76257,
+        76258,
+        76259,
+        76260,
+        76261,
+        76262,
+        76263,
+        76264,
+        76265,
+        76266,
+        76267,
+        76268,
+        76269,
+        76270,
+        76271,
+        76272,
+        76273,
+        76274,
+        76275,
+        76276,
+        76277,
+        76278,
+        76279,
+        76280,
+        76281,
+        76282,
+        76283,
+        76284,
+        76285,
+        76286,
+        76287,
+        76288,
+        76289,
+        76290,
+        76291,
+        76292,
+        76293,
+        76294,
+        76295,
+        76296,
+        76297,
+        76298,
+        76299,
+        76300,
+        76301,
+        76302,
+        76303,
+        76304,
+        76305,
+        76306,
+        76307,
+        76308,
+        76309,
+        76310,
+        76311,
+        76312,
+        76313,
+        76314,
+        76315,
+        76316,
+        76317,
+        76318,
+        76319,
+        76320,
+        76321,
+        76322,
+        76323,
+        76324,
+        76325,
+        76326,
+        76327,
+        76328,
+        76329,
+        76330,
+        76331,
+        76332,
+        76333,
+        76334,
+        76335,
+        76336,
+        76337,
+        76338,
+        76339,
+        76340,
+        76341,
+        76342,
+        76343,
+        76344,
+        76345,
+        76346,
+        76347,
+        76348,
+        76349,
+        76350,
+        76351,
+        76352,
+        76353,
+        76354,
+        76355,
+        76356,
+        76357,
+        76358,
+        76359,
+        76360,
+        76361
+      ],
+      "source_indices_sha256": "a79381acc79bf6a05767f75639d2f639ecca739ebd9f938c6d2f9124941349ac",
+      "velocity_range_km_s": [
+        -109.07978078499025,
+        128.9194253380731
+      ],
+      "native_spacing_km_s": 1.9999933288567178,
+      "pixels_flux_below_0p05": 0,
+      "pixels_flux_below_3expected_sigma": 0,
+      "bands": [
+        {
+          "velocity_limits_km_s": [
+            -110,
+            -95
+          ],
+          "pixels": 8,
+          "weighted_mean_flux": 0.9949260427235803,
+          "diagonal_mean_standard_error": 0.003264855070754563,
+          "min_flux": 0.9837102723063722,
+          "velocity_at_min_km_s": -103.07980079857572
+        },
+        {
+          "velocity_limits_km_s": [
+            120,
+            130
+          ],
+          "pixels": 5,
+          "weighted_mean_flux": 0.9875093828207993,
+          "diagonal_mean_standard_error": 0.0040686591654989996,
+          "min_flux": 0.9821271464260806,
+          "velocity_at_min_km_s": 128.9194253380731
+        },
+        {
+          "velocity_limits_km_s": [
+            -90,
+            -65
+          ],
+          "pixels": 13,
+          "weighted_mean_flux": 0.9891173402943584,
+          "diagonal_mean_standard_error": 0.0025921944847421296,
+          "min_flux": 0.9743750843806486,
+          "velocity_at_min_km_s": -77.07988752472572
+        },
+        {
+          "velocity_limits_km_s": [
+            -60,
+            30
+          ],
+          "pixels": 45,
+          "weighted_mean_flux": 0.9524622077750073,
+          "diagonal_mean_standard_error": 0.0013684356382169022,
+          "min_flux": 0.846989577991619,
+          "velocity_at_min_km_s": 2.919845625884546
+        },
+        {
+          "velocity_limits_km_s": [
+            60,
+            115
+          ],
+          "pixels": 28,
+          "weighted_mean_flux": 0.9860674527686142,
+          "diagonal_mean_standard_error": 0.0017233039991659672,
+          "min_flux": 0.9700758736790407,
+          "velocity_at_min_km_s": 84.9195721050139
+        },
+        {
+          "velocity_limits_km_s": [
+            -20,
+            20
+          ],
+          "pixels": 20,
+          "weighted_mean_flux": 0.9161262846461806,
+          "diagonal_mean_standard_error": 0.0020210488404504034,
+          "min_flux": 0.846989577991619,
+          "velocity_at_min_km_s": 2.919845625884546
+        },
+        {
+          "velocity_limits_km_s": [
+            130,
+            145
+          ],
+          "pixels": 8,
+          "weighted_mean_flux": 0.9814696408469064,
+          "diagonal_mean_standard_error": 0.003227703664834898,
+          "min_flux": 0.9690753686466268,
+          "velocity_at_min_km_s": 144.91937196800825
+        }
+      ]
+    },
+    {
+      "line": 2374,
+      "wavelength_reference_AA": 2374.4600639902396,
+      "total_oscillator_strength": 0.0313,
+      "full_500km_s_pixels": 500,
+      "window_pixels": 120,
+      "valid_window_pixels": 120,
+      "source_indices": [
+        134371,
+        134372,
+        134373,
+        134374,
+        134375,
+        134376,
+        134377,
+        134378,
+        134379,
+        134380,
+        134381,
+        134382,
+        134383,
+        134384,
+        134385,
+        134386,
+        134387,
+        134388,
+        134389,
+        134390,
+        134391,
+        134392,
+        134393,
+        134394,
+        134395,
+        134396,
+        134397,
+        134398,
+        134399,
+        134400,
+        134401,
+        134402,
+        134403,
+        134404,
+        134405,
+        134406,
+        134407,
+        134408,
+        134409,
+        134410,
+        134411,
+        134412,
+        134413,
+        134414,
+        134415,
+        134416,
+        134417,
+        134418,
+        134419,
+        134420,
+        134421,
+        134422,
+        134423,
+        134424,
+        134425,
+        134426,
+        134427,
+        134428,
+        134429,
+        134430,
+        134431,
+        134432,
+        134433,
+        134434,
+        134435,
+        134436,
+        134437,
+        134438,
+        134439,
+        134440,
+        134441,
+        134442,
+        134443,
+        134444,
+        134445,
+        134446,
+        134447,
+        134448,
+        134449,
+        134450,
+        134451,
+        134452,
+        134453,
+        134454,
+        134455,
+        134456,
+        134457,
+        134458,
+        134459,
+        134460,
+        134461,
+        134462,
+        134463,
+        134464,
+        134465,
+        134466,
+        134467,
+        134468,
+        134469,
+        134470,
+        134471,
+        134472,
+        134473,
+        134474,
+        134475,
+        134476,
+        134477,
+        134478,
+        134479,
+        134480,
+        134481,
+        134482,
+        134483,
+        134484,
+        134485,
+        134486,
+        134487,
+        134488,
+        134489,
+        134490
+      ],
+      "source_indices_sha256": "0cb3f4b18e677ac072818dd1106f0a6174dcd636b0ed679b489955f1deecd521",
+      "velocity_range_km_s": [
+        -108.16419010859437,
+        129.83501601417936
+      ],
+      "native_spacing_km_s": 1.9999933288639227,
+      "pixels_flux_below_0p05": 6,
+      "pixels_flux_below_3expected_sigma": 3,
+      "bands": [
+        {
+          "velocity_limits_km_s": [
+            -110,
+            -95
+          ],
+          "pixels": 7,
+          "weighted_mean_flux": 0.9640380076587735,
+          "diagonal_mean_standard_error": 0.008774511921806123,
+          "min_flux": 0.9518577789090612,
+          "velocity_at_min_km_s": -96.16423013608656
+        },
+        {
+          "velocity_limits_km_s": [
+            120,
+            130
+          ],
+          "pixels": 5,
+          "weighted_mean_flux": 0.9891329116884178,
+          "diagonal_mean_standard_error": 0.01022608844661346,
+          "min_flux": 0.9640405290653921,
+          "velocity_at_min_km_s": 125.83502935667372
+        },
+        {
+          "velocity_limits_km_s": [
+            -90,
+            -65
+          ],
+          "pixels": 12,
+          "weighted_mean_flux": 0.9395876546962404,
+          "diagonal_mean_standard_error": 0.006682274386267483,
+          "min_flux": 0.8576454512025345,
+          "velocity_at_min_km_s": -78.16429017718275
+        },
+        {
+          "velocity_limits_km_s": [
+            -60,
+            30
+          ],
+          "pixels": 45,
+          "weighted_mean_flux": 0.3142242072454713,
+          "diagonal_mean_standard_error": 0.0022904836073714815,
+          "min_flux": 0.010506722550190235,
+          "velocity_at_min_km_s": 5.83542963084174
+        },
+        {
+          "velocity_limits_km_s": [
+            60,
+            115
+          ],
+          "pixels": 27,
+          "weighted_mean_flux": 0.9029845838873287,
+          "diagonal_mean_standard_error": 0.004392391455332185,
+          "min_flux": 0.7385536664959877,
+          "velocity_at_min_km_s": 81.8351761239295
+        },
+        {
+          "velocity_limits_km_s": [
+            -20,
+            20
+          ],
+          "pixels": 20,
+          "weighted_mean_flux": 0.14311188499074215,
+          "diagonal_mean_standard_error": 0.002796199747841357,
+          "min_flux": 0.010506722550190235,
+          "velocity_at_min_km_s": 5.83542963084174
+        },
+        {
+          "velocity_limits_km_s": [
+            130,
+            145
+          ],
+          "pixels": 7,
+          "weighted_mean_flux": 0.9888721082703945,
+          "diagonal_mean_standard_error": 0.008693235144638791,
+          "min_flux": 0.9766813922250906,
+          "velocity_at_min_km_s": 141.83497598665247
+        }
+      ]
+    },
+    {
+      "line": 2382,
+      "wavelength_reference_AA": 2382.7639949541563,
+      "total_oscillator_strength": 0.32,
+      "full_500km_s_pixels": 500,
+      "window_pixels": 120,
+      "valid_window_pixels": 120,
+      "source_indices": [
+        134894,
+        134895,
+        134896,
+        134897,
+        134898,
+        134899,
+        134900,
+        134901,
+        134902,
+        134903,
+        134904,
+        134905,
+        134906,
+        134907,
+        134908,
+        134909,
+        134910,
+        134911,
+        134912,
+        134913,
+        134914,
+        134915,
+        134916,
+        134917,
+        134918,
+        134919,
+        134920,
+        134921,
+        134922,
+        134923,
+        134924,
+        134925,
+        134926,
+        134927,
+        134928,
+        134929,
+        134930,
+        134931,
+        134932,
+        134933,
+        134934,
+        134935,
+        134936,
+        134937,
+        134938,
+        134939,
+        134940,
+        134941,
+        134942,
+        134943,
+        134944,
+        134945,
+        134946,
+        134947,
+        134948,
+        134949,
+        134950,
+        134951,
+        134952,
+        134953,
+        134954,
+        134955,
+        134956,
+        134957,
+        134958,
+        134959,
+        134960,
+        134961,
+        134962,
+        134963,
+        134964,
+        134965,
+        134966,
+        134967,
+        134968,
+        134969,
+        134970,
+        134971,
+        134972,
+        134973,
+        134974,
+        134975,
+        134976,
+        134977,
+        134978,
+        134979,
+        134980,
+        134981,
+        134982,
+        134983,
+        134984,
+        134985,
+        134986,
+        134987,
+        134988,
+        134989,
+        134990,
+        134991,
+        134992,
+        134993,
+        134994,
+        134995,
+        134996,
+        134997,
+        134998,
+        134999,
+        135000,
+        135001,
+        135002,
+        135003,
+        135004,
+        135005,
+        135006,
+        135007,
+        135008,
+        135009,
+        135010,
+        135011,
+        135012,
+        135013
+      ],
+      "source_indices_sha256": "348d9a85bdae1f26e6b7698003d3c6f438fd03a696d66f90b2e65f7a5023548c",
+      "velocity_range_km_s": [
+        -108.76896272095982,
+        129.23024340180496
+      ],
+      "native_spacing_km_s": 1.9999933288724563,
+      "pixels_flux_below_0p05": 34,
+      "pixels_flux_below_3expected_sigma": 33,
+      "bands": [
+        {
+          "velocity_limits_km_s": [
+            -110,
+            -95
+          ],
+          "pixels": 7,
+          "weighted_mean_flux": 0.9651062806849035,
+          "diagonal_mean_standard_error": 0.010594373244391837,
+          "min_flux": 0.9457203287026503,
+          "velocity_at_min_km_s": -106.76896939237871
+        },
+        {
+          "velocity_limits_km_s": [
+            120,
+            130
+          ],
+          "pixels": 5,
+          "weighted_mean_flux": 0.9726507625293154,
+          "diagonal_mean_standard_error": 0.011566994472665782,
+          "min_flux": 0.9463511668204065,
+          "velocity_at_min_km_s": 123.2302634153955
+        },
+        {
+          "velocity_limits_km_s": [
+            -90,
+            -65
+          ],
+          "pixels": 12,
+          "weighted_mean_flux": 0.8675121411432128,
+          "diagonal_mean_standard_error": 0.007113189773100594,
+          "min_flux": 0.650878862038389,
+          "velocity_at_min_km_s": -76.76906946069099
+        },
+        {
+          "velocity_limits_km_s": [
+            -60,
+            30
+          ],
+          "pixels": 45,
+          "weighted_mean_flux": 0.04130641474431599,
+          "diagonal_mean_standard_error": 0.0018492729408578663,
+          "min_flux": -0.010378623592273135,
+          "velocity_at_min_km_s": 11.230637004832788
+        },
+        {
+          "velocity_limits_km_s": [
+            60,
+            115
+          ],
+          "pixels": 27,
+          "weighted_mean_flux": 0.39864050379867094,
+          "diagonal_mean_standard_error": 0.0037820213158218617,
+          "min_flux": 0.08188608839136635,
+          "velocity_at_min_km_s": 83.23039684008644
+        },
+        {
+          "velocity_limits_km_s": [
+            -20,
+            20
+          ],
+          "pixels": 20,
+          "weighted_mean_flux": 0.010479604442189844,
+          "diagonal_mean_standard_error": 0.0025437028757783853,
+          "min_flux": -0.010378623592273135,
+          "velocity_at_min_km_s": 11.230637004832788
+        },
+        {
+          "velocity_limits_km_s": [
+            130,
+            145
+          ],
+          "pixels": 7,
+          "weighted_mean_flux": 0.9890945763665645,
+          "diagonal_mean_standard_error": 0.009869985165005417,
+          "min_flux": 0.9604220468200134,
+          "velocity_at_min_km_s": 143.23019670319343
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Frozen before relative-shift fitting is a supplied protocol declaration, not independently provable from a file hash or timestamp. Choices are morphology-informed and exploratory, not blind preregistration.",
+    "Fe II 1611 is a legitimate weak central-complex column/saturation constraint; independent velocity information is much weaker and purity cannot be proven from the selected profiles alone.",
+    "Extensive Fe II 2382 saturation and near-black 1608/2374 cores reduce unique component identifiability.",
+    "Short edge intervals include a few-percent continuum departure, especially 2374/2382 on the blue side; local continuum parameters must be fitted.",
+    "The separate red 1608 absorption begins outside approximately +145 km/s, with about 15 km/s guard to the fixed +130 boundary; finite line wings or unidentified weak blends are not excluded.",
+    "No formal detection significance is inferred from diagonal-error descriptive means; native pixel covariance and calibration uncertainty are not estimated here.",
+    "No alpha or cosmic-time response is measured by pre-fit selection."
+  ]
+}

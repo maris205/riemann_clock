@@ -1,0 +1,161 @@
+{
+  "checked_utc": "2026-09-20T16:04:38.262015+00:00",
+  "files": [
+    {
+      "file": "crossref.txt",
+      "bytes": 26316,
+      "sha256": "bf7fd1a66bbd017cf38f8eb4f99aee3b9fdb3541fa5a88aa794ca980ad6590e9"
+    },
+    {
+      "file": "datacite_search.txt",
+      "bytes": 80771,
+      "sha256": "63d8c1e891c0e3568a30c9c95728c0a5ac9354f741a15bfc2b0522eb2d0335cd"
+    },
+    {
+      "file": "github_harpslfc_tree.txt",
+      "bytes": 134517,
+      "sha256": "750d3f75a196b56306fc21b157b878f0a9b97ac34775ac2bd6efefecb38c33ef"
+    },
+    {
+      "file": "github_submitted_tree.txt",
+      "bytes": 924,
+      "sha256": "770e3237e8446c955d1ded0d7f16cc5f727c3dd367b86d693fe21bb34a2f2e57"
+    },
+    {
+      "file": "github_user.txt",
+      "bytes": 57037,
+      "sha256": "7e5421fc90c51bca66203c3fb3d8e74e516fcbfd0e4d38afc4445bd98dc4df83"
+    },
+    {
+      "file": "github_user2.txt",
+      "bytes": 130,
+      "sha256": "66de64cb1f3ac2f17355bd61be3caaef78dd0622c0ef8f810d2f605bb6f8b5fb"
+    },
+    {
+      "file": "github_website_tree.txt",
+      "bytes": 661,
+      "sha256": "b796a8e4990ed2510d28fb57d35a8a83cb0ec81702fbcdd70e5caecbc375a50d"
+    },
+    {
+      "file": "harperfect.txt",
+      "bytes": 185828,
+      "sha256": "fd7a5b184213606f3a2871f0a2f9a278b3182d156931e09404fac6f272866f75"
+    },
+    {
+      "file": "inaf_bundle_LICENSE.txt",
+      "bytes": 2139,
+      "sha256": "f2715758346a317880cbf7371c34b480791f78e70c4dee247fe157f18328820d"
+    },
+    {
+      "file": "inaf_bundle_ORIGINAL.txt",
+      "bytes": 2989,
+      "sha256": "60e1a043222f6ae999546ccb4aebc7968a80515c9c368fa48a6608d842794d15"
+    },
+    {
+      "file": "inaf_bundle_TEXT.txt",
+      "bytes": 2388,
+      "sha256": "46bfefddd3534a92a2f457a9f2cd52d74ef77e16476b6db01c2e0cf54201eb7e"
+    },
+    {
+      "file": "inaf_bundle_THUMBNAIL.txt",
+      "bytes": 2403,
+      "sha256": "b1aaf43a168ec07af383c7d0b49d3f0febc7d6726bcbdf280824b91cd6bc760a"
+    },
+    {
+      "file": "inaf_bundles.txt",
+      "bytes": 4355,
+      "sha256": "d315f7dfb62cbb4fab6930670414c92d04cefcfaafb77fbbe468ce5ea8d3ac15"
+    },
+    {
+      "file": "milakovic.txt",
+      "bytes": 4558,
+      "sha256": "4963d678504b5c678a8fc234a59be696cf1923bfd965ef17e72894f8bf2c1c36"
+    },
+    {
+      "file": "oup_abstract.txt",
+      "bytes": 5564,
+      "sha256": "ac543019efba266f6e8111277b3d05ba2be53f5163d4b989660ccfedf6bc494e"
+    },
+    {
+      "file": "oup_article.txt",
+      "bytes": 5537,
+      "sha256": "1a65a916f80ac07f0685c079aa49611ce5116ab91bb6dad59c012d22a23b6d49"
+    },
+    {
+      "file": "oup_cdnsupp.txt",
+      "bytes": 146,
+      "sha256": "95769eb326e23b8cd1b7a9b82d884a713a9724f49b2794ac5b967d8cd706de83"
+    },
+    {
+      "file": "oup_citation.txt",
+      "bytes": 5741,
+      "sha256": "596e5f7ef0e958f355cfcf9eb6f983651cb0e038f951859ceb0a1fb1eb98b05b"
+    },
+    {
+      "file": "oup_full.txt",
+      "bytes": 287,
+      "sha256": "b0fef766bc93cef89befd5e791d39aa21eabc4f4ffeb035d45e600d4796f40cc"
+    },
+    {
+      "file": "oup_http.txt",
+      "bytes": 5537,
+      "sha256": "43f40c1ab4bde3dc37f51c53038ba349f333089c7d4d04eb4d2a4906b75d3c26"
+    },
+    {
+      "file": "oup_minimal.txt",
+      "bytes": 418393,
+      "sha256": "7a49dab157c9ed2eb9f453aa8148ae8d0f1fdeb837b5c2d4e2a8435056daefcd"
+    },
+    {
+      "file": "oup_minimal_query.txt",
+      "bytes": 418393,
+      "sha256": "7a49dab157c9ed2eb9f453aa8148ae8d0f1fdeb837b5c2d4e2a8435056daefcd"
+    },
+    {
+      "file": "oup_supp.txt",
+      "bytes": 5588,
+      "sha256": "560d7325c254f1402e0e0ab2da73b3673fbd64ef7af953db6fe9af75366dc3f4"
+    },
+    {
+      "file": "oup_supp_api.txt",
+      "bytes": 5546,
+      "sha256": "4c07edd900ca12b91c8a6050856c40ab893dcdfc94979bd9458a40a668e7a93c"
+    },
+    {
+      "file": "oup_supp_data.txt",
+      "bytes": 5618,
+      "sha256": "7865bf63dab0ca12250544621e38564e182757a936c31e9465e14c5fa6a45d7e"
+    },
+    {
+      "file": "oup_supp_minimal.txt",
+      "bytes": 267,
+      "sha256": "2fa69b892a14eda564c8561c97191c362533346f1c2b31bd148b093a0dbefc92"
+    },
+    {
+      "file": "oup_suppl_file.txt",
+      "bytes": 5742,
+      "sha256": "9bbd4a4f6e3af4be982a09b352d37e9b708ff02dc590ba771a451525c337233e"
+    },
+    {
+      "file": "oup_xml.txt",
+      "bytes": 287,
+      "sha256": "c8f1d3eeb65717439efb567d626d6d408cba04b3aa47e3dccd84c2f17ada5f35"
+    },
+    {
+      "file": "supp_guess.txt",
+      "bytes": 5537,
+      "sha256": "9c0b7cba8361ac143a5abdc4c7021f651139a7e3629530a2a7a39c3314a3c296"
+    },
+    {
+      "file": "supplement_candidate_requests.json",
+      "bytes": 2750,
+      "sha256": "0d4233d5dde8215ed10a42a2303e657590c5a39803bb08b4b3f052df02104a6a"
+    },
+    {
+      "file": "zenodo_search.txt",
+      "bytes": 5194,
+      "sha256": "00c72fe2d35ee5baa90af5bfe110f1d7cb75726a381bb24b2943baf7fc1d879e"
+    }
+  ],
+  "scope": "Read-only public metadata and HTML acquisition; no HARPS science spectrum downloaded; no upstream code executed."
+}

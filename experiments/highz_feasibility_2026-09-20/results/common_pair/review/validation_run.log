@@ -1,0 +1,368 @@
+DONE J232128-105122 probe_free D -339.9705170639548 chi 68.99884191779138 ok False n 0
+DONE J232128-105122 probe_0_0 D 0.0 chi 100.75171624953106 ok False n 0
+DONE J232128-105122 probe_minus1_0 D -1000.0 chi 189.47973108437034 ok False n 0
+DONE J232128-105122 probe_1_0 D 1000.0 chi 560.7834210274328 ok False n 0
+DONE J004131-493611 probe_free D 25.635436028083145 chi 104.53408497638847 ok False n 0
+DONE J004131-493611 probe_0_0 D 0.0 chi 104.95804545121948 ok False n 0
+DONE J004131-493611 probe_minus1_0 D -1000.0 chi 810.3786830903161 ok False n 0
+DONE J004131-493611 probe_1_0 D 1000.0 chi 701.094851416428 ok False n 0
+{
+  "scope": "Independent common-pair mathematical/source replay; no optimization or physical significance certification.",
+  "passed": true,
+  "n_checks": 7863,
+  "partial": false,
+  "n_new_fit_products": 160,
+  "wrapper_probes": [
+    {
+      "target": "J232128-105122",
+      "fixed_shift_km_s": null,
+      "npar_optimized": 33
+    },
+    {
+      "target": "J232128-105122",
+      "fixed_shift_km_s": 0.0,
+      "npar_optimized": 32
+    },
+    {
+      "target": "J232128-105122",
+      "fixed_shift_km_s": -1.0,
+      "npar_optimized": 32
+    },
+    {
+      "target": "J232128-105122",
+      "fixed_shift_km_s": 1.0,
+      "npar_optimized": 32
+    },
+    {
+      "target": "J004131-493611",
+      "fixed_shift_km_s": null,
+      "npar_optimized": 32
+    },
+    {
+      "target": "J004131-493611",
+      "fixed_shift_km_s": 0.0,
+      "npar_optimized": 31
+    },
+    {
+      "target": "J004131-493611",
+      "fixed_shift_km_s": -1.0,
+      "npar_optimized": 31
+    },
+    {
+      "target": "J004131-493611",
+      "fixed_shift_km_s": 1.0,
+      "npar_optimized": 31
+    }
+  ],
+  "validator_sha256": "e10733a9f8a8b3483e3444577759838823f30fa7b367194ba48b3b4d02ad583f",
+  "baseline_results": [
+    {
+      "target": "J232128-105122",
+      "contrast_m_s": -339.9705170639548,
+      "sigma_qr_m_s": 179.58213190546894,
+      "sigma_svd_m_s": 179.58213190546863,
+      "nuisance_rank": 32,
+      "full_rank": 33,
+      "normalized_singular_ratio": 0.020668544806759965,
+      "active_nuisance_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "finite_differences": [
+        {
+          "label": "shift_2382",
+          "relative_norm_error": 1.8047521210532398e-08
+        },
+        {
+          "label": "logN_0",
+          "relative_norm_error": 2.401891923191437e-10
+        },
+        {
+          "label": "v_0",
+          "relative_norm_error": 4.27473634451661e-08
+        },
+        {
+          "label": "logb_0",
+          "relative_norm_error": 1.8686991350760695e-10
+        },
+        {
+          "label": "cont0_2374",
+          "relative_norm_error": 3.226658762117357e-11
+        },
+        {
+          "label": "cont1_2382",
+          "relative_norm_error": 8.908900300093682e-11
+        },
+        {
+          "label": "zero_2382",
+          "relative_norm_error": 1.7240226039159384e-11
+        },
+        {
+          "label": "logfwhm_2382",
+          "relative_norm_error": 4.447807932332826e-09
+        },
+        {
+          "label": "shift_2260",
+          "relative_norm_error": 4.088611690853875e-08
+        }
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "contrast_m_s": 25.635436028083145,
+      "sigma_qr_m_s": 327.01904309711176,
+      "sigma_svd_m_s": 327.0190430971121,
+      "nuisance_rank": 31,
+      "full_rank": 32,
+      "normalized_singular_ratio": 0.0013890970088152558,
+      "active_nuisance_bounds": [
+        "zero_2374"
+      ],
+      "finite_differences": [
+        {
+          "label": "shift_2382",
+          "relative_norm_error": 5.5328474813297143e-08
+        },
+        {
+          "label": "logN_0",
+          "relative_norm_error": 8.434893227159411e-10
+        },
+        {
+          "label": "v_0",
+          "relative_norm_error": 2.882001764296089e-08
+        },
+        {
+          "label": "logb_0",
+          "relative_norm_error": 2.470530010229107e-09
+        },
+        {
+          "label": "cont0_2374",
+          "relative_norm_error": 1.1637459848259574e-11
+        },
+        {
+          "label": "cont1_2382",
+          "relative_norm_error": 5.528852579222269e-11
+        },
+        {
+          "label": "zero_2382",
+          "relative_norm_error": 8.426439203044044e-12
+        },
+        {
+          "label": "logfwhm_2382",
+          "relative_norm_error": 5.284701543612901e-09
+        },
+        {
+          "label": "shift_1608",
+          "relative_norm_error": 6.036760266297792e-08
+        }
+      ]
+    }
+  ],
+  "profile_results": [
+    {
+      "target": "J232128-105122",
+      "D_m_s": -339.97055338286276,
+      "sigma_local_m_s": 179.5813132807154,
+      "reference_is_unrestricted": false,
+      "all_selected_terminated": true,
+      "n_profile_points": 22,
+      "n_new_fit_products": 48,
+      "contours": [
+        {
+          "delta_chi2_level": 1.0,
+          "lower": {
+            "crossing_m_s": -495.1777061255662,
+            "bracket_m_s": [
+              -497.10435999541795,
+              -474.6566733364815
+            ],
+            "bracket_delta_chi2": [
+              0.7539983937723207,
+              1.0230963008294793
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+              "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": -187.8808527239563,
+            "bracket_m_s": [
+              -205.28443342924402,
+              -182.83674677030757
+            ],
+            "bracket_delta_chi2": [
+              0.7796653016369959,
+              1.0638599367928094
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+              "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        },
+        {
+          "delta_chi2_level": 3.84,
+          "lower": {
+            "crossing_m_s": -654.33685003295,
+            "bracket_m_s": [
+              -676.6858532669095,
+              -654.238166607973
+            ],
+            "bracket_delta_chi2": [
+              3.8377582407981095,
+              4.347695022385949
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+              "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": -43.73622816927369,
+            "bracket_m_s": [
+              -52.94873510671901,
+              -35.29915673781267
+            ],
+            "bracket_delta_chi2": [
+              3.5982166637187873,
+              4.0614319395353675
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json",
+              "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        }
+      ],
+      "full_comparison": {
+        "null_file": "results/common_pair/J232128-105122/refined_h0_from_best_h1.json",
+        "alternative_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+        "chi2_null": 75.15888744252929,
+        "chi2_alternative": 68.99884187763574,
+        "delta_chi2": 6.160045564893551,
+        "added_parameters": 4,
+        "null_optimizer_success": true,
+        "alternative_optimizer_success": true,
+        "null_active_bounds": [
+          "zero_2260",
+          "zero_2374"
+        ],
+        "null_npar": 29,
+        "alternative_npar": 33,
+        "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+      }
+    },
+    {
+      "target": "J004131-493611",
+      "D_m_s": -120.1100480781359,
+      "sigma_local_m_s": 399.412200684418,
+      "reference_is_unrestricted": false,
+      "all_selected_terminated": true,
+      "n_profile_points": 21,
+      "n_new_fit_products": 112,
+      "contours": [
+        {
+          "delta_chi2_level": 1.0,
+          "lower": {
+            "crossing_m_s": -264.85733105482973,
+            "bracket_m_s": [
+              -269.89090580810006,
+              -219.96395323144534
+            ],
+            "bracket_delta_chi2": [
+              0.46928162550554475,
+              1.059505671893561
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_013_refine1_lower_0_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_015_refine1_lower_1_cross_h0.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": 39.957200932369105,
+            "bracket_m_s": [
+              39.7988811142415,
+              59.69832167136225
+            ],
+            "bracket_delta_chi2": [
+              0.9980949824719119,
+              1.2375393142605589
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_reverse_009.json",
+              "results/common_pair/J004131-493611/refined_reverse_008.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        },
+        {
+          "delta_chi2_level": 3.84,
+          "lower": {
+            "crossing_m_s": -408.7416084012579,
+            "bracket_m_s": [
+              -419.6717635380643,
+              -369.74481096140954
+            ],
+            "bracket_delta_chi2": [
+              2.9176190162604883,
+              4.098528082031962
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_019_refine3.84_lower_1_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_017_refine3.84_lower_0_cross_h0.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": 227.32573002866624,
+            "bracket_m_s": [
+              179.45166738179248,
+              229.3786199584472
+            ],
+            "bracket_delta_chi2": [
+              3.108134381506261,
+              3.8713831639742153
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_018_refine3.84_upper_0_warm.json",
+              "results/common_pair/J004131-493611/refined_profile_020_refine3.84_upper_1_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        }
+      ],
+      "full_comparison": {
+        "null_file": "results/common_pair/J004131-493611/refined_h0_from_best_h1.json",
+        "alternative_file": "results/common_pair/J004131-493611/refined_reverse_011.json",
+        "chi2_null": 95.22846063001326,
+        "chi2_alternative": 87.25491207356842,
+        "delta_chi2": 7.97354855644484,
+        "added_parameters": 2,
+        "null_optimizer_success": true,
+        "alternative_optimizer_success": true,
+        "null_active_bounds": [
+          "logb_1",
+          "zero_2374"
+        ],
+        "null_npar": 30,
+        "alternative_npar": 32,
+        "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+      }
+    }
+  ],
+  "failures": []
+}

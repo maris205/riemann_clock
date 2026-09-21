@@ -1,0 +1,134 @@
+bounded_h0: ndata=511, npar=147, initial chi2=398.117761881, mapping=0.557908
+bounded_h0: nfev 25, best chi2 398.099552572, trial 398.099552572
+bounded_h0: nfev 50, best chi2 398.077053677, trial 398.077053677
+bounded_h0: nfev 75, best chi2 398.061655320, trial 398.061655320
+bounded_h0: nfev 100, best chi2 398.051509420, trial 398.051509420
+bounded_h0: nfev 125, best chi2 398.039857500, trial 398.040828933
+bounded_h0: nfev 150, best chi2 398.026853708, trial 398.026853708
+bounded_h0: nfev 175, best chi2 398.006795740, trial 398.006795740
+bounded_h0: nfev 200, best chi2 397.996112800, trial 397.996112800
+bounded_h0: nfev 225, best chi2 397.983100388, trial 397.983100388
+bounded_h0: nfev 250, best chi2 397.974015210, trial 397.974015210
+bounded_h0: nfev 275, best chi2 397.955315878, trial 397.955315878
+bounded_h0: nfev 300, best chi2 397.946126817, trial 397.946126817
+bounded_h0: nfev 325, best chi2 397.941571813, trial 397.942012403
+bounded_h0: nfev 350, best chi2 397.937484834, trial 397.937855734
+bounded_h0: nfev 375, best chi2 397.934003288, trial 397.934003288
+bounded_h0: nfev 400, best chi2 397.931112598, trial 397.931112598
+bounded_h0: nfev 425, best chi2 397.928451673, trial 397.928451673
+bounded_h0: nfev 450, best chi2 397.926911374, trial 397.926911374
+bounded_h0: nfev 475, best chi2 397.926111239, trial 397.926111239
+bounded_h0: nfev 500, best chi2 397.925347355, trial 397.925347355
+bounded_h0: nfev 525, best chi2 397.924647670, trial 397.924647670
+bounded_h0: nfev 550, best chi2 397.923967973, trial 397.923967973
+bounded_h0: nfev 575, best chi2 397.923343403, trial 397.923343403
+bounded_h0: nfev 600, best chi2 397.922726262, trial 397.922726262
+bounded_h0: nfev 625, best chi2 397.921692135, trial 397.921692135
+bounded_h0: nfev 650, best chi2 397.920585385, trial 397.920585385
+bounded_h0: nfev 675, best chi2 397.919961435, trial 397.919961435
+bounded_h0: nfev 700, best chi2 397.919057315, trial 397.919064051
+bounded_h0: nfev 725, best chi2 397.918301281, trial 397.918301281
+bounded_h0: nfev 750, best chi2 397.917833678, trial 397.917833678
+bounded_h0: nfev 775, best chi2 397.917303215, trial 397.917303215
+bounded_h0: nfev 800, best chi2 397.916856888, trial 397.916856888
+bounded_h0: nfev 825, best chi2 397.915335915, trial 397.915335915
+bounded_h0: nfev 850, best chi2 397.914341792, trial 397.914356158
+bounded_h0: nfev 875, best chi2 397.913884544, trial 397.914020755
+bounded_h0: nfev 900, best chi2 397.913507213, trial 397.913507213
+bounded_h0: nfev 925, best chi2 397.913125123, trial 397.913125123
+bounded_h0: nfev 950, best chi2 397.912672567, trial 397.913358687
+bounded_h0: nfev 975, best chi2 397.912385426, trial 397.912385426
+bounded_h0: nfev 1000, best chi2 397.911837549, trial 397.912588784
+bounded_h0: nfev 1025, best chi2 397.911555201, trial 397.911555201
+bounded_h0: nfev 1050, best chi2 397.911196598, trial 397.911196598
+bounded_h0: nfev 1075, best chi2 397.910985958, trial 397.910985958
+bounded_h0: nfev 1100, best chi2 397.910772159, trial 397.910772159
+bounded_h0: nfev 1125, best chi2 397.910562190, trial 397.910562190
+bounded_h0: nfev 1150, best chi2 397.910348886, trial 397.910348886
+bounded_h0: nfev 1175, best chi2 397.910138709, trial 397.910138709
+bounded_h0: nfev 1200, best chi2 397.909924424, trial 397.909924424
+bounded_h0: nfev 1225, best chi2 397.909712434, trial 397.909712434
+bounded_h0: nfev 1250, best chi2 397.909495497, trial 397.909495497
+bounded_h0: nfev 1275, best chi2 397.909279787, trial 397.909279787
+bounded_h0: nfev 1300, best chi2 397.909058274, trial 397.909058274
+bounded_h0: nfev 1325, best chi2 397.908836786, trial 397.908836786
+bounded_h0: nfev 1350, best chi2 397.908608561, trial 397.908608561
+bounded_h0: nfev 1375, best chi2 397.908378795, trial 397.908378795
+bounded_h0: nfev 1400, best chi2 397.908141189, trial 397.908141189
+bounded_h0: nfev 1425, best chi2 397.907900186, trial 397.907900186
+bounded_h0: nfev 1450, best chi2 397.907650033, trial 397.907650033
+bounded_h0: nfev 1475, best chi2 397.907394079, trial 397.907394079
+bounded_h0: nfev 1500, best chi2 397.906994021, trial 397.907071581
+bounded_h0: nfev 1525, best chi2 397.906589415, trial 397.906589415
+bounded_h0: nfev 1550, best chi2 397.905886768, trial 397.905886768
+bounded_h0: nfev 1575, best chi2 397.905443707, trial 397.905478181
+bounded_h0: nfev 1600, best chi2 397.904386936, trial 397.904386936
+bounded_h0: nfev 1625, best chi2 397.903438549, trial 397.903438549
+bounded_h0: nfev 1650, best chi2 397.901936710, trial 397.901936710
+bounded_h0: nfev 1675, best chi2 397.901197153, trial 397.901197153
+bounded_h0: nfev 1700, best chi2 397.900389472, trial 397.900389472
+bounded_h0: nfev 1725, best chi2 397.899528140, trial 397.899528140
+bounded_h0: nfev 1750, best chi2 397.898580572, trial 397.898580572
+bounded_h0: nfev 1775, best chi2 397.897535564, trial 397.897615410
+bounded_h0: nfev 1800, best chi2 397.893344494, trial 397.896382045
+{
+  "name": "bounded_h0",
+  "chi2": 397.8933444935101,
+  "nfev": 1800,
+  "optimizer_success": false,
+  "optimizer_status": 0,
+  "optimality": 2.097251018981669,
+  "stationarity": {
+    "objective": "0.5 * sum squared weighted residuals",
+    "unit_box_gradient_mapping_inf": 0.9632732983195659,
+    "unit_box_mapping_definition": "q=(p-lo)/(hi-lo); gq=(hi-lo)*(J.T@r); infinity norm of q-clip(q-gq,0,1)",
+    "raw_gradient_inf": 2.8067003781393733,
+    "projected_gradient_inf": 0.9777184734930984,
+    "projected_column_normalized_gradient_inf": 0.009691590303625743,
+    "max_bound_violation": 0.0,
+    "nearest_normalized_bound_distance": 4.1908513507883343e-17,
+    "near_lower": [
+      72,
+      73,
+      92,
+      107,
+      110,
+      112,
+      124,
+      126
+    ],
+    "near_upper": [
+      48,
+      60,
+      65,
+      70,
+      77
+    ],
+    "most_nonstationary_parameter_index": 118
+  },
+  "stationarity_criteria": {
+    "scipy_scaled_gradient_below_1e_6": false,
+    "unit_box_mapping_below_1e_5": false
+  },
+  "shifts_km_s": {},
+  "lsf_scale": {
+    "2374": 0.6579546612449484,
+    "2382": 0.6652575062192974,
+    "2600": 0.673810149548671
+  },
+  "active_bounds": [
+    "v_3",
+    "v_15",
+    "v_20",
+    "v_25",
+    "v_27",
+    "v_28",
+    "v_32",
+    "logb_2",
+    "logb_17",
+    "logb_20",
+    "logb_22",
+    "logb_34",
+    "logb_36"
+  ]
+}

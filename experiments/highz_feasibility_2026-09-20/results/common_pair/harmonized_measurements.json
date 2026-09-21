@@ -1,0 +1,358 @@
+{
+  "scope": "Conditional common-observable summaries for feasibility/identifiability only; no accepted cosmological precision measurements.",
+  "comparisons": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "D_m_s": -339.97055338286276,
+      "conditional_sigma_m_s": 179.5813132807154,
+      "profile_grid_D_m_s": [
+        -878.7150331973376,
+        -788.9242865615918,
+        -699.133539925846,
+        -676.6858532669095,
+        -654.238166607973,
+        -609.3427932901001,
+        -519.5520466543544,
+        -497.10435999541795,
+        -474.6566733364815,
+        -429.76130001860855,
+        -339.97055338286276,
+        -250.17980674711694,
+        -205.28443342924402,
+        -182.83674677030757,
+        -160.38906011137112,
+        -70.59831347562535,
+        -52.94873510671901,
+        -35.29915673781267,
+        0.0,
+        19.19243316012048,
+        108.9831797958663,
+        198.77392643161207
+      ],
+      "profile_delta_chi2": [
+        10.402611177442225,
+        7.392019816260614,
+        4.891046112423723,
+        4.347695022385949,
+        3.8377582407981095,
+        2.90693306909165,
+        1.3320793804913507,
+        1.0230963008294793,
+        0.7539983937723207,
+        0.33714405266515257,
+        0.0,
+        0.3447506318267415,
+        0.7796653016369959,
+        1.0638599367928094,
+        1.3929410870135115,
+        3.1636924996668228,
+        3.5982166637187873,
+        4.0614319395353675,
+        5.074388293467209,
+        5.673805240254069,
+        8.937831741081624,
+        12.968112674230369
+      ],
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "profile_all_selected_terminated": true,
+      "profile_contours_closed": true,
+      "profile_baseline_resolved_to_tolerance": true,
+      "unrestricted_reference_gap_chi2": 1.3466632253766875e-09,
+      "point_estimate_reference_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+      "point_estimate_reference_sha256": "3e773d96ab0f5dc0a83b072ee7165cf7e6ebc1a4f6e49e59b74ac6e2094079ea",
+      "ndata": 130,
+      "ncomp": 3,
+      "lines": [
+        2260,
+        2344,
+        2374,
+        2382,
+        2586
+      ],
+      "oversample": 33,
+      "sourcefit_paths": [
+        "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json",
+        "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json"
+      ],
+      "sourcefit_hashes": {
+        "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json": "5bbd6e3d4cb490eeef80feaf22b3fabba26a9e98f02312aa460a78a97d476aea",
+        "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2"
+      },
+      "full_comparison": {
+        "null_file": "results/common_pair/J232128-105122/refined_h0_from_best_h1.json",
+        "alternative_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+        "chi2_null": 75.15888744252929,
+        "chi2_alternative": 68.99884187763574,
+        "delta_chi2": 6.160045564893551,
+        "added_parameters": 4,
+        "null_optimizer_success": true,
+        "alternative_optimizer_success": true,
+        "null_active_bounds": [
+          "zero_2260",
+          "zero_2374"
+        ],
+        "null_npar": 29,
+        "alternative_npar": 33,
+        "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+      },
+      "observable": "D = v(Fe II 2382)-v(Fe II 2374)",
+      "unit": "m/s",
+      "anchor_line": 2374,
+      "target_line": 2382,
+      "log_energy_ratio_sign": "delta ln(E2382/E2374) = -D/c; kinematic ratio only, not an alpha or clock response",
+      "local_sigma_role": "Unconstrained nuisance-tangent curvature in row2 diagonal errors; not reduced-chi-square rescaled or coverage calibrated",
+      "profile_delta1_interval_m_s": [
+        -495.1777061255662,
+        -187.8808527239563
+      ],
+      "profile_delta3p84_interval_m_s": [
+        -654.33685003295,
+        -43.73622816927369
+      ],
+      "profile_is_conditional_connected_contour": true,
+      "precision_measurement": false,
+      "physical_time_inference": false,
+      "other_relative_line_shifts_float": [
+        2260,
+        2344,
+        2586
+      ],
+      "error_kind": "FITS primary row2 expected fluctuation; diagonal errors without reduced-chi-square rescaling",
+      "condition": "Fixed gas architecture, terrestrial isotope mixture, bounded Gaussian LSF/continuum/zero, diagonal row2 errors; missing calibration/covariance/architecture uncertainty",
+      "source_summary_file": "results/common_pair/refined_summary.json",
+      "source_summary_sha256": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857",
+      "profile_crossing_brackets": {
+        "1.0": {
+          "lower": {
+            "coordinate_bracket_m_s": [
+              -497.10435999541795,
+              -474.6566733364815
+            ],
+            "crossing_m_s": -495.1777061255662,
+            "endpoint_fits": [
+              "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+              "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          },
+          "upper": {
+            "coordinate_bracket_m_s": [
+              -205.28443342924402,
+              -182.83674677030757
+            ],
+            "crossing_m_s": -187.8808527239563,
+            "endpoint_fits": [
+              "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+              "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          }
+        },
+        "3.84": {
+          "lower": {
+            "coordinate_bracket_m_s": [
+              -676.6858532669095,
+              -654.238166607973
+            ],
+            "crossing_m_s": -654.33685003295,
+            "endpoint_fits": [
+              "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+              "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          },
+          "upper": {
+            "coordinate_bracket_m_s": [
+              -52.94873510671901,
+              -35.29915673781267
+            ],
+            "crossing_m_s": -43.73622816927369,
+            "endpoint_fits": [
+              "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json",
+              "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          }
+        }
+      }
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "D_m_s": -120.1100480781359,
+      "conditional_sigma_m_s": 399.412200684418,
+      "profile_grid_D_m_s": [
+        -1000.0,
+        -918.9412893046115,
+        -719.2334789979926,
+        -519.5256686913738,
+        -419.6717635380643,
+        -369.74481096140954,
+        -319.8178583847548,
+        -269.89090580810006,
+        -219.96395323144534,
+        -120.1100480781359,
+        0.0,
+        39.7988811142415,
+        59.69832167136225,
+        79.597762228483,
+        179.45166738179248,
+        229.3786199584472,
+        279.30557253510193,
+        479.01338284172084,
+        678.7211931483398,
+        878.4290034549587,
+        1000.0
+      ],
+      "profile_delta_chi2": [
+        34.45400959454845,
+        27.905178111465958,
+        15.159081939218723,
+        6.914382471256701,
+        4.098528082031962,
+        2.9176190162604883,
+        1.8892735375149527,
+        1.059505671893561,
+        0.46928162550554475,
+        0.0,
+        0.5899426360251425,
+        0.9980949824719119,
+        1.2375393142605589,
+        1.4994826156956975,
+        3.108134381506261,
+        3.8713831639742153,
+        4.7323778633710845,
+        8.921217403523727,
+        14.020909962958925,
+        20.133639002039956,
+        24.367815560502734
+      ],
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_2374"
+      ],
+      "profile_all_selected_terminated": true,
+      "profile_contours_closed": true,
+      "profile_baseline_resolved_to_tolerance": true,
+      "unrestricted_reference_gap_chi2": 1.048523756708164e-08,
+      "point_estimate_reference_file": "results/common_pair/J004131-493611/refined_reverse_011.json",
+      "point_estimate_reference_sha256": "3dfb31ffd0eeff52f039ff3fa11438f59dc6062375cba951a072009055898405",
+      "ndata": 138,
+      "ncomp": 6,
+      "lines": [
+        1608,
+        2374,
+        2382
+      ],
+      "oversample": 33,
+      "sourcefit_paths": [
+        "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_null_s3_expected_os33.json",
+        "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_shift_s3_expected_os33.json"
+      ],
+      "sourcefit_hashes": {
+        "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_null_s3_expected_os33.json": "8747bde0c7acf5f5aa1ce3cb5ef1e648ea2f1bf746f1f9a874049ce218dc1e38",
+        "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_shift_s3_expected_os33.json": "ef5da7e671ae1b6d3195d8b57f635c11e96b9d315c38c17d2284621874cdea72"
+      },
+      "full_comparison": {
+        "null_file": "results/common_pair/J004131-493611/refined_h0_from_best_h1.json",
+        "alternative_file": "results/common_pair/J004131-493611/refined_reverse_011.json",
+        "chi2_null": 95.22846063001326,
+        "chi2_alternative": 87.25491207356842,
+        "delta_chi2": 7.97354855644484,
+        "added_parameters": 2,
+        "null_optimizer_success": true,
+        "alternative_optimizer_success": true,
+        "null_active_bounds": [
+          "logb_1",
+          "zero_2374"
+        ],
+        "null_npar": 30,
+        "alternative_npar": 32,
+        "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+      },
+      "observable": "D = v(Fe II 2382)-v(Fe II 2374)",
+      "unit": "m/s",
+      "anchor_line": 2374,
+      "target_line": 2382,
+      "log_energy_ratio_sign": "delta ln(E2382/E2374) = -D/c; kinematic ratio only, not an alpha or clock response",
+      "local_sigma_role": "Unconstrained nuisance-tangent curvature in row2 diagonal errors; not reduced-chi-square rescaled or coverage calibrated",
+      "profile_delta1_interval_m_s": [
+        -264.85733105482973,
+        39.957200932369105
+      ],
+      "profile_delta3p84_interval_m_s": [
+        -408.7416084012579,
+        227.32573002866624
+      ],
+      "profile_is_conditional_connected_contour": true,
+      "precision_measurement": false,
+      "physical_time_inference": false,
+      "other_relative_line_shifts_float": [
+        1608
+      ],
+      "error_kind": "FITS primary row2 expected fluctuation; diagonal errors without reduced-chi-square rescaling",
+      "condition": "Fixed gas architecture, terrestrial isotope mixture, bounded Gaussian LSF/continuum/zero, diagonal row2 errors; missing calibration/covariance/architecture uncertainty",
+      "source_summary_file": "results/common_pair/refined_summary.json",
+      "source_summary_sha256": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857",
+      "profile_crossing_brackets": {
+        "1.0": {
+          "lower": {
+            "coordinate_bracket_m_s": [
+              -269.89090580810006,
+              -219.96395323144534
+            ],
+            "crossing_m_s": -264.85733105482973,
+            "endpoint_fits": [
+              "results/common_pair/J004131-493611/refined_profile_013_refine1_lower_0_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_015_refine1_lower_1_cross_h0.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          },
+          "upper": {
+            "coordinate_bracket_m_s": [
+              39.7988811142415,
+              59.69832167136225
+            ],
+            "crossing_m_s": 39.957200932369105,
+            "endpoint_fits": [
+              "results/common_pair/J004131-493611/refined_reverse_009.json",
+              "results/common_pair/J004131-493611/refined_reverse_008.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          }
+        },
+        "3.84": {
+          "lower": {
+            "coordinate_bracket_m_s": [
+              -419.6717635380643,
+              -369.74481096140954
+            ],
+            "crossing_m_s": -408.7416084012579,
+            "endpoint_fits": [
+              "results/common_pair/J004131-493611/refined_profile_019_refine3.84_lower_1_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_017_refine3.84_lower_0_cross_h0.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          },
+          "upper": {
+            "coordinate_bracket_m_s": [
+              179.45166738179248,
+              229.3786199584472
+            ],
+            "crossing_m_s": 227.32573002866624,
+            "endpoint_fits": [
+              "results/common_pair/J004131-493611/refined_profile_018_refine3.84_upper_0_warm.json",
+              "results/common_pair/J004131-493611/refined_profile_020_refine3.84_upper_1_warm.json"
+            ],
+            "endpoint_order": "inside-to-outside for fit files; coordinate bracket independently sorted"
+          }
+        }
+      }
+    }
+  ]
+}

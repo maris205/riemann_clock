@@ -1,0 +1,4220 @@
+{
+  "target": "J044534-354704",
+  "z_abs": 2.408,
+  "rank_score": 28.0,
+  "n_strong_eligible": 4,
+  "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/7e254781-bf15-45cc-800d-3396bb62c494/download/j044534-354704finalspectrum.tar.gz",
+  "archive_file": "data/raw/archive_expansion/J044534-354704_Final_Spectrum.tar.gz",
+  "archive_bytes": 4277799,
+  "archive_sha256": "d3e56d2a532dd132cbf9f4f30041c5c1ec9d9bd74b62cc8ffcea74bca6539343",
+  "fits_sha256": "a04781fcec2db1870030610bd896ac40c62565f7f163eb29067dbd3ceb00a3c2",
+  "access_date_utc": "2026-09-20T17:29:43.075226+00:00",
+  "pixels": 110767,
+  "valid_pixels": 92672,
+  "native_dispersion_km_s": 2.5,
+  "n_exposures": 3,
+  "exposure_s": 10625.0027,
+  "observation_date_range": [
+    "2003-10-31",
+    "2003-11-03"
+  ],
+  "wavelength_AA_range": [
+    3758.7242206816245,
+    9466.552150871208
+  ],
+  "header": {
+    "SIMPLE": true,
+    "BITPIX": -64,
+    "NAXIS": 2,
+    "NAXIS1": 110767,
+    "NAXIS2": 9,
+    "EXTEND": true,
+    "COMMENT": "  FITS (Flexible Image Transport System) format is defined in 'Astronomy\n  and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H",
+    "HISTORY": "Output from UVES POst Pipeline Echelle Reduction, by M. T. Murphy,\nUVES_popler: Version  0.72",
+    "DATE": "2018-05-02T13:36:35",
+    "OBJECT": "ctm258",
+    "CRPIX1": 1,
+    "CTYPE1": "LOGLIN",
+    "DC-FLAG": 1,
+    "CRVAL1": 3.57504046249757,
+    "CD1_1": 3.62161104717198e-06,
+    "CDELT1": 3.62161104717198e-06,
+    "CD2_2": 1.0,
+    "CDELT2": 1.0,
+    "UP_WLSRT": 3758.72422068161,
+    "UP_WLEND": 9466.55215087117,
+    "UP_ZEM": 2.61,
+    "UP_DISP": 2.5,
+    "UP_NEXP": 3,
+    "UP_TEXP": 10625.0027,
+    "UP_ARR01": "Normalized flux spectrum",
+    "UP_ARR02": "Normalized error",
+    "UP_ARR03": "Norm. expected fluctuation",
+    "UP_ARR04": "Continuum by which data are normalized",
+    "UP_ARR05": "Status",
+    "UP_ARR06": "NPIX before clip",
+    "UP_ARR07": "NPIX after clip",
+    "UP_ARR08": "chisq. before clip",
+    "UP_ARR09": "chisq. after clip",
+    "ARRAY1": "Normalized flux spectrum",
+    "ARRAY2": "Normalized error",
+    "ARRAY3": "Norm. expected fluctuation",
+    "ARRAY4": "Continuum by which data are normalized",
+    "ARRAY5": "Status",
+    "ARRAY6": "NPIX before clip",
+    "ARRAY7": "NPIX after clip",
+    "ARRAY8": "chisq. before clip",
+    "ARRAY9": "chisq. after clip"
+  },
+  "tables": {
+    "1": {
+      "name": "CombinedSpecInfo",
+      "columns": [
+        "Wavelength",
+        "SNRmax",
+        "SNRmed",
+        "CNRmax",
+        "CNRmed",
+        "NomResolPower",
+        "ArcResolPower"
+      ],
+      "rows": [
+        {
+          "Wavelength": 3004.9992959346655,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3015.0228946468605,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3025.079928485407,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3035.17050897788,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3045.2947480238736,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3055.4527578962366,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3065.6446512423204,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3075.8705410852276,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3086.1305408250655,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3096.4247642402024,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3106.753325488532,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3117.1163391087366,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3127.5139200215585,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3137.946183531075,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3148.413245325976,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3158.9152214808464,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3169.4522284574555,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3180.0243831060475,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3190.6318026666363,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3201.2746047703063,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3211.9529074405164,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3222.6668290944117,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3233.4164885441314,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3244.202004998132,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3255.0234980625046,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3265.8810877423043,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3276.7748944428795,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3287.705038971208,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3298.671642537237,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3309.674826755225,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3320.7147136450917,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3331.791425633774,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3342.9050855565793,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3354.0558166585492,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3365.243742595828,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3376.4689874370297,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3387.7316756646205,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3399.0319321762927,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3410.369882286353,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3421.745651727112,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3433.1593666502777,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3444.6111536283556,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3456.101139656051,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3467.629452151678,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3479.1962189585724,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3490.80156834651,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3502.4456290131284,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3514.1285300853538,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3525.850401120833,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3537.6113721093725,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3549.411573474376,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3561.251136074294,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3573.130191204075,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3585.048870596617,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3597.0073064242342,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3609.00563130012,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3621.0439782798167,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3633.122480862693,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3645.2412729934235,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3657.4004890634737,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3669.6002639125913,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3681.8407328303006,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3694.1220315574033,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3706.444296287483,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3718.807663668418,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3731.2122708038933,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3743.658255254923,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3756.145755041375,
+          "SNRmax": 15.702680132107997,
+          "SNRmed": 3.4757457315371294,
+          "CNRmax": 51.169634105109665,
+          "CNRmed": 20.767745078726115,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 3768.6749086435034,
+          "SNRmax": 14.868080585761383,
+          "SNRmed": 5.647270343646726,
+          "CNRmax": 51.284757013626496,
+          "CNRmed": 24.62929344050803,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3781.24585500348,
+          "SNRmax": 15.90815316821895,
+          "SNRmed": 13.399272062122062,
+          "CNRmax": 37.70114135524384,
+          "CNRmed": 14.942421263674804,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3793.85873352694,
+          "SNRmax": 16.859474784712194,
+          "SNRmed": 14.121305278247792,
+          "CNRmax": 17.40402484072578,
+          "CNRmed": 15.366256279302368,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3806.5136840845257,
+          "SNRmax": 16.87008014633002,
+          "SNRmed": 13.764743301094331,
+          "CNRmax": 17.555137555974,
+          "CNRmed": 15.62123999417721,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3819.2108470134363,
+          "SNRmax": 15.610948127840865,
+          "SNRmed": 11.789831102959747,
+          "CNRmax": 55.84818443619795,
+          "CNRmed": 18.251081550860885,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3831.9503631189864,
+          "SNRmax": 17.34804548921839,
+          "SNRmed": 13.024770079695971,
+          "CNRmax": 59.21765463902806,
+          "CNRmed": 18.049212309751848,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3844.732373676167,
+          "SNRmax": 16.961385011446893,
+          "SNRmed": 14.003775239540573,
+          "CNRmax": 43.048920891600574,
+          "CNRmed": 17.449278541558673,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3857.5570204312107,
+          "SNRmax": 17.92498051020893,
+          "SNRmed": 15.808321325018158,
+          "CNRmax": 28.79342208464865,
+          "CNRmed": 17.528321775966965,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3870.424445603165,
+          "SNRmax": 18.713180233310407,
+          "SNRmed": 16.15440858229556,
+          "CNRmax": 23.627565605786298,
+          "CNRmed": 17.020684817761364,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3883.3347918854693,
+          "SNRmax": 18.70215170793668,
+          "SNRmed": 15.79776222310881,
+          "CNRmax": 55.91913116524693,
+          "CNRmed": 17.67761110536074,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3896.2882024475375,
+          "SNRmax": 17.539518096881828,
+          "SNRmed": 15.190800270741288,
+          "CNRmax": 65.81774659863162,
+          "CNRmed": 17.8573213668215,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3909.284820936344,
+          "SNRmax": 17.618650526078287,
+          "SNRmed": 14.669402534921128,
+          "CNRmax": 33.98705806531606,
+          "CNRmed": 17.179213854511428,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3922.3247914780195,
+          "SNRmax": 17.755828429187993,
+          "SNRmed": 15.668551026261353,
+          "CNRmax": 45.19554816732547,
+          "CNRmed": 17.6651670332438,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3935.408258679446,
+          "SNRmax": 18.37919083937303,
+          "SNRmed": 15.08491334764716,
+          "CNRmax": 49.40213665571882,
+          "CNRmed": 17.594884013009988,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3948.5353676298637,
+          "SNRmax": 17.78507142040559,
+          "SNRmed": 14.98721708089021,
+          "CNRmax": 54.37320451465774,
+          "CNRmed": 17.178010095710942,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3961.7062639024775,
+          "SNRmax": 17.69352813299308,
+          "SNRmed": 15.642002202685784,
+          "CNRmax": 49.41333165500062,
+          "CNRmed": 17.299601292007218,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3974.9210935560727,
+          "SNRmax": 17.74500246386569,
+          "SNRmed": 15.22975309262402,
+          "CNRmax": 19.139215224712935,
+          "CNRmed": 16.99549915137122,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 3988.180003136634,
+          "SNRmax": 18.23293495427399,
+          "SNRmed": 14.358013105556477,
+          "CNRmax": 63.066534776911006,
+          "CNRmed": 18.268191903181897,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4001.4831396789705,
+          "SNRmax": 17.741978228115713,
+          "SNRmed": 14.640008380534763,
+          "CNRmax": 45.252361925543724,
+          "CNRmed": 18.074133032980793,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4014.830650708347,
+          "SNRmax": 18.64349079502472,
+          "SNRmed": 14.91192387588766,
+          "CNRmax": 43.72470315741744,
+          "CNRmed": 17.84203326725968,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4028.2226842421205,
+          "SNRmax": 19.26930820285596,
+          "SNRmed": 14.666694240643796,
+          "CNRmax": 53.007184488582176,
+          "CNRmed": 19.129425248391076,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4041.65938879138,
+          "SNRmax": 19.385159088634705,
+          "SNRmed": 16.866384173385285,
+          "CNRmax": 20.938706779629335,
+          "CNRmed": 17.52513521330284,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4055.1409133625934,
+          "SNRmax": 19.413229701605342,
+          "SNRmed": 16.61852524035887,
+          "CNRmax": 56.93703492916593,
+          "CNRmed": 18.47510859145124,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4068.667407459262,
+          "SNRmax": 20.16567048545504,
+          "SNRmed": 16.35728208122221,
+          "CNRmax": 48.258066097906855,
+          "CNRmed": 18.181464798537352,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4082.2390210835756,
+          "SNRmax": 18.935421055337446,
+          "SNRmed": 16.476484752419278,
+          "CNRmax": 30.559552474764686,
+          "CNRmed": 17.67975857313809,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4095.855904738079,
+          "SNRmax": 19.046784553724564,
+          "SNRmed": 15.939673457664767,
+          "CNRmax": 36.850408725620454,
+          "CNRmed": 18.136767292241082,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4109.518209427339,
+          "SNRmax": 18.15195686393205,
+          "SNRmed": 10.911890682480673,
+          "CNRmax": 51.22459356448488,
+          "CNRmed": 20.672176430564267,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4123.226086659619,
+          "SNRmax": 15.582965489055473,
+          "SNRmed": 12.751654059427619,
+          "CNRmax": 30.611842207542953,
+          "CNRmed": 18.18379240677129,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4136.9796884485595,
+          "SNRmax": 11.942740732326062,
+          "SNRmed": 2.389881401599249,
+          "CNRmax": 52.897171245068286,
+          "CNRmed": 32.13005238853329,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4150.779167314865,
+          "SNRmax": 11.718477645884093,
+          "SNRmed": 2.144583708872964,
+          "CNRmax": 45.62024796856836,
+          "CNRmed": 32.3033668499646,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4164.624676287992,
+          "SNRmax": 17.638712044142032,
+          "SNRmed": 13.83715966446357,
+          "CNRmax": 24.67009226930231,
+          "CNRmed": 18.026420880813657,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4178.516368907851,
+          "SNRmax": 17.783583879851594,
+          "SNRmed": 12.963822243514775,
+          "CNRmax": 48.932502239152605,
+          "CNRmed": 17.376959114850013,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4192.454399226505,
+          "SNRmax": 16.26512488831778,
+          "SNRmed": 11.678726103478601,
+          "CNRmax": 40.25221651069472,
+          "CNRmed": 17.82726456752995,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4206.43892180988,
+          "SNRmax": 16.81591250084942,
+          "SNRmed": 13.430328795353882,
+          "CNRmax": 44.792142941290884,
+          "CNRmed": 17.023893317220093,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4220.470091739478,
+          "SNRmax": 14.81448556255143,
+          "SNRmed": 10.255083343230266,
+          "CNRmax": 40.84467536779262,
+          "CNRmed": 19.70830079426129,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4234.548064614098,
+          "SNRmax": 15.085051479245816,
+          "SNRmed": 9.751456346739667,
+          "CNRmax": 51.45345301929091,
+          "CNRmed": 22.050451325871855,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4248.672996551558,
+          "SNRmax": 19.50891511441094,
+          "SNRmed": 16.14410577997218,
+          "CNRmax": 24.69531662330184,
+          "CNRmed": 19.854526545503404,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4262.845044190433,
+          "SNRmax": 18.627905769042307,
+          "SNRmed": 14.358578311324452,
+          "CNRmax": 46.48308200332063,
+          "CNRmed": 24.958104763774905,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4277.064364691787,
+          "SNRmax": 17.76784111341789,
+          "SNRmed": 11.939652530308296,
+          "CNRmax": 103.91202540632669,
+          "CNRmed": 33.863876092658124,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4291.331115740913,
+          "SNRmax": 22.8947636616398,
+          "SNRmed": 15.828651426374996,
+          "CNRmax": 90.11369089236253,
+          "CNRmed": 32.08215683518443,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4305.645455549092,
+          "SNRmax": 27.39158613342858,
+          "SNRmed": 22.849173096045213,
+          "CNRmax": 41.29525471464985,
+          "CNRmed": 28.37995477063002,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4320.007542855335,
+          "SNRmax": 29.313796821621757,
+          "SNRmed": 23.227098171883227,
+          "CNRmax": 136.0632935520105,
+          "CNRmed": 32.0083641447023,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4334.417536928152,
+          "SNRmax": 30.261087534775864,
+          "SNRmed": 27.6258540582194,
+          "CNRmax": 131.5148024785054,
+          "CNRmed": 30.33473099626091,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4348.875597567316,
+          "SNRmax": 31.921628547880772,
+          "SNRmed": 29.009363726863995,
+          "CNRmax": 135.96590663573815,
+          "CNRmed": 31.78551265768704,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4363.381885105636,
+          "SNRmax": 34.3635405834156,
+          "SNRmed": 27.104691972126115,
+          "CNRmax": 184.51793247026404,
+          "CNRmed": 38.82161223980504,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4377.936560410729,
+          "SNRmax": 36.57691100858066,
+          "SNRmed": 30.388018111431773,
+          "CNRmax": 130.30277129922743,
+          "CNRmed": 39.331736087609244,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4392.5397848868115,
+          "SNRmax": 38.952153747760214,
+          "SNRmed": 35.00248119384405,
+          "CNRmax": 114.78550615902496,
+          "CNRmed": 38.995462839119114,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4407.191720476489,
+          "SNRmax": 39.68480001809942,
+          "SNRmed": 35.84511885460311,
+          "CNRmax": 146.51444768607573,
+          "CNRmed": 39.783253476441274,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4421.892529662544,
+          "SNRmax": 37.588532577794986,
+          "SNRmed": 34.39363120987703,
+          "CNRmax": 163.19020995760457,
+          "CNRmed": 38.20514326658864,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4436.642375469748,
+          "SNRmax": 38.15352433887169,
+          "SNRmed": 35.98275102947106,
+          "CNRmax": 154.09355237485312,
+          "CNRmed": 36.521491655194524,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4451.441421466661,
+          "SNRmax": 37.69095491377903,
+          "SNRmed": 35.068239305760606,
+          "CNRmax": 153.0175391082896,
+          "CNRmed": 36.5728106974699,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4466.289831767452,
+          "SNRmax": 35.938044339680495,
+          "SNRmed": 33.61138180220867,
+          "CNRmax": 42.6410843183214,
+          "CNRmed": 37.88199223945721,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4481.187771033714,
+          "SNRmax": 36.91549111252406,
+          "SNRmed": 34.212942799283695,
+          "CNRmax": 40.62641483085491,
+          "CNRmed": 35.86992547707257,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4496.135404476293,
+          "SNRmax": 36.796867570069594,
+          "SNRmed": 32.965381040371085,
+          "CNRmax": 81.31800602190428,
+          "CNRmed": 34.634176164444725,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4511.132897857119,
+          "SNRmax": 32.75030828363336,
+          "SNRmed": 29.327307876031465,
+          "CNRmax": 132.50379634014715,
+          "CNRmed": 33.14792004993021,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4526.180417491042,
+          "SNRmax": 30.16907626997179,
+          "SNRmed": 28.32627772324821,
+          "CNRmax": 95.3451934845283,
+          "CNRmed": 28.80721611345143,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4541.278130247682,
+          "SNRmax": 29.12002941053358,
+          "SNRmed": 26.568977060240663,
+          "CNRmax": 97.22146005146347,
+          "CNRmed": 27.03167221435265,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4556.426203553275,
+          "SNRmax": 28.615588988909103,
+          "SNRmed": 26.52902649293422,
+          "CNRmax": 41.32428994669238,
+          "CNRmed": 27.071204531063316,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4571.624805392529,
+          "SNRmax": 28.382767794352155,
+          "SNRmed": 26.31927430573351,
+          "CNRmax": 40.647411596610766,
+          "CNRmed": 26.820931156991513,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4586.874104310491,
+          "SNRmax": 27.772178481704213,
+          "SNRmed": 25.02069797638141,
+          "CNRmax": 34.67392544085618,
+          "CNRmed": 25.0598663253658,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4602.174269414413,
+          "SNRmax": 25.964568936264588,
+          "SNRmed": 23.89038258525405,
+          "CNRmax": 29.79657815319124,
+          "CNRmed": 24.395473417063545,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4617.525470375628,
+          "SNRmax": 25.3552441579304,
+          "SNRmed": 22.8593112794428,
+          "CNRmax": 24.21006061623862,
+          "CNRmed": 23.100703468644483,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4632.927877431432,
+          "SNRmax": 23.845244748876095,
+          "SNRmed": 21.321836799290146,
+          "CNRmax": 23.656243315423364,
+          "CNRmed": 21.52994552137438,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4648.3816613869685,
+          "SNRmax": 23.243375653311666,
+          "SNRmed": 21.18242476437994,
+          "CNRmax": 23.099671846925098,
+          "CNRmed": 21.715944971365765,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4663.886993617131,
+          "SNRmax": 23.76062006902785,
+          "SNRmed": 21.512489276573902,
+          "CNRmax": 23.873331927799423,
+          "CNRmed": 21.897230876363807,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4679.4440460684555,
+          "SNRmax": 23.478952953879833,
+          "SNRmed": 20.92708531030132,
+          "CNRmax": 23.15761191301908,
+          "CNRmed": 21.087920246694452,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4695.052991261027,
+          "SNRmax": 23.20456409232899,
+          "SNRmed": 21.269645708338185,
+          "CNRmax": 22.993238539859966,
+          "CNRmed": 21.636543650101416,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4710.714002290402,
+          "SNRmax": 24.300706225690384,
+          "SNRmed": 22.163255781873872,
+          "CNRmax": 24.179494781252277,
+          "CNRmed": 22.48112587639797,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4726.427252829514,
+          "SNRmax": 24.01148814962746,
+          "SNRmed": 21.311504308621736,
+          "CNRmax": 24.224278311799587,
+          "CNRmed": 21.5799502070314,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4742.192917130615,
+          "SNRmax": 23.134229603692006,
+          "SNRmed": 20.581085170611548,
+          "CNRmax": 27.6966923357484,
+          "CNRmed": 20.9231233410376,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4758.011170027193,
+          "SNRmax": 21.645490995646853,
+          "SNRmed": 19.43652110009759,
+          "CNRmax": 50.92312582297137,
+          "CNRmed": 19.990223912446055,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4773.882186935921,
+          "SNRmax": 22.161957054499684,
+          "SNRmed": 19.049428131841857,
+          "CNRmax": 37.532197097861285,
+          "CNRmed": 19.486714726919125,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4789.806143858599,
+          "SNRmax": 19.925282470186367,
+          "SNRmed": 17.847354842225293,
+          "CNRmax": 44.47896742424581,
+          "CNRmed": 19.644004324690826,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4805.783217384107,
+          "SNRmax": 21.48064877779758,
+          "SNRmed": 19.349359925440794,
+          "CNRmax": 30.515343453067562,
+          "CNRmed": 19.885408403166345,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4821.813584690359,
+          "SNRmax": 21.584856531507594,
+          "SNRmed": 19.67683063974094,
+          "CNRmax": 21.46191838828293,
+          "CNRmed": 19.60336064846876,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4837.897423546273,
+          "SNRmax": 21.469689918746372,
+          "SNRmed": 19.229830920637884,
+          "CNRmax": 21.627582977767386,
+          "CNRmed": 19.731008551528088,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4854.03491231374,
+          "SNRmax": 22.263446782152446,
+          "SNRmed": 19.774301582693607,
+          "CNRmax": 25.949635618145148,
+          "CNRmed": 20.039489606776,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4870.226229949603,
+          "SNRmax": 22.57741762190051,
+          "SNRmed": 20.015928557157217,
+          "CNRmax": 22.158569517847745,
+          "CNRmed": 20.385299558038128,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4886.471556007637,
+          "SNRmax": 20.87521819133302,
+          "SNRmed": 18.73008463187147,
+          "CNRmax": 21.128706896916633,
+          "CNRmed": 19.199735585233437,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4902.77107064055,
+          "SNRmax": 21.20338946908396,
+          "SNRmed": 18.471893373660286,
+          "CNRmax": 21.292006948497463,
+          "CNRmed": 18.931205390474155,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4919.124954601969,
+          "SNRmax": 22.804999167771392,
+          "SNRmed": 19.950664609353378,
+          "CNRmax": 21.72227095421238,
+          "CNRmed": 20.32361000843723,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4935.533389248453,
+          "SNRmax": 20.97048580787424,
+          "SNRmed": 18.558545659588912,
+          "CNRmax": 22.20782100846407,
+          "CNRmed": 18.911702620653692,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4951.996556541502,
+          "SNRmax": 21.547916290839318,
+          "SNRmed": 18.48456836859235,
+          "CNRmax": 31.64146836853523,
+          "CNRmed": 19.073086636305025,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4968.514639049574,
+          "SNRmax": 22.450434025774616,
+          "SNRmed": 20.74015761741812,
+          "CNRmax": 22.223865905314373,
+          "CNRmed": 20.97276878068446,
+          "NomResolPower": 49771.0,
+          "ArcResolPower": 51199.80989246071
+        },
+        {
+          "Wavelength": 4985.087819950108,
+          "SNRmax": 21.06175917164945,
+          "SNRmed": 19.380559849828963,
+          "CNRmax": 21.043683346112743,
+          "CNRmed": 19.611390619195518,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5001.716283031557,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5018.40021269543,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5035.139793958329,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5051.93521245401,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5068.786654435429,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5085.694306776822,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5102.658356975766,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5119.678993155266,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5136.7564040658335,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5153.890779087589,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5171.082308232353,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5188.331182145761,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5205.6375921093695,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5223.001730042784,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5240.423788505786,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5257.903960700464,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5275.442440473363,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5293.039422317627,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5310.695101375162,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5328.409673438797,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5346.183334954454,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5364.016283023329,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5381.908715404078,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5399.8608305150065,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5417.872827436274,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5435.944905912098,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5454.077266352974,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5472.270109837893,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5490.523638116573,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5508.838053611697,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5527.2135594211595,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5545.650359320312,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5564.148657764233,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5582.708659889984,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5601.330571518895,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5620.014599158841,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5638.760950006529,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5657.569831949806,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5676.4414535699525,
+          "SNRmax": 9.737560851704066,
+          "SNRmed": 9.637106416101297,
+          "CNRmax": 10.296245859210572,
+          "CNRmed": 10.216280743004582,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 5695.376024144006,
+          "SNRmax": 15.056402629206094,
+          "SNRmed": 12.339746580568276,
+          "CNRmax": 32.42348694425569,
+          "CNRmed": 12.692390948267507,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49895.44823452465
+        },
+        {
+          "Wavelength": 5714.373753647075,
+          "SNRmax": 16.24576541248356,
+          "SNRmed": 14.32602144769416,
+          "CNRmax": 15.833653815566239,
+          "CNRmed": 14.395671153034227,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49895.44823452465
+        },
+        {
+          "Wavelength": 5733.434852754669,
+          "SNRmax": 16.509545671756666,
+          "SNRmed": 14.15353342920837,
+          "CNRmax": 15.310135276291167,
+          "CNRmed": 14.324845660949652,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49895.44823452465
+        },
+        {
+          "Wavelength": 5752.559532845036,
+          "SNRmax": 17.337868066744903,
+          "SNRmed": 14.855217422805065,
+          "CNRmax": 16.653140311349873,
+          "CNRmed": 15.138519131507564,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49895.44823452465
+        },
+        {
+          "Wavelength": 5771.748006001506,
+          "SNRmax": 17.74139926355911,
+          "SNRmed": 15.940702536863538,
+          "CNRmax": 17.355799509909215,
+          "CNRmed": 16.106844438320852,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5791.0004850148425,
+          "SNRmax": 20.5489587799253,
+          "SNRmed": 17.527642597774978,
+          "CNRmax": 20.067142412269945,
+          "CNRmed": 17.72747584651272,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5810.317183385604,
+          "SNRmax": 22.520891170124514,
+          "SNRmed": 20.370046793522263,
+          "CNRmax": 22.333800958360488,
+          "CNRmed": 20.494447825869717,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5829.698315326506,
+          "SNRmax": 23.86404836044962,
+          "SNRmed": 21.128024306743285,
+          "CNRmax": 22.62074185254928,
+          "CNRmed": 21.367470073549786,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5849.144095764808,
+          "SNRmax": 24.50650435065389,
+          "SNRmed": 21.294075097173625,
+          "CNRmax": 23.535099951780843,
+          "CNRmed": 21.41063790132245,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5868.654740344682,
+          "SNRmax": 25.426882588419144,
+          "SNRmed": 22.78759194681355,
+          "CNRmax": 24.874032327207658,
+          "CNRmed": 22.988714140276638,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5888.230465429617,
+          "SNRmax": 25.75333241356494,
+          "SNRmed": 23.61180913886127,
+          "CNRmax": 26.75106675635224,
+          "CNRmed": 23.787266930787343,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5907.871488104809,
+          "SNRmax": 26.44985287774418,
+          "SNRmed": 24.2729976961354,
+          "CNRmax": 26.08511705075332,
+          "CNRmed": 24.46465580996729,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5927.578026179576,
+          "SNRmax": 27.686637744774693,
+          "SNRmed": 25.38546951419469,
+          "CNRmax": 28.050041337053138,
+          "CNRmed": 25.737083773674915,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5947.350298189766,
+          "SNRmax": 28.501870272947585,
+          "SNRmed": 25.96084447969228,
+          "CNRmax": 27.481719891181232,
+          "CNRmed": 26.167520967975626,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5967.188523400188,
+          "SNRmax": 28.40860660923305,
+          "SNRmed": 26.46962707173298,
+          "CNRmax": 28.681988920533303,
+          "CNRmed": 26.6408352855696,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 5987.092921807036,
+          "SNRmax": 29.469276046672693,
+          "SNRmed": 27.297656986363247,
+          "CNRmax": 29.12724602872363,
+          "CNRmed": 27.431769397762142,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6007.063714140335,
+          "SNRmax": 29.435115677137485,
+          "SNRmed": 27.411058035464013,
+          "CNRmax": 29.209175706040337,
+          "CNRmed": 27.76805997282357,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6027.101121866384,
+          "SNRmax": 30.277874443478247,
+          "SNRmed": 27.59226711390876,
+          "CNRmax": 29.523529838547653,
+          "CNRmed": 27.81601569081426,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6047.205367190216,
+          "SNRmax": 30.2685677760701,
+          "SNRmed": 28.536418559660284,
+          "CNRmax": 30.008180531544284,
+          "CNRmed": 28.685725177759267,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6067.376673058058,
+          "SNRmax": 29.92862272269222,
+          "SNRmed": 28.147094977810948,
+          "CNRmax": 29.841980430558085,
+          "CNRmed": 28.380280991575194,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6087.615263159809,
+          "SNRmax": 29.60014101184772,
+          "SNRmed": 27.85021947918782,
+          "CNRmax": 33.50173970972368,
+          "CNRmed": 28.259879392680116,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6107.921361931512,
+          "SNRmax": 30.260689018025957,
+          "SNRmed": 28.62453306894016,
+          "CNRmax": 31.797047887257452,
+          "CNRmed": 28.749761492187062,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6128.295194557854,
+          "SNRmax": 29.88626157673417,
+          "SNRmed": 28.146355694934226,
+          "CNRmax": 29.593959087086052,
+          "CNRmed": 28.34102385593587,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6148.7369869746535,
+          "SNRmax": 30.825956826333904,
+          "SNRmed": 28.18563685998376,
+          "CNRmax": 30.453144467930436,
+          "CNRmed": 28.32990839015676,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6169.24696587137,
+          "SNRmax": 31.5001724443593,
+          "SNRmed": 29.33324423264588,
+          "CNRmax": 31.156766150172576,
+          "CNRmed": 29.73695539793604,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6189.825358693619,
+          "SNRmax": 31.493885473184772,
+          "SNRmed": 29.5995336979386,
+          "CNRmax": 31.17486291560163,
+          "CNRmed": 29.75703739086463,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6210.47239364569,
+          "SNRmax": 32.192203917337814,
+          "SNRmed": 29.591969332356904,
+          "CNRmax": 32.486114316822544,
+          "CNRmed": 29.821507270325007,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6231.188299693086,
+          "SNRmax": 32.93676776326817,
+          "SNRmed": 30.678940910860128,
+          "CNRmax": 32.68293405489579,
+          "CNRmed": 30.860522066082357,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6251.973306565051,
+          "SNRmax": 32.00745613126401,
+          "SNRmed": 29.99706958262559,
+          "CNRmax": 32.24531959718029,
+          "CNRmed": 30.271761640170855,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6272.827644757125,
+          "SNRmax": 31.96499568613838,
+          "SNRmed": 29.727518529164342,
+          "CNRmax": 33.20722176790101,
+          "CNRmed": 29.929058799905693,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6293.7515455337,
+          "SNRmax": 32.76204691617004,
+          "SNRmed": 29.88106481879464,
+          "CNRmax": 33.953187797170166,
+          "CNRmed": 30.450174490293747,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6314.74524093058,
+          "SNRmax": 32.47925770435671,
+          "SNRmed": 29.461295547074826,
+          "CNRmax": 34.93989359162315,
+          "CNRmed": 30.04524467791588,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6335.808963757559,
+          "SNRmax": 31.791030532672785,
+          "SNRmed": 29.435067113340896,
+          "CNRmax": 30.769903961339846,
+          "CNRmed": 29.605048388939657,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6356.942947601,
+          "SNRmax": 31.91412729353063,
+          "SNRmed": 29.638386888757903,
+          "CNRmax": 31.95568667018298,
+          "CNRmed": 29.991149261306823,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6378.147426826428,
+          "SNRmax": 32.02113284567473,
+          "SNRmed": 29.59895131122649,
+          "CNRmax": 31.832464349203395,
+          "CNRmed": 29.743943962705927,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6399.422636581126,
+          "SNRmax": 30.964030778423844,
+          "SNRmed": 29.32710193097008,
+          "CNRmax": 30.62263396172421,
+          "CNRmed": 29.55729439969619,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6420.768812796744,
+          "SNRmax": 31.89015098582097,
+          "SNRmed": 29.357365254449263,
+          "CNRmax": 31.655997426501663,
+          "CNRmed": 29.516218473904654,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6442.186192191914,
+          "SNRmax": 32.1663398651256,
+          "SNRmed": 30.128216069402747,
+          "CNRmax": 31.922389694438316,
+          "CNRmed": 30.3457128049685,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6463.67501227488,
+          "SNRmax": 31.70023099103727,
+          "SNRmed": 29.845996668013136,
+          "CNRmax": 31.395192347447317,
+          "CNRmed": 30.0393817487208,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6485.235511346124,
+          "SNRmax": 32.62856093894013,
+          "SNRmed": 29.754300724323514,
+          "CNRmax": 32.08648308375909,
+          "CNRmed": 30.06562815778067,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6506.867928501016,
+          "SNRmax": 32.96414053123779,
+          "SNRmed": 30.91127191341059,
+          "CNRmax": 32.407131412249164,
+          "CNRmed": 31.10507443041449,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6528.572503632459,
+          "SNRmax": 32.53355616081661,
+          "SNRmed": 29.895827134095228,
+          "CNRmax": 31.835245455633327,
+          "CNRmed": 30.34922903917976,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6550.349477433557,
+          "SNRmax": 32.582782345944544,
+          "SNRmed": 29.441211501904185,
+          "CNRmax": 33.00071271540274,
+          "CNRmed": 29.624982134698445,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6572.1990914002745,
+          "SNRmax": 33.307416599520344,
+          "SNRmed": 31.66819079328325,
+          "CNRmax": 33.2061308966693,
+          "CNRmed": 31.90007552643772,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6594.1215878341245,
+          "SNRmax": 33.01231130111584,
+          "SNRmed": 31.029108727784156,
+          "CNRmax": 32.86564751396421,
+          "CNRmed": 31.301578610369994,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6616.117209844851,
+          "SNRmax": 33.04923451703416,
+          "SNRmed": 30.791725449416944,
+          "CNRmax": 34.88222425841928,
+          "CNRmed": 31.16922878592744,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6638.186201353119,
+          "SNRmax": 35.08518541061186,
+          "SNRmed": 32.61764593562038,
+          "CNRmax": 34.44193284121148,
+          "CNRmed": 32.83629324502154,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6660.328807093231,
+          "SNRmax": 34.35342861423545,
+          "SNRmed": 32.388335229286035,
+          "CNRmax": 34.331290471608376,
+          "CNRmed": 32.5095064625874,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6682.545272615834,
+          "SNRmax": 37.12056243719217,
+          "SNRmed": 33.096231076823955,
+          "CNRmax": 36.315373642193244,
+          "CNRmed": 33.420030208787246,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6704.835844290642,
+          "SNRmax": 37.09833711093013,
+          "SNRmed": 34.444748946904355,
+          "CNRmax": 36.64567907394314,
+          "CNRmed": 34.59183335013145,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6727.200769309172,
+          "SNRmax": 37.36674575085685,
+          "SNRmed": 34.92984029973407,
+          "CNRmax": 36.994778907467776,
+          "CNRmed": 34.987784931344194,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6749.640295687481,
+          "SNRmax": 37.408726921339664,
+          "SNRmed": 35.35081992597259,
+          "CNRmax": 36.92616888936533,
+          "CNRmed": 35.60977488980921,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6772.154672268921,
+          "SNRmax": 39.168176830946656,
+          "SNRmed": 34.58950259613288,
+          "CNRmax": 39.23581249769316,
+          "CNRmed": 34.88227060577366,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6794.744148726894,
+          "SNRmax": 39.10248528521734,
+          "SNRmed": 36.82044072381461,
+          "CNRmax": 38.29765344154265,
+          "CNRmed": 36.92661056528244,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6817.408975567625,
+          "SNRmax": 39.11072468396111,
+          "SNRmed": 36.46246075541414,
+          "CNRmax": 38.656986283945336,
+          "CNRmed": 36.64249590681342,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6840.149404132935,
+          "SNRmax": 40.98259505006642,
+          "SNRmed": 36.131391631244604,
+          "CNRmax": 40.051885815947855,
+          "CNRmed": 36.42494583455262,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6862.965686603034,
+          "SNRmax": 41.805853209060025,
+          "SNRmed": 39.08545362889115,
+          "CNRmax": 114.2417210929621,
+          "CNRmed": 40.29085662263253,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6885.858075999311,
+          "SNRmax": 40.94712058588854,
+          "SNRmed": 38.180472758581324,
+          "CNRmax": 82.57332365278025,
+          "CNRmed": 39.97305689061605,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6908.826826187147,
+          "SNRmax": 41.29020577205675,
+          "SNRmed": 38.481841325508434,
+          "CNRmax": 71.09849461971707,
+          "CNRmed": 39.74177726812342,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6931.872191878727,
+          "SNRmax": 41.66207032160544,
+          "SNRmed": 38.22738919915051,
+          "CNRmax": 46.75330275635497,
+          "CNRmed": 38.68464186074936,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6954.99442863586,
+          "SNRmax": 41.35256765510431,
+          "SNRmed": 37.752337068759665,
+          "CNRmax": 42.976761380696075,
+          "CNRmed": 38.31184250927462,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 6978.193792872821,
+          "SNRmax": 38.6332532215904,
+          "SNRmed": 36.070293561102844,
+          "CNRmax": 37.82579517489677,
+          "CNRmed": 36.41464301344374,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7001.470541859191,
+          "SNRmax": 38.515760185492134,
+          "SNRmed": 32.76026341820861,
+          "CNRmax": 39.222643147472446,
+          "CNRmed": 33.29886862393696,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7024.82493372271,
+          "SNRmax": 36.987093456344105,
+          "SNRmed": 34.3053944839814,
+          "CNRmax": 37.298429081373804,
+          "CNRmed": 34.72600562831902,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7048.257227452136,
+          "SNRmax": 35.0444290398029,
+          "SNRmed": 31.555014591309412,
+          "CNRmax": 33.96108461755792,
+          "CNRmed": 31.84292280337036,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7071.767682900126,
+          "SNRmax": 34.43540333350918,
+          "SNRmed": 30.32216947434081,
+          "CNRmax": 34.246036777606406,
+          "CNRmed": 30.510655748168652,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7095.356560786107,
+          "SNRmax": 33.860243020648596,
+          "SNRmed": 31.009812857511722,
+          "CNRmax": 33.37596793576365,
+          "CNRmed": 31.32259495608862,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7119.024122699177,
+          "SNRmax": 33.17760758747049,
+          "SNRmed": 30.412972570437688,
+          "CNRmax": 33.184420594368284,
+          "CNRmed": 30.559110286445822,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7142.770631100996,
+          "SNRmax": 31.92872046148691,
+          "SNRmed": 29.156085931182545,
+          "CNRmax": 31.220879462280777,
+          "CNRmed": 29.46796052074617,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7166.596349328708,
+          "SNRmax": 32.41952077289321,
+          "SNRmed": 26.767624701158248,
+          "CNRmax": 32.9614459544867,
+          "CNRmed": 27.032731779570938,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7190.5015415978505,
+          "SNRmax": 32.851503693530475,
+          "SNRmed": 29.816022513384794,
+          "CNRmax": 49.7796082794412,
+          "CNRmed": 30.850680665467692,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7214.4864730052905,
+          "SNRmax": 31.12810268513731,
+          "SNRmed": 28.209778460891044,
+          "CNRmax": 42.78712467010487,
+          "CNRmed": 28.6778423760463,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7238.551409532164,
+          "SNRmax": 33.774612839962536,
+          "SNRmed": 27.417764050891986,
+          "CNRmax": 41.814948376205734,
+          "CNRmed": 28.477627719812496,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7262.6966180468235,
+          "SNRmax": 33.658714333811915,
+          "SNRmed": 28.89089037230269,
+          "CNRmax": 40.936369751614656,
+          "CNRmed": 29.932335403522305,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7286.922366307798,
+          "SNRmax": 31.76307403784795,
+          "SNRmed": 28.20238713693077,
+          "CNRmax": 40.37351609719407,
+          "CNRmed": 29.051715916262687,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7311.228922966766,
+          "SNRmax": 31.617085347708862,
+          "SNRmed": 28.437424313734358,
+          "CNRmax": 33.41333068555799,
+          "CNRmed": 28.962287248495247,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7335.616557571526,
+          "SNRmax": 31.392483123689257,
+          "SNRmed": 26.78130077904496,
+          "CNRmax": 32.29296123764047,
+          "CNRmed": 27.426372009511883,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7360.085540568995,
+          "SNRmax": 32.23088440524233,
+          "SNRmed": 29.376929358426032,
+          "CNRmax": 32.02675299965406,
+          "CNRmed": 29.71282603373369,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7384.636143308205,
+          "SNRmax": 31.748178811320052,
+          "SNRmed": 28.137622896559694,
+          "CNRmax": 32.810386177294205,
+          "CNRmed": 28.4099206660981,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7409.268638043307,
+          "SNRmax": 31.510836633344574,
+          "SNRmed": 28.409098324530902,
+          "CNRmax": 31.42670204651685,
+          "CNRmed": 28.99794367785339,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7433.983297936597,
+          "SNRmax": 32.49195340323821,
+          "SNRmed": 29.22845708914514,
+          "CNRmax": 32.823110504443314,
+          "CNRmed": 29.552920479531444,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7458.780397061541,
+          "SNRmax": 33.37855526347662,
+          "SNRmed": 29.971837846072642,
+          "CNRmax": 32.74180742069805,
+          "CNRmed": 30.225448963804592,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7483.660210405817,
+          "SNRmax": 31.442495833795004,
+          "SNRmed": 28.331348620751665,
+          "CNRmax": 31.661801115766607,
+          "CNRmed": 28.716179033003154,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7508.623013874362,
+          "SNRmax": 33.518818191687664,
+          "SNRmed": 27.961370057854573,
+          "CNRmax": 34.62235684607483,
+          "CNRmed": 28.45104728659036,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 49924.57035340641
+        },
+        {
+          "Wavelength": 7533.669084292433,
+          "SNRmax": 30.978060710435155,
+          "SNRmed": 28.66735103980284,
+          "CNRmax": 30.947368905909126,
+          "CNRmed": 29.206589802601687,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7558.798699408676,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7584.0121378982085,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7609.309679365707,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7634.691604348509,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7660.158194319723,
+          "SNRmax": 10.792181141210824,
+          "SNRmed": 8.521905486783297,
+          "CNRmax": 14.586827229864053,
+          "CNRmed": 8.718500993933663,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 7685.709731691354,
+          "SNRmax": 25.76681453972301,
+          "SNRmed": 19.284910646945633,
+          "CNRmax": 26.320764910232285,
+          "CNRmed": 19.97405401868539,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7711.346499817427,
+          "SNRmax": 30.651291660395312,
+          "SNRmed": 26.85922486654309,
+          "CNRmax": 29.780792069789143,
+          "CNRmed": 27.281885113315344,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7737.0687829971375,
+          "SNRmax": 31.55158239681696,
+          "SNRmed": 28.843239081213387,
+          "CNRmax": 31.358966047317782,
+          "CNRmed": 29.110623896022172,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7762.876866478001,
+          "SNRmax": 29.595776792695823,
+          "SNRmed": 26.030876638843694,
+          "CNRmax": 29.697116577348506,
+          "CNRmed": 25.961004351727603,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7788.771036459016,
+          "SNRmax": 29.161760145113256,
+          "SNRmed": 24.393858485824932,
+          "CNRmax": 29.776435349058946,
+          "CNRmed": 24.643452970917597,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7814.751580093835,
+          "SNRmax": 29.633880591712696,
+          "SNRmed": 26.51151031026331,
+          "CNRmax": 32.17418831773129,
+          "CNRmed": 26.758834268567725,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7840.81878549396,
+          "SNRmax": 30.58874003433553,
+          "SNRmed": 27.29922603058604,
+          "CNRmax": 30.349143181156805,
+          "CNRmed": 27.44580618365884,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7866.972941731919,
+          "SNRmax": 27.728020687374787,
+          "SNRmed": 24.444145323289227,
+          "CNRmax": 27.581478902614688,
+          "CNRmed": 24.614125574457976,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7893.214338844491,
+          "SNRmax": 27.747148490391172,
+          "SNRmed": 23.421792381093162,
+          "CNRmax": 28.579653061689044,
+          "CNRmed": 23.456845109268087,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7919.543267835908,
+          "SNRmax": 30.371881278821117,
+          "SNRmed": 26.717794483416316,
+          "CNRmax": 30.436836139295163,
+          "CNRmed": 26.92873844256258,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7945.960020681092,
+          "SNRmax": 29.689589242020546,
+          "SNRmed": 26.919346148606383,
+          "CNRmax": 29.763419139941156,
+          "CNRmed": 27.019557713517173,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7972.464890328884,
+          "SNRmax": 27.373094174968205,
+          "SNRmed": 23.606179353747073,
+          "CNRmax": 26.715872413713853,
+          "CNRmed": 23.934150046309703,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 7999.058170705301,
+          "SNRmax": 27.75150182335393,
+          "SNRmed": 22.609644868063718,
+          "CNRmax": 54.88554438655128,
+          "CNRmed": 23.308184252414662,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8025.740156716788,
+          "SNRmax": 29.540600779929182,
+          "SNRmed": 26.186408199271053,
+          "CNRmax": 29.23389151986945,
+          "CNRmed": 26.539695900241306,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8052.511144253496,
+          "SNRmax": 30.000759863893578,
+          "SNRmed": 26.66391614320219,
+          "CNRmax": 28.6010954654711,
+          "CNRmed": 26.851091820863132,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8079.371430192556,
+          "SNRmax": 26.285928438025987,
+          "SNRmed": 22.726250195173076,
+          "CNRmax": 42.05819144906461,
+          "CNRmed": 23.214732081941797,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8106.321312401376,
+          "SNRmax": 26.224363868564627,
+          "SNRmed": 22.101044177284457,
+          "CNRmax": 34.56167787947902,
+          "CNRmed": 22.067907319957225,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8133.361089740943,
+          "SNRmax": 28.464085731210762,
+          "SNRmed": 25.188046794671028,
+          "CNRmax": 62.09630680434698,
+          "CNRmed": 25.90852183649715,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8160.491062069136,
+          "SNRmax": 29.438164984483002,
+          "SNRmed": 24.65592956373549,
+          "CNRmax": 35.993490213821985,
+          "CNRmed": 25.43386037964273,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8187.711530244053,
+          "SNRmax": 25.79167300056789,
+          "SNRmed": 21.504645242570454,
+          "CNRmax": 33.120301524449765,
+          "CNRmed": 22.401310354356525,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8215.022796127347,
+          "SNRmax": 25.367021714027683,
+          "SNRmed": 21.142278249855917,
+          "CNRmax": 26.864239874940967,
+          "CNRmed": 21.5346029012279,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8242.425162587571,
+          "SNRmax": 28.10432770851632,
+          "SNRmed": 24.01705387073519,
+          "CNRmax": 36.48946074288208,
+          "CNRmed": 24.670913792784297,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8269.918933503543,
+          "SNRmax": 29.09094168642319,
+          "SNRmed": 25.27996445011755,
+          "CNRmax": 36.94919027641449,
+          "CNRmed": 25.78747857460668,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8297.504413767705,
+          "SNRmax": 24.864344432570032,
+          "SNRmed": 20.748305009124643,
+          "CNRmax": 31.77938496054765,
+          "CNRmed": 21.32312252166137,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8325.181909289517,
+          "SNRmax": 24.7308850042183,
+          "SNRmed": 20.203880303765267,
+          "CNRmax": 25.142326596502187,
+          "CNRmed": 20.584416374802814,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8352.95172699884,
+          "SNRmax": 27.83638023481095,
+          "SNRmed": 23.767123822545635,
+          "CNRmax": 29.014812490048836,
+          "CNRmed": 23.87188956472192,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8380.81417484934,
+          "SNRmax": 27.55930317231075,
+          "SNRmed": 24.306705059665436,
+          "CNRmax": 26.482835930622812,
+          "CNRmed": 24.639777525423643,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8408.769561821917,
+          "SNRmax": 26.66340321521576,
+          "SNRmed": 21.68661268065623,
+          "CNRmax": 26.140011948378003,
+          "CNRmed": 21.844915289038678,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8436.818197928107,
+          "SNRmax": 26.597738909579107,
+          "SNRmed": 20.736467583245293,
+          "CNRmax": 25.054927319286204,
+          "CNRmed": 20.95263204943706,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8464.960394213538,
+          "SNRmax": 28.21872498176989,
+          "SNRmed": 23.79805311000281,
+          "CNRmax": 27.77700683766017,
+          "CNRmed": 23.922408013068452,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8493.19646276138,
+          "SNRmax": 28.501899691062302,
+          "SNRmed": 25.010735157614505,
+          "CNRmax": 27.983924005427557,
+          "CNRmed": 25.12702858987511,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8521.52671669579,
+          "SNRmax": 27.53037106093936,
+          "SNRmed": 21.634178220285264,
+          "CNRmax": 26.170264663249686,
+          "CNRmed": 21.84742648541657,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8549.951470185404,
+          "SNRmax": 24.541694662322776,
+          "SNRmed": 19.250556776894257,
+          "CNRmax": 24.39690083225321,
+          "CNRmed": 19.556056128803508,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8578.47103844681,
+          "SNRmax": 26.565713491623054,
+          "SNRmed": 22.19018270038707,
+          "CNRmax": 26.66049675297531,
+          "CNRmed": 22.290452578135312,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8607.08573774804,
+          "SNRmax": 26.751552223104625,
+          "SNRmed": 24.009606569099176,
+          "CNRmax": 26.813234152583522,
+          "CNRmed": 24.23551228372727,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8635.79588541209,
+          "SNRmax": 24.97460142087991,
+          "SNRmed": 21.096192923071808,
+          "CNRmax": 24.930455628369593,
+          "CNRmed": 21.345607620899262,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8664.601799820424,
+          "SNRmax": 21.85848546179685,
+          "SNRmed": 17.784696524845284,
+          "CNRmax": 22.857239847608884,
+          "CNRmed": 18.27631865931226,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8693.503800416518,
+          "SNRmax": 25.57227997749168,
+          "SNRmed": 20.86610401647603,
+          "CNRmax": 24.94330494563234,
+          "CNRmed": 21.06645723459944,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8722.502207709396,
+          "SNRmax": 25.834168716738805,
+          "SNRmed": 22.481264946398,
+          "CNRmax": 25.25299531585132,
+          "CNRmed": 22.615131215595014,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8751.59734327718,
+          "SNRmax": 24.342254164998778,
+          "SNRmed": 20.51560435083416,
+          "CNRmax": 23.132838792445476,
+          "CNRmed": 20.872617650609655,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8780.78952977067,
+          "SNRmax": 21.68514216533043,
+          "SNRmed": 18.660357088807004,
+          "CNRmax": 21.8124515277486,
+          "CNRmed": 18.97642000702472,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8810.079090916905,
+          "SNRmax": 23.030218712467615,
+          "SNRmed": 18.700846710600857,
+          "CNRmax": 50.507161534243195,
+          "CNRmed": 19.114096118824925,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8839.466351522764,
+          "SNRmax": 26.012281619463455,
+          "SNRmed": 21.68110769396742,
+          "CNRmax": 25.29875338167745,
+          "CNRmed": 21.711035034799963,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8868.951637478567,
+          "SNRmax": 25.96943265717152,
+          "SNRmed": 22.858878339362114,
+          "CNRmax": 63.97959209810024,
+          "CNRmed": 23.14556167371323,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8898.535275761684,
+          "SNRmax": 21.934038811216514,
+          "SNRmed": 18.558806731038512,
+          "CNRmax": 20.994129537852004,
+          "CNRmed": 18.736346533122102,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8928.217594440168,
+          "SNRmax": 20.140239038856606,
+          "SNRmed": 16.25574820120865,
+          "CNRmax": 21.09873821396754,
+          "CNRmed": 16.574193934410662,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8957.998922676385,
+          "SNRmax": 23.214060182343797,
+          "SNRmed": 19.353585169945543,
+          "CNRmax": 27.532998294635377,
+          "CNRmed": 19.815846989636157,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 8987.87959073067,
+          "SNRmax": 22.254212512888927,
+          "SNRmed": 19.073446578316997,
+          "CNRmax": 32.04159325495444,
+          "CNRmed": 19.764486946841107,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9017.85992996499,
+          "SNRmax": 23.806697968093808,
+          "SNRmed": 18.202962927261215,
+          "CNRmax": 34.718104964599945,
+          "CNRmed": 19.1091136391057,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9047.940272846616,
+          "SNRmax": 18.832646192307664,
+          "SNRmed": 14.875565744833303,
+          "CNRmax": 18.803655696828883,
+          "CNRmed": 15.23475419463685,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9078.120952951806,
+          "SNRmax": 20.985270032482195,
+          "SNRmed": 15.47670736638382,
+          "CNRmax": 25.74319034650296,
+          "CNRmed": 16.147181071966493,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9108.402304969513,
+          "SNRmax": 21.73193780991952,
+          "SNRmed": 17.52651106452824,
+          "CNRmax": 28.359311635548067,
+          "CNRmed": 18.077691805172233,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9138.784664705092,
+          "SNRmax": 21.798203564316697,
+          "SNRmed": 17.645907577452924,
+          "CNRmax": 24.134006323585417,
+          "CNRmed": 18.183384697238093,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9169.268369084024,
+          "SNRmax": 18.028585517512283,
+          "SNRmed": 13.386379769975251,
+          "CNRmax": 21.765338705346235,
+          "CNRmed": 14.289013948968174,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9199.85375615565,
+          "SNRmax": 18.063951726488437,
+          "SNRmed": 12.66061888115093,
+          "CNRmax": 30.589047919010923,
+          "CNRmed": 13.076747990788169,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9230.541165096924,
+          "SNRmax": 20.035656638822903,
+          "SNRmed": 16.058467472248708,
+          "CNRmax": 19.758509532658938,
+          "CNRmed": 16.51066511729536,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9261.330936216173,
+          "SNRmax": 20.87350205596142,
+          "SNRmed": 17.427399632040927,
+          "CNRmax": 20.93716607380565,
+          "CNRmed": 17.75356660871009,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9292.223410956869,
+          "SNRmax": 16.32835029630441,
+          "SNRmed": 13.523286080759048,
+          "CNRmax": 18.14273501554038,
+          "CNRmed": 14.316107644489568,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9323.21893190142,
+          "SNRmax": 13.32074392129447,
+          "SNRmed": 7.700095837518582,
+          "CNRmax": 21.934095516049712,
+          "CNRmed": 10.261912617670133,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9354.317842774959,
+          "SNRmax": 17.645307938760446,
+          "SNRmed": 10.173726374771192,
+          "CNRmax": 30.42861061468091,
+          "CNRmed": 14.067490407739808,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9385.52048844917,
+          "SNRmax": 18.63073646012904,
+          "SNRmed": 14.004610836045426,
+          "CNRmax": 30.330439536815955,
+          "CNRmed": 16.430548814012802,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9416.827214946105,
+          "SNRmax": 17.69741598501324,
+          "SNRmed": 13.006723751688252,
+          "CNRmax": 29.251395301123218,
+          "CNRmed": 15.577004378498685,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9448.238369442013,
+          "SNRmax": 13.573998200007036,
+          "SNRmed": 9.235251482622383,
+          "CNRmax": 23.51800350316873,
+          "CNRmed": 11.202580460259519,
+          "NomResolPower": 47817.7,
+          "ArcResolPower": 46371.37453900143
+        },
+        {
+          "Wavelength": 9479.754300271208,
+          "SNRmax": 11.011928247422508,
+          "SNRmed": 8.740963408678278,
+          "CNRmax": 14.648712314119336,
+          "CNRmed": 9.167069998138526,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 9511.375356929915,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        },
+        {
+          "Wavelength": 0.0,
+          "SNRmax": 0.0,
+          "SNRmed": 0.0,
+          "CNRmax": 0.0,
+          "CNRmed": 0.0,
+          "NomResolPower": 0.0,
+          "ArcResolPower": 0.0
+        }
+      ]
+    },
+    "2": {
+      "name": "WavelengthCoverage",
+      "columns": [
+        "LambdaStart",
+        "LambdaEnd"
+      ],
+      "rows": [
+        {
+          "LambdaStart": 3758.7242206816077,
+          "LambdaEnd": 4983.081575405289
+        },
+        {
+          "LambdaStart": 5685.803985725578,
+          "LambdaEnd": 7525.573161191584
+        },
+        {
+          "LambdaStart": 7669.386757622652,
+          "LambdaEnd": 7752.851944928348
+        },
+        {
+          "LambdaStart": 7752.981249119695,
+          "LambdaEnd": 8829.589532209786
+        },
+        {
+          "LambdaStart": 8829.736794525965,
+          "LambdaEnd": 8922.18348117285
+        },
+        {
+          "LambdaStart": 8922.406692038723,
+          "LambdaEnd": 8990.89720396944
+        },
+        {
+          "LambdaStart": 8991.047156619215,
+          "LambdaEnd": 9378.54847239273
+        },
+        {
+          "LambdaStart": 9378.783100376966,
+          "LambdaEnd": 9466.552150871174
+        }
+      ]
+    },
+    "3": {
+      "name": "ExposureInfo",
+      "columns": [
+        "FilePathEnd",
+        "FluxFileName",
+        "ErrFileName",
+        "WavFileName",
+        "ArchiveFileName",
+        "WavcalArchiveFileName",
+        "FileType",
+        "ObjectName",
+        "ProgramID",
+        "OBID",
+        "CenWav",
+        "UTDate",
+        "DPR-TECH",
+        "DPR-TYPE",
+        "DPR-CATG",
+        "INS-PATH",
+        "INS-MODE",
+        "INS-DROT",
+        "Binning",
+        "JD",
+        "Epoch",
+        "UTStart",
+        "ExpTime",
+        "RA",
+        "Dec",
+        "SlitWidth",
+        "Encoder",
+        "AirmassStart",
+        "AirmassEnd",
+        "SeeingStart",
+        "SeeingEnd",
+        "SeeingExtract",
+        "Latitude",
+        "Longitude",
+        "Altitude",
+        "HelioVelCalc",
+        "HelioVelHead",
+        "BaryVelHead",
+        "Temperature",
+        "Pressure",
+        "MoonRA",
+        "MoonDec",
+        "Moon_Angle",
+        "MoonPhase",
+        "WavcalUTDate",
+        "WavcalJD",
+        "WavcalUTStart",
+        "WavcalExpTime",
+        "WavcalSlitWidth",
+        "WavcalEncoder",
+        "WavcalTemp",
+        "WavcalPress",
+        "WavcalArcLines",
+        "WavcalRMS",
+        "WavcalArcFWHM"
+      ],
+      "rows": [
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_437_01_b.fits",
+          "ErrFileName": "err_CTm258_sci_437_01_b.fits",
+          "WavFileName": "wpol_CTm258_sci_437_01_b.fits",
+          "ArchiveFileName": "UVES.2003-10-31T08:13:05.396.fits",
+          "WavcalArchiveFileName": "UVES.2003-10-31T08:54:22.703.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133549,
+          "CenWav": 437,
+          "UTDate": "2003-10-31",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "BLUE",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452943.84242357,
+          "Epoch": 2003.829859856284,
+          "UTStart": 8.218165677040815,
+          "ExpTime": 2400.0013,
+          "RA": 4.759593333333333,
+          "Dec": -35.78466,
+          "SlitWidth": 1.0,
+          "Encoder": 1079486,
+          "AirmassStart": 1.071,
+          "AirmassEnd": 1.139,
+          "SeeingStart": 1.39,
+          "SeeingEnd": 1.09,
+          "SeeingExtract": 1.1770608,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 6.157595691577304,
+          "HelioVelHead": 6.175433,
+          "BaryVelHead": 6.182744,
+          "Temperature": 11.8,
+          "Pressure": 741.8,
+          "MoonRA": 299.45843,
+          "MoonDec": -1.6525333333333334,
+          "Moon_Angle": 104.3015,
+          "MoonPhase": 0.2,
+          "WavcalUTDate": "2003-10-31",
+          "WavcalJD": 2452943.8710961,
+          "WavcalUTStart": 8.90630638888889,
+          "WavcalExpTime": 1.0013,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1079486,
+          "WavcalTemp": 11.7,
+          "WavcalPress": 741.9,
+          "WavcalArcLines": 624,
+          "WavcalRMS": 68.57258613280807,
+          "WavcalArcFWHM": 5.879625836858634
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_437_02_b.fits",
+          "ErrFileName": "err_CTm258_sci_437_02_b.fits",
+          "WavFileName": "wpol_CTm258_sci_437_02_b.fits",
+          "ArchiveFileName": "UVES.2003-11-01T07:25:17.694.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-01T08:49:55.135.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133611,
+          "CenWav": 437,
+          "UTDate": "2003-11-01",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "BLUE",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452944.80923257,
+          "Epoch": 2003.832548029337,
+          "UTStart": 7.42158168554306,
+          "ExpTime": 5000.0012,
+          "RA": 4.7595979999999996,
+          "Dec": -35.7848,
+          "SlitWidth": 1.0,
+          "Encoder": 1079479,
+          "AirmassStart": 1.03,
+          "AirmassEnd": 1.138,
+          "SeeingStart": 1.53,
+          "SeeingEnd": 0.86,
+          "SeeingExtract": 0.9856235999999999,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.935111033133794,
+          "HelioVelHead": 5.989552,
+          "BaryVelHead": 5.996862,
+          "Temperature": 11.0,
+          "Pressure": 739.7,
+          "MoonRA": 313.27947,
+          "MoonDec": -1.4769733333333332,
+          "Moon_Angle": 97.67425,
+          "MoonPhase": 0.23,
+          "WavcalUTDate": "2003-11-01",
+          "WavcalJD": 2452944.86799925,
+          "WavcalUTStart": 8.831981944444445,
+          "WavcalExpTime": 1.0012,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1079479,
+          "WavcalTemp": 10.9,
+          "WavcalPress": 739.5,
+          "WavcalArcLines": 647,
+          "WavcalRMS": 69.59606793117462,
+          "WavcalArcFWHM": 5.855343186423532
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_437_03_b.fits",
+          "ErrFileName": "err_CTm258_sci_437_03_b.fits",
+          "WavFileName": "wpol_CTm258_sci_437_03_b.fits",
+          "ArchiveFileName": "UVES.2003-11-03T07:55:37.331.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-03T08:50:36.749.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133712,
+          "CenWav": 437,
+          "UTDate": "2003-11-03",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "BLUE",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452946.83029318,
+          "Epoch": 2003.8380531418954,
+          "UTStart": 7.927036318928003,
+          "ExpTime": 3217.0014,
+          "RA": 4.759614,
+          "Dec": -35.78448,
+          "SlitWidth": 1.0,
+          "Encoder": 1079456,
+          "AirmassStart": 1.064,
+          "AirmassEnd": 1.157,
+          "SeeingStart": 0.89,
+          "SeeingEnd": 0.98,
+          "SeeingExtract": 1.18572,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.379638587027818,
+          "HelioVelHead": 5.408152,
+          "BaryVelHead": 5.415464,
+          "Temperature": 8.8,
+          "Pressure": 739.5,
+          "MoonRA": 339.43912,
+          "MoonDec": -0.8953026666666666,
+          "Moon_Angle": 83.7489,
+          "MoonPhase": 0.3,
+          "WavcalUTDate": "2003-11-03",
+          "WavcalJD": 2452946.86848089,
+          "WavcalUTStart": 8.84354138888889,
+          "WavcalExpTime": 1.0013,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1079456,
+          "WavcalTemp": 8.8,
+          "WavcalPress": 739.6,
+          "WavcalArcLines": 603,
+          "WavcalRMS": 65.8630820170556,
+          "WavcalArcFWHM": 5.798787618149676
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_01_l.fits",
+          "ErrFileName": "err_CTm258_sci_760_01_l.fits",
+          "WavFileName": "wpol_CTm258_sci_760_01_l.fits",
+          "ArchiveFileName": "UVES.2003-10-31T08:13:20.152.fits",
+          "WavcalArchiveFileName": "UVES.2003-10-31T11:34:29.944.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133549,
+          "CenWav": 760,
+          "UTDate": "2003-10-31",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452943.84259435,
+          "Epoch": 2003.8298603236656,
+          "UTStart": 8.222264405339956,
+          "ExpTime": 2400.0002,
+          "RA": 4.759593333333333,
+          "Dec": -35.78466,
+          "SlitWidth": 1.0,
+          "Encoder": 1253831,
+          "AirmassStart": 1.071,
+          "AirmassEnd": 1.139,
+          "SeeingStart": 1.39,
+          "SeeingEnd": 1.09,
+          "SeeingExtract": 1.1186448,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 6.157219081688221,
+          "HelioVelHead": 6.175435,
+          "BaryVelHead": 6.182745,
+          "Temperature": 11.9,
+          "Pressure": 741.8,
+          "MoonRA": 299.46085,
+          "MoonDec": -1.6525106666666667,
+          "Moon_Angle": 104.3004,
+          "MoonPhase": 0.2,
+          "WavcalUTDate": "2003-10-31",
+          "WavcalJD": 2452943.98229102,
+          "WavcalUTStart": 11.574984444444445,
+          "WavcalExpTime": 0.9101,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253827,
+          "WavcalTemp": 11.8,
+          "WavcalPress": 742.7,
+          "WavcalArcLines": 633,
+          "WavcalRMS": 63.478614225461115,
+          "WavcalArcFWHM": 6.011921899053961
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_01_u.fits",
+          "ErrFileName": "err_CTm258_sci_760_01_u.fits",
+          "WavFileName": "wpol_CTm258_sci_760_01_u.fits",
+          "ArchiveFileName": "UVES.2003-10-31T08:13:20.152.fits",
+          "WavcalArchiveFileName": "UVES.2003-10-31T11:34:29.944.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133549,
+          "CenWav": 760,
+          "UTDate": "2003-10-31",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452943.84259435,
+          "Epoch": 2003.8298603236656,
+          "UTStart": 8.222264405339956,
+          "ExpTime": 2400.0002,
+          "RA": 4.759593333333333,
+          "Dec": -35.78466,
+          "SlitWidth": 1.0,
+          "Encoder": 1253831,
+          "AirmassStart": 1.071,
+          "AirmassEnd": 1.139,
+          "SeeingStart": 1.39,
+          "SeeingEnd": 1.09,
+          "SeeingExtract": 1.0087532,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 6.157219081688221,
+          "HelioVelHead": 6.175435,
+          "BaryVelHead": 6.182745,
+          "Temperature": 11.9,
+          "Pressure": 741.8,
+          "MoonRA": 299.46085,
+          "MoonDec": -1.6525106666666667,
+          "Moon_Angle": 104.3004,
+          "MoonPhase": 0.2,
+          "WavcalUTDate": "2003-10-31",
+          "WavcalJD": 2452943.98229102,
+          "WavcalUTStart": 11.574984444444445,
+          "WavcalExpTime": 0.9101,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253827,
+          "WavcalTemp": 11.8,
+          "WavcalPress": 742.7,
+          "WavcalArcLines": 273,
+          "WavcalRMS": 70.56818304834789,
+          "WavcalArcFWHM": 6.4689870599026325
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_02_l.fits",
+          "ErrFileName": "err_CTm258_sci_760_02_l.fits",
+          "WavFileName": "wpol_CTm258_sci_760_02_l.fits",
+          "ArchiveFileName": "UVES.2003-11-01T07:25:33.159.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-01T10:58:45.454.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133611,
+          "CenWav": 760,
+          "UTDate": "2003-11-01",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452944.80941156,
+          "Epoch": 2003.8325485195344,
+          "UTStart": 7.425877444446087,
+          "ExpTime": 5000.0001,
+          "RA": 4.7595979999999996,
+          "Dec": -35.7848,
+          "SlitWidth": 1.0,
+          "Encoder": 1253817,
+          "AirmassStart": 1.03,
+          "AirmassEnd": 1.138,
+          "SeeingStart": 1.53,
+          "SeeingEnd": 0.86,
+          "SeeingExtract": 0.9722439999999999,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.934701095419812,
+          "HelioVelHead": 5.989529,
+          "BaryVelHead": 5.99684,
+          "Temperature": 11.2,
+          "Pressure": 739.7,
+          "MoonRA": 313.28193,
+          "MoonDec": -1.476934,
+          "Moon_Angle": 97.67302,
+          "MoonPhase": 0.23,
+          "WavcalUTDate": "2003-11-01",
+          "WavcalJD": 2452944.95747053,
+          "WavcalUTStart": 10.9792925,
+          "WavcalExpTime": 0.9101,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253814,
+          "WavcalTemp": 11.0,
+          "WavcalPress": 740.4,
+          "WavcalArcLines": 615,
+          "WavcalRMS": 61.68098603904301,
+          "WavcalArcFWHM": 6.004908121949312
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_02_u.fits",
+          "ErrFileName": "err_CTm258_sci_760_02_u.fits",
+          "WavFileName": "wpol_CTm258_sci_760_02_u.fits",
+          "ArchiveFileName": "UVES.2003-11-01T07:25:33.159.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-01T10:58:45.454.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133611,
+          "CenWav": 760,
+          "UTDate": "2003-11-01",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452944.80941156,
+          "Epoch": 2003.8325485195344,
+          "UTStart": 7.425877444446087,
+          "ExpTime": 5000.0001,
+          "RA": 4.7595979999999996,
+          "Dec": -35.7848,
+          "SlitWidth": 1.0,
+          "Encoder": 1253817,
+          "AirmassStart": 1.03,
+          "AirmassEnd": 1.138,
+          "SeeingStart": 1.53,
+          "SeeingEnd": 0.86,
+          "SeeingExtract": 0.862498,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.934701095419812,
+          "HelioVelHead": 5.989529,
+          "BaryVelHead": 5.99684,
+          "Temperature": 11.2,
+          "Pressure": 739.7,
+          "MoonRA": 313.28193,
+          "MoonDec": -1.476934,
+          "Moon_Angle": 97.67302,
+          "MoonPhase": 0.23,
+          "WavcalUTDate": "2003-11-01",
+          "WavcalJD": 2452944.95747053,
+          "WavcalUTStart": 10.9792925,
+          "WavcalExpTime": 0.9101,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253814,
+          "WavcalTemp": 11.0,
+          "WavcalPress": 740.4,
+          "WavcalArcLines": 256,
+          "WavcalRMS": 68.48015998021157,
+          "WavcalArcFWHM": 6.465032813462419
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_03_l.fits",
+          "ErrFileName": "err_CTm258_sci_760_03_l.fits",
+          "WavFileName": "wpol_CTm258_sci_760_03_l.fits",
+          "ArchiveFileName": "UVES.2003-11-03T07:55:50.521.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-03T12:02:58.729.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133712,
+          "CenWav": 760,
+          "UTDate": "2003-11-03",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452946.83044585,
+          "Epoch": 2003.8380536865957,
+          "UTStart": 7.930700395256281,
+          "ExpTime": 3225.0002,
+          "RA": 4.759614,
+          "Dec": -35.78448,
+          "SlitWidth": 1.0,
+          "Encoder": 1253779,
+          "AirmassStart": 1.064,
+          "AirmassEnd": 1.157,
+          "SeeingStart": 0.89,
+          "SeeingEnd": 0.98,
+          "SeeingExtract": 1.09382,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.379199652777272,
+          "HelioVelHead": 5.408158,
+          "BaryVelHead": 5.41547,
+          "Temperature": 8.9,
+          "Pressure": 739.5,
+          "MoonRA": 339.4409,
+          "MoonDec": -0.8952533333333333,
+          "Moon_Angle": 83.74791,
+          "MoonPhase": 0.3,
+          "WavcalUTDate": "2003-11-03",
+          "WavcalJD": 2452947.00206862,
+          "WavcalUTStart": 12.049646666666666,
+          "WavcalExpTime": 0.91,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253777,
+          "WavcalTemp": 8.8,
+          "WavcalPress": 741.0,
+          "WavcalArcLines": 610,
+          "WavcalRMS": 63.95924024055737,
+          "WavcalArcFWHM": 5.978762108733095
+        },
+        {
+          "FilePathEnd": "/UVES/J044534-354704/CTm258/",
+          "FluxFileName": "fxb_CTm258_sci_760_03_u.fits",
+          "ErrFileName": "err_CTm258_sci_760_03_u.fits",
+          "WavFileName": "wpol_CTm258_sci_760_03_u.fits",
+          "ArchiveFileName": "UVES.2003-11-03T07:55:50.521.fits",
+          "WavcalArchiveFileName": "UVES.2003-11-03T12:02:58.729.fits",
+          "FileType": 0,
+          "ObjectName": "ctm258",
+          "ProgramID": "072.A-0442(A)",
+          "OBID": 200133712,
+          "CenWav": 760,
+          "UTDate": "2003-11-03",
+          "DPR-TECH": "ECHELLE",
+          "DPR-TYPE": "OBJECT,POINT",
+          "DPR-CATG": "SCIENCE",
+          "INS-PATH": "RED",
+          "INS-MODE": "DICHR#2",
+          "INS-DROT": "ELEV",
+          "Binning": "2x2",
+          "JD": 2452946.83044585,
+          "Epoch": 2003.8380536865957,
+          "UTStart": 7.930700395256281,
+          "ExpTime": 3225.0002,
+          "RA": 4.759614,
+          "Dec": -35.78448,
+          "SlitWidth": 1.0,
+          "Encoder": 1253779,
+          "AirmassStart": 1.064,
+          "AirmassEnd": 1.157,
+          "SeeingStart": 0.89,
+          "SeeingEnd": 0.98,
+          "SeeingExtract": 0.9920819999999999,
+          "Latitude": -24.6254,
+          "Longitude": 70.403,
+          "Altitude": 2648.0,
+          "HelioVelCalc": 5.379199652777272,
+          "HelioVelHead": 5.408158,
+          "BaryVelHead": 5.41547,
+          "Temperature": 8.9,
+          "Pressure": 739.5,
+          "MoonRA": 339.4409,
+          "MoonDec": -0.8952533333333333,
+          "Moon_Angle": 83.74791,
+          "MoonPhase": 0.3,
+          "WavcalUTDate": "2003-11-03",
+          "WavcalJD": 2452947.00206862,
+          "WavcalUTStart": 12.049646666666666,
+          "WavcalExpTime": 0.91,
+          "WavcalSlitWidth": 1.0,
+          "WavcalEncoder": 1253777,
+          "WavcalTemp": 8.8,
+          "WavcalPress": 741.0,
+          "WavcalArcLines": 236,
+          "WavcalRMS": 68.33720955778007,
+          "WavcalArcFWHM": 6.41556255115319
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+!! For normal fits
+!bvalmin 0.5
+bvalmin 0.15
+bvalmax 30.0
+bgtdrop 101.0
+bltdrop 0.01
+clogltdrop 8.0
+nsubmin 9
+nsubmax 9
+lastchtied  v
+chisqthres 2.e-6 10.0 2.e-6
+pcvals
+dots 1000
+novars 4
+daoaunit 1e-6

@@ -1,0 +1,193 @@
+{
+  "he2021": {
+    "rows": 269,
+    "edge_rows": [
+      {
+        "zero_index": 80,
+        "omega_over_J": 8,
+        "exact_ordinate_published_rounded": 201.265,
+        "measured_ordinate": 199.24,
+        "sigma_ordinate_published": 5.76,
+        "parenthetical_as_published": "199.24(576)",
+        "residual_to_published_rounded": -2.0249999999999773,
+        "relative_residual_to_published_rounded": -0.01006136188607049,
+        "sigma_rounded_to_zero": false,
+        "source_table": "II",
+        "source_pdf_page": 4
+      },
+      {
+        "zero_index": 80,
+        "omega_over_J": 12,
+        "exact_ordinate_published_rounded": 201.265,
+        "measured_ordinate": 200.14,
+        "sigma_ordinate_published": 0.05,
+        "parenthetical_as_published": "200.14(5)",
+        "residual_to_published_rounded": -1.125,
+        "relative_residual_to_published_rounded": -0.005589645492261447,
+        "sigma_rounded_to_zero": false,
+        "source_table": "II",
+        "source_pdf_page": 4
+      },
+      {
+        "zero_index": 80,
+        "omega_over_J": 16,
+        "exact_ordinate_published_rounded": 201.265,
+        "measured_ordinate": 200.47,
+        "sigma_ordinate_published": 0.16,
+        "parenthetical_as_published": "200.47(16)",
+        "residual_to_published_rounded": -0.7949999999999875,
+        "relative_residual_to_published_rounded": -0.003950016147864693,
+        "sigma_rounded_to_zero": false,
+        "source_table": "II",
+        "source_pdf_page": 4
+      }
+    ],
+    "descriptive_summaries": {
+      "5": [
+        {
+          "index_range": [
+            1,
+            29
+          ],
+          "count": 29,
+          "median_sigma": 0.04,
+          "median_absolute_residual": 0.17500000000000426,
+          "max_absolute_residual": 1.206000000000003
+        }
+      ],
+      "8": [
+        {
+          "index_range": [
+            1,
+            29
+          ],
+          "count": 29,
+          "median_sigma": 0.03,
+          "median_absolute_residual": 0.13500000000000512,
+          "max_absolute_residual": 0.7019999999999982
+        },
+        {
+          "index_range": [
+            30,
+            79
+          ],
+          "count": 50,
+          "median_sigma": 0.095,
+          "median_absolute_residual": 0.17250000000000654,
+          "max_absolute_residual": 1.4370000000000118
+        },
+        {
+          "index_range": [
+            70,
+            79
+          ],
+          "count": 10,
+          "median_sigma": 0.35,
+          "median_absolute_residual": 0.10650000000001114,
+          "max_absolute_residual": 1.204999999999984
+        },
+        {
+          "index_range": [
+            80,
+            80
+          ],
+          "count": 1,
+          "median_sigma": 5.76,
+          "median_absolute_residual": 2.0249999999999773,
+          "max_absolute_residual": 2.0249999999999773
+        }
+      ],
+      "12": [
+        {
+          "index_range": [
+            1,
+            29
+          ],
+          "count": 29,
+          "median_sigma": 0.06,
+          "median_absolute_residual": 0.19499999999999318,
+          "max_absolute_residual": 1.2109999999999985
+        },
+        {
+          "index_range": [
+            30,
+            79
+          ],
+          "count": 50,
+          "median_sigma": 0.18,
+          "median_absolute_residual": 0.16149999999998954,
+          "max_absolute_residual": 1.4550000000000125
+        },
+        {
+          "index_range": [
+            70,
+            79
+          ],
+          "count": 10,
+          "median_sigma": 0.20500000000000002,
+          "median_absolute_residual": 0.1524999999999892,
+          "max_absolute_residual": 0.8360000000000127
+        },
+        {
+          "index_range": [
+            80,
+            80
+          ],
+          "count": 1,
+          "median_sigma": 0.05,
+          "median_absolute_residual": 1.125,
+          "max_absolute_residual": 1.125
+        }
+      ],
+      "16": [
+        {
+          "index_range": [
+            1,
+            29
+          ],
+          "count": 29,
+          "median_sigma": 0.08,
+          "median_absolute_residual": 0.20199999999999818,
+          "max_absolute_residual": 0.7409999999999997
+        },
+        {
+          "index_range": [
+            30,
+            79
+          ],
+          "count": 50,
+          "median_sigma": 0.14500000000000002,
+          "median_absolute_residual": 0.17950000000000443,
+          "max_absolute_residual": 0.9989999999999952
+        },
+        {
+          "index_range": [
+            70,
+            79
+          ],
+          "count": 10,
+          "median_sigma": 0.495,
+          "median_absolute_residual": 0.20049999999999102,
+          "max_absolute_residual": 0.9989999999999952
+        },
+        {
+          "index_range": [
+            80,
+            80
+          ],
+          "count": 1,
+          "median_sigma": 0.16,
+          "median_absolute_residual": 0.7949999999999875,
+          "max_absolute_residual": 0.7949999999999875
+        }
+      ]
+    },
+    "warning": "Published sigma is an interpolation statistic; not a full error budget. One 189.50(0) entry has rounded-to-zero sigma and cannot receive infinite likelihood weight."
+  },
+  "wei2026": {
+    "tscan_rows": 110,
+    "beta_scan_rows": 18,
+    "product_level": "Authors' processed experimental means and standard deviations; original shots and full cross-point covariance are not present in this downloaded subset.",
+    "root_estimates": "Five root estimates are transcribed from the published Results paragraph; no root uncertainty has been invented."
+  }
+}

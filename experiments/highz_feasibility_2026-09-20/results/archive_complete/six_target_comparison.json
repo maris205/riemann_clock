@@ -1,0 +1,566 @@
+{
+  "created_utc": "2026-09-21T04:19:00.990300+00:00",
+  "quantity": "D=velocity(FeII2382)-velocity(FeII2374), conditional relative registration; not alpha.",
+  "error_model": "All Q comparisons use native expected-fluctuation arrays as diagonalweights.",
+  "selection_warning": "All six automatic candidates retained. Adequacygate can reject realfrequencychanges; passedsubsetcannot establish populationnull. Failurepairshift values are diagnostic-only, with mainD/errors null.",
+  "calibration_warning": "No row is a calibrated cosmological precision measurement; first-order/globalstationarity is not certified.",
+  "rows": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "pixels": 130,
+      "ncomp": 3,
+      "Q0": 75.15888744252929,
+      "Q1": 68.99884187763574,
+      "nu0": 101,
+      "nu1": 97,
+      "delta_Q": 6.160045564893551,
+      "extra_shifts": 4,
+      "diagnostic_H1_status": "conditional_common_pair_companion_complete",
+      "D_m_s": -339.97055338286276,
+      "conditional_local_error_m_s": 179.5813132807154,
+      "diagnostic_only_D_m_s": null,
+      "adequacy_flag": true,
+      "adequacy_reasons": [
+        "Retrospective same numeric residual screen for earlier compact pilots; no claim of prospective six-target gate.",
+        "Fixed architecture and bounds; derivative error and bounded profile differ in nonlinear/bound-active cases."
+      ],
+      "null_per_line": [
+        {
+          "line": 2260,
+          "pixels": 26,
+          "chi2": 16.44872630087278,
+          "chi2_per_pixel": 0.6326433192643377
+        },
+        {
+          "line": 2344,
+          "pixels": 26,
+          "chi2": 12.707949329604602,
+          "chi2_per_pixel": 0.48876728190786933
+        },
+        {
+          "line": 2374,
+          "pixels": 26,
+          "chi2": 10.268540961115947,
+          "chi2_per_pixel": 0.39494388311984413
+        },
+        {
+          "line": 2382,
+          "pixels": 26,
+          "chi2": 24.415169731106847,
+          "chi2_per_pixel": 0.9390449896579557
+        },
+        {
+          "line": 2586,
+          "pixels": 26,
+          "chi2": 11.318501119829126,
+          "chi2_per_pixel": 0.43532696614727406
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/common_pair/refined_summary.json",
+      "source_summary_sha256": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857",
+      "null_fit_file": "results/common_pair/J232128-105122/refined_h0_from_best_h1.json",
+      "alternative_fit_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+      "profile_intervals": [
+        {
+          "delta_chi2_level": 1.0,
+          "lower": {
+            "crossing_m_s": -495.1777061255662,
+            "bracket_m_s": [
+              -497.10435999541795,
+              -474.6566733364815
+            ],
+            "bracket_delta_chi2": [
+              0.7539983937723207,
+              1.0230963008294793
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+              "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": -187.8808527239563,
+            "bracket_m_s": [
+              -205.28443342924402,
+              -182.83674677030757
+            ],
+            "bracket_delta_chi2": [
+              0.7796653016369959,
+              1.0638599367928094
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+              "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        },
+        {
+          "delta_chi2_level": 3.84,
+          "lower": {
+            "crossing_m_s": -654.33685003295,
+            "bracket_m_s": [
+              -676.6858532669095,
+              -654.238166607973
+            ],
+            "bracket_delta_chi2": [
+              3.8377582407981095,
+              4.347695022385949
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+              "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": -43.73622816927369,
+            "bracket_m_s": [
+              -52.94873510671901,
+              -35.29915673781267
+            ],
+            "bracket_delta_chi2": [
+              3.5982166637187873,
+              4.0614319395353675
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json",
+              "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        }
+      ],
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "f46eed076f99a6b28a8de04f3f5109dc0e766aa9609fda9cd598847810ff7fae",
+      "alternative_fit_file_sha256": "3e773d96ab0f5dc0a83b072ee7165cf7e6ebc1a4f6e49e59b74ac6e2094079ea"
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "pixels": 504,
+      "ncomp": 30,
+      "Q0": 421.24821511850905,
+      "Q1": 407.71691680209335,
+      "nu0": 402,
+      "nu1": 400,
+      "delta_Q": 13.5312983164157,
+      "extra_shifts": 2,
+      "diagnostic_H1_status": "conditional_H1_complete_sparse_profile_partly_capped",
+      "D_m_s": -15.737705306861711,
+      "conditional_local_error_m_s": 228.84111449638414,
+      "diagnostic_only_D_m_s": null,
+      "adequacy_flag": true,
+      "adequacy_reasons": [
+        "Passed prespecified residual screen under expected diagonal errors; not physical or population-null certification.",
+        "Gas count is final search upper edge; finite optimizer paths, bound-active nuisance and calibration remain unresolved."
+      ],
+      "null_per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 117.03900887563587,
+          "chi2_per_pixel": 0.6966607671168802
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 160.48695989051336,
+          "chi2_per_pixel": 0.9552795231578176
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 143.72224635235975,
+          "chi2_per_pixel": 0.8554895616211889
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/archive_complete/J225719-100104/selected_pair.json",
+      "source_summary_sha256": "5842ce628cabc2bc88bc557364602693ab84bf083a68af539fcd1ca326555021",
+      "null_fit_file": "results/archive_complete/J225719-100104/n30_null_recovered_cross_os21.json",
+      "alternative_fit_file": "results/archive_complete/J225719-100104/n30_shift_recovered_os21.json",
+      "sparse_profile": [
+        {
+          "value_m_s": -473.41993429963,
+          "chi2": 412.04526476597476,
+          "delta_from_free": 4.328347963881413,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_0_os21"
+        },
+        {
+          "value_m_s": -244.57881980324586,
+          "chi2": 408.81877804331117,
+          "delta_from_free": 1.1018612412178186,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_1_os21"
+        },
+        {
+          "value_m_s": -15.737705306861711,
+          "chi2": 407.71677684796185,
+          "delta_from_free": -0.0001399541314981434,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_2_os21"
+        },
+        {
+          "value_m_s": 213.1034091895224,
+          "chi2": 408.43823647098225,
+          "delta_from_free": 0.7213196688888956,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_3_os21"
+        },
+        {
+          "value_m_s": 441.9445236859066,
+          "chi2": 411.5119697748235,
+          "delta_from_free": 3.7950529727301614,
+          "optimizer_success": false,
+          "name": "n30_profile2382_recovered_4_os21"
+        }
+      ],
+      "sparse_profile_all_optimizer_stopped": false,
+      "sparse_profile_lowest_minus_free_Q": -0.0001399541314981434,
+      "sparse_profile_is_confidence_interval": false,
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "6b731c1f7e9a87d500f27f13ef4a4df02399f0c6fd68ffc9ea3e099c2974a87e",
+      "alternative_fit_file_sha256": "8ed73be356b2899dc2f00de5d2d2f5d82fda6a3a0f0d7f76018ddf71fd1372dc"
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "pixels": 480,
+      "ncomp": 16,
+      "Q0": 482.29846556457426,
+      "Q1": 478.12242819501773,
+      "nu0": 416,
+      "nu1": 413,
+      "delta_Q": 4.176037369556525,
+      "extra_shifts": 3,
+      "diagnostic_H1_status": "conditional_H1_and_sparse_profile_completed",
+      "D_m_s": 268.7808447321309,
+      "conditional_local_error_m_s": 130.0940643010236,
+      "diagnostic_only_D_m_s": null,
+      "adequacy_flag": true,
+      "adequacy_reasons": [
+        "Passed prespecified residual screen under expected diagonal errors; not physical or population-null certification.",
+        "Gas count is final search upper edge; finite optimizer paths, bound-active nuisance and calibration remain unresolved."
+      ],
+      "null_per_line": [
+        {
+          "line": 1608,
+          "ndata": 120,
+          "chi2": 85.52530757027718,
+          "chi2_per_pixel": 0.7127108964189764
+        },
+        {
+          "line": 1611,
+          "ndata": 120,
+          "chi2": 85.95789555923686,
+          "chi2_per_pixel": 0.7163157963269738
+        },
+        {
+          "line": 2374,
+          "ndata": 120,
+          "chi2": 194.94366675043813,
+          "chi2_per_pixel": 1.624530556253651
+        },
+        {
+          "line": 2382,
+          "ndata": 120,
+          "chi2": 115.87159568462208,
+          "chi2_per_pixel": 0.965596630705184
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/archive_complete/J053007-250329/selected_pair.json",
+      "source_summary_sha256": "6b712d29066a5e07a3d7230e22cebfde760d4c000ddf620547d9297cf3b646e9",
+      "null_fit_file": "results/archive_complete/J053007-250329/n16_null_refined_os21.json",
+      "alternative_fit_file": "results/archive_complete/J053007-250329/n16_shift_fromnull_os21.json",
+      "sparse_profile": [
+        {
+          "value_m_s": 8.592716130083666,
+          "chi2": 482.028936396406,
+          "delta_from_free": 3.906508201388249,
+          "optimizer_success": true,
+          "name": "n16_profile2382_0_os21"
+        },
+        {
+          "value_m_s": 138.68678043110728,
+          "chi2": 479.0986399685953,
+          "delta_from_free": 0.9762117735775746,
+          "optimizer_success": true,
+          "name": "n16_profile2382_1_os21"
+        },
+        {
+          "value_m_s": 268.7808447321309,
+          "chi2": 478.1224201626047,
+          "delta_from_free": -8.032413006731076e-06,
+          "optimizer_success": true,
+          "name": "n16_profile2382_2_os21"
+        },
+        {
+          "value_m_s": 398.8749090331545,
+          "chi2": 479.0959410496703,
+          "delta_from_free": 0.9735128546525402,
+          "optimizer_success": true,
+          "name": "n16_profile2382_3_os21"
+        },
+        {
+          "value_m_s": 528.968973334178,
+          "chi2": 482.0120489597684,
+          "delta_from_free": 3.8896207647506458,
+          "optimizer_success": true,
+          "name": "n16_profile2382_4_os21"
+        }
+      ],
+      "sparse_profile_all_optimizer_stopped": true,
+      "sparse_profile_lowest_minus_free_Q": -8.032413006731076e-06,
+      "sparse_profile_is_confidence_interval": false,
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "21be5e0054ddfdfc7991aa5bc683a79eada9508dd0fcb374c9e52072cd942eb2",
+      "alternative_fit_file_sha256": "6e8eba576c3e52d8a77bedb1839c1d5c49f57b7daf850a41e275aa4f167424e4"
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "pixels": 1176,
+      "ncomp": 26,
+      "Q0": 1672.841768419044,
+      "Q1": 1667.2984871179206,
+      "nu0": 1086,
+      "nu1": 1084,
+      "delta_Q": 5.543281301123443,
+      "extra_shifts": 2,
+      "diagnostic_H1_status": "failed_primary_model_H1_did_not_repair_total_and_2382_mismatch",
+      "D_m_s": null,
+      "conditional_local_error_m_s": null,
+      "diagnostic_only_D_m_s": -11.861444258589783,
+      "adequacy_flag": false,
+      "adequacy_reasons": [
+        "Total chi2/nu>1.5 and2382 chi2/pixel>1.8 inH0andH1.",
+        "Overlapping1611 opacity modeledinside1608region without duplicatepixels; remaining gas/model mismatch unresolved."
+      ],
+      "null_per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 479.08554499454146,
+          "chi2_per_pixel": 1.2221570025370956
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 445.60067892396114,
+          "chi2_per_pixel": 1.1367364258264314
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 748.1555445005412,
+          "chi2_per_pixel": 1.9085600625013805
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/archive_complete/J233156-090802/failure_pair/summary.json",
+      "source_summary_sha256": "5d660ea12cab446b779ba417791b1d798b227a29db4f331a30a95cca349a4701",
+      "null_fit_file": "results/archive_complete/J233156-090802/n26_null_refined_os21.json",
+      "alternative_fit_file": "results/archive_complete/J233156-090802/failure_pair/fits/J233156-090802/diagnostic_H1_from_primary_os21.json",
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "c75a19b35fdde6199296bf97dcbc95e342fde231fa6888b87d983631843d7b0b",
+      "alternative_fit_file_sha256": "f0ba0c57434c769d993dfa94cbb9196904e577007f6634c78cb1b18d4f7760ac"
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "pixels": 138,
+      "ncomp": 6,
+      "Q0": 95.22846063001326,
+      "Q1": 87.25491207356842,
+      "nu0": 108,
+      "nu1": 106,
+      "delta_Q": 7.97354855644484,
+      "extra_shifts": 2,
+      "diagnostic_H1_status": "conditional_common_pair_companion_complete",
+      "D_m_s": -120.1100480781359,
+      "conditional_local_error_m_s": 399.412200684418,
+      "diagnostic_only_D_m_s": null,
+      "adequacy_flag": true,
+      "adequacy_reasons": [
+        "Retrospective same numeric residual screen for earlier compact pilots; no claim of prospective six-target gate.",
+        "Fixed architecture and bounds; derivative error and bounded profile differ in nonlinear/bound-active cases."
+      ],
+      "null_per_line": [
+        {
+          "line": 1608,
+          "pixels": 46,
+          "chi2": 29.630049709573566,
+          "chi2_per_pixel": 0.6441315154255123
+        },
+        {
+          "line": 2374,
+          "pixels": 46,
+          "chi2": 32.83819236668421,
+          "chi2_per_pixel": 0.7138737471018307
+        },
+        {
+          "line": 2382,
+          "pixels": 46,
+          "chi2": 32.76021855375548,
+          "chi2_per_pixel": 0.7121786642120757
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/common_pair/refined_summary.json",
+      "source_summary_sha256": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857",
+      "null_fit_file": "results/common_pair/J004131-493611/refined_h0_from_best_h1.json",
+      "alternative_fit_file": "results/common_pair/J004131-493611/refined_reverse_011.json",
+      "profile_intervals": [
+        {
+          "delta_chi2_level": 1.0,
+          "lower": {
+            "crossing_m_s": -264.85733105482973,
+            "bracket_m_s": [
+              -269.89090580810006,
+              -219.96395323144534
+            ],
+            "bracket_delta_chi2": [
+              0.46928162550554475,
+              1.059505671893561
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_013_refine1_lower_0_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_015_refine1_lower_1_cross_h0.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": 39.957200932369105,
+            "bracket_m_s": [
+              39.7988811142415,
+              59.69832167136225
+            ],
+            "bracket_delta_chi2": [
+              0.9980949824719119,
+              1.2375393142605589
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_reverse_009.json",
+              "results/common_pair/J004131-493611/refined_reverse_008.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        },
+        {
+          "delta_chi2_level": 3.84,
+          "lower": {
+            "crossing_m_s": -408.7416084012579,
+            "bracket_m_s": [
+              -419.6717635380643,
+              -369.74481096140954
+            ],
+            "bracket_delta_chi2": [
+              2.9176190162604883,
+              4.098528082031962
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_019_refine3.84_lower_1_cross_h0.json",
+              "results/common_pair/J004131-493611/refined_profile_017_refine3.84_lower_0_cross_h0.json"
+            ]
+          },
+          "upper": {
+            "crossing_m_s": 227.32573002866624,
+            "bracket_m_s": [
+              179.45166738179248,
+              229.3786199584472
+            ],
+            "bracket_delta_chi2": [
+              3.108134381506261,
+              3.8713831639742153
+            ],
+            "both_endpoints_terminated": true,
+            "fit_files": [
+              "results/common_pair/J004131-493611/refined_profile_018_refine3.84_upper_0_warm.json",
+              "results/common_pair/J004131-493611/refined_profile_020_refine3.84_upper_1_warm.json"
+            ]
+          },
+          "closed": true,
+          "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+        }
+      ],
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "473c35e57d748dbeeae130e4426b0bef4227362a7a7d01a149f00369b051b448",
+      "alternative_fit_file_sha256": "3dfb31ffd0eeff52f039ff3fa11438f59dc6062375cba951a072009055898405"
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "pixels": 436,
+      "ncomp": 16,
+      "Q0": 532.2252737539015,
+      "Q1": 527.587722694254,
+      "nu0": 372,
+      "nu1": 369,
+      "delta_Q": 4.637551059647535,
+      "extra_shifts": 3,
+      "diagnostic_H1_status": "failed_primary_model_H1_did_not_repair_weak_1611_mismatch",
+      "D_m_s": null,
+      "conditional_local_error_m_s": null,
+      "diagnostic_only_D_m_s": -217.02014119161652,
+      "adequacy_flag": false,
+      "adequacy_reasons": [
+        "Four-line primary FeII1611 chi2/pixel exceeds1.8; remainsabove1.8underH1.",
+        "Weak-line quality/gas/continuum ambiguity not isolated; sky flag alone does not explain largest residual."
+      ],
+      "null_per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 94.30863891281254,
+          "chi2_per_pixel": 0.8652168707597481
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 224.37449163200006,
+          "chi2_per_pixel": 2.058481574605505
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 117.07489561466,
+          "chi2_per_pixel": 1.0740816111436697
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 96.46724759442888,
+          "chi2_per_pixel": 0.885020620132375
+        }
+      ],
+      "both_optimizer_stopped": true,
+      "source_summary": "results/archive_complete/J064326-504112/failure_pair/summary.json",
+      "source_summary_sha256": "075b116e5f812f776dfb99614f13a22147451796976985ca1d5faf96524d38ee",
+      "null_fit_file": "results/archive_complete/J064326-504112/n16_null_refined_os21.json",
+      "alternative_fit_file": "results/archive_complete/J064326-504112/failure_pair/J064326-504112/failure_n16_shift_from_primary_os21.json",
+      "physical_precision_measurement": false,
+      "first_order_stationarity_certified": false,
+      "null_fit_file_sha256": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+      "alternative_fit_file_sha256": "fa1431375f8d87fbd844b2f8c5027774d24bf79b4c61085c5c4fc432f6e663a9"
+    }
+  ],
+  "generator_sha256": "79506667bb95032b4b60474e496bc7f78cc939efbee217f29ad427bed37c8ce1"
+}

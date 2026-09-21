@@ -1,0 +1,22 @@
+{
+  "instrument": "UVES",
+  "source_product": "UVES SQUAD DR1 public coadd; exact equivalence to final Kotus+2017 corrected spectrum has not been verified",
+  "nominal_R": 53696.0,
+  "fwhm_km_s": 5.583143213647198,
+  "pixel_km_s": 1.2999971812143298,
+  "relative_mask_origin": "ESPRESSO published masked FeII2586 spans expanded by 3 km/s plus half ESPRESSO pixel",
+  "transferred_mask_spans": [
+    {
+      "line": 2586,
+      "start_AA": 5563.982554551535,
+      "end_AA": 5564.220120474109,
+      "uv_pixels": 10
+    }
+  ],
+  "source_npz_sha256": "8d70330f95090cea5955c64b662a9955b5de0cab95b031ba79582263a604b194",
+  "historical_observation_dates": [
+    "1999-12-14",
+    "2009-02-11"
+  ],
+  "wavelength": "vacuum heliocentric Angstrom"
+}

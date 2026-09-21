@@ -1,0 +1,283 @@
+{
+  "status": "DESIGN ONLY; NOT PREREGISTERED; NO OBSERVED AMPLITUDE OR NEW DATA",
+  "model": "D(z)=b+B H2(z); b=D(z=1), B=D(z=2)-D(z=1)",
+  "observable": "D=v(Fe II2382)-v(Fe II2374); an apparent pair descriptor",
+  "physical_bridge": "A deterministic universal mean response is an additional hypothesis; not derived from a Riemann resource/uncertainty floor.",
+  "cosmology": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "flat": true,
+    "radiation": false,
+    "tstar_seconds": 5.391247e-44
+  },
+  "geometry": [
+    {
+      "z": 1.0,
+      "age_Gyr": 5.845621944043445,
+      "H2": 0.0,
+      "example_relative_D_m_s": 0.0,
+      "line_positions_nm": {
+        "Fe II 2260": 452.155814,
+        "Fe II 2344": 468.84254799999997,
+        "Fe II 2374": 474.892008,
+        "Fe II 2382": 476.552772,
+        "Fe II 2586": 517.3298560000001,
+        "Fe II 2600": 520.034412
+      }
+    },
+    {
+      "z": 1.5,
+      "age_Gyr": 4.2641673157201945,
+      "H2": 0.5424364440628003,
+      "example_relative_D_m_s": 54.24364440628003,
+      "line_positions_nm": {
+        "Fe II 2260": 565.1947675,
+        "Fe II 2344": 586.053185,
+        "Fe II 2374": 593.61501,
+        "Fe II 2382": 595.690965,
+        "Fe II 2586": 646.66232,
+        "Fe II 2600": 650.043015
+      }
+    },
+    {
+      "z": 2.0,
+      "age_Gyr": 3.273357360134374,
+      "H2": 1.0,
+      "example_relative_D_m_s": 100.0,
+      "line_positions_nm": {
+        "Fe II 2260": 678.233721,
+        "Fe II 2344": 703.263822,
+        "Fe II 2374": 712.3380119999999,
+        "Fe II 2382": 714.829158,
+        "Fe II 2586": 775.9947840000001,
+        "Fe II 2600": 780.051618
+      }
+    }
+  ],
+  "conditional_prediction": {
+    "anchor_z": [
+      1.0,
+      2.0
+    ],
+    "held_out_z": 1.5,
+    "anchor_weights": [
+      0.45756355593719966,
+      0.5424364440628003
+    ],
+    "contrast_coefficients_low_mid_high": [
+      -0.45756355593719966,
+      1.0,
+      -0.5424364440628003
+    ],
+    "variance": "w.T @ full_joint_covariance @ w; include development, validation and their shared terms",
+    "independent_equal_group_sigma_multiplier": 1.2262143791235651,
+    "maximum_closure_bias_for_per_group_bound_epsilon": 2.0,
+    "example_endpoint_difference_m_s": 100.0,
+    "example_middle_minus_low_m_s": 54.24364440628003,
+    "example_is_not_measured_or_theory_predicted": true
+  },
+  "competitors": {
+    "p1": {
+      "middle_fraction": 0.5429537128237822,
+      "middle_difference_at_example_B_m_s": 0.05172687609819038
+    },
+    "p3": {
+      "middle_fraction": 0.5419191150485444,
+      "middle_difference_at_example_B_m_s": -0.05173290142559406
+    }
+  },
+  "forecasts": {
+    "alpha_two_sided": 0.01,
+    "power_target": 0.9,
+    "exact_required_effect_over_sigma": 3.857380868737553,
+    "scenarios": [
+      {
+        "single_target_random_sigma_m_s": 50.0,
+        "nonaveraging_group_sigma_m_s": 10.0,
+        "required_n_per_endpoint_for_90pct_power_at_B100": 11,
+        "maximum_power_at_infinite_n": 0.9999965253995069,
+        "examples": [
+          {
+            "n_per_endpoint_group": 4,
+            "endpoint_difference_sigma_m_s": 38.07886552931954,
+            "power_if_B_100": 0.5200581791821067,
+            "effect_for_90pct_power_m_s": 146.8846873960271
+          },
+          {
+            "n_per_endpoint_group": 8,
+            "endpoint_difference_sigma_m_s": 28.722813232690143,
+            "power_if_B_100": 0.8174589738074014,
+            "effect_for_90pct_power_m_s": 110.7948302601008
+          },
+          {
+            "n_per_endpoint_group": 12,
+            "endpoint_difference_sigma_m_s": 24.832774042918903,
+            "power_if_B_100": 0.9266249700661278,
+            "effect_for_90pct_power_m_s": 95.78946751083788
+          },
+          {
+            "n_per_endpoint_group": 24,
+            "endpoint_difference_sigma_m_s": 20.207259421636902,
+            "power_if_B_100": 0.9911751755843916,
+            "effect_for_90pct_power_m_s": 77.94709590263885
+          },
+          {
+            "n_per_endpoint_group": 48,
+            "endpoint_difference_sigma_m_s": 17.440374613713626,
+            "power_if_B_100": 0.9992057017406665,
+            "effect_for_90pct_power_m_s": 67.27416737855503
+          }
+        ]
+      },
+      {
+        "single_target_random_sigma_m_s": 100.0,
+        "nonaveraging_group_sigma_m_s": 20.0,
+        "required_n_per_endpoint_for_90pct_power_at_B100": null,
+        "maximum_power_at_infinite_n": 0.8313980473486411,
+        "examples": [
+          {
+            "n_per_endpoint_group": 4,
+            "endpoint_difference_sigma_m_s": 76.15773105863909,
+            "power_if_B_100": 0.10338717885826744,
+            "effect_for_90pct_power_m_s": 293.7693747920542
+          },
+          {
+            "n_per_endpoint_group": 8,
+            "endpoint_difference_sigma_m_s": 57.445626465380286,
+            "power_if_B_100": 0.20185192835372878,
+            "effect_for_90pct_power_m_s": 221.5896605202016
+          },
+          {
+            "n_per_endpoint_group": 12,
+            "endpoint_difference_sigma_m_s": 49.665548085837806,
+            "power_if_B_100": 0.2869372192936051,
+            "effect_for_90pct_power_m_s": 191.57893502167576
+          },
+          {
+            "n_per_endpoint_group": 24,
+            "endpoint_difference_sigma_m_s": 40.414518843273804,
+            "power_if_B_100": 0.4595885065824279,
+            "effect_for_90pct_power_m_s": 155.8941918052777
+          },
+          {
+            "n_per_endpoint_group": 48,
+            "endpoint_difference_sigma_m_s": 34.88074922742725,
+            "power_if_B_100": 0.6145055671182705,
+            "effect_for_90pct_power_m_s": 134.54833475711007
+          }
+        ]
+      },
+      {
+        "single_target_random_sigma_m_s": 200.0,
+        "nonaveraging_group_sigma_m_s": 30.0,
+        "required_n_per_endpoint_for_90pct_power_at_B100": null,
+        "maximum_power_at_infinite_n": 0.41340071909316345,
+        "examples": [
+          {
+            "n_per_endpoint_group": 4,
+            "endpoint_difference_sigma_m_s": 147.648230602334,
+            "power_if_B_100": 0.02938297599368784,
+            "effect_for_90pct_power_m_s": 569.5354600283937
+          },
+          {
+            "n_per_endpoint_group": 8,
+            "endpoint_difference_sigma_m_s": 108.62780491200216,
+            "power_if_B_100": 0.04917221044229422,
+            "effect_for_90pct_power_m_s": 419.0188164805123
+          },
+          {
+            "n_per_endpoint_group": 12,
+            "endpoint_difference_sigma_m_s": 92.01449161228174,
+            "power_if_B_100": 0.06836272231698808,
+            "effect_for_90pct_power_m_s": 354.93493959182763
+          },
+          {
+            "n_per_endpoint_group": 24,
+            "endpoint_difference_sigma_m_s": 71.64728420068226,
+            "power_if_B_100": 0.11901533060673966,
+            "effect_for_90pct_power_m_s": 276.3708633727141
+          },
+          {
+            "n_per_endpoint_group": 48,
+            "endpoint_difference_sigma_m_s": 58.878405775518985,
+            "power_if_B_100": 0.19014056238163263,
+            "effect_for_90pct_power_m_s": 227.1164360202536
+          }
+        ]
+      }
+    ],
+    "caveat": "Exact known-Gaussian planning model only. Group floors are hypothetical random offsets, not measured calibration priors. Unknown age-correlated biases need bounds or external measurements. Not a 5-sigma discovery calibration."
+  },
+  "operational_status": {
+    "target_ids_selected": false,
+    "exposure_time_calculated": false,
+    "telescope_time_awarded": false,
+    "prediction_amplitude_frozen": false,
+    "protocol_publicly_registered": false
+  },
+  "source_hashes": {
+    "atomic_identification_csv": "57fd0c08d6e4b59922443c0b14d4014ee439193fc57403ba099c2f7da474e02f",
+    "design_code": "eb329657210a4e98a4b2d1c0356a4556b1dabf6c98d59be3655395090c726ce2"
+  },
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "age_integral_z0.0",
+        "passed": true
+      },
+      {
+        "name": "age_integral_z1.0",
+        "passed": true
+      },
+      {
+        "name": "age_integral_z1.5",
+        "passed": true
+      },
+      {
+        "name": "age_integral_z2.0",
+        "passed": true
+      },
+      {
+        "name": "age_integral_z3.0",
+        "passed": true
+      },
+      {
+        "name": "closure_cancels_intercept",
+        "passed": true
+      },
+      {
+        "name": "closure_cancels_p2_amplitude",
+        "passed": true
+      },
+      {
+        "name": "constant_null_also_satisfies_closure",
+        "passed": true
+      },
+      {
+        "name": "shared_lab_error_cancels_0.0",
+        "passed": true
+      },
+      {
+        "name": "shared_lab_error_cancels_20.0",
+        "passed": true
+      },
+      {
+        "name": "shared_lab_error_cancels_100.0",
+        "passed": true
+      },
+      {
+        "name": "exact_gaussian_power_threshold",
+        "passed": true
+      },
+      {
+        "name": "null_size",
+        "passed": true
+      },
+      {
+        "name": "no_advertised_n_below_power",
+        "passed": true
+      }
+    ]
+  }
+}

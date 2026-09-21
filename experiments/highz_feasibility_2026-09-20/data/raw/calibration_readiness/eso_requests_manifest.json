@@ -1,0 +1,124 @@
+{
+  "requests": [
+    {
+      "name": "eso_tap_lfc_20200227",
+      "requested_url": "https://archive.eso.org/tap_obs/sync",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "json",
+        "QUERY": "SELECT dp_id,date_obs,instrument,ins_mode,dp_cat,dp_type,dp_tech,prog_id,origfile,access_url,datalink_url,access_estsize FROM dbo.raw WHERE instrument='ESPRESSO' AND dp_cat='CALIB' AND dp_type LIKE '%LFC%' AND mjd_obs BETWEEN 58906 AND 58909 ORDER BY mjd_obs"
+      },
+      "retrieved_utc": "2026-09-21T03:45:29.803581+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+dp_id%2Cdate_obs%2Cinstrument%2Cins_mode%2Cdp_cat%2Cdp_type%2Cdp_tech%2Cprog_id%2Corigfile%2Caccess_url%2Cdatalink_url%2Caccess_estsize+FROM+dbo.raw+WHERE+instrument%3D%27ESPRESSO%27+AND+dp_cat%3D%27CALIB%27+AND+dp_type+LIKE+%27%25LFC%25%27+AND+mjd_obs+BETWEEN+58906+AND+58909+ORDER+BY+mjd_obs",
+      "bytes": 10343,
+      "sha256": "f4744a14b082763e104d343cc4e06ccfd3940fb1553bd885320c50095fc49648",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20200227.json"
+    },
+    {
+      "name": "eso_tap_first_science",
+      "requested_url": "https://archive.eso.org/tap_obs/sync",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "json",
+        "QUERY": "SELECT dp_id,date_obs,instrument,ins_mode,dp_cat,dp_type,dp_tech,prog_id,origfile,access_url,datalink_url,access_estsize FROM dbo.raw WHERE dp_id='ESPRE.2018-11-04T07:00:00.643'"
+      },
+      "retrieved_utc": "2026-09-21T03:45:29.804911+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+dp_id%2Cdate_obs%2Cinstrument%2Cins_mode%2Cdp_cat%2Cdp_type%2Cdp_tech%2Cprog_id%2Corigfile%2Caccess_url%2Cdatalink_url%2Caccess_estsize+FROM+dbo.raw+WHERE+dp_id%3D%27ESPRE.2018-11-04T07%3A00%3A00.643%27",
+      "bytes": 2203,
+      "sha256": "05f8def88817efcd744a4c9ded61280314eabb1354b5ba7cce812c46985a0497",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_first_science.json"
+    },
+    {
+      "name": "eso_tap_lfc_20181104",
+      "requested_url": "https://archive.eso.org/tap_obs/sync",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "json",
+        "QUERY": "SELECT dp_id,date_obs,instrument,ins_mode,dp_cat,dp_type,dp_tech,prog_id,origfile,access_url,datalink_url,access_estsize FROM dbo.raw WHERE instrument='ESPRESSO' AND dp_cat='CALIB' AND dp_type LIKE '%LFC%' AND mjd_obs BETWEEN 58425 AND 58429 ORDER BY mjd_obs"
+      },
+      "retrieved_utc": "2026-09-21T03:45:29.806461+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+dp_id%2Cdate_obs%2Cinstrument%2Cins_mode%2Cdp_cat%2Cdp_type%2Cdp_tech%2Cprog_id%2Corigfile%2Caccess_url%2Cdatalink_url%2Caccess_estsize+FROM+dbo.raw+WHERE+instrument%3D%27ESPRESSO%27+AND+dp_cat%3D%27CALIB%27+AND+dp_type+LIKE+%27%25LFC%25%27+AND+mjd_obs+BETWEEN+58425+AND+58429+ORDER+BY+mjd_obs",
+      "bytes": 8662,
+      "sha256": "7b1e66ddd4baed279dd2f708051cdd021fd47777dfb0d502a9a7b84f17c9f88a",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20181104.json"
+    },
+    {
+      "name": "eso_tap_lfc_20191126",
+      "requested_url": "https://archive.eso.org/tap_obs/sync",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "json",
+        "QUERY": "SELECT dp_id,date_obs,instrument,ins_mode,dp_cat,dp_type,dp_tech,prog_id,origfile,access_url,datalink_url,access_estsize FROM dbo.raw WHERE instrument='ESPRESSO' AND dp_cat='CALIB' AND dp_type LIKE '%LFC%' AND mjd_obs BETWEEN 58812 AND 58815 ORDER BY mjd_obs"
+      },
+      "retrieved_utc": "2026-09-21T03:45:29.809541+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+dp_id%2Cdate_obs%2Cinstrument%2Cins_mode%2Cdp_cat%2Cdp_type%2Cdp_tech%2Cprog_id%2Corigfile%2Caccess_url%2Cdatalink_url%2Caccess_estsize+FROM+dbo.raw+WHERE+instrument%3D%27ESPRESSO%27+AND+dp_cat%3D%27CALIB%27+AND+dp_type+LIKE+%27%25LFC%25%27+AND+mjd_obs+BETWEEN+58812+AND+58815+ORDER+BY+mjd_obs",
+      "bytes": 5250,
+      "sha256": "462a0eeb973d5f2d3d6020e7dc452d7c42533b88c3092d9f25877e39cb7d56ab",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20191126.json"
+    },
+    {
+      "name": "eso_association_20181104_raw2raw",
+      "requested_url": "https://archive.eso.org/datalink/links",
+      "params": {
+        "ID": "ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643",
+        "eso_download": "calSelector_raw2raw"
+      },
+      "retrieved_utc": "2026-09-21T03:45:32.507020+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Raw&responseformat=votable",
+      "bytes": 81354,
+      "sha256": "794f79522ed3d95d15ed83f1833022c7aaaf761c3a80e39d662ea4d7863c3394",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20181104_raw2raw.xml"
+    },
+    {
+      "name": "eso_association_20181104_raw2master",
+      "requested_url": "https://archive.eso.org/datalink/links",
+      "params": {
+        "ID": "ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643",
+        "eso_download": "calSelector_raw2master"
+      },
+      "retrieved_utc": "2026-09-21T03:45:32.526781+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Master&responseformat=votable",
+      "bytes": 16502,
+      "sha256": "6a54bc4350d4997aaf8b5a47a231691744b8a259cd26872ca7afb7d3dbfc9101",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20181104_raw2master.xml"
+    },
+    {
+      "name": "eso_association_20200228_raw2raw",
+      "requested_url": "https://archive.eso.org/datalink/links",
+      "params": {
+        "ID": "ivo://eso.org/ID?ESPRE.2020-02-28T01:14:22.246",
+        "eso_download": "calSelector_raw2raw"
+      },
+      "retrieved_utc": "2026-09-21T03:45:32.700788+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Raw&responseformat=votable",
+      "bytes": 67837,
+      "sha256": "eebd8c48600063ec23067790ce8c361c5e92bd4ea3ec06ff5d1a04133a7bd138",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20200228_raw2raw.xml"
+    },
+    {
+      "name": "eso_association_20200228_raw2master",
+      "requested_url": "https://archive.eso.org/datalink/links",
+      "params": {
+        "ID": "ivo://eso.org/ID?ESPRE.2020-02-28T01:14:22.246",
+        "eso_download": "calSelector_raw2master"
+      },
+      "retrieved_utc": "2026-09-21T03:45:32.728174+00:00",
+      "status": 200,
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Master&responseformat=votable",
+      "bytes": 16502,
+      "sha256": "73f78a7b1836ee0f40a593ebe1d15e3d8ced70973b29a8319ae5d6d11610048b",
+      "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20200228_raw2master.xml"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+wide_h0_cross_bounded: ndata=511, npar=147, initial chi2=397.893344496, mapping=0.963273
+wide_h0_cross_bounded: nfev 25, best chi2 397.890225588, trial 397.890225588
+wide_h0_cross_bounded: nfev 50, best chi2 397.885412774, trial 397.890299234
+wide_h0_cross_bounded: nfev 75, best chi2 397.881163642, trial 397.881163642
+wide_h0_cross_bounded: nfev 100, best chi2 397.873322964, trial 397.873322964
+wide_h0_cross_bounded: nfev 125, best chi2 397.867379750, trial 397.867379750
+wide_h0_cross_bounded: nfev 150, best chi2 397.865320210, trial 397.865320210
+wide_h0_cross_bounded: nfev 175, best chi2 397.863532721, trial 397.863532721
+wide_h0_cross_bounded: nfev 200, best chi2 397.861285242, trial 397.861285242
+wide_h0_cross_bounded: nfev 225, best chi2 397.859739723, trial 397.859739723
+wide_h0_cross_bounded: nfev 250, best chi2 397.858942240, trial 397.860145515
+wide_h0_cross_bounded: nfev 275, best chi2 397.858483926, trial 397.858536054
+wide_h0_cross_bounded: nfev 300, best chi2 397.857710685, trial 397.857710685
+wide_h0_cross_bounded: nfev 325, best chi2 397.856984573, trial 397.856984573
+wide_h0_cross_bounded: nfev 350, best chi2 397.856434972, trial 397.856434972
+wide_h0_cross_bounded: nfev 375, best chi2 397.855919783, trial 397.855919783
+wide_h0_cross_bounded: nfev 400, best chi2 397.855356609, trial 397.855356609
+{
+  "name": "wide_h0_cross_bounded",
+  "chi2": 397.8553566088117,
+  "nfev": 400,
+  "optimizer_success": false,
+  "optimizer_status": 0,
+  "optimality": 0.031946745837766945,
+  "stationarity": {
+    "objective": "0.5 * sum squared weighted residuals",
+    "unit_box_gradient_mapping_inf": 0.09699201118881301,
+    "unit_box_mapping_definition": "q=(p-lo)/(hi-lo); gq=(hi-lo)*(J.T@r); infinity norm of q-clip(q-gq,0,1)",
+    "raw_gradient_inf": 2.8095290799509884,
+    "projected_gradient_inf": 0.02424800279720325,
+    "projected_column_normalized_gradient_inf": 0.0010362073388948997,
+    "max_bound_violation": 0.0,
+    "nearest_normalized_bound_distance": 4.1908513507883343e-17,
+    "near_lower": [
+      72,
+      73,
+      92,
+      107,
+      110,
+      112,
+      124,
+      126
+    ],
+    "near_upper": [
+      48,
+      60,
+      65,
+      70,
+      77
+    ],
+    "most_nonstationary_parameter_index": 39
+  },
+  "stationarity_criteria": {
+    "scipy_scaled_gradient_below_1e_6": false,
+    "unit_box_mapping_below_1e_5": false
+  },
+  "shifts_km_s": {},
+  "lsf_scale": {
+    "2374": 0.657796769030162,
+    "2382": 0.6650642893754872,
+    "2600": 0.6736150804284254
+  },
+  "active_bounds": [
+    "v_3",
+    "v_15",
+    "v_20",
+    "v_25",
+    "v_27",
+    "v_28",
+    "v_32",
+    "logb_2",
+    "logb_17",
+    "logb_20",
+    "logb_22",
+    "logb_34",
+    "logb_36"
+  ]
+}

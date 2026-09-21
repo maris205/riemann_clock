@@ -1,0 +1,70 @@
+{
+  "target": "J225719-100104",
+  "z_abs": 1.836,
+  "lines": [
+    2344,
+    2374,
+    2382
+  ],
+  "window": [
+    -310.0,
+    110.0
+  ],
+  "ncomp": 30,
+  "ndata": 504,
+  "null": "n30_null_recovered_cross_os21",
+  "alternative": "n30_shift_recovered_os21",
+  "chi2_null": 421.24821511850905,
+  "chi2_alternative": 407.71691680209335,
+  "nominal_ndf_null": 402,
+  "delta_chi2": 13.5312983164157,
+  "extra_shifts": 2,
+  "both_optimizer_success": true,
+  "ordinary_gate": true,
+  "local_pair_uncertainty": {
+    "observable": "velocity(FeII2382)-velocity(FeII2374)",
+    "shift_m_s": -15.737705306861711,
+    "method": "Weighted-Jacobian 2382 column projected off ALL other gas/continuum/zero/LSF/shift nuisance columns, after nuisance-column normalization.",
+    "rank_sensitivity": [
+      {
+        "svd_relative_cutoff": 1e-08,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      },
+      {
+        "svd_relative_cutoff": 1e-10,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      },
+      {
+        "svd_relative_cutoff": 1e-12,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      }
+    ],
+    "active_bounds": [
+      "logb_6"
+    ],
+    "limitations": "Local linear, fixed selected architecture and expected diagonal errors; ignores active-bound truncation, calibration, blends and architecture uncertainty. Not alpha or a cosmic-time observation."
+  },
+  "null_stationarity": {
+    "scipy_optimality": 0.28514337549717633,
+    "independent_coleman_li": 0.2851433754971764,
+    "normalized_gradient_mapping_inf": 0.5032009223774033,
+    "column_normalized_gradient_inf": 0.22384498552503407,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "alternative_stationarity": {
+    "scipy_optimality": 0.20352118753385012,
+    "independent_coleman_li": 0.20352118753385012,
+    "normalized_gradient_mapping_inf": 0.2333419168898121,
+    "column_normalized_gradient_inf": 0.27827195692118284,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "recovery_protocol": "lower_endpoint_recovery_protocol.json",
+  "supersedes": "selected_pair_before_lower_endpoint_recovery.json",
+  "interpretation": "Conditional exploration after retaining and continuing a materially lower cappednull. Finite multistarts do not certify globaloptimum; notalpha/time discovery."
+}

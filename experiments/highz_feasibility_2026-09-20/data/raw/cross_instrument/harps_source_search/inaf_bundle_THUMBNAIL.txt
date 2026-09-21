@@ -1,0 +1,77 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://openaccess.inaf.it/server/api/core/bundles/f57d1b29-6784-4e48-89c7-d8b08516feab/bitstreams"
+    }
+  },
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "842dbf9b-9268-4890-b8b2-844acb4546eb",
+      "uuid" : "842dbf9b-9268-4890-b8b2-844acb4546eb",
+      "name" : "staa3217.pdf.jpg",
+      "handle" : null,
+      "metadata" : {
+        "datacite.rights" : [ {
+          "value" : "open.access",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.description" : [ {
+          "value" : "Generated Thumbnail",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ],
+        "dc.source" : [ {
+          "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2025-06-06T07:14:21Z (GMT).",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ],
+        "dc.title" : [ {
+          "value" : "staa3217.pdf.jpg",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ]
+      },
+      "bundleName" : "THUMBNAIL",
+      "sizeBytes" : 5977,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "7cf9e659c0428daea713090aa3761019"
+      },
+      "sequenceId" : 4,
+      "type" : "bitstream",
+      "uniqueType" : "core.bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/842dbf9b-9268-4890-b8b2-844acb4546eb/content"
+        },
+        "bundle" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/842dbf9b-9268-4890-b8b2-844acb4546eb/bundle"
+        },
+        "format" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/842dbf9b-9268-4890-b8b2-844acb4546eb/format"
+        },
+        "thumbnail" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/842dbf9b-9268-4890-b8b2-844acb4546eb/thumbnail"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/842dbf9b-9268-4890-b8b2-844acb4546eb"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  }
+}

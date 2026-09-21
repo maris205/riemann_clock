@@ -1,0 +1,2775 @@
+{
+  "interpretation": "These are published manual clipping rectangles on REDISPERSED trace fluxes; native wavelength-overlap masking is a conservative transfer, not exact replay. One-based exposure and row correspond directly to UPL files and FITS rows + 1. No unclip actions in entire UPL.",
+  "source": "../espresso_null/hes0515m4414.upl",
+  "actions": [
+    {
+      "action_number": 286,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.27294922,
+      "wavelength_upper_A": 5593.32470703,
+      "flux_lower": -68272386048.0,
+      "flux_upper": 37259075584.0,
+      "exposure_one_based": 1,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 287,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.45605469,
+      "wavelength_upper_A": 5592.58447266,
+      "flux_lower": -612483006464.0,
+      "flux_upper": 501559263232.0,
+      "exposure_one_based": 9,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 288,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.89892578,
+      "wavelength_upper_A": 5592.97314453,
+      "flux_lower": -231839416320.0,
+      "flux_upper": 198753222656.0,
+      "exposure_one_based": 6,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 289,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.93896484,
+      "wavelength_upper_A": 5592.05712891,
+      "flux_lower": -51526811648.0,
+      "flux_upper": 59167109120.0,
+      "exposure_one_based": 6,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 290,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.72998047,
+      "wavelength_upper_A": 5592.78369141,
+      "flux_lower": -57156624384.0,
+      "flux_upper": 42867560448.0,
+      "exposure_one_based": 6,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 291,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.98339844,
+      "wavelength_upper_A": 5593.04394531,
+      "flux_lower": -110140293120.0,
+      "flux_upper": 89196126208.0,
+      "exposure_one_based": 4,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 292,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.91894531,
+      "wavelength_upper_A": 5592.95605469,
+      "flux_lower": -916296957952.0,
+      "flux_upper": 905621667840.0,
+      "exposure_one_based": 8,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 293,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.67578125,
+      "wavelength_upper_A": 5592.72998047,
+      "flux_lower": -3279822520320.0,
+      "flux_upper": 3385674694656.0,
+      "exposure_one_based": 8,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 294,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.46972656,
+      "wavelength_upper_A": 5592.55419922,
+      "flux_lower": -96473227264.0,
+      "flux_upper": 86256451584.0,
+      "exposure_one_based": 1,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 295,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.33398438,
+      "wavelength_upper_A": 5591.43847656,
+      "flux_lower": -97977171968.0,
+      "flux_upper": 103551852544.0,
+      "exposure_one_based": 1,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 296,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.12744141,
+      "wavelength_upper_A": 5591.20556641,
+      "flux_lower": -51241721856.0,
+      "flux_upper": 51778715648.0,
+      "exposure_one_based": 1,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 297,
+      "action_type": 1,
+      "wavelength_lower_A": 5590.85742188,
+      "wavelength_upper_A": 5591.08349609,
+      "flux_lower": -51241721856.0,
+      "flux_upper": 50274766848.0,
+      "exposure_one_based": 1,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 298,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.72021484,
+      "wavelength_upper_A": 5593.86230469,
+      "flux_lower": -192952107008.0,
+      "flux_upper": 297334931456.0,
+      "exposure_one_based": 5,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 299,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.27294922,
+      "wavelength_upper_A": 5591.37792969,
+      "flux_lower": -445797826560.0,
+      "flux_upper": 460976291840.0,
+      "exposure_one_based": 3,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 300,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.58105469,
+      "wavelength_upper_A": 5592.67919922,
+      "flux_lower": -58361380864.0,
+      "flux_upper": 61741260800.0,
+      "exposure_one_based": 6,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 301,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.04150391,
+      "wavelength_upper_A": 5594.14599609,
+      "flux_lower": -125680066560.0,
+      "flux_upper": 111132590080.0,
+      "exposure_one_based": 4,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 302,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.69921875,
+      "wavelength_upper_A": 5592.79052734,
+      "flux_lower": -14651116544.0,
+      "flux_upper": 14284984320.0,
+      "exposure_one_based": 4,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 303,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.48339844,
+      "wavelength_upper_A": 5593.58154297,
+      "flux_lower": -57178697728.0,
+      "flux_upper": 53906264064.0,
+      "exposure_one_based": 6,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 304,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.64550781,
+      "wavelength_upper_A": 5592.77050781,
+      "flux_lower": -112463388672.0,
+      "flux_upper": 115552403456.0,
+      "exposure_one_based": 8,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 305,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.33398438,
+      "wavelength_upper_A": 5591.54003906,
+      "flux_lower": -403957088256.0,
+      "flux_upper": 420206411776.0,
+      "exposure_one_based": 8,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 306,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.88818359,
+      "wavelength_upper_A": 5592.02001953,
+      "flux_lower": -50479435776.0,
+      "flux_upper": 56068583424.0,
+      "exposure_one_based": 8,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 307,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.41650391,
+      "wavelength_upper_A": 5594.50439453,
+      "flux_lower": -23174146048.0,
+      "flux_upper": 26268143616.0,
+      "exposure_one_based": 8,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 308,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.91894531,
+      "wavelength_upper_A": 5593.00683594,
+      "flux_lower": -63253483520.0,
+      "flux_upper": 50807365632.0,
+      "exposure_one_based": 8,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 309,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.75683594,
+      "wavelength_upper_A": 5592.90234375,
+      "flux_lower": -15114959872.0,
+      "flux_upper": 17315688448.0,
+      "exposure_one_based": 8,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 310,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.54785156,
+      "wavelength_upper_A": 5593.62890625,
+      "flux_lower": -14216181760.0,
+      "flux_upper": 13512858624.0,
+      "exposure_one_based": 8,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 311,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.52734375,
+      "wavelength_upper_A": 5593.61181641,
+      "flux_lower": -15781500928.0,
+      "flux_upper": 13781574656.0,
+      "exposure_one_based": 7,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 312,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.67285156,
+      "wavelength_upper_A": 5593.73388672,
+      "flux_lower": -15902660608.0,
+      "flux_upper": 13902734336.0,
+      "exposure_one_based": 7,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 410,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.32617188,
+      "wavelength_upper_A": 5107.38623047,
+      "flux_lower": -2812578103296.0,
+      "flux_upper": 2850130493440.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 411,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.92041016,
+      "wavelength_upper_A": 5108.99951172,
+      "flux_lower": -1929410248704.0,
+      "flux_upper": 1868501876736.0,
+      "exposure_one_based": 1,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 412,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.62744141,
+      "wavelength_upper_A": 5106.74755859,
+      "flux_lower": -3380860420096.0,
+      "flux_upper": 3896257806336.0,
+      "exposure_one_based": 6,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 413,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.12890625,
+      "wavelength_upper_A": 5108.22705078,
+      "flux_lower": -1809895522304.0,
+      "flux_upper": 1682590138368.0,
+      "exposure_one_based": 4,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 414,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.25146484,
+      "wavelength_upper_A": 5108.31152344,
+      "flux_lower": -884979204096.0,
+      "flux_upper": 834704834560.0,
+      "exposure_one_based": 5,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 415,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.47802734,
+      "wavelength_upper_A": 5108.53564453,
+      "flux_lower": -111365840896.0,
+      "flux_upper": 120193925120.0,
+      "exposure_one_based": 5,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 416,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.13525391,
+      "wavelength_upper_A": 5107.17871094,
+      "flux_lower": -884979204096.0,
+      "flux_upper": 887822483456.0,
+      "exposure_one_based": 5,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 417,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.29003906,
+      "wavelength_upper_A": 5108.35009766,
+      "flux_lower": -6814935547904.0,
+      "flux_upper": 6358241902592.0,
+      "exposure_one_based": 5,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 418,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.94677734,
+      "wavelength_upper_A": 5106.99316406,
+      "flux_lower": -107216019456.0,
+      "flux_upper": 232238972928.0,
+      "exposure_one_based": 8,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 419,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.48193359,
+      "wavelength_upper_A": 5107.55273438,
+      "flux_lower": -222830559232.0,
+      "flux_upper": 235309187072.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 420,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.76025391,
+      "wavelength_upper_A": 5107.87207031,
+      "flux_lower": -231130185728.0,
+      "flux_upper": 235309187072.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 421,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.58447266,
+      "wavelength_upper_A": 5108.68017578,
+      "flux_lower": -108045983744.0,
+      "flux_upper": 113554219008.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 422,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.72753906,
+      "wavelength_upper_A": 5107.79833984,
+      "flux_lower": -106386055168.0,
+      "flux_upper": 110234361856.0,
+      "exposure_one_based": 7,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 423,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.00341797,
+      "wavelength_upper_A": 5108.12597656,
+      "flux_lower": -805302697984.0,
+      "flux_upper": 940940132352.0,
+      "exposure_one_based": 7,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 424,
+      "action_type": 1,
+      "wavelength_lower_A": 5105.90673828,
+      "wavelength_upper_A": 5106.01611328,
+      "flux_lower": -884979204096.0,
+      "flux_upper": 861263626240.0,
+      "exposure_one_based": 7,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 425,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.27832031,
+      "wavelength_upper_A": 5106.38476562,
+      "flux_lower": -131611140096.0,
+      "flux_upper": 111792734208.0,
+      "exposure_one_based": 9,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 426,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.24609375,
+      "wavelength_upper_A": 5108.30908203,
+      "flux_lower": -125747560448.0,
+      "flux_upper": 99721936896.0,
+      "exposure_one_based": 9,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 427,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.94970703,
+      "wavelength_upper_A": 5106.99853516,
+      "flux_lower": -56878436352.0,
+      "flux_upper": 96664780800.0,
+      "exposure_one_based": 9,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 428,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.00048828,
+      "wavelength_upper_A": 5108.06054688,
+      "flux_lower": -67336454144.0,
+      "flux_upper": 51365888000.0,
+      "exposure_one_based": 2,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 429,
+      "action_type": 1,
+      "wavelength_lower_A": 5108.76220703,
+      "wavelength_upper_A": 5108.83007812,
+      "flux_lower": -110535876608.0,
+      "flux_upper": 116044111872.0,
+      "exposure_one_based": 2,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 430,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.45556641,
+      "wavelength_upper_A": 5106.54296875,
+      "flux_lower": -234450042880.0,
+      "flux_upper": 246928670720.0,
+      "exposure_one_based": 2,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 431,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.13818359,
+      "wavelength_upper_A": 5107.23339844,
+      "flux_lower": -439120297984.0,
+      "flux_upper": 404122435584.0,
+      "exposure_one_based": 2,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 432,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.24804688,
+      "wavelength_upper_A": 5106.34082031,
+      "flux_lower": -27974801408.0,
+      "flux_upper": 29292666880.0,
+      "exposure_one_based": 2,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 433,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.12255859,
+      "wavelength_upper_A": 5106.16357422,
+      "flux_lower": -3141830967296.0,
+      "flux_upper": 3736904925184.0,
+      "exposure_one_based": 2,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 526,
+      "action_type": 1,
+      "wavelength_lower_A": 5127.27246094,
+      "wavelength_upper_A": 5127.33837891,
+      "flux_lower": -206333657088.0,
+      "flux_upper": 193605468160.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 527,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.85986328,
+      "wavelength_upper_A": 5124.91210938,
+      "flux_lower": -414105370624.0,
+      "flux_upper": 346060423168.0,
+      "exposure_one_based": 1,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 528,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.92138672,
+      "wavelength_upper_A": 5127.02880859,
+      "flux_lower": -5451082629120.0,
+      "flux_upper": 6254413479936.0,
+      "exposure_one_based": 1,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 529,
+      "action_type": 1,
+      "wavelength_lower_A": 5127.18554688,
+      "wavelength_upper_A": 5127.26855469,
+      "flux_lower": -764708782080.0,
+      "flux_upper": 772964941824.0,
+      "exposure_one_based": 1,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 531,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.72558594,
+      "wavelength_upper_A": 5125.76708984,
+      "flux_lower": -500857339904.0,
+      "flux_upper": 397478330368.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 532,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.0,
+      "wavelength_upper_A": 5126.11132812,
+      "flux_lower": -198747128594432.0,
+      "flux_upper": 134222819885056.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 533,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.35253906,
+      "wavelength_upper_A": 5124.484375,
+      "flux_lower": -460321357824.0,
+      "flux_upper": 458572464128.0,
+      "exposure_one_based": 8,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 534,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.99414062,
+      "wavelength_upper_A": 5124.14013672,
+      "flux_lower": -187324891136.0,
+      "flux_upper": 228299063296.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 535,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.73681641,
+      "wavelength_upper_A": 5123.82763672,
+      "flux_lower": -91204435968.0,
+      "flux_upper": 97816059904.0,
+      "exposure_one_based": 6,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 536,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.59570312,
+      "wavelength_upper_A": 5124.68603516,
+      "flux_lower": -428547670016.0,
+      "flux_upper": 557368147968.0,
+      "exposure_one_based": 8,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 537,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.75683594,
+      "wavelength_upper_A": 5125.82617188,
+      "flux_lower": -198720946176.0,
+      "flux_upper": 207409905664.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 538,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.12988281,
+      "wavelength_upper_A": 5124.31396484,
+      "flux_lower": -170880073728.0,
+      "flux_upper": 200531722240.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 539,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.33251953,
+      "wavelength_upper_A": 5125.38818359,
+      "flux_lower": -226196176896.0,
+      "flux_upper": 196389961728.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 540,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.43701172,
+      "wavelength_upper_A": 5125.48193359,
+      "flux_lower": -25078294528.0,
+      "flux_upper": 28754737152.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 541,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.77050781,
+      "wavelength_upper_A": 5125.81591797,
+      "flux_lower": -107403730944.0,
+      "flux_upper": 90179485696.0,
+      "exposure_one_based": 1,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 542,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.15771484,
+      "wavelength_upper_A": 5124.25146484,
+      "flux_lower": -64641781760.0,
+      "flux_upper": 59759702016.0,
+      "exposure_one_based": 7,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 543,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.39160156,
+      "wavelength_upper_A": 5125.44384766,
+      "flux_lower": -130019033088.0,
+      "flux_upper": 159582617600.0,
+      "exposure_one_based": 5,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 544,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.47753906,
+      "wavelength_upper_A": 5124.61669922,
+      "flux_lower": -387314450432.0,
+      "flux_upper": 306409242624.0,
+      "exposure_one_based": 6,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 545,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.21191406,
+      "wavelength_upper_A": 5126.33007812,
+      "flux_lower": -194368487424.0,
+      "flux_upper": 217083772928.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 546,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.91308594,
+      "wavelength_upper_A": 5126.02441406,
+      "flux_lower": -180452163584.0,
+      "flux_upper": 198809747456.0,
+      "exposure_one_based": 4,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 547,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.02685547,
+      "wavelength_upper_A": 5125.08251953,
+      "flux_lower": -52277526528.0,
+      "flux_upper": 48438546432.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 548,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.23632812,
+      "wavelength_upper_A": 5126.28515625,
+      "flux_lower": -370749898752.0,
+      "flux_upper": 354731524096.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 549,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.34765625,
+      "wavelength_upper_A": 5126.41015625,
+      "flux_lower": -373640265728.0,
+      "flux_upper": 366292959232.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 550,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.76708984,
+      "wavelength_upper_A": 5125.88867188,
+      "flux_lower": -56875999232.0,
+      "flux_upper": 49135198208.0,
+      "exposure_one_based": 4,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 551,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.56640625,
+      "wavelength_upper_A": 5126.66064453,
+      "flux_lower": -14518339584.0,
+      "flux_upper": 15293166592.0,
+      "exposure_one_based": 7,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 552,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.70703125,
+      "wavelength_upper_A": 5124.80078125,
+      "flux_lower": -52200280064.0,
+      "flux_upper": 60449411072.0,
+      "exposure_one_based": 8,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 553,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.74609375,
+      "wavelength_upper_A": 5125.84033203,
+      "flux_lower": -10870278144.0,
+      "flux_upper": 10717128704.0,
+      "exposure_one_based": 8,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 554,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.41845703,
+      "wavelength_upper_A": 5124.47070312,
+      "flux_lower": -28819818496.0,
+      "flux_upper": 29756733440.0,
+      "exposure_one_based": 9,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 555,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.13232422,
+      "wavelength_upper_A": 5126.22607422,
+      "flux_lower": -49520066560.0,
+      "flux_upper": 38274744320.0,
+      "exposure_one_based": 9,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 556,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.74267578,
+      "wavelength_upper_A": 5125.85058594,
+      "flux_lower": -12368382976.0,
+      "flux_upper": 12605953024.0,
+      "exposure_one_based": 7,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 557,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.57128906,
+      "wavelength_upper_A": 5124.69970703,
+      "flux_lower": -60135976960.0,
+      "flux_upper": 55669207040.0,
+      "exposure_one_based": 9,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 558,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.54101562,
+      "wavelength_upper_A": 5125.65917969,
+      "flux_lower": -16112185344.0,
+      "flux_upper": 18351777792.0,
+      "exposure_one_based": 2,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 559,
+      "action_type": 1,
+      "wavelength_lower_A": 5127.30371094,
+      "wavelength_upper_A": 5127.50878906,
+      "flux_lower": -48797474816.0,
+      "flux_upper": 45139357696.0,
+      "exposure_one_based": 2,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 560,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.33496094,
+      "wavelength_upper_A": 5124.49853516,
+      "flux_lower": -138736074752.0,
+      "flux_upper": 150926426112.0,
+      "exposure_one_based": 9,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 561,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.76708984,
+      "wavelength_upper_A": 5125.95849609,
+      "flux_lower": -50798325760.0,
+      "flux_upper": 64983248896.0,
+      "exposure_one_based": 3,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 562,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.58056641,
+      "wavelength_upper_A": 5123.67431641,
+      "flux_lower": -35766304768.0,
+      "flux_upper": 33049821184.0,
+      "exposure_one_based": 3,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 563,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.74072266,
+      "wavelength_upper_A": 5123.83789062,
+      "flux_lower": -34253864960.0,
+      "flux_upper": 31033231360.0,
+      "exposure_one_based": 3,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 602,
+      "action_type": 1,
+      "wavelength_lower_A": 5590.67041016,
+      "wavelength_upper_A": 5590.82226562,
+      "flux_lower": -3251928576.0,
+      "flux_upper": 3663903488.0,
+      "exposure_one_based": 7,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 603,
+      "action_type": 1,
+      "wavelength_lower_A": 5590.67041016,
+      "wavelength_upper_A": 5590.82226562,
+      "flux_lower": -3251928576.0,
+      "flux_upper": 3663903488.0,
+      "exposure_one_based": 7,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 605,
+      "action_type": 1,
+      "wavelength_lower_A": 5590.85742188,
+      "wavelength_upper_A": 5591.09863281,
+      "flux_lower": -2152380416.0,
+      "flux_upper": 1886712064.0,
+      "exposure_one_based": 9,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1014,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.85205078,
+      "wavelength_upper_A": 5594.9921875,
+      "flux_lower": -246782896.0,
+      "flux_upper": 122240896.0,
+      "exposure_one_based": 10,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1015,
+      "action_type": 1,
+      "wavelength_lower_A": 5595.05126953,
+      "wavelength_upper_A": 5595.18359375,
+      "flux_lower": -252811392.0,
+      "flux_upper": 188558000.0,
+      "exposure_one_based": 10,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1016,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.29931641,
+      "wavelength_upper_A": 5592.35107422,
+      "flux_lower": -63810508.0,
+      "flux_upper": 53862276.0,
+      "exposure_one_based": 10,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1017,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.75976562,
+      "wavelength_upper_A": 5592.81396484,
+      "flux_lower": -63038884.0,
+      "flux_upper": 65050836.0,
+      "exposure_one_based": 10,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1018,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.33251953,
+      "wavelength_upper_A": 5594.38427734,
+      "flux_lower": -132572592.0,
+      "flux_upper": 116102176.0,
+      "exposure_one_based": 10,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1019,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.32470703,
+      "wavelength_upper_A": 5594.36865234,
+      "flux_lower": -258223200.0,
+      "flux_upper": 227543952.0,
+      "exposure_one_based": 1,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1020,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.3984375,
+      "wavelength_upper_A": 5593.43994141,
+      "flux_lower": -65890616.0,
+      "flux_upper": 43522552.0,
+      "exposure_one_based": 1,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1021,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.40429688,
+      "wavelength_upper_A": 5591.46875,
+      "flux_lower": -120895016.0,
+      "flux_upper": 114450552.0,
+      "exposure_one_based": 5,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1022,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.52294922,
+      "wavelength_upper_A": 5591.55175781,
+      "flux_lower": -63810508.0,
+      "flux_upper": 58492024.0,
+      "exposure_one_based": 5,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1023,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.68847656,
+      "wavelength_upper_A": 5593.77636719,
+      "flux_lower": -69906152.0,
+      "flux_upper": 57105368.0,
+      "exposure_one_based": 10,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1024,
+      "action_type": 1,
+      "wavelength_lower_A": 5595.03857422,
+      "wavelength_upper_A": 5595.10058594,
+      "flux_lower": -286281120.0,
+      "flux_upper": 359396256.0,
+      "exposure_one_based": 10,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1025,
+      "action_type": 1,
+      "wavelength_lower_A": 5593.23535156,
+      "wavelength_upper_A": 5593.32373047,
+      "flux_lower": -139647168.0,
+      "flux_upper": 109857352.0,
+      "exposure_one_based": 7,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1026,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.71728516,
+      "wavelength_upper_A": 5591.75878906,
+      "flux_lower": -118580136.0,
+      "flux_upper": 146087168.0,
+      "exposure_one_based": 7,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1027,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.81542969,
+      "wavelength_upper_A": 5591.84375,
+      "flux_lower": -112407144.0,
+      "flux_upper": 112907304.0,
+      "exposure_one_based": 7,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1028,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.84960938,
+      "wavelength_upper_A": 5595.00488281,
+      "flux_lower": -70102632.0,
+      "flux_upper": 50468100.0,
+      "exposure_one_based": 1,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1029,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.21630859,
+      "wavelength_upper_A": 5592.26318359,
+      "flux_lower": -33279716.0,
+      "flux_upper": 54930548.0,
+      "exposure_one_based": 12,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1030,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.61621094,
+      "wavelength_upper_A": 5591.67333984,
+      "flux_lower": -69094624.0,
+      "flux_upper": 53541148.0,
+      "exposure_one_based": 12,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1031,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.66308594,
+      "wavelength_upper_A": 5591.71435547,
+      "flux_lower": -33279716.0,
+      "flux_upper": 37506296.0,
+      "exposure_one_based": 12,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1032,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.92138672,
+      "wavelength_upper_A": 5592.00439453,
+      "flux_lower": -125524760.0,
+      "flux_upper": 140685792.0,
+      "exposure_one_based": 12,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1033,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.53710938,
+      "wavelength_upper_A": 5592.79345703,
+      "flux_lower": -58023324.0,
+      "flux_upper": 66208272.0,
+      "exposure_one_based": 12,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1034,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.92529297,
+      "wavelength_upper_A": 5593.08300781,
+      "flux_lower": -450284320.0,
+      "flux_upper": 469492448.0,
+      "exposure_one_based": 12,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1035,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.78515625,
+      "wavelength_upper_A": 5594.91455078,
+      "flux_lower": -152386800.0,
+      "flux_upper": 75237504.0,
+      "exposure_one_based": 4,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1036,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.81933594,
+      "wavelength_upper_A": 5592.88183594,
+      "flux_lower": -73172344.0,
+      "flux_upper": 49085656.0,
+      "exposure_one_based": 6,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1037,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.67138672,
+      "wavelength_upper_A": 5592.71630859,
+      "flux_lower": -122983056.0,
+      "flux_upper": 179707216.0,
+      "exposure_one_based": 6,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1038,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.78173828,
+      "wavelength_upper_A": 5592.84179688,
+      "flux_lower": -309814112.0,
+      "flux_upper": 312306592.0,
+      "exposure_one_based": 4,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1039,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.02880859,
+      "wavelength_upper_A": 5594.08886719,
+      "flux_lower": -65872724.0,
+      "flux_upper": 61310160.0,
+      "exposure_one_based": 17,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1040,
+      "action_type": 1,
+      "wavelength_lower_A": 5591.60742188,
+      "wavelength_upper_A": 5591.72802734,
+      "flux_lower": -119132040.0,
+      "flux_upper": 120401488.0,
+      "exposure_one_based": 8,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1041,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.25195312,
+      "wavelength_upper_A": 5594.32958984,
+      "flux_lower": -293223616.0,
+      "flux_upper": 271894080.0,
+      "exposure_one_based": 16,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1042,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.14453125,
+      "wavelength_upper_A": 5592.28466797,
+      "flux_lower": -130550984.0,
+      "flux_upper": 107530968.0,
+      "exposure_one_based": 15,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1043,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.61621094,
+      "wavelength_upper_A": 5592.75927734,
+      "flux_lower": -501829248.0,
+      "flux_upper": 551810176.0,
+      "exposure_one_based": 15,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1044,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.91699219,
+      "wavelength_upper_A": 5593.01757812,
+      "flux_lower": -141492320.0,
+      "flux_upper": 87653328.0,
+      "exposure_one_based": 15,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1045,
+      "action_type": 1,
+      "wavelength_lower_A": 5594.05126953,
+      "wavelength_upper_A": 5594.13134766,
+      "flux_lower": -586192512.0,
+      "flux_upper": 433995200.0,
+      "exposure_one_based": 15,
+      "row_one_based": 107,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1126,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.79248047,
+      "wavelength_upper_A": 5126.81835938,
+      "flux_lower": -18357092352.0,
+      "flux_upper": 19119140864.0,
+      "exposure_one_based": 10,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1127,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.97558594,
+      "wavelength_upper_A": 5125.00634766,
+      "flux_lower": -1716049920.0,
+      "flux_upper": 1576741248.0,
+      "exposure_one_based": 10,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1128,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.50634766,
+      "wavelength_upper_A": 5124.56982422,
+      "flux_lower": -967099776.0,
+      "flux_upper": 1110052608.0,
+      "exposure_one_based": 10,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1129,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.54882812,
+      "wavelength_upper_A": 5124.63378906,
+      "flux_lower": -1926365312.0,
+      "flux_upper": 1808140288.0,
+      "exposure_one_based": 4,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1130,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.52734375,
+      "wavelength_upper_A": 5124.63574219,
+      "flux_lower": -1117014272.0,
+      "flux_upper": 813418944.0,
+      "exposure_one_based": 1,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1131,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.74707031,
+      "wavelength_upper_A": 5124.81982422,
+      "flux_lower": -1762103040.0,
+      "flux_upper": 1058644736.0,
+      "exposure_one_based": 1,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1132,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.67138672,
+      "wavelength_upper_A": 5124.78955078,
+      "flux_lower": -519905952.0,
+      "flux_upper": 376128256.0,
+      "exposure_one_based": 16,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1133,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.72998047,
+      "wavelength_upper_A": 5123.77490234,
+      "flux_lower": -1035251328.0,
+      "flux_upper": 864473856.0,
+      "exposure_one_based": 16,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1134,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.40087891,
+      "wavelength_upper_A": 5126.47363281,
+      "flux_lower": -264295696.0,
+      "flux_upper": 337228640.0,
+      "exposure_one_based": 5,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1135,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.77294922,
+      "wavelength_upper_A": 5124.90966797,
+      "flux_lower": -1911775360.0,
+      "flux_upper": 1622794240.0,
+      "exposure_one_based": 5,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1136,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.88623047,
+      "wavelength_upper_A": 5125.93359375,
+      "flux_lower": -3642530304.0,
+      "flux_upper": 3265423360.0,
+      "exposure_one_based": 5,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1137,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.06982422,
+      "wavelength_upper_A": 5124.17822266,
+      "flux_lower": -16351469568.0,
+      "flux_upper": 22773243904.0,
+      "exposure_one_based": 12,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1138,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.95703125,
+      "wavelength_upper_A": 5125.00634766,
+      "flux_lower": -522086272.0,
+      "flux_upper": 450852352.0,
+      "exposure_one_based": 16,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1139,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.39111328,
+      "wavelength_upper_A": 5126.47607422,
+      "flux_lower": -7840390656.0,
+      "flux_upper": 10848022528.0,
+      "exposure_one_based": 13,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1140,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.27783203,
+      "wavelength_upper_A": 5125.32275391,
+      "flux_lower": -4178613248.0,
+      "flux_upper": 4302528512.0,
+      "exposure_one_based": 3,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1141,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.77050781,
+      "wavelength_upper_A": 5124.80810547,
+      "flux_lower": -1750589696.0,
+      "flux_upper": 1853059328.0,
+      "exposure_one_based": 3,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1142,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.66894531,
+      "wavelength_upper_A": 5124.70898438,
+      "flux_lower": -1612430592.0,
+      "flux_upper": 2025758208.0,
+      "exposure_one_based": 3,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1143,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.73339844,
+      "wavelength_upper_A": 5126.82324219,
+      "flux_lower": -7057988608.0,
+      "flux_upper": 7540819968.0,
+      "exposure_one_based": 4,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1144,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.88671875,
+      "wavelength_upper_A": 5124.91748047,
+      "flux_lower": -253295984.0,
+      "flux_upper": 214780160.0,
+      "exposure_one_based": 10,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1145,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.03271484,
+      "wavelength_upper_A": 5124.08203125,
+      "flux_lower": -2132746752.0,
+      "flux_upper": 1728583808.0,
+      "exposure_one_based": 16,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1146,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.25195312,
+      "wavelength_upper_A": 5124.30615234,
+      "flux_lower": -2186546944.0,
+      "flux_upper": 1948387200.0,
+      "exposure_one_based": 10,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1147,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.09130859,
+      "wavelength_upper_A": 5124.171875,
+      "flux_lower": -2112330752.0,
+      "flux_upper": 2585010432.0,
+      "exposure_one_based": 17,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1148,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.84716797,
+      "wavelength_upper_A": 5127.06884766,
+      "flux_lower": -255112384.0,
+      "flux_upper": 283176160.0,
+      "exposure_one_based": 17,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1149,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.98339844,
+      "wavelength_upper_A": 5125.11328125,
+      "flux_lower": -2532229888.0,
+      "flux_upper": 1184401024.0,
+      "exposure_one_based": 15,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1150,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.76416016,
+      "wavelength_upper_A": 5124.8984375,
+      "flux_lower": -2123530752.0,
+      "flux_upper": 1517768320.0,
+      "exposure_one_based": 5,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1151,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.44091797,
+      "wavelength_upper_A": 5125.47167969,
+      "flux_lower": -893571264.0,
+      "flux_upper": 687017344.0,
+      "exposure_one_based": 5,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1152,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.67236328,
+      "wavelength_upper_A": 5125.70751953,
+      "flux_lower": -450985504.0,
+      "flux_upper": 287009888.0,
+      "exposure_one_based": 5,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1153,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.58935547,
+      "wavelength_upper_A": 5124.66503906,
+      "flux_lower": -212259664.0,
+      "flux_upper": 204678672.0,
+      "exposure_one_based": 5,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1154,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.14794922,
+      "wavelength_upper_A": 5124.28271484,
+      "flux_lower": -7264099840.0,
+      "flux_upper": 7100659712.0,
+      "exposure_one_based": 5,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1155,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.26904297,
+      "wavelength_upper_A": 5125.31591797,
+      "flux_lower": -1021648256.0,
+      "flux_upper": 881404480.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1156,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.99804688,
+      "wavelength_upper_A": 5127.0546875,
+      "flux_lower": -7744422912.0,
+      "flux_upper": 8434968576.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1157,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.65039062,
+      "wavelength_upper_A": 5123.68798828,
+      "flux_lower": -493764608.0,
+      "flux_upper": 512930912.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1158,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.56103516,
+      "wavelength_upper_A": 5124.60351562,
+      "flux_lower": -419025056.0,
+      "flux_upper": 417757120.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1159,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.76171875,
+      "wavelength_upper_A": 5124.78515625,
+      "flux_lower": -1801986304.0,
+      "flux_upper": 1649740160.0,
+      "exposure_one_based": 3,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1160,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.77099609,
+      "wavelength_upper_A": 5124.875,
+      "flux_lower": -991423424.0,
+      "flux_upper": 817907712.0,
+      "exposure_one_based": 4,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1161,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.70068359,
+      "wavelength_upper_A": 5125.76416016,
+      "flux_lower": -4062786560.0,
+      "flux_upper": 2977954304.0,
+      "exposure_one_based": 4,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1162,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.43164062,
+      "wavelength_upper_A": 5125.4765625,
+      "flux_lower": -243666640.0,
+      "flux_upper": 237251888.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1163,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.83251953,
+      "wavelength_upper_A": 5125.89160156,
+      "flux_lower": -864516288.0,
+      "flux_upper": 477821760.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1164,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.56591797,
+      "wavelength_upper_A": 5124.64111328,
+      "flux_lower": -1066199744.0,
+      "flux_upper": 656659776.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1165,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.46191406,
+      "wavelength_upper_A": 5124.52099609,
+      "flux_lower": -515052032.0,
+      "flux_upper": 483744608.0,
+      "exposure_one_based": 6,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1166,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.75683594,
+      "wavelength_upper_A": 5124.80419922,
+      "flux_lower": -1073283264.0,
+      "flux_upper": 821267200.0,
+      "exposure_one_based": 7,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1167,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.97412109,
+      "wavelength_upper_A": 5125.05419922,
+      "flux_lower": -210806928.0,
+      "flux_upper": 168360000.0,
+      "exposure_one_based": 7,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1168,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.17675781,
+      "wavelength_upper_A": 5125.22412109,
+      "flux_lower": -6752733184.0,
+      "flux_upper": 7100660736.0,
+      "exposure_one_based": 7,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1169,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.91748047,
+      "wavelength_upper_A": 5124.95751953,
+      "flux_lower": -4048889088.0,
+      "flux_upper": 3001465344.0,
+      "exposure_one_based": 9,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1170,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.43847656,
+      "wavelength_upper_A": 5124.55175781,
+      "flux_lower": -524061696.0,
+      "flux_upper": 436133664.0,
+      "exposure_one_based": 14,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1171,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.07080078,
+      "wavelength_upper_A": 5125.14160156,
+      "flux_lower": -934248128.0,
+      "flux_upper": 564986560.0,
+      "exposure_one_based": 17,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1172,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.45703125,
+      "wavelength_upper_A": 5124.54199219,
+      "flux_lower": -3583950592.0,
+      "flux_upper": 3691405568.0,
+      "exposure_one_based": 17,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1173,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.58886719,
+      "wavelength_upper_A": 5124.16943359,
+      "flux_lower": -16518718464.0,
+      "flux_upper": 14839490560.0,
+      "exposure_one_based": 17,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1174,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.92236328,
+      "wavelength_upper_A": 5126.14892578,
+      "flux_lower": -30732474368.0,
+      "flux_upper": 25238591488.0,
+      "exposure_one_based": 17,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1175,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.89550781,
+      "wavelength_upper_A": 5123.99267578,
+      "flux_lower": -1925773568.0,
+      "flux_upper": 2018240768.0,
+      "exposure_one_based": 9,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1176,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.70507812,
+      "wavelength_upper_A": 5125.88720703,
+      "flux_lower": -450985504.0,
+      "flux_upper": 324781312.0,
+      "exposure_one_based": 9,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1177,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.15771484,
+      "wavelength_upper_A": 5125.21240234,
+      "flux_lower": -258163504.0,
+      "flux_upper": 186402800.0,
+      "exposure_one_based": 16,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1178,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.50244141,
+      "wavelength_upper_A": 5125.56152344,
+      "flux_lower": -1674144640.0,
+      "flux_upper": 1068641408.0,
+      "exposure_one_based": 16,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1179,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.69580078,
+      "wavelength_upper_A": 5125.73339844,
+      "flux_lower": -899382208.0,
+      "flux_upper": 907834816.0,
+      "exposure_one_based": 16,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1180,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.81396484,
+      "wavelength_upper_A": 5125.85644531,
+      "flux_lower": -858705344.0,
+      "flux_upper": 884590912.0,
+      "exposure_one_based": 16,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1181,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.16552734,
+      "wavelength_upper_A": 5126.20556641,
+      "flux_lower": -193373952.0,
+      "flux_upper": 181434720.0,
+      "exposure_one_based": 16,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1182,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.21972656,
+      "wavelength_upper_A": 5126.29736328,
+      "flux_lower": -27578445824.0,
+      "flux_upper": 22628485120.0,
+      "exposure_one_based": 2,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1183,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.58203125,
+      "wavelength_upper_A": 5123.69287109,
+      "flux_lower": -3955853824.0,
+      "flux_upper": 3365990400.0,
+      "exposure_one_based": 2,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1184,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.62890625,
+      "wavelength_upper_A": 5123.71191406,
+      "flux_lower": -9046661120.0,
+      "flux_upper": 9129702400.0,
+      "exposure_one_based": 16,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1185,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.07080078,
+      "wavelength_upper_A": 5126.27148438,
+      "flux_lower": -218070656.0,
+      "flux_upper": 185792960.0,
+      "exposure_one_based": 16,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1186,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.16943359,
+      "wavelength_upper_A": 5124.31787109,
+      "flux_lower": -8725748736.0,
+      "flux_upper": 8641921024.0,
+      "exposure_one_based": 14,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1187,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.45507812,
+      "wavelength_upper_A": 5125.5234375,
+      "flux_lower": -1084435968.0,
+      "flux_upper": 629490944.0,
+      "exposure_one_based": 14,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1188,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.91943359,
+      "wavelength_upper_A": 5124.07763672,
+      "flux_lower": -1094840960.0,
+      "flux_upper": 956015552.0,
+      "exposure_one_based": 15,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1189,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.47460938,
+      "wavelength_upper_A": 5126.52392578,
+      "flux_lower": -398686592.0,
+      "flux_upper": 214372528.0,
+      "exposure_one_based": 15,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1190,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.57128906,
+      "wavelength_upper_A": 5126.65380859,
+      "flux_lower": -771540480.0,
+      "flux_upper": 588230528.0,
+      "exposure_one_based": 15,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1191,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.30224609,
+      "wavelength_upper_A": 5126.40136719,
+      "flux_lower": -893571200.0,
+      "flux_upper": 652151360.0,
+      "exposure_one_based": 2,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1192,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.67382812,
+      "wavelength_upper_A": 5123.76123047,
+      "flux_lower": -1010921088.0,
+      "flux_upper": 995122240.0,
+      "exposure_one_based": 15,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1193,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.08935547,
+      "wavelength_upper_A": 5124.16943359,
+      "flux_lower": -887760192.0,
+      "flux_upper": 983377600.0,
+      "exposure_one_based": 15,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1194,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.39599609,
+      "wavelength_upper_A": 5124.45947266,
+      "flux_lower": -223881648.0,
+      "flux_upper": 254072064.0,
+      "exposure_one_based": 15,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1195,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.52587891,
+      "wavelength_upper_A": 5124.58251953,
+      "flux_lower": -105971472.0,
+      "flux_upper": 95233968.0,
+      "exposure_one_based": 15,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1196,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.95996094,
+      "wavelength_upper_A": 5125.0234375,
+      "flux_lower": -395781024.0,
+      "flux_upper": 208561520.0,
+      "exposure_one_based": 15,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1197,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.00195312,
+      "wavelength_upper_A": 5124.05859375,
+      "flux_lower": -187562928.0,
+      "flux_upper": 140757776.0,
+      "exposure_one_based": 14,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1198,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.22851562,
+      "wavelength_upper_A": 5124.27783203,
+      "flux_lower": -209354176.0,
+      "flux_upper": 140757808.0,
+      "exposure_one_based": 14,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1199,
+      "action_type": 1,
+      "wavelength_lower_A": 5124.48095703,
+      "wavelength_upper_A": 5124.54199219,
+      "flux_lower": -453891008.0,
+      "flux_upper": 295726368.0,
+      "exposure_one_based": 14,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1200,
+      "action_type": 1,
+      "wavelength_lower_A": 5125.76660156,
+      "wavelength_upper_A": 5125.80908203,
+      "flux_lower": -870327296.0,
+      "flux_upper": 733505216.0,
+      "exposure_one_based": 14,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1212,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.59619141,
+      "wavelength_upper_A": 5123.70703125,
+      "flux_lower": -465628736.0,
+      "flux_upper": 374909056.0,
+      "exposure_one_based": 15,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1219,
+      "action_type": 1,
+      "wavelength_lower_A": 5123.24707031,
+      "wavelength_upper_A": 5123.40527344,
+      "flux_lower": -4073938176.0,
+      "flux_upper": 3554962944.0,
+      "exposure_one_based": 10,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1233,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.68945312,
+      "wavelength_upper_A": 5106.80224609,
+      "flux_lower": -16870673408.0,
+      "flux_upper": 17508608000.0,
+      "exposure_one_based": 10,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1234,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.69726562,
+      "wavelength_upper_A": 5106.86816406,
+      "flux_lower": -2133367424.0,
+      "flux_upper": 2202523648.0,
+      "exposure_one_based": 1,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1235,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.56933594,
+      "wavelength_upper_A": 5107.59863281,
+      "flux_lower": -528374016.0,
+      "flux_upper": 530128864.0,
+      "exposure_one_based": 16,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1236,
+      "action_type": 1,
+      "wavelength_lower_A": 5106.95166016,
+      "wavelength_upper_A": 5107.01953125,
+      "flux_lower": -2105593472.0,
+      "flux_upper": 2563831296.0,
+      "exposure_one_based": 16,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1237,
+      "action_type": 1,
+      "wavelength_lower_A": 5107.96728516,
+      "wavelength_upper_A": 5108.01416016,
+      "flux_lower": -2116640896.0,
+      "flux_upper": 2458096896.0,
+      "exposure_one_based": 13,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1239,
+      "action_type": 1,
+      "wavelength_lower_A": 5105.62988281,
+      "wavelength_upper_A": 5105.68261719,
+      "flux_lower": -1966499968.0,
+      "flux_upper": 2015242752.0,
+      "exposure_one_based": 7,
+      "row_one_based": 83,
+      "overlapping_lines": [
+        "2374"
+      ]
+    },
+    {
+      "action_number": 1475,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.54833984,
+      "wavelength_upper_A": 5592.57373047,
+      "flux_lower": -139239536.0,
+      "flux_upper": 94395200.0,
+      "exposure_one_based": 17,
+      "row_one_based": 106,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1476,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.53955078,
+      "wavelength_upper_A": 5592.58154297,
+      "flux_lower": -120603384.0,
+      "flux_upper": 119484576.0,
+      "exposure_one_based": 3,
+      "row_one_based": 105,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1477,
+      "action_type": 1,
+      "wavelength_lower_A": 5592.55371094,
+      "wavelength_upper_A": 5592.57714844,
+      "flux_lower": -30935548.0,
+      "flux_upper": 29302348.0,
+      "exposure_one_based": 4,
+      "row_one_based": 108,
+      "overlapping_lines": [
+        "2600"
+      ]
+    },
+    {
+      "action_number": 1523,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.15869141,
+      "wavelength_upper_A": 5126.21240234,
+      "flux_lower": -3667585536.0,
+      "flux_upper": 2164293120.0,
+      "exposure_one_based": 5,
+      "row_one_based": 84,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1524,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.15869141,
+      "wavelength_upper_A": 5126.21240234,
+      "flux_lower": -3667585536.0,
+      "flux_upper": 2164293120.0,
+      "exposure_one_based": 4,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1525,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.14697266,
+      "wavelength_upper_A": 5126.17773438,
+      "flux_lower": -162783296.0,
+      "flux_upper": 96413592.0,
+      "exposure_one_based": 17,
+      "row_one_based": 85,
+      "overlapping_lines": [
+        "2382"
+      ]
+    },
+    {
+      "action_number": 1526,
+      "action_type": 1,
+      "wavelength_lower_A": 5126.15380859,
+      "wavelength_upper_A": 5126.18603516,
+      "flux_lower": -678465088.0,
+      "flux_upper": 511542336.0,
+      "exposure_one_based": 1,
+      "row_one_based": 86,
+      "overlapping_lines": [
+        "2382"
+      ]
+    }
+  ]
+}

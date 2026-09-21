@@ -1,0 +1,1818 @@
+{
+  "status": "PASS",
+  "passed": 310,
+  "count": 310,
+  "checks": [
+    {
+      "name": "finite initialized arrays",
+      "passed": true
+    },
+    {
+      "name": "three selected lines and anchor",
+      "passed": true
+    },
+    {
+      "name": "data and nuisance dimensions",
+      "passed": true,
+      "ndata": 511,
+      "npar": 149
+    },
+    {
+      "name": "nested parameter parity",
+      "passed": true
+    },
+    {
+      "name": "nested residual parity at zero shifts",
+      "passed": true
+    },
+    {
+      "name": "source flux and error 2374",
+      "passed": true
+    },
+    {
+      "name": "unchanged clean-line mask 2374",
+      "passed": true,
+      "valid_pixels": 156
+    },
+    {
+      "name": "pixel quadrature centering 2374",
+      "passed": true,
+      "max_error_km_s": 2.8455957590267644e-08
+    },
+    {
+      "name": "independent frequency Voigt and FFT profile 2374",
+      "passed": true,
+      "max_flux_error": 3.631306366713716e-10
+    },
+    {
+      "name": "source flux and error 2382",
+      "passed": true
+    },
+    {
+      "name": "unchanged clean-line mask 2382",
+      "passed": true,
+      "valid_pixels": 178
+    },
+    {
+      "name": "pixel quadrature centering 2382",
+      "passed": true,
+      "max_error_km_s": 3.253956037951866e-08
+    },
+    {
+      "name": "independent frequency Voigt and FFT profile 2382",
+      "passed": true,
+      "max_flux_error": 3.920549995761746e-10
+    },
+    {
+      "name": "source flux and error 2600",
+      "passed": true
+    },
+    {
+      "name": "unchanged clean-line mask 2600",
+      "passed": true,
+      "valid_pixels": 177
+    },
+    {
+      "name": "pixel quadrature centering 2600",
+      "passed": true,
+      "max_error_km_s": 3.220023359062907e-08
+    },
+    {
+      "name": "independent frequency Voigt and FFT profile 2600",
+      "passed": true,
+      "max_flux_error": 4.0044728644161864e-10
+    },
+    {
+      "name": "derivative logN_0",
+      "passed": true,
+      "relative_l2_error": 1.5499797082738898e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logN_13",
+      "passed": true,
+      "relative_l2_error": 7.719648355944228e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logN_37",
+      "passed": true,
+      "relative_l2_error": 1.6851345884449364e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logN_44",
+      "passed": true,
+      "relative_l2_error": 5.089245515182021e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative v_0",
+      "passed": true,
+      "relative_l2_error": 1.7739055010843592e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative v_13",
+      "passed": true,
+      "relative_l2_error": 7.382292400279231e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative v_37",
+      "passed": true,
+      "relative_l2_error": 3.0172483095505043e-07,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative v_44",
+      "passed": true,
+      "relative_l2_error": 2.042321994484341e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative logb_0",
+      "passed": true,
+      "relative_l2_error": 5.31260321423439e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logb_13",
+      "passed": true,
+      "relative_l2_error": 2.055556283360676e-08,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logb_37",
+      "passed": true,
+      "relative_l2_error": 6.8152194324187416e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative logb_44",
+      "passed": true,
+      "relative_l2_error": 1.4455223715872039e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum0_2374",
+      "passed": true,
+      "relative_l2_error": 5.535021451201044e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum1_2374",
+      "passed": true,
+      "relative_l2_error": 8.273704025596282e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum0_2382",
+      "passed": true,
+      "relative_l2_error": 5.383926310650719e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum1_2382",
+      "passed": true,
+      "relative_l2_error": 5.3027423165347e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum0_2600",
+      "passed": true,
+      "relative_l2_error": 5.060386593659e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative continuum1_2600",
+      "passed": true,
+      "relative_l2_error": 5.797317230358667e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative zero_adjustment_2374",
+      "passed": true,
+      "relative_l2_error": 1.3719876754109337e-11,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative zero_adjustment_2382",
+      "passed": true,
+      "relative_l2_error": 1.7039941812407664e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative zero_adjustment_2600",
+      "passed": true,
+      "relative_l2_error": 1.8932473093318715e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "derivative shift_2382",
+      "passed": true,
+      "relative_l2_error": 3.1643284253678895e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative shift_2600",
+      "passed": true,
+      "relative_l2_error": 2.5781143276125204e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative log_lsf_scale_2374",
+      "passed": true,
+      "relative_l2_error": 3.822113222470716e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative log_lsf_scale_2382",
+      "passed": true,
+      "relative_l2_error": 4.710764545474111e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "derivative log_lsf_scale_2600",
+      "passed": true,
+      "relative_l2_error": 4.477892481902554e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "mixed derivative 0",
+      "passed": true,
+      "relative_l2_error": 4.0981573035118173e-08
+    },
+    {
+      "name": "mixed derivative 1",
+      "passed": true,
+      "relative_l2_error": 3.737336761107552e-08
+    },
+    {
+      "name": "mixed derivative 2",
+      "passed": true,
+      "relative_l2_error": 4.5706559040143355e-08
+    },
+    {
+      "name": "mixed derivative 3",
+      "passed": true,
+      "relative_l2_error": 3.0486566583939036e-08
+    },
+    {
+      "name": "AR(1) mixed derivative",
+      "passed": true,
+      "relative_l2_error": 6.117627248955181e-08
+    },
+    {
+      "name": "opacity independent profile 2374",
+      "passed": true,
+      "max_flux_error": 3.628888300966082e-10
+    },
+    {
+      "name": "expected-fluctuation errors 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity independent profile 2382",
+      "passed": true,
+      "max_flux_error": 3.940193171736439e-10
+    },
+    {
+      "name": "expected-fluctuation errors 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity independent profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9915659666434067e-10
+    },
+    {
+      "name": "expected-fluctuation errors 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity derivative log_strength_2382",
+      "passed": true,
+      "relative_l2_error": 2.24480398594309e-09
+    },
+    {
+      "name": "opacity derivative log_strength_2600",
+      "passed": true,
+      "relative_l2_error": 2.12851085584787e-09
+    },
+    {
+      "name": "opacity derivative log_lsf_scale_2382",
+      "passed": true,
+      "relative_l2_error": 4.732208361113659e-09
+    },
+    {
+      "name": "opacity derivative shift_2382",
+      "passed": true,
+      "relative_l2_error": 3.0676311100635984e-08
+    },
+    {
+      "name": "uves_clean_alternative labels",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative chi2",
+      "passed": true,
+      "recomputed": 1390.1454416986978,
+      "saved": 1390.1454416986978
+    },
+    {
+      "name": "uves_clean_alternative residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_alternative saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null labels",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null chi2",
+      "passed": true,
+      "recomputed": 1399.0901130580285,
+      "saved": 1399.0901130580285
+    },
+    {
+      "name": "uves_clean_null residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_clean_null saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative labels",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative chi2",
+      "passed": true,
+      "recomputed": 388.5064208045242,
+      "saved": 388.5064208045242
+    },
+    {
+      "name": "uves_expected_alternative residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.573266127432362e-10
+    },
+    {
+      "name": "uves_expected_alternative profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.934795822502224e-10
+    },
+    {
+      "name": "uves_expected_alternative profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9966091547327665e-10
+    },
+    {
+      "name": "uves_expected_alternative pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014161341758555653,
+      "max_sigma_difference": 0.0022819676603119676,
+      "chi2_difference": 0.004771994256657308,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_expected_alternative_continued labels",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued chi2",
+      "passed": true,
+      "recomputed": 388.1353622700115,
+      "saved": 388.1353622700115
+    },
+    {
+      "name": "uves_expected_alternative_continued residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.6115271884185063e-10
+    },
+    {
+      "name": "uves_expected_alternative_continued profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.94194565878081e-10
+    },
+    {
+      "name": "uves_expected_alternative_continued profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_alternative_continued independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9749853408821423e-10
+    },
+    {
+      "name": "uves_expected_alternative_continued pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014143806292028074,
+      "max_sigma_difference": 0.0022744319976074623,
+      "chi2_difference": 0.004821992085055626,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_expected_null labels",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null chi2",
+      "passed": true,
+      "recomputed": 405.42852410688243,
+      "saved": 405.42852410688243
+    },
+    {
+      "name": "uves_expected_null residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.5944075493787864e-10
+    },
+    {
+      "name": "uves_expected_null profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.92030130580423e-10
+    },
+    {
+      "name": "uves_expected_null profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9753872416170566e-10
+    },
+    {
+      "name": "uves_expected_null pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014270008580099483,
+      "max_sigma_difference": 0.0022118894213246088,
+      "chi2_difference": 0.003573438388059458,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_expected_null_continued labels",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued chi2",
+      "passed": true,
+      "recomputed": 398.1177618787831,
+      "saved": 398.1177618787831
+    },
+    {
+      "name": "uves_expected_null_continued residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.524039948743507e-10
+    },
+    {
+      "name": "uves_expected_null_continued profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.940148207703942e-10
+    },
+    {
+      "name": "uves_expected_null_continued profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_continued independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.99237809478592e-10
+    },
+    {
+      "name": "uves_expected_null_continued pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.0001423694008223639,
+      "max_sigma_difference": 0.002291245417829435,
+      "chi2_difference": -7.2470811574021354e-06,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_expected_null_cross labels",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross chi2",
+      "passed": true,
+      "recomputed": 398.3954932578505,
+      "saved": 398.3954932578505
+    },
+    {
+      "name": "uves_expected_null_cross residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.554344041312163e-10
+    },
+    {
+      "name": "uves_expected_null_cross profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.936380110758364e-10
+    },
+    {
+      "name": "uves_expected_null_cross profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_expected_null_cross independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.990588415270224e-10
+    },
+    {
+      "name": "uves_expected_null_cross pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014266762392099662,
+      "max_sigma_difference": 0.0022784356925017457,
+      "chi2_difference": -0.000447906262138531,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_flex_alternative labels",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative chi2",
+      "passed": true,
+      "recomputed": 445.97248857276895,
+      "saved": 445.97248857276895
+    },
+    {
+      "name": "uves_flex_alternative residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative pixel quadrature 7-to-21",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.2126422358352426,
+      "max_sigma_difference": 0.24081263903403688,
+      "chi2_difference": 1.4022787218561916,
+      "assessment": "coarse exploratory characterization only; use >=21 for final comparison"
+    },
+    {
+      "name": "uves_flex_alternative_polished labels",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished chi2",
+      "passed": true,
+      "recomputed": 442.1872816981399,
+      "saved": 442.1872816981399
+    },
+    {
+      "name": "uves_flex_alternative_polished residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_alternative_polished pixel quadrature 7-to-21",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.3968115501126417,
+      "max_sigma_difference": 0.34452542506937595,
+      "chi2_difference": 1.487292197135048,
+      "assessment": "coarse exploratory characterization only; use >=21 for final comparison"
+    },
+    {
+      "name": "uves_flex_null labels",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null chi2",
+      "passed": true,
+      "recomputed": 451.9928918896496,
+      "saved": 451.9928918896496
+    },
+    {
+      "name": "uves_flex_null residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null pixel quadrature 7-to-21",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.0587360857901542,
+      "max_sigma_difference": 0.09357172072669906,
+      "chi2_difference": 1.0508548725836135,
+      "assessment": "coarse exploratory characterization only; use >=21 for final comparison"
+    },
+    {
+      "name": "uves_flex_null_polished labels",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished chi2",
+      "passed": true,
+      "recomputed": 446.2018237351645,
+      "saved": 446.2018237351645
+    },
+    {
+      "name": "uves_flex_null_polished residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_flex_null_polished pixel quadrature 7-to-21",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.10783090463235506,
+      "max_sigma_difference": 0.11450503801206446,
+      "chi2_difference": 1.315652277474669,
+      "assessment": "coarse exploratory characterization only; use >=21 for final comparison"
+    },
+    {
+      "name": "uves_opacity_alternative labels",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative chi2",
+      "passed": true,
+      "recomputed": 386.56988290981104,
+      "saved": 386.56988290981104
+    },
+    {
+      "name": "uves_opacity_alternative residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.5025027322888036e-10
+    },
+    {
+      "name": "uves_opacity_alternative profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.954508387415956e-10
+    },
+    {
+      "name": "uves_opacity_alternative profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_alternative independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9764508352746475e-10
+    },
+    {
+      "name": "uves_opacity_alternative pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014232307503881018,
+      "max_sigma_difference": 0.0022680828756924676,
+      "chi2_difference": 0.005013779452610834,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_opacity_null labels",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null chi2",
+      "passed": true,
+      "recomputed": 396.724228365658,
+      "saved": 396.724228365658
+    },
+    {
+      "name": "uves_opacity_null residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.5222136318679986e-10
+    },
+    {
+      "name": "uves_opacity_null profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.953608551654497e-10
+    },
+    {
+      "name": "uves_opacity_null profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_opacity_null independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 4.001218245619498e-10
+    },
+    {
+      "name": "uves_opacity_null pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014231278783332485,
+      "max_sigma_difference": 0.002291088833536792,
+      "chi2_difference": 0.00048246506037230574,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_refined_alternative labels",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative chi2",
+      "passed": true,
+      "recomputed": 406.84729243541074,
+      "saved": 406.84729243541074
+    },
+    {
+      "name": "uves_refined_alternative residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.588972452561734e-10
+    },
+    {
+      "name": "uves_refined_alternative profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.949067184372268e-10
+    },
+    {
+      "name": "uves_refined_alternative profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_alternative independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9748776492487536e-10
+    },
+    {
+      "name": "uves_refined_alternative pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014824535874576893,
+      "max_sigma_difference": 0.002309324803783541,
+      "chi2_difference": 0.004508929397900374,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_refined_null labels",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null chi2",
+      "passed": true,
+      "recomputed": 427.11878714129205,
+      "saved": 427.11878714129205
+    },
+    {
+      "name": "uves_refined_null residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.574330276201465e-10
+    },
+    {
+      "name": "uves_refined_null profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.932348335844438e-10
+    },
+    {
+      "name": "uves_refined_null profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.98702515447269e-10
+    },
+    {
+      "name": "uves_refined_null pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014954585170421603,
+      "max_sigma_difference": 0.00234186587875862,
+      "chi2_difference": 0.0019727727518557003,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_refined_null_continued labels",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued chi2",
+      "passed": true,
+      "recomputed": 417.8407497606547,
+      "saved": 417.8407497606547
+    },
+    {
+      "name": "uves_refined_null_continued residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.535386428055176e-10
+    },
+    {
+      "name": "uves_refined_null_continued profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.9352937575287683e-10
+    },
+    {
+      "name": "uves_refined_null_continued profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_continued independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9877012802946865e-10
+    },
+    {
+      "name": "uves_refined_null_continued pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00015227718187565332,
+      "max_sigma_difference": 0.002216932348834577,
+      "chi2_difference": 0.0024593106204520154,
+      "assessment": "refinement convergence check"
+    },
+    {
+      "name": "uves_refined_null_cross labels",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross parameter bounds",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross accounting",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross chi2",
+      "passed": true,
+      "recomputed": 418.2560956562324,
+      "saved": 418.2560956562324
+    },
+    {
+      "name": "uves_refined_null_cross residual arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross profile 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross saved data arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.556732686149644e-10
+    },
+    {
+      "name": "uves_refined_null_cross profile 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross saved data arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.9598851975242155e-10
+    },
+    {
+      "name": "uves_refined_null_cross profile 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross saved data arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "uves_refined_null_cross independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9869824108862417e-10
+    },
+    {
+      "name": "uves_refined_null_cross pixel quadrature 21-to-49",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00015194736748340144,
+      "max_sigma_difference": 0.002198612439856751,
+      "chi2_difference": 0.0020334031509605666,
+      "assessment": "refinement convergence check"
+    }
+  ],
+  "audited_results": [
+    {
+      "name": "uves_clean_alternative",
+      "sha256": "1aa7a0bcf55a16c0ae850e5d2a8ac1349d9af3a5b737d3e15981f9fdbdc2991c",
+      "optimizer_success": false,
+      "optimality": 2.1550258579300245,
+      "chi2": 1390.1454416986978,
+      "npar": 146,
+      "rank": 144,
+      "oversample": 7,
+      "active_bounds": [
+        "zero_adjustment_2374",
+        "zero_adjustment_2600"
+      ],
+      "shifts": {
+        "2382": 0.08331023659526798,
+        "2600": 0.07590904375050868
+      }
+    },
+    {
+      "name": "uves_clean_null",
+      "sha256": "6d26dd07cbc022d5580a1e47c20eeb41c0e83aa31f7f82aa75b36f83d776913c",
+      "optimizer_success": false,
+      "optimality": 19.710091972657526,
+      "chi2": 1399.0901130580285,
+      "npar": 144,
+      "rank": 142,
+      "oversample": 7,
+      "active_bounds": [
+        "zero_adjustment_2374",
+        "zero_adjustment_2600"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_expected_alternative",
+      "sha256": "32b39d2a2317266b5b77a3c9f5e4fb14cedb217c3f4236d1942822f1ca45cf69",
+      "optimizer_success": false,
+      "optimality": 0.05238442543933414,
+      "chi2": 388.5064208045242,
+      "npar": 149,
+      "rank": 148,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "shifts": {
+        "2382": -0.13982839922694654,
+        "2600": -0.13191453272502607
+      }
+    },
+    {
+      "name": "uves_expected_alternative_continued",
+      "sha256": "e955656d4d94adc247f0bda8ec1a1aeae5ba4c97e829e8150c2d1c2b543728c2",
+      "optimizer_success": true,
+      "optimality": 0.04114619692047106,
+      "chi2": 388.1353622700115,
+      "npar": 149,
+      "rank": 149,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "shifts": {
+        "2382": -0.14023113142270963,
+        "2600": -0.13227058295342534
+      }
+    },
+    {
+      "name": "uves_expected_null",
+      "sha256": "d1801548139b23f663e932767f919be0d6487ad2cc536b1b11f0c5a7d1c60dc0",
+      "optimizer_success": false,
+      "optimality": 0.688615282600649,
+      "chi2": 405.42852410688243,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_22",
+        "logb_36",
+        "zero_adjustment_2374"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_expected_null_continued",
+      "sha256": "2481becf6fac109f9643eed08337a140914a7eda3b2cb96dc4a0f54ed8a41e23",
+      "optimizer_success": false,
+      "optimality": 0.3869989456108965,
+      "chi2": 398.1177618787831,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_expected_null_cross",
+      "sha256": "a8d5b7b495cecc800e312e7737281c9998f8138cb232add51c4769c163b752ec",
+      "optimizer_success": false,
+      "optimality": 1.351683096984568,
+      "chi2": 398.3954932578505,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_flex_alternative",
+      "sha256": "0ebbf3cd8ea3530c7618a936c8df6959d4f65a6d44696140ab4d09e2007f946a",
+      "optimizer_success": false,
+      "optimality": 2.400870573722729,
+      "chi2": 445.97248857276895,
+      "npar": 149,
+      "rank": 148,
+      "oversample": 7,
+      "active_bounds": [],
+      "shifts": {
+        "2382": -0.06832718401494366,
+        "2600": -0.06399673761074445
+      }
+    },
+    {
+      "name": "uves_flex_alternative_polished",
+      "sha256": "71c0a0385fac00e926ca2395d395a637fa83ae4c4e3a42da8a3d73bd98356257",
+      "optimizer_success": false,
+      "optimality": 5.736022136563684,
+      "chi2": 442.1872816981399,
+      "npar": 149,
+      "rank": 149,
+      "oversample": 7,
+      "active_bounds": [],
+      "shifts": {
+        "2382": -0.07224551159951852,
+        "2600": -0.06748227418929216
+      }
+    },
+    {
+      "name": "uves_flex_null",
+      "sha256": "311bc187ae02f99034db315c57fd0279d38f6da2463e4aa371ff814521906c10",
+      "optimizer_success": false,
+      "optimality": 6.013362608806552,
+      "chi2": 451.9928918896496,
+      "npar": 147,
+      "rank": 146,
+      "oversample": 7,
+      "active_bounds": [],
+      "shifts": {}
+    },
+    {
+      "name": "uves_flex_null_polished",
+      "sha256": "a3c1d3c728304ca3dccfb1df6be746ba2e9d6d055b972141cbec12fe7ba1b86f",
+      "optimizer_success": false,
+      "optimality": 4.302073873397747,
+      "chi2": 446.2018237351645,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 7,
+      "active_bounds": [],
+      "shifts": {}
+    },
+    {
+      "name": "uves_opacity_alternative",
+      "sha256": "06f97d297ac9320f57a4592185d8dd6c4154e363c103640fd7627bbcf3f1d6b5",
+      "optimizer_success": false,
+      "optimality": 0.15886429357273454,
+      "chi2": 386.56988290981104,
+      "npar": 151,
+      "rank": 151,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "shifts": {
+        "2382": -0.13975123110579352,
+        "2600": -0.1309428669309536
+      }
+    },
+    {
+      "name": "uves_opacity_null",
+      "sha256": "170db5290ed65883822d7e2618be666a4b48b821eb11250e4ff4096870e3dcc4",
+      "optimizer_success": false,
+      "optimality": 1.3217902666356314,
+      "chi2": 396.724228365658,
+      "npar": 149,
+      "rank": 149,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "zero_adjustment_2374"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_refined_alternative",
+      "sha256": "05d47210fc4f29338548b245c73f09baf212afb8192831a20748b6120c7dcd3c",
+      "optimizer_success": true,
+      "optimality": 0.001894662638571249,
+      "chi2": 406.84729243541074,
+      "npar": 149,
+      "rank": 149,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "shifts": {
+        "2382": -0.13922183477799735,
+        "2600": -0.13166044223408094
+      }
+    },
+    {
+      "name": "uves_refined_null",
+      "sha256": "3c05ca58274754630d01e2528b145e0fa15938f4c296da6b906adf8d9236eaa8",
+      "optimizer_success": false,
+      "optimality": 0.4778069595568757,
+      "chi2": 427.11878714129205,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_22",
+        "logb_36"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_refined_null_continued",
+      "sha256": "832b7a076ab3d4640a76851b18b45056d1045eaf450cbc5098d14426819e5890",
+      "optimizer_success": false,
+      "optimality": 0.14851684015510713,
+      "chi2": 417.8407497606547,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "shifts": {}
+    },
+    {
+      "name": "uves_refined_null_cross",
+      "sha256": "879aa4586e537d8bb2869616b788372a40063c4586306b7ba86fb7a4aa2d2922",
+      "optimizer_success": false,
+      "optimality": 0.6808733928096345,
+      "chi2": 418.2560956562324,
+      "npar": 147,
+      "rank": 147,
+      "oversample": 21,
+      "active_bounds": [
+        "v_3",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "shifts": {}
+    }
+  ],
+  "adapter_sha256": "c470ec5abafbb83e7ec6395ac809c49cc7f0669e21e0b5b565a904f4c3217875",
+  "validator_sha256": "2ba4566613b51679c7aa166782af1abc406cd1f3b46727e14c719d141823d548",
+  "inference_status": "Not validated: implementation checks do not establish optimizer convergence or calibrated statistical inference.",
+  "interpretation": "Implementation/array verification only. Optimizer failures, flexible/bound-active LSF, incomplete calibration-provenance reproduction and weakly identified or bound-active gas parameters prevent calibrated physical inference."
+}

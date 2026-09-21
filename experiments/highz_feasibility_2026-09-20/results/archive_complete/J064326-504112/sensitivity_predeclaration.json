@@ -1,0 +1,8 @@
+{
+  "declared_utc": "2026-09-21T03:51:39.114152+00:00",
+  "primary_finished": true,
+  "primary_shift_fits_exist": false,
+  "sensitivity": "Omit weak 1611 due to pre-fit strong-sky proxy; keep selected primary gas architecture, all remaining native pixels, window and nuisance bounds. Run only if primary conventional model passes adequacy. No count reselection.",
+  "script_sha256": "869d42479a6cea15a06ab74c45b2fe5133ecac31a3c85914593d6f21bf514c94",
+  "extra_scope": "Assess retained edge residuals and intrinsic model against nearby features; no adaptive clipping."
+}

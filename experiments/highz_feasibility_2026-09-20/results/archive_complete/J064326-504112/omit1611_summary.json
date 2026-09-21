@@ -1,0 +1,5 @@
+{
+  "target": "J064326-504112",
+  "run": false,
+  "reason": "Primary conventional model did not pass its predeclared conditional adequacy gate; no relative-shift sensitivity is interpreted."
+}

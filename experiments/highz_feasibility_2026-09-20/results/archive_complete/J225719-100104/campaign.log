@@ -1,0 +1,182 @@
+J225719-100104 n6_null_s0_os9 DONE 11298.054265941453 23.835557523083235 True
+J225719-100104 n6_null_s1_os9 50 11298.054530531432
+J225719-100104 n6_null_s1_os9 DONE 11298.054315955844 23.835557628598828 True
+J225719-100104 n6_null_s2_os9 50 10120.390693160647
+J225719-100104 n6_null_s2_os9 DONE 10120.385539868432 21.35102434571399 True
+J225719-100104 n10_null_s0_os9 50 2797.7087711593904
+J225719-100104 n10_null_s1_os9 50 2797.7040985783115
+J225719-100104 n10_null_s2_os9 50 2797.7090046677363
+J225719-100104 n10_null_s1_os9 DONE 2797.7005649380253 6.055628928437284 True
+J225719-100104 n10_null_s0_os9 DONE 2797.7006603506516 6.05562913495812 True
+J225719-100104 n10_null_s2_os9 DONE 2797.700605722381 6.055629016715111 True
+J225719-100104 n14_null_s1_os9 DONE 1707.000688843512 3.7933348640966935 True
+J225719-100104 n14_null_s0_os9 DONE 1707.0007077218556 3.793334906048568 True
+J225719-100104 n14_null_s2_os9 50 1585.071999217828
+J225719-100104 n14_null_s2_os9 DONE 1585.071843916768 3.5223818753705958 True
+J225719-100104 n18_null_s0_os9 DONE 931.1131483214585 2.1258291057567544 True
+J225719-100104 n18_null_s1_os9 DONE 931.1131529262501 2.1258291162699776 True
+J225719-100104 n18_null_s2_os9 50 832.4542160319522
+J225719-100104 n18_null_s2_os9 DONE 829.9337945431109 1.8948260149386094 True
+J225719-100104 n22_null_s0_os9 50 695.6273095682565
+J225719-100104 n22_null_s1_os9 50 692.1785545582773
+J225719-100104 n22_null_s2_os9 50 703.0910115101273
+J225719-100104 n22_null_s1_os9 100 688.7349927175235
+J225719-100104 n22_null_s0_os9 100 690.8948727654317
+J225719-100104 n22_null_s1_os9 DONE 688.7341446061965 1.616746818324405 True
+J225719-100104 n22_null_s2_os9 100 692.5634619675822
+J225719-100104 n22_null_s0_os9 150 688.7441789101733
+J225719-100104 n22_null_s0_os9 DONE 688.7338884094469 1.6167462169235842 True
+J225719-100104 n22_null_s2_os9 150 683.7537712799412
+J225719-100104 n22_null_s2_os9 DONE 683.7528281205724 1.605053587137494 True
+J225719-100104 n22_null_refined_os21 DONE 683.7528177883011 1.6050535628833358 True
+J225719-100104 ordinary model inadequate or optimization incomplete; alternatives not auto-run
+{
+  "target": "J225719-100104",
+  "by_count": [
+    {
+      "ncomp": 6,
+      "name": "n6_null_s2_os9",
+      "chi2": 10120.385539868432,
+      "nominal_ndf": 474,
+      "aicc": 10184.317886591476,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 5335.1383113644815,
+          "chi2_per_pixel": 31.75677566288382
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 453.85006140825044,
+          "chi2_per_pixel": 2.7014884607633953
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 4331.397167095702,
+          "chi2_per_pixel": 25.78212599461727
+        }
+      ]
+    },
+    {
+      "ncomp": 10,
+      "name": "n10_null_s1_os9",
+      "chi2": 2797.7005649380253,
+      "nominal_ndf": 462,
+      "aicc": 2889.535705935856,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 1243.8659858796864,
+          "chi2_per_pixel": 7.4039642016648
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 324.71333997638226,
+          "chi2_per_pixel": 1.9328174998594183
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 1229.121239081957,
+          "chi2_per_pixel": 7.316197851678315
+        }
+      ]
+    },
+    {
+      "ncomp": 14,
+      "name": "n14_null_s2_os9",
+      "chi2": 1585.071843916768,
+      "nominal_ndf": 450,
+      "aicc": 1706.3012425804652,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 697.332998044828,
+          "chi2_per_pixel": 4.150791655028738
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 190.995610848496,
+          "chi2_per_pixel": 1.1368786360029524
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 696.7432350234441,
+          "chi2_per_pixel": 4.147281160853834
+        }
+      ]
+    },
+    {
+      "ncomp": 18,
+      "name": "n18_null_s2_os9",
+      "chi2": 829.9337945431109,
+      "nominal_ndf": 438,
+      "aicc": 982.1717808131339,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 335.53408218915484,
+          "chi2_per_pixel": 1.9972266796973503
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 168.5636090079476,
+          "chi2_per_pixel": 1.0033548155234977
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 325.83610334600866,
+          "chi2_per_pixel": 1.9395006151548135
+        }
+      ]
+    },
+    {
+      "ncomp": 22,
+      "name": "n22_null_s2_os9",
+      "chi2": 683.7528281205724,
+      "nominal_ndf": 426,
+      "aicc": 868.750475179396,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 250.1078319453518,
+          "chi2_per_pixel": 1.4887370949128083
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 165.27909546189858,
+          "chi2_per_pixel": 0.9838041396541582
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 268.3659007133219,
+          "chi2_per_pixel": 1.597416075674535
+        }
+      ]
+    }
+  ],
+  "selected_null": "n22_null_refined_os21",
+  "ncomp": 22,
+  "selection_reason": "Minimum null AICc among saved successful stops. Also retain best incomplete endpoint. No component selection by displacement or free-shift improvement.",
+  "best_incomplete_endpoint": null,
+  "passes_conditional_adequacy_gate": false
+}

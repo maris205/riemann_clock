@@ -1,0 +1,114 @@
+{
+  "created_utc": "2026-09-20T17:26:57.116334+00:00",
+  "strict_screen_sha256": "6b85dc11091bb0d84d0f04f5c017dbf45a9a725dc201e1cb5e7fb9fc9aa0fd00",
+  "sources": [
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_eligible": true,
+      "n_strong_eligible": 4,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "broad_water_warning_lines": [
+        "2600"
+      ],
+      "rank_score": 52.0,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/71166ef6-25b0-4342-b200-c2559921fd4b/download/j232128-105122finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J232128-105122_Final_Spectrum.tar.gz",
+      "archive_bytes": 4059085,
+      "archive_sha256": "bfa1adf08b73d279ce6a09a4c7c414e1f681c9cb6ba91e360fb4eb9abb7a9476",
+      "fits_sha256": "3ed3029bad660c572e22b8f83b92e07ed8a350c2af7d5f176cf29672ab63e2ad",
+      "access_date_utc": "2026-09-20T17:26:49.571066+00:00",
+      "pixels": 96603,
+      "valid_pixels": 93948,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 23400.0071,
+      "observation_date_range": [
+        "2003-10-31",
+        "2004-09-19"
+      ],
+      "wavelength_AA_range": [
+        3044.8105144163023,
+        6814.204155935494
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2586",
+        "2600"
+      ],
+      "rank_score": 46.0,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/f4aa788a-b4f2-45a7-a4fb-b281e16285d3/download/j225719-100104finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J225719-100104_Final_Spectrum.tar.gz",
+      "archive_bytes": 5922560,
+      "archive_sha256": "93fb2cac5cd888d209c7380b70d2c71e58700b0f0c3273183b243bfe3f6c6470",
+      "fits_sha256": "2b28311e10cfc4623f909fe28c7a5495f78455975465c03958071f056fc3825b",
+      "access_date_utc": "2026-09-20T17:26:49.676682+00:00",
+      "pixels": 136012,
+      "valid_pixels": 131793,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 26400.0074,
+      "observation_date_range": [
+        "2008-06-28",
+        "2008-06-30"
+      ],
+      "wavelength_AA_range": [
+        3045.4160868937374,
+        9467.28775671679
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_eligible": true,
+      "n_strong_eligible": 3,
+      "strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "broad_water_warning_lines": [
+        "2249",
+        "2260",
+        "2344",
+        "2586",
+        "2600"
+      ],
+      "rank_score": 36.0,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/af9bfdf6-1e2c-495b-b1ff-30b52ed38587/download/j053007-250329finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J053007-250329_Final_Spectrum.tar.gz",
+      "archive_bytes": 7497682,
+      "archive_sha256": "18dfb96a040c2e3b891eaad8d82ebaa1beb7e0cca6308d568454ac264dc49c0c",
+      "fits_sha256": "29b25b07bef18fd78978076d38be798c8fca042984671ced5a7a33aa880c36ff",
+      "access_date_utc": "2026-09-20T17:26:57.086960+00:00",
+      "pixels": 184675,
+      "valid_pixels": 162513,
+      "native_dispersion_km_s": 2.0,
+      "n_exposures": 31,
+      "exposure_s": 108539.1313,
+      "observation_date_range": [
+        "2001-02-03",
+        "2009-02-26"
+      ],
+      "wavelength_AA_range": [
+        3042.0348901168427,
+        10428.42100746285
+      ]
+    }
+  ]
+}

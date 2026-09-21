@@ -1,0 +1,1798 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-20T13:54:17.571825+00:00",
+  "n_checks": 171,
+  "source_code_sha256": "9ad4120aa7a5055f2fa6c9413708c8c8a34b839363c566e720480dde8f82f515",
+  "source_results_sha256": "6cee0542125c5daecd79710d462d4a1fe68c9011fc071277bc54cf44d956d47f",
+  "method": "Independent data reading, interpolation matrix and delta-method derivatives, analytic-gradient Hessians, differential evolution with independent RNG seed 901727; no import of analysis program",
+  "checks": [
+    {
+      "check": "input_sha256 data/processed/J051707-441055_FeII_2374.4601_window.npz",
+      "pass": true,
+      "detail": "a7904b037a54e69f104cbd129034fb364921681930252f49bc7a380d8dc99801"
+    },
+    {
+      "check": "input_sha256 data/processed/J051707-441055_FeII_2586.6493_window.npz",
+      "pass": true,
+      "detail": "9563ce81f7732098196a52e1e73a48598fbae70dabe40f39f0cee90c82532970"
+    },
+    {
+      "check": "input_sha256 data/processed/J051707-441055_FeII_2600.1725_window.npz",
+      "pass": true,
+      "detail": "d45e0613d3bf41262d817cd4f1c0c1fcfc44e7b52435ce79457a87e82c670c6a"
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -448.32680595133263,
+        "independent_residual_statistic_per_nominal_dof": 6.079785029915214,
+        "N": 103
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.0328790734103208e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4307316177036955
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4127184895059628,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 3.0944691253864676e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.011435702149705027,
+        "relative_difference": 1.671644549006146e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.3234284779173322e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.016669609021263215,
+          2.3199253145682714,
+          1.0106072852846848,
+          -0.01288860627964656
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 2992.862097744972,
+        "independent_residual_statistic_per_nominal_dof": 40.64787775457834,
+        "N": 103
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.710505431213761e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.42066303188736603
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.1244200570999503,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.2402967541902399e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.021237838372268347,
+        "relative_difference": 6.627584621110572e-07
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -3.806235326919705e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.3049686995001015,
+          1.5698432698610578,
+          0.9425476792214954,
+          0.003234301472724775
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -513.9010928601684,
+        "independent_residual_statistic_per_nominal_dof": 5.2629110468726115,
+        "N": 103
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.710505431213761e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.43073145480872144
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4127277096878572,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 3.0451641208628644e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.012268565898681182,
+        "relative_difference": 1.6843218364481771e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -8.154756869771518e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.016660135497363657,
+          2.319301769980756,
+          1.0105131070551074,
+          -0.012944733274013387
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 2445.2716818767262,
+        "independent_residual_statistic_per_nominal_dof": 34.95477129828237,
+        "N": 103
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.710505431213761e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.42048035272544876
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.12036492380857311,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.4826140315449265e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.0229710765815787,
+        "relative_difference": 6.816279873866904e-07
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.0699750419007614e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.3090211322935769,
+          1.5696793162752398,
+          0.9425067582607328,
+          0.0032940966564368843
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -133.4676934083865,
+        "independent_residual_statistic_per_nominal_dof": 8.204392008031588,
+        "N": 43
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.3552527156068805e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.43083204173202716
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4070473225445266,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.2242652164550236e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.012970719945447233,
+        "relative_difference": 1.5496633304357132e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -2.303323753949371e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.02235297574184849,
+          2.241981704496189,
+          0.998585101254917,
+          -0.051263376386055694
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 419.8016653880087,
+        "independent_residual_statistic_per_nominal_dof": 22.46432756682638,
+        "N": 43
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 6.776263578034403e-21
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.43024476178494064
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4402885441730007,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 8.97304452962544e-12
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -5.4847646424605045e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.010887851270195726,
+          1.3912641317180205,
+          0.9000000000022266,
+          -0.08971357667197108
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -169.8628181881957,
+        "independent_residual_statistic_per_nominal_dof": 7.112262071383556,
+        "N": 43
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.3552527156068805e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.43083534393739414
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.40686041110474314,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.3018364991855833e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.013915152494917427,
+        "relative_difference": 1.5600406496618646e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -8.283507213491248e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.022540779208174183,
+          2.2417098060488247,
+          0.9985224118053236,
+          -0.05136915020757474
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 308.4808089194624,
+        "independent_residual_statistic_per_nominal_dof": 19.45156974069162,
+        "N": 43
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 6.776263578034403e-21
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.43024941431707137
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4400252015329915,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.070965538474411e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -5.669562597176991e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.010623511903268568,
+          1.3913135021390328,
+          0.9000000000002264,
+          -0.08964265296324572
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -387.8285731157584,
+        "independent_residual_statistic_per_nominal_dof": 1.0234637645131248,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.3552527156068805e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5567507524832669
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.4625042173359972,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.8925084549769053e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.025496481785143747,
+        "relative_difference": 2.1969072835359427e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.6109424905152991e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.033024289991089736,
+          2.4066779634360844,
+          0.993697852208486,
+          0.027431407533409023
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -89.11417201741811,
+        "independent_residual_statistic_per_nominal_dof": 8.78380307499447,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.0328790734103208e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5568004656237366
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.2884770915635002,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.2212453270876722e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -6.474607516793185e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.14100308406156176,
+          1.6767368346423706,
+          0.9000000000002834,
+          0.08286794308718157
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -386.8897708818955,
+        "independent_residual_statistic_per_nominal_dof": 0.8803681676866699,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.710505431213761e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5567503896889029
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.46377422481935326,
+        "boundary": false,
+        "sigma_allowed": true
+      }
+    },
+    {
+      "check": "template response derivative 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.9232394282985297e-11
+      }
+    },
+    {
+      "check": "independent analytic-gradient curvature 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "sigma_shift_kms": 0.02738869204507387,
+        "relative_difference": 2.226192754140044e-06
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -4.588571300701005e-09,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.034292737001964266,
+          2.4065033696588074,
+          0.9936793573925176,
+          0.027370402314656993
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -130.5022947170166,
+        "independent_residual_statistic_per_nominal_dof": 7.527046494413722,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.3552527156068805e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5567998561574411
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.29061060529189575,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 9.277467682977658e-12
+      }
+    },
+    {
+      "check": "independent broad optimization check 2586/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": 6.805294106015936e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          0.13886922869768684,
+          1.6766899375702349,
+          0.9000000000000103,
+          0.08280536904070031
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 2716.790572563279,
+        "independent_residual_statistic_per_nominal_dof": 37.36929624749259,
+        "N": 104
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.168404344971009e-19
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4150579855306841
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 6.306066779870889e-11,
+        "boundary": false,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.316712155447931e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/whole/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.1836164048872888e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.1805838308236496,
+          6.418567785389762,
+          0.9164336822359029,
+          0.008922204258250077
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 41265.30297284425,
+        "independent_residual_statistic_per_nominal_dof": 422.2038577803898,
+        "N": 104
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 5.421010862427522e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.41505717422069766
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 3.277378368693462e-11,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.2663648735488096e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/whole/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -4.050598363392055e-07,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18056582111941621,
+          2.381889989317606,
+          0.9000000000202615,
+          -0.07425685844178892
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 2410.4399604287873,
+        "independent_residual_statistic_per_nominal_dof": 34.172412400904186,
+        "N": 104
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.168404344971009e-19
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4150579502581773
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 1.5141665699047735e-11,
+        "boundary": false,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 2.248986774588957e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/whole/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.1563770385691896e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18058304782142354,
+          6.375022412495817,
+          0.9142102569311878,
+          0.006932542341459624
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 35300.70512641933,
+        "independent_residual_statistic_per_nominal_dof": 362.39718086548913,
+        "N": 104
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 5.421010862427522e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4150571742196306
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 9.087841590371681e-12,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.7998047496803338e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/whole/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": 7.838825695216656e-07,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18056582111930225,
+          2.385230862692087,
+          0.9000000000028341,
+          -0.07320026760355562
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 1582.2415312140586,
+        "independent_residual_statistic_per_nominal_dof": 53.59514197931189,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 4.0657581468206416e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.41505658083266744
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 1.6697754290362354e-13,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.2653722514244237e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/central/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.7271759134018794e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18054937774575963,
+          5.920109561144125,
+          0.9000000000016839,
+          -0.14999999997210237
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 25749.1746140523,
+        "independent_residual_statistic_per_nominal_dof": 688.0412215841901,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 2.710505431213761e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.41505657460871315
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 2.402246179755707e-10,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.98614458213342e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/central/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": 1.737498678267002e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18055251071899947,
+          2.2405886245194218,
+          0.9000000000082555,
+          -0.14999999999314426
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 1416.8124511841681,
+        "independent_residual_statistic_per_nominal_dof": 49.10919056978906,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 5.421010862427522e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4150566084788496
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 6.672937757912223e-10,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.248376513274252e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/central/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": 1.1386191545170732e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18054781328069375,
+          5.888767347949806,
+          0.9000000000050539,
+          -0.1499999999964108
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 22099.46755588206,
+        "independent_residual_statistic_per_nominal_dof": 591.8273891206728,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 4.0657581468206416e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.4150565745987966
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 2.0094370611900558e-11,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.226929668973753e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/central/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.4615579857490957e-07,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.1805525108217884,
+          2.2427547109401877,
+          0.9000000000072472,
+          -0.1499999999489129
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 20.41152820419191,
+        "independent_residual_statistic_per_nominal_dof": 11.868521558325757,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.0842021724855044e-19
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5567785738295875
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.36514346659893704,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 3.226224620789253e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/red/statistical/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -1.269455651708995e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.5457520258033052,
+          7.200036842538669,
+          0.9000000000000664,
+          0.0802010379314866
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 10648.94152982784,
+        "independent_residual_statistic_per_nominal_dof": 290.2889444496246,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 5.421010862427522e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5565114352208699
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 1.2753105238516582e-09,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.830757767606883e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/red/statistical/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -7.115522748790681e-08,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.18059322848672332,
+          2.4748013017839714,
+          0.9000000000081985,
+          -0.09300949338468022
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "independent_deviance": -15.370941825405264,
+        "independent_residual_statistic_per_nominal_dof": 10.788468181252838,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 1.0842021724855044e-19
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.556778141488139
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 0.3666569324339122,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 3.188799446718349e-09
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/red/fluctuation/power",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -4.105356055106313e-10,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.5472656248043547,
+          7.177165709524743,
+          0.9000000000002762,
+          0.07730489342652597
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "recomputed objective / residual statistic 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "independent_deviance": 9038.698529653495,
+        "independent_residual_statistic_per_nominal_dof": 247.7364491852383,
+        "N": 42
+      }
+    },
+    {
+      "check": "matrix propagation diagonal 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_absolute_variance_difference": 5.421010862427522e-20
+      }
+    },
+    {
+      "check": "reference pixels valid and positive 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "minimum_template_flux": 0.5565114352210176
+      }
+    },
+    {
+      "check": "formal uncertainty guard 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "distance_to_knot_kms": 7.581064664918813e-10,
+        "boundary": true,
+        "sigma_allowed": false
+      }
+    },
+    {
+      "check": "template response derivative 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "max_derivative_difference": 1.7349677250422246e-11
+      }
+    },
+    {
+      "check": "independent broad optimization check 2600/red/fluctuation/affine",
+      "pass": true,
+      "detail": {
+        "original_deviance_minus_independent_best": -2.1596861188299954e-07,
+        "independent_search_success": true,
+        "independent_parameters": [
+          -0.1805932305220738,
+          2.4798172210939247,
+          0.9000000000058315,
+          -0.09189594228591307
+        ],
+        "note": "Different random seed and implementation; no certificate of global optimality."
+      }
+    },
+    {
+      "check": "source files unchanged during review",
+      "pass": true,
+      "detail": {
+        "checked_at_end": true
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "CNR": 127.88919691428327,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "CNR": 229.67428455449547,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "CNR": 229.42170702439773,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "CNR": 238.93032359821132,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "CNR": 248.37856438910308,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J051707-441055/FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "CNR": 236.2177186131343,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_1608.4509",
+      "pass": true,
+      "detail": {
+        "CNR": 86.10365453166912,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.0
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_2344.2128",
+      "pass": true,
+      "detail": {
+        "CNR": 42.55685709515169,
+        "factor_to_30": 1.0,
+        "factor_to_50": 1.3803871718621255
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_2374.4601",
+      "pass": true,
+      "detail": {
+        "CNR": 24.891994667635725,
+        "factor_to_30": 1.4525233107879751,
+        "factor_to_50": 4.034786974411042
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_2382.7642",
+      "pass": true,
+      "detail": {
+        "CNR": 21.421598946431317,
+        "factor_to_30": 1.9612761222074662,
+        "factor_to_50": 5.447989228354073
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_2586.6493",
+      "pass": true,
+      "detail": {
+        "CNR": 1.3118214999881852,
+        "factor_to_30": 522.9895612354283,
+        "factor_to_50": 1452.748781209523
+      }
+    },
+    {
+      "check": "conditional exposure scaling J034943-381030/FeII_2600.1725",
+      "pass": true,
+      "detail": {
+        "CNR": 2.063353468057166,
+        "factor_to_30": 211.39525987987315,
+        "factor_to_50": 587.2090552218699
+      }
+    },
+    {
+      "check": "redshift leverage from independently reviewed age law",
+      "pass": true,
+      "detail": {
+        "delta_G2": 0.4945759365670471,
+        "B100_mode_difference_mps": 49.45759365670471,
+        "B30_mode_difference_mps": 14.837278097011414
+      }
+    },
+    {
+      "check": "explicit rank certificate and exact signal dependence",
+      "pass": true,
+      "detail": {
+        "nonzero_4by4_nuisance_minor": 0.743579936143684,
+        "norm_signal_minus_exact_nuisance_combination": 0.0,
+        "full_rank": 4,
+        "columns": 5
+      }
+    },
+    {
+      "check": "analytic null vector",
+      "pass": true,
+      "detail": {
+        "null_vector": [
+          0.0,
+          0.7151014504150619,
+          0.0,
+          -0.5104875228175855,
+          1.0
+        ],
+        "full_times_null_norm": 0.0
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": "2586/whole/statistical/power",
+      "shift_kms": 0.01666928517700679,
+      "sigma_shift_kms_reported": 0.011435721266166146,
+      "independent_sigma_shift_kms": 0.011435702149705027,
+      "chi2_per_nominal_dof": 6.079785029915214,
+      "interpolation_only_max_abs_total_correlation": 0.31611857841308083,
+      "interpolation_only_median_adjacent_total_correlation": 0.2860997294441569,
+      "independent_optimizer_improvement_deviance": -1.3234284779173322e-09
+    },
+    {
+      "case": "2586/whole/statistical/affine",
+      "shift_kms": 0.3049677175830195,
+      "sigma_shift_kms_reported": 0.021237824296720578,
+      "independent_sigma_shift_kms": 0.021237838372268347,
+      "chi2_per_nominal_dof": 40.64787775457834,
+      "interpolation_only_max_abs_total_correlation": 0.09263576060295675,
+      "interpolation_only_median_adjacent_total_correlation": 0.07991314455422743,
+      "independent_optimizer_improvement_deviance": -3.806235326919705e-09
+    },
+    {
+      "case": "2586/whole/fluctuation/power",
+      "shift_kms": 0.01666006499511287,
+      "sigma_shift_kms_reported": 0.012268586562929432,
+      "independent_sigma_shift_kms": 0.012268565898681182,
+      "chi2_per_nominal_dof": 5.2629110468726115,
+      "interpolation_only_max_abs_total_correlation": 0.31657264269036633,
+      "interpolation_only_median_adjacent_total_correlation": 0.28929953032364686,
+      "independent_optimizer_improvement_deviance": -8.154756869771518e-10
+    },
+    {
+      "case": "2586/whole/fluctuation/affine",
+      "shift_kms": 0.30902285087439624,
+      "sigma_shift_kms_reported": 0.022971060923860673,
+      "independent_sigma_shift_kms": 0.0229710765815787,
+      "chi2_per_nominal_dof": 34.95477129828237,
+      "interpolation_only_max_abs_total_correlation": 0.09008815408848858,
+      "interpolation_only_median_adjacent_total_correlation": 0.07801431973374168,
+      "independent_optimizer_improvement_deviance": -1.0699750419007614e-08
+    },
+    {
+      "case": "2586/central/statistical/power",
+      "shift_kms": 0.022353486381488607,
+      "sigma_shift_kms_reported": 0.012970740045727451,
+      "independent_sigma_shift_kms": 0.012970719945447233,
+      "chi2_per_nominal_dof": 8.204392008031588,
+      "interpolation_only_max_abs_total_correlation": 0.28822162799279466,
+      "interpolation_only_median_adjacent_total_correlation": 0.2642813865263193,
+      "independent_optimizer_improvement_deviance": -2.303323753949371e-09
+    },
+    {
+      "case": "2586/central/statistical/affine",
+      "shift_kms": -0.010887735246986151,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 22.46432756682638,
+      "interpolation_only_max_abs_total_correlation": 0.30652178678788944,
+      "interpolation_only_median_adjacent_total_correlation": 0.26368736349766686,
+      "independent_optimizer_improvement_deviance": -5.4847646424605045e-09
+    },
+    {
+      "case": "2586/central/fluctuation/power",
+      "shift_kms": 0.02254039782127195,
+      "sigma_shift_kms_reported": 0.01391517420315483,
+      "independent_sigma_shift_kms": 0.013915152494917427,
+      "chi2_per_nominal_dof": 7.112262071383556,
+      "interpolation_only_max_abs_total_correlation": 0.29105826491241715,
+      "interpolation_only_median_adjacent_total_correlation": 0.2673788516246763,
+      "independent_optimizer_improvement_deviance": -8.283507213491248e-10
+    },
+    {
+      "case": "2586/central/fluctuation/affine",
+      "shift_kms": -0.010624392606976524,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 19.45156974069162,
+      "interpolation_only_max_abs_total_correlation": 0.30982914016697155,
+      "interpolation_only_median_adjacent_total_correlation": 0.2672513931998858,
+      "independent_optimizer_improvement_deviance": -5.669562597176991e-10
+    },
+    {
+      "case": "2586/red/statistical/power",
+      "shift_kms": -0.03302333400824507,
+      "sigma_shift_kms_reported": 0.025496537798673342,
+      "independent_sigma_shift_kms": 0.025496481785143747,
+      "chi2_per_nominal_dof": 1.0234637645131248,
+      "interpolation_only_max_abs_total_correlation": 0.35058033533483796,
+      "interpolation_only_median_adjacent_total_correlation": 0.3158449817988904,
+      "independent_optimizer_improvement_deviance": -1.6109424905152991e-09
+    },
+    {
+      "case": "2586/red/statistical/affine",
+      "shift_kms": 0.141003791764259,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 8.78380307499447,
+      "interpolation_only_max_abs_total_correlation": 0.22374743793821278,
+      "interpolation_only_median_adjacent_total_correlation": 0.19702333759468543,
+      "independent_optimizer_improvement_deviance": -6.474607516793185e-10
+    },
+    {
+      "case": "2586/red/fluctuation/power",
+      "shift_kms": -0.03429334149160073,
+      "sigma_shift_kms_reported": 0.027388753017717385,
+      "independent_sigma_shift_kms": 0.02738869204507387,
+      "chi2_per_nominal_dof": 0.8803681676866699,
+      "interpolation_only_max_abs_total_correlation": 0.35433997050840765,
+      "interpolation_only_median_adjacent_total_correlation": 0.3198593669682928,
+      "independent_optimizer_improvement_deviance": -4.588571300701005e-09
+    },
+    {
+      "case": "2586/red/fluctuation/affine",
+      "shift_kms": 0.13887027803585808,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 7.527046494413722,
+      "interpolation_only_max_abs_total_correlation": 0.2272893610333909,
+      "interpolation_only_median_adjacent_total_correlation": 0.20077004390598033,
+      "independent_optimizer_improvement_deviance": 6.805294106015936e-10
+    },
+    {
+      "case": "2600/whole/statistical/power",
+      "shift_kms": -0.18058383070576628,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 37.36929624749259,
+      "interpolation_only_max_abs_total_correlation": 3.444071257777008e-05,
+      "interpolation_only_median_adjacent_total_correlation": 1.0310617365080994e-05,
+      "independent_optimizer_improvement_deviance": -1.1836164048872888e-08
+    },
+    {
+      "case": "2600/whole/statistical/affine",
+      "shift_kms": -0.18056582115228836,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 422.2038577803898,
+      "interpolation_only_max_abs_total_correlation": 3.5493424073417476e-05,
+      "interpolation_only_median_adjacent_total_correlation": 1.512150005321841e-05,
+      "independent_optimizer_improvement_deviance": -4.050598363392055e-07
+    },
+    {
+      "case": "2600/whole/fluctuation/power",
+      "shift_kms": -0.18058304772255615,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 34.172412400904186,
+      "interpolation_only_max_abs_total_correlation": 3.398825120167464e-05,
+      "interpolation_only_median_adjacent_total_correlation": 1.0370307198843199e-05,
+      "independent_optimizer_improvement_deviance": -1.1563770385691896e-08
+    },
+    {
+      "case": "2600/whole/fluctuation/affine",
+      "shift_kms": -0.18056582112860228,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 362.39718086548913,
+      "interpolation_only_max_abs_total_correlation": 3.615133743960459e-05,
+      "interpolation_only_median_adjacent_total_correlation": 1.5299240676674486e-05,
+      "independent_optimizer_improvement_deviance": 7.838825695216656e-07
+    },
+    {
+      "case": "2600/central/statistical/power",
+      "shift_kms": -0.18054937869755036,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 53.59514197931189,
+      "interpolation_only_max_abs_total_correlation": 1.875705408459381e-05,
+      "interpolation_only_median_adjacent_total_correlation": 4.050573113183631e-06,
+      "independent_optimizer_improvement_deviance": -1.7271759134018794e-08
+    },
+    {
+      "case": "2600/central/statistical/affine",
+      "shift_kms": -0.1805525108956908,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 688.0412215841901,
+      "interpolation_only_max_abs_total_correlation": 1.7125398963066573e-05,
+      "interpolation_only_median_adjacent_total_correlation": 6.120266455488753e-06,
+      "independent_optimizer_improvement_deviance": 1.737498678267002e-08
+    },
+    {
+      "case": "2600/central/fluctuation/power",
+      "shift_kms": -0.18054781386824886,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 49.10919056978906,
+      "interpolation_only_max_abs_total_correlation": 2.0095074311804384e-05,
+      "interpolation_only_median_adjacent_total_correlation": 5.0003388039104025e-06,
+      "independent_optimizer_improvement_deviance": 1.1386191545170732e-08
+    },
+    {
+      "case": "2600/central/fluctuation/affine",
+      "shift_kms": -0.18055251067556058,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 591.8273891206728,
+      "interpolation_only_max_abs_total_correlation": 1.7247301417562743e-05,
+      "interpolation_only_median_adjacent_total_correlation": 6.196544752812855e-06,
+      "independent_optimizer_improvement_deviance": -1.4615579857490957e-07
+    },
+    {
+      "case": "2600/red/statistical/power",
+      "shift_kms": -0.5457523574258507,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 11.868521558325757,
+      "interpolation_only_max_abs_total_correlation": 0.33950852488992056,
+      "interpolation_only_median_adjacent_total_correlation": 0.30278347996113064,
+      "independent_optimizer_improvement_deviance": -1.269455651708995e-10
+    },
+    {
+      "case": "2600/red/statistical/affine",
+      "shift_kms": -0.18059322914987386,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 290.2889444496246,
+      "interpolation_only_max_abs_total_correlation": 1.2029399777360331e-05,
+      "interpolation_only_median_adjacent_total_correlation": 6.089704370699388e-06,
+      "independent_optimizer_improvement_deviance": -7.115522748790681e-08
+    },
+    {
+      "case": "2600/red/fluctuation/power",
+      "shift_kms": -0.5472658232608248,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 10.788468181252838,
+      "interpolation_only_max_abs_total_correlation": 0.3427521915908166,
+      "interpolation_only_median_adjacent_total_correlation": 0.30850135581779514,
+      "independent_optimizer_improvement_deviance": -4.105356055106313e-10
+    },
+    {
+      "case": "2600/red/fluctuation/affine",
+      "shift_kms": -0.18059322863267258,
+      "sigma_shift_kms_reported": null,
+      "independent_sigma_shift_kms": null,
+      "chi2_per_nominal_dof": 247.7364491852383,
+      "interpolation_only_max_abs_total_correlation": 1.2115846846826108e-05,
+      "interpolation_only_median_adjacent_total_correlation": 6.152738985136607e-06,
+      "independent_optimizer_improvement_deviance": -2.1596861188299954e-07
+    }
+  ],
+  "limitations": [
+    "The sign is correct: m(v)=T(v\u2212\u03b4) places a template feature at v_feature+\u03b4, so \u03b4>0 points towards larger/redder velocity.",
+    "The interpolation variance and transformed-template derivative are correct to first order in template noise under independent input pixels. This is not an exact marginal likelihood for a latent absorption profile.",
+    "The objective includes the parameter-dependent log variance term. Its Hessian is a minus-twice-log-likelihood Hessian, so the local covariance convention is 2 H\u207b\u00b9.",
+    "Linear interpolation creates cross-pixel covariance even for independent template inputs. The adopted objective retains only its diagonal. For whole 2586 / fluctuation / power, the omitted adjacent correlations have median about 0.289 and maximum about 0.317 after adding target noise.",
+    "Convolved-flux powers do not commute with line-spread-function convolution. The published 2586 blend, 2600 saturation, continuum choices and fit region can move registration parameters without physical frequency drift.",
+    "The primary whole 2586 residual statistic per nominal degree of freedom is about 5.263, while the selected red subregion is about 0.880. The latter was selected after inspecting the data and is neither independent confirmation nor a cosmological test.",
+    "The interpolation-knot, boundary and optimizer guards correctly withhold unstable curvature errors. These guards do not repair model inadequacy or make retained local formal errors calibrated confidence intervals.",
+    "The residual statistics use nominal degrees of freedom. Their ratios are diagnostics, not calibrated goodness-of-fit p values, because correlations, noisy-template effects and model discrepancies remain.",
+    "Laboratory/calibration covariance, transition-dependent instrumental profiles and the extended absorber structure are omitted. No reported registration parameter is an alpha, cosmic-aging or Riemann-cutoff estimate."
+  ],
+  "resolved_issues": [
+    "Initially local minima were found in the 2600 red power fit and four central/red affine fits. The final source performs two broader independent-population searches for all 24 cases. Final stored minima passed this review with a third seed.",
+    "Spuriously tiny interpolation-knot Hessian errors in the initial version were corrected by withholding errors at knots or bounds or optimizer failure."
+  ],
+  "data_informed_design_review": {
+    "status": "PASS",
+    "n_checks": 15,
+    "source_code_sha256": "4b3cc70d2236e3250c7dd94d197fab267d632c21eadd6f22614a88fdc620b391",
+    "source_results_sha256": "81990b976b395e95cd79c4ed32e67911cc14ffb94704c823504ac0c4dfea46fa",
+    "rank_proof": "Four nuisance columns have a nonzero 4x4 minor. The signal exactly equals G_low times the K column plus (G_high-G_low) K_1608 times the high-z redshift column. Therefore full rank is 4 for 5 columns.",
+    "exposure_interpretation": "max(1,(target_CNR/current_CNR)^2) is a conditional multiplicative photon-noise time factor for a fixed setup, not extra hours, a measured time requirement, or a remedy for tellurics, blends or systematics."
+  }
+}

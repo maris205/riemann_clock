@@ -1,0 +1,15 @@
+{
+  "fit": "n16_null_refined_os21",
+  "sky_proxy_definition": "Archived approximate centers 5891,5897 \u00c5 \u00b11 \u00c5 with \u00b130 km/s padding; no exposure-specific sky diagnosis.",
+  "flagged_pixels": 45,
+  "flagged_chi2": 84.80740077511066,
+  "unflagged_pixels": 64,
+  "unflagged_chi2": 139.56709085688937,
+  "largest_absolute_residual": {
+    "wavelength_AA": 5893.306833565245,
+    "velocity_km_s": -105.55274471986456,
+    "standardized_residual": 5.016504629649056,
+    "inside_sky_proxy": false
+  },
+  "interpretation": "Important residuals occur outside proxy intervals; cannot attribute failed weak-line adequacy to the sky warning alone. No pixels removed."
+}

@@ -1,0 +1,78 @@
+{
+  "fetched_utc": "2026-09-20T14:48:40.876791+00:00",
+  "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_r.f18",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/fit_r.f18",
+      "bytes": 352330,
+      "sha256": "9e9aa79221c5340847fef231006d164a78426023f55f0dad53d9c74be85565b6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_r_iso.f13",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/fit_r_iso.f13",
+      "bytes": 19964,
+      "sha256": "139b4b0ead5bdd19bc06da2b2b9f93b927c264427c424dbacb6aba5d3e4511a5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_r_iso.f18",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/fit_r_iso.f18",
+      "bytes": 241321,
+      "sha256": "b3bb6f655b6cfd18978617312ec62908ce212b57c150bed10da196212a8fd2df"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_c_iso.f13",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/fit_c_iso.f13",
+      "bytes": 9215,
+      "sha256": "10baddad7472b8a2c4f731f96022efc6d5d7f73a72b613611c7bb0c0196d9517"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_l_iso.f13",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/fit_l_iso.f13",
+      "bytes": 9931,
+      "sha256": "751c14e3b1482b3c994d739d921345b95906abb6e0d695984d548d966d9577f6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/MM_VPFIT_2013-11-10.dat",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/MM_VPFIT_2013-11-10.dat",
+      "bytes": 79471,
+      "sha256": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/MM_VPFIT_2013-11-10_noiso.dat",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/MM_VPFIT_2013-11-10_noiso.dat",
+      "bytes": 67165,
+      "sha256": "28c6bc93b1bfa1ab58b06f534d32489de2cc8a935a3f9f74396d15a6f0c18390"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/vp_setup.dat",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/vp_setup.dat",
+      "bytes": 202,
+      "sha256": "9143e48cb4ba2f44240c5ff23ce123bc886f9fd1eb651a78c545bc03a941abf3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Final_spectrum/atmomask.dat",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/atmomask.dat",
+      "bytes": 702,
+      "sha256": "5f63a610e0c7c66dbf97a19f24e27de312eead58dd6dee61d3d96126e62fc6cb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Final_spectrum/UVES_popler.command",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/UVES_popler.command",
+      "bytes": 448,
+      "sha256": "c101a6d0fc72536d085e1b7f041ef278f3b1d0ca21d871211169a57e25776e98"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/LICENSE.txt",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/LICENSE.txt",
+      "bytes": 18650,
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+    },
+    {
+      "url": "https://people.ast.cam.ac.uk/~rfc/vpfit12.1.pdf",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/vpfit12.1.pdf",
+      "bytes": 614799,
+      "sha256": "d20fdb3105dd56f0c6b9a14d98acb688499314486d7d6fe181ecfc663a7f8ad7"
+    }
+  ]
+}

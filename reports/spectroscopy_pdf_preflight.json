@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "riemann_clock/paper_spectroscopy/feii_relative_frequencies.pdf",
+  "sha256": "43c56476f3469df44deca214b7b42c60d53530c573858797b0af427c6eb4068d",
+  "declared_page_count": 20,
+  "enumerated_page_count": 20,
+  "reader_page_count": 20,
+  "warnings": [],
+  "generated_at": "2026-09-21T05:16:41.378048+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

@@ -1,0 +1,6023 @@
+{
+  "purpose": "Record explicit archive processing settings, not calibrate or certify wavelength scales",
+  "note": "VSHT records refer to input spectral records/arms, not necessarily distinct science exposures. First and second values encode shift and slope; exact units and implementation documented in prior UVES_popler source audit. Zero values do not prove all calibration choices absent; nonzero values do not prove residual distortions eliminated.",
+  "n_targets": 32,
+  "n_with_nonzero_shift_or_slope": 0,
+  "targets": [
+    {
+      "target": "J000815-095854",
+      "file": "data/raw/archive_expansion/J000815-095854.upl",
+      "sha256": "a62712302d490932853724c5099e7b82eb0d81969e03b0225aad54feb374a02a",
+      "n_input_spectral_records_with_VSHT": 18,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "file": "data/raw/archive_expansion/J004131-493611.upl",
+      "sha256": "9567a260660112e87c78657959e6d42e8cc6b37d524df6f23c562adab8ba65e1",
+      "n_input_spectral_records_with_VSHT": 12,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J010311+131617",
+      "file": "data/raw/archive_expansion/J010311+131617.upl",
+      "sha256": "e0119e959b239e145caa01e656fbf22b3e6aea48b26062a3ffc949d9b0bcbc89",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J010516-184642",
+      "file": "data/raw/archive_expansion/J010516-184642.upl",
+      "sha256": "bfd18ce7c1b6953d2fee19875eaa38a5c8556a6137868d5a99983dd5e138f9db",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J012517-001828",
+      "file": "data/raw/archive_expansion/J012517-001828.upl",
+      "sha256": "317133d18650a8cff282897d4595a2c5d038a46202997df1b96e7bf34a4728ef",
+      "n_input_spectral_records_with_VSHT": 12,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J021857+081727",
+      "file": "data/raw/archive_expansion/J021857+081727.upl",
+      "sha256": "c46f8738087501941fa93de542c7fa6068e74adaa150dc516ef8cdaad658109e",
+      "n_input_spectral_records_with_VSHT": 30,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J040718-441013",
+      "file": "data/raw/archive_expansion/J040718-441013.upl",
+      "sha256": "47be012e83e55b9dd61af9113e54599814055c15fec7339f4f8811a481b98012",
+      "n_input_spectral_records_with_VSHT": 114,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 43,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 44,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 45,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 46,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 47,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 48,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 49,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 50,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 51,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 52,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 53,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 54,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 55,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 56,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 57,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 58,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 59,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 60,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 61,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 62,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 63,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 64,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 65,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 66,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 67,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 68,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 69,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 70,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 71,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 72,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 73,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 74,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 75,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 76,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 77,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 78,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 79,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 80,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 81,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 82,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 83,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 84,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 85,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 86,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 87,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 88,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 89,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 90,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 91,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 92,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 93,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 94,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 95,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 96,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 97,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 98,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 99,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 100,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 101,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 102,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 103,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 104,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 105,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 106,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 107,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 108,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 109,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 110,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 111,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 112,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 113,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 114,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J041656-284340",
+      "file": "data/raw/archive_expansion/J041656-284340.upl",
+      "sha256": "aea19f5584ad8379a98a598439fa4e59bfba7dd1cae3f02300ee3f36c57cc716",
+      "n_input_spectral_records_with_VSHT": 9,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J044017-433308",
+      "file": "data/raw/archive_expansion/J044017-433308.upl",
+      "sha256": "d79c10b704b5cda05d53dd6a3da0ad369d1e42ddf74d748c9551b00b4a555bc0",
+      "n_input_spectral_records_with_VSHT": 18,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J044534-354704",
+      "file": "data/raw/archive_expansion/J044534-354704.upl",
+      "sha256": "2fff263766c7b04080f05e912bc6f48fa60cdd5877ef5453594e9d0b1011228d",
+      "n_input_spectral_records_with_VSHT": 9,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "file": "data/raw/archive_expansion/J053007-250329.upl",
+      "sha256": "4d319e2be3de0d0083fb0c563a20b1244c8b823580f3644c086b4b0b61e718d4",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J064326-504112",
+      "file": "data/raw/archive_expansion/J064326-504112.upl",
+      "sha256": "77c7d0869913d9231dcc4d2b37bf04dccdac45a88de5bd43de148210607df60e",
+      "n_input_spectral_records_with_VSHT": 63,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 43,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 44,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 45,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 46,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 47,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 48,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 49,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 50,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 51,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 52,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 53,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 54,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 55,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 56,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 57,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 58,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 59,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 60,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 61,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 62,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 63,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J084424+124546",
+      "file": "data/raw/archive_expansion/J084424+124546.upl",
+      "sha256": "5781affc0c39745954dea9b0538d0ef672f6351f931f31c33f3071736833a240",
+      "n_input_spectral_records_with_VSHT": 36,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J091613+070224",
+      "file": "data/raw/archive_expansion/J091613+070224.upl",
+      "sha256": "499bc6f39ee4b17471a624300cfd11eb6ec0f5b13b450f2299292bb8b89c2254",
+      "n_input_spectral_records_with_VSHT": 63,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 43,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 44,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 45,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 46,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 47,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 48,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 49,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 50,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 51,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 52,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 53,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 54,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 55,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 56,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 57,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 58,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 59,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 60,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 61,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 62,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 63,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J115122+020426",
+      "file": "data/raw/archive_expansion/J115122+020426.upl",
+      "sha256": "f4b2037408aefbf492e874451e5d569faed65696b5df9417deee6e45c48760f0",
+      "n_input_spectral_records_with_VSHT": 42,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J115411+063427",
+      "file": "data/raw/archive_expansion/J115411+063427.upl",
+      "sha256": "aabcf4c8291d7fbf32d2f1320f0b116e901839a6a16caffa6de5b5427511698a",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J115538+053050",
+      "file": "data/raw/archive_expansion/J115538+053050.upl",
+      "sha256": "ebb965f2099c82b1dad60aa1e5ca2fd0d424dfde6860c7c0e52b1f3906108395",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J115944+011206",
+      "file": "data/raw/archive_expansion/J115944+011206.upl",
+      "sha256": "07eef1d0bda022196b73f4e55e7ceb3a4a89ab271ca826a08f66dd7b2c8decaf",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J120550+020131",
+      "file": "data/raw/archive_expansion/J120550+020131.upl",
+      "sha256": "85ff35f55a7369587d127cbfcbb3fbea7486f7e0bb1de969ab2820db3c334e49",
+      "n_input_spectral_records_with_VSHT": 3,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J124924-023339",
+      "file": "data/raw/archive_expansion/J124924-023339.upl",
+      "sha256": "fdb0f31c059a156d6ad823e75b5c9253f163f641a829d320488fe23c1ae85856",
+      "n_input_spectral_records_with_VSHT": 21,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J133335+164903",
+      "file": "data/raw/archive_expansion/J133335+164903.upl",
+      "sha256": "eee3d5435a629bb465971af7d00d63c689a722a0b36ab29dba3e724b73a784bc",
+      "n_input_spectral_records_with_VSHT": 42,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J141217+091624",
+      "file": "data/raw/archive_expansion/J141217+091624.upl",
+      "sha256": "b6de518c79180aec89fb326b7e5fadec7c3a24b65e8acb501cf248749ba92464",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J214159-441325",
+      "file": "data/raw/archive_expansion/J214159-441325.upl",
+      "sha256": "5a0866ac819945bd6f7ea34a516b8e274c0b6ac953ac9af44bbcfa68587804a4",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J220852-194359",
+      "file": "data/raw/archive_expansion/J220852-194359.upl",
+      "sha256": "f0b8e94f4778b9fbfe3cd067c899362dbe3599858b6544789b66e1b3ebfaca8d",
+      "n_input_spectral_records_with_VSHT": 81,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 34,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 35,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 36,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 37,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 38,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 39,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 40,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 41,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 42,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 43,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 44,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 45,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 46,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 47,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 48,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 49,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 50,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 51,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 52,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 53,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 54,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 55,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 56,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 57,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 58,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 59,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 60,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 61,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 62,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 63,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 64,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 65,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 66,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 67,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 68,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 69,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 70,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 71,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 72,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 73,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 74,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 75,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 76,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 77,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 78,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 79,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 80,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 81,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J224708-601545",
+      "file": "data/raw/archive_expansion/J224708-601545.upl",
+      "sha256": "6da457edac66624779cbbaa0e5ef93a8341359b41fe7e5f88f9c1d57629bd325",
+      "n_input_spectral_records_with_VSHT": 33,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "file": "data/raw/archive_expansion/J225719-100104.upl",
+      "sha256": "d2dcdf397fac92cb8133b31f7f367b09aaafc737581d974cafcd7b9c750a4574",
+      "n_input_spectral_records_with_VSHT": 15,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "file": "data/raw/archive_expansion/J232128-105122.upl",
+      "sha256": "d5b6c032f8d989c48356c0e437fc216558a525dc2e513b8b407a9330dee0ee77",
+      "n_input_spectral_records_with_VSHT": 15,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "file": "data/raw/archive_expansion/J233156-090802.upl",
+      "sha256": "b9fca7519dc7a644255d6bb490a831da6e8ffdc388e3092af9ad9377611aac0e",
+      "n_input_spectral_records_with_VSHT": 33,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 24,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 25,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 26,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 27,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 28,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 29,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 30,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 31,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 32,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 33,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J234512-433814",
+      "file": "data/raw/archive_expansion/J234512-433814.upl",
+      "sha256": "e52096eecaa0e50a9a51fa277679f26c5e5d067483cef78b2f034298c3c5c9e0",
+      "n_input_spectral_records_with_VSHT": 12,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J234628+124858",
+      "file": "data/raw/archive_expansion/J234628+124858.upl",
+      "sha256": "3fde3ec80193118abd4c049928ec84a81423314cec99c68171f41f1cd32e2b43",
+      "n_input_spectral_records_with_VSHT": 23,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 10,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 11,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 12,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 13,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 14,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 15,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 16,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 17,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 18,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 19,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 20,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 21,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 22,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 23,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "target": "J235057-005209",
+      "file": "data/raw/archive_expansion/J235057-005209.upl",
+      "sha256": "5fa87cb4cb53597f8c6c9a5fa4da5d86f484536d689dcee3a3a11ad849ff3c2a",
+      "n_input_spectral_records_with_VSHT": 0,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": []
+    },
+    {
+      "target": "J235129-142756",
+      "file": "data/raw/archive_expansion/J235129-142756.upl",
+      "sha256": "5d785e04225f0356077659a94739cd64abedc6944ef54af271027c96a9cffe16",
+      "n_input_spectral_records_with_VSHT": 9,
+      "n_nonzero_first_or_second_values": 0,
+      "n_nonzero_slope_second_values": 0,
+      "entries": [
+        {
+          "input_index": 1,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 2,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 3,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 4,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 5,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 6,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 7,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 8,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "input_index": 9,
+          "values_as_recorded": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

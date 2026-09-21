@@ -1,0 +1,135 @@
+DONE J004131-493611 full_from_h1 D 25.59998271163848 chi 104.53408389231188 ok True n 3
+DONE J232128-105122 full_from_h1 D -339.97055338286276 chi 68.9988418789824 ok True n 2
+DONE J232128-105122 full_from_h0 D -339.9681863432819 chi 68.99884193055023 ok True n 8
+DONE J232128-105122 profile_000_grid_warm D -339.97055338286276 chi 68.99884187763574 ok True n 2
+DONE J232128-105122 profile_000_grid_cross_null D -339.97055338286276 chi 68.99884190573253 ok True n 8
+DONE J232128-105122 profile_001_grid_warm D -429.76130001860855 chi 69.33598594803108 ok True n 6
+DONE J232128-105122 profile_001_grid_cross_null D -429.76130001860855 chi 69.3359859303009 ok True n 9
+DONE J232128-105122 profile_002_grid_warm D -250.17980674711694 chi 69.34359255274705 ok True n 6
+DONE J004131-493611 full_from_h0 D 25.419430598656078 chi 104.53408519152535 ok True n 38
+DONE J232128-105122 profile_002_grid_cross_null D -250.17980674711694 chi 69.34359250946248 ok True n 8
+DONE J004131-493611 profile_000_grid_warm D 25.59998271163848 chi 104.53408353754818 ok True n 5
+DONE J232128-105122 profile_003_grid_warm D -160.38906011137112 chi 70.39178299123152 ok True n 6
+DONE J232128-105122 profile_003_grid_cross_null D -160.38906011137112 chi 70.39178296464925 ok True n 8
+DONE J232128-105122 profile_004_grid_warm D -519.5520466543544 chi 70.33092129021301 ok True n 6
+DONE J232128-105122 profile_004_grid_cross_null D -519.5520466543544 chi 70.33092125812709 ok True n 10
+DONE J232128-105122 profile_005_grid_warm D -609.3427932901001 chi 71.90577494672739 ok True n 9
+DONE J004131-493611 profile_000_grid_cross_null D 25.59998271163848 chi 104.53408758577959 ok True n 33
+DONE J232128-105122 profile_005_grid_cross_null D -609.3427932901001 chi 71.90577494695759 ok True n 11
+DONE J232128-105122 profile_006_grid_warm D -70.59831347562535 chi 72.16253440381642 ok True n 6
+DONE J232128-105122 profile_006_grid_cross_null D -70.59831347562535 chi 72.16253437730256 ok True n 8
+DONE J232128-105122 profile_007_grid_warm D 0.0 chi 74.07323017110295 ok True n 6
+DONE J004131-493611 profile_001_grid_warm D 0.0 chi 104.54657565902679 ok True n 20
+DONE J232128-105122 profile_007_grid_cross_null D 0.0 chi 74.07323023426595 ok True n 8
+DONE J232128-105122 profile_008_grid_warm D 19.19243316012048 chi 74.67264711788981 ok True n 5
+DONE J232128-105122 profile_008_grid_cross_null D 19.19243316012048 chi 74.67264727518881 ok True n 8
+DONE J232128-105122 profile_009_grid_warm D -699.133539925846 chi 73.8898880251802 ok True n 8
+DONE J004131-493611 profile_001_grid_cross_null D 0.0 chi 104.54657480653604 ok True n 30
+DONE J232128-105122 profile_009_grid_cross_null D -699.133539925846 chi 73.88988799005946 ok True n 11
+DONE J232128-105122 profile_010_grid_warm D -788.9242865615918 chi 76.39086169389635 ok True n 8
+DONE J232128-105122 profile_010_grid_cross_null D -788.9242865615918 chi 76.3908616956647 ok True n 11
+DONE J232128-105122 profile_011_grid_warm D 108.9831797958663 chi 77.93667361871736 ok True n 7
+DONE J232128-105122 profile_011_grid_cross_null D 108.9831797958663 chi 77.93667368485403 ok True n 9
+DONE J232128-105122 profile_012_grid_warm D -878.7150331973376 chi 79.40145309469132 ok True n 7
+DONE J232128-105122 profile_012_grid_cross_null D -878.7150331973376 chi 79.40145305507797 ok True n 13
+DONE J232128-105122 profile_013_grid_warm D 198.77392643161207 chi 81.96695472471578 ok True n 7
+DONE J232128-105122 profile_013_grid_cross_null D 198.77392643161207 chi 81.96695455186611 ok True n 10
+DONE J232128-105122 profile_014_refine1_lower_0_warm D -474.6566733364815 chi 69.75284027140806 ok True n 6
+DONE J232128-105122 profile_014_refine1_lower_0_cross_null D -474.6566733364815 chi 69.75284030669181 ok True n 9
+DONE J232128-105122 profile_015_refine1_upper_0_warm D -205.28443342924402 chi 69.77850717927274 ok True n 6
+DONE J232128-105122 profile_015_refine1_upper_0_cross_null D -205.28443342924402 chi 69.77850720631321 ok True n 8
+DONE J232128-105122 profile_016_refine1_lower_1_warm D -497.10435999541795 chi 70.02193821484045 ok True n 5
+DONE J232128-105122 profile_016_refine1_lower_1_cross_null D -497.10435999541795 chi 70.02193817846522 ok True n 11
+DONE J232128-105122 profile_017_refine1_upper_1_warm D -182.83674677030757 chi 70.06270181442855 ok True n 5
+DONE J232128-105122 profile_017_refine1_upper_1_cross_null D -182.83674677030757 chi 70.06270182061475 ok True n 8
+DONE J232128-105122 profile_018_refine3.84_lower_0_warm D -654.238166607973 chi 72.83660016966707 ok True n 7
+J004131-493611 profile_002_grid_warm 100 104.96777323887906
+DONE J232128-105122 profile_018_refine3.84_lower_0_cross_null D -654.238166607973 chi 72.83660011843385 ok True n 11
+DONE J232128-105122 profile_019_refine3.84_upper_0_warm D -35.29915673781267 chi 73.06027381717111 ok True n 6
+DONE J232128-105122 profile_019_refine3.84_upper_0_cross_null D -35.29915673781267 chi 73.06027392323645 ok True n 8
+DONE J232128-105122 profile_020_refine3.84_lower_1_warm D -676.6858532669095 chi 73.34653694473171 ok True n 5
+DONE J232128-105122 profile_020_refine3.84_lower_1_cross_null D -676.6858532669095 chi 73.34653690002169 ok True n 11
+DONE J232128-105122 profile_021_refine3.84_upper_1_warm D -52.94873510671901 chi 72.59705854135453 ok True n 5
+DONE J232128-105122 profile_021_refine3.84_upper_1_cross_null D -52.94873510671901 chi 72.59705861486266 ok True n 8
+DONE J004131-493611 profile_002_grid_warm D 189.1139791464939 chi 90.54623103995321 ok True n 158
+J004131-493611 profile_002_grid_cross_null 100 105.03498672220611
+DONE J004131-493611 profile_002_grid_cross_null D 189.1139791464939 chi 90.54623109692145 ok True n 183
+DONE J004131-493611 profile_003_grid_warm D -137.91401372321698 chi 105.06664866195591 ok True n 27
+DONE J004131-493611 profile_003_grid_cross_null D -137.91401372321698 chi 105.0666452712718 ok True n 22
+DONE J004131-493611 profile_004_grid_warm D -301.4280101580724 chi 106.78974669116113 ok True n 36
+DONE J004131-493611 profile_004_grid_cross_null D -301.4280101580724 chi 106.78974756751269 ok True n 40
+DONE J004131-493611 profile_005_grid_warm D 352.6279755813494 chi 93.4068002894078 ok True n 17
+J004131-493611 profile_005_grid_cross_null 100 106.27282862565333
+DONE J004131-493611 profile_005_grid_cross_null D 352.6279755813494 chi 93.40680021009751 ok True n 142
+DONE J004131-493611 profile_006_grid_warm D 516.1419720162048 chi 97.05433217746497 ok True n 17
+J004131-493611 profile_006_grid_cross_null 100 108.82205030331383
+DONE J004131-493611 profile_006_grid_cross_null D 516.1419720162048 chi 108.82168851702244 ok True n 153
+DONE J004131-493611 profile_007_grid_warm D -464.9420065929279 chi 109.57515236621646 ok True n 29
+DONE J004131-493611 profile_007_grid_cross_null D -464.9420065929279 chi 109.57515309389768 ok True n 31
+DONE J004131-493611 profile_008_grid_warm D -628.4560030277834 chi 113.28189631035633 ok True n 20
+DONE J004131-493611 profile_008_grid_cross_null D -628.4560030277834 chi 113.28189658662829 ok True n 20
+DONE J004131-493611 profile_009_grid_warm D 679.6559684510603 chi 101.30198974351546 ok True n 15
+DONE J004131-493611 profile_009_grid_cross_null D 679.6559684510603 chi 112.08536569090587 ok True n 74
+DONE J004131-493611 profile_010_grid_warm D -791.9699994626388 chi 119.349172846272 ok True n 15
+DONE J004131-493611 profile_010_grid_cross_null D -791.9699994626388 chi 119.34917299954749 ok True n 14
+DONE J004131-493611 profile_011_grid_warm D 843.1699648859156 chi 106.23262462594724 ok True n 12
+DONE J004131-493611 profile_011_grid_cross_null D 843.1699648859156 chi 116.1423320868881 ok True n 58
+DONE J004131-493611 profile_012_grid_warm D 1000.0 chi 111.62272763407115 ok True n 16
+DONE J004131-493611 profile_012_grid_cross_null D 1000.0 chi 120.7461004619327 ok True n 46
+DONE J004131-493611 profile_013_grid_warm D -955.4839958974943 chi 127.90011605716171 ok True n 11
+DONE J004131-493611 profile_013_grid_cross_null D -955.4839958974943 chi 127.90011606181352 ok True n 20
+DONE J004131-493611 full_from_profile_minimum D -120.1100480781359 chi 87.25491208405366 ok True n 10
+DONE J004131-493611 profile_014_refine1_lower_0_warm D -129.01203090067645 chi 105.00887225305121 ok True n 14
+DONE J004131-493611 profile_014_refine1_lower_0_cross_null D -129.01203090067645 chi 105.0088690867845 ok True n 20
+DONE J004131-493611 profile_015_refine1_upper_0_warm D -60.05502403906795 chi 87.41836850433968 ok True n 8
+DONE J004131-493611 profile_015_refine1_upper_0_cross_null D -60.05502403906795 chi 104.67673180805555 ok True n 18
+DONE J004131-493611 profile_016_refine1_lower_1_warm D -124.56103948940617 chi 87.25583782923638 ok True n 4
+DONE J004131-493611 profile_016_refine1_lower_1_cross_null D -124.56103948940617 chi 104.98129112958416 ok True n 26
+DONE J004131-493611 profile_017_refine1_upper_1_warm D -30.027512019533976 chi 104.59370231702758 ok True n 15
+DONE J004131-493611 profile_017_refine1_upper_1_cross_null D -30.027512019533976 chi 104.5937029714963 ok True n 26
+DONE J004131-493611 profile_018_refine3.84_lower_0_warm D -126.78653519504132 chi 104.99496971462865 ok True n 11
+DONE J004131-493611 profile_018_refine3.84_lower_0_cross_null D -126.78653519504132 chi 104.99496941431914 ok True n 26
+DONE J004131-493611 profile_019_refine3.84_upper_0_warm D -45.041268029300966 chi 87.50283386427952 ok True n 5
+DONE J004131-493611 profile_019_refine3.84_upper_0_cross_null D -45.041268029300966 chi 104.6306676732932 ok True n 24
+DONE J004131-493611 profile_020_refine3.84_lower_1_warm D -125.67378734222376 chi 104.98810106384474 ok True n 10
+DONE J004131-493611 profile_020_refine3.84_lower_1_cross_null D -125.67378734222376 chi 104.98810319321902 ok True n 26
+DONE J004131-493611 profile_021_refine3.84_upper_1_warm D -37.53439002441747 chi 104.61105480444068 ok True n 15
+DONE J004131-493611 profile_021_refine3.84_upper_1_cross_null D -37.53439002441747 chi 104.61105737442423 ok True n 26
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/process.py", line 212, in _process_chunk
+    return [fn(*args) for args in chunk]
+            ^^^^^^^^^
+  File "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/code/common_pair_fit.py", line 140, in run_target
+    summary=dict(target=target,z_abs=model.cfg['z'],D_m_s=reference['D_m_s'],conditional_sigma_m_s=local['conditional_sigma_m_s'],point_estimate_reference_file=reference['fit_file'],point_estimate_reference_sha256=sha(ROOT/reference['fit_file']),reference_chi2=reference['chi2'],reference_optimizer_success=reference['optimizer_success'],reference_is_unrestricted=reference in full,unrestricted_reference_gap_chi2=bestfull['chi2']-reference['chi2'],profile_grid_D_m_s=[p['D_m_s'] for p in points],profile_delta_chi2=[p['chi2']-reference['chi2'] for p in points],profile_points=selected_fixed,profile_intervals=intervals,active_bounds=reference['active_bounds'],profile_all_selected_terminated=all(p['optimizer_success'] for p in points),profile_contours_closed=all(x['closed'] for x in intervals),profile_grid_reaches_shift_bound=bool(any(abs(p['D_m_s']/1000-lo[at])<1e-9 or abs(p['D_m_s']/1000-hi[at])<1e-9 for p in points)),ndata=model.ndata,ncomp=model.ncomp,npar=model.npar,sourcefit_paths=[str(oldnull.relative_to(ROOT)),str(oldalt.relative_to(ROOT))],sourcefit_hashes={str(p.relative_to(ROOT)):sha(p) for p in [oldnull,oldalt]},full_fit_files=[r['fit_file'] for r in full],all_profile_fit_files=[r['fit_file'] for r in records],selection='Minimum objective among all recorded endpoints including unfinished points; profile minima use both starts at each fixed coordinate.',inference_scope='Conditional fixed-architecture common-pair uncertainty using row2 diagonal errors. Reference contour levels 1 and 3.84 are not calibrated coverage probabilities. Gas architecture, pixel covariance, residual calibration and cross-target systematics are not marginalized. No physical alpha/time inference.',**meta)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'selection'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/code/common_pair_fit.py", line 154, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/code/common_pair_fit.py", line 150, in main
+    with ProcessPoolExecutor(2) as pool:rows=list(pool.map(run_target,selected))
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/process.py", line 642, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+TypeError: dict() got multiple values for keyword argument 'selection'

@@ -1,0 +1,132 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://openaccess.inaf.it/server/api/core/items/f0d2f88f-3aa5-4d62-8bae-692bdc137aa3/bundles"
+    }
+  },
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "f57d1b29-6784-4e48-89c7-d8b08516feab",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/f57d1b29-6784-4e48-89c7-d8b08516feab/item"
+        },
+        "bitstreams" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/f57d1b29-6784-4e48-89c7-d8b08516feab/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/f57d1b29-6784-4e48-89c7-d8b08516feab/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/f57d1b29-6784-4e48-89c7-d8b08516feab"
+        }
+      }
+    }, {
+      "uuid" : "23bb602a-bb45-4ee8-a73f-2b4b3dc9c960",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/23bb602a-bb45-4ee8-a73f-2b4b3dc9c960/item"
+        },
+        "bitstreams" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/23bb602a-bb45-4ee8-a73f-2b4b3dc9c960/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/23bb602a-bb45-4ee8-a73f-2b4b3dc9c960/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/23bb602a-bb45-4ee8-a73f-2b4b3dc9c960"
+        }
+      }
+    }, {
+      "uuid" : "cca7fce8-f723-4f41-b5e6-e753bd28081f",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/cca7fce8-f723-4f41-b5e6-e753bd28081f/item"
+        },
+        "bitstreams" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/cca7fce8-f723-4f41-b5e6-e753bd28081f/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/cca7fce8-f723-4f41-b5e6-e753bd28081f/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/cca7fce8-f723-4f41-b5e6-e753bd28081f"
+        }
+      }
+    }, {
+      "uuid" : "2fafce21-ec79-4556-8b6f-4bfb054f8cb5",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/2fafce21-ec79-4556-8b6f-4bfb054f8cb5/item"
+        },
+        "bitstreams" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/2fafce21-ec79-4556-8b6f-4bfb054f8cb5/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/2fafce21-ec79-4556-8b6f-4bfb054f8cb5/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bundles/2fafce21-ec79-4556-8b6f-4bfb054f8cb5"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  }
+}

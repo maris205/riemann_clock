@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "Cosmic-Chaos-Alpha/riemann_zeros_Fixed.pdf",
+  "sha256": "08dd6c5ccc94a429b33896c6ec386f29961d52bd170e27873a70b41d75dbcbaa",
+  "declared_page_count": 9,
+  "enumerated_page_count": 9,
+  "reader_page_count": 9,
+  "warnings": [],
+  "generated_at": "2026-09-20T11:41:07.009222+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

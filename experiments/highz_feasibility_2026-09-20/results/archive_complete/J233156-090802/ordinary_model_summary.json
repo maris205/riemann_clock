@@ -1,0 +1,178 @@
+{
+  "target": "J233156-090802",
+  "by_count": [
+    {
+      "ncomp": 6,
+      "name": "n6_null_s1_os9",
+      "chi2": 16868.952172387264,
+      "nominal_ndf": 1146,
+      "aicc": 16930.576626535734,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 2691.49177869324,
+          "chi2_per_pixel": 6.866050455850102
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 3916.40332477575,
+          "chi2_per_pixel": 9.990824808101404
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 10261.057068918275,
+          "chi2_per_pixel": 26.176165992138458
+        }
+      ]
+    },
+    {
+      "ncomp": 10,
+      "name": "n10_null_s2_os9",
+      "chi2": 6097.5444340134545,
+      "nominal_ndf": 1134,
+      "aicc": 6184.7324304830045,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 1140.3065094531923,
+          "chi2_per_pixel": 2.908945177176511
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 1738.410175229139,
+          "chi2_per_pixel": 4.434719834768211
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 3218.827749331123,
+          "chi2_per_pixel": 8.211295278905926
+        }
+      ]
+    },
+    {
+      "ncomp": 14,
+      "name": "n14_null_s0_os9",
+      "chi2": 4532.102212199469,
+      "nominal_ndf": 1122,
+      "aicc": 4645.401052520611,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 784.157001233629,
+          "chi2_per_pixel": 2.0004005133510945
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 772.0457494977669,
+          "chi2_per_pixel": 1.9695044630045073
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 2975.899461468074,
+          "chi2_per_pixel": 7.591580258847128
+        }
+      ]
+    },
+    {
+      "ncomp": 18,
+      "name": "n18_null_s2_os9",
+      "chi2": 3044.96503719378,
+      "nominal_ndf": 1110,
+      "aicc": 3184.9397892226348,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 700.4653671554867,
+          "chi2_per_pixel": 1.7869014468252211
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 617.4471933410565,
+          "chi2_per_pixel": 1.5751203911761646
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 1727.052476697237,
+          "chi2_per_pixel": 4.405746114023564
+        }
+      ]
+    },
+    {
+      "ncomp": 22,
+      "name": "n22_null_s2_os9",
+      "chi2": 1709.3092817369222,
+      "nominal_ndf": 1098,
+      "aicc": 1876.5435570331847,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 489.3313690204753,
+          "chi2_per_pixel": 1.2482943087257024
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 445.25800965800977,
+          "chi2_per_pixel": 1.1358622695357392
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 774.7199030584371,
+          "chi2_per_pixel": 1.9763262833123396
+        }
+      ]
+    },
+    {
+      "ncomp": 26,
+      "name": "n26_null_s2_os9",
+      "chi2": 1672.8416963585303,
+      "nominal_ndf": 1086,
+      "aicc": 1867.9384705520786,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 392,
+          "chi2": 479.09220551259114,
+          "chi2_per_pixel": 1.2221739936545692
+        },
+        {
+          "line": 2374,
+          "ndata": 392,
+          "chi2": 445.6005041830997,
+          "chi2_per_pixel": 1.1367359800589278
+        },
+        {
+          "line": 2382,
+          "ndata": 392,
+          "chi2": 748.1489866628393,
+          "chi2_per_pixel": 1.9085433333235697
+        }
+      ]
+    }
+  ],
+  "selected_null": "n26_null_refined_os21",
+  "ncomp": 26,
+  "selection_reason": "Minimum null AICc among saved successful stops. Also retain best incomplete endpoint. No component selection by displacement or free-shift improvement.",
+  "best_incomplete_endpoint": "n26_null_s1_os9",
+  "passes_conditional_adequacy_gate": false
+}

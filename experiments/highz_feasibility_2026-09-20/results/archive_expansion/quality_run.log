@@ -1,0 +1,160 @@
+J000815-095854 1.768 strict 1 weak [] common 0 ready False
+J004131-493611 2.248 strict 3 weak ['2374'] common 8 ready True
+J010311+131617 2.309 strict 2 weak [] common 0 ready False
+J010516-184642 2.37 strict 2 weak ['2586'] common 0 ready False
+J012517-001828 1.761 strict 0 weak [] common 0 ready False
+J021857+081727 2.293 strict 2 weak [] common 0 ready False
+J040718-441013 2.551 strict 1 weak [] common 0 ready False
+J040718-441013 2.595 strict 1 weak [] common 0 ready False
+J040718-441013 2.621 strict 1 weak [] common 0 ready False
+J041656-284340 1.719 strict 2 weak ['2374'] common 0 ready False
+J044017-433308 2.347 strict 1 weak [] common 0 ready False
+J044534-354704 2.408 strict 0 weak [] common 0 ready False
+J053007-250329 2.141 strict 3 weak ['2374'] common 29 ready True
+J064326-504112 2.659 strict 3 weak ['2374'] common 21 ready True
+J084424+124546 1.864 strict 2 weak ['2374'] common 0 ready False
+J084424+124546 2.375 strict 2 weak ['2586'] common 0 ready False
+J091613+070224 2.618 strict 1 weak [] common 0 ready False
+J115122+020426 1.969 strict 2 weak [] common 0 ready False
+J115411+063427 1.775 strict 1 weak [] common 0 ready False
+J115538+053050 2.608 strict 1 weak [] common 0 ready False
+J115944+011206 1.944 strict 1 weak [] common 0 ready False
+J120550+020131 1.747 strict 1 weak [] common 0 ready False
+J124924-023339 1.781 strict 2 weak [] common 0 ready False
+J133335+164903 1.776 strict 2 weak [] common 0 ready False
+J141217+091624 2.019 strict 2 weak ['2586'] common 0 ready False
+J214159-441325 2.383 strict 1 weak ['2586'] common 0 ready False
+J220852-194359 2.076 strict 1 weak [] common 0 ready False
+J224708-601545 2.331 strict 2 weak [] common 0 ready False
+J225719-100104 1.836 strict 3 weak ['2374'] common 25 ready True
+J232128-105122 1.629 strict 4 weak ['2374', '2586'] common 7 ready True
+J233156-090802 2.143 strict 3 weak ['2374'] common 29 ready True
+J234512-433814 2.612 strict 0 weak [] common 0 ready False
+J234628+124858 2.431 strict 1 weak [] common 0 ready False
+J235057-005209 2.426 strict 1 weak [] common 0 ready False
+J235057-005209 2.615 strict 1 weak [] common 0 ready False
+J235129-142756 2.279 strict 1 weak ['2374'] common 0 ready False
+{
+  "created_utc": "2026-09-20T17:35:52.590349+00:00",
+  "candidate_absorbers": 36,
+  "downloaded_unique_sightlines": 32,
+  "actual_windows": 324,
+  "computational_readiness_count": 6,
+  "readiness_candidates": [
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 8,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 29,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 21,
+      "edge_absorption_warning_lines": [
+        "1608"
+      ],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_detected_strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 25,
+      "edge_absorption_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_detected_strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374",
+        "2586"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 7,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 29,
+      "edge_absorption_warning_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "artifact_warning_candidate_lines": []
+    }
+  ],
+  "no_inference": [
+    "No physical line shifts estimated",
+    "No alpha measurement",
+    "No time-law fit",
+    "No calibrated precision-constant measurement certified"
+  ],
+  "hashes": {
+    "code/archive_quality.py": "b7b2a6dadd13ebb325d08ff6b24f486497a4474b24ffe814ebe45cdc98c70948",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10_noiso.dat": "28c6bc93b1bfa1ab58b06f534d32489de2cc8a935a3f9f74396d15a6f0c18390",
+    "results/archive_expansion/actual_quality_policy.json": "d6a0b4d3e46224b7750a4d52c35d4d5f5f4c018abae57d26a31f675652b0b5a0",
+    "results/archive_expansion/absorber_quality.json": "deb0f0d67f5d7403fda13d9fc1c412291fb0e4d6847096726796dcc8625fe77f",
+    "results/archive_expansion/window_quality.csv": "ac367310fbec99836a22c0816862bf2ef8a0452f83a35b05f1ed1350877be8d2"
+  }
+}

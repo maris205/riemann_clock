@@ -1,0 +1,311 @@
+omit_saturated_null: ndata=1775 npar=143 initial chi2=1357.088798
+opacity_zero_null: ndata=2931 npar=158 initial chi2=2307.211087
+omit_saturated_null: evaluation 25, chi2=1180.0262325
+opacity_zero_null: evaluation 25, chi2=2260.4682555
+omit_saturated_null: evaluation 50, chi2=1173.1519920
+omit_saturated_null: evaluation 75, chi2=1171.2675445
+opacity_zero_null: evaluation 50, chi2=2260.2471725
+omit_saturated_null: evaluation 100, chi2=1170.3313149
+opacity_zero_null: evaluation 75, chi2=2260.1717349
+{
+  "name": "opacity_zero_null",
+  "free_shifts": false,
+  "configuration": {
+    "strength_nuisance": true,
+    "zero_nuisance": true
+  },
+  "ndata": 2931,
+  "npar": 158,
+  "nominal_ndf": 2773,
+  "chi2": 2260.1715348555736,
+  "chi2_per_nominal_ndf": 0.8150636620467269,
+  "nominal_chi2_survival": 0.9999999999999041,
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 76,
+  "optimality": 5.1242365047320835,
+  "seconds": 108.08962893486023,
+  "jacobian_rank": 156,
+  "active_bounds": [
+    "v_0",
+    "v_5",
+    "v_17",
+    "v_24",
+    "v_27",
+    "v_29",
+    "v_42",
+    "logb_17",
+    "logb_36",
+    "continuum0_2382",
+    "zero_adjustment_2344",
+    "zero_adjustment_2374"
+  ],
+  "shifts_km_s": {},
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 180.34699069127484,
+      "chi2_per_pixel": 0.6510721685605589
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 354.77623831556673,
+      "chi2_per_pixel": 0.8250610193385273
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 389.7660556355879,
+      "chi2_per_pixel": 0.7672560150306849
+    },
+    {
+      "line": 2382,
+      "ndata": 579,
+      "chi2": 464.0651639573668,
+      "chi2_per_pixel": 0.8014942382683364
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 393.53848718302515,
+      "chi2_per_pixel": 0.7027472985411164
+    },
+    {
+      "line": 2600,
+      "ndata": 577,
+      "chi2": 477.6785990727518,
+      "chi2_per_pixel": 0.8278658562785993
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}
+opacity_zero_alternative: ndata=2931 npar=163 initial chi2=2260.171536
+omit_saturated_null: evaluation 125, chi2=1168.8778403
+omit_saturated_null: evaluation 150, chi2=1166.5069381
+opacity_zero_alternative: evaluation 25, chi2=2206.6476385
+omit_saturated_null: evaluation 175, chi2=1165.1453541
+omit_saturated_null: evaluation 200, chi2=1164.9044732
+opacity_zero_alternative: evaluation 50, chi2=2206.0940859
+omit_saturated_null: evaluation 225, chi2=1164.7880596
+{
+  "name": "opacity_zero_alternative",
+  "free_shifts": true,
+  "configuration": {
+    "strength_nuisance": true,
+    "zero_nuisance": true
+  },
+  "ndata": 2931,
+  "npar": 163,
+  "nominal_ndf": 2768,
+  "chi2": 2205.080529845843,
+  "chi2_per_nominal_ndf": 0.7966331393951745,
+  "nominal_chi2_survival": 0.9999999999999998,
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 69,
+  "optimality": 10.127732908413341,
+  "seconds": 95.3531084060669,
+  "jacobian_rank": 162,
+  "active_bounds": [
+    "v_5",
+    "v_17",
+    "v_42",
+    "logb_17",
+    "logb_36",
+    "continuum0_2382",
+    "zero_adjustment_2344",
+    "zero_adjustment_2374"
+  ],
+  "shifts_km_s": {
+    "2260": 0.0927943849742791,
+    "2344": -0.044889544894358376,
+    "2382": -0.11605521221492991,
+    "2586": -0.0102636154588263,
+    "2600": -0.10580456839026486
+  },
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 179.41091748821205,
+      "chi2_per_pixel": 0.647692842917733
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 349.7995574831583,
+      "chi2_per_pixel": 0.8134873429840891
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 375.901431606931,
+      "chi2_per_pixel": 0.7399634480451398
+    },
+    {
+      "line": 2382,
+      "ndata": 579,
+      "chi2": 453.0882715239001,
+      "chi2_per_pixel": 0.7825358748253888
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 375.50994025598436,
+      "chi2_per_pixel": 0.6705534647428292
+    },
+    {
+      "line": 2600,
+      "ndata": 577,
+      "chi2": 471.37041148765735,
+      "chi2_per_pixel": 0.8169331221623177
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}
+PAIRED_RESULT ('opacity_zero', 55.09100500973045)
+omit_saturated_null: evaluation 250, chi2=1164.6950620
+omit_saturated_null: evaluation 275, chi2=1164.6058228
+omit_saturated_null: evaluation 300, chi2=1164.5171711
+omit_saturated_null: evaluation 325, chi2=1164.4302635
+omit_saturated_null: evaluation 350, chi2=1164.3391501
+{
+  "name": "omit_saturated_null",
+  "free_shifts": false,
+  "configuration": {
+    "exclude": [
+      2382,
+      2600
+    ]
+  },
+  "ndata": 1775,
+  "npar": 143,
+  "nominal_ndf": 1632,
+  "chi2": 1164.3391501034127,
+  "chi2_per_nominal_ndf": 0.7134431066810127,
+  "nominal_chi2_survival": 1.0,
+  "optimizer_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "nfev": 350,
+  "optimality": 1.8623909839877435,
+  "seconds": 302.35354256629944,
+  "jacobian_rank": 143,
+  "active_bounds": [
+    "v_0",
+    "v_17",
+    "v_19",
+    "v_25",
+    "v_34",
+    "v_41",
+    "v_42",
+    "v_44",
+    "logb_11",
+    "logb_17"
+  ],
+  "shifts_km_s": {},
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 180.25856395889767,
+      "chi2_per_pixel": 0.650752938479775
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 304.1026197916231,
+      "chi2_per_pixel": 0.7072153948642398
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 361.7416668460566,
+      "chi2_per_pixel": 0.7120898953662531
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 318.23629950683585,
+      "chi2_per_pixel": 0.5682791062622069
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}
+omit_saturated_alternative: ndata=1775 npar=146 initial chi2=1164.339150
+omit_saturated_alternative: evaluation 25, chi2=1156.8383418
+omit_saturated_alternative: evaluation 50, chi2=1156.2525677
+omit_saturated_alternative: evaluation 75, chi2=1156.1625868
+omit_saturated_alternative: evaluation 100, chi2=1155.8708631
+omit_saturated_alternative: evaluation 125, chi2=1155.8231660
+omit_saturated_alternative: evaluation 150, chi2=1155.8375359
+{
+  "name": "omit_saturated_alternative",
+  "free_shifts": true,
+  "configuration": {
+    "exclude": [
+      2382,
+      2600
+    ]
+  },
+  "ndata": 1775,
+  "npar": 146,
+  "nominal_ndf": 1629,
+  "chi2": 1155.8043049223013,
+  "chi2_per_nominal_ndf": 0.7095176825796816,
+  "nominal_chi2_survival": 1.0,
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 162,
+  "optimality": 0.03580233404486903,
+  "seconds": 133.7411196231842,
+  "jacobian_rank": 146,
+  "active_bounds": [
+    "v_0",
+    "v_17",
+    "v_19",
+    "v_34",
+    "v_41",
+    "v_42",
+    "v_44",
+    "logb_1",
+    "logb_5",
+    "logb_11",
+    "logb_17",
+    "logb_26"
+  ],
+  "shifts_km_s": {
+    "2260": 0.09031858785795177,
+    "2344": -0.034918148643454355,
+    "2586": -0.0005666673685464866
+  },
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 179.83282002237334,
+      "chi2_per_pixel": 0.6492159567594705
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 300.7265332695599,
+      "chi2_per_pixel": 0.6993640308594417
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 359.1244398919742,
+      "chi2_per_pixel": 0.7069378738030988
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 316.12051173839365,
+      "chi2_per_pixel": 0.56450091381856
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}
+PAIRED_RESULT ('omit_saturated', 8.53484518111145)

@@ -1,0 +1,109 @@
+\section{Existing astronomical spectra and a data-informed observing outlook}
+\label{sec:highz}
+\subsection{An empirical pilot from public absorption spectra}
+High-redshift spectroscopy can sample material at earlier cosmic epochs without waiting for a measurable change during a laboratory lifetime. The relevant information would be a physical imprint formed at emission or absorption, however, not the precision available to an observer living at that epoch. A change only in an observer's computational resources need not leave such an imprint. We therefore analyze existing spectra as a test of data quality and inference requirements, without treating them as measurements of Riemann zeros.
+
+The UVES Spectral Quasar Absorption Database, SQUAD DR1, contains 467 final quasar spectra \cite{Murphy2019SQUAD}. We downloaded two historical coadded products: HE\,0515$-$4414, with a reference absorber at $z_{\rm abs}=1.1508$, and Q0347$-$3819, also catalogued as Q0347$-$383, at $z_{\rm abs}=3.025$. Their emission redshifts, 1.710 and 3.205, are different quantities. The decoded files contain 279,787 and 241,828 source-valid pixels, respectively, on vacuum heliocentric wavelength grids with native sampling of $1.3\,\mathrm{km\,s^{-1}}$. The contributing exposures date from 1999--2009; retrieval in 2026 is not a new observing epoch. These two convenience examples are a development sample, not a homogeneous redshift survey.
+
+We use archived NIST ASD Ritz wavelengths to establish consistent velocity coordinates \cite{NISTASD2024}. The six Fe\,II transitions near 1608, 2344, 2374, 2382, 2586, and 2600\,\AA\ share a lower level but do not form a complete, symmetry-resolved sequence of adjacent eigenvalues. Their spacing is consequently not a direct GUE or zero-truncation observable. Precise laboratory wavelengths and the treatment of isotope structure are separate requirements for transition-frequency inference \cite{MurphyBerengut2014}.
+
+Figure~\ref{fig:highz_profiles} and Table~\ref{tab:highz_observed} report measurements made directly from the archived flux, rather than injected profiles. We define the rest-frame equivalent width and flux-deficit centroid within a stated interval by
+\begin{align}
+ W_r&=\frac{\lambda_0}{c}\sum_i(1-F_i)\Delta v_i,\\
+ \bar v&=\frac{\sum_i\widetilde v_i(1-F_i)\Delta v_i}
+                  {\sum_i(1-F_i)\Delta v_i}.
+ \label{eq:profile_moments}
+\end{align}
+Here $F_i$ is continuum-normalized flux, $\Delta v_i$ is the portion of the native pixel inside the interval, and $\widetilde v_i$ is the midpoint of that portion. Flux above the continuum contributes with its sign; we do not clip negative absorption. The HE interval is $[-25,110]\,\mathrm{km\,s^{-1}}$ and the Q0347 interval is $[-80,35]\,\mathrm{km\,s^{-1}}$, relative to the stated absorber redshifts. These common-within-sightline intervals were chosen after inspecting the profiles and are exploratory. They are not integrations over the full absorption systems.
+
+The tabulated errors propagate the archived pixel errors with fixed continuum and wavelength calibration and a diagonal covariance approximation. We also propagate the separately supplied expected-fluctuation array and test assumed pixel correlations. Neither array supplies the complete covariance or systematic error budget. Near-zero or negative flux is retained in flux integrals but is not converted into a supposedly precise apparent optical depth or column density; unresolved saturation and noise require additional treatment \cite{SavageSembach1991,Fox2005AOD}.
+
+\begin{table}[htbp]
+\caption{Measurements of actual finite-window absorption profiles. Errors are conditional diagonal statistical $1\sigma$, not complete physical-frequency uncertainties. $\Delta_C$ is the maximum absolute centroid change under a prescribed $\pm1\%$ continuum perturbation; $\Delta_W$ is the maximum change under the stated $10\,\mathrm{km\,s^{-1}}$ boundary variations. These sensitivities are not random error bars. The high-redshift red windows are omitted from this science-oriented table because of contamination or low signal-to-noise; their screening integrals remain in the data release. HE entries remain subject to blend and saturation review.}
+\label{tab:highz_observed}
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\input{highz_observed_table.tex}
+\end{table}
+
+\subsection{Observed profile sensitivity limits the interpretation of small errors}
+The HE profile-centroid statistical errors span $18$--$117\,\mathrm{m\,s^{-1}}$. Prescribing a $1\%$ continuum perturbation changes the same descriptors by $99$--$439\,\mathrm{m\,s^{-1}}$, while changing integration boundaries by $10\,\mathrm{km\,s^{-1}}$ changes them by $0.81$--$1.66\,\mathrm{km\,s^{-1}}$. The perturbations have not been measured as actual continuum errors, and changing the interval can include different gas components. Their purpose is to show that an integrated absorption centroid is not automatically an atomic transition-frequency estimator. In the HE 2382 and 2600 windows, respectively, approximately $36.2\%$ and $31.7\%$ of pixels have $F<0.1$, motivating explicit saturation checks.
+
+The high-redshift Fe\,II 1608 window gives $W_r=235.57\pm0.65$\,m\AA\ under the same conditional error convention. The 2344, 2374 and 2382 windows lie around $9435$--$9591$\,\AA\ and require telluric assessment. The 2586 and 2600 windows near $1.04\,\mu$m have full-window median continuum-to-error ratios of only 1.31 and 2.06 per native pixel. We retain their signed integrals for quality screening, but do not report usable scientific centroids from them. A statistically nonzero integral in a contaminated or low-quality window does not establish a clean identified transition.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.98\textwidth,height=.76\textheight,keepaspectratio]{highz_observed_profiles.pdf}
+\caption{Actual SQUAD flux and finite-window measurements, using NIST Ritz wavelengths. Top: observed profiles. Middle: signed absorption integrals; high-redshift squares flag telluric risk and crosses flag low signal-to-noise. Bottom: absorption-centroid descriptors with conditional statistical errors and separate continuum and interval sensitivity ranges. The latter ranges are illustrative robustness diagnostics, not confidence intervals. No time-dependent physical parameter is fitted. Different line strengths and gas-component weightings can produce different descriptors without changing transition frequencies.}
+\label{fig:highz_profiles}
+\end{figure}
+
+We further fit a descriptive registration model to actual HE flux, using Fe\,II 2374 as a noisy empirical template for 2586 and 2600:
+\begin{equation}
+ F_j^{\rm reg}(v)=[c_0+c_1v/(100\,\mathrm{km\,s^{-1}})]
+                  F_{2374}(v-\delta)^a.
+ \label{eq:registration}
+\end{equation}
+The shift $\delta$, depth transformation $a$, and continuum terms are fitted. Linear interpolation propagates template noise as well as target noise, and the approximate Gaussian objective includes the parameter-dependent log-variance term. Pixel and interpolation correlations are omitted. We compare affine-flux transformations, two error arrays and three velocity intervals; these are sensitivity analyses of the same data, not independent discoveries.
+
+Using the source expected-fluctuation array, the full-interval 2586 power registration gives an offset of about $+17\,\mathrm{m\,s^{-1}}$ but a nominal diagonal residual statistic divided by degrees of freedom of 5.26. Restricting to $[40,95]\,\mathrm{km\,s^{-1}}$ gives about $-34\,\mathrm{m\,s^{-1}}$ and a ratio of 0.88. These offsets are registration descriptors, not estimates of a physical frequency drift. The whole-interval 2600 fit under the same error convention is substantially worse, with a ratio of about 34.2. Small curvature errors from such fits are not reliable accuracy claims; boundary solutions and interpolation-knot curvature are explicitly flagged, with the corresponding formal errors withheld.
+
+This failure of a simple transformation is expected to be possible under conventional physics. In general, for an instrumental line-spread operator $L$,
+\begin{equation}
+ (L*e^{-\tau})^a\ne L*e^{-a\tau}.
+\end{equation}
+Moreover, additional absorption in Fe\,II 2586 is reported in both UVES and ESPRESSO observations of this absorber \cite{Murphy2022ESPRESSO}. For this UVES registration diagnostic, the published ESPRESSO exclusion mask has not been transferred to the SQUAD coadd, so these profiles retain the identified blend. The present registration is a stress test of a simplified model, not a replacement for exposure-level multicomponent line-profile analysis. Its useful result is the demonstrated need for that analysis before interpreting small fitted offsets.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.97\textwidth]{highz_observed_registration.pdf}
+\caption{Descriptive fits to real HE\,0515$-$4414 data. Observed Fe\,II 2586 and 2600 flux is compared with a fitted power transformation of the observed 2374 template over the full selected interval. Lower panels show residuals divided by the nominal combined target/template error. The failures are diagnostics of this simplified transformation and profiles retaining the identified blend, not evidence for new physics. No physical shift uncertainty, cosmic amplitude or zero cutoff is inferred.}
+\label{fig:highz_registration}
+\end{figure}
+
+\input{espresso_null_section.tex}
+\input{espresso_followup_section.tex}
+\input{available_data_section.tex}
+
+\subsection{Why this pilot does not identify a cosmic amplitude}
+To connect spectra to the proposed schedule, an additional response could be posited as
+\begin{equation}
+ E_a(t)=E_a(t_0)+C g_a[h_2(t)-1],\qquad
+ h_p(t)=\left[\frac{\ln(t_0/t_*)}{\ln(t/t_*)}\right]^p.
+\end{equation}
+Then $\Delta\nu=C(g_u-g_l)[h_2(t)-1]/h_{\rm P}$, where $h_{\rm P}$ is Planck's constant, with consistent coefficients for every shared level. The coefficients must be specified independently of the astronomical data. This deterministic level-shift assumption is additional to, and is not derived from, the standard-deviation component introduced earlier. Alternatively, a noise response needs its temporal correlation function and a line-shape calculation. A generic extra velocity width is degenerate with turbulence. No measured profile quantity here is automatically a constraint on $\delta_c$ or accessible zero height.
+
+For a fixed candidate differential response $K_j$, a useful planning normalization is
+\begin{equation}
+ \Delta v_j(z)=K_jB G_2(z),\qquad
+ G_p(z)=\frac{h_p(t(z))-1}{h_p(t(3))-1}.
+ \label{eq:highz_response}
+\end{equation}
+Here $B$ has velocity units and $G_p(3)=1$. The accompanying calculations use a fixed flat matter-plus-$\Lambda$ background, $H_0=67.4\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$ and $\Omega_m=0.315$, solely to assign ages; they do not fit cosmology. With the illustrative $t_*$ above, $h_2-1$ is 1.38\% at $z=1.1508$ and 2.72\% at $z=3.025$. These percentages describe the assumed component, not the fraction by which all atomic frequencies change.
+
+For the initial two-sightline pilot, setting aside the high-redshift windows with telluric risk or inadequate noise quality leaves only 1608 as a candidate for further scrutiny. Even optimistically granting six usable low-redshift lines, these two spectra cannot identify $B$ when absorber redshifts and a constant response-mode offset $b_0$ are free. The single high-redshift line is absorbed by its redshift, while at the one remaining epoch $b_0$ and $B G_2$ are proportional. A numerical design-matrix example, using an artificial coefficient vector solely to illustrate this exact degeneracy, confirms unchanged rank when the cosmic column is added. This is an identifiability failure, not a zero-amplitude measurement. Therefore we report no best-fit cosmic coefficient, confidence limit on a cutoff, or preference for $p=2$ from this initial pilot. The subsequent archive expansion supplies additional multiplet candidates; their calibration, gas-model adequacy and the independently specified physical response still need to be established before a cosmic-time fit.
+
+\subsection{Observations motivated by the measured limitations}
+The actual profiles make the priorities more specific than a forecast based on independent identical lines. First, future targets should provide several common, sufficiently weak transitions over a range of absorber redshifts, with separate saturation and contamination checks. Second, exposure-level wavelength calibration, continuum and velocity-component modelling must be validated before a small formal offset is interpreted. Historical UVES/HIRES wavelength distortions motivate independent calibration and instrument comparisons \cite{WhitmoreMurphy2015}. The different transitions used at different redshifts must not silently redefine the response being tested.
+
+Increasing exposure time alone is inefficient for the two poorest high-redshift windows. Even under the simplifying photon-noise law ${\rm S/N}\propto\sqrt{t_{\rm exp}}$, raising their full-window native-pixel ratios to 30 would require factors of about 523 and 211 in exposure, at unchanged observing conditions. These are relative arithmetic estimates, not observing-time requests, and do not remove telluric or blending errors. Selecting another target, another independently calibrated transition set, or more suitable near-infrared capability is therefore a substantive part of the design.
+
+\begin{table}[htbp]
+\caption{A staged program driven by the existing-data diagnostics. Durations and observing allocations are planning targets, conditional on staffing, sample yield and telescope availability. The primary deliverable is a validated constraint or a reproducible anomaly, not a guaranteed discovery.}
+\label{tab:highz_roadmap}
+\centering
+\begin{tabular}{p{.16\textwidth}p{.42\textwidth}p{.34\textwidth}}
+\toprule
+Stage & Work & Criterion for useful progress\\
+\midrule
+Now--1 year & Archive screening; multicomponent fits; independent physical-response calculation; injections using realistic profiles & Freeze response and selection rules; verify bias and interval coverage before revealing a confirmation sample\\
+1--3 years & Approximately 6--10 selected sightlines with present high-resolution facilities; an initial 50--200 h integration scenario, subject to object-level calculation & Obtain common line sets, calibration controls and independent instrument overlap\\
+Later, within ten years & Expand independent sightlines and redshift coverage; use ANDES if commissioned and available & Recompute sensitivity using achieved performance; repeat any anomaly on held-out data\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The same six Fe\,II lines fit within ESPRESSO's nominal $380$--$788$\,nm coverage \cite{ESOESPRESSO2026} only over approximately $1.36<z_{\rm abs}<2.03$; a high-emission-redshift quasar does not automatically provide this line set at high absorber redshift. The ANDES team describes a baseline near $R=100{,}000$ over $0.4$--$1.8\,\mu$m and a 2035 first-light target \cite{NDiaye2026ANDES}. This is a conditional extension, not an achieved capability or guaranteed survey date. Existing facilities support the earlier stages independently.
+
+In Eq.~\eqref{eq:highz_response}, the two pilot epochs have $\Delta G_2\simeq0.495$: an assumed $B=100\,\mathrm{m\,s^{-1}}$ corresponds to a response-mode difference of about $49.5\,\mathrm{m\,s^{-1}}$. This sets a conditional design scale, not a predicted or detected signal. Synthetic forecasts supplied with the project retain unknown response and systematic-floor assumptions. Even detecting such a trend would not automatically distinguish inverse-logarithmic exponents after amplitude and offset refitting. The appropriate progression is from a fixed physical response and validated measurement model to a blinded population test, with null results reported as limits on that specified response.

@@ -1,0 +1,9 @@
+{
+  "experiments/highz_feasibility_2026-09-20/results/noise_covariance/controls.json": "c4bea3ad4834e5c83db9060e07778ddc6f6293532e8303193abd57937563a936",
+  "experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_null_cross.json": "b04fa67a24ab9bcd33770fd8ef70a8a7c5813c69b74126ab96b306179e54139a",
+  "experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_alternative.json": "2812ea8fa970c4c15eebc8618a563838eb7743586a700767a8fbd5a6571c9535",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core01_null_cross_continued_alternative.json": "5c407ab0dde9d0cbe1a46eecd3f71ebd42e01274308d3584785b4a9e2631dd9e",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core01_alternative_cross_continued.json": "4853598d20ee40bab609c64d372174d3a110aa864805219556b09d1480b22ded",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core03_padded_null_cross.json": "4e8f7fb10b8e1315a82e0c160c2409242ca9630da109d77cc22c6cd0d44bf3dc",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core03_padded_alternative.json": "7a6fe3df6ad51a731063ae73249e0a4e13735f295083be28dd2f89a3bceabde6"
+}

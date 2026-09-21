@@ -1,0 +1,46 @@
+{
+  "interpretation": "Conditional mean-density envelope; not a measured cutoff or zero count",
+  "shape": [
+    241,
+    321
+  ],
+  "q": 0.25,
+  "kappa_tau_visibility": 1,
+  "repetitions_range": [
+    1.0,
+    10000.0
+  ],
+  "floor_range": [
+    0.03,
+    1.0
+  ],
+  "log10_ordinate_envelope_range": [
+    1.2805597543041862,
+    22.370864187438325
+  ],
+  "values_clipped": false,
+  "empirical_anchors": false,
+  "samples": [
+    {
+      "label": "A",
+      "repetitions": 100.0,
+      "assumed_floor": 0.3,
+      "log10_ordinate_envelope": 2.955448300266136,
+      "ordinate_envelope": 902.502264465915
+    },
+    {
+      "label": "B",
+      "repetitions": 3000.0,
+      "assumed_floor": 0.3,
+      "log10_ordinate_envelope": 3.067941081307259,
+      "ordinate_envelope": 1169.3407412917984
+    },
+    {
+      "label": "C",
+      "repetitions": 3000.0,
+      "assumed_floor": 0.05,
+      "log10_ordinate_envelope": 13.614264092727336,
+      "ordinate_envelope": 41139981562895.484
+    }
+  ]
+}

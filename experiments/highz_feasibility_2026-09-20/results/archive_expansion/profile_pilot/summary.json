@@ -1,0 +1,110 @@
+{
+  "selected": [
+    {
+      "target": "J232128-105122",
+      "configuration": {
+        "z": 1.629,
+        "lines": [
+          2260,
+          2344,
+          2374,
+          2382,
+          2586
+        ],
+        "window": [
+          -30.0,
+          35.0
+        ],
+        "component_bounds": [
+          -20.0,
+          30.0
+        ],
+        "centers": [
+          2.0,
+          7.0,
+          12.0,
+          17.0,
+          22.0,
+          27.0
+        ],
+        "logtotal": 14.3
+      },
+      "selection": "Minimum exploratory diagonal-error null AICc among n=1,2,3,4,6; higher quadrature refinement; not a blinded model-selection protocol.",
+      "ncomp": 3,
+      "null": "J232128-105122_n3_null_s1_os33",
+      "alternative": "J232128-105122_n3_shift_s1_os33",
+      "chi2_null": 80.59285379437945,
+      "chi2_alternative": 73.74856538299974,
+      "delta_chi2": 6.844288411379708,
+      "ndata": 130,
+      "nominal_ndf_null": 101,
+      "extra_shifts": 4,
+      "shifts_m_s": {
+        "2260": 624.111057216466,
+        "2344": -154.6782638936463,
+        "2382": -348.9964524430412,
+        "2586": -95.97441794108585
+      },
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "both_success": true
+    },
+    {
+      "target": "J004131-493611",
+      "configuration": {
+        "z": 2.248,
+        "lines": [
+          1608,
+          2374,
+          2382
+        ],
+        "window": [
+          -30.0,
+          85.0
+        ],
+        "component_bounds": [
+          -25.0,
+          75.0
+        ],
+        "centers": [
+          -10.0,
+          20.0,
+          30.0,
+          40.0,
+          49.0,
+          57.0
+        ],
+        "logtotal": 14.4
+      },
+      "selection": "Minimum exploratory diagonal-error null AICc among n=1,2,3,4,6; higher quadrature refinement; not a blinded model-selection protocol.",
+      "ncomp": 6,
+      "null": "J004131-493611_n6_null_s3_os33",
+      "alternative": "J004131-493611_n6_shift_s3_os33",
+      "chi2_null": 113.18866766618387,
+      "chi2_alternative": 107.52756948193438,
+      "delta_chi2": 5.6610981842494965,
+      "ndata": 138,
+      "nominal_ndf_null": 108,
+      "extra_shifts": 2,
+      "shifts_m_s": {
+        "1608": -213.71327153416453,
+        "2382": 35.38757645340674
+      },
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2374"
+      ],
+      "both_success": true
+    }
+  ],
+  "conclusion": "Both exploratory ordinary shared-gas models fit their fixed native-pixel windows. Additional relative shifts provide modest conditional improvements only; no alpha/time-law measurement. Missed conventional gas start explained initial J004131 residual.",
+  "report": "reports/archive_profile_results_cn.md"
+}

@@ -1,0 +1,810 @@
+{
+  "status": "PASS",
+  "scope": "Independent mathematical audit of existing expected-fluctuation-row H1 Jacobians; no optimization, no new fits.",
+  "checked_count": 50,
+  "passed_count": 50,
+  "definition": "D = 1000*shift_2382 (m/s), anchor 2374 fixed to zero; every remaining H1 parameter is nuisance.",
+  "methods": [
+    "SVD of full column-normalized J, covariance diagonal transformed back to physical units",
+    "Orthogonal projection of d residual / d D against SVD nuisance column space",
+    "Independent economic QR nuisance projection",
+    "Inverse normalized Gram covariance diagonal"
+  ],
+  "noise_convention": "Saved row2 expected-fluctuation diagonal normalization; no chi2/ndf variance rescaling and no pixel covariance or wavelength calibration uncertainty.",
+  "formulae": {
+    "full_covariance": "A = J diag(1/column_norm); A = U S V^T. C = diag(1/column_norm) V S^-2 V^T diag(1/column_norm). sigma_D = 1000 sqrt(C_ii).",
+    "nuisance_projection": "g = J[:,i]/1000. N = J[:,j != i]. sigma_D = 1 / ||(I - P_col(N)) g||."
+  },
+  "source_sha256": {
+    "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/code/archive_profile_expected_noise.py": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+    "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/code/archive_profile_pilot.py": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef"
+  },
+  "results": [
+    {
+      "target": "J232128-105122",
+      "fit_name": "J232128-105122_n3_shift_s1_expected_os33",
+      "fit_json_sha256": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2",
+      "fit_npz_sha256": "0665ddf5886bdb06cda8d6689190ffd47918b7fca147c51ee67da2ffa3793b43",
+      "ndata": 130,
+      "npar": 33,
+      "target_label": "shift_2382",
+      "target_parameter_index": 31,
+      "target_definition": "D = v_2382 - v_2374 = 1000 * shift_2382 in m/s; v_2374 is fixed at zero",
+      "D_m_s": -339.9705170639548,
+      "sigma_unrestricted_local_m_s": 179.5821319054686,
+      "all_remaining_parameters_nuisance": [
+        "logN_0",
+        "logN_1",
+        "logN_2",
+        "v_0",
+        "v_1",
+        "v_2",
+        "logb_0",
+        "logb_1",
+        "logb_2",
+        "cont0_2260",
+        "cont1_2260",
+        "zero_2260",
+        "logfwhm_2260",
+        "cont0_2344",
+        "cont1_2344",
+        "zero_2344",
+        "logfwhm_2344",
+        "cont0_2374",
+        "cont1_2374",
+        "zero_2374",
+        "logfwhm_2374",
+        "cont0_2382",
+        "cont1_2382",
+        "zero_2382",
+        "logfwhm_2382",
+        "cont0_2586",
+        "cont1_2586",
+        "zero_2586",
+        "logfwhm_2586",
+        "shift_2260",
+        "shift_2344",
+        "shift_2586"
+      ],
+      "sigma_QR_m_s": 179.5821319054689,
+      "sigma_inverse_gram_m_s": 179.58213190546485,
+      "unrestricted_tangent_abs_D_over_sigma": 1.8931199527295626,
+      "column_normalized_full_singular_values": [
+        2.0729611164954025,
+        1.9358393540449355,
+        1.5736615926473851,
+        1.3546095126207705,
+        1.340583541569144,
+        1.2962357139771155,
+        1.240001118867344,
+        1.1998703252360807,
+        1.1370671169695168,
+        1.1114748552483393,
+        1.076965985303346,
+        1.073462881176417,
+        1.032245189281505,
+        1.0240685663299662,
+        1.0007899667697997,
+        0.9750282466880072,
+        0.9262405199915009,
+        0.8743137408626465,
+        0.8600603309699192,
+        0.8036796998009452,
+        0.7086023843843474,
+        0.6120316385776184,
+        0.5412986444632714,
+        0.535152923408614,
+        0.4792917856756042,
+        0.42793123650022935,
+        0.41457214072742044,
+        0.34034243852505314,
+        0.2680829177344503,
+        0.19336907312166932,
+        0.0658707752706365,
+        0.047821205569596036,
+        0.04284508971895639
+      ],
+      "column_normalized_nuisance_singular_values": [
+        2.071076271201175,
+        1.8973190419700434,
+        1.5732013272509087,
+        1.3546094642849518,
+        1.3405521547594568,
+        1.295893609844617,
+        1.2212910087559992,
+        1.1409785926310185,
+        1.128139708004304,
+        1.111449126374511,
+        1.076808051265951,
+        1.0578772132928378,
+        1.0288705452547537,
+        1.001316326823846,
+        0.9801404736453107,
+        0.9532482105325542,
+        0.8926375396139199,
+        0.8724271606051761,
+        0.8208678162858198,
+        0.7292458006665226,
+        0.614118632754929,
+        0.604272730830111,
+        0.5360884784173704,
+        0.5147985827882663,
+        0.47561818738258516,
+        0.42793002050472545,
+        0.4145657710122634,
+        0.3385517581031999,
+        0.22391888477786004,
+        0.06741331138744011,
+        0.057289181846544614,
+        0.04301602307757682
+      ],
+      "full_condition_number": 48.3826998634628,
+      "nuisance_condition_number": 48.146623584102905,
+      "cutoff_results": [
+        {
+          "relative_cutoff": 0.01,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 0.001,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 0.0001,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-05,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-06,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-07,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-08,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-09,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-10,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-11,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-12,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-13,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-14,
+          "full_rank": 33,
+          "nuisance_rank": 32,
+          "sigma_full_covariance_m_s": 179.5821319054686,
+          "sigma_nuisance_projection_m_s": 179.58213190546897,
+          "absolute_difference_m_s": 3.694822225952521e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        }
+      ],
+      "active_bounds": [
+        {
+          "label": "zero_2260",
+          "value": -0.019999999999999945,
+          "lower": -0.02,
+          "upper": 0.02,
+          "nearest_bound": "lower"
+        },
+        {
+          "label": "zero_2374",
+          "value": -0.019999999999999997,
+          "lower": -0.02,
+          "upper": 0.02,
+          "nearest_bound": "lower"
+        }
+      ],
+      "sigma_if_active_nuisance_parameters_artificially_frozen_m_s": 154.15260475538125,
+      "free_other_shifts": [
+        "shift_2260",
+        "shift_2344",
+        "shift_2586"
+      ],
+      "chi2": 68.99884189363918,
+      "nominal_ndf": 97,
+      "chi2_per_nominal_ndf": 0.7113282669447338,
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "optimizer_message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "target": "J004131-493611",
+      "fit_name": "J004131-493611_n6_shift_s3_expected_os33",
+      "fit_json_sha256": "ef5da7e671ae1b6d3195d8b57f635c11e96b9d315c38c17d2284621874cdea72",
+      "fit_npz_sha256": "50a4a971d570d705ef03ed7911e2f9fe5c81d2aca9ece3a5aa1e33b8f8bbefbe",
+      "ndata": 138,
+      "npar": 32,
+      "target_label": "shift_2382",
+      "target_parameter_index": 31,
+      "target_definition": "D = v_2382 - v_2374 = 1000 * shift_2382 in m/s; v_2374 is fixed at zero",
+      "D_m_s": 25.635436028083145,
+      "sigma_unrestricted_local_m_s": 327.0190430971121,
+      "all_remaining_parameters_nuisance": [
+        "logN_0",
+        "logN_1",
+        "logN_2",
+        "logN_3",
+        "logN_4",
+        "logN_5",
+        "v_0",
+        "v_1",
+        "v_2",
+        "v_3",
+        "v_4",
+        "v_5",
+        "logb_0",
+        "logb_1",
+        "logb_2",
+        "logb_3",
+        "logb_4",
+        "logb_5",
+        "cont0_1608",
+        "cont1_1608",
+        "zero_1608",
+        "logfwhm_1608",
+        "cont0_2374",
+        "cont1_2374",
+        "zero_2374",
+        "logfwhm_2374",
+        "cont0_2382",
+        "cont1_2382",
+        "zero_2382",
+        "logfwhm_2382",
+        "shift_1608"
+      ],
+      "sigma_QR_m_s": 327.01904309711193,
+      "sigma_inverse_gram_m_s": 327.01904309726393,
+      "unrestricted_tangent_abs_D_over_sigma": 0.07839126365638102,
+      "column_normalized_full_singular_values": [
+        2.0367695657754847,
+        2.0004161835064247,
+        1.70198588069591,
+        1.5524603403363568,
+        1.5064799481546953,
+        1.4332379896302212,
+        1.3387560739668156,
+        1.286082113390006,
+        1.140664901434344,
+        1.1043676865988237,
+        1.0473620304877993,
+        1.0248172979865566,
+        1.0000003005864273,
+        0.9497508494632558,
+        0.9380838133769591,
+        0.8476169601600754,
+        0.8069074851705177,
+        0.7130305441083865,
+        0.6713935298330327,
+        0.5507114563674765,
+        0.4363961682264048,
+        0.3996929855810381,
+        0.38512534731755826,
+        0.27389093080780574,
+        0.25068945721852853,
+        0.15686241797878364,
+        0.1289687258819237,
+        0.10160361985793173,
+        0.04433282564613844,
+        0.03260758482186517,
+        0.010011264486762136,
+        0.002829270511464673
+      ],
+      "column_normalized_nuisance_singular_values": [
+        2.0073659760720113,
+        1.8541135430641826,
+        1.688224854723303,
+        1.5498650772567997,
+        1.491730269523676,
+        1.4321695659678433,
+        1.3333960992987732,
+        1.2704966964470583,
+        1.1387284151242192,
+        1.0947311196526381,
+        1.044670580445094,
+        1.0241526522803037,
+        0.9952810265637825,
+        0.947031498812799,
+        0.9378230129045718,
+        0.8355658712192195,
+        0.8066419998367484,
+        0.7129959409412785,
+        0.6686118953128537,
+        0.544576390154746,
+        0.426270735808013,
+        0.39652200651284863,
+        0.3497736670728338,
+        0.25096266822864816,
+        0.2189110979349469,
+        0.13593999630224168,
+        0.10681115122598572,
+        0.07273931280087513,
+        0.0383472694289355,
+        0.010224282963721446,
+        0.002865129711404601
+      ],
+      "full_condition_number": 719.8921267945772,
+      "nuisance_condition_number": 700.6195803567721,
+      "cutoff_results": [
+        {
+          "relative_cutoff": 0.01,
+          "full_rank": 30,
+          "nuisance_rank": 29,
+          "sigma_full_covariance_m_s": 315.71142777847643,
+          "sigma_nuisance_projection_m_s": 316.65597241436194,
+          "absolute_difference_m_s": 0.9445446358855065,
+          "target_component_in_discarded_normalized_directions": 0.017607741265396964
+        },
+        {
+          "relative_cutoff": 0.001,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 0.0001,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-05,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-06,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-07,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-08,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-09,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-10,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-11,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-12,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-13,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        },
+        {
+          "relative_cutoff": 1e-14,
+          "full_rank": 32,
+          "nuisance_rank": 31,
+          "sigma_full_covariance_m_s": 327.0190430971121,
+          "sigma_nuisance_projection_m_s": 327.0190430971119,
+          "absolute_difference_m_s": 2.2737367544323206e-13,
+          "target_component_in_discarded_normalized_directions": 0.0
+        }
+      ],
+      "active_bounds": [
+        {
+          "label": "zero_2374",
+          "value": 0.01999999999999993,
+          "lower": -0.02,
+          "upper": 0.02,
+          "nearest_bound": "upper"
+        }
+      ],
+      "sigma_if_active_nuisance_parameters_artificially_frozen_m_s": 210.0293744231615,
+      "free_other_shifts": [
+        "shift_1608"
+      ],
+      "chi2": 104.53408491517065,
+      "nominal_ndf": 106,
+      "chi2_per_nominal_ndf": 0.9861706124072703,
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "optimizer_message": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "checks": [
+    {
+      "name": "J232128-105122: saved and evaluated Jacobian same",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122: saved and evaluated residual same",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122: objective replay",
+      "passed": true,
+      "detail": 68.99884189363918
+    },
+    {
+      "name": "J232128-105122: labels match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: 2374 is fixed anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: parameters agree with NPZ",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: all J finite and norms positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: base model hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: expected model hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: coadd hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 0.001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 0.0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: full rank and equal covariance/projection at cutoff 1e-14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122: independent QR projection agrees",
+      "passed": true,
+      "detail": 179.5821319054689
+    },
+    {
+      "name": "J232128-105122: inverse normalized Gram diagonal agrees",
+      "passed": true,
+      "detail": 179.58213190546485
+    },
+    {
+      "name": "J232128-105122: target derivative finite difference",
+      "passed": true,
+      "detail": 1.353675612847404e-07
+    },
+    {
+      "name": "J004131-493611: saved and evaluated Jacobian same",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611: saved and evaluated residual same",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611: objective replay",
+      "passed": true,
+      "detail": 104.53408491517065
+    },
+    {
+      "name": "J004131-493611: labels match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: 2374 is fixed anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: parameters agree with NPZ",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: all J finite and norms positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: base model hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: expected model hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: coadd hash matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 0.001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 0.0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: full rank and equal covariance/projection at cutoff 1e-14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611: independent QR projection agrees",
+      "passed": true,
+      "detail": 327.01904309711193
+    },
+    {
+      "name": "J004131-493611: inverse normalized Gram diagonal agrees",
+      "passed": true,
+      "detail": 327.01904309726393
+    },
+    {
+      "name": "J004131-493611: target derivative finite difference",
+      "passed": true,
+      "detail": 1.4269293853290065e-07
+    }
+  ],
+  "caveats": [
+    "Gauss-Newton local tangent covariance is evaluated at a constrained nonlinear optimum; it is not a profile-likelihood interval or an exact nonlinear Hessian result.",
+    "At-bound nuisance zero-level parameters are treated as free two-sided tangent directions in the requested formula. Actual allowed local perturbations form a cone, so the usual symmetric interval and standard Gaussian/Wilks interpretation are not established.",
+    "Freezing active nuisance parameters gives a different conditional diagnostic, not a justified replacement uncertainty.",
+    "All additional free H1 shifts are included among nuisance parameters. Omitting them or fixing all other shifts changes the question.",
+    "The row2 diagonal-noise assumption excludes correlated pixel noise, wavelength distortion and calibration uncertainty, model-selection uncertainty, gas-model adequacy and continuum/LSF model uncertainty.",
+    "No conversion of D/sigma into a discovery significance is justified by this mathematical check. No alpha or cosmic-time dependence is measured.",
+    "A cutoff of 0.01 discards two full-J directions for J004131; its truncated pseudoinverse and nuisance-only projection are different truncations. The discarded full-J subspace has a nonzero target coordinate, so the resulting finite pseudovariance is not an uncertainty for the unrestricted target parameter. Cutoffs <=0.001 preserve full rank for both targets."
+  ]
+}

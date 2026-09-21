@@ -1,0 +1,534 @@
+{
+  "timestamp_utc": "2026-09-20T15:37:17.476447+00:00",
+  "status": "PASS",
+  "checks_passed": 122,
+  "pdf_pages": 29,
+  "checks": [
+    {
+      "check": "Nine selected paired comparisons",
+      "passed": true
+    },
+    {
+      "check": "primary selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "primary exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "primary matching pixels",
+      "passed": true
+    },
+    {
+      "check": "expected_fluctuation selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "expected_fluctuation exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "expected_fluctuation matching pixels",
+      "passed": true
+    },
+    {
+      "check": "ar1_rho03 selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "ar1_rho03 exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "ar1_rho03 matching pixels",
+      "passed": true
+    },
+    {
+      "check": "lsf_minus3pct selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "lsf_minus3pct exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "lsf_minus3pct matching pixels",
+      "passed": true
+    },
+    {
+      "check": "lsf_plus3pct selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "lsf_plus3pct exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "lsf_plus3pct matching pixels",
+      "passed": true
+    },
+    {
+      "check": "omit_blended selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "omit_blended exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "omit_blended matching pixels",
+      "passed": true
+    },
+    {
+      "check": "opacity_zero selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "opacity_zero exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "opacity_zero matching pixels",
+      "passed": true
+    },
+    {
+      "check": "omit_saturated selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "omit_saturated exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "omit_saturated matching pixels",
+      "passed": true
+    },
+    {
+      "check": "wider_bounds selected optimizer stops",
+      "passed": true
+    },
+    {
+      "check": "wider_bounds exact paired objective",
+      "passed": true
+    },
+    {
+      "check": "wider_bounds matching pixels",
+      "passed": true
+    },
+    {
+      "check": "espresso_null_numerical_validation.json PASS",
+      "passed": true
+    },
+    {
+      "check": "espresso_null_numerical_validation.json check count",
+      "passed": true
+    },
+    {
+      "check": "espresso_fit_results_validation.json PASS",
+      "passed": true
+    },
+    {
+      "check": "espresso_fit_results_validation.json check count",
+      "passed": true
+    },
+    {
+      "check": "Saved-fit audit source hash",
+      "passed": true
+    },
+    {
+      "check": "espresso_conventional_null.png identical exported artifact",
+      "passed": true
+    },
+    {
+      "check": "espresso_conventional_null.pdf identical exported artifact",
+      "passed": true
+    },
+    {
+      "check": "espresso_null_robustness.png identical exported artifact",
+      "passed": true
+    },
+    {
+      "check": "espresso_null_robustness.pdf identical exported artifact",
+      "passed": true
+    },
+    {
+      "check": "Previous heatmap retained resource_precision_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "check": "Previous heatmap retained resource_precision_heatmap.png",
+      "passed": true
+    },
+    {
+      "check": "No overfull boxes or unresolved citations/references",
+      "passed": true
+    },
+    {
+      "check": "New PDF has physical analysis and results",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link espresso_null_method_audit.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link espresso_velocity_split_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link espresso_null_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link espresso_null_numerical_review.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link ../figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link ../figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link ../results/espresso_null/comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link espresso_null_method_audit.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link ../readme.md",
+      "passed": true
+    },
+    {
+      "check": "conventional_null_results_cn.md link ../../../paper/riemann_clock.pdf",
+      "passed": true
+    },
+    {
+      "check": "readme.md link experiment_protocol_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/public_spectra_audit.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/public_feii_windows.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/atomic_response_audit.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/instrument_roadmap.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/conditional_sensitivity.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/pixel_noise_pilot.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/forecast_summary.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/forecast_validation.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/pixel_pilot_validation.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/protocol_review.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/observed_profile_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/observed_registration.csv",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/data_informed_design.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/observed_metrics_independent_review.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/registration_validation.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/highz_manuscript_review.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "readme.md link data/source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link data/atomic/source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/espresso_null/comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/espresso_null_run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/espresso_null_method_audit.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/espresso_null_numerical_review.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link results/espresso_fit_results_validation.json",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/espresso_null_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/espresso_velocity_split_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link readme_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link paper/riemann_clock.pdf",
+      "passed": true
+    },
+    {
+      "check": "readme.md link paper/main.tex",
+      "passed": true
+    },
+    {
+      "check": "readme.md link paper/theory_sections.tex",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/revision_report_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/numerical_validation.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/citation_checks.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/draft_internal_review.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link reports/lambda_cosmos_comparison_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link experiments/highz_feasibility_2026-09-20/reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/he2021_precision.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/wei2026_experiment.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/conditional_resources.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/resource_precision_heatmap.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/highz_observed_profiles.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/highz_observed_registration.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "readme.md link data/raw/wei2026/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "readme.md link experiments/highz_feasibility_2026-09-20/reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "check": "readme.md link experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link readme.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link paper/riemann_clock.pdf",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link reports/revision_report_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link reports/numerical_validation.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link reports/experimental_sources_audit.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link reports/citation_checks.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link reports/lambda_cosmos_comparison_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link experiments/highz_feasibility_2026-09-20/experiment_protocol_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link experiments/highz_feasibility_2026-09-20/reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link figures/highz_observed_profiles.png",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link figures/highz_observed_registration.png",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link figures/resource_precision_heatmap.png",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link experiments/highz_feasibility_2026-09-20/reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "check": "readme_cn.md link experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "paper/riemann_clock.pdf",
+      "sha256": "5d4fed6f9f387754a751fdb3d26dfbe7a0cf8d1b0bb20af117c0dd05ab20e475",
+      "bytes": 905047
+    },
+    {
+      "path": "paper/espresso_null_section.tex",
+      "sha256": "760b6cc8a2cc80c06432c84a4c7457a2a802a0a4b094eab77512e3bd6fc18c4e",
+      "bytes": 8737
+    },
+    {
+      "path": "experiments/highz_feasibility_2026-09-20/reports/conventional_null_results_cn.md",
+      "sha256": "3705062404ab4792869b1b10bbec879980daae879850d6a6127a5e07c54e6595",
+      "bytes": 8196
+    },
+    {
+      "path": "experiments/highz_feasibility_2026-09-20/results/espresso_null/comparison.json",
+      "sha256": "eeb2ac846d3126e65ff94adf517b2b2fa3820099b4c8537153c10161ec0d4683",
+      "bytes": 7931
+    },
+    {
+      "path": "experiments/highz_feasibility_2026-09-20/results/espresso_null/selected_primary.json",
+      "sha256": "2120acc2b31ce5879c691fb2fdc50fbea8e3c668b89773f3fdf46e0c74bf120f",
+      "bytes": 298
+    },
+    {
+      "path": "experiments/highz_feasibility_2026-09-20/code/espresso_conventional_null.py",
+      "sha256": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+      "bytes": 14113
+    },
+    {
+      "path": "figures/espresso_conventional_null.pdf",
+      "sha256": "edbb1c5b51d0efbd7cb974350ce3c773813100604cf777d3663f53461509ff1e",
+      "bytes": 132826
+    }
+  ],
+  "scope": "Numerical and delivery validation, not a global-optimum certificate or validation of a new physical theory."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Full pixels, 45 components",
+    "ncomp": 45,
+    "ndata": 2931,
+    "null_parameters": 147,
+    "alternative_parameters": 152,
+    "null_chi2": 2231.3304707002785,
+    "alternative_chi2": 2202.09308641921,
+    "delta_chi2": 29.237384281068444,
+    "null_success": true,
+    "alternative_success": true
+  },
+  {
+    "label": "Joint $F<0.1$ mask + GLS",
+    "ncomp": 45,
+    "ndata": 2692,
+    "null_parameters": 147,
+    "alternative_parameters": 152,
+    "null_chi2": 1931.8960292678112,
+    "alternative_chi2": 1908.2031393734662,
+    "delta_chi2": 23.692889894344944,
+    "null_success": true,
+    "alternative_success": true
+  },
+  {
+    "label": "Joint padded $F<0.3$ mask + GLS",
+    "ncomp": 45,
+    "ndata": 2473,
+    "null_parameters": 147,
+    "alternative_parameters": 152,
+    "null_chi2": 1684.3593842122839,
+    "alternative_chi2": 1677.6640397602841,
+    "delta_chi2": 6.695344451999745,
+    "null_success": true,
+    "alternative_success": true
+  },
+  {
+    "label": "Full pixels, 40 components",
+    "ncomp": 40,
+    "ndata": 2931,
+    "null_parameters": 132,
+    "alternative_parameters": 137,
+    "null_chi2": 2255.1558043823798,
+    "alternative_chi2": 2236.2902946712734,
+    "delta_chi2": 18.86550971110637,
+    "null_success": true,
+    "alternative_success": true
+  }
+]

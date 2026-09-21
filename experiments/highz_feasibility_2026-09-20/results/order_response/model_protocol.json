@@ -1,0 +1,17 @@
+{
+  "status": "Frozen before examining new model-comparison outputs",
+  "purpose": "Diagnose the same-transition adjacent-order discrepancy; not fit a cosmic-time law.",
+  "primary_transition": 2600,
+  "control_transition": 2382,
+  "data": "All 17 previously selected native ESPRESSO exposures and unchanged final masks",
+  "gas_template": "Previously saved null_cross 45-component FeII gas model, held fixed",
+  "continuum": "Profile independent amplitude, linear slope and additive zero for every exposure/order/trace row",
+  "kinematics": "One common velocity per exposure; optional constant lower-minus-upper order velocity difference",
+  "lsf": "One equivalent-RMS Gaussian FWHM per order, shared across exposures and traces; bounds [1.6,2.6] km/s",
+  "positive_centered_asymmetric_kernel": "0.8 N(-0.2 d,sigma_g^2)+0.2 N(0.8 d,sigma_g^2), sigma_g^2=(FWHM/2.354820045)^2-0.16 d^2, d=1.2 cbrt(a) km/s; a in [-1,1]. Unit area, zero centroid, fixed total variance, third central moment=0.165888 a (km/s)^3.",
+  "models": ["G0: Gaussian LSF, no order offset", "G1: Gaussian LSF, one order offset", "A0: centered asymmetric LSF per order, no order offset", "A1: centered asymmetric LSF per order, one order offset"],
+  "optimization": "Matched pixels/nuisances. Gaussian starts at previous primary exposure velocities and nominal widths; asymmetric starts at a=(0,0),(0.5,-0.5),(-0.5,0.5). Preserve all starts, select minimum successful objective; record bounds and Jacobian degeneracy.",
+  "order_offset_bound_km_s": [-0.3,0.3],
+  "checks": ["actual raw conditional chi-square improvements", "offset standard error and correlation with asymmetry", "profile diagnostics and residual patterns", "held-out 2019-2020 exposures: fit shape/calibration on 2018 exposures then freeze shape/calibration and refit only held-out common exposure velocities and row continua"],
+  "interpretation": "This family is a bounded sensitivity experiment, not a measured ESPRESSO instrumental response. Gaussian-width changes do not probe asymmetry. A zero-centroid LSF avoids exact kernel translation but cannot eliminate blend/shape/offset degeneracy. No discovery p-value or causal attribution from flexibility alone. No model selected only to remove the offset."
+}

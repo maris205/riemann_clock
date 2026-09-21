@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "lambda-cosmos_v1_latex.pdf",
+  "sha256": "042eb4e99f790260af41f403c835e8a49977af61e69e9e1a119b05bb6f9661f1",
+  "declared_page_count": 22,
+  "enumerated_page_count": 22,
+  "reader_page_count": 22,
+  "warnings": [],
+  "generated_at": "2026-09-20T12:53:21.183335+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

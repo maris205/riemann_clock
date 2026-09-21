@@ -1,0 +1,4705 @@
+{
+  "scope": "Independent secondary-screen arithmetic and arrays reconstructed directly from original FITS tar members; no analysis-code imports",
+  "passed": true,
+  "n_checks": 939,
+  "n_spectra": 32,
+  "strict_eligible": 7,
+  "failures": [],
+  "checks": [
+    {
+      "name": "strict J000149-015939:2.095",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J000149-015939:2.154",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J000443-555044:1.886",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J000651-620803:2.97",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J000651-620803:3.202",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J000815-095854:1.768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J001306+000431:2.025",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J001602-001225:1.973",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J003023-181956:2.402",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004054-091526:4.74",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004131-493611:2.248",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004216-333754:2.224",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004435-262259:2.549",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004508-291432:1.809",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J004508-291432:1.936",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J005127-280433:2.071",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J010104-285801:2.671",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J010311+131617:2.309",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J010516-184642:2.37",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J011453+031457:2.423",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J011504-302514:2.418",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J011504-302514:2.702",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J012517-001828:1.761",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J012550-535225:2.837",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J013340+040059:3.692",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J013340+040059:3.773",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J013754-270736:2.107",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J013754-270736:2.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J013901-082444:2.677",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J014049-083942:3.696",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J014214+002324:3.348",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J020900-455026:2.349",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J020944+051713:3.666",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J020944+051713:3.863",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J021741-370059:2.429",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J021741-370059:2.514",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J021857+081727:2.293",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J024449-290449:2.56",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J025240-553832:2.34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J025634-401300:2.046",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J030211-314030:2.179",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J030722-494548:4.466",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J032412-320259:2.243",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J033025-495403:1.893",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J033413-161205:3.557",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J033854-000521:2.23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J033900-013317:3.062",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J034943-381030:3.025",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J040718-441013:1.913",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J040718-441013:2.551",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J040718-441013:2.595",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J040718-441013:2.621",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J041656-284340:1.719",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J042353-261801:2.157",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J042644-520819:2.224",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J043255-355030:1.961",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J043403-435547:2.302",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J044017-433308:2.347",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J044534-354704:2.408",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J045313-130555:2.067",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J050112-015914:2.04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J053007-250329:2.141",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J053007-250329:2.811",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J055246-363727:1.962",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J060008-504036:2.149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J064326-504112:2.659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J080916+053941:2.319",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J081634+144612:3.287",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J082003+155932:1.926",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J083932+111206:2.465",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J084424+124546:1.864",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J084424+124546:2.375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J084424+124546:2.476",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J091613+070224:2.618",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J093509-333237:2.682",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J094008+023209:2.565",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J094438+194111:2.655",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J095355-050418:3.858",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J095355-050418:4.203",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J095500-013006:4.024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J103842-272912:2.792",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J103909-231326:2.777",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J104252+011736:2.267",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J105744+062914:2.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J105800-302455:1.904",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J110855+120953:3.396",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J111109+144238:2.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J111113-080401:3.608",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J111119+133603:3.201",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J111350-153333:3.265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J112010-134625:3.35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J115122+020426:1.969",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J115411+063427:1.775",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J115538+053050:2.608",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J115538+053050:3.327",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J115944+011206:1.944",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J120523-074232:4.383",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J120550+020131:1.747",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J121134+090220:2.584",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J121303+171423:1.892",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J122040+092326:3.133",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J122607+173649:2.466",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J122848-010414:2.263",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J123313-102518:1.931",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J123437+075843:2.338",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J124020+145535:3.024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J124524-000938:1.824",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J124924-023339:1.781",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J125316+114720:2.944",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J133335+164903:1.776",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J133941+054822:2.585",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J134002+110630:2.796",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J135334-031022:2.56",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J135646-110128:2.501",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J135646-110128:2.967",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J141217+091624:2.019",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J141217+091624:2.456",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J144331+272436:4.224",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J145418+121053:2.255",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J145418+121053:2.469",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J172323+224357:3.697",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J210244-355307:3.083",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J213605-430818:1.916",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J214159-441325:2.383",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J214159-441325:2.852",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J215502+135825:3.316",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J220852-194359:1.921",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J220852-194359:2.076",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J222540-392436:2.154",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J222826-400957:1.965",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J223235+024755:1.864",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J223408+000001:2.066",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J223953-055220:4.079",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J224708-601545:2.331",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J224931-441730:1.893",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J225310-365815:2.741",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J225719-100104:1.836",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J230001-341319:2.129",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J231359-370446:2.182",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J231646-404120:1.857",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J231857-095551:1.93",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J232115+142131:2.573",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J232128-105122:1.629",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J232128-105122:1.989",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J233156-090802:2.143",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J233446-090812:3.057",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J234403+034226:3.219",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J234451+343348:2.909",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J234512-433814:2.612",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J234625+124743:2.574",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J234628+124858:2.431",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J235057-005209:2.426",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J235057-005209:2.615",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J235129-142756:2.279",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict J235702-004824:2.479",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict eligible count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict additional selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict provenance catalogue_screen_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict provenance source_paper_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict provenance atomic_data_sha256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial frozen-policy hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial screen hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict manifest hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial eight distinct targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete scope hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete source screen hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete all36absorbers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete all32sightlines",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete zero download failures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete total archive bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J000815-095854 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010311+131617 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J010516-184642 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J012517-001828 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J021857+081727 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J040718-441013 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J041656-284340 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044017-433308 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J044534-354704 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J053007-250329 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J064326-504112 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J084424+124546 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J091613+070224 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115122+020426 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115411+063427 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115538+053050 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J115944+011206 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J120550+020131 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J124924-023339 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J133335+164903 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J141217+091624 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J214159-441325 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J220852-194359 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J224708-601545 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J225719-100104 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J233156-090802 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234512-433814 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J234628+124858 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235057-005209 observation dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 archive length",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 9-row schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 log scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 FITS dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 monotonic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array flux",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array expected_fluctuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array continuum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array n_contrib_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array n_contrib_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array chi2_before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 array chi2_after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 valid count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 exposure count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 dispersion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 elapsed exposure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J235129-142756 observation dates",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

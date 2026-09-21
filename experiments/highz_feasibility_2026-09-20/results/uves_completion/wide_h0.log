@@ -1,0 +1,134 @@
+wide_h0: ndata=511, npar=147, initial chi2=398.117761881, mapping=0.557908
+wide_h0: nfev 25, best chi2 398.099611144, trial 398.099611144
+wide_h0: nfev 50, best chi2 398.081624893, trial 398.081624893
+wide_h0: nfev 75, best chi2 398.062465623, trial 398.062465623
+wide_h0: nfev 100, best chi2 398.048426099, trial 398.048426099
+wide_h0: nfev 125, best chi2 398.024735824, trial 398.024735824
+wide_h0: nfev 150, best chi2 398.011542897, trial 398.011542897
+wide_h0: nfev 175, best chi2 397.999214228, trial 397.999214228
+wide_h0: nfev 200, best chi2 397.984888615, trial 398.002431228
+wide_h0: nfev 225, best chi2 397.974536015, trial 397.974536015
+wide_h0: nfev 250, best chi2 397.966053732, trial 397.966053732
+wide_h0: nfev 275, best chi2 397.952008769, trial 397.952008769
+wide_h0: nfev 300, best chi2 397.948363511, trial 397.948363511
+wide_h0: nfev 325, best chi2 397.945017561, trial 397.945017561
+wide_h0: nfev 350, best chi2 397.942084716, trial 397.942084716
+wide_h0: nfev 375, best chi2 397.939389774, trial 397.939389774
+wide_h0: nfev 400, best chi2 397.935806213, trial 397.935806213
+wide_h0: nfev 425, best chi2 397.932411154, trial 397.932411154
+wide_h0: nfev 450, best chi2 397.929770118, trial 397.930424864
+wide_h0: nfev 475, best chi2 397.928788772, trial 397.928788772
+wide_h0: nfev 500, best chi2 397.927883160, trial 397.927883160
+wide_h0: nfev 525, best chi2 397.927054320, trial 397.927054320
+wide_h0: nfev 550, best chi2 397.926263800, trial 397.926263800
+wide_h0: nfev 575, best chi2 397.925537270, trial 397.925537270
+wide_h0: nfev 600, best chi2 397.924831704, trial 397.924831704
+wide_h0: nfev 625, best chi2 397.924181834, trial 397.924181834
+wide_h0: nfev 650, best chi2 397.923540572, trial 397.923540572
+wide_h0: nfev 675, best chi2 397.922960932, trial 397.922960932
+wide_h0: nfev 700, best chi2 397.921727325, trial 397.921727325
+wide_h0: nfev 725, best chi2 397.920860220, trial 397.920860220
+wide_h0: nfev 750, best chi2 397.919999396, trial 397.919999396
+wide_h0: nfev 775, best chi2 397.918889309, trial 397.919023052
+wide_h0: nfev 800, best chi2 397.917912486, trial 397.918619692
+wide_h0: nfev 825, best chi2 397.917128514, trial 397.917128514
+wide_h0: nfev 850, best chi2 397.916700033, trial 397.916700033
+wide_h0: nfev 875, best chi2 397.916203819, trial 397.916203819
+wide_h0: nfev 900, best chi2 397.915768171, trial 397.915768171
+wide_h0: nfev 925, best chi2 397.915027699, trial 397.915027699
+wide_h0: nfev 950, best chi2 397.914483467, trial 397.914483467
+wide_h0: nfev 975, best chi2 397.913942755, trial 397.913942755
+wide_h0: nfev 1000, best chi2 397.913699100, trial 397.913699100
+wide_h0: nfev 1025, best chi2 397.913461842, trial 397.913461842
+wide_h0: nfev 1050, best chi2 397.913225420, trial 397.913225420
+wide_h0: nfev 1075, best chi2 397.912995259, trial 397.912995259
+wide_h0: nfev 1100, best chi2 397.912765400, trial 397.912765400
+wide_h0: nfev 1125, best chi2 397.912541432, trial 397.912541432
+wide_h0: nfev 1150, best chi2 397.912317100, trial 397.912317100
+wide_h0: nfev 1175, best chi2 397.912098464, trial 397.912098464
+wide_h0: nfev 1200, best chi2 397.911878758, trial 397.911878758
+wide_h0: nfev 1225, best chi2 397.911664337, trial 397.911664337
+wide_h0: nfev 1250, best chi2 397.911448164, trial 397.911448164
+wide_h0: nfev 1275, best chi2 397.911236849, trial 397.911236849
+wide_h0: nfev 1300, best chi2 397.911023135, trial 397.911023135
+wide_h0: nfev 1325, best chi2 397.910813755, trial 397.910813755
+wide_h0: nfev 1350, best chi2 397.910601305, trial 397.910601305
+wide_h0: nfev 1375, best chi2 397.910392578, trial 397.910392578
+wide_h0: nfev 1400, best chi2 397.910180062, trial 397.910180062
+wide_h0: nfev 1425, best chi2 397.909970553, trial 397.909970553
+wide_h0: nfev 1450, best chi2 397.909756492, trial 397.909756492
+wide_h0: nfev 1475, best chi2 397.909544545, trial 397.909544545
+wide_h0: nfev 1500, best chi2 397.909327257, trial 397.909327257
+wide_h0: nfev 1525, best chi2 397.909110990, trial 397.909110990
+wide_h0: nfev 1550, best chi2 397.908888500, trial 397.908888500
+wide_h0: nfev 1575, best chi2 397.908665602, trial 397.908665602
+wide_h0: nfev 1600, best chi2 397.908435517, trial 397.908435517
+wide_h0: nfev 1625, best chi2 397.908203555, trial 397.908203555
+wide_h0: nfev 1650, best chi2 397.907963158, trial 397.907963158
+wide_h0: nfev 1675, best chi2 397.907718981, trial 397.907718981
+wide_h0: nfev 1700, best chi2 397.907465036, trial 397.907465036
+wide_h0: nfev 1725, best chi2 397.907204716, trial 397.907204716
+wide_h0: nfev 1750, best chi2 397.906761519, trial 397.906761519
+wide_h0: nfev 1775, best chi2 397.906296128, trial 397.906296128
+wide_h0: nfev 1800, best chi2 397.905461382, trial 397.905461382
+{
+  "name": "wide_h0",
+  "chi2": 397.905461381982,
+  "nfev": 1800,
+  "optimizer_success": false,
+  "optimizer_status": 0,
+  "optimality": 0.03063035564458739,
+  "stationarity": {
+    "objective": "0.5 * sum squared weighted residuals",
+    "unit_box_gradient_mapping_inf": 0.07158324975317387,
+    "unit_box_mapping_definition": "q=(p-lo)/(hi-lo); gq=(hi-lo)*(J.T@r); infinity norm of q-clip(q-gq,0,1)",
+    "raw_gradient_inf": 2.8061428010181593,
+    "projected_gradient_inf": 0.024959616383075284,
+    "projected_column_normalized_gradient_inf": 0.0015911591352396814,
+    "max_bound_violation": 0.0,
+    "nearest_normalized_bound_distance": 4.1908513507883343e-17,
+    "near_lower": [
+      72,
+      73,
+      92,
+      107,
+      110,
+      112,
+      124,
+      126
+    ],
+    "near_upper": [
+      48,
+      60,
+      65,
+      70,
+      77
+    ],
+    "most_nonstationary_parameter_index": 39
+  },
+  "stationarity_criteria": {
+    "scipy_scaled_gradient_below_1e_6": false,
+    "unit_box_mapping_below_1e_5": false
+  },
+  "shifts_km_s": {},
+  "lsf_scale": {
+    "2374": 0.657994471672099,
+    "2382": 0.665302186058523,
+    "2600": 0.6738580848725065
+  },
+  "active_bounds": [
+    "v_3",
+    "v_15",
+    "v_20",
+    "v_25",
+    "v_27",
+    "v_28",
+    "v_32",
+    "logb_2",
+    "logb_17",
+    "logb_20",
+    "logb_22",
+    "logb_34",
+    "logb_36"
+  ]
+}

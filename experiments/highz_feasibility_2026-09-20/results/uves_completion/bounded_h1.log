@@ -1,0 +1,139 @@
+bounded_h1: ndata=511, npar=149, initial chi2=388.135362275, mapping=0.0691498
+bounded_h1: nfev 25, best chi2 388.133812248, trial 388.133812248
+bounded_h1: nfev 50, best chi2 388.132701205, trial 388.132701205
+bounded_h1: nfev 75, best chi2 388.131173821, trial 388.131173821
+bounded_h1: nfev 100, best chi2 388.129766162, trial 388.129766162
+bounded_h1: nfev 125, best chi2 388.128952323, trial 388.128952323
+bounded_h1: nfev 150, best chi2 388.128183797, trial 388.128215360
+bounded_h1: nfev 175, best chi2 388.127687055, trial 388.127687055
+bounded_h1: nfev 200, best chi2 388.127208940, trial 388.127208940
+bounded_h1: nfev 225, best chi2 388.126706260, trial 388.126706260
+bounded_h1: nfev 250, best chi2 388.126390469, trial 388.126390469
+bounded_h1: nfev 275, best chi2 388.126048266, trial 388.126048266
+bounded_h1: nfev 300, best chi2 388.125693092, trial 388.125693092
+bounded_h1: nfev 325, best chi2 388.125305539, trial 388.125540945
+bounded_h1: nfev 350, best chi2 388.125016083, trial 388.125055533
+bounded_h1: nfev 375, best chi2 388.124743457, trial 388.124743457
+bounded_h1: nfev 400, best chi2 388.124493615, trial 388.124493615
+bounded_h1: nfev 425, best chi2 388.124222149, trial 388.124222149
+bounded_h1: nfev 450, best chi2 388.123915258, trial 388.123915258
+bounded_h1: nfev 475, best chi2 388.123474802, trial 388.123532679
+bounded_h1: nfev 500, best chi2 388.123053908, trial 388.123053908
+bounded_h1: nfev 525, best chi2 388.122688185, trial 388.122688185
+bounded_h1: nfev 550, best chi2 388.122293921, trial 388.122293921
+bounded_h1: nfev 575, best chi2 388.121879435, trial 388.121879435
+bounded_h1: nfev 600, best chi2 388.121425161, trial 388.121425161
+bounded_h1: nfev 625, best chi2 388.120993980, trial 388.120993980
+bounded_h1: nfev 650, best chi2 388.120612037, trial 388.120612037
+bounded_h1: nfev 675, best chi2 388.120261771, trial 388.120264124
+bounded_h1: nfev 700, best chi2 388.119787051, trial 388.119789828
+bounded_h1: nfev 725, best chi2 388.119406161, trial 388.119406161
+bounded_h1: nfev 750, best chi2 388.119051134, trial 388.119051134
+bounded_h1: nfev 775, best chi2 388.118808376, trial 388.118808376
+bounded_h1: nfev 800, best chi2 388.118378341, trial 388.118378341
+bounded_h1: nfev 825, best chi2 388.118028383, trial 388.118028383
+bounded_h1: nfev 850, best chi2 388.117742012, trial 388.117742012
+bounded_h1: nfev 875, best chi2 388.117278041, trial 388.117444445
+bounded_h1: nfev 900, best chi2 388.116925793, trial 388.116925793
+bounded_h1: nfev 925, best chi2 388.116641264, trial 388.116641264
+bounded_h1: nfev 950, best chi2 388.116388762, trial 388.116388762
+bounded_h1: nfev 975, best chi2 388.116105208, trial 388.116109252
+bounded_h1: nfev 1000, best chi2 388.115776266, trial 388.115776266
+bounded_h1: nfev 1025, best chi2 388.115308537, trial 388.115399207
+bounded_h1: nfev 1050, best chi2 388.115018012, trial 388.115018012
+bounded_h1: nfev 1075, best chi2 388.114649852, trial 388.114649852
+bounded_h1: nfev 1100, best chi2 388.114318421, trial 388.114318421
+bounded_h1: nfev 1125, best chi2 388.113745492, trial 388.113745492
+bounded_h1: nfev 1150, best chi2 388.113102262, trial 388.113106402
+bounded_h1: nfev 1175, best chi2 388.112786716, trial 388.112850124
+bounded_h1: nfev 1200, best chi2 388.112610787, trial 388.112614192
+bounded_h1: nfev 1225, best chi2 388.112285694, trial 388.112285694
+bounded_h1: nfev 1250, best chi2 388.112061049, trial 388.112061049
+bounded_h1: nfev 1275, best chi2 388.111763285, trial 388.111763285
+bounded_h1: nfev 1300, best chi2 388.111370859, trial 388.111370859
+bounded_h1: nfev 1325, best chi2 388.111091754, trial 388.111091754
+bounded_h1: nfev 1350, best chi2 388.110800546, trial 388.110800546
+bounded_h1: nfev 1375, best chi2 388.110608770, trial 388.110608770
+bounded_h1: nfev 1400, best chi2 388.110320155, trial 388.110320155
+bounded_h1: nfev 1425, best chi2 388.110114494, trial 388.110114494
+bounded_h1: nfev 1450, best chi2 388.110011001, trial 388.110011001
+bounded_h1: nfev 1475, best chi2 388.109907165, trial 388.109907165
+bounded_h1: nfev 1500, best chi2 388.109804648, trial 388.109804648
+bounded_h1: nfev 1525, best chi2 388.109701749, trial 388.109701749
+bounded_h1: nfev 1550, best chi2 388.109600071, trial 388.109600071
+bounded_h1: nfev 1575, best chi2 388.109497926, trial 388.109497926
+bounded_h1: nfev 1600, best chi2 388.109396991, trial 388.109396991
+bounded_h1: nfev 1625, best chi2 388.109295520, trial 388.109295520
+bounded_h1: nfev 1650, best chi2 388.109195209, trial 388.109195209
+bounded_h1: nfev 1675, best chi2 388.109094308, trial 388.109094308
+bounded_h1: nfev 1700, best chi2 388.108994528, trial 388.108994528
+bounded_h1: nfev 1725, best chi2 388.108894086, trial 388.108894086
+bounded_h1: nfev 1750, best chi2 388.108794721, trial 388.108794721
+bounded_h1: nfev 1775, best chi2 388.108694628, trial 388.108694628
+bounded_h1: nfev 1800, best chi2 388.108595562, trial 388.108595562
+{
+  "name": "bounded_h1",
+  "chi2": 388.10859556189683,
+  "nfev": 1800,
+  "optimizer_success": false,
+  "optimizer_status": 0,
+  "optimality": 0.0211666597747811,
+  "stationarity": {
+    "objective": "0.5 * sum squared weighted residuals",
+    "unit_box_gradient_mapping_inf": 0.04988976444140614,
+    "unit_box_mapping_definition": "q=(p-lo)/(hi-lo); gq=(hi-lo)*(J.T@r); infinity norm of q-clip(q-gq,0,1)",
+    "raw_gradient_inf": 17.209337885200043,
+    "projected_gradient_inf": 0.01247244111035154,
+    "projected_column_normalized_gradient_inf": 0.000763096494737305,
+    "max_bound_violation": 0.0,
+    "nearest_normalized_bound_distance": 4.1908513507883343e-17,
+    "near_lower": [
+      72,
+      73,
+      92,
+      107,
+      110,
+      112,
+      124,
+      126,
+      146
+    ],
+    "near_upper": [
+      48,
+      60,
+      65,
+      70,
+      77
+    ],
+    "most_nonstationary_parameter_index": 27
+  },
+  "stationarity_criteria": {
+    "scipy_scaled_gradient_below_1e_6": false,
+    "unit_box_mapping_below_1e_5": false
+  },
+  "shifts_km_s": {
+    "2382": -0.13991059974590814,
+    "2600": -0.13203675054202121
+  },
+  "lsf_scale": {
+    "2374": 0.65,
+    "2382": 0.6591634717301654,
+    "2600": 0.6669191694758496
+  },
+  "active_bounds": [
+    "v_3",
+    "v_15",
+    "v_20",
+    "v_25",
+    "v_27",
+    "v_28",
+    "v_32",
+    "logb_2",
+    "logb_17",
+    "logb_20",
+    "logb_22",
+    "logb_34",
+    "logb_36",
+    "log_lsf_scale_2374"
+  ]
+}

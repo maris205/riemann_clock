@@ -1,0 +1,118 @@
+{
+  "case": "core01",
+  "null": "core01_null_cross_continued_alternative",
+  "alternative": "core01_alternative_cross_continued",
+  "ndata": 2692,
+  "added_parameters": 5,
+  "delta_chi2": 41.65934492451879,
+  "null_success": true,
+  "alternative_success": true,
+  "shifts_m_s": {
+    "2260": 88.82451348606875,
+    "2344": -39.27458977994744,
+    "2382": -106.51548563897067,
+    "2586": -2.4091727724841423,
+    "2600": -109.26213999043121
+  },
+  "mask_audit": [
+    {
+      "line": 2260,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 277,
+      "removed_pixels": 0,
+      "retained_pixels": 277
+    },
+    {
+      "line": 2344,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 430,
+      "removed_pixels": 0,
+      "retained_pixels": 430
+    },
+    {
+      "line": 2374,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 508,
+      "removed_pixels": 0,
+      "retained_pixels": 508
+    },
+    {
+      "line": 2382,
+      "threshold": 0.1,
+      "padding_km_s": 0.0,
+      "original_pixels": 579,
+      "removed_pixels": 125,
+      "retained_pixels": 454
+    },
+    {
+      "line": 2586,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 560,
+      "removed_pixels": 0,
+      "retained_pixels": 560
+    },
+    {
+      "line": 2600,
+      "threshold": 0.1,
+      "padding_km_s": 0.0,
+      "original_pixels": 577,
+      "removed_pixels": 114,
+      "retained_pixels": 463
+    }
+  ],
+  "selection": "Lowest objective among successful recorded endpoints; optimizer termination does not certify stationarity or global minimality.",
+  "recorded_trials": [
+    {
+      "name": "core01_null",
+      "free_shifts": false,
+      "chi2": 2013.591679166955,
+      "optimizer_success": true,
+      "nfev": 81,
+      "optimality": 6.4142703175308275
+    },
+    {
+      "name": "core01_alternative",
+      "free_shifts": true,
+      "chi2": 1967.0916027263495,
+      "optimizer_success": true,
+      "nfev": 282,
+      "optimality": 4.498121668969832
+    },
+    {
+      "name": "core01_alternative_cross",
+      "free_shifts": true,
+      "chi2": 1964.356306211508,
+      "optimizer_success": false,
+      "nfev": 350,
+      "optimality": 91.20338878219394
+    },
+    {
+      "name": "core01_alternative_cross_continued",
+      "free_shifts": true,
+      "chi2": 1962.9795403381997,
+      "optimizer_success": true,
+      "nfev": 63,
+      "optimality": 0.044960795357693394
+    },
+    {
+      "name": "core01_null_cross",
+      "free_shifts": false,
+      "chi2": 2004.6987536911017,
+      "optimizer_success": true,
+      "nfev": 192,
+      "optimality": 12.091215059531265
+    },
+    {
+      "name": "core01_null_cross_continued_alternative",
+      "free_shifts": false,
+      "chi2": 2004.6388852627185,
+      "optimizer_success": true,
+      "nfev": 163,
+      "optimality": 0.09282703615080765
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "target": "J225719-100104",
+  "selected_null": "n30_null_extension_refined_os21",
+  "ncomp": 30,
+  "passes_conditional_adequacy_gate": true,
+  "extension_count_records": [
+    {
+      "name": "n26_null_extension_s0_os9",
+      "ncomp": 26,
+      "chi2": 556.0392359277721,
+      "aicc": 775.7002528769247,
+      "optimizer_success": false
+    },
+    {
+      "name": "n26_null_extension_s1_os9",
+      "ncomp": 26,
+      "chi2": 556.4052983029186,
+      "aicc": 776.0663152520711,
+      "optimizer_success": true
+    },
+    {
+      "name": "n26_null_extension_s2_os9",
+      "ncomp": 26,
+      "chi2": 504.6872865962673,
+      "aicc": 724.3483035454199,
+      "optimizer_success": true
+    },
+    {
+      "name": "n30_null_extension_s0_os9",
+      "ncomp": 30,
+      "chi2": 545.4257343530711,
+      "aicc": 801.8247368468367,
+      "optimizer_success": false
+    },
+    {
+      "name": "n30_null_extension_s1_os9",
+      "ncomp": 30,
+      "chi2": 463.71796906379603,
+      "aicc": 720.1169715575617,
+      "optimizer_success": true
+    },
+    {
+      "name": "n30_null_extension_s2_os9",
+      "ncomp": 30,
+      "chi2": 422.1879283618181,
+      "aicc": 678.5869308555837,
+      "optimizer_success": false
+    }
+  ],
+  "unchanged_original_summary": "ordinary_model_summary.json",
+  "extension_protocol": "count_extension_protocol.json"
+}

@@ -1,0 +1,260 @@
+{
+  "created_utc": "2026-09-21T03:54:45.587823+00:00",
+  "checks": [
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/schmidt_bouchy_2024.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/schmidt_iodine_2025.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/schmidt_eom_2026.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/murphy_he0515_2022.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/schmidt_bouchy_2024_publisher.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20200227.json",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_first_science.json",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20181104.json",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_lfc_20191126.json",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20181104_raw2raw.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20181104_raw2master.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20200228_raw2raw.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_association_20200228_raw2master.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_pipeline_3_6_0.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_pipeline_manual_3_6_0.pdf",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tree_20181104_raw2master.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tree_20200228_raw2master.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tree_20181104_raw2raw.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tree_20200228_raw2raw.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_00_29.171.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_02_16.682.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_55_54.031.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_58_00.121.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T10_05_57.309.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T10_07_44.772.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T11_03_18.276.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T11_05_24.377.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_03_22.561.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_05_10.024.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_58_52.643.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T11_00_59.070.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T10_12_28.137.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T10_14_15.583.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T11_08_04.895.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T11_10_13.124.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_04_47.368.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_09_58.138.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_12_51.493.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_17_28.751.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_23_35.611.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_26_10.991.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_29_36.495.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_08_38.487.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_10_44.050.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_21_23.803.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_24_30.248.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T10_59_40.256.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_01_53.397.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_05_28.563.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_11_15.816.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T11_45_55.456.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T11_50_24.931.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T12_27_43.978.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T12_51_03.082.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T12_29_36.495.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T14_21_23.803.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T14_24_30.248.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2018-11-04T11_03_18.276.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2018-11-04T11_05_24.377.xml",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_master_header_M.ESPRESSO.2020-08-20T15_18_43.546.html",
+      "pass": true
+    },
+    {
+      "check": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_master_header_M.ESPRESSO.2020-09-08T00_00_52.600.html",
+      "pass": true
+    },
+    {
+      "check": "17 directly matched mode candidates",
+      "pass": true
+    },
+    {
+      "check": "17 native source headers use expectedmode and pipeline",
+      "pass": true
+    }
+  ],
+  "passed": 63,
+  "total": 63,
+  "scope": "Saved retrieval checksums and explicit mode-count consistency; not a calibration science validation."
+}

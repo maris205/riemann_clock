@@ -1,0 +1,43 @@
+{
+  "free_name": "n30_shift_recovered_os21",
+  "free_chi2": 407.71691680209335,
+  "grid": [
+    {
+      "value_m_s": -473.41993429963,
+      "chi2": 412.04526476597476,
+      "delta_from_free": 4.328347963881413,
+      "optimizer_success": true,
+      "name": "n30_profile2382_recovered_0_os21"
+    },
+    {
+      "value_m_s": -244.57881980324586,
+      "chi2": 408.81877804331117,
+      "delta_from_free": 1.1018612412178186,
+      "optimizer_success": true,
+      "name": "n30_profile2382_recovered_1_os21"
+    },
+    {
+      "value_m_s": -15.737705306861711,
+      "chi2": 407.71677684796185,
+      "delta_from_free": -0.0001399541314981434,
+      "optimizer_success": true,
+      "name": "n30_profile2382_recovered_2_os21"
+    },
+    {
+      "value_m_s": 213.1034091895224,
+      "chi2": 408.43823647098225,
+      "delta_from_free": 0.7213196688888956,
+      "optimizer_success": true,
+      "name": "n30_profile2382_recovered_3_os21"
+    },
+    {
+      "value_m_s": 441.9445236859066,
+      "chi2": 411.5119697748235,
+      "delta_from_free": 3.7950529727301614,
+      "optimizer_success": false,
+      "name": "n30_profile2382_recovered_4_os21"
+    }
+  ],
+  "supersedes": "pair_profile_before_lower_endpoint_recovery.json",
+  "interpretation": "Sparse nuisance-profile diagnostic. Lowerprofilepoint would be an optimization warning, not negativeconfidence statistic."
+}

@@ -1,0 +1,139 @@
+wide_h1: ndata=511, npar=149, initial chi2=388.135362271, mapping=0.254817
+wide_h1: nfev 25, best chi2 387.790921607, trial 387.791049582
+wide_h1: nfev 50, best chi2 387.786219481, trial 387.786219481
+wide_h1: nfev 75, best chi2 387.783858121, trial 387.783899303
+wide_h1: nfev 100, best chi2 387.782369330, trial 387.782369330
+wide_h1: nfev 125, best chi2 387.781880029, trial 387.781880029
+wide_h1: nfev 150, best chi2 387.781506873, trial 387.781506873
+wide_h1: nfev 175, best chi2 387.780729628, trial 387.780729628
+wide_h1: nfev 200, best chi2 387.780219838, trial 387.780442744
+wide_h1: nfev 225, best chi2 387.779997717, trial 387.779997717
+wide_h1: nfev 250, best chi2 387.779741274, trial 387.779741274
+wide_h1: nfev 275, best chi2 387.779319700, trial 387.779319700
+wide_h1: nfev 300, best chi2 387.779096995, trial 387.779168166
+wide_h1: nfev 325, best chi2 387.778920476, trial 387.778920476
+wide_h1: nfev 350, best chi2 387.778652193, trial 387.778652193
+wide_h1: nfev 375, best chi2 387.778428543, trial 387.778428543
+wide_h1: nfev 400, best chi2 387.778267400, trial 387.778267400
+wide_h1: nfev 425, best chi2 387.778133739, trial 387.778133739
+wide_h1: nfev 450, best chi2 387.778003465, trial 387.778003465
+wide_h1: nfev 475, best chi2 387.777872365, trial 387.777872365
+wide_h1: nfev 500, best chi2 387.777744396, trial 387.777744396
+wide_h1: nfev 525, best chi2 387.777615366, trial 387.777615366
+wide_h1: nfev 550, best chi2 387.777489345, trial 387.777489345
+wide_h1: nfev 575, best chi2 387.777361923, trial 387.777361923
+wide_h1: nfev 600, best chi2 387.777237375, trial 387.777237375
+wide_h1: nfev 625, best chi2 387.777111342, trial 387.777111342
+wide_h1: nfev 650, best chi2 387.776988188, trial 387.776988188
+wide_h1: nfev 675, best chi2 387.776863331, trial 387.776863331
+wide_h1: nfev 700, best chi2 387.776741355, trial 387.776741355
+wide_h1: nfev 725, best chi2 387.776617591, trial 387.776617591
+wide_h1: nfev 750, best chi2 387.776496610, trial 387.776496610
+wide_h1: nfev 775, best chi2 387.776373745, trial 387.776373745
+wide_h1: nfev 800, best chi2 387.776253655, trial 387.776253655
+wide_h1: nfev 825, best chi2 387.776131625, trial 387.776131625
+wide_h1: nfev 850, best chi2 387.776012367, trial 387.776012367
+wide_h1: nfev 875, best chi2 387.775891115, trial 387.775891115
+wide_h1: nfev 900, best chi2 387.775772638, trial 387.775772638
+wide_h1: nfev 925, best chi2 387.775652123, trial 387.775652123
+wide_h1: nfev 950, best chi2 387.775534396, trial 387.775534396
+wide_h1: nfev 975, best chi2 387.775414598, trial 387.775414598
+wide_h1: nfev 1000, best chi2 387.775297601, trial 387.775297601
+wide_h1: nfev 1025, best chi2 387.775178503, trial 387.775178503
+wide_h1: nfev 1050, best chi2 387.775062229, trial 387.775062229
+wide_h1: nfev 1075, best chi2 387.774943819, trial 387.774943819
+wide_h1: nfev 1100, best chi2 387.774828259, trial 387.774828259
+wide_h1: nfev 1125, best chi2 387.774710536, trial 387.774710536
+wide_h1: nfev 1150, best chi2 387.774595693, trial 387.774595693
+wide_h1: nfev 1175, best chi2 387.774478668, trial 387.774478668
+wide_h1: nfev 1200, best chi2 387.774364542, trial 387.774364542
+wide_h1: nfev 1225, best chi2 387.774248210, trial 387.774248210
+wide_h1: nfev 1250, best chi2 387.774134815, trial 387.774134815
+wide_h1: nfev 1275, best chi2 387.774019189, trial 387.774019189
+wide_h1: nfev 1300, best chi2 387.773906535, trial 387.773906535
+wide_h1: nfev 1325, best chi2 387.773791625, trial 387.773791625
+wide_h1: nfev 1350, best chi2 387.773679727, trial 387.773679727
+wide_h1: nfev 1375, best chi2 387.773565549, trial 387.773565549
+wide_h1: nfev 1400, best chi2 387.773454412, trial 387.773454412
+wide_h1: nfev 1425, best chi2 387.773340990, trial 387.773340990
+wide_h1: nfev 1450, best chi2 387.773230638, trial 387.773230638
+wide_h1: nfev 1475, best chi2 387.773117968, trial 387.773117968
+wide_h1: nfev 1500, best chi2 387.773008423, trial 387.773008423
+wide_h1: nfev 1525, best chi2 387.772896537, trial 387.772896537
+wide_h1: nfev 1550, best chi2 387.772787811, trial 387.772787811
+wide_h1: nfev 1575, best chi2 387.772676727, trial 387.772676727
+wide_h1: nfev 1600, best chi2 387.772568839, trial 387.772568839
+wide_h1: nfev 1625, best chi2 387.772458577, trial 387.772458577
+wide_h1: nfev 1650, best chi2 387.772351548, trial 387.772351548
+wide_h1: nfev 1675, best chi2 387.772242120, trial 387.772242120
+wide_h1: nfev 1700, best chi2 387.772135985, trial 387.772135985
+wide_h1: nfev 1725, best chi2 387.772027409, trial 387.772027409
+wide_h1: nfev 1750, best chi2 387.771922172, trial 387.771922172
+wide_h1: nfev 1775, best chi2 387.771814479, trial 387.771814479
+wide_h1: nfev 1800, best chi2 387.771710158, trial 387.771710158
+{
+  "name": "wide_h1",
+  "chi2": 387.7717101580977,
+  "nfev": 1800,
+  "optimizer_success": false,
+  "optimizer_status": 0,
+  "optimality": 0.01579228137813394,
+  "stationarity": {
+    "objective": "0.5 * sum squared weighted residuals",
+    "unit_box_gradient_mapping_inf": 0.03363581089191481,
+    "unit_box_mapping_definition": "q=(p-lo)/(hi-lo); gq=(hi-lo)*(J.T@r); infinity norm of q-clip(q-gq,0,1)",
+    "raw_gradient_inf": 15.417415705878387,
+    "projected_gradient_inf": 0.015792366753549836,
+    "projected_column_normalized_gradient_inf": 0.0012821918180342489,
+    "max_bound_violation": 0.0,
+    "nearest_normalized_bound_distance": 4.1908513507883343e-17,
+    "near_lower": [
+      72,
+      73,
+      92,
+      107,
+      110,
+      112,
+      124,
+      126,
+      141
+    ],
+    "near_upper": [
+      48,
+      60,
+      65,
+      70,
+      77
+    ],
+    "most_nonstationary_parameter_index": 27
+  },
+  "stationarity_criteria": {
+    "scipy_scaled_gradient_below_1e_6": false,
+    "unit_box_mapping_below_1e_5": false
+  },
+  "shifts_km_s": {
+    "2382": -0.1445813834929964,
+    "2600": -0.13628451600783792
+  },
+  "lsf_scale": {
+    "2374": 0.637958253387184,
+    "2382": 0.6542563534485717,
+    "2600": 0.6619540409503984
+  },
+  "active_bounds": [
+    "v_3",
+    "v_15",
+    "v_20",
+    "v_25",
+    "v_27",
+    "v_28",
+    "v_32",
+    "logb_2",
+    "logb_17",
+    "logb_20",
+    "logb_22",
+    "logb_34",
+    "logb_36",
+    "zero_adjustment_2374"
+  ]
+}

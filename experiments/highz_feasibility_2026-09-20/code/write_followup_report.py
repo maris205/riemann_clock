@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""Write the Chinese follow-up report from finalized nonlinear result exports."""
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main():
+    a = json.loads((ROOT / 'results/followup_summary/summary.json').read_text())
+    rows = a['espresso_comparisons']; c = a['continuum']
+    g = next(r for r in rows if r['case'] == 'gls')
+    names = ['此前的独立像素基准', '连续谱实测相关形状，非线性 GLS', '遮掉两条强线模型通量 < 0.1 的核心', '遮掉模型通量 < 0.3 的核心，再外扩 3 像素']
+    table = '\n'.join(f'| {name} | {r["ndata"]} | {r["null_chi2"]:.2f} | {r["alternative_chi2"]:.2f} | {r["delta_chi2"]:.2f} |' for name,r in zip(names,rows))
+    endpoints = '\n'.join(f'| {r["label"]} | {r["null_file"]} | {r["alternative_file"]} |' for r in rows[1:])
+    text = f'''# 第一步检验的继续：噪声相关、强线核心和另一台仪器
+
+更新：2026-09-21。**这一轮已经实际重算：数据中的相对谱线位移偏好仍值得追踪，但尚未证明有超出常规解释的物理变化。** 因而仍没有进入宇宙时间函数的拟合阶段，也没有据此支持或排除 $1/\\ln^2(t/t_*)$。
+
+## 1. 新增的实测量是什么
+
+在 ESPRESSO 六条 Fe II 谱线附近，固定设置 36 个候选连续谱区间，排除作者左、中、右三个拟合文件列出的全部 35 个波长区间的并集、重复像素和无效数据，按公开记录的宽特征等规则筛选。最终得到 **{c['interval_count']} 个互不重复区间、{c['pixel_count']:,} 个像素**。没有根据最后的位移大小挑区间，也没有逐像素裁掉不喜欢的残差。
+
+相邻像素相关为 **{c['acf'][1]:.4f}**；以整个区间为单位进行 10,000 次重抽样，条件性 95% 区间为 **0.3533–0.3916**。这证明相关性存在于吸收线以外，不能全部算到气体模型没拟好头上。它仍可能包含重采样、提取、弱吸收和连续谱处理的贡献，并非完整的仪器噪声分解。
+
+第二阶相关仅为 **{c['acf'][2]:.4f}**，明显不同于只用第一阶相关外推的 AR(1) 值 0.1389。因此本轮主复核使用实测 0–10 阶相关乘 Bartlett 权重 $1-k/11$ 的固定协方差，而不是声称一个 AR(1) 系数就解决了噪声。应用后的第一阶相关是 {c['acf'][1]*10/11:.4f}，与原始测量值要区分。
+
+连续谱残差相对于文件误差的 RMS 为 {c['rms']:.4f}。主 GLS 保留文件原有误差幅度；如果额外把连续谱方差 {c['variance']:.4f} 一并移入吸收区，GLS 的差值会从 {g['delta_chi2']:.2f} 变成 {g['delta_chi2']/c['variance']:.2f}，最优参数不变。深吸收的计数、背景和合并权重可能不同，所以这个缩放只单列为敏感性，不作为最终误差校准。
+
+## 2. 真正的非线性重拟合
+
+以下各行都重新拟合气体和连续谱，并为两种假设保留完全相同的像素。H0 固定实验室频率关系；H1 额外增加五个相对位移。它们是同一数据的不同条件比较，不能彼此当成独立检测。**GLS 和两个遮罩目前分别检验，不能理解为已同时应用全部控制。**
+
+| 比较 | 有效像素 | H0 目标值 | H1 目标值 | 改善 Δχ² |
+|---|---:|---:|---:|---:|
+{table}
+
+新 GLS 是受约束非线性重拟合，其数字与此前固定基线的局部分数不同。所有结果依赖指定的 45 个气体分量、参数边界、仪器轮廓和条件性噪声模型；没有把这些差值转换成“发现了新物理”的 sigma。
+
+强线遮罩只作用于 2382、2600，基于此前保存的 H0 模型通量冻结，优化时不移动，也不直接追随有噪声的实测通量。较宽遮罩要求外扩 1 km/s，在 0.4 km/s 原生网格上向上取整为三像素，即实际外扩 **1.2 km/s**。遮罩仍由已看过的数据所拟合的模型产生，属于探索性检验。
+
+遮掉最黑核心没有消除偏好；更宽的核心排除使偏好进一步减弱。这表明结果依赖强线所提供的信息，**既不能只因偏好仍在就排除常规解释，也不能只因偏好减弱就认定饱和已解释一切**。
+
+## 3. UVES 和最近的新处理方法
+
+本轮还对同一吸收系统的另一台仪器 UVES 做了共享气体的物理拟合，使用 2374、2382、2600 三条线。其原始光子记录独立于 ESPRESSO，但对象、气体结构初始化和实验室原子数据并不独立。方向相近只能构成兼容性线索，不能将单个目标变成第二个宇宙年龄样本。
+
+UVES 保存的相对位移约为 −140、−132 m/s，方向与 ESPRESSO 相近。但两种误差权重下的 H0 追加 500 次评价后仍达到次数上限，约 11.0、10.0 的目标值差只能算暂定结果；另加相对吸收强度自由度的控制也未充分终止。UVES 结果受到仪器宽度、参数边界及不同局部解的明显影响；需要以[交叉仪器报告](cross_instrument_results_cn.md)中最终保存的状态、控制结果和数值限制为准。名义目录分辨率不足以描述这套共加谱；自由拟合线宽改善拟合，但并不等于已独立校准线宽。归档处理日志已记录曝光位移与波长斜率修正，不能把 SQUAD 谱笼统叫作“未校正”。它与专门常数测量所用最终精密产品是否完全相同、残余标定误差多大，目前没有建立。
+
+确实找到最近半年的相关新工作：[Milaković 等，HARPERFECT，2026-07-07](https://arxiv.org/abs/2607.06809)。它对同一目标 2018 年约 52.5 小时的 HARPS 历史曝光重新提取，显式处理仪器响应和采样。这是新的处理方法，不是新获得的天文光子或新宇宙时期。本次在已检查的发布渠道尚未找到可下载的科学数组与配套分辨率矩阵，**没有声称已分析 HARPS 数据**。检索边界见[可用性核查](cross_instrument_harps_availability.md)。
+
+## 4. 当前结论和下一步顺序
+
+我们已经把“先做第一步”落实为真实光谱、常规吸收模型、误差相关测量和重拟合。现在可以说的是：**指定模型下存在条件性的相对谱线不一致；常规噪声处理会减弱它，强线选择也有影响，独立仪器结果仍受模型与标定限制。** 不能说物理常数已经发生变化，也不能说已证实黎曼零点的宇宙时钟。
+
+下一步优先级是：取得曝光级协方差与可靠的仪器响应；在固定规则下比较气体分量模型、同位素和实验室波长不确定性；对保留样本做独立复现及覆盖率检验。只有剩余效应达到这种要求，且有独立给定的原子响应与多个可用红移，才比较常数、其他慢变模型和有理论动机的 $1/\\ln^2(t/t_*)$。已有单个吸收系统并不能识别那个时间规律。
+
+## 5. 复现与审计
+
+本轮没有改写此前的基准拟合或历史报告。所有初值、参数、目标值、优化器停止信息、掩码与协方差依赖均有保存。优化器满足停止条件并不保证严格驻点，更不证明全局最小值。部分分支曾达到评价次数上限，续算文件与原尝试同时保留。
+
+| 比较 | 选用 H0 | 选用 H1 |
+|---|---|---|
+{endpoints}
+
+- [最终数字](../results/followup_summary/summary.json)与[来源哈希](../results/followup_summary/source_hashes.json)
+- [连续谱及局部协方差控制原报告](noise_covariance_controls_cn.md)
+- [连续谱独立数值复核](noise_covariance_independent_review.md)
+- [本轮非线性模型独立复核](espresso_followup_independent_review.md)
+- [新图](../../../figures/espresso_noise_controls.png)
+- [更新论文](../../../paper/riemann_clock.pdf)
+
+复现命令在本实验目录运行（CPU 拟合需要时间）：
+
+```bash
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/empirical_noise_controls.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/espresso_saturation_controls.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/polish_espresso_followup.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/espresso_empirical_gls.py
+python code/prepare_followup_manuscript.py
+python code/write_followup_report.py
+```
+
+后两条只读取已完成拟合，可快速重建图表与本报告；UVES 的复现入口见交叉仪器报告。独立审查属于本项目内的数值与论证检查，不是外部同行评审。
+'''
+    (ROOT / 'reports/conventional_followup_results_cn.md').write_text(text)
+    print(ROOT / 'reports/conventional_followup_results_cn.md')
+
+
+if __name__ == '__main__':
+    main()

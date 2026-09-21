@@ -1,0 +1,3079 @@
+{
+  "status": "PASS",
+  "result_count": 23,
+  "passed": 550,
+  "count": 550,
+  "checks": [
+    {
+      "name": "alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published parameter labels",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published ndata",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "alternative_from_published parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved residuals",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published reported rank",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2260",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2344",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2374",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2382",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2586",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published mask 2600",
+      "passed": true
+    },
+    {
+      "name": "alternative_from_published projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "ar1_rho03_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null ndata",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "ar1_rho03_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "ar1_rho03_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "expected_fluctuation_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null ndata",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "expected_fluctuation_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished parameter labels",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished ndata",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "expected_fluctuation_null_polished parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved residuals",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished reported rank",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2260",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2344",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2374",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2382",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2586",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "expected_fluctuation_null_polished mask 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "lsf_minus3pct_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null ndata",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "lsf_minus3pct_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_minus3pct_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "lsf_plus3pct_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null ndata",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "lsf_plus3pct_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "lsf_plus3pct_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "null ndata",
+      "passed": true
+    },
+    {
+      "name": "null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "null reported rank",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "null_cross parameter labels",
+      "passed": true
+    },
+    {
+      "name": "null_cross ndata",
+      "passed": true
+    },
+    {
+      "name": "null_cross objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "null_cross parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved residuals",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "null_cross reported rank",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2260",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2344",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2374",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2382",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2586",
+      "passed": true
+    },
+    {
+      "name": "null_cross saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "null_cross line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "null_cross mask 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_blended_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_blended_alternative_polished parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished mask 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished mask 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_alternative_polished projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_blended_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_blended_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_saturated_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_saturated_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished parameter labels",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished ndata",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "omit_saturated_null_polished parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved residuals",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished reported rank",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished mask 2260",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished mask 2344",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished mask 2374",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "omit_saturated_null_polished mask 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "opacity_zero_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null ndata",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "opacity_zero_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "opacity_zero_null mask 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative parameter labels",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative ndata",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "wider_bounds_alternative parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved residuals",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative reported rank",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative mask 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_alternative projected shift rank",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null parameter labels",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null ndata",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null objective reconstruction",
+      "passed": true,
+      "chi2_difference": 0.0
+    },
+    {
+      "name": "wider_bounds_null parameters in bounds",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved residuals",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved Jacobian",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null reported rank",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2260",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2344",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2374",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2382",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2586",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null saved profile 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null line objective 2600",
+      "passed": true
+    },
+    {
+      "name": "wider_bounds_null mask 2600",
+      "passed": true
+    }
+  ],
+  "results": [
+    {
+      "name": "alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 4.680178070962068,
+      "nfev": 34,
+      "active_bounds": [
+        "v_5",
+        "v_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2254.2596428093434,
+      "chi2_per_nominal_ndf": 0.8111765537277235,
+      "condition_number": 16578888110.865564,
+      "source_sha256": "294ba378efee9b9df2e8aca020f7f64e11ae22a466cf1853f6ad6ac6a4e4eafa",
+      "projected_shift_singular_values": [
+        107.43629582825439,
+        105.53856865121486,
+        80.26856396767086,
+        26.90993255669457,
+        6.9063453494377685
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        144.79428315567083,
+        20.00737241988956,
+        22.991782367374977,
+        17.96329955515104,
+        21.470742698987088
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        -0.07055916051341882,
+        -9.057057475707138,
+        -9.981468728168455,
+        -4.120838582002869,
+        -10.02968613314131
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.31520050114377696,
+      "shift_km_s": {
+        "2260": 0.09522359870123187,
+        "2344": -0.046671174446491756,
+        "2382": -0.11372509471725932,
+        "2586": -0.010206768164134147,
+        "2600": -0.10364496739002882
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "alternative_from_published",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 5.769766039424818,
+      "nfev": 157,
+      "active_bounds": [
+        "v_17",
+        "logb_17",
+        "logb_36"
+      ],
+      "chi2": 2253.7773014844893,
+      "chi2_per_nominal_ndf": 0.8110029872200393,
+      "condition_number": 34442455005.89726,
+      "source_sha256": "369d836c5b3d366a1f723942b9a6bfa86c31035e71a34520f221420925afe74b",
+      "projected_shift_singular_values": [
+        107.4112016994496,
+        105.45239637848259,
+        79.77921824533429,
+        26.883892730366938,
+        6.919124395035815
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        144.5268734988966,
+        20.133551553534165,
+        22.96319606824812,
+        18.03232810953717,
+        21.436567325654032
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        -1.4057823551181878,
+        -7.837755264923729,
+        -8.146880617055114,
+        -3.5754890302491056,
+        -7.715612228204281
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.20781231042743648,
+      "shift_km_s": {
+        "2260": 0.09796673332028355,
+        "2344": -0.05096004684389821,
+        "2382": -0.11834330219384574,
+        "2586": -0.012412094589697813,
+        "2600": -0.10920059659266486
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "ar1_rho03_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 2.373871293136284,
+      "nfev": 35,
+      "active_bounds": [
+        "v_0",
+        "v_17",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2172.4707018895024,
+      "chi2_per_nominal_ndf": 0.7817454846669674,
+      "condition_number": 303254711417.8378,
+      "source_sha256": "88f53358e4acb0d983fa7f01cc09c43e98bb6989fa1be3360a06a057d8d280aa",
+      "projected_shift_singular_values": [
+        80.20465644826429,
+        79.37147713042725,
+        60.0313308802773,
+        20.467673962236866,
+        5.19096550517441
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        192.64183979976343,
+        26.405117608646286,
+        30.364622512324082,
+        23.67381006235228,
+        28.271120577298632
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        -1.762043561455642,
+        -7.844483004060036,
+        -9.389874471534792,
+        -3.2286372033239115,
+        -9.124350914353522
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.1585006642804427,
+      "shift_km_s": {
+        "2260": 0.08706238838477662,
+        "2344": -0.04311466922415491,
+        "2382": -0.11018990474566409,
+        "2586": -0.00680510473670415,
+        "2600": -0.09954976014956922
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "ar1_rho03_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 2.853775867566186,
+      "nfev": 155,
+      "active_bounds": [
+        "v_0",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2201.724424434928,
+      "chi2_per_nominal_ndf": 0.7908492903861092,
+      "condition_number": 171588617232.80927,
+      "source_sha256": "8b124b1b1beaab7956c85026a94615441966c90e0c1d3f83ef75674fbc042776"
+    },
+    {
+      "name": "expected_fluctuation_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 1.6058952613358282,
+      "nfev": 132,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_25",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_9",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2733.787030253823,
+      "chi2_per_nominal_ndf": 0.9837304894760068,
+      "condition_number": 28283733567.52108,
+      "source_sha256": "3e24622b41b0dfb7c30f20be1c4582734e3d2ae152cb38f28b6f0185c86c1777",
+      "projected_shift_singular_values": [
+        118.26243696196762,
+        115.78836708707395,
+        85.62021687980221,
+        30.048981975338144,
+        7.760691322332048
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        128.85406094164148,
+        18.112209932693073,
+        20.872071439190712,
+        15.971208095366626,
+        19.269884347417143
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        3.2037404719780342,
+        -9.09901371824264,
+        -12.664179187716773,
+        -5.479690531652681,
+        -10.934229712823466
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.4314753049227782,
+      "shift_km_s": {
+        "2260": 0.09888648450158434,
+        "2344": -0.05168217493274897,
+        "2382": -0.12086682741493117,
+        "2586": -0.012900454006607295,
+        "2600": -0.111499978402773
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "expected_fluctuation_null",
+      "optimizer_success": false,
+      "optimizer_message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 20.584723451328095,
+      "nfev": 350,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_25",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2801.7585958081067,
+      "chi2_per_nominal_ndf": 1.0063788059655556,
+      "condition_number": 724000982604.4045,
+      "source_sha256": "8f9cefb21ae6a8868b8583767dc3e1308d0c5461d2594fcdd6438beef3180abf"
+    },
+    {
+      "name": "expected_fluctuation_null_polished",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 2.651482675377327,
+      "nfev": 17,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2801.7103852062064,
+      "chi2_per_nominal_ndf": 1.006361488939011,
+      "condition_number": 665307740925.3765,
+      "source_sha256": "0940de6815d46a78574d07cb206b77d277316da90c773c63665469f0ab4cdcaa"
+    },
+    {
+      "name": "lsf_minus3pct_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 9.893381219107114,
+      "nfev": 137,
+      "active_bounds": [
+        "v_5",
+        "v_17",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2259.2804008017674,
+      "chi2_per_nominal_ndf": 0.8129832316667029,
+      "condition_number": 393162307490.25256,
+      "source_sha256": "f6dd0674aa3befbfd2d7b14bad2d7cf884ba5d268cdeb291f1560b717334de55",
+      "projected_shift_singular_values": [
+        107.63165739712193,
+        105.77946166252306,
+        79.82506933254571,
+        27.2244839792159,
+        6.915302659418917
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        144.60666253948008,
+        19.909701778550048,
+        22.70437896041883,
+        17.941346834417043,
+        21.16869267424921
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        -4.308231824609508,
+        -3.065880259045624,
+        -4.318360705212938,
+        -0.627397105079801,
+        -3.8105262648588516
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.07139081371657366,
+      "shift_km_s": {
+        "2260": 0.09916935866674838,
+        "2344": -0.05545204840013262,
+        "2382": -0.12780227037809927,
+        "2586": -0.014570609399486777,
+        "2600": -0.11822724286232827
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "lsf_minus3pct_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 7.6877817609817924,
+      "nfev": 82,
+      "active_bounds": [
+        "v_0",
+        "logb_36"
+      ],
+      "chi2": 2324.646270966021,
+      "chi2_per_nominal_ndf": 0.8350022525021626,
+      "condition_number": 1354072435328.898,
+      "source_sha256": "fd222c35ac8f1ff2f07a1472f177334932560d752185de0e4ed65cc4e17491e0"
+    },
+    {
+      "name": "lsf_plus3pct_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 10.58827425427223,
+      "nfev": 53,
+      "active_bounds": [
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_27",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2250.3396466853274,
+      "chi2_per_nominal_ndf": 0.8097659757773757,
+      "condition_number": 3673034348.71306,
+      "source_sha256": "c901d0cd53ef767b3902065ecf1942fd7186bfc5d7b1e0640a0e34cd658ab5a0",
+      "projected_shift_singular_values": [
+        107.19575240513947,
+        105.43043516210815,
+        79.26229026560725,
+        26.900862132096844,
+        6.922095609326603
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        144.46475983281465,
+        20.060100530105213,
+        23.04043364908503,
+        17.97490443272808,
+        21.487501312696818
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        0.9241577883116644,
+        -5.744067914654883,
+        -6.121252409844324,
+        -3.136432146276419,
+        -5.83258125110919
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.10303380495962039,
+      "shift_km_s": {
+        "2260": 0.09556899397830958,
+        "2344": -0.04346111060367796,
+        "2382": -0.10629527624017986,
+        "2586": -0.00865731432752345,
+        "2600": -0.09687772266369594
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "lsf_plus3pct_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 4.221229877757664,
+      "nfev": 334,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2295.210764463475,
+      "chi2_per_nominal_ndf": 0.8244291539021102,
+      "condition_number": 193640751011.20847,
+      "source_sha256": "7545c8d5bcdffc092151476cd99df208cf6acb0ce1b030251abf3eb821ce5774"
+    },
+    {
+      "name": "null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 9.658502955223314,
+      "nfev": 164,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2307.211086869951,
+      "chi2_per_nominal_ndf": 0.8287396145366204,
+      "condition_number": 521288106092.5279,
+      "source_sha256": "523261e21b10aea41ba81e2cfcec9d9ab25ae4f72ba9a0a3f77fbee76cee4f8b"
+    },
+    {
+      "name": "null_cross",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 3.1679682415651937,
+      "nfev": 152,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_25",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_17",
+        "logb_31",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2305.4905409518874,
+      "chi2_per_nominal_ndf": 0.8281216023534078,
+      "condition_number": 631553704.1803281,
+      "source_sha256": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7"
+    },
+    {
+      "name": "omit_blended_alternative",
+      "optimizer_success": false,
+      "optimizer_message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 0.12867090961598748,
+      "nfev": 350,
+      "active_bounds": [
+        "v_24",
+        "v_27",
+        "v_32",
+        "continuum0_2382"
+      ],
+      "chi2": 1425.2121475076824,
+      "chi2_per_nominal_ndf": 0.7939900543218287,
+      "condition_number": 45951806.368802026,
+      "source_sha256": "91f3de01ff6147f1509f54b422c7664174348b9597c40374e310376815f72d40",
+      "projected_shift_singular_values": [
+        101.91592671945881,
+        22.88727504952152,
+        6.310739910716476
+      ],
+      "shift_keys": [
+        2260,
+        2382,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        158.45987517299605,
+        32.5717604328384,
+        30.73156575931129
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        27.88594624744966,
+        -25.091299487698254,
+        -25.651524264567396
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.7290942752808468,
+      "shift_km_s": {
+        "2260": 0.06650500067638382,
+        "2382": -0.14075263138167785,
+        "2600": -0.12812050972044703
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "omit_blended_alternative_polished",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 0.10101907152306178,
+      "nfev": 218,
+      "active_bounds": [
+        "v_24",
+        "v_27",
+        "v_32",
+        "continuum0_2382"
+      ],
+      "chi2": 1424.9931890555497,
+      "chi2_per_nominal_ndf": 0.7938680718972422,
+      "condition_number": 101127739.52377889,
+      "source_sha256": "043ac0c9c817bdd53a9b733ccabf15f3c4af726b5db819a25b866e3d00b210bb",
+      "projected_shift_singular_values": [
+        101.95179423244058,
+        22.983981003234305,
+        6.330830095494461
+      ],
+      "shift_keys": [
+        2260,
+        2382,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        157.95703638169886,
+        32.446679051405944,
+        30.60159884554354
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        31.064218092283806,
+        -23.33839999778703,
+        -24.00770531920158
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.6548486505596715,
+      "shift_km_s": {
+        "2260": 0.06592474335818604,
+        "2382": -0.14066532437648305,
+        "2600": -0.12793694511579753
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "omit_blended_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 1.5273327425089056,
+      "nfev": 199,
+      "active_bounds": [
+        "v_24",
+        "v_27",
+        "logb_37",
+        "continuum0_2382"
+      ],
+      "chi2": 1451.3756201646743,
+      "chi2_per_nominal_ndf": 0.8072166964208422,
+      "condition_number": 116292770.45264189,
+      "source_sha256": "22a12e39c68f8fbc9cc22acd720fc36c0a3cc591affb96030797b796b8b0a630"
+    },
+    {
+      "name": "omit_saturated_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 0.03580233404486903,
+      "nfev": 162,
+      "active_bounds": [
+        "v_0",
+        "v_17",
+        "v_19",
+        "v_34",
+        "v_41",
+        "v_42",
+        "v_44",
+        "logb_1",
+        "logb_5",
+        "logb_11",
+        "logb_17",
+        "logb_26"
+      ],
+      "chi2": 1155.8043049223013,
+      "chi2_per_nominal_ndf": 0.7095176825796816,
+      "condition_number": 92695489.12738302,
+      "source_sha256": "26d5d742b01b72b77f72a9ade81425c4458b3200eb969edf10570044a8c92dda",
+      "projected_shift_singular_values": [
+        101.98678898252848,
+        36.756162260727905,
+        6.882329618114403
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2586
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        145.29961239121408,
+        21.650659149647158,
+        19.172429941062735
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        11.006527556824095,
+        -22.390872140397395,
+        -15.205529473725933
+      ],
+      "local_unbounded_stationarity_delta_chi2": 1.0750675030398749,
+      "shift_km_s": {
+        "2260": 0.09031858785795177,
+        "2344": -0.034918148643454355,
+        "2586": -0.0005666673685464866
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "omit_saturated_null",
+      "optimizer_success": false,
+      "optimizer_message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 1.8623909839877435,
+      "nfev": 350,
+      "active_bounds": [
+        "v_0",
+        "v_17",
+        "v_19",
+        "v_25",
+        "v_34",
+        "v_41",
+        "v_42",
+        "v_44",
+        "logb_11",
+        "logb_17"
+      ],
+      "chi2": 1164.3391501034127,
+      "chi2_per_nominal_ndf": 0.7134431066810127,
+      "condition_number": 121844566.97878712,
+      "source_sha256": "641c5b77bd839a23432f38d3e2bca54ebad6caca628800bc1a00728e3bb6de18"
+    },
+    {
+      "name": "omit_saturated_null_polished",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 0.05156360885993451,
+      "nfev": 146,
+      "active_bounds": [
+        "v_0",
+        "v_15",
+        "v_17",
+        "v_19",
+        "v_34",
+        "v_41",
+        "v_42",
+        "v_44",
+        "logb_1",
+        "logb_5",
+        "logb_11",
+        "logb_17",
+        "logb_26"
+      ],
+      "chi2": 1162.8942358262113,
+      "chi2_per_nominal_ndf": 0.7125577425405707,
+      "condition_number": 90122902.62233625,
+      "source_sha256": "d6e2124028dfdf7a26dcb6dda18dc0387f6ce8040d1f4dc318f3bc3b3d51c5a3"
+    },
+    {
+      "name": "opacity_zero_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 10.127732908413341,
+      "nfev": 69,
+      "active_bounds": [
+        "v_5",
+        "v_17",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382",
+        "zero_adjustment_2344",
+        "zero_adjustment_2374"
+      ],
+      "chi2": 2205.080529845843,
+      "chi2_per_nominal_ndf": 0.7966331393951745,
+      "condition_number": 82929934745.1115,
+      "source_sha256": "c2c06ffa90ec5bd195427d1de0c5c55bcee12c8099fbfdc3a816a6dd22e59ecb",
+      "projected_shift_singular_values": [
+        107.51829610899783,
+        104.57892343534063,
+        78.25743555790635,
+        26.849127292659272,
+        7.155717149537003
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        139.74799666199453,
+        20.122955175521426,
+        23.22252403707931,
+        17.959148050172963,
+        21.48926039406086
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        2.963979307215334,
+        -4.790787671535325,
+        -8.060535250969828,
+        -2.9572040511560944,
+        -7.116038776503409
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.14690503214961842,
+      "shift_km_s": {
+        "2260": 0.0927943849742791,
+        "2344": -0.044889544894358376,
+        "2382": -0.11605521221492991,
+        "2586": -0.0102636154588263,
+        "2600": -0.10580456839026486
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "opacity_zero_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 5.1242365047320835,
+      "nfev": 76,
+      "active_bounds": [
+        "v_0",
+        "v_5",
+        "v_17",
+        "v_24",
+        "v_27",
+        "v_29",
+        "v_42",
+        "logb_17",
+        "logb_36",
+        "continuum0_2382",
+        "zero_adjustment_2344",
+        "zero_adjustment_2374"
+      ],
+      "chi2": 2260.1715348555736,
+      "chi2_per_nominal_ndf": 0.8150636620467269,
+      "condition_number": 7561177119152.728,
+      "source_sha256": "f023e732fc677380f850c7186624fa46115bf89d5daf329fe12b79fe4069547d"
+    },
+    {
+      "name": "wider_bounds_alternative",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 2.950811844822339,
+      "nfev": 147,
+      "active_bounds": [
+        "logb_17",
+        "logb_26",
+        "logb_28",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2231.2801690174783,
+      "chi2_per_nominal_ndf": 0.8029075815104276,
+      "condition_number": 21212146916.471024,
+      "source_sha256": "7d90e15a34cd59299b65b1d93651b9c93ad9e2bccb434ca109ed6d832a9b70e7",
+      "projected_shift_singular_values": [
+        107.52499706621438,
+        106.13220131938749,
+        78.39008345181689,
+        26.490528510795958,
+        6.883742130234468
+      ],
+      "shift_keys": [
+        2260,
+        2344,
+        2382,
+        2586,
+        2600
+      ],
+      "local_unbounded_shift_sigma_m_s": [
+        145.26976084040973,
+        20.45180181966911,
+        23.309067635975715,
+        18.27397053862761,
+        21.62195278547772
+      ],
+      "local_unbounded_stationarity_shift_m_s": [
+        0.18459998746477424,
+        0.4022840197064644,
+        2.5122883338187316,
+        1.5577481668409232,
+        2.7299237151078133
+      ],
+      "local_unbounded_stationarity_delta_chi2": 0.032768389653119796,
+      "shift_km_s": {
+        "2260": 0.10399630496190229,
+        "2344": -0.06009009168729592,
+        "2382": -0.1254367528334257,
+        "2586": -0.01889293303081454,
+        "2600": -0.11678458018769501
+      },
+      "caution": "Projected Gaussian errors ignore active bounds and model uncertainty; not discovery errors."
+    },
+    {
+      "name": "wider_bounds_null",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimality": 4.196581418061912,
+      "nfev": 285,
+      "active_bounds": [
+        "v_27",
+        "logb_17",
+        "logb_26",
+        "logb_36",
+        "continuum0_2382"
+      ],
+      "chi2": 2285.35440709006,
+      "chi2_per_nominal_ndf": 0.8208887956501651,
+      "condition_number": 76077947967.47395,
+      "source_sha256": "abfb34291b1e2b980729b8e41ba2b8dee4b3a4cc0ad0d1f558d68b90cca36d9c"
+    }
+  ],
+  "model_source_sha256": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+  "validator_sha256": "31031a7c2b356e2cea7d1cfdaf4157496f793bdf36e000d2cfc2bddb3a4e1c02",
+  "limitation": "Saved-point replay and local rank audit, not independent nonlinear optimization or calibrated significance."
+}

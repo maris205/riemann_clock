@@ -1,0 +1,1228 @@
+{
+  "status": "PASS",
+  "passed": 209,
+  "count": 209,
+  "checks": [
+    {
+      "name": "previous-file preservation baseline exists",
+      "passed": true,
+      "count": 82
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_data_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_null_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_initial.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_null.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_null.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_alternative.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_alternative_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_clean_alternative.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null_polished.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null_polished_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative_polished.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative_polished_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/validation.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null_polished.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_null_polished.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative_polished.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_flex_alternative_polished.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_alternative.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_alternative_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_cross.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_cross.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_cross_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_cross_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_null.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_alternative.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_null_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_alternative_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_alternative.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_cross.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_cross.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_cross.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_cross.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_null.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_null.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_opacity_alternative.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_continued.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_continued.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative_continued.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_continued_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_continued_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative_continued_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/summary_run.log",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/summary.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/summary.csv",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_profiles.png",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_profiles.pdf",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative_continued.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_alternative_continued.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_continued.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_refined_null_continued.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_continued.json",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/uves_expected_null_continued.npz",
+      "passed": true
+    },
+    {
+      "name": "preserved results/cross_instrument/delivery_provenance.json",
+      "passed": true
+    },
+    {
+      "name": "preserved reports/cross_instrument_harps_availability.md",
+      "passed": true
+    },
+    {
+      "name": "preserved reports/cross_instrument_validation.md",
+      "passed": true
+    },
+    {
+      "name": "preserved reports/cross_instrument_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "preserved code/cross_instrument_uves.py",
+      "passed": true
+    },
+    {
+      "name": "preserved code/cross_instrument_validate.py",
+      "passed": true
+    },
+    {
+      "name": "preserved code/espresso_conventional_null.py",
+      "passed": true
+    },
+    {
+      "name": "KKT fixture interior optimum",
+      "passed": true
+    },
+    {
+      "name": "KKT fixture lower correct",
+      "passed": true
+    },
+    {
+      "name": "KKT fixture upper correct",
+      "passed": true
+    },
+    {
+      "name": "KKT fixture lower wrong",
+      "passed": true
+    },
+    {
+      "name": "KKT fixture upper wrong",
+      "passed": true
+    },
+    {
+      "name": "near-bound mapping needs complementarity safeguard",
+      "passed": true,
+      "mapping": 1e-12,
+      "coleman_li": 1.0
+    },
+    {
+      "name": "wider bounds preserve labels and parameter count",
+      "passed": true
+    },
+    {
+      "name": "wider bounds preserve every gas/continuum/zero bound",
+      "passed": true
+    },
+    {
+      "name": "only three appended LSF bounds widen",
+      "passed": true
+    },
+    {
+      "name": "wider bounds preserve physical residuals at shared parameters",
+      "passed": true
+    },
+    {
+      "name": "nuisance parity wide=False",
+      "passed": true
+    },
+    {
+      "name": "nested zero-shift residuals wide=False",
+      "passed": true
+    },
+    {
+      "name": "nuisance parity wide=True",
+      "passed": true
+    },
+    {
+      "name": "nested zero-shift residuals wide=True",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 source hashes",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 labels",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 bounds",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 accounting",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 reported LSF scales",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 reported relative shifts",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 chi2",
+      "passed": true,
+      "recomputed": 397.8933444935101,
+      "saved": 397.8933444935101
+    },
+    {
+      "name": "bounded_h0 residual and Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 fitted worst-mapping derivative",
+      "passed": true,
+      "parameter": "logb_28",
+      "step": 1e-05,
+      "relative_l2_error": 1.2702315553591017e-10,
+      "finite_derivative_dot_residual": 0.4109253357442615,
+      "analytic_gradient": 0.4109253402167923
+    },
+    {
+      "name": "bounded_h0 independent unit-box gradient mapping",
+      "passed": true,
+      "recomputed": 0.9632732983195659,
+      "saved": 0.9632732983195659
+    },
+    {
+      "name": "bounded_h0 primal feasibility",
+      "passed": true,
+      "normalized_violation": 0.0
+    },
+    {
+      "name": "bounded_h0 independent native TRF optimality",
+      "passed": true,
+      "recomputed": 2.0972510189852867,
+      "saved": 2.097251018981669
+    },
+    {
+      "name": "bounded_h0 stationarity classification",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 captured start snapshot hash",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 initial source hash",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.55591556200352e-10
+    },
+    {
+      "name": "bounded_h0 saved pixel arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.938686599092023e-10
+    },
+    {
+      "name": "bounded_h0 saved pixel arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9904629600684416e-10
+    },
+    {
+      "name": "bounded_h0 saved pixel arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "bounded_h0 21-to-49 quadrature",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.0001427752577395615,
+      "max_sigma_difference": 0.0022906294661415583,
+      "chi2_difference": 0.0010819427506589818
+    },
+    {
+      "name": "bounded_h1 source hashes",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 labels",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 bounds",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 accounting",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 reported LSF scales",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 reported relative shifts",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 chi2",
+      "passed": true,
+      "recomputed": 388.10859556189683,
+      "saved": 388.10859556189683
+    },
+    {
+      "name": "bounded_h1 residual and Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 fitted worst-mapping derivative",
+      "passed": true,
+      "parameter": "logN_27",
+      "step": 1e-05,
+      "relative_l2_error": 1.3701482017583372e-10,
+      "finite_derivative_dot_residual": 0.012472441886718191,
+      "analytic_gradient": 0.01247244111023349
+    },
+    {
+      "name": "bounded_h1 independent unit-box gradient mapping",
+      "passed": true,
+      "recomputed": 0.04988976444093396,
+      "saved": 0.04988976444140614
+    },
+    {
+      "name": "bounded_h1 primal feasibility",
+      "passed": true,
+      "normalized_violation": 0.0
+    },
+    {
+      "name": "bounded_h1 independent native TRF optimality",
+      "passed": true,
+      "recomputed": 0.02116665977458076,
+      "saved": 0.0211666597747811
+    },
+    {
+      "name": "bounded_h1 stationarity classification",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 captured start snapshot hash",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 initial source hash",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.5896235983656766e-10
+    },
+    {
+      "name": "bounded_h1 saved pixel arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.9503256221706806e-10
+    },
+    {
+      "name": "bounded_h1 saved pixel arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 4.008410825484532e-10
+    },
+    {
+      "name": "bounded_h1 saved pixel arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "bounded_h1 21-to-49 quadrature",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014157781799794606,
+      "max_sigma_difference": 0.0022778421764885204,
+      "chi2_difference": 0.00490783529807004
+    },
+    {
+      "name": "wide_h0 source hashes",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 labels",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 bounds",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 accounting",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 reported LSF scales",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 reported relative shifts",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 chi2",
+      "passed": true,
+      "recomputed": 397.905461381982,
+      "saved": 397.905461381982
+    },
+    {
+      "name": "wide_h0 residual and Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 fitted worst-mapping derivative",
+      "passed": true,
+      "parameter": "logN_39",
+      "step": 1e-05,
+      "relative_l2_error": 1.5618586346330386e-10,
+      "finite_derivative_dot_residual": 0.017895732823010827,
+      "analytic_gradient": 0.017895812438439407
+    },
+    {
+      "name": "wide_h0 independent unit-box gradient mapping",
+      "passed": true,
+      "recomputed": 0.07158324975375763,
+      "saved": 0.07158324975317387
+    },
+    {
+      "name": "wide_h0 primal feasibility",
+      "passed": true,
+      "normalized_violation": 0.0
+    },
+    {
+      "name": "wide_h0 independent native TRF optimality",
+      "passed": true,
+      "recomputed": 0.030630355644837164,
+      "saved": 0.03063035564458739
+    },
+    {
+      "name": "wide_h0 stationarity classification",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 captured start snapshot hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 initial source hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.542461879391112e-10
+    },
+    {
+      "name": "wide_h0 saved pixel arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.9410286145624696e-10
+    },
+    {
+      "name": "wide_h0 saved pixel arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9937253504263026e-10
+    },
+    {
+      "name": "wide_h0 saved pixel arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "wide_h0 21-to-49 quadrature",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014276433985891199,
+      "max_sigma_difference": 0.0022907871363071486,
+      "chi2_difference": 0.0009368257256596735
+    },
+    {
+      "name": "wide_h0 feasible original-domain identical objective",
+      "passed": true,
+      "original_domain_chi2": 397.905461381982,
+      "wide_domain_chi2": 397.905461381982
+    },
+    {
+      "name": "wide_h0_cross_bounded source hashes",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded labels",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded bounds",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded accounting",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded reported LSF scales",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded reported relative shifts",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded chi2",
+      "passed": true,
+      "recomputed": 397.8553566088117,
+      "saved": 397.8553566088117
+    },
+    {
+      "name": "wide_h0_cross_bounded residual and Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded fitted worst-mapping derivative",
+      "passed": true,
+      "parameter": "logN_39",
+      "step": 1e-05,
+      "relative_l2_error": 3.1608849693684956e-10,
+      "finite_derivative_dot_residual": 0.024248009082802807,
+      "analytic_gradient": 0.02424800279723982
+    },
+    {
+      "name": "wide_h0_cross_bounded independent unit-box gradient mapping",
+      "passed": true,
+      "recomputed": 0.09699201118895928,
+      "saved": 0.09699201118881301
+    },
+    {
+      "name": "wide_h0_cross_bounded primal feasibility",
+      "passed": true,
+      "normalized_violation": 0.0
+    },
+    {
+      "name": "wide_h0_cross_bounded independent native TRF optimality",
+      "passed": true,
+      "recomputed": 0.03194674583781513,
+      "saved": 0.031946745837766945
+    },
+    {
+      "name": "wide_h0_cross_bounded stationarity classification",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded captured start snapshot hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded initial source hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.5306862988804255e-10
+    },
+    {
+      "name": "wide_h0_cross_bounded saved pixel arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.9480912983336225e-10
+    },
+    {
+      "name": "wide_h0_cross_bounded saved pixel arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.9942416041327533e-10
+    },
+    {
+      "name": "wide_h0_cross_bounded saved pixel arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "wide_h0_cross_bounded 21-to-49 quadrature",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014285639409875863,
+      "max_sigma_difference": 0.002290034682703279,
+      "chi2_difference": 0.0015939868356440456
+    },
+    {
+      "name": "wide_h0_cross_bounded feasible original-domain identical objective",
+      "passed": true,
+      "original_domain_chi2": 397.8553566088117,
+      "wide_domain_chi2": 397.8553566088117
+    },
+    {
+      "name": "wide_h1 source hashes",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 labels",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 bounds",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 accounting",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 reported LSF scales",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 reported relative shifts",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 chi2",
+      "passed": true,
+      "recomputed": 387.7717101580977,
+      "saved": 387.7717101580977
+    },
+    {
+      "name": "wide_h1 residual and Jacobian arrays",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 fitted worst-mapping derivative",
+      "passed": true,
+      "parameter": "logN_27",
+      "step": 1e-05,
+      "relative_l2_error": 1.1338274075969855e-10,
+      "finite_derivative_dot_residual": 0.00840899593669926,
+      "analytic_gradient": 0.008408952723016228
+    },
+    {
+      "name": "wide_h1 independent unit-box gradient mapping",
+      "passed": true,
+      "recomputed": 0.03363581089206491,
+      "saved": 0.03363581089191481
+    },
+    {
+      "name": "wide_h1 primal feasibility",
+      "passed": true,
+      "normalized_violation": 0.0
+    },
+    {
+      "name": "wide_h1 independent native TRF optimality",
+      "passed": true,
+      "recomputed": 0.0157922813782044,
+      "saved": 0.01579228137813394
+    },
+    {
+      "name": "wide_h1 stationarity classification",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 captured start snapshot hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 initial source hash",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 independent fitted CGS profile 2374",
+      "passed": true,
+      "max_flux_error": 3.6060276986660256e-10
+    },
+    {
+      "name": "wide_h1 saved pixel arrays 2374",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 independent fitted CGS profile 2382",
+      "passed": true,
+      "max_flux_error": 3.965322514787317e-10
+    },
+    {
+      "name": "wide_h1 saved pixel arrays 2382",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 independent fitted CGS profile 2600",
+      "passed": true,
+      "max_flux_error": 3.993632091692234e-10
+    },
+    {
+      "name": "wide_h1 saved pixel arrays 2600",
+      "passed": true
+    },
+    {
+      "name": "wide_h1 21-to-49 quadrature",
+      "passed": true,
+      "squared_noise_weighted_difference": 0.00014177656834825762,
+      "max_sigma_difference": 0.002257419153484208,
+      "chi2_difference": 0.0017980334084199967
+    }
+  ],
+  "audited_results": [
+    {
+      "name": "bounded_h0",
+      "sha256": "b461ba90c1aeb5a3928bcd189707929bc2b834f0e229e571b5e3abbb78268c67",
+      "chi2": 397.8933444935101,
+      "optimizer_success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "native_optimality": 2.097251018981669,
+      "independently_computed_native_optimality": 2.0972510189852867,
+      "unit_box_mapping": 0.9632732983195659,
+      "stationary_by_both_criteria": false,
+      "most_nonstationary_parameter": "logb_28",
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "lsf_scale": {
+        "2374": 0.6579546612449484,
+        "2382": 0.6652575062192974,
+        "2600": 0.673810149548671
+      },
+      "shifts_km_s": {},
+      "column_normalized_jacobian_condition": 159502.77213522152,
+      "feasible_in_original_lsf_domain": null,
+      "original_domain_chi2": null,
+      "free_shifts": false,
+      "wide_lsf": false
+    },
+    {
+      "name": "bounded_h1",
+      "sha256": "74c138a8d14348adb99f81082c40cf478d3d2930820e26788deb120d6d388e32",
+      "chi2": 388.10859556189683,
+      "optimizer_success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "native_optimality": 0.0211666597747811,
+      "independently_computed_native_optimality": 0.02116665977458076,
+      "unit_box_mapping": 0.04988976444093396,
+      "stationary_by_both_criteria": false,
+      "most_nonstationary_parameter": "logN_27",
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "lsf_scale": {
+        "2374": 0.65,
+        "2382": 0.6591634717301654,
+        "2600": 0.6669191694758496
+      },
+      "shifts_km_s": {
+        "2382": -0.13991059974590814,
+        "2600": -0.13203675054202121
+      },
+      "column_normalized_jacobian_condition": 1077516.7361438556,
+      "feasible_in_original_lsf_domain": null,
+      "original_domain_chi2": null,
+      "free_shifts": true,
+      "wide_lsf": false
+    },
+    {
+      "name": "wide_h0",
+      "sha256": "13c066a82d22f4662edeaa8cdb88ce80b9b3e73a33577a012b2c7df570df242c",
+      "chi2": 397.905461381982,
+      "optimizer_success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "native_optimality": 0.03063035564458739,
+      "independently_computed_native_optimality": 0.030630355644837164,
+      "unit_box_mapping": 0.07158324975375763,
+      "stationary_by_both_criteria": false,
+      "most_nonstationary_parameter": "logN_39",
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "lsf_scale": {
+        "2374": 0.657994471672099,
+        "2382": 0.665302186058523,
+        "2600": 0.6738580848725065
+      },
+      "shifts_km_s": {},
+      "column_normalized_jacobian_condition": 156517.51036411923,
+      "feasible_in_original_lsf_domain": true,
+      "original_domain_chi2": 397.905461381982,
+      "free_shifts": false,
+      "wide_lsf": true
+    },
+    {
+      "name": "wide_h0_cross_bounded",
+      "sha256": "beacf398b792ad102fcebd4d7bb206ab1c9820e455d8cc6bdfd857b1ead418af",
+      "chi2": 397.8553566088117,
+      "optimizer_success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "native_optimality": 0.031946745837766945,
+      "independently_computed_native_optimality": 0.03194674583781513,
+      "unit_box_mapping": 0.09699201118895928,
+      "stationary_by_both_criteria": false,
+      "most_nonstationary_parameter": "logN_39",
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "lsf_scale": {
+        "2374": 0.657796769030162,
+        "2382": 0.6650642893754872,
+        "2600": 0.6736150804284254
+      },
+      "shifts_km_s": {},
+      "column_normalized_jacobian_condition": 153310.70417092976,
+      "feasible_in_original_lsf_domain": true,
+      "original_domain_chi2": 397.8553566088117,
+      "free_shifts": false,
+      "wide_lsf": true
+    },
+    {
+      "name": "wide_h1",
+      "sha256": "f0f4bd9235716ec2f3badf1ff0b5eeeba515150ef89eeb941a7f129e09de749e",
+      "chi2": 387.7717101580977,
+      "optimizer_success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "native_optimality": 0.01579228137813394,
+      "independently_computed_native_optimality": 0.0157922813782044,
+      "unit_box_mapping": 0.03363581089206491,
+      "stationary_by_both_criteria": false,
+      "most_nonstationary_parameter": "logN_27",
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "zero_adjustment_2374"
+      ],
+      "lsf_scale": {
+        "2374": 0.637958253387184,
+        "2382": 0.6542563534485717,
+        "2600": 0.6619540409503984
+      },
+      "shifts_km_s": {
+        "2382": -0.1445813834929964,
+        "2600": -0.13628451600783792
+      },
+      "column_normalized_jacobian_condition": 949953.168047419,
+      "feasible_in_original_lsf_domain": null,
+      "original_domain_chi2": null,
+      "free_shifts": true,
+      "wide_lsf": true
+    }
+  ],
+  "missing_configuration_pairs": [],
+  "protected_previous_files_initial_sha256": {
+    "results/cross_instrument/uves_data_metadata.json": "28dd6736a9273449d3a42227f66a108dbd575736a5ece3bfd4d2acd44751f485",
+    "results/cross_instrument/uves_clean_null_checkpoint.json": "6b6eb97516973b51c8fddd3b030789ca67f9f526c471cb69901c920c04bd0a08",
+    "results/cross_instrument/uves_initial.log": "a45db4a6e6b7643a068d115db14838b0b6ac633da67b100523deebe7e3ed49ae",
+    "results/cross_instrument/uves_clean_null.json": "6d26dd07cbc022d5580a1e47c20eeb41c0e83aa31f7f82aa75b36f83d776913c",
+    "results/cross_instrument/uves_clean_null.npz": "5a9338613e94d12ebf23799a5eadd1c54829308b3dc265a6a29df47e7f6dd458",
+    "results/cross_instrument/uves_alternative.log": "aabaf167e3dff6a6ac5f9c6e6b158b12951a044c8c669826e950d393cf899d08",
+    "results/cross_instrument/uves_clean_alternative_checkpoint.json": "887426a1305988d524d3725937b19706a1390be6277a3eefb1180a84ebf78ae8",
+    "results/cross_instrument/uves_clean_alternative.json": "1aa7a0bcf55a16c0ae850e5d2a8ac1349d9af3a5b737d3e15981f9fdbdc2991c",
+    "results/cross_instrument/uves_clean_alternative.npz": "1c0e3c842a57fd88188a7f030985c5800139f27d4882d3e73ca63b5086183eef",
+    "results/cross_instrument/uves_flex_null.log": "02a18171b9ca0ace7f0f1597196f5ffa36b2fa02c35eeb990f6215f17932d632",
+    "results/cross_instrument/uves_flex_null_checkpoint.json": "15da931b676613a878bfb921d9b929244398a553b32fd595fa815f53e74e0363",
+    "results/cross_instrument/uves_flex_alternative.log": "4a2216c50cc1fc6ecd18c705d634f5cf6ec26578d25b06a6aa3e868ba08cdbe7",
+    "results/cross_instrument/uves_flex_alternative_checkpoint.json": "9df7d4c64b3243b0adefc9c852f825f9617a4b91faa99e34881e78741716e2da",
+    "results/cross_instrument/uves_flex_null.json": "311bc187ae02f99034db315c57fd0279d38f6da2463e4aa371ff814521906c10",
+    "results/cross_instrument/uves_flex_null.npz": "047b8ab2ea8f5537812228baea1a7930c85b6de71a05243169b30bdccd41f382",
+    "results/cross_instrument/uves_flex_null_polished.log": "a36034d3af7cf8314cedefa1a9cb7c8fbc6bef9c50d77465bf67795a5cac3119",
+    "results/cross_instrument/uves_flex_null_polished_checkpoint.json": "3e2f21decaff2a6a7fafc5b1d7bf22bb8b773c4e68c822be1fa5e6361c8defb1",
+    "results/cross_instrument/uves_flex_alternative_polished.log": "a722f4341537147c78bce25834956a6cac42218ab852e0846a90093918122c1e",
+    "results/cross_instrument/uves_flex_alternative_polished_checkpoint.json": "d43aba86c69ff60af8bce73bf3276ec694bded4997080412051166c68f8fbfd3",
+    "results/cross_instrument/validation.json": "b58bcd426bb3d58c0ea7914c12b5a175ea3a7b84671dd5234d1a29b513bf1bd3",
+    "results/cross_instrument/uves_flex_null_polished.json": "a3c1d3c728304ca3dccfb1df6be746ba2e9d6d055b972141cbec12fe7ba1b86f",
+    "results/cross_instrument/uves_flex_null_polished.npz": "fdc34600c501008728154e426beec180e0c268ee70926b43cbfffbfb978aebc6",
+    "results/cross_instrument/uves_flex_alternative.json": "0ebbf3cd8ea3530c7618a936c8df6959d4f65a6d44696140ab4d09e2007f946a",
+    "results/cross_instrument/uves_flex_alternative.npz": "3bb6c44a687f5dac9c340c06ef36f272c818a897ddc83d0fdcd5c4f43b3761fd",
+    "results/cross_instrument/uves_refined_null.log": "9dc24ce684bd586bf5de8e6b0730757098508abac21de353d8ae24e3894cff0f",
+    "results/cross_instrument/uves_flex_alternative_polished.json": "71c0a0385fac00e926ca2395d395a637fa83ae4c4e3a42da8a3d73bd98356257",
+    "results/cross_instrument/uves_flex_alternative_polished.npz": "f41b7072d5054087927d0f0d567b5889d12999db623f37ba845e1af6647d0a86",
+    "results/cross_instrument/uves_refined_alternative.log": "01036a19d9ddc0e66eec34ef713ca3dc2c308c41553d4c127dd94720079b5c90",
+    "results/cross_instrument/uves_refined_null_checkpoint.json": "b06884a5374e9a3af332c1e0a5ff82d0d1a7ad55f9f54ccb2ac5889957e1fc9b",
+    "results/cross_instrument/uves_refined_alternative_checkpoint.json": "6e27e2e9a01f7f6546276960f383268c4b8ef41f7b5da66046a67db1698cccf8",
+    "results/cross_instrument/uves_expected_null.log": "97c0dd17316d3fd6e3d64a25b422944ddfd1e13e0c223bb7a6e7f6423803ec30",
+    "results/cross_instrument/uves_expected_alternative.log": "afd343a04f2c032c25fd431c4b9c12719433d15d72dd0cc53826cdc85aa3a6c1",
+    "results/cross_instrument/uves_expected_null_checkpoint.json": "e7b7b0a268b54619e883bd33aff51f644d4a8f09a977eaa70a2399fa1897ecd1",
+    "results/cross_instrument/uves_expected_alternative_checkpoint.json": "43a3efc0c2d7b82d25abd382c2bf689b390b28eadd29508ddd42a0e3ce2b37c3",
+    "results/cross_instrument/uves_refined_null_cross.log": "27b0260c5acc493b7eb8046e4f56fe7c07659855d8e3d39221eb1f82eeb71d8c",
+    "results/cross_instrument/uves_expected_null_cross.log": "a968c2cf8bcb4eadfd4bd492cd910242729778d13d7f43ff413a6eb25f98a9e0",
+    "results/cross_instrument/uves_refined_null_cross_checkpoint.json": "6eb5f04da18d5b312e1b19feec333bef8aa3e3555795e7f3d990cdc1acfe9f1e",
+    "results/cross_instrument/uves_expected_null_cross_checkpoint.json": "9735a56a860f6555516156d563cbb2fd7f8db0a633ab523688b85e7d7cc6123d",
+    "results/cross_instrument/uves_opacity_null.log": "59a5bdc8ca59d10e9e1443cf26023eedd3885331584013a437b0b6eb695fa970",
+    "results/cross_instrument/uves_opacity_alternative.log": "874af9d204a6ddab81bd890d20138d74f089fbd8191ae8c4e54db9c1ced752e7",
+    "results/cross_instrument/uves_opacity_null_checkpoint.json": "d54d6cc2ac75615a17f9e15bdccf22f59b9627931369b7ec907d19685f28eab3",
+    "results/cross_instrument/uves_opacity_alternative_checkpoint.json": "f1293d770e69da5f43b3b132d64125d32febb193b7fbf1cf1ffa9f9c82a77716",
+    "results/cross_instrument/uves_expected_null.json": "d1801548139b23f663e932767f919be0d6487ad2cc536b1b11f0c5a7d1c60dc0",
+    "results/cross_instrument/uves_expected_null.npz": "06aa044c1a1043682570164fe3a71ed492f45c914a2e367a97c48e25421534f7",
+    "results/cross_instrument/uves_refined_alternative.json": "05d47210fc4f29338548b245c73f09baf212afb8192831a20748b6120c7dcd3c",
+    "results/cross_instrument/uves_refined_alternative.npz": "4ea9efa22bbda7ca252549e21fcb5d5d3a6fe90bee9658e028a918c556c1b4cc",
+    "results/cross_instrument/uves_expected_alternative.json": "32b39d2a2317266b5b77a3c9f5e4fb14cedb217c3f4236d1942822f1ca45cf69",
+    "results/cross_instrument/uves_expected_alternative.npz": "ca72bb90f65d28e3fd840371aee1940ab7abe31303ea4ec4f09d62e2ec5f7d94",
+    "results/cross_instrument/uves_refined_null.json": "3c05ca58274754630d01e2528b145e0fa15938f4c296da6b906adf8d9236eaa8",
+    "results/cross_instrument/uves_refined_null.npz": "58ba92a96531a34ef7e230800b81c38ad7e2d5ac245ee7ede40e67c21426b77f",
+    "results/cross_instrument/uves_refined_null_cross.json": "879aa4586e537d8bb2869616b788372a40063c4586306b7ba86fb7a4aa2d2922",
+    "results/cross_instrument/uves_refined_null_cross.npz": "b383081049287d51a30e4dffdbbd8b92bf08729d36af4fa96649b5bc6e7c93c8",
+    "results/cross_instrument/uves_expected_null_cross.json": "a8d5b7b495cecc800e312e7737281c9998f8138cb232add51c4769c163b752ec",
+    "results/cross_instrument/uves_expected_null_cross.npz": "c551f1c3f5ce087c067759e7164cda07e470da3fd9c9ed57a279b5cbf7ac311c",
+    "results/cross_instrument/uves_opacity_null.json": "170db5290ed65883822d7e2618be666a4b48b821eb11250e4ff4096870e3dcc4",
+    "results/cross_instrument/uves_opacity_null.npz": "a58e6c7a11d1d4dd7d94cf60c5e4d024a73a088983c105b5d844b8a3023e5219",
+    "results/cross_instrument/uves_opacity_alternative.json": "06f97d297ac9320f57a4592185d8dd6c4154e363c103640fd7627bbcf3f1d6b5",
+    "results/cross_instrument/uves_opacity_alternative.npz": "0db1ee2f0eec5f69f0e2585feb82f36f6cb8d7446238d774c2e8b8332ca15547",
+    "results/cross_instrument/uves_refined_null_continued.log": "42004562c07954209556c4f70d23596986f13a7857bc300d217ebdd7ff2f5006",
+    "results/cross_instrument/uves_expected_null_continued.log": "cd32939f403deecfff51878a6a28919bc54c6d9da19cd58f58056a2c7c00c496",
+    "results/cross_instrument/uves_expected_alternative_continued.log": "b4af4692e858b535629406163bb07584007dd23eea1892455f6765040dc0a22d",
+    "results/cross_instrument/uves_refined_null_continued_checkpoint.json": "83f88f3305679179f9e99bc772fe8e6caf0e9aa89cb2775ff0d9efccd6656d98",
+    "results/cross_instrument/uves_expected_null_continued_checkpoint.json": "6f50bec3a88a3d8b8c3ab3058bbe91fc53500e0fd9bbae45ce31185790d252a3",
+    "results/cross_instrument/uves_expected_alternative_continued_checkpoint.json": "cd64870ea743a86a377d007eacde02217bf082170454bef6598b80155c69fc3d",
+    "results/cross_instrument/summary_run.log": "456253f6024e654dc1fd205a4d76d688aaf27071d69ec85c6a65675aaf6ed657",
+    "results/cross_instrument/summary.json": "456253f6024e654dc1fd205a4d76d688aaf27071d69ec85c6a65675aaf6ed657",
+    "results/cross_instrument/summary.csv": "4098c27552b7bf32a141bdc85b9f51384ae8bab61d58d6d057d95fea7a175535",
+    "results/cross_instrument/uves_profiles.png": "897bf76b106082975d82c181785882677a2513d46a9998a7bb4aefb8d59c1bda",
+    "results/cross_instrument/uves_profiles.pdf": "58272f872127d93ee96d968f2b74dfd3a71c6e8c463733c43a4e6446b18dee4d",
+    "results/cross_instrument/uves_expected_alternative_continued.json": "e955656d4d94adc247f0bda8ec1a1aeae5ba4c97e829e8150c2d1c2b543728c2",
+    "results/cross_instrument/uves_expected_alternative_continued.npz": "c0d6980a3c0a21a69b265ff49edebeb669bac535100bd194bc050c652d247b09",
+    "results/cross_instrument/uves_refined_null_continued.json": "832b7a076ab3d4640a76851b18b45056d1045eaf450cbc5098d14426819e5890",
+    "results/cross_instrument/uves_refined_null_continued.npz": "a090d2fb1861354c9b858ea37587e398eb0b273077d18592de1e8e3b01346dc4",
+    "results/cross_instrument/uves_expected_null_continued.json": "2481becf6fac109f9643eed08337a140914a7eda3b2cb96dc4a0f54ed8a41e23",
+    "results/cross_instrument/uves_expected_null_continued.npz": "3279eb973545c1874228dcc43461d0ab926c8e7da0675982caccf301200db922",
+    "results/cross_instrument/delivery_provenance.json": "7ad4c5f3f63e52bc0576ee973c053d436b66cf4dd55701a4ee0380419e665f66",
+    "reports/cross_instrument_harps_availability.md": "ad3686b7f0508cf0b70b5c559fa27dc783c23b849bad282149b2593d229ee216",
+    "reports/cross_instrument_validation.md": "c56f9f98aaf84588268746da11007aed2b70f9e477198cc5a4b6813e3df85a0a",
+    "reports/cross_instrument_results_cn.md": "5ce9ad1fab60842f4140390ee25a1576e7ca5999b425c508c0a707fcab027117",
+    "code/cross_instrument_uves.py": "c470ec5abafbb83e7ec6395ac809c49cc7f0669e21e0b5b565a904f4c3217875",
+    "code/cross_instrument_validate.py": "2ba4566613b51679c7aa166782af1abc406cd1f3b46727e14c719d141823d548",
+    "code/espresso_conventional_null.py": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de"
+  },
+  "source_sha256": "7713eabe8616a4d2ef3f155a08bdd675e833d2ae0862b22a1c27c86b1bd56721",
+  "validator_sha256": "fa2228b8e101d5a673d02002b70b33e7f2caa5a0228772117056c2f741ffda80",
+  "interpretation": "Verification of objective, bounds, stationarity diagnostics and saved arrays. PASS does not mean a fit meets stationarity thresholds or that a global/physical signal is established."
+}

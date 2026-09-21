@@ -1,0 +1,159 @@
+{
+  "target": "J064326-504112",
+  "z": 2.659,
+  "lines": [
+    1608,
+    2374,
+    2382
+  ],
+  "window": [
+    -145.0,
+    100.0
+  ],
+  "component_bounds": [
+    -145.0,
+    75.0
+  ],
+  "component_counts": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "centers": [
+    -130.0,
+    -80.0,
+    -53.0,
+    -32.0,
+    -14.0,
+    20.0,
+    -105.0,
+    45.0,
+    -65.0,
+    5.0,
+    -117.0,
+    55.0,
+    -22.0,
+    30.0,
+    -95.0,
+    60.0
+  ],
+  "centers_by_count": {
+    "4": [
+      -130.0,
+      -53.0,
+      -14.0,
+      25.0
+    ],
+    "6": [
+      -130.0,
+      -80.0,
+      -53.0,
+      -32.0,
+      -14.0,
+      25.0
+    ],
+    "8": [
+      -130.0,
+      -105.0,
+      -80.0,
+      -53.0,
+      -32.0,
+      -14.0,
+      20.0,
+      45.0
+    ],
+    "10": [
+      -130.0,
+      -105.0,
+      -80.0,
+      -65.0,
+      -53.0,
+      -32.0,
+      -14.0,
+      5.0,
+      25.0,
+      45.0
+    ],
+    "12": [
+      -130.0,
+      -117.0,
+      -105.0,
+      -80.0,
+      -65.0,
+      -53.0,
+      -32.0,
+      -14.0,
+      5.0,
+      25.0,
+      45.0,
+      55.0
+    ],
+    "16": [
+      -130.0,
+      -117.0,
+      -105.0,
+      -95.0,
+      -80.0,
+      -65.0,
+      -53.0,
+      -32.0,
+      -22.0,
+      -14.0,
+      5.0,
+      20.0,
+      30.0,
+      45.0,
+      55.0,
+      60.0
+    ]
+  },
+  "logtotal": 15.3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "max_nfev": 350,
+  "oversample": 9,
+  "refine_oversample": 21,
+  "shift_anchor": 2374,
+  "noise": "expected_fluctuation",
+  "bounds": {
+    "cont0": [
+      -0.1,
+      0.1
+    ],
+    "cont1": [
+      -0.03,
+      0.03
+    ],
+    "zero": [
+      -0.02,
+      0.02
+    ],
+    "lsf_relative": [
+      0.6,
+      1.4
+    ],
+    "b": [
+      0.5,
+      30.0
+    ],
+    "logN": [
+      9,
+      17
+    ]
+  },
+  "selection_file": "pre_fit_selection.json",
+  "selection_rationale": "Fixed main absorption complex based on full unshifted raw profiles; weak 1611 included from outset to constrain saturated gas. Separate absorption around \u2212157 (2382) and \u2212170/+133 (1611) outside common window; identities not established. Left boundary wing sensitivity retained as limitation. All source-valid pixels retained, no residual-based masks; model adequacy judged before offsets.",
+  "pre_fit_limitations": [
+    "Weak 1611 overlaps a conservative strong-sky proxy near 5897 \u00c5; no exposure-specific sky correction verified.",
+    "The common window isolates the main complex only; a nearby blue 2382 feature has unknown identity and possible wings.",
+    "Both reference 2374 and strong 2382 contain saturated pixels; weak 1611 is included from the outset to constrain columns.",
+    "Selection after profile inspection is exploratory; no anomalous shift or fitted residual was used."
+  ],
+  "sensitivity": "After failed four-line primary, fixed16 null-only diagnostic omitting weak1611. Sky-proxy warning was documented before primary. Same remaining native pixels/window/expected errors, start from primary gas; no architecture reselection or free shifts. This does not replace primary."
+}

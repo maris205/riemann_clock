@@ -1,0 +1,130 @@
+{
+  "target": "J233156-090802",
+  "z": 2.143,
+  "lines": [
+    1608,
+    2374,
+    2382
+  ],
+  "window": [
+    -480.0,
+    500.0
+  ],
+  "component_bounds": [
+    -465.0,
+    480.0
+  ],
+  "centers": [
+    -425.0,
+    -400.0,
+    -375.0,
+    -355.0,
+    -335.0,
+    -315.0,
+    -295.0,
+    -270.0,
+    -240.0,
+    -220.0,
+    -200.0,
+    -150.0,
+    -115.0,
+    -80.0,
+    25.0,
+    72.0,
+    180.0,
+    360.0,
+    455.0
+  ],
+  "logtotal": 15.4,
+  "component_counts": [
+    6,
+    10,
+    14,
+    18,
+    22,
+    26
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "max_nfev": 350,
+  "selection_stage": "Frozen after raw profile and AOD inspection, before nonlinear or relative-shift fitting.",
+  "selection_reason": "Before any fit, independent raw-profile review showed weak 2374 counterparts to detached red 2382 clouds; expand all three native windows to [-480,+500] km/s to include them alongside dominant complex. Same-gas1611 overlaps red1608 region and its opacity is explicitly summed with1608 before transmission and instrumental integration.",
+  "excluded_lines": {
+    "1611": "Not a fourth independent region: blue1611 overlaps strong1608 from same gas, while1611 opacity is explicitly included inside1608 region.",
+    "2249,2260,2344": "Retain earlier broad atmospheric-water warnings.",
+    "2586,2600": "Retain earlier coverage/quality exclusions."
+  },
+  "outside_window_features": "Finite [-480,+500] exploratory window includes visible dominant and detached red Fe candidates. No residual clipping; complete cosmic/kinematic population is not claimed.",
+  "limitations": [
+    "Exploratory data-inspected selection, not blind confirmation.",
+    "Strong 2382 saturated across roughly 400 km/s.",
+    "Twenty-six shared gas components may still be insufficient; inadequacy is retained as an outcome.",
+    "No alpha or cosmic-time-law parameter is fitted.",
+    "Region1608 nuisance shift moves both1608 and neighboring1611; it is not an isolated-transition measurement.",
+    "Broad-band avoidance does not establish absence of weak tellurics or blends."
+  ],
+  "pixel_diagnostics": {
+    "1608": {
+      "within_window": 392,
+      "source_valid_expected_noise": 392,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "1611": {
+      "within_window": 392,
+      "source_valid_expected_noise": 392,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "2374": {
+      "within_window": 392,
+      "source_valid_expected_noise": 392,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "2382": {
+      "within_window": 392,
+      "source_valid_expected_noise": 392,
+      "native_dv_km_s": 2.499989576113876
+    }
+  },
+  "source_sha256": "80276c58831dc457e9c7f02521ef4883311fa9c2057e5a4306454c607c13b4d0",
+  "selection_script_sha256": "ff40e30b6feb9c71e0fc88abac3384288b112edcb17c67296b354140af62561e",
+  "frozen_utc": "2026-09-21T03:44:10.511005+00:00",
+  "counts_amendment": "Before any fit: campaign review of 630 km/s full-system span increased finite count grid to [6,10,14,18,22,26]. Initial proposal preserved in selection_initial_counts.json. No shift result existed at amendment.",
+  "campaign_bounds": {
+    "continuum0": [
+      -0.1,
+      0.1
+    ],
+    "continuum_slope_per100km_s": [
+      -0.03,
+      0.03
+    ],
+    "zero": [
+      -0.02,
+      0.02
+    ],
+    "lsf_relative": [
+      0.6,
+      1.4
+    ],
+    "b_km_s": [
+      0.5,
+      30
+    ],
+    "logN": [
+      9,
+      17
+    ]
+  },
+  "opacity_lines": {
+    "1608": [
+      1608,
+      1611
+    ]
+  },
+  "neighbor_opacity_adapter": "code/archive_complete_j2331_model.py",
+  "neighbor_opacity_adapter_sha256": "9167a0fffb5bbb1e05b252241e23a05f56d72c11a133182b67a9904bbc5c2a20",
+  "expansion_amendment": "Approved and frozen before any nonlinear fit; previous common window saved in selection_dominant_complex_before_expansion.json."
+}

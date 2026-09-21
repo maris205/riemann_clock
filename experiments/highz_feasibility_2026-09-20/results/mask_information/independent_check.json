@@ -1,0 +1,479 @@
+{
+  "scope": "Independent read-only fixed-parameter tangent Fisher diagnostic; no data significance or nonlinear refit.",
+  "source_json_sha256": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7",
+  "source_npz_sha256": "e7c34c38c9a3a57ffa6f31870dbef16e8eda1f7e2847dd3f37f183c0e3b18c96",
+  "cases": {
+    "full": {
+      "ndata": 2931,
+      "mask_counts": [
+        {
+          "line": 2260,
+          "count": 277,
+          "removed": 0
+        },
+        {
+          "line": 2344,
+          "count": 430,
+          "removed": 0
+        },
+        {
+          "line": 2374,
+          "count": 508,
+          "removed": 0
+        },
+        {
+          "line": 2382,
+          "count": 579,
+          "removed": 0
+        },
+        {
+          "line": 2586,
+          "count": 560,
+          "removed": 0
+        },
+        {
+          "line": 2600,
+          "count": 577,
+          "removed": 0
+        }
+      ],
+      "parameters_identical_to_null_cross": true,
+      "shift_labels": [
+        "shift_2260",
+        "shift_2344",
+        "shift_2382",
+        "shift_2586",
+        "shift_2600"
+      ],
+      "fixed_signal_km_s": [
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.1
+      ],
+      "cutoffs": {
+        "1e-08": {
+          "nuisance_rank": 146,
+          "expected_local_signal_norm_squared": 36.04509752911757,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.87480360869193,
+            "shift_2344": 26.36879485832051,
+            "shift_2382": 30.73921140453976,
+            "shift_2586": 23.459618170643385,
+            "shift_2600": 28.704338697953002
+          },
+          "signal_vs_fisher_abs_error": 2.1316282072803006e-14,
+          "max_projected_nuisance_overlap": 6.568356969438582e-14,
+          "fisher_eigenvalues": [
+            27.447352735058114,
+            412.1753820744848,
+            3613.6287875150106,
+            6405.909484855125,
+            6438.2357173705
+          ],
+          "ratio_to_full": 1.0
+        },
+        "1e-10": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 36.04496420659507,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.87966314676268,
+            "shift_2344": 26.36931973005266,
+            "shift_2382": 30.739730426851246,
+            "shift_2586": 23.46026374422724,
+            "shift_2600": 28.705054348761347
+          },
+          "signal_vs_fisher_abs_error": 2.842170943040401e-14,
+          "max_projected_nuisance_overlap": 6.417089082333405e-14,
+          "fisher_eigenvalues": [
+            27.445956959800153,
+            412.15302141646504,
+            3613.61717076711,
+            6405.902169847527,
+            6438.211419924024
+          ],
+          "ratio_to_full": 1.0
+        },
+        "1e-12": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 36.04496420659507,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.87966314676268,
+            "shift_2344": 26.36931973005266,
+            "shift_2382": 30.739730426851246,
+            "shift_2586": 23.46026374422724,
+            "shift_2600": 28.705054348761347
+          },
+          "signal_vs_fisher_abs_error": 2.842170943040401e-14,
+          "max_projected_nuisance_overlap": 6.417089082333405e-14,
+          "fisher_eigenvalues": [
+            27.445956959800153,
+            412.15302141646504,
+            3613.61717076711,
+            6405.902169847527,
+            6438.211419924024
+          ],
+          "ratio_to_full": 1.0
+        }
+      }
+    },
+    "core01": {
+      "ndata": 2692,
+      "mask_counts": [
+        {
+          "line": 2260,
+          "count": 277,
+          "removed": 0
+        },
+        {
+          "line": 2344,
+          "count": 430,
+          "removed": 0
+        },
+        {
+          "line": 2374,
+          "count": 508,
+          "removed": 0
+        },
+        {
+          "line": 2382,
+          "count": 454,
+          "removed": 125
+        },
+        {
+          "line": 2586,
+          "count": 560,
+          "removed": 0
+        },
+        {
+          "line": 2600,
+          "count": 463,
+          "removed": 114
+        }
+      ],
+      "parameters_identical_to_null_cross": true,
+      "shift_labels": [
+        "shift_2260",
+        "shift_2344",
+        "shift_2382",
+        "shift_2586",
+        "shift_2600"
+      ],
+      "fixed_signal_km_s": [
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.1
+      ],
+      "cutoffs": {
+        "1e-08": {
+          "nuisance_rank": 146,
+          "expected_local_signal_norm_squared": 25.42760385283362,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.97393721760255,
+            "shift_2344": 27.842162621724743,
+            "shift_2382": 33.54290621900679,
+            "shift_2586": 24.57102032510223,
+            "shift_2600": 31.146081917286438
+          },
+          "signal_vs_fisher_abs_error": 3.552713678800501e-15,
+          "max_projected_nuisance_overlap": 9.879944085078307e-14,
+          "fisher_eigenvalues": [
+            27.418964502196488,
+            366.06896728308266,
+            2628.79410731596,
+            4967.623953746547,
+            6225.425973217145
+          ],
+          "ratio_to_full": 0.7054386198370795
+        },
+        "1e-10": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 25.427470712002307,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.97685555417127,
+            "shift_2344": 27.854683824538082,
+            "shift_2382": 33.568169961515764,
+            "shift_2586": 24.595666341771825,
+            "shift_2600": 31.155506345776207
+          },
+          "signal_vs_fisher_abs_error": 2.1316282072803006e-14,
+          "max_projected_nuisance_overlap": 1.0061222688317883e-13,
+          "fisher_eigenvalues": [
+            27.418122679395974,
+            365.54099059028385,
+            2628.7294364121217,
+            4964.055197018658,
+            6222.057300327214
+          ],
+          "ratio_to_full": 0.7054375353589587
+        },
+        "1e-12": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 25.427470712002307,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 190.97685555417127,
+            "shift_2344": 27.854683824538082,
+            "shift_2382": 33.568169961515764,
+            "shift_2586": 24.595666341771825,
+            "shift_2600": 31.155506345776207
+          },
+          "signal_vs_fisher_abs_error": 2.1316282072803006e-14,
+          "max_projected_nuisance_overlap": 1.0061222688317883e-13,
+          "fisher_eigenvalues": [
+            27.418122679395974,
+            365.54099059028385,
+            2628.7294364121217,
+            4964.055197018658,
+            6222.057300327214
+          ],
+          "ratio_to_full": 0.7054375353589587
+        }
+      }
+    },
+    "core03_padded": {
+      "ndata": 2473,
+      "mask_counts": [
+        {
+          "line": 2260,
+          "count": 277,
+          "removed": 0
+        },
+        {
+          "line": 2344,
+          "count": 430,
+          "removed": 0
+        },
+        {
+          "line": 2374,
+          "count": 508,
+          "removed": 0
+        },
+        {
+          "line": 2382,
+          "count": 335,
+          "removed": 244
+        },
+        {
+          "line": 2586,
+          "count": 560,
+          "removed": 0
+        },
+        {
+          "line": 2600,
+          "count": 363,
+          "removed": 214
+        }
+      ],
+      "parameters_identical_to_null_cross": true,
+      "shift_labels": [
+        "shift_2260",
+        "shift_2344",
+        "shift_2382",
+        "shift_2586",
+        "shift_2600"
+      ],
+      "fixed_signal_km_s": [
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.1
+      ],
+      "cutoffs": {
+        "1e-08": {
+          "nuisance_rank": 146,
+          "expected_local_signal_norm_squared": 5.770662945443185,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 191.08576487356734,
+            "shift_2344": 28.585575031985694,
+            "shift_2382": 56.655276783960076,
+            "shift_2586": 25.1942694005463,
+            "shift_2600": 48.68951987788548
+          },
+          "signal_vs_fisher_abs_error": 2.6645352591003757e-15,
+          "max_projected_nuisance_overlap": 6.483702463810914e-14,
+          "fisher_eigenvalues": [
+            27.3868141120989,
+            192.16205757293702,
+            1016.2006523432175,
+            1466.10479748477,
+            6167.307199787586
+          ],
+          "ratio_to_full": 0.1600956396575592
+        },
+        "1e-10": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 5.76876889134397,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 191.08576500024682,
+            "shift_2344": 28.58975305899686,
+            "shift_2382": 56.65527679682067,
+            "shift_2586": 25.19825978803935,
+            "shift_2600": 48.714156320323504
+          },
+          "signal_vs_fisher_abs_error": 2.6645352591003757e-15,
+          "max_projected_nuisance_overlap": 6.400435736964027e-14,
+          "fisher_eigenvalues": [
+            27.386814041726193,
+            192.11438017257805,
+            1015.4895768123779,
+            1464.2619139630199,
+            6167.28378749005
+          ],
+          "ratio_to_full": 0.16004368483430123
+        },
+        "1e-12": {
+          "nuisance_rank": 147,
+          "expected_local_signal_norm_squared": 5.76876889134397,
+          "marginal_shift_se_m_s": {
+            "shift_2260": 191.08576500024682,
+            "shift_2344": 28.58975305899686,
+            "shift_2382": 56.65527679682067,
+            "shift_2586": 25.19825978803935,
+            "shift_2600": 48.714156320323504
+          },
+          "signal_vs_fisher_abs_error": 2.6645352591003757e-15,
+          "max_projected_nuisance_overlap": 6.400435736964027e-14,
+          "fisher_eigenvalues": [
+            27.386814041726193,
+            192.11438017257805,
+            1015.4895768123779,
+            1464.2619139630199,
+            6167.28378749005
+          ],
+          "ratio_to_full": 0.16004368483430123
+        }
+      }
+    }
+  },
+  "source_files_unchanged": true,
+  "source_json_file": "results/espresso_null/null_cross.json",
+  "source_npz_file": "results/espresso_null/null_cross.npz",
+  "final_artifact_audit": {
+    "reviewed_at_utc": "2026-09-20T18:02:29.216702+00:00",
+    "scope": "Exact current parent artifacts compared with independent original values and independently recomputed gesvd projection at the unchanged null_cross parameters; no nonlinear fitting.",
+    "reviewed_files_sha256": {
+      "results/mask_information/information.json": "6409bcd69170a268eed0ae42f3971f2169d8feb427acbd4fa621f591428e6935",
+      "results/mask_information/information_arrays.npz": "61a70a0ef017511141983f8312325f603d4d225aa60b7702725dc849740980f4",
+      "results/espresso_null/null_cross.json": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7",
+      "results/espresso_null/null_cross.npz": "e7c34c38c9a3a57ffa6f31870dbef16e8eda1f7e2847dd3f37f183c0e3b18c96"
+    },
+    "common_parameters_match_exactly": true,
+    "provenance_clarification": "Original source_json_sha256 and source_npz_sha256 correctly identify null_cross.json and null_cross.npz baseline inputs. They were never hashes of information.json and were not stale summary hashes. Explicit source file fields disambiguate them.",
+    "comparisons": [
+      {
+        "case": "full_gls",
+        "cutoff": 1e-08,
+        "fisher_vs_saved_max_abs": 8.276401786133647e-11,
+        "covariance_vs_saved_max_abs": 7.914675859144182e-18,
+        "effective_jacobian_vs_saved_max_abs": 7.626311041009082e-12,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 3.197442310920451e-13,
+        "retention_vs_original_abs": 0.0,
+        "max_nuisance_projection_overlap": 6.568356969438582e-14
+      },
+      {
+        "case": "full_gls",
+        "cutoff": 1e-10,
+        "fisher_vs_saved_max_abs": 8.094502845779061e-11,
+        "covariance_vs_saved_max_abs": 1.0625181290357943e-17,
+        "effective_jacobian_vs_saved_max_abs": 7.629228845895675e-12,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 2.7711166694643907e-13,
+        "retention_vs_original_abs": 0.0,
+        "max_nuisance_projection_overlap": 6.417089082333405e-14
+      },
+      {
+        "case": "full_gls",
+        "cutoff": 1e-12,
+        "fisher_vs_saved_max_abs": 8.094502845779061e-11,
+        "covariance_vs_saved_max_abs": 1.0625181290357943e-17,
+        "effective_jacobian_vs_saved_max_abs": 7.629228845895675e-12,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 2.7711166694643907e-13,
+        "retention_vs_original_abs": 0.0,
+        "max_nuisance_projection_overlap": 6.417089082333405e-14
+      },
+      {
+        "case": "core01_gls",
+        "cutoff": 1e-08,
+        "fisher_vs_saved_max_abs": 1.2005330063402653e-10,
+        "covariance_vs_saved_max_abs": 4.78048454771382e-17,
+        "effective_jacobian_vs_saved_max_abs": 1.701486868066482e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 5.293543381412746e-13,
+        "retention_vs_original_abs": 8.326672684688674e-15,
+        "max_nuisance_projection_overlap": 9.879944085078307e-14
+      },
+      {
+        "case": "core01_gls",
+        "cutoff": 1e-10,
+        "fisher_vs_saved_max_abs": 6.730260793119669e-11,
+        "covariance_vs_saved_max_abs": 3.819440965759091e-17,
+        "effective_jacobian_vs_saved_max_abs": 1.6948928371895988e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 5.790923296444817e-13,
+        "retention_vs_original_abs": 1.0658141036401503e-14,
+        "max_nuisance_projection_overlap": 1.0061222688317883e-13
+      },
+      {
+        "case": "core01_gls",
+        "cutoff": 1e-12,
+        "fisher_vs_saved_max_abs": 6.730260793119669e-11,
+        "covariance_vs_saved_max_abs": 3.819440965759091e-17,
+        "effective_jacobian_vs_saved_max_abs": 1.6948928371895988e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 5.790923296444817e-13,
+        "retention_vs_original_abs": 1.0658141036401503e-14,
+        "max_nuisance_projection_overlap": 1.0061222688317883e-13
+      },
+      {
+        "case": "core03_gls",
+        "cutoff": 1e-08,
+        "fisher_vs_saved_max_abs": 2.5011104298755527e-11,
+        "covariance_vs_saved_max_abs": 5.286908606218221e-16,
+        "effective_jacobian_vs_saved_max_abs": 3.927635647271721e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 1.5365486660812167e-13,
+        "retention_vs_original_abs": 2.858824288409778e-15,
+        "max_nuisance_projection_overlap": 6.483702463810914e-14
+      },
+      {
+        "case": "core03_gls",
+        "cutoff": 1e-10,
+        "fisher_vs_saved_max_abs": 2.148681232938543e-11,
+        "covariance_vs_saved_max_abs": 5.286908606218221e-16,
+        "effective_jacobian_vs_saved_max_abs": 3.9270451474004986e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 1.056932319443149e-13,
+        "retention_vs_original_abs": 1.6930901125533637e-15,
+        "max_nuisance_projection_overlap": 6.400435736964027e-14
+      },
+      {
+        "case": "core03_gls",
+        "cutoff": 1e-12,
+        "fisher_vs_saved_max_abs": 2.148681232938543e-11,
+        "covariance_vs_saved_max_abs": 5.286908606218221e-16,
+        "effective_jacobian_vs_saved_max_abs": 3.9270451474004986e-11,
+        "fisher_json_vs_saved_max_abs": 0.0,
+        "covariance_json_vs_saved_max_abs": 0.0,
+        "expected_signal_vs_original_abs": 1.056932319443149e-13,
+        "retention_vs_original_abs": 1.6930901125533637e-15,
+        "max_nuisance_projection_overlap": 6.400435736964027e-14
+      }
+    ],
+    "reviewed_files_unchanged_during_audit": true,
+    "passed": true
+  }
+}

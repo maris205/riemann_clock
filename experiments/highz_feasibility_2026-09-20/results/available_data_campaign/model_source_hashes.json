@@ -1,0 +1,18 @@
+{
+  "experiments/highz_feasibility_2026-09-20/results/empirical_gls/comparison.json": "ed8602afb08b289a2febafb60e6a9fd3b482e8e70ba1831fafd297a75264a1ff",
+  "experiments/highz_feasibility_2026-09-20/results/espresso_null/comparison.json": "eeb2ac846d3126e65ff94adf517b2b2fa3820099b4c8537153c10161ec0d4683",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_comparison.json": "778b1efe69772974687471fd7d18affd4b3109a6119bbd200209c260fb13bc8b",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_comparison.json": "3e22902cb5eab9fe38de825ca92cfedb20f81bacfa4b2633ec40c81519dac6ce",
+  "experiments/highz_feasibility_2026-09-20/results/gas_structure/comparison.json": "71b63bebc84684df5bba7f03d8e72e14f8e753a072f140b115806120cfd3f88e",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core01_comparison.json": "b8653e990b41fbc6576d81a45d800659bc4fcbd3815475dc4aeb5716801b3a39",
+  "experiments/highz_feasibility_2026-09-20/results/saturation_controls/core03_padded_comparison.json": "7ed0be886323770c83003c9d2ba84e03d2af5a8eedde260973fad0154d86cc5b",
+  "experiments/highz_feasibility_2026-09-20/results/mask_information/information.json": "6409bcd69170a268eed0ae42f3971f2169d8feb427acbd4fa621f591428e6935",
+  "experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_null_cross.json": "b04fa67a24ab9bcd33770fd8ef70a8a7c5813c69b74126ab96b306179e54139a",
+  "experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_alternative.json": "2812ea8fa970c4c15eebc8618a563838eb7743586a700767a8fbd5a6571c9535",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_null.json": "f50a1dc8b3e7cabe6778a04f76be1b1294c3868e6ec639a4740c93b37f7ac66e",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_alternative_cross.json": "bc8bb4a04fa5174cc511fbf382056b5e3bc869f128abc8454f636177f435ec94",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_null_cross.json": "6842097cc935d08142c845b4fc85a8cb39444c6951400f899230dde0dc54a053",
+  "experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_alternative.json": "bb95052b3c72ea16e306fc37a2c794635c4344f7d3342539492beeaa959a62e9",
+  "experiments/highz_feasibility_2026-09-20/results/gas_structure/merged40_null_cross.json": "e187ac9846dff62cbc501bd3a570b5bb77a44b21bddb9814b9f206089b824841",
+  "experiments/highz_feasibility_2026-09-20/results/gas_structure/merged40_alternative_from_null.json": "4d54eca636702db9bd3cd2679ebdef3168b5a106092b6a697e75591822e75e64"
+}

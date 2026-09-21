@@ -1,0 +1,180 @@
+{
+  "repository": "https://github.com/MTMurphy77/ESPRESSO_HE0515-4414",
+  "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+  "source_data_doi": "10.5281/zenodo.5512490",
+  "downloaded_utc": "2026-09-20T17:24:16Z",
+  "exposure_count": 17,
+  "total_bytes": 1108454400,
+  "files": [
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-04T07:00.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-04T07:00.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-04T07:00.fits",
+      "bytes": 65203200,
+      "sha256": "5702ce30136302ea6b6c17ed0e9b3795409a96e070c8c41185a8f25e9bea7afb",
+      "git_blob_sha1": "921090326f566638cf246b15b6fd8328426bf930",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T03:36.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T03:36.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T03:36.fits",
+      "bytes": 65203200,
+      "sha256": "3c03075999af2071c88486ae935f330ac76e4c7db738f5f9d191cfea4cb3467b",
+      "git_blob_sha1": "a03d8e0592e69b0f772018bbfa09fd1106dd7fb0",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T04:37.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T04:37.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T04:37.fits",
+      "bytes": 65203200,
+      "sha256": "f2e1167f1e211b08cf5ac244512474a8c8cdd7b44c3ddc3384743b6809f9d1f8",
+      "git_blob_sha1": "2c4cf0aae90f0d5b09a5ac2d127901a6fc6359d3",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T05:38.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T05:38.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T05:38.fits",
+      "bytes": 65203200,
+      "sha256": "393bc0dd5bf7e2ffb22ba92c3a3680459729356245ff7a3fc18858170d433692",
+      "git_blob_sha1": "d372ecc005b6fcb68d2ddd3a687291708223780d",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T06:39.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T06:39.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T06:39.fits",
+      "bytes": 65203200,
+      "sha256": "1b25bb5971d5b148514be14d8862196e5ef904cd63439dada09d6faee68c9e29",
+      "git_blob_sha1": "73e105f4778df017cd4ef7c955b3779a6e5c2f17",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T07:40.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T07:40.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-05T07:40.fits",
+      "bytes": 65203200,
+      "sha256": "231fb5a5efe61b8736041b0429e98730fe1d3686fc1020334268666d1b17f16b",
+      "git_blob_sha1": "a8b79be0a47a6e1d57277bc3e1c43f924fc67a49",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T05:21.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T05:21.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T05:21.fits",
+      "bytes": 65203200,
+      "sha256": "a96f35bddf43367efc88e9d2a554530797b5277ec239fb7fe31be20820030a8b",
+      "git_blob_sha1": "8b43962f9708b5582dbecad1e645aaa661a36708",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T06:22.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T06:22.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T06:22.fits",
+      "bytes": 65203200,
+      "sha256": "b3862b4897695eb7cd6a449d98991a72ed517b5f48a2a06fc73a01acc3048580",
+      "git_blob_sha1": "813861dd998ffbeddcafab8dad787371102232a1",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T07:27.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T07:27.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2018-11-07T07:27.fits",
+      "bytes": 65203200,
+      "sha256": "a68f37723639ef70b87764eab3c94b43897350d5b8fbe1f305aa396ef52e7431",
+      "git_blob_sha1": "c35e3ff6c2eeecc373eab08210cb72aa110587de",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2019-11-26T06:53.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2019-11-26T06:53.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2019-11-26T06:53.fits",
+      "bytes": 65203200,
+      "sha256": "c9610a3653d177c6413f8f7796232987ff0122b526145576ae3680deabfd8709",
+      "git_blob_sha1": "a5adaf6ee82c0cc4bfda5670730a394f3fb66acf",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:14.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:14.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:14.fits",
+      "bytes": 65203200,
+      "sha256": "97d9a22256f8f25ca4e7353cb183e8f516b1fe511caf08458097fe87483f966a",
+      "git_blob_sha1": "8f5a290878c6124f8ffa6b08f2f38ebd3b828b5b",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:33.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:33.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T01:33.fits",
+      "bytes": 65203200,
+      "sha256": "7beee767d5557fa262b84d11d809337d13a859e5a208c47dc5d5746226995123",
+      "git_blob_sha1": "f032b1b92f8c1631ff6dab3e631496a1c9841f05",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T02:34.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T02:34.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-02-28T02:34.fits",
+      "bytes": 65203200,
+      "sha256": "cb2f30a732be8da5a4e245368702847c99aefc29801791c9135063828b298d72",
+      "git_blob_sha1": "126d1f680c3929e49f820b8114dfd88b762fcf64",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-03T00:34.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-03T00:34.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-03T00:34.fits",
+      "bytes": 65203200,
+      "sha256": "2e52bdd6fe1ece9dde75dd42d8355557702ae4cec7989dbcf142ae19da529d41",
+      "git_blob_sha1": "104d8d7d5342ee00d21d17e3fc81fa4dd978a489",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-19T02:34.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-19T02:34.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-19T02:34.fits",
+      "bytes": 65203200,
+      "sha256": "a95fe2d37cee2aca87f373fbf9504af83c10ad3dbea0214267853995e513ee3c",
+      "git_blob_sha1": "dd468172490f4ecf957b88ff07aaed5ec25dc766",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-20T01:41.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-20T01:41.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-20T01:41.fits",
+      "bytes": 65203200,
+      "sha256": "ef28ff735504bef4231577adba7bdf95c4fe602f0892df1ff802aee303083417",
+      "git_blob_sha1": "8010d1c4b4ac9ce850f9a2daa459e5c5bd7c0f34",
+      "git_blob_verified": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-21T01:39.fits",
+      "repository_path": "DRS_extracted_spectra/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-21T01:39.fits",
+      "commit": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+      "local_file": "data/raw/exposures/ESPRESSO_LFC_WITH_CRH_S2D_SKYSUB_A_2020-03-21T01:39.fits",
+      "bytes": 65203200,
+      "sha256": "0f4594dcc9549d9ab7f702fe4d7369169cd19cdb0e60fb0cd3faa2cb13302dd2",
+      "git_blob_sha1": "8d1c94dc6bfae69da385346d8cc03961992a1a8b",
+      "git_blob_verified": true
+    }
+  ]
+}

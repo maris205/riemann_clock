@@ -1,0 +1,553 @@
+{
+  "scope": "Actual good-or-options count selection, retaining every lower unfinished endpoint. These gaps describe stage-specific optimizer bookkeeping, not global model ranking; later recovery fits are separate products.",
+  "counts": [
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 4,
+      "selected_name": "n4_null_s1_os9",
+      "selected_chi2": 7661.090588779289,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n4_null_s0_os9",
+        "n4_null_s1_os9",
+        "n4_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 6,
+      "selected_name": "n6_null_s1_os9",
+      "selected_chi2": 5664.049533074101,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n6_null_s0_os9",
+        "n6_null_s1_os9",
+        "n6_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 8,
+      "selected_name": "n8_null_s1_os9",
+      "selected_chi2": 3104.4593004440912,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n8_null_s0_os9",
+        "n8_null_s1_os9",
+        "n8_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 10,
+      "selected_name": "n10_null_s1_os9",
+      "selected_chi2": 770.5888640524745,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 2,
+      "incomplete_candidates": 1,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": "n10_null_s2_os9",
+      "lowest_incomplete_chi2": 824.2980829079805,
+      "selected_minus_lowest_incomplete_chi2": -53.70921885550604,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n10_null_s0_os9",
+        "n10_null_s1_os9",
+        "n10_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 12,
+      "selected_name": "n12_null_s2_os9",
+      "selected_chi2": 694.7328783532523,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n12_null_s0_os9",
+        "n12_null_s1_os9",
+        "n12_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "stage": "original_count_grid",
+      "ncomp": 16,
+      "selected_name": "n16_null_s2_os9",
+      "selected_chi2": 482.29846013149813,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n16_null_s0_os9",
+        "n16_null_s1_os9",
+        "n16_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 4,
+      "selected_name": "n4_null_s2_os9",
+      "selected_chi2": 4294.8418388759455,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n4_null_s0_os9",
+        "n4_null_s1_os9",
+        "n4_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 6,
+      "selected_name": "n6_null_s2_os9",
+      "selected_chi2": 1526.090181393597,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n6_null_s0_os9",
+        "n6_null_s1_os9",
+        "n6_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 8,
+      "selected_name": "n8_null_s2_os9",
+      "selected_chi2": 879.9088394299667,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n8_null_s0_os9",
+        "n8_null_s1_os9",
+        "n8_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 10,
+      "selected_name": "n10_null_s2_os9",
+      "selected_chi2": 623.0236166387185,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n10_null_s0_os9",
+        "n10_null_s1_os9",
+        "n10_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 12,
+      "selected_name": "n12_null_s2_os9",
+      "selected_chi2": 581.7015466690208,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n12_null_s0_os9",
+        "n12_null_s1_os9",
+        "n12_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "stage": "original_count_grid",
+      "ncomp": 16,
+      "selected_name": "n16_null_s2_os9",
+      "selected_chi2": 532.2270163139742,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n16_null_s0_os9",
+        "n16_null_s1_os9",
+        "n16_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "original_count_grid",
+      "ncomp": 6,
+      "selected_name": "n6_null_s2_os9",
+      "selected_chi2": 10120.385539868432,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n6_null_s0_os9",
+        "n6_null_s1_os9",
+        "n6_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "original_count_grid",
+      "ncomp": 10,
+      "selected_name": "n10_null_s1_os9",
+      "selected_chi2": 2797.7005649380253,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n10_null_s0_os9",
+        "n10_null_s1_os9",
+        "n10_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "original_count_grid",
+      "ncomp": 14,
+      "selected_name": "n14_null_s2_os9",
+      "selected_chi2": 1585.071843916768,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n14_null_s0_os9",
+        "n14_null_s1_os9",
+        "n14_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "original_count_grid",
+      "ncomp": 18,
+      "selected_name": "n18_null_s2_os9",
+      "selected_chi2": 829.9337945431109,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n18_null_s0_os9",
+        "n18_null_s1_os9",
+        "n18_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "original_count_grid",
+      "ncomp": 22,
+      "selected_name": "n22_null_s2_os9",
+      "selected_chi2": 683.7528281205724,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n22_null_s0_os9",
+        "n22_null_s1_os9",
+        "n22_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "bounded_extension_count_grid",
+      "ncomp": 26,
+      "selected_name": "n26_null_extension_s2_os9",
+      "selected_chi2": 504.6872865962673,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 2,
+      "incomplete_candidates": 1,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": "n26_null_extension_s0_os9",
+      "lowest_incomplete_chi2": 556.0392359277721,
+      "selected_minus_lowest_incomplete_chi2": -51.351949331504784,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n26_null_extension_s0_os9",
+        "n26_null_extension_s1_os9",
+        "n26_null_extension_s2_os9"
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "stage": "bounded_extension_count_grid",
+      "ncomp": 30,
+      "selected_name": "n30_null_extension_s1_os9",
+      "selected_chi2": 463.71796906379603,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 1,
+      "incomplete_candidates": 2,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": "n30_null_extension_s2_os9",
+      "lowest_incomplete_chi2": 422.1879283618181,
+      "selected_minus_lowest_incomplete_chi2": 41.53004070197795,
+      "lower_incomplete_available": true,
+      "candidate_names": [
+        "n30_null_extension_s0_os9",
+        "n30_null_extension_s1_os9",
+        "n30_null_extension_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 6,
+      "selected_name": "n6_null_s1_os9",
+      "selected_chi2": 16868.952172387264,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n6_null_s0_os9",
+        "n6_null_s1_os9",
+        "n6_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 10,
+      "selected_name": "n10_null_s2_os9",
+      "selected_chi2": 6097.5444340134545,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n10_null_s0_os9",
+        "n10_null_s1_os9",
+        "n10_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 14,
+      "selected_name": "n14_null_s0_os9",
+      "selected_chi2": 4532.102212199469,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n14_null_s0_os9",
+        "n14_null_s1_os9",
+        "n14_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 18,
+      "selected_name": "n18_null_s2_os9",
+      "selected_chi2": 3044.96503719378,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n18_null_s0_os9",
+        "n18_null_s1_os9",
+        "n18_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 22,
+      "selected_name": "n22_null_s2_os9",
+      "selected_chi2": 1709.3092817369222,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 3,
+      "incomplete_candidates": 0,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": null,
+      "lowest_incomplete_chi2": null,
+      "selected_minus_lowest_incomplete_chi2": null,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n22_null_s0_os9",
+        "n22_null_s1_os9",
+        "n22_null_s2_os9"
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "stage": "original_count_grid",
+      "ncomp": 26,
+      "selected_name": "n26_null_s2_os9",
+      "selected_chi2": 1672.8416963585303,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 2,
+      "incomplete_candidates": 1,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": "n26_null_s1_os9",
+      "lowest_incomplete_chi2": 1753.7656925133542,
+      "selected_minus_lowest_incomplete_chi2": -80.92399615482395,
+      "lower_incomplete_available": false,
+      "candidate_names": [
+        "n26_null_s0_os9",
+        "n26_null_s1_os9",
+        "n26_null_s2_os9"
+      ]
+    }
+  ],
+  "lower_incomplete_gaps": [
+    {
+      "target": "J225719-100104",
+      "stage": "bounded_extension_count_grid",
+      "ncomp": 30,
+      "selected_name": "n30_null_extension_s1_os9",
+      "selected_chi2": 463.71796906379603,
+      "selected_optimizer_success": true,
+      "oversample": 9,
+      "successful_candidates": 1,
+      "incomplete_candidates": 2,
+      "actual_rule": "minimum chi2 among successful stops if any, otherwise minimum chi2 among incomplete endpoints",
+      "lowest_incomplete_name": "n30_null_extension_s2_os9",
+      "lowest_incomplete_chi2": 422.1879283618181,
+      "selected_minus_lowest_incomplete_chi2": 41.53004070197795,
+      "lower_incomplete_available": true,
+      "candidate_names": [
+        "n30_null_extension_s0_os9",
+        "n30_null_extension_s1_os9",
+        "n30_null_extension_s2_os9"
+      ]
+    }
+  ]
+}

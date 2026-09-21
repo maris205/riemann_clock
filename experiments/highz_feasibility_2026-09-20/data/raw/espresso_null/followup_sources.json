@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://arxiv.org/html/2112.05819v1/shifts_rel_MgI2852.png",
+    "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/shifts_rel_MgI2852.png",
+    "sha256": "bde226f88737d183f89704f48decaafd85f11c1f31554818d91ded170c506056",
+    "bytes": 77327
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Final_spectrum/hes0515m4414.upl",
+    "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/hes0515m4414.upl",
+    "sha256": "25ae3fad50d0c39d333bdf087658c088eef082b3cb244c4f79a7290377a4ca01",
+    "bytes": 563843
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "target": "J233156-090802",
+  "z": 2.143,
+  "lines": [
+    1608,
+    2374,
+    2382
+  ],
+  "window": [
+    -480.0,
+    150.0
+  ],
+  "component_bounds": [
+    -465.0,
+    135.0
+  ],
+  "centers": [
+    -425.0,
+    -400.0,
+    -375.0,
+    -355.0,
+    -335.0,
+    -315.0,
+    -295.0,
+    -270.0,
+    -240.0,
+    -220.0,
+    -200.0,
+    -150.0,
+    -115.0,
+    -80.0,
+    25.0,
+    72.0
+  ],
+  "logtotal": 15.4,
+  "component_counts": [
+    6,
+    10,
+    14,
+    18,
+    22,
+    26
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "max_nfev": 350,
+  "selection_stage": "Frozen after raw profile and AOD inspection, before nonlinear or relative-shift fitting.",
+  "selection_reason": "Shared Fe absorption occupies approximately -430 to +85 km/s. The common window covers the dominant visible shared complex with continuum margins; detached red features are not assumed absent in Fe. The saturated strong line must be constrained jointly by 1608 and 2374.",
+  "excluded_lines": {
+    "1611": "Weak absorption cannot constrain the complex gas independently and shows unrelated blue absorption; not in original three-line common-detection set.",
+    "2249,2260,2344": "Retain earlier broad atmospheric-water warnings.",
+    "2586,2600": "Retain earlier coverage/quality exclusions."
+  },
+  "outside_window_features": "Detached troughs strongest in 2382 near +180,+360,+450 km/s lie outside the chosen dominant-complex window; weak Fe counterparts and external blends are both possible. Their identification is not established. No internal pixels clipped by fitted residuals.",
+  "limitations": [
+    "Exploratory data-inspected selection, not blind confirmation.",
+    "Strong 2382 saturated across roughly 400 km/s.",
+    "Twenty-six shared gas components may still be insufficient; inadequacy is retained as an outcome.",
+    "Apparent 1608 continuum near 0.92 requires continuum flexibility.",
+    "No alpha or cosmic-time-law parameter is fitted."
+  ],
+  "pixel_diagnostics": {
+    "1608": {
+      "within_window": 252,
+      "source_valid_expected_noise": 252,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "1611": {
+      "within_window": 252,
+      "source_valid_expected_noise": 252,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "2374": {
+      "within_window": 252,
+      "source_valid_expected_noise": 252,
+      "native_dv_km_s": 2.499989576113876
+    },
+    "2382": {
+      "within_window": 252,
+      "source_valid_expected_noise": 252,
+      "native_dv_km_s": 2.499989576113876
+    }
+  },
+  "source_sha256": "80276c58831dc457e9c7f02521ef4883311fa9c2057e5a4306454c607c13b4d0",
+  "selection_script_sha256": "215c307f0249d288da7d19a01b85d6604114d7aa2d52a5ca017f10322d295247",
+  "frozen_utc": "2026-09-21T03:44:10.511005+00:00",
+  "counts_amendment": "Before any fit: campaign review of 630 km/s full-system span increased finite count grid to [6,10,14,18,22,26]. Initial proposal preserved in selection_initial_counts.json. No shift result existed at amendment.",
+  "campaign_bounds": {
+    "continuum0": [
+      -0.1,
+      0.1
+    ],
+    "continuum_slope_per100km_s": [
+      -0.03,
+      0.03
+    ],
+    "zero": [
+      -0.02,
+      0.02
+    ],
+    "lsf_relative": [
+      0.6,
+      1.4
+    ],
+    "b_km_s": [
+      0.5,
+      30
+    ],
+    "logN": [
+      9,
+      17
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+    <TABLE>
+      <INFO name="QUERY_STATUS" value="OK" />
+      <FIELD name="ID" datatype="char" ucd="meta.id;meta.main" arraysize="*" />
+      <FIELD name="access_url" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <FIELD name="service_def" datatype="char" ucd="meta.ref" arraysize="*" />
+      <FIELD name="error_message" datatype="char" ucd="meta.code.error" arraysize="*" />
+      <FIELD name="semantics" datatype="char" ucd="meta.code" arraysize="*" />
+      <FIELD name="description" datatype="char" ucd="meta.note" arraysize="*" />
+      <FIELD name="content_type" datatype="char" ucd="meta.code.mime" arraysize="*" />
+      <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+      <FIELD name="eso_origfile" datatype="char" ucd="meta.id;meta.file" arraysize="*" />
+      <FIELD name="eso_category" datatype="char" ucd="meta.code.class;meta.dataset" arraysize="*" />
+      <FIELD name="eso_datalink" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2020-02-27T12:29:36.495</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ESPRE.2020-02-27T12:29:36.495]]></TD>
+            <TD />
+            <TD />
+            <TD>#this</TD>
+            <TD>Requested file</TD>
+            <TD>application/fits</TD>
+            <TD>93660573</TD>
+            <TD>ESPRE.2020-02-27T12:29:36.495.fits.Z</TD>
+            <TD />
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ESPRE.2020-02-27T12:29:36.495</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2020-02-27T12:29:36.495</TD>
+            <TD><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-27T12:29:36.495&mode=Raw2Raw&responseformat=votable]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#calSelector_raw2raw</TD>
+            <TD>List of access points of all the raw calibrations associated to the provided input raw file, and siblings (if any)</TD>
+            <TD>application/x-votable+xml</TD>
+            <TD>500000</TD>
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2020-02-27T12:29:36.495</TD>
+            <TD><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-27T12:29:36.495&mode=Raw2Master&responseformat=votable]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#calSelector_raw2master</TD>
+            <TD>List of access points of all the master calibrations associated to the provided input raw file, and siblings (if any)</TD>
+            <TD>application/x-votable+xml</TD>
+            <TD>500000</TD>
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2020-02-27T12:29:36.495</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ESPRE.2020-02-27T12:29:36.495.NL]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#night_log</TD>
+            <TD>The Night Log report contains comments on any issues that could have happened during the observation (e.g. instrument problems), as well as the information about the ambient conditions (airmass, seeing, transparency, etc.). The content_length provides only an order of magnitude of the file size.</TD>
+            <TD>text/plain</TD>
+            <TD>10000</TD>
+            <TD>ESPRE.2020-02-27T12:29:36.495.NL.txt</TD>
+            <TD>Night Log</TD>
+            <TD />
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>

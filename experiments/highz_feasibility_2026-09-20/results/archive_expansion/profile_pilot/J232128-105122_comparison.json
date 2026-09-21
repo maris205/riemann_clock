@@ -1,0 +1,169 @@
+{
+  "configuration": {
+    "z": 1.629,
+    "lines": [
+      2260,
+      2344,
+      2374,
+      2382,
+      2586
+    ],
+    "window": [
+      -30.0,
+      35.0
+    ],
+    "component_bounds": [
+      -20.0,
+      30.0
+    ],
+    "centers": [
+      2.0,
+      7.0,
+      12.0,
+      17.0,
+      22.0,
+      27.0
+    ],
+    "logtotal": 14.3
+  },
+  "comparisons": [
+    {
+      "ncomp": 1,
+      "null": "J232128-105122_n1_null_s1",
+      "alternative": "J232128-105122_n1_shift_s1_fromnull",
+      "chi2_null": 178.76020039282747,
+      "chi2_alternative": 165.40030526559832,
+      "delta_chi2": 13.359895127229152,
+      "ndata": 130,
+      "nominal_ndf_null": 107,
+      "aicc_null": 235.1752947324501,
+      "shifts_m_s": {
+        "2260": 152.7895369521946,
+        "2344": 285.5162483154765,
+        "2382": 107.99228184061803,
+        "2586": 235.8263080481
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374",
+        "logfwhm_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374",
+        "logfwhm_2374"
+      ]
+    },
+    {
+      "ncomp": 2,
+      "null": "J232128-105122_n2_null_s0",
+      "alternative": "J232128-105122_n2_shift_s0_fromnull",
+      "chi2_null": 161.75572578295893,
+      "chi2_alternative": 146.20594666173466,
+      "delta_chi2": 15.549779121224276,
+      "ndata": 130,
+      "nominal_ndf_null": 104,
+      "aicc_null": 227.386793744124,
+      "shifts_m_s": {
+        "2260": 266.6287120279718,
+        "2344": 51.360371170237485,
+        "2382": -299.85025942057104,
+        "2586": 93.83482055465183
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374",
+        "logfwhm_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374",
+        "logfwhm_2374"
+      ]
+    },
+    {
+      "ncomp": 3,
+      "null": "J232128-105122_n3_null_s1_cross",
+      "alternative": "J232128-105122_n3_shift_s1_fromnull",
+      "chi2_null": 80.59285307401213,
+      "chi2_alternative": 73.74856453017034,
+      "delta_chi2": 6.844288543841785,
+      "ndata": 130,
+      "nominal_ndf_null": 101,
+      "aicc_null": 155.99285307401212,
+      "shifts_m_s": {
+        "2260": 624.0609261458953,
+        "2344": -154.67780278051364,
+        "2382": -348.99503344158643,
+        "2586": -95.96917514265287
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ]
+    },
+    {
+      "ncomp": 4,
+      "null": "J232128-105122_n4_null_s0",
+      "alternative": "J232128-105122_n4_shift_s0_fromnull",
+      "chi2_null": 76.01873005387706,
+      "chi2_alternative": 69.41219912735099,
+      "delta_chi2": 6.6065309265260765,
+      "ndata": 130,
+      "nominal_ndf_null": 98,
+      "aicc_null": 161.79192593016572,
+      "shifts_m_s": {
+        "2260": 605.3048930700625,
+        "2344": -132.0888970371777,
+        "2382": -340.18519225935165,
+        "2586": -78.05681789228842
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ]
+    },
+    {
+      "ncomp": 6,
+      "null": "J232128-105122_n6_null_s1",
+      "alternative": "J232128-105122_n6_shift_s1_fromnull",
+      "chi2_null": 66.9577031128887,
+      "chi2_alternative": 61.457963906942446,
+      "delta_chi2": 5.499739205946248,
+      "ndata": 130,
+      "nominal_ndf_null": 92,
+      "aicc_null": 175.52913168431724,
+      "shifts_m_s": {
+        "2260": 552.8418878922868,
+        "2344": 21.54209402625909,
+        "2382": -218.56803297209657,
+        "2586": 27.428550807889568
+      },
+      "both_success": true,
+      "null_active_bounds": [
+        "logb_4",
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "alternative_active_bounds": [
+        "logb_2",
+        "logb_4",
+        "logfwhm_2260"
+      ]
+    }
+  ],
+  "adaptive_followup": "For J004131 counts3/4/6, an added ordinary shared component start at -10 km/s tests a weak Fe2382 feature. No line-specific opacity or pixel clipping.",
+  "interpretation": "Exploratory conventional-profile feasibility; no alpha or cosmic-time-law measurement."
+}

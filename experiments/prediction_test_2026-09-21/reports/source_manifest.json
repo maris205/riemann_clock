@@ -1,0 +1,114 @@
+{
+  "project_as_of_date": "2026-09-21",
+  "scope": "Four ESO primary sources; no new science FITS or calibration CCD downloads. Temporary manual only. Retrieval clock retained verbatim.",
+  "sources": [
+    {
+      "key": "ESPRESSO_overview",
+      "url": "https://www.eso.org/sci/facilities/paranal/instruments/espresso/overview.html",
+      "actual_retrieved_utc": "2026-09-21T04:31:00.109446+00:00",
+      "http_status": 200,
+      "bytes": 44899,
+      "sha256": "00d1c913e1664c5c58f5f3578191d8f0c59e8eb353577f5e2c159c6fd9f85a5b",
+      "content_type": "text/html;charset=utf-8",
+      "storage": "response hashed in memory; no source copy retained"
+    },
+    {
+      "key": "ESPRESSO_news",
+      "url": "https://www.eso.org/sci/facilities/paranal/instruments/espresso/news.html",
+      "actual_retrieved_utc": "2026-09-21T04:31:02.280041+00:00",
+      "http_status": 200,
+      "bytes": 51785,
+      "sha256": "4f639a01f4ab1777aadbc552b99b8deac14b19c127dbdae37c723cf1c836c770",
+      "content_type": "text/html;charset=utf-8",
+      "storage": "response hashed in memory; no source copy retained"
+    },
+    {
+      "key": "UVES_description",
+      "url": "https://www.eso.org/sci/facilities/paranal/instruments/uves/inst.html",
+      "actual_retrieved_utc": "2026-09-21T04:31:01.483519+00:00",
+      "http_status": 200,
+      "bytes": 48129,
+      "sha256": "5c370ea5fa5b912dbf348f5715fe88b7aaeeb483a7ab5518b6865ce6cb7bb304",
+      "content_type": "text/html;charset=utf-8",
+      "storage": "response hashed in memory; no source copy retained"
+    },
+    {
+      "url": "https://www.eso.org/sci/facilities/paranal/instruments/espresso/ESPRESSO_User_Manual_P117.pdf",
+      "actual_retrieved_utc": "2026-09-21T04:29:23.885183+00:00",
+      "bytes": 6714113,
+      "sha256": "9a4d3e288ed4feb46ee8dba4e77e59740051217527480889817ad1742211175d",
+      "temporary_path": "/tmp/prediction_espresso_P117.pdf",
+      "key": "ESPRESSO_P117_manual",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "pdf_preflight": {
+        "schema": "pdf_read_preflight/1",
+        "verdict": "PASS",
+        "file": "/tmp/prediction_espresso_P117.pdf",
+        "sha256": "9a4d3e288ed4feb46ee8dba4e77e59740051217527480889817ad1742211175d",
+        "declared_page_count": 55,
+        "enumerated_page_count": 55,
+        "reader_page_count": 55,
+        "warnings": [],
+        "generated_at": "2026-09-21T04:29:30.348227+00:00",
+        "tool": "pdf_read_preflight/1.0.0"
+      },
+      "sections_used": [
+        "3.4.1",
+        "7.1",
+        "7.2.5",
+        "8"
+      ]
+    }
+  ],
+  "local_atomic_input": {
+    "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/atomic/selected_transitions.csv",
+    "sha256": "57fd0c08d6e4b59922443c0b14d4014ee439193fc57403ba099c2f7da474e02f",
+    "wavelengths_vacuum_A": [
+      2374.46004,
+      2382.76386
+    ],
+    "use": "geometry only; not replacing analysis laboratory values"
+  },
+  "coverage_nm": [
+    {
+      "z": 0.7,
+      "lambda2374": 403.65820679999996,
+      "lambda2382": 405.0698562
+    },
+    {
+      "z": 1.0,
+      "lambda2374": 474.892008,
+      "lambda2382": 476.552772
+    },
+    {
+      "z": 1.2,
+      "lambda2374": 522.3812088000001,
+      "lambda2382": 524.2080492
+    },
+    {
+      "z": 1.5,
+      "lambda2374": 593.61501,
+      "lambda2382": 595.690965
+    },
+    {
+      "z": 2.0,
+      "lambda2374": 712.3380119999999,
+      "lambda2382": 714.829158
+    }
+  ],
+  "derived_pair_band_limits": {
+    "ESPRESSO_science_nominal_zmin": 0.6003638452471072,
+    "ESPRESSO_science_nominal_zmax": 2.3070839004583528,
+    "current_LFC_blue_cutoff_nominal_pair_zmin": 0.8951677114768375
+  },
+  "verification": "all four source HTTP requests succeeded; manual PDF preflight passed 55/55 pages",
+  "primary_design_redshift_centers": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "primary_design_note": "Illustrative centers only; no actual selected targets or precision guarantee. Adjust wavelength/telluric selection before revealing science offsets.",
+  "current_lfc_blue_cutoff_nm_approx": 450,
+  "aux2260_at_z1_nm": 452.155814
+}

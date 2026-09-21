@@ -1,0 +1,739 @@
+{
+  "source_sha256": {
+    "code/common_pair_fit.py": "d2d8c754dc693d3b61e4acc109fae030fbb3661f9e36269d4329941f8b56b856",
+    "code/archive_profile_pilot.py": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "code/archive_profile_expected_noise.py": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10.dat": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "data/processed/archive_expansion/J232128-105122.npz": "c1f8d0207ee06a202ea673616ed46ca846156020c584076f475165115ecff831",
+    "data/processed/archive_expansion/J232128-105122_metadata.json": "060b00a9b92e9553652ed5ea8cead67919aae2e188add8239a2a6e9acb6e40c9",
+    "results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json": "5bbd6e3d4cb490eeef80feaf22b3fabba26a9e98f02312aa460a78a97d476aea",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2260_window.npz": "2bd388f6de6e38f56b3bdfcf54d5140c0a3452f269ced2f3025ea3b6aabcaadb",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2344_window.npz": "49ddeb343465c28b5864997377dbdcda1476ac7d64a1a45900884e26c116492b",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2374_window.npz": "fbd33aac8e2fc79a26a0f04eb647f4ddd002e49000e2323914c350cedb08d509",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2382_window.npz": "f400c73bc49f262fdbf46b66bc8db8a4be7c908ce567473ad0c5db0f2b596f85",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2586_window.npz": "78aef2bb332652423e96d2269d9f9a3fc4ee28b6104ddb4dafb4ec9a2cf7add9",
+    "code/common_pair_refine.py": "f14f4f4b06191c0ca8e2cbaf968862d8202235ff7906cc34cee2906324bebc42"
+  },
+  "configuration": {
+    "z": 1.629,
+    "lines": [
+      2260,
+      2344,
+      2374,
+      2382,
+      2586
+    ],
+    "window": [
+      -30.0,
+      35.0
+    ],
+    "component_bounds": [
+      -20.0,
+      30.0
+    ],
+    "centers": [
+      2.0,
+      7.0,
+      12.0,
+      17.0,
+      22.0,
+      27.0
+    ],
+    "logtotal": 14.3
+  },
+  "lines": [
+    2260,
+    2344,
+    2374,
+    2382,
+    2586
+  ],
+  "anchor_line": 2374,
+  "target_line": 2382,
+  "oversample": 33,
+  "error_kind": "FITS primary row2 expected fluctuation; diagonal errors without reduced-chi-square rescaling",
+  "selection": "Frozen row1-selected architecture/windows/pixels; row2 selected H1 nuisance freedom; no model reselection",
+  "atomic_response": "D=v2382-v2374; sign-equivalent log energy/frequency-ratio perturbation Y=-D/c is kinematic only, not a theory response.",
+  "first_pass_export_note": "First-pass summary construction raised duplicate selection metadata key after numeric products were saved; this companion assembles final summaries from preserved products.",
+  "target": "J232128-105122",
+  "z_abs": 1.629,
+  "D_m_s": -339.97055338286276,
+  "conditional_sigma_m_s": 179.5813132807154,
+  "point_estimate_reference_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+  "point_estimate_reference_sha256": "3e773d96ab0f5dc0a83b072ee7165cf7e6ebc1a4f6e49e59b74ac6e2094079ea",
+  "reference_chi2": 68.99884187763574,
+  "reference_optimizer_success": true,
+  "reference_is_unrestricted": false,
+  "unrestricted_reference_gap_chi2": 1.3466632253766875e-09,
+  "profile_baseline_resolved_to_tolerance": true,
+  "baseline_tolerance_chi2": 0.0001,
+  "profile_grid_D_m_s": [
+    -878.7150331973376,
+    -788.9242865615918,
+    -699.133539925846,
+    -676.6858532669095,
+    -654.238166607973,
+    -609.3427932901001,
+    -519.5520466543544,
+    -497.10435999541795,
+    -474.6566733364815,
+    -429.76130001860855,
+    -339.97055338286276,
+    -250.17980674711694,
+    -205.28443342924402,
+    -182.83674677030757,
+    -160.38906011137112,
+    -70.59831347562535,
+    -52.94873510671901,
+    -35.29915673781267,
+    0.0,
+    19.19243316012048,
+    108.9831797958663,
+    198.77392643161207
+  ],
+  "profile_delta_chi2": [
+    10.402611177442225,
+    7.392019816260614,
+    4.891046112423723,
+    4.347695022385949,
+    3.8377582407981095,
+    2.90693306909165,
+    1.3320793804913507,
+    1.0230963008294793,
+    0.7539983937723207,
+    0.33714405266515257,
+    0.0,
+    0.3447506318267415,
+    0.7796653016369959,
+    1.0638599367928094,
+    1.3929410870135115,
+    3.1636924996668228,
+    3.5982166637187873,
+    4.0614319395353675,
+    5.074388293467209,
+    5.673805240254069,
+    8.937831741081624,
+    12.968112674230369
+  ],
+  "profile_points": [
+    {
+      "D_m_s": -878.7150331973376,
+      "chi2": 79.40145305507797,
+      "delta_chi2": 10.402611177442225,
+      "fit_file": "results/common_pair/J232128-105122/profile_012_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "nfev": 13,
+      "optimality": 0.0027304621214823965
+    },
+    {
+      "D_m_s": -788.9242865615918,
+      "chi2": 76.39086169389635,
+      "delta_chi2": 7.392019816260614,
+      "fit_file": "results/common_pair/J232128-105122/profile_010_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "nfev": 8,
+      "optimality": 0.0023484239762170955
+    },
+    {
+      "D_m_s": -699.133539925846,
+      "chi2": 73.88988799005946,
+      "delta_chi2": 4.891046112423723,
+      "fit_file": "results/common_pair/J232128-105122/profile_009_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "nfev": 11,
+      "optimality": 0.0016718330351147635
+    },
+    {
+      "D_m_s": -676.6858532669095,
+      "chi2": 73.34653690002169,
+      "delta_chi2": 4.347695022385949,
+      "fit_file": "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "nfev": 11,
+      "optimality": 0.0014155899880917875
+    },
+    {
+      "D_m_s": -654.238166607973,
+      "chi2": 72.83660011843385,
+      "delta_chi2": 3.8377582407981095,
+      "fit_file": "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "logfwhm_2260"
+      ],
+      "nfev": 11,
+      "optimality": 0.001811327141961277
+    },
+    {
+      "D_m_s": -609.3427932901001,
+      "chi2": 71.90577494672739,
+      "delta_chi2": 2.90693306909165,
+      "fit_file": "results/common_pair/J232128-105122/profile_005_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "logfwhm_2260"
+      ],
+      "nfev": 9,
+      "optimality": 0.0022032551852053106
+    },
+    {
+      "D_m_s": -519.5520466543544,
+      "chi2": 70.33092125812709,
+      "delta_chi2": 1.3320793804913507,
+      "fit_file": "results/common_pair/J232128-105122/profile_004_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 10,
+      "optimality": 0.0034448885633976837
+    },
+    {
+      "D_m_s": -497.10435999541795,
+      "chi2": 70.02193817846522,
+      "delta_chi2": 1.0230963008294793,
+      "fit_file": "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 11,
+      "optimality": 0.003124730171208318
+    },
+    {
+      "D_m_s": -474.6566733364815,
+      "chi2": 69.75284027140806,
+      "delta_chi2": 0.7539983937723207,
+      "fit_file": "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 6,
+      "optimality": 0.002246802259665361
+    },
+    {
+      "D_m_s": -429.76130001860855,
+      "chi2": 69.3359859303009,
+      "delta_chi2": 0.33714405266515257,
+      "fit_file": "results/common_pair/J232128-105122/profile_001_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 9,
+      "optimality": 0.002911245886516398
+    },
+    {
+      "D_m_s": -339.97055338286276,
+      "chi2": 68.99884187763574,
+      "delta_chi2": 0.0,
+      "fit_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 2,
+      "optimality": 0.0001580225040165773
+    },
+    {
+      "D_m_s": -250.17980674711694,
+      "chi2": 69.34359250946248,
+      "delta_chi2": 0.3447506318267415,
+      "fit_file": "results/common_pair/J232128-105122/profile_002_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 8,
+      "optimality": 0.0021804269384162705
+    },
+    {
+      "D_m_s": -205.28443342924402,
+      "chi2": 69.77850717927274,
+      "delta_chi2": 0.7796653016369959,
+      "fit_file": "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 6,
+      "optimality": 0.0030576089134686174
+    },
+    {
+      "D_m_s": -182.83674677030757,
+      "chi2": 70.06270181442855,
+      "delta_chi2": 1.0638599367928094,
+      "fit_file": "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 5,
+      "optimality": 0.005480432153361049
+    },
+    {
+      "D_m_s": -160.38906011137112,
+      "chi2": 70.39178296464925,
+      "delta_chi2": 1.3929410870135115,
+      "fit_file": "results/common_pair/J232128-105122/profile_003_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 8,
+      "optimality": 0.0025371257174881816
+    },
+    {
+      "D_m_s": -70.59831347562535,
+      "chi2": 72.16253437730256,
+      "delta_chi2": 3.1636924996668228,
+      "fit_file": "results/common_pair/J232128-105122/profile_006_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 8,
+      "optimality": 0.003323496980304271
+    },
+    {
+      "D_m_s": -52.94873510671901,
+      "chi2": 72.59705854135453,
+      "delta_chi2": 3.5982166637187873,
+      "fit_file": "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 5,
+      "optimality": 0.006374553456862574
+    },
+    {
+      "D_m_s": -35.29915673781267,
+      "chi2": 73.06027381717111,
+      "delta_chi2": 4.0614319395353675,
+      "fit_file": "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 6,
+      "optimality": 0.002042138038421761
+    },
+    {
+      "D_m_s": 0.0,
+      "chi2": 74.07323017110295,
+      "delta_chi2": 5.074388293467209,
+      "fit_file": "results/common_pair/J232128-105122/profile_007_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 6,
+      "optimality": 0.005067734571470468
+    },
+    {
+      "D_m_s": 19.19243316012048,
+      "chi2": 74.67264711788981,
+      "delta_chi2": 5.673805240254069,
+      "fit_file": "results/common_pair/J232128-105122/profile_008_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 5,
+      "optimality": 0.009067405935463145
+    },
+    {
+      "D_m_s": 108.9831797958663,
+      "chi2": 77.93667361871736,
+      "delta_chi2": 8.937831741081624,
+      "fit_file": "results/common_pair/J232128-105122/profile_011_grid_warm.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 7,
+      "optimality": 0.003950690119682195
+    },
+    {
+      "D_m_s": 198.77392643161207,
+      "chi2": 81.96695455186611,
+      "delta_chi2": 12.968112674230369,
+      "fit_file": "results/common_pair/J232128-105122/profile_013_grid_cross_null.json",
+      "optimizer_success": true,
+      "active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "nfev": 10,
+      "optimality": 0.00389111492376952
+    }
+  ],
+  "profile_intervals": [
+    {
+      "delta_chi2_level": 1.0,
+      "lower": {
+        "crossing_m_s": -495.1777061255662,
+        "bracket_m_s": [
+          -497.10435999541795,
+          -474.6566733364815
+        ],
+        "bracket_delta_chi2": [
+          0.7539983937723207,
+          1.0230963008294793
+        ],
+        "both_endpoints_terminated": true,
+        "fit_files": [
+          "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+          "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json"
+        ]
+      },
+      "upper": {
+        "crossing_m_s": -187.8808527239563,
+        "bracket_m_s": [
+          -205.28443342924402,
+          -182.83674677030757
+        ],
+        "bracket_delta_chi2": [
+          0.7796653016369959,
+          1.0638599367928094
+        ],
+        "both_endpoints_terminated": true,
+        "fit_files": [
+          "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+          "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json"
+        ]
+      },
+      "closed": true,
+      "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+    },
+    {
+      "delta_chi2_level": 3.84,
+      "lower": {
+        "crossing_m_s": -654.33685003295,
+        "bracket_m_s": [
+          -676.6858532669095,
+          -654.238166607973
+        ],
+        "bracket_delta_chi2": [
+          3.8377582407981095,
+          4.347695022385949
+        ],
+        "both_endpoints_terminated": true,
+        "fit_files": [
+          "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+          "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json"
+        ]
+      },
+      "upper": {
+        "crossing_m_s": -43.73622816927369,
+        "bracket_m_s": [
+          -52.94873510671901,
+          -35.29915673781267
+        ],
+        "bracket_delta_chi2": [
+          3.5982166637187873,
+          4.0614319395353675
+        ],
+        "both_endpoints_terminated": true,
+        "fit_files": [
+          "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json",
+          "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json"
+        ]
+      },
+      "closed": true,
+      "interpretation": "Linear interpolation within actual profiled grid brackets; descriptive likelihood-objective contour, not coverage-calibrated interval."
+    }
+  ],
+  "active_bounds": [
+    "zero_2260",
+    "zero_2374"
+  ],
+  "profile_all_selected_terminated": true,
+  "profile_contours_closed": true,
+  "profile_grid_reaches_shift_bound": false,
+  "ndata": 130,
+  "ncomp": 3,
+  "npar": 33,
+  "sourcefit_paths": [
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json"
+  ],
+  "sourcefit_hashes": {
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json": "5bbd6e3d4cb490eeef80feaf22b3fabba26a9e98f02312aa460a78a97d476aea",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2"
+  },
+  "original_D_m_s": -339.9705170639548,
+  "original_h1_chi2": 68.99884189363918,
+  "original_h0_chi2": 75.15888744313844,
+  "full_comparison": {
+    "null_file": "results/common_pair/J232128-105122/refined_h0_from_best_h1.json",
+    "alternative_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+    "chi2_null": 75.15888744252929,
+    "chi2_alternative": 68.99884187763574,
+    "delta_chi2": 6.160045564893551,
+    "added_parameters": 4,
+    "null_optimizer_success": true,
+    "alternative_optimizer_success": true,
+    "null_active_bounds": [
+      "zero_2260",
+      "zero_2374"
+    ],
+    "null_npar": 29,
+    "alternative_npar": 33,
+    "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+  },
+  "all_profile_fit_files": [
+    "results/common_pair/J232128-105122/profile_000_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_001_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_001_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_002_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_002_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_003_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_003_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_004_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_004_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_005_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_005_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_006_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_006_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_007_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_007_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_008_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_008_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_009_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_009_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_010_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_010_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_011_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_011_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_012_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_012_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_013_grid_cross_null.json",
+    "results/common_pair/J232128-105122/profile_013_grid_warm.json",
+    "results/common_pair/J232128-105122/profile_014_refine1_lower_0_cross_null.json",
+    "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json",
+    "results/common_pair/J232128-105122/profile_015_refine1_upper_0_cross_null.json",
+    "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json",
+    "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json",
+    "results/common_pair/J232128-105122/profile_016_refine1_lower_1_warm.json",
+    "results/common_pair/J232128-105122/profile_017_refine1_upper_1_cross_null.json",
+    "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json",
+    "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json",
+    "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_warm.json",
+    "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_cross_null.json",
+    "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json",
+    "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json",
+    "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_warm.json",
+    "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_cross_null.json",
+    "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json"
+  ],
+  "full_fit_files": [
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json",
+    "results/common_pair/J232128-105122/full_from_h0.json",
+    "results/common_pair/J232128-105122/full_from_h1.json",
+    "results/common_pair/J232128-105122/refined_h1_from_h0.json"
+  ],
+  "null_fit_files": [
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json",
+    "results/common_pair/J232128-105122/refined_h0_from_best_h1.json"
+  ],
+  "first_pass_sha256": {
+    "results/common_pair/J232128-105122/full_from_h0.json": "cd271a3fe4f94cd96c8919e58a027867250225d3e69e25522349468baaf3bae7",
+    "results/common_pair/J232128-105122/full_from_h1.json": "49f0053a80a0ca517fa125322b2d76edcf2d1406d909f4a8a1ade53f101c4ae6",
+    "results/common_pair/J232128-105122/profile_000_grid_cross_null.json": "8f1e4b627a9868e2d8a6dc5a03201a1d82d44e1aa6d023372d1f2e7c069dd61c",
+    "results/common_pair/J232128-105122/profile_000_grid_warm.json": "3e773d96ab0f5dc0a83b072ee7165cf7e6ebc1a4f6e49e59b74ac6e2094079ea",
+    "results/common_pair/J232128-105122/profile_001_grid_cross_null.json": "4347d0336aa47598ca2b15c21effb81247edf0a51084bee1b9cb5d127c266173",
+    "results/common_pair/J232128-105122/profile_001_grid_warm.json": "16912fc1009ceee66e9306cdafaa66cbc2929611226db855fb461f930e56b8da",
+    "results/common_pair/J232128-105122/profile_002_grid_cross_null.json": "da7154751d68ececc9592dc5c2fed7a474acfaaec8109cfeea4e548d2c840a36",
+    "results/common_pair/J232128-105122/profile_002_grid_warm.json": "a7c1f69bf22da176656db87c4988bfce0e825d0f07d67debf24e02c00fc3ed7b",
+    "results/common_pair/J232128-105122/profile_003_grid_cross_null.json": "7b44412056d9d8b84db938d8e1c1a54073ad803f35f433dda6f64c9afd54e616",
+    "results/common_pair/J232128-105122/profile_003_grid_warm.json": "729b81ac1970dc0583d714e1adfa758b721ba04788fdd03e232d48a3cf4390d5",
+    "results/common_pair/J232128-105122/profile_004_grid_cross_null.json": "35f988d5e5e4b8c0aac7c6ffeb04f712842a549f601264e906b231136343f129",
+    "results/common_pair/J232128-105122/profile_004_grid_warm.json": "c02409c07bdeb4baa91f49b33bc60c290b8e72e032255f70aa6333b1769d1a4a",
+    "results/common_pair/J232128-105122/profile_005_grid_cross_null.json": "db0bf20ed146b82497c006958d81dda0fcf338eda66ee9865bce71fc60ab599c",
+    "results/common_pair/J232128-105122/profile_005_grid_warm.json": "6968f42ed084d34e4b46c4b793169ede02b918f8ce4b5975233e867cfed83bc0",
+    "results/common_pair/J232128-105122/profile_006_grid_cross_null.json": "902371a03e82fdf6fa9e0c4062a52439bccd8dc3827ddd5ab2375b1fcd724b37",
+    "results/common_pair/J232128-105122/profile_006_grid_warm.json": "b4fd8918ae12f55e2f19d56d4925458f26d5db4f5189b3fe3c5b40e4c8a69998",
+    "results/common_pair/J232128-105122/profile_007_grid_cross_null.json": "3196ba690b0bc1cb418f3534769a159cfe1fbdf8537ca9cdede0d26579d236a6",
+    "results/common_pair/J232128-105122/profile_007_grid_warm.json": "c3958eafb74726fb58d1a0580062b19f13f15b0d0b9957647aaaebc5c84252cc",
+    "results/common_pair/J232128-105122/profile_008_grid_cross_null.json": "5a013586b4ea2d2e6a1b4fa9567d893c7b6e17c9ad5d56e446a9d7b575e50703",
+    "results/common_pair/J232128-105122/profile_008_grid_warm.json": "390d4f3e5d2acb47de7900dfa46a999e428b0d771fc6470c9fd55f9cacb4de99",
+    "results/common_pair/J232128-105122/profile_009_grid_cross_null.json": "1ee07473bd4d0beb24261c3eb7b40dbdd8321736207cd2d5bd770c3d9d387d3d",
+    "results/common_pair/J232128-105122/profile_009_grid_warm.json": "3f9f1d547c55c7f84bdcee27586750ffb0f67de7759353b0b3ea5700325e8f0f",
+    "results/common_pair/J232128-105122/profile_010_grid_cross_null.json": "305df8ab60e859e8e3e8427e4a226f248fea853ffc70acd3e21264be278e4a4d",
+    "results/common_pair/J232128-105122/profile_010_grid_warm.json": "118d4f6ab195260fd19c3d043c3dd479e0dc78134e0ccf87e332be8e88109d8b",
+    "results/common_pair/J232128-105122/profile_011_grid_cross_null.json": "841ac0963d7c3d24d78055478f45b79a8670f826aae1d14a3100b89474976526",
+    "results/common_pair/J232128-105122/profile_011_grid_warm.json": "180c7f39c87b899d234828b39c35186f7e3de8764f5c3c340c8027de0ee5dbe5",
+    "results/common_pair/J232128-105122/profile_012_grid_cross_null.json": "001e862dbd5e4871d87d9f293509cf0a93bc2e56cf8d172f4d27568ec679797f",
+    "results/common_pair/J232128-105122/profile_012_grid_warm.json": "8f7e25c772a9f6e1989c02df4304f82d9f952027f82e62942a36586b764f62c2",
+    "results/common_pair/J232128-105122/profile_013_grid_cross_null.json": "0874b47bf938cb7202c6ec8a7f1d45e0d12f680b26e6e06e685f4dd11a65bc63",
+    "results/common_pair/J232128-105122/profile_013_grid_warm.json": "517e5a3fa87c5c4a78d8dcadb968806721c4bddde5e3fb757ed49627a0a7e565",
+    "results/common_pair/J232128-105122/profile_014_refine1_lower_0_cross_null.json": "2e3d4374f552a7f26e8ca411a82a9373872d6890ca252367a1a5ded4f4fcf0f8",
+    "results/common_pair/J232128-105122/profile_014_refine1_lower_0_warm.json": "03f5790a9e16f961594acd087fdbc6ab6dcbd753e778f342bcf21911220cbbf2",
+    "results/common_pair/J232128-105122/profile_015_refine1_upper_0_cross_null.json": "c36391f6994c761bf846b57f09279b6104fe40db2e3aaa1aafb9bef5fc9ac61d",
+    "results/common_pair/J232128-105122/profile_015_refine1_upper_0_warm.json": "ce2fe0b1fb1c6cd2dc7582b27449d628a06fd01482317037e89c74dd8f2fec7e",
+    "results/common_pair/J232128-105122/profile_016_refine1_lower_1_cross_null.json": "86f1df4c188533b30048a266039148e6d27eb78c761ab11242563d85621b85d2",
+    "results/common_pair/J232128-105122/profile_016_refine1_lower_1_warm.json": "eab0473a0c56037dec470bc4a95f8da8f71ce0c612da531a80afc6bcc3825aa9",
+    "results/common_pair/J232128-105122/profile_017_refine1_upper_1_cross_null.json": "1ae33d1d16b61ad72a116b13ced36d0a3f2eefa339be9ff19a9f51fca5ccfb7f",
+    "results/common_pair/J232128-105122/profile_017_refine1_upper_1_warm.json": "5c38e04c31eb961211ffedb1afa61673443a1d9a24fa4ddf7211a31f2ed94eb5",
+    "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_cross_null.json": "3b8f85ca2dc27a98038c2511bdeb8f846ed51c9e4e06c5f1a0bbc1ebd2de7f95",
+    "results/common_pair/J232128-105122/profile_018_refine3.84_lower_0_warm.json": "03ce710600203944bdc2cccf7d4ffa2bc1ebbf0e67042ce5c874c02f4e8aac1e",
+    "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_cross_null.json": "4b438186a0a68db4604754cfa400e7edac16ebb6f92de63982c27d774b45bffc",
+    "results/common_pair/J232128-105122/profile_019_refine3.84_upper_0_warm.json": "7c90eb52b7d0da65bd465c0ed21fda71cabbfe56c0b7eaa243b95dfd8b7c7758",
+    "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_cross_null.json": "1115d6592a363261dd39694cb3e51f38357112f3771d93ce5793eecee8a27f3b",
+    "results/common_pair/J232128-105122/profile_020_refine3.84_lower_1_warm.json": "e5b0bb97b292ae27a8aba0f2bd0e07867303fcf50ae53abcaa5b6317f5839fba",
+    "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_cross_null.json": "e2a1f9b047d9b1bde2a28c82c86a343977df102277ab23e989276330e9545ddd",
+    "results/common_pair/J232128-105122/profile_021_refine3.84_upper_1_warm.json": "08c166198397222795d43efe23583865c8282370cece47793fe920d0c1f5f75a"
+  },
+  "first_vs_refined_at_common_grid": [
+    {
+      "D_m_s": -878.7150331973376,
+      "first_chi2": 79.40145305507797,
+      "refined_chi2": 79.40145305507797
+    },
+    {
+      "D_m_s": -788.9242865615918,
+      "first_chi2": 76.39086169389635,
+      "refined_chi2": 76.39086169389635
+    },
+    {
+      "D_m_s": -699.133539925846,
+      "first_chi2": 73.88988799005946,
+      "refined_chi2": 73.88988799005946
+    },
+    {
+      "D_m_s": -676.6858532669095,
+      "first_chi2": 73.34653690002169,
+      "refined_chi2": 73.34653690002169
+    },
+    {
+      "D_m_s": -654.238166607973,
+      "first_chi2": 72.83660011843385,
+      "refined_chi2": 72.83660011843385
+    },
+    {
+      "D_m_s": -609.3427932901001,
+      "first_chi2": 71.90577494672739,
+      "refined_chi2": 71.90577494672739
+    },
+    {
+      "D_m_s": -519.5520466543544,
+      "first_chi2": 70.33092125812709,
+      "refined_chi2": 70.33092125812709
+    },
+    {
+      "D_m_s": -497.10435999541795,
+      "first_chi2": 70.02193817846522,
+      "refined_chi2": 70.02193817846522
+    },
+    {
+      "D_m_s": -474.6566733364815,
+      "first_chi2": 69.75284027140806,
+      "refined_chi2": 69.75284027140806
+    },
+    {
+      "D_m_s": -429.76130001860855,
+      "first_chi2": 69.3359859303009,
+      "refined_chi2": 69.3359859303009
+    },
+    {
+      "D_m_s": -339.97055338286276,
+      "first_chi2": 68.99884187763574,
+      "refined_chi2": 68.99884187763574
+    },
+    {
+      "D_m_s": -250.17980674711694,
+      "first_chi2": 69.34359250946248,
+      "refined_chi2": 69.34359250946248
+    },
+    {
+      "D_m_s": -205.28443342924402,
+      "first_chi2": 69.77850717927274,
+      "refined_chi2": 69.77850717927274
+    },
+    {
+      "D_m_s": -182.83674677030757,
+      "first_chi2": 70.06270181442855,
+      "refined_chi2": 70.06270181442855
+    },
+    {
+      "D_m_s": -160.38906011137112,
+      "first_chi2": 70.39178296464925,
+      "refined_chi2": 70.39178296464925
+    },
+    {
+      "D_m_s": -70.59831347562535,
+      "first_chi2": 72.16253437730256,
+      "refined_chi2": 72.16253437730256
+    },
+    {
+      "D_m_s": -52.94873510671901,
+      "first_chi2": 72.59705854135453,
+      "refined_chi2": 72.59705854135453
+    },
+    {
+      "D_m_s": -35.29915673781267,
+      "first_chi2": 73.06027381717111,
+      "refined_chi2": 73.06027381717111
+    },
+    {
+      "D_m_s": 0.0,
+      "first_chi2": 74.07323017110295,
+      "refined_chi2": 74.07323017110295
+    },
+    {
+      "D_m_s": 19.19243316012048,
+      "first_chi2": 74.67264711788981,
+      "refined_chi2": 74.67264711788981
+    },
+    {
+      "D_m_s": 108.9831797958663,
+      "first_chi2": 77.93667361871736,
+      "refined_chi2": 77.93667361871736
+    },
+    {
+      "D_m_s": 198.77392643161207,
+      "first_chi2": 81.96695455186611,
+      "refined_chi2": 81.96695455186611
+    }
+  ],
+  "endpoint_selection": "Lowest recorded objective including unfinished endpoints; profile grid retains minimum across all starts at each final coordinate.",
+  "interpretation": "Conditional fixed-architecture common-pair likelihood contour in preferred row2 diagonal errors. No calibration/covariance/model uncertainty marginalization, no coverage-calibrated interval or physical alpha/time measurement."
+}

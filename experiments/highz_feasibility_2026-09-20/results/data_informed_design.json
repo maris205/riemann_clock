@@ -1,0 +1,173 @@
+{
+  "status": "DESIGN_DERIVED_FROM_OBSERVED_COVERAGE; no cosmic estimate",
+  "quality_rows": [
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_1608.4509",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 3459.4561957200003,
+      "median_CNR_per_1p3kms_pixel": 127.88919691428327,
+      "design_status": "CANDIDATE_REQUIRES_FULL_CALIBRATION",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2344.2128",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 5041.93289024,
+      "median_CNR_per_1p3kms_pixel": 229.67428455449547,
+      "design_status": "PUBLISHED_BLEND_REVIEW",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2374.4601",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 5106.98878308,
+      "median_CNR_per_1p3kms_pixel": 229.42170702439773,
+      "design_status": "CANDIDATE_REQUIRES_FULL_CALIBRATION",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2382.7642",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 5124.849241360001,
+      "median_CNR_per_1p3kms_pixel": 238.93032359821132,
+      "design_status": "DEEP_SATURATION_REVIEW",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2586.6493",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 5563.3653144400005,
+      "median_CNR_per_1p3kms_pixel": 248.37856438910308,
+      "design_status": "PUBLISHED_BLEND_REVIEW",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J051707-441055",
+      "transition": "FeII_2600.1725",
+      "z_abs": 1.1508,
+      "observed_wavelength_A": 5592.451013000001,
+      "median_CNR_per_1p3kms_pixel": 236.2177186131343,
+      "design_status": "DEEP_SATURATION_REVIEW",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_1608.4509",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 6474.014872500001,
+      "median_CNR_per_1p3kms_pixel": 86.10365453166912,
+      "design_status": "CANDIDATE_REQUIRES_FULL_CALIBRATION",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.0,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2344.2128",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 9435.45652,
+      "median_CNR_per_1p3kms_pixel": 42.55685709515169,
+      "design_status": "TELLURIC_SCREEN_ONLY",
+      "photon_only_exposure_factor_to_CNR30": 1.0,
+      "photon_only_exposure_factor_to_CNR50": 1.3803871718621255,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2374.4601",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 9557.2019025,
+      "median_CNR_per_1p3kms_pixel": 24.891994667635725,
+      "design_status": "TELLURIC_SCREEN_ONLY",
+      "photon_only_exposure_factor_to_CNR30": 1.4525233107879754,
+      "photon_only_exposure_factor_to_CNR50": 4.034786974411041,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2382.7642",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 9590.625905,
+      "median_CNR_per_1p3kms_pixel": 21.421598946431317,
+      "design_status": "TELLURIC_SCREEN_ONLY",
+      "photon_only_exposure_factor_to_CNR30": 1.9612761222074664,
+      "photon_only_exposure_factor_to_CNR50": 5.447989228354074,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2586.6493",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 10411.263432500002,
+      "median_CNR_per_1p3kms_pixel": 1.3118214999881852,
+      "design_status": "LOW_SNR_EXCLUDE",
+      "photon_only_exposure_factor_to_CNR30": 522.9895612354284,
+      "photon_only_exposure_factor_to_CNR50": 1452.748781209523,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    },
+    {
+      "target": "J034943-381030",
+      "transition": "FeII_2600.1725",
+      "z_abs": 3.025,
+      "observed_wavelength_A": 10465.694312500002,
+      "median_CNR_per_1p3kms_pixel": 2.063353468057166,
+      "design_status": "LOW_SNR_EXCLUDE",
+      "photon_only_exposure_factor_to_CNR30": 211.39525987987315,
+      "photon_only_exposure_factor_to_CNR50": 587.2090552218698,
+      "exposure_factor_caveat": "Assumes identical throughput, background regime and independent photon noise; not telescope time or correction for blends/tellurics"
+    }
+  ],
+  "redshift_leverage": {
+    "z_low": 1.1508,
+    "z_high": 3.025,
+    "G2_low": 0.5104875228175855,
+    "G2_high": 1.0050634593846326,
+    "delta_G2": 0.4945759365670471,
+    "B100mps_mode_difference_mps": 49.45759365670471,
+    "B30mps_mode_difference_mps": 14.837278097011414,
+    "note": "B is an unspecified hypothetical response amplitude at z=3, not measured or predicted"
+  },
+  "optimistic_identifiability": {
+    "rows": 7,
+    "low_z_lines_assumed": 6,
+    "high_z_lines_assumed": 1,
+    "nuisance_rank": 4,
+    "full_rank": 4,
+    "full_columns": 5,
+    "full_singular_values": [
+      3.468642532474026,
+      2.4487075359919293,
+      1.028739372168859,
+      0.6084282422765164,
+      6.801181740436061e-17
+    ],
+    "projected_signal_norm": 1.0258304546138146e-15,
+    "analytic_null_vector": [
+      0.0,
+      0.7151014504150619,
+      0.0,
+      -0.5104875228175855,
+      1.0
+    ],
+    "reason": "One high-z line is absorbed by its free redshift; at one remaining epoch B and b0 are proportional. Independent arbitrary calibration priors cannot be assumed.",
+    "K_is_artificial": true
+  },
+  "prior_forecast_status": "24/60-sightline six-clean-line forecasts remain prospective, not achieved by these two spectra"
+}

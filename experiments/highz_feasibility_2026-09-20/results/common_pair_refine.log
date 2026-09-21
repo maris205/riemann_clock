@@ -1,0 +1,121 @@
+DONE J004131-493611 refined_h0_from_best_h1 95.22846063001326 True 11
+DONE J232128-105122 refined_h0_from_best_h1 75.15888744252929 True 10
+DONE J232128-105122 refined_h1_from_h0 D -339.96818633296266 chi 68.99884193063005 ok True n 8
+DONE J004131-493611 refined_h1_from_h0 D -120.10994324029372 chi 87.25491209306989 ok True n 9
+DONE J004131-493611 refined_profile_000_grid_warm D -120.1100480781359 chi 87.25491207465684 ok True n 2
+DONE J004131-493611 refined_profile_000_grid_cross_h0 D -120.1100480781359 chi 87.2549121018461 ok True n 9
+DONE J004131-493611 refined_profile_001_grid_warm D 0.0 chi 87.84485476290344 ok True n 8
+DONE J004131-493611 refined_profile_001_grid_cross_h0 D 0.0 chi 87.84485470959356 ok True n 9
+DONE J004131-493611 refined_profile_002_grid_warm D -319.8178583847548 chi 89.1441858682052 ok True n 8
+DONE J004131-493611 refined_profile_002_grid_cross_h0 D -319.8178583847548 chi 89.14418561108337 ok True n 10
+DONE J004131-493611 refined_profile_003_grid_warm D 79.597762228483 chi 88.75439468926412 ok True n 8
+DONE J004131-493611 refined_profile_003_grid_cross_h0 D 79.597762228483 chi 88.75439487229256 ok True n 9
+DONE J004131-493611 refined_profile_004_grid_warm D -519.5256686913738 chi 94.16929454482512 ok True n 12
+DONE J004131-493611 refined_profile_004_grid_cross_h0 D -519.5256686913738 chi 94.16929466112539 ok True n 13
+DONE J004131-493611 refined_profile_005_grid_warm D 279.30557253510193 chi 91.98728996943282 ok True n 15
+DONE J004131-493611 refined_profile_005_grid_cross_h0 D 279.30557253510193 chi 91.98729018500256 ok True n 18
+DONE J004131-493611 refined_profile_006_grid_warm D -719.2334789979926 chi 102.41399404637282 ok True n 11
+DONE J004131-493611 refined_profile_006_grid_cross_h0 D -719.2334789979926 chi 102.41399401278714 ok True n 14
+DONE J004131-493611 refined_profile_007_grid_warm D 479.01338284172084 chi 96.17612947709215 ok True n 16
+DONE J004131-493611 refined_profile_007_grid_cross_h0 D 479.01338284172084 chi 96.17612962864322 ok True n 16
+DONE J004131-493611 refined_profile_008_grid_warm D -918.9412893046115 chi 115.16009043468232 ok True n 13
+DONE J004131-493611 refined_profile_008_grid_cross_h0 D -918.9412893046115 chi 115.16009019933603 ok True n 14
+DONE J004131-493611 refined_profile_009_grid_warm D 678.7211931483398 chi 101.27582203652734 ok True n 17
+DONE J004131-493611 refined_profile_009_grid_cross_h0 D 678.7211931483398 chi 101.27582205341497 ok True n 20
+DONE J004131-493611 refined_profile_010_grid_warm D -1000.0 chi 121.70892171661062 ok True n 9
+DONE J004131-493611 refined_profile_010_grid_cross_h0 D -1000.0 chi 121.70892166811687 ok True n 15
+DONE J004131-493611 refined_profile_011_grid_warm D 878.4290034549587 chi 107.38855107560838 ok True n 18
+DONE J004131-493611 refined_profile_011_grid_cross_h0 D 878.4290034549587 chi 107.38855117201226 ok True n 17
+DONE J004131-493611 refined_profile_012_grid_warm D 1000.0 chi 111.62272852263474 ok True n 11
+DONE J004131-493611 refined_profile_012_grid_cross_h0 D 1000.0 chi 111.6227276783346 ok True n 21
+DONE J004131-493611 refined_profile_013_refine1_lower_0_warm D -219.96395323144534 chi 87.72419371514917 ok True n 10
+DONE J004131-493611 refined_profile_013_refine1_lower_0_cross_h0 D -219.96395323144534 chi 87.72419369907396 ok True n 8
+DONE J004131-493611 refined_profile_014_refine1_upper_0_warm D 39.7988811142415 chi 88.25300706911764 ok True n 9
+DONE J004131-493611 refined_profile_014_refine1_upper_0_cross_h0 D 39.7988811142415 chi 88.25300707795265 ok True n 10
+DONE J004131-493611 refined_profile_015_refine1_lower_1_warm D -269.89090580810006 chi 88.31441798847173 ok True n 6
+DONE J004131-493611 refined_profile_015_refine1_lower_1_cross_h0 D -269.89090580810006 chi 88.31441774546198 ok True n 9
+DONE J004131-493611 refined_profile_016_refine1_upper_1_warm D 59.69832167136225 chi 88.4924514957627 ok True n 7
+DONE J004131-493611 refined_profile_016_refine1_upper_1_cross_h0 D 59.69832167136225 chi 88.49245158508178 ok True n 9
+DONE J004131-493611 refined_profile_017_refine3.84_lower_0_warm D -419.6717635380643 chi 91.35344018013943 ok True n 10
+DONE J004131-493611 refined_profile_017_refine3.84_lower_0_cross_h0 D -419.6717635380643 chi 91.35344015560038 ok True n 11
+DONE J004131-493611 refined_profile_018_refine3.84_upper_0_warm D 179.45166738179248 chi 90.36304645507468 ok True n 8
+DONE J004131-493611 refined_profile_018_refine3.84_upper_0_cross_h0 D 179.45166738179248 chi 90.37204437826627 ok True n 9
+DONE J004131-493611 refined_profile_019_refine3.84_lower_1_warm D -369.74481096140954 chi 90.17253115614722 ok True n 8
+DONE J004131-493611 refined_profile_019_refine3.84_lower_1_cross_h0 D -369.74481096140954 chi 90.17253108982891 ok True n 9
+DONE J004131-493611 refined_profile_020_refine3.84_upper_1_warm D 229.3786199584472 chi 91.12629523754264 ok True n 9
+DONE J004131-493611 refined_profile_020_refine3.84_upper_1_cross_h0 D 229.3786199584472 chi 91.12629554878637 ok True n 17
+DONE J004131-493611 refined_reverse_000 D 1000.0 chi 111.622728490077 ok True n 19
+DONE J004131-493611 refined_reverse_001 D 878.4290034549587 chi 107.38855113620328 ok True n 18
+DONE J004131-493611 refined_reverse_002 D 678.7211931483398 chi 101.27582302558979 ok True n 20
+DONE J004131-493611 refined_reverse_003 D 479.01338284172084 chi 96.17612965745221 ok True n 18
+DONE J004131-493611 refined_reverse_004 D 279.30557253510193 chi 91.9872899369395 ok True n 15
+DONE J004131-493611 refined_reverse_005 D 229.3786199584472 chi 91.12629532665103 ok True n 16
+DONE J004131-493611 refined_reverse_006 D 179.45166738179248 chi 90.37204459361192 ok True n 11
+DONE J004131-493611 refined_reverse_007 D 79.597762228483 chi 88.75439476561253 ok True n 9
+DONE J004131-493611 refined_reverse_008 D 59.69832167136225 chi 88.49245138782898 ok True n 9
+DONE J004131-493611 refined_reverse_009 D 39.7988811142415 chi 88.25300705604033 ok True n 9
+DONE J004131-493611 refined_reverse_010 D 0.0 chi 87.8448547629159 ok True n 8
+DONE J004131-493611 refined_reverse_011 D -120.1100480781359 chi 87.25491207356842 ok True n 2
+DONE J004131-493611 refined_reverse_012 D -219.96395323144534 chi 87.72419373469339 ok True n 7
+DONE J004131-493611 refined_reverse_013 D -269.89090580810006 chi 88.31441775961254 ok True n 8
+DONE J004131-493611 refined_reverse_014 D -319.8178583847548 chi 89.14418586861326 ok True n 8
+DONE J004131-493611 refined_reverse_015 D -369.74481096140954 chi 90.17253113403684 ok True n 9
+DONE J004131-493611 refined_reverse_016 D -419.6717635380643 chi 91.35344017900562 ok True n 10
+DONE J004131-493611 refined_reverse_017 D -519.5256686913738 chi 94.1692945554137 ok True n 12
+DONE J004131-493611 refined_reverse_018 D -719.2334789979926 chi 102.41399402065271 ok True n 12
+DONE J004131-493611 refined_reverse_019 D -918.9412893046115 chi 115.16009018503438 ok True n 14
+DONE J004131-493611 refined_reverse_020 D -1000.0 chi 121.70892181671786 ok True n 14
+[
+  {
+    "target": "J232128-105122",
+    "D_m_s": -339.97055338286276,
+    "conditional_sigma_m_s": 179.5813132807154,
+    "reference_chi2": 68.99884187763574,
+    "profile_contours_closed": true,
+    "profile_all_selected_terminated": true,
+    "profile_baseline_resolved_to_tolerance": true,
+    "full_comparison": {
+      "null_file": "results/common_pair/J232128-105122/refined_h0_from_best_h1.json",
+      "alternative_file": "results/common_pair/J232128-105122/profile_000_grid_warm.json",
+      "chi2_null": 75.15888744252929,
+      "chi2_alternative": 68.99884187763574,
+      "delta_chi2": 6.160045564893551,
+      "added_parameters": 4,
+      "null_optimizer_success": true,
+      "alternative_optimizer_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "null_npar": 29,
+      "alternative_npar": 33,
+      "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+    }
+  },
+  {
+    "target": "J004131-493611",
+    "D_m_s": -120.1100480781359,
+    "conditional_sigma_m_s": 399.412200684418,
+    "reference_chi2": 87.25491207356842,
+    "profile_contours_closed": true,
+    "profile_all_selected_terminated": true,
+    "profile_baseline_resolved_to_tolerance": true,
+    "full_comparison": {
+      "null_file": "results/common_pair/J004131-493611/refined_h0_from_best_h1.json",
+      "alternative_file": "results/common_pair/J004131-493611/refined_reverse_011.json",
+      "chi2_null": 95.22846063001326,
+      "chi2_alternative": 87.25491207356842,
+      "delta_chi2": 7.97354855644484,
+      "added_parameters": 2,
+      "null_optimizer_success": true,
+      "alternative_optimizer_success": true,
+      "null_active_bounds": [
+        "logb_1",
+        "zero_2374"
+      ],
+      "null_npar": 30,
+      "alternative_npar": 32,
+      "interpretation": "All original relative line offsets fixed zero for H0. D=0 profile leaves other offsets free and is a different model."
+    }
+  }
+]

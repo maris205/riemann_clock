@@ -1,0 +1,117 @@
+exposure 0 trace fits 8
+exposure 1 trace fits 16
+exposure 2 trace fits 24
+exposure 3 trace fits 32
+exposure 4 trace fits 40
+exposure 5 trace fits 48
+exposure 6 trace fits 56
+exposure 7 trace fits 64
+exposure 8 trace fits 72
+exposure 9 trace fits 80
+exposure 10 trace fits 88
+exposure 11 trace fits 96
+exposure 12 trace fits 104
+exposure 13 trace fits 112
+exposure 14 trace fits 120
+exposure 15 trace fits 128
+exposure 16 trace fits 136
+{
+  "2382": {
+    "primary": {
+      "mean_m_s": -10.527688923747721,
+      "sigma_m_s": 21.869327853294607,
+      "heterogeneity_chi2": 25.050759199536824,
+      "heterogeneity_ndf": 16,
+      "conditional_heterogeneity_p": 0.06893560953184143
+    },
+    "epoch": {
+      "beta": [
+        -8.155151691711556,
+        -3.789960386999509
+      ],
+      "covariance": [
+        [
+          1278.8099840919847,
+          -1278.8099840919851
+        ],
+        [
+          -1278.8099840919851,
+          2042.8084823135086
+        ]
+      ],
+      "sigma": [
+        35.76045279484006,
+        45.19743889108661
+      ],
+      "chi2": 25.04372780141048,
+      "ndf": 15,
+      "conditional_goodness_p": 0.04935924840791907,
+      "definition": "beta[0] = 2019-2020; beta[1] = 2018 minus 2019-2020"
+    },
+    "trace": {
+      "0": {
+        "mean_m_s": -30.1815118519112,
+        "sigma_m_s": 30.948181255570244,
+        "heterogeneity_chi2": 44.88538113348456,
+        "heterogeneity_ndf": 16,
+        "conditional_heterogeneity_p": 0.00014452102389149658
+      },
+      "1": {
+        "mean_m_s": 12.065771281803068,
+        "sigma_m_s": 30.945969401166906,
+        "heterogeneity_chi2": 21.854775630561345,
+        "heterogeneity_ndf": 16,
+        "conditional_heterogeneity_p": 0.14794283440538772
+      }
+    }
+  },
+  "2600": {
+    "primary": {
+      "mean_m_s": -60.24711702426351,
+      "sigma_m_s": 16.719529659368757,
+      "heterogeneity_chi2": 18.11014173261071,
+      "heterogeneity_ndf": 16,
+      "conditional_heterogeneity_p": 0.31748686121763214
+    },
+    "epoch": {
+      "beta": [
+        -55.59204020877261,
+        -7.990527967012632
+      ],
+      "covariance": [
+        [
+          669.6825818642748,
+          -669.6825818642749
+        ],
+        [
+          -669.6825818642749,
+          1149.5228997297256
+        ]
+      ],
+      "sigma": [
+        25.87822601849429,
+        33.904614726165605
+      ],
+      "chi2": 18.054598222162486,
+      "ndf": 15,
+      "conditional_goodness_p": 0.2598060498301896,
+      "definition": "beta[0] = 2019-2020; beta[1] = 2018 minus 2019-2020"
+    },
+    "trace": {
+      "0": {
+        "mean_m_s": -63.639917330789416,
+        "sigma_m_s": 23.545248557262592,
+        "heterogeneity_chi2": 19.431488667965393,
+        "heterogeneity_ndf": 16,
+        "conditional_heterogeneity_p": 0.24692357530215592
+      },
+      "1": {
+        "mean_m_s": -56.49116398025484,
+        "sigma_m_s": 23.780728624163086,
+        "heterogeneity_chi2": 17.362498574378012,
+        "heterogeneity_ndf": 16,
+        "conditional_heterogeneity_p": 0.36252314449226847
+      }
+    }
+  }
+}

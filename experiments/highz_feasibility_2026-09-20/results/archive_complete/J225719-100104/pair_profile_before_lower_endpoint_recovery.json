@@ -1,0 +1,42 @@
+{
+  "free_name": "n30_shift_fromnull_os21",
+  "free_chi2": 454.2256072248765,
+  "grid": [
+    {
+      "value_m_s": -541.1272318364676,
+      "chi2": 458.4212866898203,
+      "delta_from_free": 4.195679464943794,
+      "optimizer_success": true,
+      "name": "n30_profile2382_0_os21"
+    },
+    {
+      "value_m_s": -302.86493409429124,
+      "chi2": 455.32362000496096,
+      "delta_from_free": 1.0980127800844457,
+      "optimizer_success": true,
+      "name": "n30_profile2382_1_os21"
+    },
+    {
+      "value_m_s": -64.60263635211493,
+      "chi2": 454.2256047733799,
+      "delta_from_free": -2.4514965843991376e-06,
+      "optimizer_success": true,
+      "name": "n30_profile2382_2_os21"
+    },
+    {
+      "value_m_s": 173.65966139006144,
+      "chi2": 455.2939611783492,
+      "delta_from_free": 1.0683539534726947,
+      "optimizer_success": true,
+      "name": "n30_profile2382_3_os21"
+    },
+    {
+      "value_m_s": 411.92195913223776,
+      "chi2": 458.4320489212767,
+      "delta_from_free": 4.206441696400191,
+      "optimizer_success": true,
+      "name": "n30_profile2382_4_os21"
+    }
+  ],
+  "interpretation": "Sparse nuisance-reoptimized profile diagnostic; not guaranteed confidence interval; report any lower profile point as an optimization warning."
+}

@@ -1,0 +1,109 @@
+{
+  "target": "J064326-504112",
+  "classification": "post-quality-screen failed-primary explanatory comparison; not a precision observation",
+  "primary_remains_gated_out": true,
+  "common_observable_status": "not_estimated_primary_due_model_failure",
+  "original_primary_null": "n16_null_refined_os21",
+  "original_primary_null_chi2": 532.2252737539015,
+  "original_primary_null_relative_path": "../n16_null_refined_os21.json",
+  "null": "n16_null_refined_os21",
+  "null_relative_path": "../n16_null_refined_os21.json",
+  "alternative": "failure_n16_shift_from_primary_os21",
+  "alternative_relative_path": "J064326-504112/failure_n16_shift_from_primary_os21.json",
+  "ndata": 436,
+  "ncomp": 16,
+  "npar_null": 64,
+  "npar_alternative": 67,
+  "chi2_null": 532.2252737539015,
+  "chi2_alternative": 527.587722694254,
+  "nominal_ndf_null": 372,
+  "nominal_ndf_alternative": 369,
+  "delta_chi2": 4.637551059647535,
+  "delta_from_original_null": 4.637551059647535,
+  "extra_shift_parameters": 3,
+  "shifts_m_s": {
+    "1608": 5.5486916926612135,
+    "1611": -895.2725849412642,
+    "2382": -217.02014119161652
+  },
+  "both_optimizer_success": true,
+  "null_passes_original_conditional_gate": false,
+  "alternative_passes_same_residual_gate": false,
+  "null_per_line": [
+    {
+      "line": 1608,
+      "ndata": 109,
+      "chi2": 94.30863891281254,
+      "chi2_per_pixel": 0.8652168707597481
+    },
+    {
+      "line": 1611,
+      "ndata": 109,
+      "chi2": 224.37449163200006,
+      "chi2_per_pixel": 2.058481574605505
+    },
+    {
+      "line": 2374,
+      "ndata": 109,
+      "chi2": 117.07489561466,
+      "chi2_per_pixel": 1.0740816111436697
+    },
+    {
+      "line": 2382,
+      "ndata": 109,
+      "chi2": 96.46724759442888,
+      "chi2_per_pixel": 0.885020620132375
+    }
+  ],
+  "alternative_per_line": [
+    {
+      "line": 1608,
+      "ndata": 109,
+      "chi2": 92.65395368794303,
+      "chi2_per_pixel": 0.8500362723664499
+    },
+    {
+      "line": 1611,
+      "ndata": 109,
+      "chi2": 221.43545831089406,
+      "chi2_per_pixel": 2.0315179661549916
+    },
+    {
+      "line": 2374,
+      "ndata": 109,
+      "chi2": 117.77392936896126,
+      "chi2_per_pixel": 1.0804947648528556
+    },
+    {
+      "line": 2382,
+      "ndata": 109,
+      "chi2": 95.7243813264558,
+      "chi2_per_pixel": 0.8782053332702366
+    }
+  ],
+  "null_active_bounds": [
+    "logb_14",
+    "zero_1611"
+  ],
+  "alternative_active_bounds": [
+    "logb_14",
+    "zero_1611"
+  ],
+  "null_stationarity": {
+    "scipy_optimality": 0.21024741447415518,
+    "independent_coleman_li": 0.21024741447415518,
+    "normalized_gradient_mapping_inf": 0.3518572536704845,
+    "column_normalized_gradient_inf": 0.6134614894228654,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "alternative_stationarity": {
+    "scipy_optimality": 0.14430724188025978,
+    "independent_coleman_li": 0.14430724188025978,
+    "normalized_gradient_mapping_inf": 0.16368142416942177,
+    "column_normalized_gradient_inf": 0.5424502065983084,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "original_primary_hash_unchanged": true,
+  "original_config_hash_unchanged": true,
+  "interpretation": "Report shifts, model adequacy, active bounds, first-order diagnostics and the objective improvement even if failed. Initial gate was a quality screen, not a population null test. No discovery significance, precision displacement, alpha estimate or cosmic-time point. Primary remains gated out regardless of delta."
+}

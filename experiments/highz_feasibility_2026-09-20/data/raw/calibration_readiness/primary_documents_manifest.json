@@ -1,0 +1,52 @@
+[
+  {
+    "file": "schmidt_bouchy_2024.html",
+    "requested_url": "https://arxiv.org/html/2404.05283v1",
+    "final_url": "https://arxiv.org/html/2404.05283v1",
+    "status": 200,
+    "bytes": 345642,
+    "sha256": "cacef12968d99b438d11b63d04b0f28172eab898db6d3a77213c1c292075cc29",
+    "retrieved_utc": "2026-09-21T03:45:01.732978+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "schmidt_iodine_2025.html",
+    "requested_url": "https://arxiv.org/html/2504.18485v1",
+    "final_url": "https://arxiv.org/html/2504.18485v1",
+    "status": 200,
+    "bytes": 312142,
+    "sha256": "3a00a235b096ee5ffd8a4dc810336443f14e3b2ad30adc234a32d236d6fb67cf",
+    "retrieved_utc": "2026-09-21T03:45:01.729683+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "schmidt_eom_2026.html",
+    "requested_url": "https://arxiv.org/html/2603.17908v1",
+    "final_url": "https://arxiv.org/html/2603.17908v1",
+    "status": 200,
+    "bytes": 358042,
+    "sha256": "08df6e6de4df6e2ab5c9e514bd119714c78c40d3f860d08f110ac1ac774b0c74",
+    "retrieved_utc": "2026-09-21T03:45:01.672300+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "murphy_he0515_2022.html",
+    "requested_url": "https://arxiv.org/html/2112.05819",
+    "final_url": "https://arxiv.org/html/2112.05819",
+    "status": 200,
+    "bytes": 588539,
+    "sha256": "6933dabb130b590557031013622da63cb286657d7e4b6ef425f5021ba6d2eb78",
+    "retrieved_utc": "2026-09-21T03:45:02.222536+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "schmidt_bouchy_2024_publisher.html",
+    "requested_url": "https://academic.oup.com/mnras/article/530/1/1252/7637785",
+    "final_url": "https://academic.oup.com/mnras/article/530/1/1252/7637785",
+    "status": 403,
+    "bytes": 5546,
+    "sha256": "4ad1a0fc0c2a3116865ec6e1008a71917480873cedf770ca687b645b6baa778e",
+    "retrieved_utc": "2026-09-21T03:45:03.429108+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  }
+]

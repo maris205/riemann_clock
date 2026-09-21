@@ -1,0 +1,65 @@
+{
+  "UVES_popler_commit": "711b07badfc8209105d0de437f56f4cea1259563",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_r2Dspec_espresso.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_r2Dspec_espresso.c",
+      "sha256": "da89f3e9531c941f7cd4f33edcce4828fc612a513fc993af04f4a67235184785"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_combine_ESPRESSOtrace.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_combine_ESPRESSOtrace.c",
+      "sha256": "2521986ca590a7aced5f38cc9973a793e0bab8779c4837004d8f40bf4ab2f04a"
+    },
+    {
+      "url": "https://ftp.eso.org/pub/dfs/pipelines/espresso/espdr-pipeline-manual-3.3.10.pdf",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_espdr-pipeline-manual-3.3.10.pdf",
+      "sha256": "65c7e98660d8b95cb2297611ebf70b58799663ee1ad6ea8401de54f72ce231c0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_wpol.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_wpol.c",
+      "sha256": "ea4adaecfbaf0c9f78032c9686e69b6fceb3b7a97ac9d6659c1b396278cfb87e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_popler.h",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_popler.h",
+      "sha256": "95482901dcf684acdfc4e876bc6e46bf52b24ebc5052bc0dfe745823916abb7e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_rUPLfile.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_rUPLfile.c",
+      "sha256": "d4957c6e284215ccecff3359b732c1c6b5003f1b318897387df65184fbd48e83"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_past_actions.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_past_actions.c",
+      "sha256": "75b7b4b1cd232571418dba1401a5dbd9db0fcc496b5938d62b00e7bf8812949f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_redispers.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_redispers.c",
+      "sha256": "d8ecd4846c0d917b87bcc1e6bcc76651b89e7b5843b0a749c24a6c844f8b8337"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_atmask.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_atmask.c",
+      "sha256": "c7ff799cf37b1687392d37c9489c83dd66e13291359edbedf8114c0667180c47"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_popler.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_popler.c",
+      "sha256": "dded902ddcfe8531682c6ef8facc67183dd065e9daa90d30ffa5e8b340ae3571"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_set_wavelen_scale.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_set_wavelen_scale.c",
+      "sha256": "1e9c9a961af4aa47181a1b386fb1c1ec1404ba1499584f46eb2a26234a242deb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_popler/711b07badfc8209105d0de437f56f4cea1259563/UVES_vhelio.c",
+      "local_path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/exposures/provenance_UVES_vhelio.c",
+      "sha256": "deab76768a5ce937ad5f2220cf7c2cc28b3ecd0b277a227dcd55371e35ca195e"
+    }
+  ]
+}

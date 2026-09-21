@@ -1,0 +1,249 @@
+{
+  "created_utc": "2026-09-21T04:17:14.725079+00:00",
+  "scope": "All four previously unmodeled automatic candidates; adequacy-gated precision exploration plus separate failed-model H1 diagnostics. This selection cannot establish a population null.",
+  "observed_quantity": "D=v(FeII2382)-v(FeII2374), relative-region registration conditional on nuisance/model assumptions; not alpha.",
+  "records": [
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "ndata": 480,
+      "ncomp": 16,
+      "lines": [
+        1608,
+        1611,
+        2374,
+        2382
+      ],
+      "window": [
+        -110.0,
+        130.0
+      ],
+      "primary_or_recovered_null": "n16_null_refined_os21",
+      "null_chi2": 482.29846556457426,
+      "null_nominal_ndf": 416,
+      "null_stop_success": true,
+      "null_stationarity": {
+        "scipy_optimality": 0.19978186232318806,
+        "independent_coleman_li": 0.19978186232318806,
+        "normalized_gradient_mapping_inf": 0.26668217631137403,
+        "column_normalized_gradient_inf": 1.7488554305294612,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "null_active_bounds": [
+        "zero_1611",
+        "zero_2374"
+      ],
+      "selected_at_count_search_upper_edge": true,
+      "source_json_sha256": "21be5e0054ddfdfc7991aa5bc683a79eada9508dd0fcb374c9e52072cd942eb2",
+      "disposition": "conditional_relative_profile_only",
+      "alternative": "n16_shift_fromnull_os21",
+      "delta_chi2": 4.176037369556525,
+      "extra_shifts": 3,
+      "D_m_s": 268.7808447321309,
+      "conditional_sigma_m_s": 130.0940643010236,
+      "profile_grid": [
+        {
+          "value_m_s": 8.592716130083666,
+          "chi2": 482.028936396406,
+          "delta_from_free": 3.906508201388249,
+          "optimizer_success": true,
+          "name": "n16_profile2382_0_os21"
+        },
+        {
+          "value_m_s": 138.68678043110728,
+          "chi2": 479.0986399685953,
+          "delta_from_free": 0.9762117735775746,
+          "optimizer_success": true,
+          "name": "n16_profile2382_1_os21"
+        },
+        {
+          "value_m_s": 268.7808447321309,
+          "chi2": 478.1224201626047,
+          "delta_from_free": -8.032413006731076e-06,
+          "optimizer_success": true,
+          "name": "n16_profile2382_2_os21"
+        },
+        {
+          "value_m_s": 398.8749090331545,
+          "chi2": 479.0959410496703,
+          "delta_from_free": 0.9735128546525402,
+          "optimizer_success": true,
+          "name": "n16_profile2382_3_os21"
+        },
+        {
+          "value_m_s": 528.968973334178,
+          "chi2": 482.0120489597684,
+          "delta_from_free": 3.8896207647506458,
+          "optimizer_success": true,
+          "name": "n16_profile2382_4_os21"
+        }
+      ],
+      "pair_file": "results/archive_complete/J053007-250329/selected_pair.json",
+      "pair_sha256": "6b712d29066a5e07a3d7230e22cebfde760d4c000ddf620547d9297cf3b646e9"
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "ndata": 436,
+      "ncomp": 16,
+      "lines": [
+        1608,
+        1611,
+        2374,
+        2382
+      ],
+      "window": [
+        -145.0,
+        100.0
+      ],
+      "primary_or_recovered_null": "n16_null_refined_os21",
+      "null_chi2": 532.2252737539015,
+      "null_nominal_ndf": 372,
+      "null_stop_success": true,
+      "null_stationarity": {
+        "scipy_optimality": 0.21024741447415518,
+        "independent_coleman_li": 0.21024741447415518,
+        "normalized_gradient_mapping_inf": 0.3518572536704845,
+        "column_normalized_gradient_inf": 0.6134614894228654,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "null_active_bounds": [
+        "logb_14",
+        "zero_1611"
+      ],
+      "selected_at_count_search_upper_edge": true,
+      "source_json_sha256": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+      "disposition": "ordinary_model_not_adequate_for_precision_interpretation",
+      "D_m_s": null,
+      "conditional_sigma_m_s": null,
+      "delta_chi2": null,
+      "extra_shifts": null,
+      "failure_case_diagnostic_files": [
+        "results/archive_complete/J064326-504112/failure_pair/summary.json"
+      ],
+      "failure_case_diagnostic_interpretation": "Use separately; no promotion into precision sample and no population-null inference from the adequacy gate."
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "ndata": 504,
+      "ncomp": 30,
+      "lines": [
+        2344,
+        2374,
+        2382
+      ],
+      "window": [
+        -310.0,
+        110.0
+      ],
+      "primary_or_recovered_null": "n30_null_recovered_cross_os21",
+      "null_chi2": 421.24821511850905,
+      "null_nominal_ndf": 402,
+      "null_stop_success": true,
+      "null_stationarity": {
+        "scipy_optimality": 0.28514337549717633,
+        "independent_coleman_li": 0.2851433754971764,
+        "normalized_gradient_mapping_inf": 0.5032009223774033,
+        "column_normalized_gradient_inf": 0.22384498552503407,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "null_active_bounds": [
+        "logb_6",
+        "logb_23"
+      ],
+      "selected_at_count_search_upper_edge": true,
+      "source_json_sha256": "6b731c1f7e9a87d500f27f13ef4a4df02399f0c6fd68ffc9ea3e099c2974a87e",
+      "disposition": "conditional_relative_profile_only",
+      "alternative": "n30_shift_recovered_os21",
+      "delta_chi2": 13.5312983164157,
+      "extra_shifts": 2,
+      "D_m_s": -15.737705306861711,
+      "conditional_sigma_m_s": 228.84111449638414,
+      "profile_grid": [
+        {
+          "value_m_s": -473.41993429963,
+          "chi2": 412.04526476597476,
+          "delta_from_free": 4.328347963881413,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_0_os21"
+        },
+        {
+          "value_m_s": -244.57881980324586,
+          "chi2": 408.81877804331117,
+          "delta_from_free": 1.1018612412178186,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_1_os21"
+        },
+        {
+          "value_m_s": -15.737705306861711,
+          "chi2": 407.71677684796185,
+          "delta_from_free": -0.0001399541314981434,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_2_os21"
+        },
+        {
+          "value_m_s": 213.1034091895224,
+          "chi2": 408.43823647098225,
+          "delta_from_free": 0.7213196688888956,
+          "optimizer_success": true,
+          "name": "n30_profile2382_recovered_3_os21"
+        },
+        {
+          "value_m_s": 441.9445236859066,
+          "chi2": 411.5119697748235,
+          "delta_from_free": 3.7950529727301614,
+          "optimizer_success": false,
+          "name": "n30_profile2382_recovered_4_os21"
+        }
+      ],
+      "pair_file": "results/archive_complete/J225719-100104/selected_pair.json",
+      "pair_sha256": "5842ce628cabc2bc88bc557364602693ab84bf083a68af539fcd1ca326555021"
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "ndata": 1176,
+      "ncomp": 26,
+      "lines": [
+        1608,
+        2374,
+        2382
+      ],
+      "window": [
+        -480.0,
+        500.0
+      ],
+      "primary_or_recovered_null": "n26_null_refined_os21",
+      "null_chi2": 1672.841768419044,
+      "null_nominal_ndf": 1086,
+      "null_stop_success": true,
+      "null_stationarity": {
+        "scipy_optimality": 0.2582231130159091,
+        "independent_coleman_li": 0.25822311301590906,
+        "normalized_gradient_mapping_inf": 0.3666472613899621,
+        "column_normalized_gradient_inf": 0.44996304340936527,
+        "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+      },
+      "null_active_bounds": [
+        "logb_14",
+        "logb_16",
+        "zero_1608"
+      ],
+      "selected_at_count_search_upper_edge": true,
+      "source_json_sha256": "c75a19b35fdde6199296bf97dcbc95e342fde231fa6888b87d983631843d7b0b",
+      "disposition": "ordinary_model_not_adequate_for_precision_interpretation",
+      "D_m_s": null,
+      "conditional_sigma_m_s": null,
+      "delta_chi2": null,
+      "extra_shifts": null,
+      "failure_case_diagnostic_files": [
+        "results/archive_complete/J233156-090802/failure_pair/summary.json"
+      ],
+      "failure_case_diagnostic_interpretation": "Use separately; no promotion into precision sample and no population-null inference from the adequacy gate."
+    }
+  ],
+  "previous_two_latest_source": "results/common_pair/harmonized_measurements.json",
+  "previous_two_latest_source_sha256": "61cabdfda1a1394d1126ef27189205a1c162a6e19300309b727a697772ace947",
+  "all_six_disposition_policy": "Retain all six candidates. Two failed-primary ordinary-model candidates are not silently dropped; no physical time-law constraint is claimed."
+}

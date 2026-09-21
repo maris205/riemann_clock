@@ -1,0 +1,39 @@
+{
+  "source_sha256": "2edd6ce9fca6439a957bc0b71c80eca1bd3d86e1ddb04789f87a0dfe862b6af1",
+  "ar1_dense_checks": [
+    {
+      "rho": 0.3,
+      "dense_quadratic": 2325.382202038122,
+      "whitened_quadratic": 2325.382202038122,
+      "relative_quadratic_error": 0.0,
+      "maximum_gradient_absolute_error": 1.8189894035458565e-12
+    },
+    {
+      "rho": 0.6,
+      "dense_quadratic": 3376.15610801341,
+      "whitened_quadratic": 3376.1561080134097,
+      "relative_quadratic_error": 1.3469381638103384e-16,
+      "maximum_gradient_absolute_error": 2.2737367544323206e-12
+    }
+  ],
+  "excluded_anchor_rejected": true,
+  "projected_shift_singular_values": [
+    106.75657635301997,
+    106.06308179104818,
+    79.10617298614694,
+    26.746819079930493,
+    6.798407600729025
+  ],
+  "full_jacobian_condition": 735253625.3497081,
+  "full_rank_at_1e10": 152,
+  "pseudocovariance_retained_rank": 145,
+  "note": "Initial published-parameter vector, oversample=3, no optimization; source snapshot hash included.",
+  "covariance_fix_addendum": {
+    "date": "2026-09-20",
+    "source_sha256": "91219257efa7bb59bcefc9128d135ff8fcb480eb398bbc149e535140866ceb79",
+    "verification": "Source inspected: direct SVD of J, cutoff s>s[0]*1e-10, covariance=(Vh[keep].T/ss[keep]**2)@Vh[keep]. No additional fit performed.",
+    "status": "RESOLVED",
+    "historical_field_note": "pseudocovariance_retained_rank=145 refers to the previous normal-matrix pseudoinverse. Existing initial audit metadata and source hash are retained for provenance.",
+    "remaining_limitations": "Local Gaussian covariance remains conditional on weak and possibly bound-active nuisance directions; no automatic discovery significance."
+  }
+}

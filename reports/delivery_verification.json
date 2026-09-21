@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-20T14:01:51.735871+00:00",
+  "status": "PASS",
+  "pdf_pages": 25,
+  "pdf_sha256": "30488c03dd6fe791f2db32703c27ad2a02665f3669b232b458918e1b134c6480",
+  "cited_references": 24,
+  "bibliography_entries": 25,
+  "figures": 6,
+  "tables": 3,
+  "undefined_citations_or_references": false,
+  "overfull_boxes": false,
+  "stuck_floats": false,
+  "cosmetic_underfull_hbox_count": 3,
+  "visually_inspected_pdf_pages": [
+    1,
+    15,
+    17,
+    18,
+    20
+  ],
+  "observed_data_audit": "PASS; independent moment calculation and resampling, see observed_metrics_independent_review.md",
+  "registration_and_design_checks": 171,
+  "registration_and_design_status": "PASS",
+  "scientific_interpretation_review": "PASS; exploratory analysis, no cosmic coefficient inferred",
+  "external_peer_review": false,
+  "checks": [
+    {
+      "check": "python syntax forecast_sensitivity.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax fetch_public_spectra.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax fetch_atomic_data.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax pixel_noise_pilot.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax validate_forecast.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax plot_public_spectra.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax measure_observed_profiles.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax register_observed_profiles.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax design_from_observed_data.py",
+      "pass": true
+    },
+    {
+      "check": "python syntax prepare_highz_manuscript.py",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/README.md",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/Notes_FITS_Files.txt",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/DR1_quasars_master.csv",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/DR1_DLAs.csv",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/paper_accepted_2018-10-16.tex",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/catalog_portal_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/eso_release_announcement.html",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/espresso_README.md",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/espresso_github_tree.json",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/kodiaq_documentation.html",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/J034943-381030_Final_Spectrum.tar.gz",
+      "pass": true
+    },
+    {
+      "check": "source data/raw/J051707-441055_Final_Spectrum.tar.gz",
+      "pass": true
+    },
+    {
+      "check": "source data/atomic/nist_fe_ii_ground_lines.tsv",
+      "pass": true
+    },
+    {
+      "check": "source data/atomic/nist_mg_ii_ground_lines.tsv",
+      "pass": true
+    },
+    {
+      "check": "source data/atomic/nist_fe_ii_query.html",
+      "pass": true
+    },
+    {
+      "check": "source data/atomic/nist_asd_lineshelp.html",
+      "pass": true
+    },
+    {
+      "check": "registration numerical and design audit",
+      "pass": true,
+      "count": 171
+    },
+    {
+      "check": "registration audit current result hash",
+      "pass": true
+    },
+    {
+      "check": "local document links",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "check": "citation keys",
+      "pass": true
+    },
+    {
+      "check": "latex blocking warnings",
+      "pass": true
+    },
+    {
+      "check": "nonempty figure highz_observed_profiles.pdf",
+      "pass": true
+    },
+    {
+      "check": "nonempty figure highz_observed_registration.pdf",
+      "pass": true
+    }
+  ]
+}

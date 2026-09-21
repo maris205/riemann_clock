@@ -1,0 +1,70 @@
+{
+  "target": "J053007-250329",
+  "z_abs": 2.141,
+  "lines": [
+    1608,
+    1611,
+    2374,
+    2382
+  ],
+  "window": [
+    -110.0,
+    130.0
+  ],
+  "ncomp": 16,
+  "ndata": 480,
+  "null": "n16_null_refined_os21",
+  "alternative": "n16_shift_fromnull_os21",
+  "chi2_null": 482.29846556457426,
+  "chi2_alternative": 478.12242819501773,
+  "nominal_ndf_null": 416,
+  "delta_chi2": 4.176037369556525,
+  "extra_shifts": 3,
+  "both_optimizer_success": true,
+  "ordinary_gate": true,
+  "local_pair_uncertainty": {
+    "observable": "velocity(FeII2382)-velocity(FeII2374)",
+    "shift_m_s": 268.7808447321309,
+    "method": "Weighted-Jacobian 2382 column projected off ALL other gas/continuum/zero/LSF/shift nuisance columns, after nuisance-column normalization.",
+    "rank_sensitivity": [
+      {
+        "svd_relative_cutoff": 1e-08,
+        "nuisance_rank": 66,
+        "information_per_km_s_squared": 59.086060713652444,
+        "conditional_sigma_m_s": 130.0940643010236
+      },
+      {
+        "svd_relative_cutoff": 1e-10,
+        "nuisance_rank": 66,
+        "information_per_km_s_squared": 59.086060713652444,
+        "conditional_sigma_m_s": 130.0940643010236
+      },
+      {
+        "svd_relative_cutoff": 1e-12,
+        "nuisance_rank": 66,
+        "information_per_km_s_squared": 59.086060713652444,
+        "conditional_sigma_m_s": 130.0940643010236
+      }
+    ],
+    "active_bounds": [
+      "zero_1611",
+      "zero_2374"
+    ],
+    "limitations": "Local linear, fixed selected architecture and expected diagonal errors; ignores active-bound truncation, calibration, blends and architecture uncertainty. Not alpha or a cosmic-time observation."
+  },
+  "null_stationarity": {
+    "scipy_optimality": 0.19978186232318806,
+    "independent_coleman_li": 0.19978186232318806,
+    "normalized_gradient_mapping_inf": 0.26668217631137403,
+    "column_normalized_gradient_inf": 1.7488554305294612,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "alternative_stationarity": {
+    "scipy_optimality": 0.6403308834195348,
+    "independent_coleman_li": 0.6403308834195349,
+    "normalized_gradient_mapping_inf": 0.554915179259204,
+    "column_normalized_gradient_inf": 1.7437401209649976,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "interpretation": "Exploratory, conditional relative-line comparison. No calibrated discovery significance, alpha or cosmic-time-law fit."
+}

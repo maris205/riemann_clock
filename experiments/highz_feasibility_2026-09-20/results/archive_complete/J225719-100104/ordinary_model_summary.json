@@ -1,0 +1,150 @@
+{
+  "target": "J225719-100104",
+  "by_count": [
+    {
+      "ncomp": 6,
+      "name": "n6_null_s2_os9",
+      "chi2": 10120.385539868432,
+      "nominal_ndf": 474,
+      "aicc": 10184.317886591476,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 5335.1383113644815,
+          "chi2_per_pixel": 31.75677566288382
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 453.85006140825044,
+          "chi2_per_pixel": 2.7014884607633953
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 4331.397167095702,
+          "chi2_per_pixel": 25.78212599461727
+        }
+      ]
+    },
+    {
+      "ncomp": 10,
+      "name": "n10_null_s1_os9",
+      "chi2": 2797.7005649380253,
+      "nominal_ndf": 462,
+      "aicc": 2889.535705935856,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 1243.8659858796864,
+          "chi2_per_pixel": 7.4039642016648
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 324.71333997638226,
+          "chi2_per_pixel": 1.9328174998594183
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 1229.121239081957,
+          "chi2_per_pixel": 7.316197851678315
+        }
+      ]
+    },
+    {
+      "ncomp": 14,
+      "name": "n14_null_s2_os9",
+      "chi2": 1585.071843916768,
+      "nominal_ndf": 450,
+      "aicc": 1706.3012425804652,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 697.332998044828,
+          "chi2_per_pixel": 4.150791655028738
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 190.995610848496,
+          "chi2_per_pixel": 1.1368786360029524
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 696.7432350234441,
+          "chi2_per_pixel": 4.147281160853834
+        }
+      ]
+    },
+    {
+      "ncomp": 18,
+      "name": "n18_null_s2_os9",
+      "chi2": 829.9337945431109,
+      "nominal_ndf": 438,
+      "aicc": 982.1717808131339,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 335.53408218915484,
+          "chi2_per_pixel": 1.9972266796973503
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 168.5636090079476,
+          "chi2_per_pixel": 1.0033548155234977
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 325.83610334600866,
+          "chi2_per_pixel": 1.9395006151548135
+        }
+      ]
+    },
+    {
+      "ncomp": 22,
+      "name": "n22_null_s2_os9",
+      "chi2": 683.7528281205724,
+      "nominal_ndf": 426,
+      "aicc": 868.750475179396,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 2344,
+          "ndata": 168,
+          "chi2": 250.1078319453518,
+          "chi2_per_pixel": 1.4887370949128083
+        },
+        {
+          "line": 2374,
+          "ndata": 168,
+          "chi2": 165.27909546189858,
+          "chi2_per_pixel": 0.9838041396541582
+        },
+        {
+          "line": 2382,
+          "ndata": 168,
+          "chi2": 268.3659007133219,
+          "chi2_per_pixel": 1.597416075674535
+        }
+      ]
+    }
+  ],
+  "selected_null": "n22_null_refined_os21",
+  "ncomp": 22,
+  "selection_reason": "Minimum null AICc among saved successful stops. Also retain best incomplete endpoint. No component selection by displacement or free-shift improvement.",
+  "best_incomplete_endpoint": null,
+  "passes_conditional_adequacy_gate": false
+}

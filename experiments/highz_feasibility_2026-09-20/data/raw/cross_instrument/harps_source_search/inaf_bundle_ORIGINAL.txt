@@ -1,0 +1,103 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://openaccess.inaf.it/server/api/core/bundles/23bb602a-bb45-4ee8-a73f-2b4b3dc9c960/bitstreams"
+    }
+  },
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "f25cd537-b879-4c3d-9548-cb847b7e18b2",
+      "uuid" : "f25cd537-b879-4c3d-9548-cb847b7e18b2",
+      "name" : "staa3217.pdf",
+      "handle" : null,
+      "metadata" : {
+        "bitstream.loginmiur" : [ {
+          "value" : "true",
+          "language" : "*",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        }, {
+          "value" : "",
+          "language" : "*",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ],
+        "bitstream.type" : [ {
+          "value" : "pdf editoriale",
+          "language" : "*",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        }, {
+          "value" : "",
+          "language" : "*",
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 1
+        } ],
+        "datacite.rights" : [ {
+          "value" : "open.access",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.description" : [ {
+          "value" : "",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.source" : [ {
+          "value" : "/var/dspace-install/upload/staa3217.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "staa3217.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 3075562,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "c132d45fbb6e668598a871710513609f"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "uniqueType" : "core.bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/f25cd537-b879-4c3d-9548-cb847b7e18b2/content"
+        },
+        "bundle" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/f25cd537-b879-4c3d-9548-cb847b7e18b2/bundle"
+        },
+        "format" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/f25cd537-b879-4c3d-9548-cb847b7e18b2/format"
+        },
+        "thumbnail" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/f25cd537-b879-4c3d-9548-cb847b7e18b2/thumbnail"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/f25cd537-b879-4c3d-9548-cb847b7e18b2"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  }
+}

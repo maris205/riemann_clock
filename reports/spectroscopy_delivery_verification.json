@@ -1,0 +1,458 @@
+{
+  "scope": "Focused-manuscript delivery integrity, selected number recomputation, exported table/source identity, local link and final build audit only. No new nonlinear fits, significance calibration, coverage guarantee, physical detection certification or publication acceptance claim.",
+  "generated_utc": "2026-09-21T05:16:41.968108+00:00",
+  "passed": true,
+  "checks_passed": 72,
+  "checks_total": 72,
+  "checks": [
+    {
+      "name": "TeX input files resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "TeX figure files resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Citations resolve and bibliography keys are unique",
+      "passed": true,
+      "detail": {
+        "cited_keys": [
+          "ESOESPRESSO2026",
+          "ESOESPRESSOManualP117",
+          "Lee2023Models",
+          "Murphy2019SQUAD",
+          "Murphy2022ESPRESSO",
+          "MurphyBerengut2014",
+          "Schmidt2024LSF",
+          "Wang2026Spectral",
+          "WhitmoreMurphy2015"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "name": "Source references resolve and labels are unique",
+      "passed": true,
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "name": "Focused manuscript is a single-column article",
+      "passed": true
+    },
+    {
+      "name": "Same-transition order sign is explicit",
+      "passed": true
+    },
+    {
+      "name": "Six control comparisons reproduce saved source numbers",
+      "passed": true
+    },
+    {
+      "name": "Control TeX table reproduces exported rounded rows",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Table-export input checksums match current sources",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Table-export code checksum matches",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122: common-pair full H0/H1 source identity and arithmetic",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122: source and selected-point hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "J232128-105122: connected delta-Q=1 crossing interpolation",
+      "passed": true,
+      "detail": [
+        -495.1777061255662,
+        -187.8808527239563
+      ]
+    },
+    {
+      "name": "J232128-105122: conditional-only interpretation remains encoded",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611: common-pair full H0/H1 source identity and arithmetic",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611: source and selected-point hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "J004131-493611: connected delta-Q=1 crossing interpolation",
+      "passed": true,
+      "detail": [
+        -264.8573310548297,
+        39.957200932369105
+      ]
+    },
+    {
+      "name": "J004131-493611: conditional-only interpretation remains encoded",
+      "passed": true
+    },
+    {
+      "name": "Common-pair final export identities match",
+      "passed": true
+    },
+    {
+      "name": "Order table reproduces eight matched native-pixel fits and additive Q",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Conditional transfer improvements match prose",
+      "passed": true,
+      "detail": {
+        "G0_minus_G1": 4.272491739451652,
+        "A1_minus_G1": 5.151403061980091
+      }
+    },
+    {
+      "name": "Common-support means, errors and native-pixel accounting recompute",
+      "passed": true,
+      "detail": {
+        "2382": [
+          -15.444946811038609,
+          21.980353432642037
+        ],
+        "2600": [
+          -58.65015258126238,
+          16.745045313236805
+        ]
+      }
+    },
+    {
+      "name": "Six age coordinates and normalized inverse-log response recompute independently",
+      "passed": true
+    },
+    {
+      "name": "Conditional p1/p2/p3 shape-distance arithmetic recomputes",
+      "passed": true,
+      "detail": {
+        "inverse_log_p1": 0.005008953922642617,
+        "inverse_log_p3": 0.00500972314647395
+      }
+    },
+    {
+      "name": "Shared-slope hypothetical magnitude recomputes",
+      "passed": true
+    },
+    {
+      "name": "Independent differential nuisances span response, with no observed amplitude fit",
+      "passed": true
+    },
+    {
+      "name": "Cross-age fixed-design source checksums match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All six screened archive targets remain in final comparison",
+      "passed": true
+    },
+    {
+      "name": "All six archive targets remain in manuscript table",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "J225719-100104: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J225719-100104: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J225719-100104: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "J053007-250329: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J053007-250329: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J053007-250329: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "J233156-090802: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J233156-090802: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J233156-090802: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "J064326-504112: final archive Q, dimension and matched-fit accounting",
+      "passed": true
+    },
+    {
+      "name": "J064326-504112: source identity, descriptor and adequacy bookkeeping",
+      "passed": true
+    },
+    {
+      "name": "J064326-504112: rounded manuscript table row matches",
+      "passed": true
+    },
+    {
+      "name": "Eight final new-archive fit artifacts match independent audit hashes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Lower unfinished J2257 endpoint and recovered comparison remain visible",
+      "passed": true
+    },
+    {
+      "name": "Archive export source identity recorded by table provenance",
+      "passed": true
+    },
+    {
+      "name": "Completed source audit: results/common_pair/review/validation.json",
+      "passed": true,
+      "detail": {
+        "scope": "Independent common-pair mathematical/source replay; no optimization or physical significance certification.",
+        "checks": 7863
+      }
+    },
+    {
+      "name": "Completed source audit: results/common_pair/review/delivery_validation.json",
+      "passed": true,
+      "detail": {
+        "scope": "Final export/schema/table/source-and-visual review only; no model evaluations, fits or full numerical-audit rerun.",
+        "checks": 126
+      }
+    },
+    {
+      "name": "Completed source audit: results/order_response/validation.json",
+      "passed": true,
+      "detail": {
+        "scope": "Independent continuous kernel, direct convolution and least-squares replay, matched model nesting, all saved native-pixel fits, source binding, conditional response transfer, centered derivatives, and refined nonlinear re-fits. Does not establish empirical LSF calibration, extraction covariance, astrophysical independence, or new physics.",
+        "checks": 7278
+      }
+    },
+    {
+      "name": "Completed source audit: results/order_response/residual_validation.json",
+      "passed": true,
+      "detail": {
+        "scope": null,
+        "checks": 14533
+      }
+    },
+    {
+      "name": "Completed source audit: results/cross_age/independent_validation.json",
+      "passed": true,
+      "detail": {
+        "scope": "Independent fixed-design mathematics and artifact audit only. No measured cosmic-time amplitude or discovery significance is inferred.",
+        "checks": 163
+      }
+    },
+    {
+      "name": "Completed source audit: results/archive_complete/validation/independent_validation.json",
+      "passed": true,
+      "detail": {
+        "scope": "Independent raw-FITS/native-pixel uniqueness, expected errors, adapter bounds/Jacobian, cgs forward profiles, fit replay, selection/gate arithmetic and quadrature. Successful numerical stop is not stationarity or physical-model certification.",
+        "checks": 6469
+      }
+    },
+    {
+      "name": "Completed source audit: results/archive_complete/validation/stationarity_independent.json",
+      "passed": true,
+      "detail": {
+        "scope": "Independent saved-array audit; no nonlinear optimization or physical adequacy certification. Failure-pair diagnostic fits are included in stationarity checks only; no local uncertainty manufactured for them.",
+        "checks": 1247
+      }
+    },
+    {
+      "name": "Calibration-readiness artifact hash and byte manifest matches",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Calibration-readiness scoped audit has no failed checks",
+      "passed": true
+    },
+    {
+      "name": "New primary-literature metadata checksums match",
+      "passed": true
+    },
+    {
+      "name": "Local links in both project READMEs, experiment README and new summary resolve",
+      "passed": true,
+      "detail": {
+        "links_checked": 148,
+        "missing": []
+      }
+    },
+    {
+      "name": "Both project READMEs link the focused manuscript",
+      "passed": true
+    },
+    {
+      "name": "Prospective interpolation independently matches fixed inverse-log-square law",
+      "passed": true
+    },
+    {
+      "name": "Brief prospective section and detailed appendix are included",
+      "passed": true
+    },
+    {
+      "name": "Main-text prospective coefficients and example match design rounding",
+      "passed": true
+    },
+    {
+      "name": "Prospective design remains hypothetical and internally checked",
+      "passed": true
+    },
+    {
+      "name": "Prospective code and atomic source identities match frozen design",
+      "passed": true
+    },
+    {
+      "name": "Final PDF preflight passes and matches delivered PDF hash",
+      "passed": true,
+      "detail": {
+        "pages": 20,
+        "sha256": "43c56476f3469df44deca214b7b42c60d53530c573858797b0af427c6eb4068d"
+      }
+    },
+    {
+      "name": "Delivered PDF matches current build PDF",
+      "passed": true
+    },
+    {
+      "name": "Final LaTeX log has no undefined references or fatal errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "BibTeX found cited entries and bibliography input",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "PDF was built after latest manuscript source modification",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "input_sha256": {
+    "paper_spectroscopy/archive_j2257.tex": "0a77ae31cc333283afd7c8c9b3d4d8d4e1c51217ca0ab2188c2ca9afc8483000",
+    "paper_spectroscopy/archive_results.tex": "c17f7de206d01e8ab2fae7dc786db3a6e895e5b6d82206325e12b950f146c482",
+    "paper_spectroscopy/archive_table.tex": "5f710b6eacc759889dad9e3190c9fd0b7d1d08b1327412cf161dd5c579778cbc",
+    "paper_spectroscopy/control_table.tex": "05ec29d370fb67edbce6cf3356eeef83f73a66a0b65eba14949b097f426f4d98",
+    "paper_spectroscopy/cross_age_results.tex": "1af84fd0e5712510b1a935592117888c2bb7c37d54ddd11ce87792e988ca7311",
+    "paper_spectroscopy/discussion.tex": "b6489d36c846649293d3324908c0cfd880e45493ba6158f1ab974c79760631d6",
+    "paper_spectroscopy/main.tex": "cf38f110d28d9e5539ea2be78e5e69b241f78c795ab72dc958659fe59b5a5b37",
+    "paper_spectroscopy/methods.tex": "369b4a148283e8b3aecca3aa3b6a2d643f72ca0e5d5f7c2c0d403a9a51456a12",
+    "paper_spectroscopy/numbers.tex": "96fd22e99698f2b5a78c888f8d405f0059d754aef002156b8ffc1c5c1b3b8cf5",
+    "paper_spectroscopy/order_results.tex": "1568fb734c644214dd3ded69effd329f1224d4bf9b5f6882f832c1c19bda19ce",
+    "paper_spectroscopy/prediction_appendix.tex": "43f9892b5cf60622969eb5083a41f69114929711de637a9575fc1c7a0e42836f",
+    "paper_spectroscopy/results.tex": "0f543dee3dcec83570701844c8c2bfcc4903f5198f361c15c6e4ce5abe15fae8",
+    "paper_spectroscopy/references.bib": "6fdfde287923432cbb569da8be91c92e7e16d81d6116501a2d8367f3c6da8656",
+    "paper_spectroscopy/table_provenance.json": "ca8adcb69b2c5b74b32d18a9834f554de910c51e3ed6a679f3c259e141555104",
+    "experiments/highz_feasibility_2026-09-20/results/espresso_null/comparison.json": "eeb2ac846d3126e65ff94adf517b2b2fa3820099b4c8537153c10161ec0d4683",
+    "experiments/highz_feasibility_2026-09-20/results/empirical_gls/comparison.json": "ed8602afb08b289a2febafb60e6a9fd3b482e8e70ba1831fafd297a75264a1ff",
+    "experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_null_cross.json": "b04fa67a24ab9bcd33770fd8ef70a8a7c5813c69b74126ab96b306179e54139a",
+    "experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_comparison.json": "778b1efe69772974687471fd7d18affd4b3109a6119bbd200209c260fb13bc8b",
+    "experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_null.json": "f50a1dc8b3e7cabe6778a04f76be1b1294c3868e6ec639a4740c93b37f7ac66e",
+    "experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_comparison.json": "3e22902cb5eab9fe38de825ca92cfedb20f81bacfa4b2633ec40c81519dac6ce",
+    "experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_null_cross.json": "6842097cc935d08142c845b4fc85a8cb39444c6951400f899230dde0dc54a053",
+    "experiments/highz_feasibility_2026-09-20/results/gas_structure/comparison.json": "71b63bebc84684df5bba7f03d8e72e14f8e753a072f140b115806120cfd3f88e",
+    "experiments/highz_feasibility_2026-09-20/results/gas_structure/merged40_null_cross.json": "e187ac9846dff62cbc501bd3a570b5bb77a44b21bddb9814b9f206089b824841",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/refined_summary.json": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/harmonized_measurements.json": "61cabdfda1a1394d1126ef27189205a1c162a6e19300309b727a697772ace947",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/J232128-105122/refined_h0_from_best_h1.json": "f46eed076f99a6b28a8de04f3f5109dc0e766aa9609fda9cd598847810ff7fae",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/J232128-105122/profile_000_grid_warm.json": "3e773d96ab0f5dc0a83b072ee7165cf7e6ebc1a4f6e49e59b74ac6e2094079ea",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/J004131-493611/refined_h0_from_best_h1.json": "473c35e57d748dbeeae130e4426b0bef4227362a7a7d01a149f00369b051b448",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/J004131-493611/refined_reverse_011.json": "3dfb31ffd0eeff52f039ff3fa11438f59dc6062375cba951a072009055898405",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/export_provenance.json": "f1dd6c53f39543747ee2c56e407b560820abb81ad2f9f3f2bc07172720039879",
+    "experiments/highz_feasibility_2026-09-20/results/order_response/model_summary.json": "aa7b1d71225b938da7695d0f88826bc968d9654f119d582fafdb7c47e5983d45",
+    "experiments/highz_feasibility_2026-09-20/results/order_response/residual_common_support_summary.json": "1865fccd62fb0de9ee1285f2bd2e033f65fa71e3fd8117f6a88527802749bd83",
+    "experiments/highz_feasibility_2026-09-20/results/cross_age/design.json": "33da248e400ccda8a694cbec6ed4e0dfb36c8101817856af343c6fce0bf7deb5",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/six_target_comparison.json": "d3336dbd519ec3089828b5a4924dcba40c8af6056146da600a5fb496b41d1a94",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J225719-100104/n30_null_recovered_cross_os21.json": "6b731c1f7e9a87d500f27f13ef4a4df02399f0c6fd68ffc9ea3e099c2974a87e",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J225719-100104/n30_shift_recovered_os21.json": "8ed73be356b2899dc2f00de5d2d2f5d82fda6a3a0f0d7f76018ddf71fd1372dc",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J053007-250329/n16_null_refined_os21.json": "21be5e0054ddfdfc7991aa5bc683a79eada9508dd0fcb374c9e52072cd942eb2",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J053007-250329/n16_shift_fromnull_os21.json": "6e8eba576c3e52d8a77bedb1839c1d5c49f57b7daf850a41e275aa4f167424e4",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J233156-090802/n26_null_refined_os21.json": "c75a19b35fdde6199296bf97dcbc95e342fde231fa6888b87d983631843d7b0b",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J233156-090802/failure_pair/fits/J233156-090802/diagnostic_H1_from_primary_os21.json": "f0ba0c57434c769d993dfa94cbb9196904e577007f6634c78cb1b18d4f7760ac",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J064326-504112/n16_null_refined_os21.json": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/J064326-504112/failure_pair/J064326-504112/failure_n16_shift_from_primary_os21.json": "fa1431375f8d87fbd844b2f8c5027774d24bf79b4c61085c5c4fc432f6e663a9",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/validation/stationarity_independent.json": "d036c7033954f8b6262e3344803aacf53ce042f166b1b0cd1afe3ea344645f2f",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/validation/per_count_selection_audit.json": "cd1acb56ea59b7dec61817ecf0fd8548e6ffac97dec746364934897a902a70da",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/review/validation.json": "a19ffff6757246cbcf61ea90aaa55ad5c97f65518eddcb910f543c13d3cb6dee",
+    "experiments/highz_feasibility_2026-09-20/results/common_pair/review/delivery_validation.json": "6042180651673d7c6aa666df1e6ad1bd72d8cf5c3e31c0b82b2721cdbf703099",
+    "experiments/highz_feasibility_2026-09-20/results/order_response/validation.json": "d48642b0809c8cbad2d2f00084d536661d6811a92fcb14265d5a8af5d07edc9f",
+    "experiments/highz_feasibility_2026-09-20/results/order_response/residual_validation.json": "dd2d5787fe77644ae81c0e07b2c42fefdb9427fa987eafc1604023362d4e1407",
+    "experiments/highz_feasibility_2026-09-20/results/cross_age/independent_validation.json": "25da2ec5a29df912e6de4b9bcdece352eb57c49880fc44b8d28c843f7c4d5e9a",
+    "experiments/highz_feasibility_2026-09-20/results/archive_complete/validation/independent_validation.json": "408441455a2b756b6c0977234ea485fd5bb9145f93c329908216e70ba9373a14",
+    "experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/source_hash_manifest.json": "d04e7929288b85a5e1c5792b0ec1e5e8f6d28f6674d75f3dffbe6e880d104433",
+    "experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/validation.json": "1ed36e72b13e0b7dd177c983d63e5428540d670a2b3b94f5eaacfe85c8983ee5",
+    "data/raw/spectroscopy_literature/manifest.json": "88db32bade69669601b9dfc789fc90c42e6e182277504e042173a4a131c1752b",
+    "readme.md": "6d339b8186119eb3c77c56d760d7595b82b4548c933b8f6304b02a41281bded8",
+    "readme_cn.md": "7b07b651e56bc474374d37328a58467f3eded99b2d6a891fcbd3f2b949f04fe3",
+    "experiments/highz_feasibility_2026-09-20/readme.md": "2d9669b8dc65faa4ff816126b05692865b128a79a6e8d388e6f8d676d66c466b",
+    "experiments/highz_feasibility_2026-09-20/reports/publication_followup_results_cn.md": "fdb745502628623ed1f7af6aa66bb67c4d5e04a41123ae819e307ff385129649",
+    "experiments/prediction_test_2026-09-21/results/design.json": "e9a465af25e9e3a960799b2433f0f4700eacbd75cd564d4b3811b223aee11a37",
+    "experiments/prediction_test_2026-09-21/figures/prediction_design.pdf": "8d8b46c93b445eb94e2481d80c9b057edf7535d3456bd171245744a04ca5f1d4",
+    "experiments/prediction_test_2026-09-21/reports/source_manifest.json": "87df26c6abb82de6afd11ae3945de96cc4449a739731e567003a6fe146f15dc6",
+    "experiments/prediction_test_2026-09-21/reports/instrument_feasibility_cn.md": "331aee6b208efa03828ffe319008228feb672aed5bf21369390f5f6acf7eb617",
+    "experiments/prediction_test_2026-09-21/reports/prediction_logic_review.md": "ad90ccd4c2165566ded1f6b5d57b5673b45406a2900624b660f1d12c6f864493",
+    "experiments/prediction_test_2026-09-21/prediction_protocol_cn.md": "ce52d216df371ff962e0e6d6b426d3ddd78432031efaba12bcc296bea39de6b3",
+    "reports/spectroscopy_pdf_preflight.json": "c48a1efc80508f54c2808446b8b88cea7d57645cbae4e64913e51a98736221da",
+    "build_spectroscopy/main.log": "19dc2e70c3caec30f430d3ada88ad08db7b346c153385b939df2576681d2039f",
+    "build_spectroscopy/main.blg": "e1cfc26ad983d4b36bd36b29614e5c44d88ad512f9a942ad714d43ffaec1236d"
+  },
+  "validator_sha256": "d5b4b502e03962360a0b2a8b7dd23a668ee49f6e7108639373b160fe3dc9879b"
+}

@@ -1,0 +1,153 @@
+{
+  "frozen_utc": "2026-09-20T17:29:28.943309+00:00",
+  "rationale": "User requested all presently feasible archive analyses. Extend downloaded quality audit to every absorber passing original metadata criteria, before any line-offset measurement; preserve initial top5 and secondarytop3 selection history.",
+  "n_absorbers": 36,
+  "n_unique_sightlines": 32,
+  "source_screen_sha256": "9cb2b452c219ad538a918b7bf938cefd0e6f13b1927141edf0ebc100881dd802",
+  "absorbers": [
+    {
+      "target": "J000815-095854",
+      "z_abs": 1.768
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248
+    },
+    {
+      "target": "J010311+131617",
+      "z_abs": 2.309
+    },
+    {
+      "target": "J010516-184642",
+      "z_abs": 2.37
+    },
+    {
+      "target": "J012517-001828",
+      "z_abs": 1.761
+    },
+    {
+      "target": "J021857+081727",
+      "z_abs": 2.293
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.551
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.595
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.621
+    },
+    {
+      "target": "J041656-284340",
+      "z_abs": 1.719
+    },
+    {
+      "target": "J044017-433308",
+      "z_abs": 2.347
+    },
+    {
+      "target": "J044534-354704",
+      "z_abs": 2.408
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 1.864
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 2.375
+    },
+    {
+      "target": "J091613+070224",
+      "z_abs": 2.618
+    },
+    {
+      "target": "J115122+020426",
+      "z_abs": 1.969
+    },
+    {
+      "target": "J115411+063427",
+      "z_abs": 1.775
+    },
+    {
+      "target": "J115538+053050",
+      "z_abs": 2.608
+    },
+    {
+      "target": "J115944+011206",
+      "z_abs": 1.944
+    },
+    {
+      "target": "J120550+020131",
+      "z_abs": 1.747
+    },
+    {
+      "target": "J124924-023339",
+      "z_abs": 1.781
+    },
+    {
+      "target": "J133335+164903",
+      "z_abs": 1.776
+    },
+    {
+      "target": "J141217+091624",
+      "z_abs": 2.019
+    },
+    {
+      "target": "J214159-441325",
+      "z_abs": 2.383
+    },
+    {
+      "target": "J220852-194359",
+      "z_abs": 2.076
+    },
+    {
+      "target": "J224708-601545",
+      "z_abs": 2.331
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143
+    },
+    {
+      "target": "J234512-433814",
+      "z_abs": 2.612
+    },
+    {
+      "target": "J234628+124858",
+      "z_abs": 2.431
+    },
+    {
+      "target": "J235057-005209",
+      "z_abs": 2.426
+    },
+    {
+      "target": "J235057-005209",
+      "z_abs": 2.615
+    },
+    {
+      "target": "J235129-142756",
+      "z_abs": 2.279
+    }
+  ]
+}

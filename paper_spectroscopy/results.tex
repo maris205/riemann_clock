@@ -1,0 +1,56 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{The reference spectrum and the meaning of a free-shift improvement}
+
+In the six-transition ESPRESSO reference fit, the restricted conventional model has 147 parameters and the alternative has 152. Both use the same 2931 retained pixels. The selected diagonal-error endpoints give $Q_0=2305.49$ and $Q_1=2253.78$, an improvement of $51.71$ for five relative shifts. The 2382 and 2600 shifts are approximately $-118$ and $-109\,\mathrm{m\,s^{-1}}$ relative to 2374. Figure~\ref{fig:reference_profiles} shows the actual profiles and residuals. Several nuisance parameters lie near their bounds, and different starts find different local solutions. The improvement therefore establishes a conditional preference within this particular comparison; it is not assigned a discovery significance or interpreted as a measurement of $\Delta\alpha/\alpha$.
+
+The alternative supplied expected-fluctuation error array increases the diagonal-error improvement to $67.92$, with $Q_0=2801.71$ and $Q_1=2733.79$. Thus the recorded controls do not uniformly weaken the preference. This noise-amplitude change is distinct from the continuum-derived correlation-shape test below. The complete saved control grid includes both stronger and weaker conditional improvements.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.94\textwidth,height=.68\textheight,keepaspectratio]{espresso_conventional_null.pdf}
+\caption{The six observed Fe\,II transitions in the reference ESPRESSO interval, with shared-gas fits and standardized residuals. The conventional and free-relative-shift models have the same gas and continuum freedoms. A better fit after adding shifts is a diagnostic of the specified model, not an identification of the physical origin of the discrepancy.}
+\label{fig:reference_profiles}
+\end{figure}
+
+\subsection{Correlated noise, core exclusions and retained information}
+
+Twenty-five non-overlapping continuum intervals contain 13,750 pixels. After local continuum removal, their lag-one correlation is $0.3726$. We use the measured correlation shape with a finite taper, retaining the supplied error amplitude. This is a covariance model transferred from continuum diagnostics, not a measured full covariance for the absorption spectrum. The generalized least-squares comparison reduces the five-shift improvement to $29.24$. The nonlinear fit re-optimizes gas and continuum parameters under the changed weights; it is not a rescaling of the diagonal-error result.
+
+The joint controls apply the frozen strong-line exclusions and the same tapered correlation model simultaneously. The milder mask leaves 2692 pixels and gives an improvement of $23.69$; the padded wider mask leaves 2473 pixels and gives $6.70$. Table~\ref{tab:control_comparisons} lists within-row comparisons. The relevant hypotheses use identical pixels and covariance within each row, whereas objective differences across rows do not have a common likelihood-ratio interpretation.
+
+\begin{table}[htbp]
+\centering
+\caption{Conditional reference-spectrum comparisons. $k_0$ counts conventional-model parameters; each alternative adds five shifts. GLS retains the supplied variance amplitude. All rows describe selected bounded local endpoints, with no global-optimum certification.}
+\label{tab:control_comparisons}
+\small
+\input{control_table.tex}
+\end{table}
+
+Masking changes both model sensitivity and the available information. At the same fixed diagonal-noise conventional endpoint, we project the five shift derivatives against the gas and continuum derivatives under each GLS selection. For the specified direction in which 2382 and 2600 each move by $100\,\mathrm{m\,s^{-1}}$ and the other three shifts remain zero, the milder and wider masks retain $70.5\%$ and $16.0\%$ of the unmasked local information (Fig.~\ref{fig:core_information}). The direction was chosen to illustrate the previously observed strong-line pattern; it is not a prediction independent of these data. The calculation uses an unconstrained tangent space despite active parameter bounds. It follows that a smaller improvement after core removal cannot by itself establish that saturation caused the original shifts. Conversely, this calculation does not establish that information loss accounts for the full reduction.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.98\textwidth]{joint_controls_information.pdf}
+\caption{Actual nonlinear objective improvements (left) and a separate local sensitivity calculation (right). The latter describes one specified coherent strong-line direction after projection over common nuisance parameters, not the marginal information for five free shifts. Diagonal and GLS fits within each mask are actual re-fits; different masks retain different information.}
+\label{fig:core_information}
+\end{figure}
+
+\subsection{Gas architecture and optimization dependence}
+
+The fixed merging rule yields 40 components from the 45 published starting components. On the full set of 2931 pixels, the 132-parameter conventional GLS model gives $Q_0=2255.16$ and the 137-parameter alternative gives $Q_1=2236.29$, an improvement of $18.87$. The 2382 and 2600 shifts become approximately $-89$ and $-80\,\mathrm{m\,s^{-1}}$, each changing by about $22\,\mathrm{m\,s^{-1}}$ from the 45-component GLS values. Two alternative-model starts terminate at objectives differing by $12.95$. Thus architecture and initialization affect the result even though this particular reduced architecture does not remove the conditional shift preference. Because the merged starting centres also define the shifted parameter-bound centres, this is an architecture-and-bounds sensitivity test, not a nested determination of the correct number of gas clouds.
+
+The independent UVES photons from the same absorber provide an additional, explicitly limited check. Three Fe\,II lines contain 511 usable pixels. Using the recommended expected-fluctuation errors, we continue fits with Gaussian-width scales bounded by $[0.65,1.25]$ and $[0.5,1.4]$ times the catalogue value. Four 1800-evaluation continuations and one 400-evaluation conventional cross-start all reach their evaluation caps and fail the specified first-order stationarity criteria. The lowest saved conventional parameter vector is feasible in both domains. Relative to that vector, the finite objective reductions are $9.75$ and $10.08$ for two shifts; widening the instrumental-width bounds changes the strong-line offsets by only $4$--$5\,\mathrm{m\,s^{-1}}$. These nonstationary endpoint differences receive no calibrated significance. The archived product records wavelength shift and slope corrections, whose equivalence to a dedicated precision-analysis product has not been established. Independent photons therefore do not supply an independent model or a completed physical confirmation.
+
+\subsection{Native-exposure and same-transition order tests}
+\label{sec:order_results}
+\input{order_results.tex}
+
+\subsection{The complete screened absorber sample}
+\label{sec:archive_results}
+\input{archive_results.tex}
+
+\section{Identifiability of a cross-age interpretation}
+\label{sec:identifiability}
+\input{cross_age_results.tex}

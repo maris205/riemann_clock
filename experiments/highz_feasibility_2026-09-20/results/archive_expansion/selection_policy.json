@@ -1,0 +1,53 @@
+{
+  "frozen_utc": "2026-09-20T17:23:55.544056+00:00",
+  "version": 1,
+  "frozen_before_downloading_additional_spectra": true,
+  "half_window_km_s": 250.0,
+  "metadata_CNR_per_2p5_km_s_min": 20.0,
+  "minimum_strong_lines_f_ge_0p01": 3,
+  "quasar_proximity_km_s": 3000.0,
+  "red_of_quasar_Lyalpha_km_s": 3000.0,
+  "observed_wavelength_range_AA": [
+    4000.0,
+    9000.0
+  ],
+  "conservative_telluric_exclusion_AA": [
+    [
+      6270.0,
+      6330.0
+    ],
+    [
+      6860.0,
+      6960.0
+    ],
+    [
+      7160.0,
+      7340.0
+    ],
+    [
+      7580.0,
+      7700.0
+    ],
+    [
+      8100.0,
+      8400.0
+    ],
+    [
+      8900.0,
+      10000.0
+    ]
+  ],
+  "telluric_note": "Conservative analyst-defined bands, not a measured transmission mask. Passing does not prove freedom from weak tellurics, sky or unrelated absorption.",
+  "previous_targets_excluded": [
+    "J051707-441055",
+    "J034943-381030"
+  ],
+  "rank": "third-highest proxy CNR among eligible strong lines, then count; descending. Top 5 distinct sightlines; retain all rejection reasons.",
+  "actual_pixel_screen": {
+    "minimum_valid_fraction": 0.98,
+    "minimum_median_inverse_error_per_native_pixel": 15.0,
+    "minimum_absorption_equivalent_width_significance_diagonal": 5.0,
+    "minimum_strong_detected_lines": 3
+  },
+  "profile_diagnostics": "Full fixed +/-250 km/s windows, then predeclared +/-100 km/s core diagnostic. No relative-velocity based rejection; no sub-km/s or cosmic-time inference from moment centroids."
+}

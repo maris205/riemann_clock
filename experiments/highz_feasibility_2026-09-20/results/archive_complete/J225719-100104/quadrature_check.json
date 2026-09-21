@@ -1,0 +1,21 @@
+{
+  "comparisons": [
+    {
+      "name": "n30_null_recovered_cross_os21",
+      "chi2_at_fixed_parameters": {
+        "21": 421.24821511850905,
+        "55": 421.2482288675134
+      },
+      "delta_55_minus_21": 1.374900432438153e-05
+    },
+    {
+      "name": "n30_shift_recovered_os21",
+      "chi2_at_fixed_parameters": {
+        "21": 407.71691680209335,
+        "55": 407.71693070923766
+      },
+      "delta_55_minus_21": 1.3907144307268027e-05
+    }
+  ],
+  "interpretation": "Fixed-parameter integration check, not reoptimization."
+}

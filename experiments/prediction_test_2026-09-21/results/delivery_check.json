@@ -1,0 +1,85 @@
+{
+  "scope": "Design artifact integrity and link checks; no science detection or public registration",
+  "all_links_valid": true,
+  "links": [
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "../highz_feasibility_2026-09-20/reports/atomic_response_audit.md",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "figures/prediction_design.png",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "reports/instrument_feasibility_cn.md",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "reports/source_manifest.json",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "reports/prediction_logic_review.md",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "results/design.json",
+      "exists": true
+    },
+    {
+      "source": "prediction_protocol_cn.md",
+      "target": "figures/prediction_design.pdf",
+      "exists": true
+    },
+    {
+      "source": "readme.md",
+      "target": "prediction_protocol_cn.md",
+      "exists": true
+    },
+    {
+      "source": "readme.md",
+      "target": "reports/instrument_feasibility_cn.md",
+      "exists": true
+    },
+    {
+      "source": "readme.md",
+      "target": "reports/prediction_logic_review.md",
+      "exists": true
+    },
+    {
+      "source": "readme.md",
+      "target": "results/design.json",
+      "exists": true
+    },
+    {
+      "source": "readme.md",
+      "target": "figures/prediction_design.pdf",
+      "exists": true
+    },
+    {
+      "source": "reports/instrument_feasibility_cn.md",
+      "target": "source_manifest.json",
+      "exists": true
+    }
+  ],
+  "numerical_internal_checks": 14,
+  "plot_visually_reviewed": true,
+  "source_sha256": {
+    "prediction_protocol_cn.md": "ce52d216df371ff962e0e6d6b426d3ddd78432031efaba12bcc296bea39de6b3",
+    "readme.md": "b0c5bc6250f7c0e3cfb5a6b12bc75d835bb6f6f84905d3e5a889be7a2da0c374",
+    "code/prediction_design.py": "eb329657210a4e98a4b2d1c0356a4556b1dabf6c98d59be3655395090c726ce2",
+    "results/design.json": "e9a465af25e9e3a960799b2433f0f4700eacbd75cd564d4b3811b223aee11a37",
+    "figures/prediction_design.png": "f0b778220e89af3f77278700fded935e193adbf672197d75a4802fe6ff27f9b6",
+    "figures/prediction_design.pdf": "8d8b46c93b445eb94e2481d80c9b057edf7535d3456bd171245744a04ca5f1d4",
+    "reports/instrument_feasibility_cn.md": "331aee6b208efa03828ffe319008228feb672aed5bf21369390f5f6acf7eb617",
+    "reports/prediction_logic_review.md": "ad90ccd4c2165566ded1f6b5d57b5673b45406a2900624b660f1d12c6f864493",
+    "reports/source_manifest.json": "87df26c6abb82de6afd11ae3945de96cc4449a739731e567003a6fe146f15dc6"
+  },
+  "final_review_clarifications_applied": true
+}

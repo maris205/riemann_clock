@@ -1,0 +1,55 @@
+{
+  "target": "J232128-105122",
+  "configuration": {
+    "z": 1.629,
+    "lines": [
+      2260,
+      2344,
+      2374,
+      2382,
+      2586
+    ],
+    "window": [
+      -30.0,
+      35.0
+    ],
+    "component_bounds": [
+      -20.0,
+      30.0
+    ],
+    "centers": [
+      2.0,
+      7.0,
+      12.0,
+      17.0,
+      22.0,
+      27.0
+    ],
+    "logtotal": 14.3
+  },
+  "selection": "Minimum exploratory diagonal-error null AICc among n=1,2,3,4,6; higher quadrature refinement; not a blinded model-selection protocol.",
+  "ncomp": 3,
+  "null": "J232128-105122_n3_null_s1_os33",
+  "alternative": "J232128-105122_n3_shift_s1_os33",
+  "chi2_null": 80.59285379437945,
+  "chi2_alternative": 73.74856538299974,
+  "delta_chi2": 6.844288411379708,
+  "ndata": 130,
+  "nominal_ndf_null": 101,
+  "extra_shifts": 4,
+  "shifts_m_s": {
+    "2260": 624.111057216466,
+    "2344": -154.6782638936463,
+    "2382": -348.9964524430412,
+    "2586": -95.97441794108585
+  },
+  "null_active_bounds": [
+    "zero_2260",
+    "zero_2374"
+  ],
+  "alternative_active_bounds": [
+    "zero_2260",
+    "zero_2374"
+  ],
+  "both_success": true
+}

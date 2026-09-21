@@ -1,0 +1,80 @@
+alternative: ndata=2931 npar=152 initial chi2=2307.211087
+alternative: evaluation 25, chi2=2254.4367631
+{
+  "name": "alternative",
+  "free_shifts": true,
+  "configuration": {
+    "rho": 0.0,
+    "fwhm_scale": 1.0,
+    "error_row": 1,
+    "oversample": 9,
+    "exclude": [],
+    "continuum": true,
+    "strength_nuisance": false,
+    "zero_nuisance": false
+  },
+  "ndata": 2931,
+  "npar": 152,
+  "nominal_ndf": 2779,
+  "chi2": 2254.2596428093434,
+  "chi2_per_nominal_ndf": 0.8111765537277235,
+  "nominal_chi2_survival": 0.9999999999999744,
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 34,
+  "optimality": 4.680178070962068,
+  "seconds": 52.217918157577515,
+  "jacobian_rank": 151,
+  "active_bounds": [
+    "v_5",
+    "v_17",
+    "logb_36",
+    "continuum0_2382"
+  ],
+  "shifts_km_s": {
+    "2260": 0.09522359870123187,
+    "2344": -0.046671174446491756,
+    "2382": -0.11372509471725932,
+    "2586": -0.010206768164134147,
+    "2600": -0.10364496739002882
+  },
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 180.56713001794836,
+      "chi2_per_pixel": 0.6518668953716548
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 379.64287793411023,
+      "chi2_per_pixel": 0.8828904138002563
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 380.95951023405274,
+      "chi2_per_pixel": 0.7499202957363243
+    },
+    {
+      "line": 2382,
+      "ndata": 579,
+      "chi2": 459.9365969087447,
+      "chi2_per_pixel": 0.7943637252309926
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 381.4376067652688,
+      "chi2_per_pixel": 0.6811385835094086
+    },
+    {
+      "line": 2600,
+      "ndata": 577,
+      "chi2": 471.7159209492185,
+      "chi2_per_pixel": 0.8175319253885936
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}

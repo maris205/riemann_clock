@@ -1,0 +1,548 @@
+{
+  "requests": [
+    {
+      "file": "eso_pipeline_3_6_0.html",
+      "url": "https://www.eso.org/sci/software/pipelines/espresso/espresso-pipe-recipes.html",
+      "retrieved_utc": "2026-09-21T03:47:46.786994+00:00",
+      "status": 200,
+      "bytes": 41283,
+      "sha256": "971a67a2330281125587efd7b758a8a9f802c05c28a356f76de26b245c77e886",
+      "final_url": "https://www.eso.org/sci/software/pipelines/espresso/espresso-pipe-recipes.html"
+    },
+    {
+      "file": "eso_pipeline_manual_3_6_0.pdf",
+      "url": "https://ftp.eso.org/pub/dfs/pipelines/instruments/espresso/espdr-pipeline-manual-3.6.0.pdf",
+      "retrieved_utc": "2026-09-21T03:47:46.788031+00:00",
+      "status": 200,
+      "bytes": 8279086,
+      "sha256": "2302e3cbb35930a917053513160670ce9e38b295b0c8805bfa6b1f3178d14410",
+      "final_url": "https://ftp.eso.org/pub/dfs/pipelines/instruments/espresso/espdr-pipeline-manual-3.6.0.pdf"
+    },
+    {
+      "file": "eso_tree_20181104_raw2master.xml",
+      "url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Master",
+      "retrieved_utc": "2026-09-21T03:47:46.790100+00:00",
+      "status": 200,
+      "bytes": 7802,
+      "sha256": "6215677e17d93ecec6661d22cd0e0ede562899633119e0d026c3fb7be3c57ad9",
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Master"
+    },
+    {
+      "file": "eso_tree_20200228_raw2master.xml",
+      "url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Master",
+      "retrieved_utc": "2026-09-21T03:47:46.791893+00:00",
+      "status": 200,
+      "bytes": 7802,
+      "sha256": "2d4d2f0922d509c8e2a39573ce86888142c08c42867b033ebf5e690a1bd0f8bb",
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Master"
+    },
+    {
+      "file": "eso_tree_20181104_raw2raw.xml",
+      "url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Raw",
+      "retrieved_utc": "2026-09-21T03:47:46.793966+00:00",
+      "status": 200,
+      "bytes": 1441668,
+      "sha256": "9f04ed0d7578777e2ac0a3c338fcf047959a2d898ff72c3a7d8aa59cd3f40596",
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Raw"
+    },
+    {
+      "file": "eso_tree_20200228_raw2raw.xml",
+      "url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Raw",
+      "retrieved_utc": "2026-09-21T03:47:50.808826+00:00",
+      "status": 200,
+      "bytes": 1441665,
+      "sha256": "744deee3434f7b67f6365870639d2d88bf3529a48ef869620d39e91f96647ec3",
+      "final_url": "https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2020-02-28T01:14:22.246&mode=Raw2Raw"
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-03T10_00_29.171.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:00:29.171",
+      "retrieved_utc": "2026-09-21T03:47:59.231229+00:00",
+      "status": 200,
+      "bytes": 64776,
+      "sha256": "8da738a0150a76d5bd188889e07aaa42bd0aafd2acb49402f29f72f357141ca5",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:00:29.171",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-03T10_02_16.682.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:02:16.682",
+      "retrieved_utc": "2026-09-21T03:47:59.277337+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "307c993330b269c2b9cd59b9acd4ee266b86b51495ce989778c8e1708ba246bb",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:02:16.682",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-03T10_55_54.031.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:55:54.031",
+      "retrieved_utc": "2026-09-21T03:48:07.100794+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "61660e56a0c2bd9f14f5f723537602e27f0a9abf69e6dfcf680ed9483f8c53eb",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:55:54.031",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-03T10_58_00.121.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:58:00.121",
+      "retrieved_utc": "2026-09-21T03:48:12.542970+00:00",
+      "status": 200,
+      "bytes": 64778,
+      "sha256": "9f11d12964959278a383ff30bf8263ce8631c15a91ec82e45feb0b9ba9e78f79",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-03T10:58:00.121",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-04T10_05_57.309.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T10:05:57.309",
+      "retrieved_utc": "2026-09-21T03:48:12.575893+00:00",
+      "status": 200,
+      "bytes": 64775,
+      "sha256": "7936d3d2ef60b65cdc47c0627afd086c7b6cbde13ad6be22f256be35a35cb6c3",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T10:05:57.309",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-04T10_07_44.772.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T10:07:44.772",
+      "retrieved_utc": "2026-09-21T03:48:13.173999+00:00",
+      "status": 200,
+      "bytes": 64775,
+      "sha256": "4cb7a2e637519cb4bd1e401ad0e377a61c864e194237136b11bfbeae20050b3c",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T10:07:44.772",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-04T11_03_18.276.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T11:03:18.276",
+      "retrieved_utc": "2026-09-21T03:48:19.852068+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "adc4ca44e36fa3c2c26d98b0515448cbe002bdcb7bf75e1b3a3d919bf0cbd62b",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T11:03:18.276",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-04T11_05_24.377.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T11:05:24.377",
+      "retrieved_utc": "2026-09-21T03:48:21.577940+00:00",
+      "status": 200,
+      "bytes": 64778,
+      "sha256": "736dea1464432ab4013810dc773de7579923fb267b28caa674fe53c85bbb2409",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-04T11:05:24.377",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-05T10_03_22.561.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:03:22.561",
+      "retrieved_utc": "2026-09-21T03:48:25.536910+00:00",
+      "status": 200,
+      "bytes": 64776,
+      "sha256": "0d29bc53084e9c3e01ac9b7047a8cd3bf5b76b3f2c97437b2d081f15c78b780d",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:03:22.561",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-05T10_05_10.024.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:05:10.024",
+      "retrieved_utc": "2026-09-21T03:48:25.876614+00:00",
+      "status": 200,
+      "bytes": 64776,
+      "sha256": "8bcddf96b6b08e5edd81018eae137bbd26e0fb08099f1c56a4038da0d899358b",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:05:10.024",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-05T10_58_52.643.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:58:52.643",
+      "retrieved_utc": "2026-09-21T03:48:26.726481+00:00",
+      "status": 200,
+      "bytes": 64776,
+      "sha256": "208690162c6eb4fe336e25a69a673f1e53386773551ff556ecc55d28576d899f",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T10:58:52.643",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-05T11_00_59.070.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T11:00:59.070",
+      "retrieved_utc": "2026-09-21T03:48:34.973772+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "2171d43a3aa156f10a2cd1dc91eef5e3ef6b23bb8d841986ec802c4e8cf9e70b",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-05T11:00:59.070",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-06T10_12_28.137.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T10:12:28.137",
+      "retrieved_utc": "2026-09-21T03:48:35.327642+00:00",
+      "status": 200,
+      "bytes": 64775,
+      "sha256": "6c76aeb6e6de25fb18baaf46f69a357955be7be890bb723e6c6a89db47a669a6",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T10:12:28.137",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-06T10_14_15.583.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T10:14:15.583",
+      "retrieved_utc": "2026-09-21T03:48:35.387805+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "80bbe596b0bbc020ddf54bdcf9352e1fc012878b9d492a1f0c2827321872b3bc",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T10:14:15.583",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-06T11_08_04.895.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T11:08:04.895",
+      "retrieved_utc": "2026-09-21T03:48:35.555749+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "9d725ad9bb98cf5bcf326a84d106c797ffaef16afcb8e0532a3fc2c532fd5eb5",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T11:08:04.895",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2018-11-06T11_10_13.124.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T11:10:13.124",
+      "retrieved_utc": "2026-09-21T03:48:36.032737+00:00",
+      "status": 200,
+      "bytes": 64777,
+      "sha256": "d8005fc073f6dd074e8731b21b8e72064cb587b9dcd839fee6361e9dae6830c9",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2018-11-06T11:10:13.124",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2019-11-25T14_04_47.368.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:04:47.368",
+      "retrieved_utc": "2026-09-21T03:48:39.205036+00:00",
+      "status": 200,
+      "bytes": 64240,
+      "sha256": "7b9fbc8d44e503a8615064fb1666f92efa080d4e1cff1e669b322093f2bf2aea",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:04:47.368",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2019-11-25T14_09_58.138.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:09:58.138",
+      "retrieved_utc": "2026-09-21T03:48:39.216989+00:00",
+      "status": 200,
+      "bytes": 64242,
+      "sha256": "f730510fe12a68932bb2c16abbad885c4f25698d4a2d1cc4ddb18a122298cc05",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:09:58.138",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2019-11-25T14_12_51.493.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:12:51.493",
+      "retrieved_utc": "2026-09-21T03:48:39.271360+00:00",
+      "status": 200,
+      "bytes": 64243,
+      "sha256": "a00069000e4438a13e26c6d203d6586d8151d814bac81c8b6fff31da001f1594",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:12:51.493",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2019-11-25T14_17_28.751.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:17:28.751",
+      "retrieved_utc": "2026-09-21T03:48:39.580377+00:00",
+      "status": 200,
+      "bytes": 64243,
+      "sha256": "6f716245afa7a9713ad3e33a70e3b868f9182fa9c8d1aaca7ce3f179b404263c",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2019-11-25T14:17:28.751",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T12_23_35.611.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:23:35.611",
+      "retrieved_utc": "2026-09-21T03:48:41.071520+00:00",
+      "status": 200,
+      "bytes": 64773,
+      "sha256": "2dc6827400243cf86b4f88e7f85773d316466166dd0fe6491aea5f70bd663d86",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:23:35.611",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T12_26_10.991.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:26:10.991",
+      "retrieved_utc": "2026-09-21T03:48:42.429696+00:00",
+      "status": 200,
+      "bytes": 64774,
+      "sha256": "cf2a313cc61f20e3c35a3548f7961c805f1648ca74703a69c6b4077e30618396",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:26:10.991",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T12_29_36.495.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:29:36.495",
+      "retrieved_utc": "2026-09-21T03:48:42.808669+00:00",
+      "status": 200,
+      "bytes": 64775,
+      "sha256": "79ca6ebd5c634951c28a3d7e35cda01979e3779906bd4a56eb46779bd535a3b9",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T12:29:36.495",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T14_08_38.487.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:08:38.487",
+      "retrieved_utc": "2026-09-21T03:48:43.477653+00:00",
+      "status": 200,
+      "bytes": 64473,
+      "sha256": "a5df8821691c8dce78da81b61202fe947c097a69185237f0f4eb4bafdc1bd44e",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:08:38.487",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T14_10_44.050.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:10:44.050",
+      "retrieved_utc": "2026-09-21T03:48:44.648078+00:00",
+      "status": 200,
+      "bytes": 64236,
+      "sha256": "02de9dc1e9c55ddfdb5887a09a9ee80e3716a6e20085fd77d133d2f278f13328",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:10:44.050",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T14_21_23.803.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:21:23.803",
+      "retrieved_utc": "2026-09-21T03:48:45.132977+00:00",
+      "status": 200,
+      "bytes": 64239,
+      "sha256": "b1f44e52aabd825966e59bb99f2c2f351000dcf4f3e15b693528aa0749f80067",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:21:23.803",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-27T14_24_30.248.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:24:30.248",
+      "retrieved_utc": "2026-09-21T03:48:47.342621+00:00",
+      "status": 200,
+      "bytes": 64238,
+      "sha256": "8eac355a8f4dc15e9df64b564f0c3eea7a91ab17811acec8624d604c6cc43594",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-27T14:24:30.248",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-28T10_59_40.256.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T10:59:40.256",
+      "retrieved_utc": "2026-09-21T03:48:47.483958+00:00",
+      "status": 200,
+      "bytes": 64772,
+      "sha256": "458473f1e456014699030027f99c23a741f2bc71521d2c6695d5c5624de3abb3",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T10:59:40.256",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-28T11_01_53.397.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:01:53.397",
+      "retrieved_utc": "2026-09-21T03:48:49.549941+00:00",
+      "status": 200,
+      "bytes": 64773,
+      "sha256": "c4cf7fc6a4921ffd3e69774d980c85827e9882d8b92a35b795c35ab32deb736c",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:01:53.397",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-28T11_05_28.563.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:05:28.563",
+      "retrieved_utc": "2026-09-21T03:48:49.598266+00:00",
+      "status": 200,
+      "bytes": 64774,
+      "sha256": "e13ecf21e35b6b05197a1bce5838528724b46cf2076168924ce4dcd7cef06d86",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:05:28.563",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-28T11_11_15.816.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:11:15.816",
+      "retrieved_utc": "2026-09-21T03:48:49.809564+00:00",
+      "status": 200,
+      "bytes": 64475,
+      "sha256": "33016c344d05d71bd9b76d61ff25815bbacfa122518a3821c5663b51d6b9bf31",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-28T11:11:15.816",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-29T11_45_55.456.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T11:45:55.456",
+      "retrieved_utc": "2026-09-21T03:48:50.478723+00:00",
+      "status": 200,
+      "bytes": 64780,
+      "sha256": "a6b56bf9f5f56fdae706e28179fe6696a1a8c8ba41c0144366e76f19657c7a03",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T11:45:55.456",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-29T11_50_24.931.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T11:50:24.931",
+      "retrieved_utc": "2026-09-21T03:48:50.940354+00:00",
+      "status": 200,
+      "bytes": 64780,
+      "sha256": "86b1ee6f20deb6f883884922360962ccc712857d839d8dcdda4c5f40692fcb36",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T11:50:24.931",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "2 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-29T12_27_43.978.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T12:27:43.978",
+      "retrieved_utc": "2026-09-21T03:48:53.074884+00:00",
+      "status": 200,
+      "bytes": 64242,
+      "sha256": "d3a733da24f416a74a5289fbf8718343764cb13cd20ed1684fae1e06ec437601",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T12:27:43.978",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    },
+    {
+      "file": "eso_header_ESPRE.2020-02-29T12_51_03.082.html",
+      "url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T12:51:03.082",
+      "retrieved_utc": "2026-09-21T03:48:53.120355+00:00",
+      "status": 200,
+      "bytes": 64243,
+      "sha256": "b4cda58f5a4c11be88b0f9e158184fae092d2353638f6bebf8d6bc77dc9ec19f",
+      "final_url": "https://archive.eso.org/hdr?DpId=ESPRE.2020-02-29T12:51:03.082",
+      "matched_header_cards": {
+        "HIERARCH ESO DET BINX": "1 / Setup binning factor along X",
+        "HIERARCH ESO DET BINY": "1 / Setup binning factor along Y",
+        "HIERARCH ESO INS MODE": "'SINGLEHR' / Instrument mode used."
+      }
+    }
+  ]
+}

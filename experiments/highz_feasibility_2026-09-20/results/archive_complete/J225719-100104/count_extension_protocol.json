@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-09-21T03:58:38.973779+00:00",
+  "rationale": "Original null AICc falls continuously through22components (bestH0chi683.75/426), beforeanyshiftfit. Extend once to26/30 to check finite conventional-gas underfitting; stop at30 regardless outcome.",
+  "counts": [
+    26,
+    30
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "initial_max_nfev": 350,
+  "unchanged_configuration_sha256": "8b368e376086c3148ca1b32b095162a47532d54b17154031896572467ee6d4aa",
+  "original_null_summary_sha256": "be2ecf5da2d2b857f55c7b704467a244fe9224c43e9d2f2ac1e1802b7a637b20",
+  "selection": "Compare null AICc only; do not select by any relative displacement or alternative gain."
+}

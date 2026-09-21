@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "Cosmic-Chaos-Alpha/riemann_zeros_revision_2026-09-20/data/raw/he2021_supplement.pdf",
+  "sha256": "e4e6ff97993d6fd756d06a960ecad75a3128b2966cf69a6d19a0d155c7cff382",
+  "declared_page_count": 4,
+  "enumerated_page_count": 4,
+  "reader_page_count": 4,
+  "warnings": [],
+  "generated_at": "2026-09-20T11:44:15.825100+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

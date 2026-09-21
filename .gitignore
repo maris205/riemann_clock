@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+build/
+.ipynb_checkpoints/
+.deps/
+.venv/
+/build_spectroscopy/
+
+# Large third-party downloads: restore with the documented fetch scripts.
+/experiments/highz_feasibility_2026-09-20/data/raw/exposures/*.fits
+/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/*.fits
+/experiments/highz_feasibility_2026-09-20/data/raw/*.tar.gz
+/experiments/highz_feasibility_2026-09-20/data/raw/archive_expansion/*.tar.gz

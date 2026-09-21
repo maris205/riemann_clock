@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Hello world | Dinko Milaković</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Hello world" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Dinko Milaković" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hello world" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Hello world","name":"Dinko Milaković","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/media/images/dinkoslav.jpeg"}},"url":"/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=6575e744bab158b59f27a4f0c233cf28d5d1cbfb">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		    tex2jax: {
+		      inlineMath: [['$','$'], ['\\(','\\)']],
+		      processEscapes: true},
+		      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+		      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+		      TeX: {
+		      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+		      equationNumbers: {
+		      autoNumber: "AMS"
+		      }
+		    }
+		  });
+</script>
+<link rel="stylesheet" href="/assets/css/main.css">
+
+  </head>
+  <body>
+   <div class="wrapper">
+    <!-- Left Column (Fixed) -->
+      <div class="left-column">
+       <header>
+        <h1><a href="/">Dinko Milaković</a></h1>
+
+        
+          <img width="200" src="/media/images/dinkoslav.jpeg" alt="Logo" />
+        
+
+        <p></p>
+        <p>You can contact me by writing to:<br>
+        <a href="mailto:site.email">dinko@milakovic.net</a> <br>
+        or <br>
+        INAF Osservatorio di Trieste<br>
+            via Tiepolo 11<br>
+            34131 Trieste (TS)<br>
+            Italia 
+        </p>
+        Page layout:
+        <p>
+        <!-- <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae PDF</a> <br> !-->
+        <a href="./curriculum.html">Curriculum Vitae</a> (<a href="./docs/Milakovic_Dinko_CV.pdf">PDF</a>) <br>
+        <a href="./research.html">Research</a><br>
+        <a href="./outreach.html">Outreach</a><br>
+        <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">Publications</a><br>
+        </p>
+        
+        
+
+        
+
+        
+
+        
+        
+        <p><small>Hosted on GitHub Pages <br> Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+       </header>
+      </div>
+      
+      <!-- Right Column (Dynamic Content) -->
+      <div class="right-column">
+        <section>
+          <h1 id="hello-world">Hello world</h1>
+
+<p>I’m an observational cosmologist working on fundamental physics using astronomical 
+observations, currently based at the Trieste Observatory.</p>
+
+<p>You can find more information about my work <a href="./research">here</a> and a full list to my publications on ADS is <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&amp;q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0">here</a>.</p>
+
+<p>If you are looking for the HARPS line-spread function, you can download them from this <a href="https://zenodo.org/records/10492990">link</a>.</p>
+
+<p>For anything else, contact me directly.</p>
+
+        </section>
+      </div>
+      
+    </div>
+    <script src="/assets/js/video-aspect-ratio.js"></script>
+    <script src="/assets/js/scale.fix.js"></script>
+   
+  </body>
+</html>

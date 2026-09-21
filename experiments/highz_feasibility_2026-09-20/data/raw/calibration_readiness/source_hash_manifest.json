@@ -1,0 +1,393 @@
+{
+  "created_utc": "2026-09-21T03:54:45.632777+00:00",
+  "note": "URLs, retrieval times and HTTP statuses reside in the four retrieval manifests. This manifest also hashes derived readiness metadata/report. No raw CCD/science FITS downloaded.",
+  "file_count": 77,
+  "total_bytes": 15752886,
+  "files": [
+    {
+      "path": "data/raw/calibration_readiness/eso_association_20181104_raw2master.xml",
+      "bytes": 16502,
+      "sha256": "6a54bc4350d4997aaf8b5a47a231691744b8a259cd26872ca7afb7d3dbfc9101"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_association_20181104_raw2raw.xml",
+      "bytes": 81354,
+      "sha256": "794f79522ed3d95d15ed83f1833022c7aaaf761c3a80e39d662ea4d7863c3394"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_association_20200228_raw2master.xml",
+      "bytes": 16502,
+      "sha256": "73f78a7b1836ee0f40a593ebe1d15e3d8ced70973b29a8319ae5d6d11610048b"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_association_20200228_raw2raw.xml",
+      "bytes": 67837,
+      "sha256": "eebd8c48600063ec23067790ce8c361c5e92bd4ea3ec06ff5d1a04133a7bd138"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_00_29.171.html",
+      "bytes": 64776,
+      "sha256": "8da738a0150a76d5bd188889e07aaa42bd0aafd2acb49402f29f72f357141ca5"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_02_16.682.html",
+      "bytes": 64777,
+      "sha256": "307c993330b269c2b9cd59b9acd4ee266b86b51495ce989778c8e1708ba246bb"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_55_54.031.html",
+      "bytes": 64777,
+      "sha256": "61660e56a0c2bd9f14f5f723537602e27f0a9abf69e6dfcf680ed9483f8c53eb"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-03T10_58_00.121.html",
+      "bytes": 64778,
+      "sha256": "9f11d12964959278a383ff30bf8263ce8631c15a91ec82e45feb0b9ba9e78f79"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T10_05_57.309.html",
+      "bytes": 64775,
+      "sha256": "7936d3d2ef60b65cdc47c0627afd086c7b6cbde13ad6be22f256be35a35cb6c3"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T10_07_44.772.html",
+      "bytes": 64775,
+      "sha256": "4cb7a2e637519cb4bd1e401ad0e377a61c864e194237136b11bfbeae20050b3c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T11_03_18.276.html",
+      "bytes": 64777,
+      "sha256": "adc4ca44e36fa3c2c26d98b0515448cbe002bdcb7bf75e1b3a3d919bf0cbd62b"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-04T11_05_24.377.html",
+      "bytes": 64778,
+      "sha256": "736dea1464432ab4013810dc773de7579923fb267b28caa674fe53c85bbb2409"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_03_22.561.html",
+      "bytes": 64776,
+      "sha256": "0d29bc53084e9c3e01ac9b7047a8cd3bf5b76b3f2c97437b2d081f15c78b780d"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_05_10.024.html",
+      "bytes": 64776,
+      "sha256": "8bcddf96b6b08e5edd81018eae137bbd26e0fb08099f1c56a4038da0d899358b"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T10_58_52.643.html",
+      "bytes": 64776,
+      "sha256": "208690162c6eb4fe336e25a69a673f1e53386773551ff556ecc55d28576d899f"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-05T11_00_59.070.html",
+      "bytes": 64777,
+      "sha256": "2171d43a3aa156f10a2cd1dc91eef5e3ef6b23bb8d841986ec802c4e8cf9e70b"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T10_12_28.137.html",
+      "bytes": 64775,
+      "sha256": "6c76aeb6e6de25fb18baaf46f69a357955be7be890bb723e6c6a89db47a669a6"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T10_14_15.583.html",
+      "bytes": 64777,
+      "sha256": "80bbe596b0bbc020ddf54bdcf9352e1fc012878b9d492a1f0c2827321872b3bc"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T11_08_04.895.html",
+      "bytes": 64777,
+      "sha256": "9d725ad9bb98cf5bcf326a84d106c797ffaef16afcb8e0532a3fc2c532fd5eb5"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2018-11-06T11_10_13.124.html",
+      "bytes": 64777,
+      "sha256": "d8005fc073f6dd074e8731b21b8e72064cb587b9dcd839fee6361e9dae6830c9"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_04_47.368.html",
+      "bytes": 64240,
+      "sha256": "7b9fbc8d44e503a8615064fb1666f92efa080d4e1cff1e669b322093f2bf2aea"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_09_58.138.html",
+      "bytes": 64242,
+      "sha256": "f730510fe12a68932bb2c16abbad885c4f25698d4a2d1cc4ddb18a122298cc05"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_12_51.493.html",
+      "bytes": 64243,
+      "sha256": "a00069000e4438a13e26c6d203d6586d8151d814bac81c8b6fff31da001f1594"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2019-11-25T14_17_28.751.html",
+      "bytes": 64243,
+      "sha256": "6f716245afa7a9713ad3e33a70e3b868f9182fa9c8d1aaca7ce3f179b404263c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_23_35.611.html",
+      "bytes": 64773,
+      "sha256": "2dc6827400243cf86b4f88e7f85773d316466166dd0fe6491aea5f70bd663d86"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_26_10.991.html",
+      "bytes": 64774,
+      "sha256": "cf2a313cc61f20e3c35a3548f7961c805f1648ca74703a69c6b4077e30618396"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T12_29_36.495.html",
+      "bytes": 64775,
+      "sha256": "79ca6ebd5c634951c28a3d7e35cda01979e3779906bd4a56eb46779bd535a3b9"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_08_38.487.html",
+      "bytes": 64473,
+      "sha256": "a5df8821691c8dce78da81b61202fe947c097a69185237f0f4eb4bafdc1bd44e"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_10_44.050.html",
+      "bytes": 64236,
+      "sha256": "02de9dc1e9c55ddfdb5887a09a9ee80e3716a6e20085fd77d133d2f278f13328"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_21_23.803.html",
+      "bytes": 64239,
+      "sha256": "b1f44e52aabd825966e59bb99f2c2f351000dcf4f3e15b693528aa0749f80067"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-27T14_24_30.248.html",
+      "bytes": 64238,
+      "sha256": "8eac355a8f4dc15e9df64b564f0c3eea7a91ab17811acec8624d604c6cc43594"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T10_59_40.256.html",
+      "bytes": 64772,
+      "sha256": "458473f1e456014699030027f99c23a741f2bc71521d2c6695d5c5624de3abb3"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_01_53.397.html",
+      "bytes": 64773,
+      "sha256": "c4cf7fc6a4921ffd3e69774d980c85827e9882d8b92a35b795c35ab32deb736c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_05_28.563.html",
+      "bytes": 64774,
+      "sha256": "e13ecf21e35b6b05197a1bce5838528724b46cf2076168924ce4dcd7cef06d86"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-28T11_11_15.816.html",
+      "bytes": 64475,
+      "sha256": "33016c344d05d71bd9b76d61ff25815bbacfa122518a3821c5663b51d6b9bf31"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T11_45_55.456.html",
+      "bytes": 64780,
+      "sha256": "a6b56bf9f5f56fdae706e28179fe6696a1a8c8ba41c0144366e76f19657c7a03"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T11_50_24.931.html",
+      "bytes": 64780,
+      "sha256": "86b1ee6f20deb6f883884922360962ccc712857d839d8dcdda4c5f40692fcb36"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T12_27_43.978.html",
+      "bytes": 64242,
+      "sha256": "d3a733da24f416a74a5289fbf8718343764cb13cd20ed1684fae1e06ec437601"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_header_ESPRE.2020-02-29T12_51_03.082.html",
+      "bytes": 64243,
+      "sha256": "b4cda58f5a4c11be88b0f9e158184fae092d2353638f6bebf8d6bc77dc9ec19f"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_historical_product_search_manifest.json",
+      "bytes": 21951,
+      "sha256": "2f4d74bbd4cd7ec944109d8507c2d3eb2e3224b01963e35be8c42b7698af145d"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2018-11-04T11_03_18.276.xml",
+      "bytes": 3958,
+      "sha256": "07903ff92b1d26a564891bb3ba38876cea86b2ce6275159f2c2de62881b2a17d"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2018-11-04T11_05_24.377.xml",
+      "bytes": 3958,
+      "sha256": "5113b95cfbbe420d2a6c388d5927ce69230814537430d5b9c071c67bb2ee7c1c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T12_29_36.495.xml",
+      "bytes": 3958,
+      "sha256": "89fc4165d2cb8cf71979d704684c4a37cd7f673158143a349913737d1816edb9"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T14_21_23.803.xml",
+      "bytes": 3958,
+      "sha256": "49edec38552cbd29186eb1f2779e69530a5b1cff515b488f24d05a1695ca3cf5"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_datalink_ESPRE.2020-02-27T14_24_30.248.xml",
+      "bytes": 3958,
+      "sha256": "fc40d4e66e7575c47fcd3891284ed523813ce2da6c6454a4a3efa548160e8b40"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_lfc_matched_mode_candidates.json",
+      "bytes": 15306,
+      "sha256": "f8364b2f5d9549cf138ee8f345addc5e093a54b433258936f3701e4a33126e7c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_master_header_M.ESPRESSO.2020-08-20T15_18_43.546.html",
+      "bytes": 80401,
+      "sha256": "49614f54e45472caa17b60d29ced69f519a2901a2917e22269ebf5350923540e"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_master_header_M.ESPRESSO.2020-09-08T00_00_52.600.html",
+      "bytes": 80400,
+      "sha256": "da927cb1f66deb7a2938b3d428310f9ecf697321936b2ac937460c5ab5069b0c"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_pipeline_3_6_0.html",
+      "bytes": 41283,
+      "sha256": "971a67a2330281125587efd7b758a8a9f802c05c28a356f76de26b245c77e886"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_pipeline_manual_3_6_0.pdf",
+      "bytes": 8279086,
+      "sha256": "2302e3cbb35930a917053513160670ce9e38b295b0c8805bfa6b1f3178d14410"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_readiness_summary.json",
+      "bytes": 5305,
+      "sha256": "76e99144aaa471d740610d4384b72d21c4edcaea6891e16ba4de6dd3d53b49c1"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_reduced_first_datalink.xml",
+      "bytes": 7144,
+      "sha256": "bf5cf8ad04c530413395ded7d7101a4a12a7c2e0ae95f66673b27eacb94401da"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_reduced_first_datalink_request.json",
+      "bytes": 376,
+      "sha256": "2a4aad39068223753d69754957d70ff6cb48cfe36d21fabcdd5d99d3a29f7414"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_requests_manifest.json",
+      "bytes": 7686,
+      "sha256": "dc90e26e7d8aaa1521fb103d2082cfdc27ad86167cda5de79ee0fb93fe87636d"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_supplement_requests_manifest.json",
+      "bytes": 26475,
+      "sha256": "0b1d6a08f513718ea72c5df6b02a0beac1c3021f7b43f856c443f30b12ee0b90"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_first_science.json",
+      "bytes": 2203,
+      "sha256": "05f8def88817efcd744a4c9ded61280314eabb1354b5ba7cce812c46985a0497"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_lfc_20181104.json",
+      "bytes": 8662,
+      "sha256": "7b1e66ddd4baed279dd2f708051cdd021fd47777dfb0d502a9a7b84f17c9f88a"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_lfc_20191126.json",
+      "bytes": 5250,
+      "sha256": "462a0eeb973d5f2d3d6020e7dc452d7c42533b88c3092d9f25877e39cb7d56ab"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_lfc_20200227.json",
+      "bytes": 10343,
+      "sha256": "f4744a14b082763e104d343cc4e06ccfd3940fb1553bd885320c50095fc49648"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_reduced_products.json",
+      "bytes": 4547,
+      "sha256": "c8b0d8d84e1cfaf65dc86d8b3c0dfdba30d9427920ef3d6f46871271e08a6358"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_reduced_products_request.json",
+      "bytes": 750,
+      "sha256": "571e878cbabaa76daf6afacfa10fe76ffe7076ec186b7b54c8a577985ffa406e"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_tables.json",
+      "bytes": 25305,
+      "sha256": "72c277ceae578d8fcf368dcbf0ca12fa8f70c9dd21b5cdaf62bc037c31b63a9a"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tap_tables_request.json",
+      "bytes": 321,
+      "sha256": "8076dde4038afa6684d5a58da73ce15d7490a2c3d1825b6cb069ac1ff5cce6f4"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tree_20181104_raw2master.xml",
+      "bytes": 7802,
+      "sha256": "6215677e17d93ecec6661d22cd0e0ede562899633119e0d026c3fb7be3c57ad9"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tree_20181104_raw2raw.xml",
+      "bytes": 1441668,
+      "sha256": "9f04ed0d7578777e2ac0a3c338fcf047959a2d898ff72c3a7d8aa59cd3f40596"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tree_20200228_raw2master.xml",
+      "bytes": 7802,
+      "sha256": "2d4d2f0922d509c8e2a39573ce86888142c08c42867b033ebf5e690a1bd0f8bb"
+    },
+    {
+      "path": "data/raw/calibration_readiness/eso_tree_20200228_raw2raw.xml",
+      "bytes": 1441665,
+      "sha256": "744deee3434f7b67f6365870639d2d88bf3529a48ef869620d39e91f96647ec3"
+    },
+    {
+      "path": "data/raw/calibration_readiness/murphy_he0515_2022.html",
+      "bytes": 588539,
+      "sha256": "6933dabb130b590557031013622da63cb286657d7e4b6ef425f5021ba6d2eb78"
+    },
+    {
+      "path": "data/raw/calibration_readiness/primary_documents_manifest.json",
+      "bytes": 2002,
+      "sha256": "92946d2193a70792fe26000b11d8b5f064b84944bed511d3657a64b3fa2afc08"
+    },
+    {
+      "path": "data/raw/calibration_readiness/readiness_summary.json",
+      "bytes": 2036,
+      "sha256": "f357133eb02148193ea04c958a9b9534b95b5bcf2ee906ba6badd5573e4d9076"
+    },
+    {
+      "path": "data/raw/calibration_readiness/schmidt_bouchy_2024.html",
+      "bytes": 345642,
+      "sha256": "cacef12968d99b438d11b63d04b0f28172eab898db6d3a77213c1c292075cc29"
+    },
+    {
+      "path": "data/raw/calibration_readiness/schmidt_bouchy_2024_publisher.html",
+      "bytes": 5546,
+      "sha256": "4ad1a0fc0c2a3116865ec6e1008a71917480873cedf770ca687b645b6baa778e"
+    },
+    {
+      "path": "data/raw/calibration_readiness/schmidt_eom_2026.html",
+      "bytes": 358042,
+      "sha256": "08df6e6de4df6e2ab5c9e514bd119714c78c40d3f860d08f110ac1ac774b0c74"
+    },
+    {
+      "path": "data/raw/calibration_readiness/schmidt_iodine_2025.html",
+      "bytes": 312142,
+      "sha256": "3a00a235b096ee5ffd8a4dc810336443f14e3b2ad30adc234a32d236d6fb67cf"
+    },
+    {
+      "path": "data/raw/calibration_readiness/science_exposure_header_extracts.json",
+      "bytes": 131929,
+      "sha256": "8c7d21041bf6cefaa5c8abdfae36a3b3351fb905923f70e795eccefbebc898c1"
+    },
+    {
+      "path": "data/raw/calibration_readiness/validation.json",
+      "bytes": 11258,
+      "sha256": "1ed36e72b13e0b7dd177c983d63e5428540d670a2b3b94f5eaacfe85c8983ee5"
+    },
+    {
+      "path": "reports/calibration_readiness_cn.md",
+      "bytes": 10295,
+      "sha256": "93bf405798d4138625dc203b8d6ad41e01cbe8ef28b098508bcde17fff7c9732"
+    }
+  ]
+}

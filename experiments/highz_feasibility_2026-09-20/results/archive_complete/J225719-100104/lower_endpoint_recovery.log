@@ -1,0 +1,107 @@
+J225719-100104 n30_null_recovered_os21 50 422.1850194466609
+J225719-100104 n30_null_recovered_os21 100 422.18368744310976
+J225719-100104 n30_null_recovered_os21 DONE 422.18279091085685 1.050205947539445 True
+J225719-100104 n30_shift_recovered_os21 50 409.376750039599
+J225719-100104 n30_shift_recovered_os21 100 409.31577055913
+J225719-100104 n30_shift_recovered_os21 150 409.2253259888459
+J225719-100104 n30_shift_recovered_os21 200 408.6474841582459
+J225719-100104 n30_shift_recovered_os21 250 408.41613515501996
+J225719-100104 n30_shift_recovered_os21 300 407.7550037449368
+J225719-100104 n30_shift_recovered_os21 350 407.7184256192275
+J225719-100104 n30_shift_recovered_os21 DONE 407.71691680209335 1.0192922920052334 True
+J225719-100104 n30_null_recovered_cross_os21 50 421.33293672762625
+J225719-100104 n30_null_recovered_cross_os21 100 421.2504897899679
+J225719-100104 n30_null_recovered_cross_os21 DONE 421.24821511850905 1.0478811321355948 True
+J225719-100104 n30_shift_recovered_cross_os21 50 407.76055564255745
+J225719-100104 n30_shift_recovered_cross_os21 100 407.7545322203544
+J225719-100104 n30_shift_recovered_cross_os21 150 407.7537415420152
+J225719-100104 n30_shift_recovered_cross_os21 200 407.75288995776936
+J225719-100104 n30_shift_recovered_cross_os21 250 407.73207715681644
+J225719-100104 n30_shift_recovered_cross_os21 300 407.7187339260499
+J225719-100104 n30_shift_recovered_cross_os21 350 407.7172428983865
+J225719-100104 n30_shift_recovered_cross_os21 DONE 407.71710181420315 1.019292754535508 True
+J225719-100104 n30_profile2382_recovered_0_os21 DONE 412.04526476597476 1.0275443011620318 True
+J225719-100104 n30_profile2382_recovered_1_os21 50 408.8190742789979
+J225719-100104 n30_profile2382_recovered_1_os21 DONE 408.81877804331117 1.0194981996092547 True
+J225719-100104 n30_profile2382_recovered_2_os21 DONE 407.71677684796185 1.0167500669525233 True
+J225719-100104 n30_profile2382_recovered_3_os21 50 408.5238469522089
+J225719-100104 n30_profile2382_recovered_3_os21 100 408.46678986210594
+J225719-100104 n30_profile2382_recovered_3_os21 150 408.4387876087879
+J225719-100104 n30_profile2382_recovered_3_os21 DONE 408.43823647098225 1.0185492181321254 True
+J225719-100104 n30_profile2382_recovered_4_os21 50 411.6454786223029
+J225719-100104 n30_profile2382_recovered_4_os21 100 411.6367931390324
+J225719-100104 n30_profile2382_recovered_4_os21 150 411.6307045244734
+J225719-100104 n30_profile2382_recovered_4_os21 200 411.5216464009292
+J225719-100104 n30_profile2382_recovered_4_os21 250 411.51342115238674
+J225719-100104 n30_profile2382_recovered_4_os21 300 411.5119697748235
+J225719-100104 n30_profile2382_recovered_4_os21 DONE 411.5119697748235 1.026214388465894 False
+{
+  "target": "J225719-100104",
+  "z_abs": 1.836,
+  "lines": [
+    2344,
+    2374,
+    2382
+  ],
+  "window": [
+    -310.0,
+    110.0
+  ],
+  "ncomp": 30,
+  "ndata": 504,
+  "null": "n30_null_recovered_cross_os21",
+  "alternative": "n30_shift_recovered_os21",
+  "chi2_null": 421.24821511850905,
+  "chi2_alternative": 407.71691680209335,
+  "nominal_ndf_null": 402,
+  "delta_chi2": 13.5312983164157,
+  "extra_shifts": 2,
+  "both_optimizer_success": true,
+  "ordinary_gate": true,
+  "local_pair_uncertainty": {
+    "observable": "velocity(FeII2382)-velocity(FeII2374)",
+    "shift_m_s": -15.737705306861711,
+    "method": "Weighted-Jacobian 2382 column projected off ALL other gas/continuum/zero/LSF/shift nuisance columns, after nuisance-column normalization.",
+    "rank_sensitivity": [
+      {
+        "svd_relative_cutoff": 1e-08,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      },
+      {
+        "svd_relative_cutoff": 1e-10,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      },
+      {
+        "svd_relative_cutoff": 1e-12,
+        "nuisance_rank": 103,
+        "information_per_km_s_squared": 19.095537686708493,
+        "conditional_sigma_m_s": 228.84111449638414
+      }
+    ],
+    "active_bounds": [
+      "logb_6"
+    ],
+    "limitations": "Local linear, fixed selected architecture and expected diagonal errors; ignores active-bound truncation, calibration, blends and architecture uncertainty. Not alpha or a cosmic-time observation."
+  },
+  "null_stationarity": {
+    "scipy_optimality": 0.28514337549717633,
+    "independent_coleman_li": 0.2851433754971764,
+    "normalized_gradient_mapping_inf": 0.5032009223774033,
+    "column_normalized_gradient_inf": 0.22384498552503407,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "alternative_stationarity": {
+    "scipy_optimality": 0.20352118753385012,
+    "independent_coleman_li": 0.20352118753385012,
+    "normalized_gradient_mapping_inf": 0.2333419168898121,
+    "column_normalized_gradient_inf": 0.27827195692118284,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "recovery_protocol": "lower_endpoint_recovery_protocol.json",
+  "supersedes": "selected_pair_before_lower_endpoint_recovery.json",
+  "interpretation": "Conditional exploration after retaining and continuing a materially lower cappednull. Finite multistarts do not certify globaloptimum; notalpha/time discovery."
+}

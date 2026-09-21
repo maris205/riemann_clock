@@ -1,0 +1,13 @@
+{
+  "protocol_amendment.json": "ed066c2f265d7f0acc0ad208ee725daf8ecb46d039cdd864b2a43025fb6bfcc1",
+  "summary.json": "075b116e5f812f776dfb99614f13a22147451796976985ca1d5faf96524d38ee",
+  "failure_pair_comparison.pdf": "68fa565e4cc4158006768c9174ad55901fa76510a7d0927b3f14f4c4c70bfe18",
+  "failure_pair_comparison.png": "495d0eac0dc2ed6a9f68ba42aec80d3cbea276492eff19311fd178296707d68c",
+  "report.md": "84c00aa00dcc454b505f7c731be5af9f98612a6337771b81cb4c4546daecc5a0",
+  "independent_review.json": "2fa294b17bc59e6373454e6109effda87904f954b83e35b0d1fc39484e4664c2",
+  "independent_review.md": "9bdde7b0833b520b5bc87ef3e34b7df3046c5cb5d47cb62c1f943d94b22c474e",
+  "J064326-504112/failure_n16_shift_from_primary_os21.json": "fa1431375f8d87fbd844b2f8c5027774d24bf79b4c61085c5c4fc432f6e663a9",
+  "J064326-504112/failure_n16_shift_from_primary_os21.npz": "e711a7639eb981b9f76532f7c66d8d792b74a486d0c41673ff32cec6a6eb344c",
+  "J064326-504112/failure_n16_null_cross_os21.json": "9e4d033933dda293f43fb6a6c5c82bcbff585002c4ad69acb7e5ef718accc50c",
+  "J064326-504112/failure_n16_null_cross_os21.npz": "e2cbe0281ede417f82810dcc94105764e2558b0a57b2c2dc4a738d5cd7fb043d"
+}

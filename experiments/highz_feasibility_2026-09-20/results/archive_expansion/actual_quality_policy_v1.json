@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-09-20T17:32:03.018465+00:00",
+  "full_half_width_km_s": 250.0,
+  "core_half_width_km_s": 100.0,
+  "minimum_valid_fraction_full": 0.98,
+  "minimum_native_CNR": 15.0,
+  "minimum_core_EW_diagonal_SNR": 5.0,
+  "minimum_detected_strong_lines": 3,
+  "weak_line_requirement": [
+    "2374",
+    "2586"
+  ],
+  "common_bin_spacing_km_s": 5.0,
+  "common_absorption_diagonal_SNR": 3.0,
+  "minimum_common_bins_at_least_3_strong_lines": 3,
+  "AOD_flux_floor": "max(0.02,3*normalized_error); floor-affected pixels are lower-limit diagnostics, not recovered intrinsic optical depths",
+  "AOD_scaling": "Na(v)=3.768e14*tau_a/(f*lambda_AA) cm^-2/(km/s)",
+  "eligibility_interpretation": "Coverage, S/N and multiplet-detection readiness only; no atmospheric template, sky, blending, wavelength-calibration, covariance or physical-gas-model certification."
+}

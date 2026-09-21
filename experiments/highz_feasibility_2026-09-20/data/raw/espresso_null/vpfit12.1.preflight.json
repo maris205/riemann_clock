@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/espresso_null/vpfit12.1.pdf",
+  "sha256": "d20fdb3105dd56f0c6b9a14d98acb688499314486d7d6fe181ecfc663a7f8ad7",
+  "declared_page_count": 100,
+  "enumerated_page_count": 100,
+  "reader_page_count": 100,
+  "warnings": [],
+  "generated_at": "2026-09-20T14:54:34.122521+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

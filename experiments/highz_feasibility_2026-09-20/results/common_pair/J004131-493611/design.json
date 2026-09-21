@@ -1,0 +1,91 @@
+{
+  "target": "J004131-493611",
+  "z_abs": 2.248,
+  "ncomp": 6,
+  "grid_center_km_s": 0.025599982711638478,
+  "grid_scale_local_sigma_km_s": 0.3270279928697109,
+  "initial_grid_km_s": [
+    -0.9554839958974943,
+    -0.7919699994626388,
+    -0.6284560030277834,
+    -0.4649420065929279,
+    -0.3014280101580724,
+    -0.137914013723217,
+    0.0,
+    0.025599982711638478,
+    0.18911397914649392,
+    0.3526279755813494,
+    0.5161419720162048,
+    0.6796559684510602,
+    0.8431699648859157,
+    1.0
+  ],
+  "profile_coordinate": "shift_2382",
+  "other_relative_shifts_float": [
+    1608,
+    2382
+  ],
+  "one_coordinate_fixed": true,
+  "max_nfev_per_fit": 300,
+  "starts_per_point": 2,
+  "adaptive_rounds_per_contour": 2,
+  "contours": [
+    1.0,
+    3.84
+  ],
+  "shift_bounds_km_s": [
+    -1.0,
+    1.0
+  ],
+  "initial_baseline": "results/common_pair/J004131-493611/full_from_h1.json",
+  "source_sha256": {
+    "code/common_pair_fit.py": "d2d8c754dc693d3b61e4acc109fae030fbb3661f9e36269d4329941f8b56b856",
+    "code/archive_profile_pilot.py": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "code/archive_profile_expected_noise.py": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10.dat": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "data/processed/archive_expansion/J004131-493611.npz": "dfa87d202a7c217900ba8f31364ced7845050b6349f7e3be7a6e699811405bcb",
+    "data/processed/archive_expansion/J004131-493611_metadata.json": "26a2c40a0a99796c1b48efd5ed1d1a77258eaaa6d9dd6cb4e04b6335687b1851",
+    "results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+    "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_null_s3_expected_os33.json": "8747bde0c7acf5f5aa1ce3cb5ef1e648ea2f1bf746f1f9a874049ce218dc1e38",
+    "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_shift_s3_expected_os33.json": "ef5da7e671ae1b6d3195d8b57f635c11e96b9d315c38c17d2284621874cdea72",
+    "data/processed/archive_expansion/J004131-493611_z2.248_FeII1608_window.npz": "eb6be83086d6b760ae73d05cf7675c216b9608af09d249744a35225cf49cf98b",
+    "data/processed/archive_expansion/J004131-493611_z2.248_FeII2374_window.npz": "02ea610123521657db5ec94e4c6741831912b64fc39a57ed5fff87ecae48a1cb",
+    "data/processed/archive_expansion/J004131-493611_z2.248_FeII2382_window.npz": "0897c9eaf91ccf2ce0f0af3e093d2d6227a57ed27625896b76c4a43fa5c63f04"
+  },
+  "configuration": {
+    "z": 2.248,
+    "lines": [
+      1608,
+      2374,
+      2382
+    ],
+    "window": [
+      -30.0,
+      85.0
+    ],
+    "component_bounds": [
+      -25.0,
+      75.0
+    ],
+    "centers": [
+      -10.0,
+      20.0,
+      30.0,
+      40.0,
+      49.0,
+      57.0
+    ],
+    "logtotal": 14.4
+  },
+  "lines": [
+    1608,
+    2374,
+    2382
+  ],
+  "anchor_line": 2374,
+  "target_line": 2382,
+  "oversample": 33,
+  "error_kind": "FITS primary row2 expected fluctuation; diagonal errors without reduced-chi-square rescaling",
+  "selection": "Frozen row1-selected architecture/windows/pixels; row2 selected H1 nuisance freedom; no model reselection",
+  "atomic_response": "D=v2382-v2374; sign-equivalent log energy/frequency-ratio perturbation Y=-D/c is kinematic only, not a theory response."
+}

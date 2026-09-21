@@ -1,0 +1,185 @@
+{
+  "pass": true,
+  "checks": {
+    "three_likelihood_regions": true,
+    "global_source_indices_unique": true,
+    "one_1608_plus_1611_opacity_list": true,
+    "primary_references_unchanged": true,
+    "pixel_arrays_unchanged": true,
+    "adapter_hash_matches": true,
+    "other_region_models_unchanged": true,
+    "neighbor_opacity_effect_nonzero": true,
+    "neighbor_opacity_does_not_add_parameters": true,
+    "jac_logN_0": true,
+    "jac_logN_1": true,
+    "jac_logN_2": true,
+    "jac_logN_3": true,
+    "jac_logN_4": true,
+    "jac_logN_5": true,
+    "jac_v_0": true,
+    "jac_v_1": true,
+    "jac_v_2": true,
+    "jac_v_3": true,
+    "jac_v_4": true,
+    "jac_v_5": true,
+    "jac_logb_0": true,
+    "jac_logb_1": true,
+    "jac_logb_2": true,
+    "jac_logb_3": true,
+    "jac_logb_4": true,
+    "jac_logb_5": true,
+    "jac_cont0_1608": true,
+    "jac_cont1_1608": true,
+    "jac_zero_1608": true,
+    "jac_logfwhm_1608": true,
+    "jac_cont0_2374": true,
+    "jac_cont1_2374": true,
+    "jac_zero_2374": true,
+    "jac_logfwhm_2374": true,
+    "jac_cont0_2382": true,
+    "jac_cont1_2382": true,
+    "jac_zero_2382": true,
+    "jac_logfwhm_2382": true,
+    "jac_shift_1608": true,
+    "jac_shift_2382": true
+  },
+  "n_checks": 41,
+  "ndata": 1176,
+  "unique_source_pixels": 1176,
+  "maximum_jacobian_relative_norm_error": 2.346038058979223e-07,
+  "jacobian_details": [
+    {
+      "label": "logN_0",
+      "relative_norm_error": 6.18299561807913e-09
+    },
+    {
+      "label": "logN_1",
+      "relative_norm_error": 6.198369587569432e-09
+    },
+    {
+      "label": "logN_2",
+      "relative_norm_error": 5.2871952390152986e-09
+    },
+    {
+      "label": "logN_3",
+      "relative_norm_error": 3.8885136090670135e-09
+    },
+    {
+      "label": "logN_4",
+      "relative_norm_error": 8.853546949244453e-09
+    },
+    {
+      "label": "logN_5",
+      "relative_norm_error": 7.469867593580267e-09
+    },
+    {
+      "label": "v_0",
+      "relative_norm_error": 1.9352873585503413e-07
+    },
+    {
+      "label": "v_1",
+      "relative_norm_error": 1.29228385932046e-07
+    },
+    {
+      "label": "v_2",
+      "relative_norm_error": 7.811762511832426e-08
+    },
+    {
+      "label": "v_3",
+      "relative_norm_error": 2.9564701985127936e-08
+    },
+    {
+      "label": "v_4",
+      "relative_norm_error": 6.25388155978339e-09
+    },
+    {
+      "label": "v_5",
+      "relative_norm_error": 2.2193448351849707e-07
+    },
+    {
+      "label": "logb_0",
+      "relative_norm_error": 2.7298371238748546e-10
+    },
+    {
+      "label": "logb_1",
+      "relative_norm_error": 3.1379172511801705e-10
+    },
+    {
+      "label": "logb_2",
+      "relative_norm_error": 3.512330454594025e-10
+    },
+    {
+      "label": "logb_3",
+      "relative_norm_error": 3.6814569036530777e-10
+    },
+    {
+      "label": "logb_4",
+      "relative_norm_error": 3.282810871003741e-10
+    },
+    {
+      "label": "logb_5",
+      "relative_norm_error": 2.8080058556043324e-10
+    },
+    {
+      "label": "cont0_1608",
+      "relative_norm_error": 3.338687961018778e-12
+    },
+    {
+      "label": "cont1_1608",
+      "relative_norm_error": 1.6816497989363068e-12
+    },
+    {
+      "label": "zero_1608",
+      "relative_norm_error": 2.3340157791053425e-11
+    },
+    {
+      "label": "logfwhm_1608",
+      "relative_norm_error": 4.3388039500805736e-09
+    },
+    {
+      "label": "cont0_2374",
+      "relative_norm_error": 5.206937998714271e-12
+    },
+    {
+      "label": "cont1_2374",
+      "relative_norm_error": 1.694093501842818e-12
+    },
+    {
+      "label": "zero_2374",
+      "relative_norm_error": 2.3335090331161183e-11
+    },
+    {
+      "label": "logfwhm_2374",
+      "relative_norm_error": 4.278062906143009e-09
+    },
+    {
+      "label": "cont0_2382",
+      "relative_norm_error": 3.5507502960889816e-12
+    },
+    {
+      "label": "cont1_2382",
+      "relative_norm_error": 1.885131722478469e-12
+    },
+    {
+      "label": "zero_2382",
+      "relative_norm_error": 2.1140800558379972e-11
+    },
+    {
+      "label": "logfwhm_2382",
+      "relative_norm_error": 4.628429708824104e-09
+    },
+    {
+      "label": "shift_1608",
+      "relative_norm_error": 1.9194759597150932e-07
+    },
+    {
+      "label": "shift_2382",
+      "relative_norm_error": 2.346038058979223e-07
+    }
+  ],
+  "configuration_sha256": "5202efc55d480498f70230755819284699e9bf8685caf48ae0c2cac55742aaeb",
+  "neighbor_adapter_sha256": "9167a0fffb5bbb1e05b252241e23a05f56d72c11a133182b67a9904bbc5c2a20",
+  "shared_engine_sha256": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416",
+  "neighbor_model_max_flux_effect_at_initial": 0.32718079448588877,
+  "interpretation": "Implementation/source checks only; no gas fit adequacy or new-physics conclusion."
+}

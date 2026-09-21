@@ -1,0 +1,2017 @@
+{
+  "review_utc": "2026-09-21T04:01:08.539709+00:00",
+  "scope": "Independent replay of20 saved null-only fits. No optimizers run or source/model/results changed. Checks group whole scientifically meaningful quantities or arrays, never individual pixels.",
+  "status": "PASS",
+  "source_hashes_current": {
+    "coadd": "3ada82ab25d522d2d14930766ba88f398dd74f411d2250ef19ee857bb8025c26",
+    "metadata": "b90b241e4be34c7b8ca40e5de8ed27a69624340d78084b4685b98176a397f69d",
+    "atomic": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "base_model": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "adapter": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416"
+  },
+  "fits": [
+    {
+      "name": "n10_null_s0_os9",
+      "chi2_recomputed": 720.550094143851,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 10,
+      "ndata": 436,
+      "npar": 46,
+      "active_bounds": [
+        "zero_1611",
+        "logfwhm_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.07087885749325352,
+        "gradient_mapping": 0.19033976284366466,
+        "column_normalized_gradient": 2.1698830419006807
+      },
+      "json_sha256": "e7b49c5026a91fcc3aeab0bff17ca8c896c3810d8376876bf8cb4fa019caad4d",
+      "npz_sha256": "e91a80387b722ca20de798da1e98fd7defd1cc3531bed34c77528baf24112c39"
+    },
+    {
+      "name": "n10_null_s1_os9",
+      "chi2_recomputed": 623.0236243659311,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 10,
+      "ndata": 436,
+      "npar": 46,
+      "active_bounds": [
+        "zero_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.15975847486181702,
+        "gradient_mapping": 0.2116185101806447,
+        "column_normalized_gradient": 0.3946443168738501
+      },
+      "json_sha256": "aec65b48e814540a4549e0805107aaaa9fe23fb9694920beb93b13502e972df4",
+      "npz_sha256": "137fb56cb6b12afb5e294670f31197c5ccdc487db9ed18b695036b8255bcf098"
+    },
+    {
+      "name": "n10_null_s2_os9",
+      "chi2_recomputed": 623.0236166387185,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 10,
+      "ndata": 436,
+      "npar": 46,
+      "active_bounds": [
+        "zero_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.07052010936725474,
+        "gradient_mapping": 0.09944782813061981,
+        "column_normalized_gradient": 0.394615780779166
+      },
+      "json_sha256": "600ba2ea5976585e5488c8d4ebe7df4d740c1f1018cc385ff99b11a832963e2b",
+      "npz_sha256": "f873b9cd988210139ad6a0de6683ee7a9659cb7c5afe1c6b8d794083ab7fc7ca"
+    },
+    {
+      "name": "n12_null_s0_os9",
+      "chi2_recomputed": 597.5615205279307,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 12,
+      "ndata": 436,
+      "npar": 52,
+      "active_bounds": [
+        "zero_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.21437284628157094,
+        "gradient_mapping": 0.3609892623797779,
+        "column_normalized_gradient": 0.8736472526507117
+      },
+      "json_sha256": "5f38a08eb5bc2b0c8feb0cde05e40a56deacd7544c4e27cf296a361a6c8d4fb0",
+      "npz_sha256": "dc39c66f7f521274a904de53a580ec9fc637ec93f071af34ec69edc74b8e2f22"
+    },
+    {
+      "name": "n12_null_s1_os9",
+      "chi2_recomputed": 597.5615216287619,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 12,
+      "ndata": 436,
+      "npar": 52,
+      "active_bounds": [
+        "zero_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.08977443978824681,
+        "gradient_mapping": 0.10149370478543464,
+        "column_normalized_gradient": 0.8737885590278213
+      },
+      "json_sha256": "8601993776073741ed8f5a2e7d1f2f52f7c209d323c37da94edc1fd4f5635cff",
+      "npz_sha256": "c55fefabe3df272381d915c44375f38a848a445454be97ab7407084fb741f7e0"
+    },
+    {
+      "name": "n12_null_s2_os9",
+      "chi2_recomputed": 581.7015466690208,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 12,
+      "ndata": 436,
+      "npar": 52,
+      "active_bounds": [
+        "zero_1611",
+        "cont1_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.12097325406493802,
+        "gradient_mapping": 0.1626309189792463,
+        "column_normalized_gradient": 0.8758918007402394
+      },
+      "json_sha256": "6dbc660f68092f60b630cdc34b6042a5ed78abeb0f81ae6d9d0a3fb96c9f1583",
+      "npz_sha256": "1f9e20c64400c865b91bf04dd30e6e8186afd9c91e4f9b126f178a25dcd3c9bf"
+    },
+    {
+      "name": "n16_null_refined_os21",
+      "chi2_recomputed": 532.2252737539015,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 16,
+      "ndata": 436,
+      "npar": 64,
+      "active_bounds": [
+        "logb_14",
+        "zero_1611"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.21024741447384565,
+        "gradient_mapping": 0.35185725366996645,
+        "column_normalized_gradient": 0.6134614894228654
+      },
+      "json_sha256": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+      "npz_sha256": "91f3b8f5a14f5d40c771b9173480b95674d856ac451c62ebfaa7f11cd56451f1"
+    },
+    {
+      "name": "n16_null_s0_os9",
+      "chi2_recomputed": 533.698513603102,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 16,
+      "ndata": 436,
+      "npar": 64,
+      "active_bounds": [
+        "logb_11",
+        "zero_1611"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.033583086496722016,
+        "gradient_mapping": 0.0380523529451349,
+        "column_normalized_gradient": 0.7071998193341188
+      },
+      "json_sha256": "31b00736d34d3b7431a99e4f89744fd2ba814b92984c3a0cc052d6fc7225b24c",
+      "npz_sha256": "a64b839495f52d0b29ec042235ee33d34de12b91acc48dab35b1554830f506db"
+    },
+    {
+      "name": "n16_null_s1_os9",
+      "chi2_recomputed": 536.6785224221361,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 16,
+      "ndata": 436,
+      "npar": 64,
+      "active_bounds": [
+        "zero_1611"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.028901566776861277,
+        "gradient_mapping": 0.11735676264500033,
+        "column_normalized_gradient": 0.9449912874334211
+      },
+      "json_sha256": "1db9a894bfe191ffb2178964d60b91387a63d787b4461712390f8884e4a21eef",
+      "npz_sha256": "d619c12078564b68d4ab376463758727ff6b69646e1a86679eaeb42e15f2abc6"
+    },
+    {
+      "name": "n16_null_s2_os9",
+      "chi2_recomputed": 532.2270163139742,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 16,
+      "ndata": 436,
+      "npar": 64,
+      "active_bounds": [
+        "logb_14",
+        "zero_1611"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.027634189257677334,
+        "gradient_mapping": 0.06866233258455601,
+        "column_normalized_gradient": 0.613361716993799
+      },
+      "json_sha256": "3708eb73d66450b3ce4f3cacea1bb84780fca6252a3bfec4933d8205db7995c4",
+      "npz_sha256": "11952ed8b76805d42ccf02e7db810cda9c9600e8e213669645d28a84910d3a58"
+    },
+    {
+      "name": "n4_null_s0_os9",
+      "chi2_recomputed": 4294.84185770916,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 4,
+      "ndata": 436,
+      "npar": 28,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "cont0_2382",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.7513431964405972,
+        "gradient_mapping": 0.6893155884266511,
+        "column_normalized_gradient": 12.413749385854533
+      },
+      "json_sha256": "d01ca91495037fca5ed46f349eb3c116650bc78f050f0396063e3c7d08b9a0b5",
+      "npz_sha256": "85c1a9dc6c5a1f690e93828f3e3bd4f36c2d2739a2852e72fb6b02d1f70433c9"
+    },
+    {
+      "name": "n4_null_s1_os9",
+      "chi2_recomputed": 4294.841841572208,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 4,
+      "ndata": 436,
+      "npar": 28,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "cont0_2382",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.46470837818861793,
+        "gradient_mapping": 0.6741599719169634,
+        "column_normalized_gradient": 12.413794196654313
+      },
+      "json_sha256": "f624f580339431adf0067860c48dfc17c5a62b183b2d19fe95951c63c4a2d409",
+      "npz_sha256": "fe1c6771f822c581859cbe7e7f13c29ba29c5096ebcd6b38685ba27dd60af42f"
+    },
+    {
+      "name": "n4_null_s2_os9",
+      "chi2_recomputed": 4294.8418388759455,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 4,
+      "ndata": 436,
+      "npar": 28,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "cont0_2382",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.18140921038747979,
+        "gradient_mapping": 0.2906022413880176,
+        "column_normalized_gradient": 12.41378656618363
+      },
+      "json_sha256": "ce5ebe751c0b6e6f67d23c2aa552ab7117e098a6b1dd309131e4905831da2a99",
+      "npz_sha256": "f81a184e499e492c777b6a3da9d101c2397b332211cdfe53d32080fa70be2ec1"
+    },
+    {
+      "name": "n6_null_s0_os9",
+      "chi2_recomputed": 1526.0901845867654,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 6,
+      "ndata": 436,
+      "npar": 34,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.15432035258468427,
+        "gradient_mapping": 0.19688642988221428,
+        "column_normalized_gradient": 7.216840314153122
+      },
+      "json_sha256": "3463cda8ad566da14287c681d0c04597313a22fe9793eef42315b535c3e5d581",
+      "npz_sha256": "ca0fd87817cdb85cf5ccbda2db714be31a4d19d0895c73ecb5c6234c4cfbf84c"
+    },
+    {
+      "name": "n6_null_s1_os9",
+      "chi2_recomputed": 1526.0901839868668,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 6,
+      "ndata": 436,
+      "npar": 34,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.1504210785791462,
+        "gradient_mapping": 0.19192925245015469,
+        "column_normalized_gradient": 7.216833030059336
+      },
+      "json_sha256": "48a4239eb33c5935749409094766590c6edb44687b35fad9d96585c647ace7c9",
+      "npz_sha256": "f42a2d9feabaa2bcf723ab699becbc56101e91bd72df81f01823b8628de4bcb3"
+    },
+    {
+      "name": "n6_null_s2_os9",
+      "chi2_recomputed": 1526.090181393597,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 6,
+      "ndata": 436,
+      "npar": 34,
+      "active_bounds": [
+        "logb_1",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_1611",
+        "logfwhm_2374",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.13282016957528642,
+        "gradient_mapping": 0.16828621824966705,
+        "column_normalized_gradient": 7.2167984936137834
+      },
+      "json_sha256": "0c3f0ce0e5188e14bf2bfc11aeb60aaebc0a1e8d6214acc299546d6044843300",
+      "npz_sha256": "4e18ba910f96b6cf1e62b4af62a84cc2554d2739ac917c227e2e775f5cf30f90"
+    },
+    {
+      "name": "n8_null_s0_os9",
+      "chi2_recomputed": 934.4772023216366,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 8,
+      "ndata": 436,
+      "npar": 40,
+      "active_bounds": [
+        "logb_7",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_2374",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.09157889128674607,
+        "gradient_mapping": 0.1549462536965756,
+        "column_normalized_gradient": 3.94372198956931
+      },
+      "json_sha256": "f574c625e527fe6d16a9b9d348686de521b99276238727e35a57fc531badc3b0",
+      "npz_sha256": "51ef81b0f6fc074f3f0c39ef6f9f4c794526c6922d23f74c79b649efb577f9ee"
+    },
+    {
+      "name": "n8_null_s1_os9",
+      "chi2_recomputed": 934.4772032390333,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 8,
+      "ndata": 436,
+      "npar": 40,
+      "active_bounds": [
+        "logb_7",
+        "logfwhm_1608",
+        "zero_1611",
+        "logfwhm_2374",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.14973998810456127,
+        "gradient_mapping": 0.2533515048175837,
+        "column_normalized_gradient": 3.943738173513792
+      },
+      "json_sha256": "90d0617111dd1779234b2c41645419a1cb544d7a40e23381e9c1db24088b0ffc",
+      "npz_sha256": "58e846e370f5712902adde28b71c8bac011cf654241d5b89d6a178f8c78e0a37"
+    },
+    {
+      "name": "n8_null_s2_os9",
+      "chi2_recomputed": 879.9088394299667,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 8,
+      "ndata": 436,
+      "npar": 40,
+      "active_bounds": [
+        "zero_1611",
+        "logfwhm_1611",
+        "cont1_2382",
+        "logfwhm_2382"
+      ],
+      "stationarity_recomputed": {
+        "coleman_li": 0.02948121531462456,
+        "gradient_mapping": 0.09546548173918956,
+        "column_normalized_gradient": 3.0154382704623224
+      },
+      "json_sha256": "962f46f34a286e6757c52e76ae4f1d5864f97d5787c924ce23ac46814e882ec9",
+      "npz_sha256": "ba2bafced8bf45dcd2d22cbc9f2047ebd396d283d25ddc26bedea91eeb3c0c30"
+    },
+    {
+      "name": "omit1611_n16_null_only_os21",
+      "chi2_recomputed": 300.2483620828069,
+      "maximum_saved_residual_difference": 0.0,
+      "maximum_saved_J_difference": 0.0,
+      "ncomp": 16,
+      "ndata": 327,
+      "npar": 60,
+      "active_bounds": [],
+      "stationarity_recomputed": {
+        "coleman_li": 0.05959292129656351,
+        "gradient_mapping": 0.06751639998688529,
+        "column_normalized_gradient": 0.00023088152695913716
+      },
+      "json_sha256": "cbdec6958fd869e406e781432e5a48b76fac728cffe1cf5a4eeb77b18670fe91",
+      "npz_sha256": "052165332125166cc12d30799d8e273fcf787e93de0ca3b109fc04c51729c0f8"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Exactly20_saved_fit_records",
+      "pass": true
+    },
+    {
+      "name": "Exactly18_primary_grid_records",
+      "pass": true
+    },
+    {
+      "name": "No_saved_free_shift_parameters",
+      "pass": true
+    },
+    {
+      "name": "No_saved_free_shift_fit_files",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n10_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n12_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_refined_os21:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n16_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n4_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n6_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s0_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s1_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "n8_null_s2_os9:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:provenance_hashes",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:parameters_labels_dimensions",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:bounds_feasibility",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:residual_replay",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:Jacobian_replay",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:objective_ndof_AICc",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:fixed_source_pixels_expected_errors",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:all_saved_line_arrays",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:all_saved_line_profiles",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:per_line_objectives",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:active_bounds",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:stationarity_replay",
+      "pass": true
+    },
+    {
+      "name": "omit1611_n16_null_only_os21:successful_optimizer_stop_record",
+      "pass": true
+    },
+    {
+      "name": "quadrature_os33_objective_stable",
+      "pass": true
+    },
+    {
+      "name": "quadrature_os55_objective_stable",
+      "pass": true
+    },
+    {
+      "name": "finite_difference:logN_0",
+      "pass": true,
+      "details": {
+        "relative_l2": 9.98444541818055e-11,
+        "max_absolute": 1.553566164602671e-09
+      }
+    },
+    {
+      "name": "finite_difference:logN_8",
+      "pass": true,
+      "details": {
+        "relative_l2": 1.1503282952236056e-10,
+        "max_absolute": 3.6388776436524495e-09
+      }
+    },
+    {
+      "name": "finite_difference:logN_14",
+      "pass": true,
+      "details": {
+        "relative_l2": 7.695380881001709e-10,
+        "max_absolute": 1.3014976559449836e-09
+      }
+    },
+    {
+      "name": "finite_difference:v_0",
+      "pass": true,
+      "details": {
+        "relative_l2": 1.9360766803485817e-08,
+        "max_absolute": 9.66605822050326e-08
+      }
+    },
+    {
+      "name": "finite_difference:v_8",
+      "pass": true,
+      "details": {
+        "relative_l2": 7.442273986324248e-09,
+        "max_absolute": 2.1375067493778488e-08
+      }
+    },
+    {
+      "name": "finite_difference:v_14",
+      "pass": true,
+      "details": {
+        "relative_l2": 1.298583922868316e-07,
+        "max_absolute": 1.0433211095062234e-07
+      }
+    },
+    {
+      "name": "finite_difference:logb_0",
+      "pass": true,
+      "details": {
+        "relative_l2": 2.35164610753826e-10,
+        "max_absolute": 1.5665051852275315e-09
+      }
+    },
+    {
+      "name": "finite_difference:logb_8",
+      "pass": true,
+      "details": {
+        "relative_l2": 1.9022612375773954e-10,
+        "max_absolute": 2.6789308549268753e-09
+      }
+    },
+    {
+      "name": "finite_difference:logb_14",
+      "pass": true,
+      "details": {
+        "relative_l2": 3.0391337164893517e-09,
+        "max_absolute": 1.2896927062457008e-09
+      }
+    },
+    {
+      "name": "finite_difference:cont0_1608",
+      "pass": true,
+      "details": {
+        "relative_l2": 2.973072715551669e-12,
+        "max_absolute": 3.079421162510698e-10
+      }
+    },
+    {
+      "name": "finite_difference:cont1_1608",
+      "pass": true,
+      "details": {
+        "relative_l2": 3.7516428030462775e-12,
+        "max_absolute": 4.2170000824626186e-10
+      }
+    },
+    {
+      "name": "finite_difference:zero_1608",
+      "pass": true,
+      "details": {
+        "relative_l2": 6.6687940190332286e-12,
+        "max_absolute": 7.811253865952494e-10
+      }
+    },
+    {
+      "name": "finite_difference:logfwhm_1608",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.304835092677158e-09,
+        "max_absolute": 7.274953972569165e-08
+      }
+    },
+    {
+      "name": "finite_difference:cont0_1611",
+      "pass": true,
+      "details": {
+        "relative_l2": 5.355046947095163e-12,
+        "max_absolute": 5.111289169690281e-10
+      }
+    },
+    {
+      "name": "finite_difference:cont1_1611",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.680391348717573e-12,
+        "max_absolute": 4.838014433516946e-10
+      }
+    },
+    {
+      "name": "finite_difference:zero_1611",
+      "pass": true,
+      "details": {
+        "relative_l2": 6.245351724701227e-11,
+        "max_absolute": 4.6209593096424584e-10
+      }
+    },
+    {
+      "name": "finite_difference:logfwhm_1611",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.184632740349953e-06,
+        "max_absolute": 1.2641348497766103e-05
+      }
+    },
+    {
+      "name": "finite_difference:cont0_2374",
+      "pass": true,
+      "details": {
+        "relative_l2": 6.746288961819038e-12,
+        "max_absolute": 3.2796165783111064e-10
+      }
+    },
+    {
+      "name": "finite_difference:cont1_2374",
+      "pass": true,
+      "details": {
+        "relative_l2": 6.282628841643527e-12,
+        "max_absolute": 3.646114521416166e-10
+      }
+    },
+    {
+      "name": "finite_difference:zero_2374",
+      "pass": true,
+      "details": {
+        "relative_l2": 7.707142597064666e-12,
+        "max_absolute": 5.845781066247252e-10
+      }
+    },
+    {
+      "name": "finite_difference:logfwhm_2374",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.258123713807062e-09,
+        "max_absolute": 3.7318995893542706e-08
+      }
+    },
+    {
+      "name": "finite_difference:cont0_2382",
+      "pass": true,
+      "details": {
+        "relative_l2": 2.9303306596129737e-12,
+        "max_absolute": 1.4917489465915423e-10
+      }
+    },
+    {
+      "name": "finite_difference:cont1_2382",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.014236325488812e-12,
+        "max_absolute": 2.2217960804482573e-10
+      }
+    },
+    {
+      "name": "finite_difference:zero_2382",
+      "pass": true,
+      "details": {
+        "relative_l2": 1.4071745321005274e-12,
+        "max_absolute": 1.6258283608294732e-10
+      }
+    },
+    {
+      "name": "finite_difference:logfwhm_2382",
+      "pass": true,
+      "details": {
+        "relative_l2": 4.657316153351581e-09,
+        "max_absolute": 3.7038351718976514e-08
+      }
+    },
+    {
+      "name": "Primary_gate_false",
+      "pass": true
+    },
+    {
+      "name": "Primary_fails_only_1611",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:4",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:6",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:8",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:10",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:12",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_chi2_count:16",
+      "pass": true
+    },
+    {
+      "name": "Minimum_null_AICc_selects16",
+      "pass": true
+    },
+    {
+      "name": "Omission_same327_pixels_errors",
+      "pass": true
+    },
+    {
+      "name": "Omission16_components_null_only",
+      "pass": true
+    },
+    {
+      "name": "Omission_initial_gas_primary",
+      "pass": true
+    },
+    {
+      "name": "Omission_gate_conditional_only",
+      "pass": true
+    }
+  ],
+  "primary_fixed_parameter_quadrature": [
+    {
+      "oversample": 21,
+      "chi2_fixed_parameters": 532.2252737539015,
+      "delta_from_os21": 0.0,
+      "max_residual_change": 0.0,
+      "max_profile_change": 0.0
+    },
+    {
+      "oversample": 33,
+      "chi2_fixed_parameters": 532.2252790726712,
+      "delta_from_os21": 5.318769694895309e-06,
+      "max_residual_change": 0.0010546225920476937,
+      "max_profile_change": 1.2859413045795964e-05
+    },
+    {
+      "oversample": 55,
+      "chi2_fixed_parameters": 532.2252849899054,
+      "delta_from_os21": 1.1236003842896025e-05,
+      "max_residual_change": 0.0015139431088077027,
+      "max_profile_change": 1.846002924774104e-05
+    }
+  ],
+  "checks_total": 304,
+  "checks_pass": 304,
+  "checks_fail": 0,
+  "primary_finite_difference_columns": [
+    {
+      "label": "logN_0",
+      "step": 1e-05,
+      "relative_l2_difference": 9.98444541818055e-11,
+      "max_absolute_difference": 1.553566164602671e-09,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logN_8",
+      "step": 1e-05,
+      "relative_l2_difference": 1.1503282952236056e-10,
+      "max_absolute_difference": 3.6388776436524495e-09,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logN_14",
+      "step": 1e-05,
+      "relative_l2_difference": 7.695380881001709e-10,
+      "max_absolute_difference": 1.3014976559449836e-09,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "v_0",
+      "step": 0.0001,
+      "relative_l2_difference": 1.9360766803485817e-08,
+      "max_absolute_difference": 9.66605822050326e-08,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "v_8",
+      "step": 0.0001,
+      "relative_l2_difference": 7.442273986324248e-09,
+      "max_absolute_difference": 2.1375067493778488e-08,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "v_14",
+      "step": 0.0001,
+      "relative_l2_difference": 1.298583922868316e-07,
+      "max_absolute_difference": 1.0433211095062234e-07,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logb_0",
+      "step": 1e-05,
+      "relative_l2_difference": 2.35164610753826e-10,
+      "max_absolute_difference": 1.5665051852275315e-09,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logb_8",
+      "step": 1e-05,
+      "relative_l2_difference": 1.9022612375773954e-10,
+      "max_absolute_difference": 2.6789308549268753e-09,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logb_14",
+      "step": 1e-05,
+      "relative_l2_difference": 3.0391337164893517e-09,
+      "max_absolute_difference": 1.2896927062457008e-09,
+      "bound_crossing_for_derivative_only": true
+    },
+    {
+      "label": "cont0_1608",
+      "step": 1e-05,
+      "relative_l2_difference": 2.973072715551669e-12,
+      "max_absolute_difference": 3.079421162510698e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont1_1608",
+      "step": 1e-05,
+      "relative_l2_difference": 3.7516428030462775e-12,
+      "max_absolute_difference": 4.2170000824626186e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "zero_1608",
+      "step": 1e-05,
+      "relative_l2_difference": 6.6687940190332286e-12,
+      "max_absolute_difference": 7.811253865952494e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logfwhm_1608",
+      "step": 1e-05,
+      "relative_l2_difference": 4.304835092677158e-09,
+      "max_absolute_difference": 7.274953972569165e-08,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont0_1611",
+      "step": 1e-05,
+      "relative_l2_difference": 5.355046947095163e-12,
+      "max_absolute_difference": 5.111289169690281e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont1_1611",
+      "step": 1e-05,
+      "relative_l2_difference": 4.680391348717573e-12,
+      "max_absolute_difference": 4.838014433516946e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "zero_1611",
+      "step": 1e-05,
+      "relative_l2_difference": 6.245351724701227e-11,
+      "max_absolute_difference": 4.6209593096424584e-10,
+      "bound_crossing_for_derivative_only": true
+    },
+    {
+      "label": "logfwhm_1611",
+      "step": 1e-05,
+      "relative_l2_difference": 4.184632740349953e-06,
+      "max_absolute_difference": 1.2641348497766103e-05,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont0_2374",
+      "step": 1e-05,
+      "relative_l2_difference": 6.746288961819038e-12,
+      "max_absolute_difference": 3.2796165783111064e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont1_2374",
+      "step": 1e-05,
+      "relative_l2_difference": 6.282628841643527e-12,
+      "max_absolute_difference": 3.646114521416166e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "zero_2374",
+      "step": 1e-05,
+      "relative_l2_difference": 7.707142597064666e-12,
+      "max_absolute_difference": 5.845781066247252e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logfwhm_2374",
+      "step": 1e-05,
+      "relative_l2_difference": 4.258123713807062e-09,
+      "max_absolute_difference": 3.7318995893542706e-08,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont0_2382",
+      "step": 1e-05,
+      "relative_l2_difference": 2.9303306596129737e-12,
+      "max_absolute_difference": 1.4917489465915423e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "cont1_2382",
+      "step": 1e-05,
+      "relative_l2_difference": 4.014236325488812e-12,
+      "max_absolute_difference": 2.2217960804482573e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "zero_2382",
+      "step": 1e-05,
+      "relative_l2_difference": 1.4071745321005274e-12,
+      "max_absolute_difference": 1.6258283608294732e-10,
+      "bound_crossing_for_derivative_only": false
+    },
+    {
+      "label": "logfwhm_2382",
+      "step": 1e-05,
+      "relative_l2_difference": 4.657316153351581e-09,
+      "max_absolute_difference": 3.7038351718976514e-08,
+      "bound_crossing_for_derivative_only": false
+    }
+  ],
+  "primary_chi2": 532.2252737539015,
+  "primary_nominal_ndf": 372,
+  "primary_ncomp": 16,
+  "primary_per_line": [
+    {
+      "line": 1608,
+      "ndata": 109,
+      "chi2": 94.30863891281254,
+      "chi2_per_pixel": 0.8652168707597481
+    },
+    {
+      "line": 1611,
+      "ndata": 109,
+      "chi2": 224.37449163200006,
+      "chi2_per_pixel": 2.058481574605505
+    },
+    {
+      "line": 2374,
+      "ndata": 109,
+      "chi2": 117.07489561466,
+      "chi2_per_pixel": 1.0740816111436697
+    },
+    {
+      "line": 2382,
+      "ndata": 109,
+      "chi2": 96.46724759442888,
+      "chi2_per_pixel": 0.885020620132375
+    }
+  ],
+  "primary_gate": false,
+  "primary_failed_gate_lines": [
+    1611
+  ],
+  "omission_chi2": 300.2483620828069,
+  "omission_nominal_ndf": 267,
+  "omission_gate": true,
+  "no_shift_fit_exists": true,
+  "caveats": [
+    "Successful ftol stopping is not tight stationarity or a global optimum. Primary optimality0.210, bound-active logb_14 and zero_1611.",
+    "Sixteen components is the largest searched count with AICc still improving, not an established architecture.",
+    "Four-line primary fails only the1611 per-line gate, and no free shifts are fitted.",
+    "Omission removes a saturation constraint; it uses the same327 retained pixels and16 components, diagnoses sensitivity, and does not replace primary.",
+    "The1611 sky-proxy warning predates fitting but does not establish the origin of its residuals.",
+    "Diagonal expected errors omit covariance/calibration uncertainties; no alpha/time-law evidence follows."
+  ]
+}

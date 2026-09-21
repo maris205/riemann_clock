@@ -1,0 +1,87 @@
+null_cross: ndata=2931 npar=147 initial chi2=2577.812252
+null_cross: evaluation 25, chi2=2308.4830374
+null_cross: evaluation 50, chi2=2306.7555134
+null_cross: evaluation 75, chi2=2305.7173237
+null_cross: evaluation 100, chi2=2305.5714382
+null_cross: evaluation 125, chi2=2305.5313566
+null_cross: evaluation 150, chi2=2305.4914398
+{
+  "name": "null_cross",
+  "free_shifts": false,
+  "configuration": {
+    "rho": 0.0,
+    "fwhm_scale": 1.0,
+    "error_row": 1,
+    "oversample": 9,
+    "exclude": [],
+    "continuum": true,
+    "strength_nuisance": false,
+    "zero_nuisance": false
+  },
+  "ndata": 2931,
+  "npar": 147,
+  "nominal_ndf": 2784,
+  "chi2": 2305.4905409518874,
+  "chi2_per_nominal_ndf": 0.8281216023534078,
+  "nominal_chi2_survival": 0.9999999999952187,
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 152,
+  "optimality": 3.1679682415651937,
+  "seconds": 213.1226053237915,
+  "jacobian_rank": 147,
+  "active_bounds": [
+    "v_0",
+    "v_5",
+    "v_17",
+    "v_24",
+    "v_25",
+    "v_27",
+    "v_29",
+    "v_42",
+    "logb_17",
+    "logb_31",
+    "logb_36",
+    "continuum0_2382"
+  ],
+  "shifts_km_s": {},
+  "per_line": [
+    {
+      "line": 2260,
+      "ndata": 277,
+      "chi2": 181.48783065737032,
+      "chi2_per_pixel": 0.6551907243948387
+    },
+    {
+      "line": 2344,
+      "ndata": 430,
+      "chi2": 384.3593496461794,
+      "chi2_per_pixel": 0.8938589526655335
+    },
+    {
+      "line": 2374,
+      "ndata": 508,
+      "chi2": 394.82474890878456,
+      "chi2_per_pixel": 0.7772140726550877
+    },
+    {
+      "line": 2382,
+      "ndata": 579,
+      "chi2": 470.97914453782636,
+      "chi2_per_pixel": 0.8134354827941733
+    },
+    {
+      "line": 2586,
+      "ndata": 560,
+      "chi2": 397.2610032301278,
+      "chi2_per_pixel": 0.7093946486252283
+    },
+    {
+      "line": 2600,
+      "ndata": 577,
+      "chi2": 476.5784639715983,
+      "chi2_per_pixel": 0.8259592096561496
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}

@@ -1,0 +1,131 @@
+{
+  "target": "J053007-250329",
+  "z": 2.141,
+  "lines": [
+    1608,
+    1611,
+    2374,
+    2382
+  ],
+  "window": [
+    -110.0,
+    130.0
+  ],
+  "component_bounds": [
+    -95.0,
+    122.0
+  ],
+  "logtotal": 15.1,
+  "component_counts": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "centers_by_n": {
+    "4": [
+      -45,
+      3,
+      52,
+      91
+    ],
+    "6": [
+      -77,
+      -45,
+      3,
+      38,
+      82,
+      107
+    ],
+    "8": [
+      -77,
+      -49,
+      -30,
+      -8,
+      9,
+      40,
+      82,
+      106
+    ],
+    "10": [
+      -77,
+      -50,
+      -34,
+      -18,
+      3,
+      17,
+      42,
+      65,
+      83,
+      107
+    ],
+    "12": [
+      -77,
+      -52,
+      -40,
+      -28,
+      -14,
+      1,
+      12,
+      28,
+      48,
+      65,
+      83,
+      107
+    ],
+    "16": [
+      -78,
+      -56,
+      -47,
+      -38,
+      -29,
+      -20,
+      -10,
+      0,
+      9,
+      18,
+      30,
+      48,
+      65,
+      83,
+      99,
+      113
+    ]
+  },
+  "fixed_before_any_relative_shift_fit": true,
+  "selection_basis": "Shared absorption extent inspected in native full coadd over +/-500 km/s. Main complex, isolated -77 component and +80 complex present in 1608/2374/2382. Clean weak1611 constrains column and saturation. Window has continuum at both ends; unrelated1608 absorption beyond+145 and 2382 blends near+300 not included. No residual clipping. Lines2344,2249,2260 excluded by previously frozen broadwater-band policy. 2586/2600 not eligible under original metadata mask.",
+  "noise": "expected_fluctuation",
+  "line_summary": [
+    {
+      "line": 1608,
+      "wavelength_reference_AA": 1608.4508522723688,
+      "pixels": 120,
+      "median_expected_error": 0.008446278696005588,
+      "minflux": 0.00721887160375472
+    },
+    {
+      "line": 1611,
+      "wavelength_reference_AA": 1611.200368969589,
+      "pixels": 120,
+      "median_expected_error": 0.009191687007892158,
+      "minflux": 0.846989577991619
+    },
+    {
+      "line": 2374,
+      "wavelength_reference_AA": 2374.4600639902396,
+      "pixels": 120,
+      "median_expected_error": 0.022398647058997828,
+      "minflux": 0.010506722550190235
+    },
+    {
+      "line": 2382,
+      "wavelength_reference_AA": 2382.7639949541563,
+      "pixels": 120,
+      "median_expected_error": 0.021067309756243963,
+      "minflux": -0.010378623592273135
+    }
+  ],
+  "coadd_sha256": "76fa188f5eb17423e208e4619ce3aa02e9b4a11ad0229e98d6f3892de5abe30f"
+}

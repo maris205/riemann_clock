@@ -1,0 +1,165 @@
+{
+  "frozen_utc": "2026-09-21T04:05:55.252766+00:00",
+  "authorization": "Bounded failure-case diagnostic requested by root after primary adequacy gate failed; amendment recorded before additional fits.",
+  "scientific_reason": "A conventional-model quality gate must not prevent testing whether free shifts can repair its gross mismatch, or be mistaken for a population-wide no-variation conclusion.",
+  "primary_disposition_preserved": "Primary descriptor D remains not estimated; any diagnostic shift stays nonprecision regardless of delta_chi2.",
+  "target": "J233156-090802",
+  "configuration_sha256": "5202efc55d480498f70230755819284699e9bf8685caf48ae0c2cac55742aaeb",
+  "configuration": {
+    "target": "J233156-090802",
+    "z": 2.143,
+    "lines": [
+      1608,
+      2374,
+      2382
+    ],
+    "window": [
+      -480.0,
+      500.0
+    ],
+    "component_bounds": [
+      -465.0,
+      480.0
+    ],
+    "centers": [
+      -425.0,
+      -400.0,
+      -375.0,
+      -355.0,
+      -335.0,
+      -315.0,
+      -295.0,
+      -270.0,
+      -240.0,
+      -220.0,
+      -200.0,
+      -150.0,
+      -115.0,
+      -80.0,
+      25.0,
+      72.0,
+      180.0,
+      360.0,
+      455.0
+    ],
+    "logtotal": 15.4,
+    "component_counts": [
+      6,
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_nfev": 350,
+    "selection_stage": "Frozen after raw profile and AOD inspection, before nonlinear or relative-shift fitting.",
+    "selection_reason": "Before any fit, independent raw-profile review showed weak 2374 counterparts to detached red 2382 clouds; expand all three native windows to [-480,+500] km/s to include them alongside dominant complex. Same-gas1611 overlaps red1608 region and its opacity is explicitly summed with1608 before transmission and instrumental integration.",
+    "excluded_lines": {
+      "1611": "Not a fourth independent region: blue1611 overlaps strong1608 from same gas, while1611 opacity is explicitly included inside1608 region.",
+      "2249,2260,2344": "Retain earlier broad atmospheric-water warnings.",
+      "2586,2600": "Retain earlier coverage/quality exclusions."
+    },
+    "outside_window_features": "Finite [-480,+500] exploratory window includes visible dominant and detached red Fe candidates. No residual clipping; complete cosmic/kinematic population is not claimed.",
+    "limitations": [
+      "Exploratory data-inspected selection, not blind confirmation.",
+      "Strong 2382 saturated across roughly 400 km/s.",
+      "Twenty-six shared gas components may still be insufficient; inadequacy is retained as an outcome.",
+      "No alpha or cosmic-time-law parameter is fitted.",
+      "Region1608 nuisance shift moves both1608 and neighboring1611; it is not an isolated-transition measurement.",
+      "Broad-band avoidance does not establish absence of weak tellurics or blends."
+    ],
+    "pixel_diagnostics": {
+      "1608": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "1611": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "2374": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "2382": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      }
+    },
+    "source_sha256": "80276c58831dc457e9c7f02521ef4883311fa9c2057e5a4306454c607c13b4d0",
+    "selection_script_sha256": "ff40e30b6feb9c71e0fc88abac3384288b112edcb17c67296b354140af62561e",
+    "frozen_utc": "2026-09-21T03:44:10.511005+00:00",
+    "counts_amendment": "Before any fit: campaign review of 630 km/s full-system span increased finite count grid to [6,10,14,18,22,26]. Initial proposal preserved in selection_initial_counts.json. No shift result existed at amendment.",
+    "campaign_bounds": {
+      "continuum0": [
+        -0.1,
+        0.1
+      ],
+      "continuum_slope_per100km_s": [
+        -0.03,
+        0.03
+      ],
+      "zero": [
+        -0.02,
+        0.02
+      ],
+      "lsf_relative": [
+        0.6,
+        1.4
+      ],
+      "b_km_s": [
+        0.5,
+        30
+      ],
+      "logN": [
+        9,
+        17
+      ]
+    },
+    "opacity_lines": {
+      "1608": [
+        1608,
+        1611
+      ]
+    },
+    "neighbor_opacity_adapter": "code/archive_complete_j2331_model.py",
+    "neighbor_opacity_adapter_sha256": "9167a0fffb5bbb1e05b252241e23a05f56d72c11a133182b67a9904bbc5c2a20",
+    "expansion_amendment": "Approved and frozen before any nonlinear fit; previous common window saved in selection_dominant_complex_before_expansion.json."
+  },
+  "initial_primary_null_file": "results/archive_complete/J233156-090802/n26_null_refined_os21.json",
+  "initial_primary_null_sha256": "c75a19b35fdde6199296bf97dcbc95e342fde231fa6888b87d983631843d7b0b",
+  "initial_primary_null_npz_sha256": "c511c9425f105020e349222b38f35595a009f8b1fb1cea187819123b59a703b2",
+  "initial_primary_null_chi2": 1672.841768419044,
+  "ncomp": 26,
+  "native_pixels": 1176,
+  "unique_source_indices": 1176,
+  "same_pixels_H0_H1": true,
+  "neighbor_opacity": "Same-gas1611 included only inside1608 region; no extra likelihood region.",
+  "oversample": 21,
+  "first_H1_max_nfev": 600,
+  "H0_cross_max_nfev": 500,
+  "optional_H1_cross_max_nfev": 500,
+  "optional_cross_trigger": "Run one H1 cross if H0 cross improves primary H0 by more than 0.001 in chi2.",
+  "profile_uncertainty": false,
+  "free_shift_bounds_km_s": [
+    -1.0,
+    1.0
+  ],
+  "model_adapter_sha256": "9167a0fffb5bbb1e05b252241e23a05f56d72c11a133182b67a9904bbc5c2a20",
+  "shared_engine_sha256": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416",
+  "runner_sha256": "c2986adfc74e559af1bc47e5e76a908253db4e4f637f64dabd0885906bb235fe",
+  "limitations": [
+    "Exploratory and prompted by observed ordinary-model inadequacy.",
+    "No calibrated discovery significance, precision line-shift datum, alpha inference or cosmic-age-law fit.",
+    "Calibration, blends, gas architecture, active boundaries and local minima remain unresolved."
+  ]
+}

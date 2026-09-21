@@ -1,0 +1,8 @@
+{
+  "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT+TOP+10+obs_publisher_did%2Cobs_collection%2Cobs_id%2Ctarget_name%2Cinstrument_name%2Cdataproduct_type%2Ccalib_level%2Ct_min%2Ct_max%2Caccess_url%2Caccess_estsize+FROM+ivoa.ObsCore+WHERE+instrument_name%3D%27ESPRESSO%27+AND+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cs_ra%2Cs_dec%29%2CCIRCLE%28%27ICRS%27%2C79.281274%2C-44.18205%2C0.01%29%29+ORDER+BY+t_min",
+  "status": 200,
+  "retrieved_utc": "2026-09-21T03:46:32.237068+00:00",
+  "bytes": 4547,
+  "sha256": "c8b0d8d84e1cfaf65dc86d8b3c0dfdba30d9427920ef3d6f46871271e08a6358",
+  "path": "riemann_clock/experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/eso_tap_reduced_products.json"
+}

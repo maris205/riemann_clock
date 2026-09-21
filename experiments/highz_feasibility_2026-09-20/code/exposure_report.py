@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""Generate the Chinese evidence report from final archived fit products."""
+from pathlib import Path
+import json,collections,numpy as np
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/exposures'
+s=json.loads((OUT/'summary.json').read_text());d=json.loads((OUT/'diagnostics.json').read_text());r=json.loads((OUT/'fit_rows.json').read_text());m=json.loads((ROOT/'data/processed/exposures/metadata.json').read_text());manifest=json.loads((ROOT/'data/raw/exposures/manifest.json').read_text())
+p=s['primary'];a=p['all_exposures'];order=d['order_difference'];orderlsf=d['order_difference_free_lsf'];tr=d['trace_difference'];bound=collections.Counter(x['configuration'] for x in r if x['bound_active'])
+f=lambda x:f'{x:.2f}'
+text=f'''# ESPRESSO 逐次曝光、观测批次与重复级次检验
+
+这是对现有数据的一次实际补充计算，不是数据可用性清单。已取得全部 17 次公开 ESPRESSO 光谱，在原生波长像素上拟合 Fe II 2374、2382、2600，并比较曝光、观测批次、两个提取迹线和相邻阶梯光栅级次。
+
+**主要发现：固定气体模板下，逐次曝光与合并谱给出相近的结果，没有明显的曝光间或批次间额外差异；但同一条 Fe II 2600 在两个相邻级次中的速度有约 60 m/s 的差异。这是继续检查仪器、提取或线形模型的具体线索，不能解释成宇宙时间变化。**
+
+## 数据与选择
+
+- 来源：[作者数据仓库](https://github.com/MTMurphy77/ESPRESSO_HE0515-4414)，固定提交 `{manifest['commit']}`；数据 DOI [10.5281/zenodo.5512490](https://doi.org/10.5281/zenodo.5512490)。科学出处为 [Murphy et al. 2022](https://doi.org/10.1051/0004-6361/202142257)。
+- 实际下载 17 个 S2D FITS，每个 65,203,200 字节，共 {manifest['total_bytes']:,} 字节；每个文件同时验证 SHA256 与固定 Git 树中的 blob SHA1。
+- 曝光日期 2018-11-04 至 2020-03-21，总曝光 {sum(e['exptime_s'] for e in m['exposures'])/3600:.4f} 小时；预定义时间分组为 2018 年 9 次、2019–2020 年 8 次。这两组具有不同曝光光子，但来自同一吸收系统、同一宇宙年龄。
+- 使用 `SCIDATA`、`ERRDATA` 和 `QUALDATA`，原生波长为 `WAVEDATA_VAC_BARY`：真空 Å，已完成太阳系质心校正，未重复加减 BERV。每个 FITS 为 170×9111 数组，相邻行是同一物理级次的两个迹线。
+- 2374 主要使用 FITS 行 82、83；2382 使用 82–85；2600 使用 104–107（均为从 0 开始的行号）。两个级次都观测同一条跃迁，因此相同跃迁的级次对比无需原子灵敏度系数。
+- 先应用 `QUALDATA==0`、有限通量、正误差及作者固定的拟合波长区间。另将原始 UPL 的 213 个相关曝光/级次裁剪矩形保守映射到重叠的原生波长箱，额外去掉 {d['total_published_mask_transferred_rejections']:,} 个像素。没有根据本次拟合残差进行新裁剪。
+- 原作者的地球大气掩膜位于观测者波长系；按每次曝光的 BERV 转移，并扩展 ±0.25 km/s 以保守容纳此转移近似，再按原生箱重叠屏蔽，额外去掉 {d['total_atmospheric_mask_transferred_rejections']:,} 个像素。主要涉及早期曝光的 2600 蓝端。这个处理不是逐步执行原始 UVES_popler 日志的精确再现。
+- 最终三条线合计 {d['total_good_native_pixels']:,} 个原生有效像素。数据没有重采样到共同网格，也没有按 DLLDATA 再除以像素宽度。
+
+## 计算的量及其限制
+
+使用与此前分析一致的 45 个 Fe II 气体分量、固定实验室同位素数据，先求总光学深度并取指数，再卷积 Gaussian 仪器响应；最后对每个原生波长像素用 7 点 Gauss–Legendre 求积积分。内网格为 0.025 km/s。每个曝光、每条线、每个级次/迹线有独立的连续谱振幅、斜率和加性零点。
+
+本轮将气体参数固定在此前 `null_cross` 解，因此是**固定共享气体模板的稳定性检验**。每条线拟合一个速度，然后以 2374 的速度作为共同曝光速度，形成两项相对位移。误差矩阵显式保留共同 2374 参考线导致的协方差。这与同时参数化共同曝光速度和两个额外相对位移等价。
+
+**所有误差、χ² 和 p 值均以固定模板及对角 ERRDATA 噪声为条件。** 气体模板来自这些曝光组成的同一合并谱，绝对偏移均值不是独立验证；不同曝光和迹线也可能共享波长标定、提取系统误差。没有将本轮的几个十 m/s 与此前全面重拟合气体后的约 100 m/s 当成同一个估计量比较。
+
+## 曝光与合并谱的同方法对照
+
+| 相对位移 | 17 次曝光条件加权均值（m/s） | 同一固定模板方法直接拟合合并谱（m/s） |
+|---|---:|---:|
+| Fe II 2382 − 2374 | {a['mean_relative_m_s'][0]:.2f} ± {a['conditional_sigma_m_s'][0]:.2f} | {d['coadd_same_fixed_template']['relative_m_s'][0]:.2f} |
+| Fe II 2600 − 2374 | {a['mean_relative_m_s'][1]:.2f} ± {a['conditional_sigma_m_s'][1]:.2f} | {d['coadd_same_fixed_template']['relative_m_s'][1]:.2f} |
+
+这项对照支持两种输入表示下的计算相容；由于同源，不能计算“两个独立测量之差”的显著性。
+
+17 次曝光的两维相对位移围绕共同均值的条件异质性统计为 χ²={a['heterogeneity_chi2']:.3f}，32 个自由度，条件 p={a['conditional_heterogeneity_p']:.3f}。2018 与 2019–2020 的两维差异为 χ²={p['chronological_difference']['chi2']:.3f}/2，条件 p={p['chronological_difference']['conditional_p']:.3f}。这轮诊断没有显示需要额外的曝光间或批次间变化。
+
+但是，原始像素整体拟合的名义 χ²/自由度为 {sum(x['chi2'] for x in r if x['configuration']=='primary')/sum(x['ndata']-x['npar'] for x in r if x['configuration']=='primary'):.3f}，说明固定模板和误差模型不是完美描述；不能将条件误差当作完整系统误差预算。
+
+## 迹线与相邻级次
+
+两个迹线的两维平均相对位移差为 ({tr['mean_relative_m_s'][0]:.2f}, {tr['mean_relative_m_s'][1]:.2f}) m/s，条件联合 p={tr['conditional_zero_difference_p']:.3f}，没有明显的迹线分组差异。
+
+对相邻级次采用**每次曝光中同一条跃迁的直接速度差**：低索引级次减高索引级次，然后汇总。2374 参考线在这项差中严格消掉，因此误差里没有重复加入参考线噪声；两个待比级次的原生像素互不重叠。
+
+| 同一跃迁的级次速度差 | 固定 Gaussian LSF（m/s） | 每级次允许 LSF 宽度变化（m/s） |
+|---|---:|---:|
+| Fe II 2382 | {order['mean_relative_m_s'][0]:.2f} ± {order['conditional_sigma_m_s'][0]:.2f} | {orderlsf['mean_relative_m_s'][0]:.2f} ± {orderlsf['conditional_sigma_m_s'][0]:.2f} |
+| Fe II 2600 | {order['mean_relative_m_s'][1]:.2f} ± {order['conditional_sigma_m_s'][1]:.2f} | {orderlsf['mean_relative_m_s'][1]:.2f} ± {orderlsf['conditional_sigma_m_s'][1]:.2f} |
+
+固定宽度的两维零差异条件 p={order['conditional_zero_difference_p']:.5f}；允许宽度变化后为 {orderlsf['conditional_zero_difference_p']:.5f}。这是看到级次依赖后进行的诊断，不是预注册发现检验，也未作多重检验或未知噪声协方差校准，不能转换为新物理发现的 σ。
+
+2600 级次差在 Gaussian 宽度自由度下仍存在，因而单纯微调对称线宽没有消除它。但 Gaussian 模型未涵盖不对称仪器响应和标定畸变；每级次自由线宽的两个配置各有 {bound.get('lower_order_free_lsf',0)}、{bound.get('upper_order_free_lsf',0)} 个线拟合碰到 [1.6, 2.6] km/s 边界，全部级次一起拟合的自由线宽配置有 {bound.get('free_lsf',0)} 个。碰界条件误差的 Gaussian 近似尤其有限。
+
+**物理上，同一条跃迁在同一次曝光中的真实天体频率，不应因落在不同仪器级次而改变。** 这个差异提示需要处理仪器响应、标定、提取或模板近似的组合影响。它不能证明此前全部相对位移都由仪器引起，但说明几十 m/s 尺度的常规解释空间尚未排除。
+
+## 已完成的控制与尚未完成的工作
+
+共运行 9 个配置×17 次曝光×3 条线={len(r)} 个线拟合，{sum(x['optimizer_success'] for x in r)}/{len(r)} 返回成功优化终止：全部迹线固定宽度、全部迹线自由宽度、单独两迹线、单独低/高级次、作者已发表气体模板，以及见到级次差后追加的两项逐级次自由宽度控制。改变到作者原始气体模板是形状敏感性控制，同样来自该合并谱。
+
+这次没有重新从 CCD 像素提取光谱，没有完整重放 UPL，也没有在每个低信噪曝光中重新拟合全部气体结构；未取得每次提取的完整响应矩阵及噪声协方差。这些限制已经阻止把偏移解读成物理常数随时间变化。后续需要独立仪器响应、标定或更完整联合曝光模型来说明级次差；增加同一吸收体的曝光不会自动提供多个宇宙年龄。
+
+## 独立复核
+
+独立核查对最终结果执行 8,476 项检查，全部通过：17 个原始 FITS 与 Git blob 哈希、原始数组与原始 UPL/大气掩膜重建、独立 QR 连续谱求解和全部拟合目标函数、中心差分导数及协方差、迹线/级次/批次独立光子集合、共同参考线的协方差消去。协方差复算最大相对差 4.09×10⁻⁵；换成另一种固定连续谱后投影的 Fisher 构造，条件标准差最多相差 0.208%。抽查九个更细网格和更高求积阶数的重拟合，位移变化小于 0.000006 m/s。
+
+这些检查验证实现与可复算性，并不验证误差模型完备、全局最优唯一或新物理。详见 `reports/exposure_validation.md`。
+
+## 复算入口与工件
+
+```bash
+python code/exposure_fetch.py
+python code/exposure_provenance_review.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/exposure_analysis.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/exposure_diagnostics.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/exposure_validate.py
+python code/exposure_report.py
+```
+
+- `data/raw/exposures/manifest.json`：17 个 FITS 的固定来源、长度、Git blob 与 SHA256。
+- `data/processed/exposures/metadata.json` 及 `exposure_00.npz`–`exposure_16.npz`：实际选择的原生数组、像素号、掩膜及曝光元数据。
+- `results/exposures/fit_rows.json`：459 个拟合的速度、条件协方差、逐行连续谱、模型和残差。
+- `results/exposures/summary.json`、`diagnostics.json`：所有曝光、批次、迹线、级次与同方法合并谱对照。
+- `results/exposures/exposure_consistency.pdf` / `.png`：逐次曝光及分组对照图。
+- `reports/exposure_provenance_review.md`、`results/exposures/validation.json`：独立来源与数值核查（以最终核查状态为准）。
+
+结论范围：本次工作让“先排除常规解释”更具体，并找到了值得优先处理的级次相关差异；没有拟合宇宙时间律，也没有建立与 1/ln²(t/t*) 假说的实证联系。
+'''
+(ROOT/'reports/exposure_results_cn.md').write_text(text)

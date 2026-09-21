@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+    <TABLE>
+      <INFO name="QUERY_STATUS" value="OK" />
+      <FIELD name="ID" datatype="char" ucd="meta.id;meta.main" arraysize="*" />
+      <FIELD name="access_url" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <FIELD name="service_def" datatype="char" ucd="meta.ref" arraysize="*" />
+      <FIELD name="error_message" datatype="char" ucd="meta.code.error" arraysize="*" />
+      <FIELD name="semantics" datatype="char" ucd="meta.code" arraysize="*" />
+      <FIELD name="description" datatype="char" ucd="meta.note" arraysize="*" />
+      <FIELD name="content_type" datatype="char" ucd="meta.code.mime" arraysize="*" />
+      <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+      <FIELD name="eso_origfile" datatype="char" ucd="meta.id;meta.file" arraysize="*" />
+      <FIELD name="eso_category" datatype="char" ucd="meta.code.class;meta.dataset" arraysize="*" />
+      <FIELD name="eso_datalink" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ADP.2021-04-14T13:40:23.131]]></TD>
+            <TD />
+            <TD />
+            <TD>#this</TD>
+            <TD>Requested file</TD>
+            <TD>application/x-fits-bintable</TD>
+            <TD>55108800</TD>
+            <TD>ES_SFLX_2176087_2018-11-04T07:00:00.643_HR_2x1_U3.fits</TD>
+            <TD>SCIENCE.SPECTRUM</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD />
+            <TD>ADP.2021-04-14T13:40:23.131_soda</TD>
+            <TD />
+            <TD>#cutout</TD>
+            <TD>Cutout of #this (SODA-sync)</TD>
+            <TD>application/x-fits-bintable</TD>
+            <TD />
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://archive.eso.org/previews/v1/files/ADP.2021-04-14T13:40:23.131/preview?format=DOWNLOAD]]></TD>
+            <TD />
+            <TD />
+            <TD>#preview</TD>
+            <TD>PDF preview of the requested file</TD>
+            <TD>application/pdf</TD>
+            <TD>1000000</TD>
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://archive.eso.org/dataset/ADP.2021-04-14T13:40:23.131]]></TD>
+            <TD />
+            <TD />
+            <TD>#preview</TD>
+            <TD>HTML representation of the dataset</TD>
+            <TD>text/html</TD>
+            <TD>1000000</TD>
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ADP.2021-04-14T13:40:23.132]]></TD>
+            <TD />
+            <TD />
+            <TD>#auxiliary</TD>
+            <TD>Ancillary file associated to the requested file</TD>
+            <TD>application/fits</TD>
+            <TD>19644480</TD>
+            <TD>ES_SFLB_2176087_2018-11-04T07:00:00.643_HR_2x1_U3.fits</TD>
+            <TD>ANCILLARY.SPECTRUM</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-04-14T13:40:23.132</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ADP.2021-04-14T13:40:23.133]]></TD>
+            <TD />
+            <TD />
+            <TD>#auxiliary</TD>
+            <TD>Ancillary file associated to the requested file</TD>
+            <TD>application/x-tar</TD>
+            <TD>201902080</TD>
+            <TD>ES_SFLX_2176087_2018-11-04T07:00:00.643_HR_2x1_U3.tar</TD>
+            <TD>ANCILLARY.2DECHELLE.TAR</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-04-14T13:40:23.133</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ADP.2021-04-14T13:40:23.134]]></TD>
+            <TD />
+            <TD />
+            <TD>#auxiliary</TD>
+            <TD>Ancillary file associated to the requested file</TD>
+            <TD>image/png</TD>
+            <TD>158760</TD>
+            <TD>r.ESPRE.2018-11-04T07:00:00.643_0000.png</TD>
+            <TD>ANCILLARY.PREVIEW</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-04-14T13:40:23.134</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ESPRE.2018-11-04T07:00:00.643]]></TD>
+            <TD />
+            <TD />
+            <TD>#progenitor</TD>
+            <TD>File used to generate the requested file (processing provenance)</TD>
+            <TD>application/fits</TD>
+            <TD>58215697</TD>
+            <TD />
+            <TD />
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131</TD>
+            <TD><![CDATA[https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131&eso_download=data_documentation]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#data_documentation</TD>
+            <TD>Release description of the collection the requested file belongs to</TD>
+            <TD>application/pdf</TD>
+            <TD>1000000</TD>
+            <TD />
+            <TD />
+            <TD />
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+  <RESOURCE ID="ADP.2021-04-14T13:40:23.131_soda" type="meta" utype="adhoc:service">
+    <PARAM arraysize="*" datatype="char" name="accessURL" ucd="meta.ref.url" value="https://dataportal.eso.org/dataPortal/soda/sync" />
+    <PARAM arraysize="*" datatype="char" name="standardID" value="ivo://ivoa.net/std/SODA#sync-1.0" />
+    <GROUP name="inputParams">
+      <PARAM arraysize="*" datatype="char" name="ID" ucd="meta.id;meta.dataset" value="ivo://eso.org/ID?ADP.2021-04-14T13:40:23.131">
+        <DESCRIPTION>The publisher DID of the dataset of interest</DESCRIPTION>
+      </PARAM>
+      <PARAM arraysize="2" datatype="double" name="BAND" ucd="em.wl;stat.interval" unit="m" value="" xtype="interval">
+        <DESCRIPTION>The wavelength intervals to be extracted</DESCRIPTION>
+        <VALUES>
+          <MAX value="3.7719999999999996E-7 7.89997E-7" />
+        </VALUES>
+      </PARAM>
+    </GROUP>
+  </RESOURCE>
+</VOTABLE>

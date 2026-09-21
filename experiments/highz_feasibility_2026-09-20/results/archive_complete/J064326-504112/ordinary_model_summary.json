@@ -1,0 +1,214 @@
+{
+  "target": "J064326-504112",
+  "by_count": [
+    {
+      "ncomp": 4,
+      "name": "n4_null_s2_os9",
+      "chi2": 4294.8418388759455,
+      "nominal_ndf": 408,
+      "aicc": 4354.832010866117,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 2025.8239847949521,
+          "chi2_per_pixel": 18.58554114490782
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 299.17139555199714,
+          "chi2_per_pixel": 2.7446917023119
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 498.0307907161426,
+          "chi2_per_pixel": 4.569089823083877
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 1471.8156678128541,
+          "chi2_per_pixel": 13.502896034980314
+        }
+      ]
+    },
+    {
+      "ncomp": 6,
+      "name": "n6_null_s2_os9",
+      "chi2": 1526.090181393597,
+      "nominal_ndf": 402,
+      "aicc": 1600.0253434883602,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 384.45796294118327,
+          "chi2_per_pixel": 3.5271372746897547
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 279.6504120497496,
+          "chi2_per_pixel": 2.5656001105481616
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 161.87863209913928,
+          "chi2_per_pixel": 1.485125065129718
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 700.103174303525,
+          "chi2_per_pixel": 6.422964901867202
+        }
+      ]
+    },
+    {
+      "ncomp": 8,
+      "name": "n8_null_s2_os9",
+      "chi2": 879.9088394299667,
+      "nominal_ndf": 396,
+      "aicc": 968.2126368983212,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 255.53923238380955,
+          "chi2_per_pixel": 2.3443966273743997
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 295.20700654461336,
+          "chi2_per_pixel": 2.7083211609597555
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 139.747809883333,
+          "chi2_per_pixel": 1.2820899989296604
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 189.41479061821093,
+          "chi2_per_pixel": 1.737750372644137
+        }
+      ]
+    },
+    {
+      "ncomp": 10,
+      "name": "n10_null_s2_os9",
+      "chi2": 623.0236166387185,
+      "nominal_ndf": 390,
+      "aicc": 726.1392978726517,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 120.08299787373919,
+          "chi2_per_pixel": 1.101678879575589
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 235.5244062224947,
+          "chi2_per_pixel": 2.160774369013713
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 120.2474451797756,
+          "chi2_per_pixel": 1.103187570456657
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 147.1687673627089,
+          "chi2_per_pixel": 1.3501721776395312
+        }
+      ]
+    },
+    {
+      "ncomp": 12,
+      "name": "n12_null_s2_os9",
+      "chi2": 581.7015466690208,
+      "nominal_ndf": 384,
+      "aicc": 700.093191577637,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 118.11514886503562,
+          "chi2_per_pixel": 1.0836252189452809
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 231.06435952735873,
+          "chi2_per_pixel": 2.1198565094253095
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 117.0589768686281,
+          "chi2_per_pixel": 1.0739355676020925
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 115.46306140799824,
+          "chi2_per_pixel": 1.059294141357782
+        }
+      ]
+    },
+    {
+      "ncomp": 16,
+      "name": "n16_null_s2_os9",
+      "chi2": 532.2270163139742,
+      "nominal_ndf": 372,
+      "aicc": 682.6528923247558,
+      "optimizer_success": true,
+      "per_line": [
+        {
+          "line": 1608,
+          "ndata": 109,
+          "chi2": 94.31577468660855,
+          "chi2_per_pixel": 0.8652823365743904
+        },
+        {
+          "line": 1611,
+          "ndata": 109,
+          "chi2": 224.36885463332737,
+          "chi2_per_pixel": 2.058429859021352
+        },
+        {
+          "line": 2374,
+          "ndata": 109,
+          "chi2": 117.07692083812668,
+          "chi2_per_pixel": 1.0741001911754742
+        },
+        {
+          "line": 2382,
+          "ndata": 109,
+          "chi2": 96.46546615591157,
+          "chi2_per_pixel": 0.8850042766597391
+        }
+      ]
+    }
+  ],
+  "selected_null": "n16_null_refined_os21",
+  "ncomp": 16,
+  "selection_reason": "Minimum null AICc among saved successful stops. Also retain best incomplete endpoint. No component selection by displacement or free-shift improvement.",
+  "best_incomplete_endpoint": null,
+  "passes_conditional_adequacy_gate": false
+}

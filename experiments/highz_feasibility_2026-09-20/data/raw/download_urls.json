@@ -1,0 +1,12 @@
+{
+  "README.md": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/README.md",
+  "LICENSE": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/LICENSE",
+  "Notes_FITS_Files.txt": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/Notes_FITS_Files.txt",
+  "DR1_quasars_master.csv": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/DR1_quasars_master.csv",
+  "DR1_DLAs.csv": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/DLAs/DR1_DLAs.csv",
+  "catalog_portal_metadata.json": "https://dmc.datacentral.org.au/api/3/action/package_show?id=uves-squad-dr1",
+  "paper_accepted_2018-10-16.tex": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/Paper/src/paper_accepted_2018-10-16.tex",
+  "eso_release_announcement.html": "https://www.eso.org/sci/publications/announcements/sciann17192.html",
+  "J034943-381030_Final_Spectrum.tar.gz": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/b1ddfba2-62cf-4dbd-9b82-4460fb454688/download/j034943-381030finalspectrum.tar.gz",
+  "J051707-441055_Final_Spectrum.tar.gz": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/c4f30c35-51bc-4db8-acd9-5f9ab5f446c3/download/j051707-441055finalspectrum.tar.gz"
+}

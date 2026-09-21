@@ -1,0 +1,177 @@
+\documentclass[aps,pra,onecolumn,amsmath,amssymb,nofootinbib,superscriptaddress,floatfix,11pt]{revtex4-2}
+\usepackage{graphicx,booktabs,xcolor}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Finite-Resource Estimates of Riemann Zeros: Laboratory Diagnostics and a Conditional Cosmic-Time Hypothesis},pdfauthor={Liang Wang}}
+\setlength{\emergencystretch}{4em}
+\graphicspath{{../figures/}}
+\begin{document}
+\title{Finite-Resource Estimates of Riemann Zeros: Laboratory Diagnostics and a Conditional Cosmic-Time Hypothesis}
+\author{Liang Wang}
+\email{wangliang.f@gmail.com}
+\noaffiliation
+\date{September 21, 2026 --- working manuscript}
+\begin{abstract}
+Physical systems can encode functions whose zeros correspond to Riemann-zero ordinates, but estimation precision depends on encoding, calibration, noise and resources. We reassess whether experiments support a universal observable-height ceiling or its increase with cosmic age. Reanalysis of 269 published trapped-ion estimates finds setting-dependent uncertainties without a common endpoint breakdown. A July 2026 nuclear-spin experiment supplies processed data near the first five zeros; its higher-index demonstrations are simulations. Motivated by a published numerical correspondence involving a non-autonomous quadratic map, we formulate an inverse-log-squared dependence for an additional uncertainty scale. At an illustrative Planck-time reference scale, its present fractional drift is approximately $-1.03\times10^{-12}\,\mathrm{yr}^{-1}$. We extend an initial spectroscopic pilot with joint ESPRESSO Fe II fits, native-pixel diagnostics of 17 exposures, and screening of 36 catalogued absorbers in 32 UVES spectra. Relative-shift preferences depend on covariance, strong-core masks and gas structure. Same-transition differences between adjacent ESPRESSO orders motivate calibration, extraction and profile-model checks at tens of metres per second. Conventional gas models adequately describe two additional absorber pilots under the tested noise assumptions. These limitations inform a staged spectroscopy program. An independently specified physical response remains necessary to connect line shifts or shape changes to the proposed uncertainty component; no universal cutoff or preferred aging exponent is established.
+\end{abstract}
+\maketitle
+
+\section{Motivation and scope}
+The distinction between an exact mathematical object and its physical estimate is central to attempts to connect number theory with dynamics. The Hilbert--P\'olya program seeks an appropriate self-adjoint spectral realization associated with the nontrivial zeros of the Riemann zeta function. Pair-correlation results and numerical spacing studies provide a separate connection to random-matrix statistics \cite{Montgomery1973,Odlyzko1987,BerryKeating1999}. Neither a statistical resemblance nor an engineered signal containing the zeta function establishes such a spectral realization. In particular, a finite laboratory observation of a known zero does not prove the Riemann hypothesis.
+
+A recent numerical study by the present author considers a non-autonomous quadratic map with an inverse-logarithmic parameter schedule \cite{Wang2026Spectral}. This motivates a more limited physical question: could the resources or uncertainty scale of a physical realization themselves evolve, and could that evolution affect which zero ordinates can be estimated to a specified accuracy? The question concerns the observer and the apparatus. The mathematical zeros are not assumed to move, emerge, or cease to exist.
+
+The earlier exploratory manuscript that motivated this study associated apparent measurement deterioration with a cosmic precision limit. A source and code audit reveals that this interpretation relied on conflating zero counts with ordinate heights, inserting a cutoff into a plot, and transferring an error tolerance between unrelated observables. We replace those steps with public-data diagnostics and an explicitly conditional physical extension. The resulting contribution is a reproducible reassessment and an operational hypothesis, rather than a measurement of cosmic evolution.
+
+To make the cross-epoch prospect concrete, we additionally analyze two publicly archived quasar absorption spectra. These observations probe real atomic transitions, not encoded zeros. Their role is to identify what can already be measured, which conventional effects obstruct a small-shift interpretation, and what a future test would require. A further physical baseline comparison uses the public ESPRESSO spectrum of the same low-redshift absorber, with joint nuisance refitting. The analyses and observing outlook are presented in Sec.~\ref{sec:highz}.
+
+\section{Notation, evidence, and reproducible methods}
+\subsection{Index, ordinate, and time are different variables}
+Write a nontrivial zero as $\rho_j=\beta_j+i\gamma_j$, where $j$ labels zeros in increasing positive ordinate. The low-lying reference zeros used here have $\beta_j=1/2$. Let $T$ denote an ordinate threshold and $N(T)$ the number of positive-ordinate nontrivial zeros through that threshold, counted with multiplicity. The Riemann--von Mangoldt formula gives \cite{Titchmarsh1986}
+\begin{equation}
+ N(T)=\frac{T}{2\pi}\log\frac{T}{2\pi}-\frac{T}{2\pi}+O(\log T).
+ \label{eq:count}
+\end{equation}
+Its smooth part, with the usual $7/8$ constant, yields the asymptotic mean spacing
+\begin{equation}
+ \overline d(T)\simeq\frac{2\pi}{\log(T/2\pi)}.
+ \label{eq:spacing}
+\end{equation}
+This mean is not a bound on every neighboring gap. We use $\tau$ for laboratory interrogation duration, $t$ for cosmic age, $u$ for an encoded dimensionless time, and $n$ for a dynamical-map iteration. An identification between any two of these variables requires a specified physical map.
+
+For orientation, independent numerical evaluation gives
+\begin{align}
+ \gamma_{80}&=201.2647519437\ldots, &N(76)&=19,\\
+ \gamma_{4200}&=4697.3541474715\ldots, &N(4200)&=3681.
+\end{align}
+Thus a proposed ordinate limit near 76 cannot be equated with a limit of 80 zeros. Our reference ordinates are evaluated using \texttt{mpmath} at 35 decimal digits; these numerical values are not new certified interval enclosures.
+
+\subsection{Two experimental sources and their limitations}
+He et al. report a driven trapped-ion realization using coherent destruction of tunneling to estimate zeros of an engineered zeta-related coupling \cite{He2021}. Their supplementary Tables I and II contain 269 estimates: 29 at $\Omega/J=5$ and 80 each at $\Omega/J=8,12,16$. We transcribe the supplementary PDF, retaining the original central values, parenthetical errors, reference column, table identifiers, and page locations. These are published summaries; we do not have a full likelihood or covariance matrix for the original measurements.
+
+Wei et al. report a five-qubit nuclear-spin implementation, with one probe and a four-qubit working register, and release processed experimental products \cite{Wei2026}. We use 110 time-scan points across five neighborhoods at two inverse-temperature settings, and 18 points from an inverse-temperature scan. These are means and standard deviations distributed by the authors, not individual acquisition shots. The paper was published on July 1, 2026, within the six-month update interval, while its preprint first appeared on November 14, 2025. Publication date must not be substituted for data-acquisition epoch.
+
+The source files, download hashes, extraction code, processed CSV files, and plotting scripts accompany this manuscript. The 2026 repository snapshot is fixed at commit \texttt{a8b0b38202d6f330297212f8755c8df04242f9d6}. We do not execute downloaded author scripts. A targeted search through September 20, 2026 located this directly relevant update; it was not an exhaustive systematic review of every physical zeta-function proposal.
+
+\subsection{Descriptive statistics}
+For a published estimate $\widehat\gamma_j$ and interpolation error $s_j$, define
+\begin{equation}
+ e_j=\widehat\gamma_j-\gamma_j,\quad
+ r_j=\frac{|e_j|}{d_j},\quad u_j=\frac{s_j}{d_j},\qquad
+ d_j=\min(\gamma_j-\gamma_{j-1},\gamma_{j+1}-\gamma_j).
+ \label{eq:diagnostics}
+\end{equation}
+For $j=1$ we use the forward gap. The reference list includes $\gamma_{81}$ so that the $j=80$ denominator also uses both neighbors. These ratios compare errors with local mathematical structure; they are not a confidence-calibrated resolution criterion. We report medians and counts, without a joint Gaussian likelihood or a significance assigned to a cosmic noise term.
+
+The original supplementary reference column contains $82.914$ at $j=22$, whereas independent evaluation gives $82.910380854\ldots$. At $j=23$ it lists $84.736$, compared with $84.735492981\ldots$. We retain both published entries in the source transcription and use independently evaluated ordinates for all new residuals. This avoids silently altering the source while making the reference used in the analysis explicit.
+
+\section{Results from the public experimental summaries}
+\subsection{The trapped-ion data do not establish a common endpoint breakdown}
+Figure~\ref{fig:ion} shows the full reported sample, without assigning a breakdown region in advance. Table~\ref{tab:ion} compares the first 18 and last 20 estimates for the three longer scans. These groups revisit the specific contrast used in the earlier interpretation; they are descriptive, selected after the earlier plot, and not a preregistered change-point test. Median absolute residuals are similar in the two groups, while median interpolation errors generally increase.
+
+\begin{table}[htbp]
+\caption{Descriptive trapped-ion diagnostics using independently computed reference ordinates. All values are in dimensionless ordinate units. The reported $s_j$ describes the source interpolation procedure and is not a complete systematic uncertainty.}
+\label{tab:ion}
+\centering
+\input{he2021_summary_table.tex}
+\end{table}
+
+Among the 62 estimates at indices 19--80 for each setting, the central residual exceeds one neighboring gap in three cases at $\Omega/J=8$, one at 12, and two at 16. The first count includes the forward gap from $\gamma_{80}$ to $\gamma_{81}$; using only the final backward gap would instead give two. This does not support labelling the entire post-18 region as having error greater than the zero spacing. Some individual estimates are poor, and some published error bars are large. Their existence does not identify a single apparatus-independent cutoff.
+
+The final published values are especially instructive. At $j=80$, the estimates are $199.24(576)$, $200.14(5)$, and $200.47(16)$ for $\Omega/J=8,12,16$. In standard last-digit notation their interpolation errors are $5.76$, $0.05$, and $0.16$. The first entry does not mean an error of 576, and the other settings do not show the same error-bar growth. Conversely, a small interpolation error cannot be taken as a complete accuracy guarantee: central offsets can be much larger. The source also describes a nominal scan through $E=200$, while $\gamma_{80}>200$, making an endpoint inference particularly sensitive to the scan and interpolation procedure.
+
+At $j=74$, one $\Omega/J=8$ entry has a parenthetical error rounded to zero. It is retained and flagged, never assigned infinite statistical weight. The source's discussion permits extending the measurement to higher ordinates; its reported first 80 zeros do not establish a principle forbidding the 81st. Our analysis likewise cannot locate a universal maximum observable height.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.96\textwidth]{he2021_precision.pdf}
+\caption{Reanalysis of He et al.'s supplementary tables \cite{He2021}. Left: residuals with published interpolation error bars, with independent vertical ranges so that all error bars remain visible. Right: central-residual and interpolation-error ratios to the smaller neighboring mathematical gap. The dashed line marks a ratio of one, not an experimentally validated threshold. A rounded-zero interpolation error at $j=74$, $\Omega/J=8$ is omitted only from the logarithmic right panel. The shorter $\Omega/J=5$ series contains 29 estimates. No cosmic component is fitted.}
+\label{fig:ion}
+\end{figure}
+
+\subsection{A recent nuclear-spin implementation adds a different protocol}
+Figure~\ref{fig:nmr} redraws the processed 2026 experiment. The target model defines an encoded evolution coordinate
+\begin{equation}
+ u=\varepsilon_0\tau_{\rm model}/\hbar,
+\end{equation}
+where $\varepsilon_0$ is the target Hamiltonian's energy scale and $\tau_{\rm model}$ its physical-time coordinate. Shaped control pulses implement the corresponding simulated evolutions; the plotted coordinate need not equal actual pulse duration. It is not cosmic age. The hardware data probe the first five zero neighborhoods. The reported root estimates $14.12$, $20.96$, $25.09$, $30.44$, and $32.93$ have residuals approximately $-0.0147$, $-0.0620$, $+0.0791$, $+0.0151$, and $-0.0051$ relative to the mathematical reference values. Their root-location uncertainties are not supplied, so we do not construct error bars or a weighted cross-platform accuracy ranking for these five numbers.
+
+The same paper presents numerical demonstrations near much higher-index zeros, including index $10^{12}$. Those demonstrations must not be counted as hardware measurements. Nor can the 2021 count of 80, the 2026 hardware count of five, and a numerical index of $10^{12}$ be assembled into a time series of improving cosmic accessibility. They represent different encodings, tasks, and resource budgets. The time and inverse-temperature scans also have different central coherence magnitudes and are separate runs, so we do not pool their minima into a putative noise floor. Our use of the 2026 work is restricted to its finite-system observations and public processed data; it does not endorse a proof of RH, a universal thermodynamic interpretation, or a computational advantage from gate counts alone.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{wei2026_experiment.pdf}
+\caption{Public processed nuclear-spin data associated with Wei et al. \cite{Wei2026}, redrawn from the pinned author repository. The first five panels compare the reported probe-coherence magnitude near mathematical reference ordinates at two inverse temperatures; the final panel shows the inverse-temperature scan near the first zero. Bars reproduce supplied standard deviations of the processed observable. They are not uncertainties of estimated zero locations. The coordinate is the dimensionless laboratory encoding, not cosmic time. No high-index numerical demonstration is plotted as experimental data.}
+\label{fig:nmr}
+\end{figure}
+
+\input{theory_sections.tex}
+
+\section{Conditional numerical illustrations}
+Figure~\ref{fig:resources} illustrates the difference between a resource model and a measurement of cosmic evolution. In panel (a), we assume an attained dimensionless error scale
+\begin{equation}
+ \delta(M)=\sqrt{M^{-1}+b^2}
+\end{equation}
+and compare it with one quarter of the asymptotic mean spacing. The normalization corresponds to unit $\kappa\tau V$ in a locally efficient Ramsey example. The floors $b=0,0.1,0.3$ are chosen for illustration; none is estimated from either experiment. Solving $\delta=\overline d(T)/4$ produces an exponentially sensitive mean-density envelope. The very large values in the zero-floor curve demonstrate the incompleteness of a density-only criterion: finite bandwidth, signal preparation, global identifiability, local gap fluctuations, and calibration have not been imposed. This curve is not a forecast of an achievable experiment.
+
+Panel (b) shows normalized logarithmic aging with exponents $p=1,2,3$, at fixed illustrative $t_0=13.8$ Gyr and $t_\ast=5.391247\times10^{-44}$ s. The $p=2$ curve represents the proposed form; the alternatives show that monotonic evolution alone does not select it. The amplitude is uncalibrated, and normalization at $t_0$ is not a fit. Even across the broad interval 1--100 Gyr the normalized curves vary slowly. Over half a year the $p=2$ scale changes by only about $-5.17\times10^{-13}$ fractionally under these assumptions. Recent publication of a new experiment therefore provides new protocol information, rather than a useful cosmic-aging baseline by itself.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{conditional_resources.pdf}
+\caption{Conditional scenarios, with no experimental parameter fit. (a) Mean-density envelope obtained from an assumed attained precision, a one-quarter spacing criterion, and illustrative error floors. It does not impose local gaps, bandwidth, or global identification costs. (b) Normalized candidate cosmic uncertainty scales with exponents $p=1,2,3$. The vertical line is the chosen normalization age of 13.8 Gyr; the scale $t_\ast$ is a convention for this illustration. The two panels do not constitute a calibration of a cosmic zero-height ceiling.}
+\label{fig:resources}
+\end{figure}
+
+Figure~\ref{fig:heatmap} presents the same resource model as a two-dimensional landscape. Increasing repetitions moves a protocol to the right; reducing its assumed floor moves it downward. The dashed crossover $b=M^{-1/2}$ separates statistical-term and floor dominance. The three stars are chosen scenarios, not laboratory or cosmological calibration points. Their progression shows why collecting more samples alone eventually provides little benefit when the floor remains fixed, while a smaller floor can change the illustrative envelope much more strongly. The color represents $\log_{10}T_{\rm env}$ rather than a zero index, and the displayed grid is not clipped. As in Fig.~\ref{fig:resources}, this landscape illustrates a mean-spacing criterion without imposing the other requirements for an attainable experiment.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{resource_precision_heatmap.pdf}
+\caption{Conditional resource--precision heatmap for $\delta^2=M^{-1}+b^2$, $\kappa\tau V=1$, and $q=1/4$. Color and white contour labels show $\log_{10}T_{\rm env}$ from Eq.~\eqref{eq:mean_envelope}; they do not count zeros. The dashed line marks equal statistical and floor contributions. Stars A, B, and C correspond respectively to $(M,b)=(100,0.3)$, $(3000,0.3)$, and $(3000,0.05)$. The arrows show two possible parameter changes. Small-ordinate colors are formal extrapolations of the asymptotic approximation. Both the grid and the stars are illustrative, with no fit to an experiment and no identified cosmic cutoff.}
+\label{fig:heatmap}
+\end{figure}
+
+\input{highz_analysis.tex}
+
+\section{What would test the proposal?}
+A useful next experiment should separate preparation error, signal slope, decoherence, and estimator performance before introducing cosmic parameters. Repeated scans at fixed zero targets, with recorded interrogation duration, drive amplitude, shot count, and independent calibration, can test how ordinate uncertainty changes with the resource budget. Controls should include nearby nonzero targets and functions without zeta zeros. Known reference locations should be withheld from the inference stage where feasible, so that reproducing an encoded answer is not mistaken for discovering it. Scan boundaries and failed estimates must be reported alongside successful ones.
+
+The relevant null model is a protocol-dependent conventional error budget with no additional aging component. A candidate excess term needs a specified response shared across apparatuses, a stable nuisance model, and out-of-sample predictions. A residual floor alone is insufficient: waveform imperfections and calibration errors also produce floors. An observed improvement after a hardware upgrade primarily tests the resource model. It becomes evidence for cosmic evolution only if the hypothesized time dependence can be separated from those changes.
+
+At the illustrative microscopic scale used here, direct monitoring over months or years is unlikely to distinguish the proposed fractional evolution. Changing $t_\ast$ can make the slope larger, but then introduces a further parameter requiring independent justification. Cross-epoch observables could in principle provide greater leverage only if a physical mechanism connects their measurable quantities to the same uncertainty scale. Neither a reported variation of the fine-structure constant nor an error tolerance in prime reconstruction supplies that connection automatically.
+
+There is consequently no present basis for preferring $p=2$ to a constant, $p=1$, $p=3$, or other sufficiently slow schedules using these two laboratory datasets. The exponent is retained because of its explicit theoretical motivation, while the proposed transfer from a map parameter to a physical uncertainty remains falsifiable only after a response model and an accessible precision target have been supplied.
+
+\section{Limitations and conclusion}
+The laboratory reanalysis uses rounded published estimates and author-processed coherence data. The astronomical extension uses historical coadded spectra, 17 native-pixel ESPRESSO exposures, and a targeted catalogue screen followed by 32 UVES spectra. The archive screen covers the 155 listed damped Lyman-alpha absorbers, not every metal absorber in SQUAD. The selected Fe II component decomposition, its parameter bounds and the missing full pixel covariance limit the interpretation of relative-shift preferences. The retrieved S2D arrays and reduction logs permit exposure diagnostics, but full extraction covariance, independently calibrated response matrices and complete calibration budgets have not been reconstructed in this work. Diagnostic groups and spectral intervals were selected for exploratory analysis and carry no confirmatory change-point or cosmic-evolution significance. The laboratory experiments use different protocols, and the mathematical reference computations here are not interval-certified. The cosmic extension has neither a measured amplitude nor an established identification of map iteration with physical age.
+
+Within those limits, the empirical result is clear: the public trapped-ion summaries do not support a common abrupt breakdown at index 80, and the recent nuclear-spin work supplies an additional finite-resource implementation rather than evidence for a universal maximum zero height. A physical measurement has a protocol-dependent accuracy budget; a mathematical zero retains its exact definition. Accessible height can improve when an explicitly defined resource set improves. Extending this statement to cosmic age is a separate physical hypothesis. The inverse-log-squared form provides a concrete candidate for that extension, but current data do not establish its existence or superiority. This formulation leaves a tractable research program: characterize resource scaling, identify a reproducible residual component if one exists, and test a specified age dependence only when independent calibration makes that inference possible.
+
+The additional spectroscopy analysis supplies measured absorption integrals, direct tests of profile sensitivity and a restricted conventional-model comparison. The latter finds residual transition inconsistency, especially in strong lines, that persists under several specified controls. It does not establish a variation beyond conventional explanations or a cosmic-age dependence. It shows why high signal-to-noise and a small formal fitting error are insufficient by themselves, and why usable common transitions at several epochs matter more than raw archive size. A future program can report constraints on a fixed atomic response, or independently reproduce an anomaly, without claiming to have measured a Riemann-zero cutoff. Establishing that stronger connection requires a separate physical derivation.
+
+\section*{Data, code, and draft declarations}
+The accompanying \texttt{riemann\_clock} project contains source provenance, public supplementary files, a pinned subset of the 2026 authors' repository, extracted data, analysis and figure scripts, and numerical validation reports. The original laboratory data are available through the cited publisher articles and the Wei et al. repository at \url{https://github.com/lqf2025/Riemann-data}, with the associated deposit \url{https://doi.org/10.5281/zenodo.20590665}. The astronomy extension includes two SQUAD source archives \cite{Murphy2019SQUAD}, NIST query snapshots, actual-profile measurements, registration diagnostics, a pinned public ESPRESSO spectrum and atomic/component inputs \cite{Murphy2022ESPRESSO}, joint Voigt null comparisons, disjoint continuum-noise controls, nonlinear covariance and frozen-core tests, an exploratory UVES instrument comparison, native-exposure/order diagnostics, additional SQUAD multiplet screening and physical-profile pilots, conditional injection controls, separately labelled synthetic forecasts, and a detailed experiment protocol. Third-party files retain their source provenance and applicable licenses. This study collects no human-participant or animal data.
+
+The research hypothesis and source projects were supplied by Liang Wang. AI assistance was used for literature retrieval, source auditing, code preparation, numerical checking, and draft writing. This is an author-review draft; it does not assert completion of human review. Author contribution roles, current affiliation, funding, and competing-interest declarations remain to be finalized by the author before submission. No journal-specific compliance or external peer-review status is claimed.
+
+\appendix
+\section{Corrections to the exploratory construction}
+The source notebooks do not fit a cutoff. One inserts a boundary at index 18.5, and another plots the assumed law
+\begin{equation}
+ T=\frac{\ln X}{\pi\sqrt{\epsilon}}.
+\end{equation}
+At $(X,\epsilon)=(10^{10},10^{-2})$ this gives $T=73.2936$, between the 18th and 19th ordinates. At $(10^{60},10^{-4})$ it gives $4397.61$. Neither calculation establishes a physical upper bound, and neither identifies a cutoff at the 80th zero. The free variables do not acquire a universal physical meaning from being displayed as a heatmap.
+
+A sufficient truncation height for approximating a selected arithmetic function is a different quantity from a maximum experimentally accessible ordinate. Pointwise reconstruction errors depend on the function, smoothing, location relative to discontinuities, summation convention, and tolerance; exponential or monotonic convergence is not established by these notebooks. We do not infer a cosmological limit by identifying that reconstruction tolerance with a variation of an unrelated dimensionless constant.
+
+The earlier waiting-time example is also internally inconsistent. Even under its unvalidated assumptions $X\propto t$ and $X\propto T^2$, changing an ordinate from 4200 to 4201 at $t_0=13.8$ Gyr would give
+\begin{equation}
+ \Delta t=t_0[(4201/4200)^2-1]=6.5722\ \mathrm{Myr},
+\end{equation}
+not 100 Myr. Using $\gamma_{4200}$ and $\gamma_{4201}$ instead gives $2.4694$ Myr under the same assumed scaling. These numbers are consistency checks, not replacement predictions. No waiting time is inferred in the revised framework.
+
+Additional figures in the old source project were generated from piecewise synthetic error arrays with an imposed high-index deterioration. They are excluded from the empirical analysis. Every new experimental panel is traced to the primary supplementary table or the authors' processed experimental files; the conditional resource illustrations are labelled separately.
+
+\bibliography{references,highz_references}
+\end{document}

@@ -1,0 +1,180 @@
+{
+  "espresso_comparisons": [
+    {
+      "case": "primary",
+      "label": "Original diagonal errors",
+      "ndata": 2931,
+      "added_parameters": 5,
+      "null_chi2": 2305.4905409518874,
+      "alternative_chi2": 2253.7773014844893,
+      "delta_chi2": 51.713239467398125
+    },
+    {
+      "case": "gls",
+      "label": "Continuum-informed GLS",
+      "null_file": "results/empirical_gls/tapered_null_cross.json",
+      "alternative_file": "results/empirical_gls/tapered_alternative.json",
+      "ndata": 2931,
+      "added_parameters": 5,
+      "null_chi2": 2231.3304707002785,
+      "alternative_chi2": 2202.09308641921,
+      "delta_chi2": 29.237384281068444,
+      "shifts_m_s": {
+        "2260": 90.56093836331686,
+        "2344": -43.968306893105556,
+        "2382": -111.63038394512834,
+        "2586": -6.420837591690449,
+        "2600": -101.34199174531518
+      },
+      "null_optimality": 4.321129077959497,
+      "alternative_optimality": 2.9167165424534787,
+      "null_stop": "`ftol` termination condition is satisfied.",
+      "alternative_stop": "`ftol` termination condition is satisfied."
+    },
+    {
+      "case": "core01",
+      "label": "Mask strong-line F < 0.1",
+      "null_file": "results/saturation_controls/core01_null_cross_continued_alternative.json",
+      "alternative_file": "results/saturation_controls/core01_alternative_cross_continued.json",
+      "ndata": 2692,
+      "added_parameters": 5,
+      "null_chi2": 2004.6388852627185,
+      "alternative_chi2": 1962.9795403381997,
+      "delta_chi2": 41.65934492451879,
+      "shifts_m_s": {
+        "2260": 88.82451348606875,
+        "2344": -39.27458977994744,
+        "2382": -106.51548563897067,
+        "2586": -2.4091727724841423,
+        "2600": -109.26213999043121
+      },
+      "null_optimality": 0.09282703615080765,
+      "alternative_optimality": 0.044960795357693394,
+      "null_stop": "`ftol` termination condition is satisfied.",
+      "alternative_stop": "`ftol` termination condition is satisfied."
+    },
+    {
+      "case": "core03",
+      "label": "Mask F < 0.3 + 3 pixels",
+      "null_file": "results/saturation_controls/core03_padded_null_cross.json",
+      "alternative_file": "results/saturation_controls/core03_padded_alternative.json",
+      "ndata": 2473,
+      "added_parameters": 5,
+      "null_chi2": 1722.956423170439,
+      "alternative_chi2": 1709.692447799813,
+      "delta_chi2": 13.263975370625985,
+      "shifts_m_s": {
+        "2260": 90.70992144810673,
+        "2344": -37.353095705953315,
+        "2382": -103.73848958803187,
+        "2586": -1.6677531721095291,
+        "2600": -88.16510510451084
+      },
+      "null_optimality": 0.10875629513831435,
+      "alternative_optimality": 2.5039201913738327,
+      "null_stop": "`ftol` termination condition is satisfied.",
+      "alternative_stop": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "continuum": {
+    "interval_count": 25,
+    "pixel_count": 13750,
+    "variance": 0.7047517138181204,
+    "rms": 0.8394949158977203,
+    "covariance": [
+      0.7047517138181204,
+      0.26261797484589255,
+      0.031009556416296668,
+      0.022505455881971698,
+      0.012985542388213693,
+      0.0015721381369771985,
+      0.0036200510424280064,
+      0.01070476944097554,
+      0.013141450520465774,
+      0.014070549467379356,
+      0.010577475208956057
+    ],
+    "acf": [
+      1.0,
+      0.3726390013627806,
+      0.04400068252164548,
+      0.03193387889763943,
+      0.018425698204921216,
+      0.0022307688029020245,
+      0.005136633187900633,
+      0.015189419523338946,
+      0.0186469224023161,
+      0.019965257538927573,
+      0.015008796717429268
+    ],
+    "lag_pair_counts": [
+      13750,
+      13725,
+      13700,
+      13675,
+      13650,
+      13625,
+      13600,
+      13575,
+      13550,
+      13525,
+      13500
+    ],
+    "interval_cluster_bootstrap": {
+      "draws": 10000,
+      "seed": 260920375,
+      "variance_95_percentile_interval": [
+        0.6812067114926924,
+        0.7279734506920373
+      ],
+      "acf_95_percentile_intervals": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.3533045306586414,
+          0.3915642484912
+        ],
+        [
+          0.021917728086523158,
+          0.0656088206757257
+        ],
+        [
+          0.006431854413697083,
+          0.056377733029924146
+        ],
+        [
+          -0.00716867932940171,
+          0.043714599267099176
+        ],
+        [
+          -0.02377855422480509,
+          0.027849664990844278
+        ],
+        [
+          -0.018513981352433144,
+          0.029178297054076457
+        ],
+        [
+          -0.007805089057307266,
+          0.038808070543979195
+        ],
+        [
+          -0.0041490334130688524,
+          0.04103656615989345
+        ],
+        [
+          -0.0057438784735412175,
+          0.045020421101165845
+        ],
+        [
+          -0.0042575440395263685,
+          0.033718903626957286
+        ]
+      ],
+      "caveat": "Resamples selected disjoint wavelength intervals as clusters. It is a conditional sampling interval, not a confidence interval including selection or wavelength-dependent systematics."
+    }
+  },
+  "interpretation": "Separate exploratory controls, not their joint application. Differences are conditional nonlinear objective reductions, not calibrated physical-discovery significances. Optimizer stopping criteria do not establish stationarity or global minima."
+}

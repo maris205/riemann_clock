@@ -1,0 +1,79 @@
+START merged40_null_published 40 2931 132
+merged40_null_published 25 2265.3214807307763
+merged40_null_published 50 2260.2743546776114
+merged40_null_published 75 2257.1266593030145
+merged40_null_published 100 2255.966200106571
+merged40_null_published 125 2255.3013024279585
+DONE merged40_null_published 2255.2036392566392 True `ftol` termination condition is satisfied.
+START merged40_alternative_from_null 40 2931 137
+merged40_alternative_from_null 25 2236.2910856897574
+DONE merged40_alternative_from_null 2236.2902946712734 True `ftol` termination condition is satisfied.
+START merged40_alternative_cross 40 2931 137
+merged40_alternative_cross 25 2257.3293536827423
+merged40_alternative_cross 50 2252.3731479926537
+merged40_alternative_cross 75 2250.3932816528063
+merged40_alternative_cross 100 2249.798988837465
+merged40_alternative_cross 125 2249.3701359942825
+DONE merged40_alternative_cross 2249.2412511571165 True `ftol` termination condition is satisfied.
+START merged40_null_cross 40 2931 132
+merged40_null_cross 25 2255.590184922274
+DONE merged40_null_cross 2255.1558043823798 True `ftol` termination condition is satisfied.
+{
+  "null": "merged40_null_cross",
+  "alternative": "merged40_alternative_from_null",
+  "null_success": true,
+  "alternative_success": true,
+  "ncomp": 40,
+  "ndata": 2931,
+  "null_parameters": 132,
+  "alternative_parameters": 137,
+  "null_chi2": 2255.1558043823798,
+  "alternative_chi2": 2236.2902946712734,
+  "delta_chi2": 18.86550971110637,
+  "added_parameters": 5,
+  "shifts_m_s": {
+    "2260": 126.8818637963022,
+    "2344": -35.430594082136956,
+    "2382": -89.10950415631716,
+    "2586": -9.076971688739073,
+    "2600": -79.52949968427248
+  },
+  "baseline45": {
+    "null": "tapered_null_cross",
+    "alternative": "tapered_alternative",
+    "null_chi2": 2231.3304707002785,
+    "alternative_chi2": 2202.09308641921,
+    "delta_chi2": 29.237384281068444
+  },
+  "all_final_attempts": [
+    {
+      "name": "merged40_null_published",
+      "chi2": 2255.2036392566392,
+      "optimizer_success": true,
+      "nfev": 146,
+      "optimality": 6.273979641071132
+    },
+    {
+      "name": "merged40_alternative_from_null",
+      "chi2": 2236.2902946712734,
+      "optimizer_success": true,
+      "nfev": 27,
+      "optimality": 2.1962756345415473
+    },
+    {
+      "name": "merged40_alternative_cross",
+      "chi2": 2249.2412511571165,
+      "optimizer_success": true,
+      "nfev": 145,
+      "optimality": 4.015337708163336
+    },
+    {
+      "name": "merged40_null_cross",
+      "chi2": 2255.1558043823798,
+      "optimizer_success": true,
+      "nfev": 39,
+      "optimality": 5.177917584922882
+    }
+  ],
+  "limitations": "Local optimization and one fixed architecture only. Components and velocity bounds differ from the 45-component architecture; this tests combined structure/initialization sensitivity. Covariance transfer and spectrograph calibration remain conditional."
+}

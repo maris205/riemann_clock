@@ -1,0 +1,190 @@
+{
+  "declared_utc": "2026-09-21T04:05:12.665226+00:00",
+  "authorization": "Root-authorized bounded failure-case diagnostic after the primary quality screen. Assess whether excluding all inadequate nulls would hide sensitivity to real frequency changes.",
+  "original_primary": "n16_null_refined_os21",
+  "original_primary_sha256": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+  "original_primary_arrays_sha256": "91f3b8f5a14f5d40c771b9173480b95674d856ac451c62ebfaa7f11cd56451f1",
+  "original_config_sha256": "8bc7d81274781e63015163014cf6ce213a4a4f7d1bc7c7770eb0f22c57ff2379",
+  "configuration": {
+    "target": "J064326-504112",
+    "z": 2.659,
+    "lines": [
+      1608,
+      1611,
+      2374,
+      2382
+    ],
+    "window": [
+      -145.0,
+      100.0
+    ],
+    "component_bounds": [
+      -145.0,
+      75.0
+    ],
+    "component_counts": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      16
+    ],
+    "centers": [
+      -130.0,
+      -80.0,
+      -53.0,
+      -32.0,
+      -14.0,
+      20.0,
+      -105.0,
+      45.0,
+      -65.0,
+      5.0,
+      -117.0,
+      55.0,
+      -22.0,
+      30.0,
+      -95.0,
+      60.0
+    ],
+    "centers_by_count": {
+      "4": [
+        -130.0,
+        -53.0,
+        -14.0,
+        25.0
+      ],
+      "6": [
+        -130.0,
+        -80.0,
+        -53.0,
+        -32.0,
+        -14.0,
+        25.0
+      ],
+      "8": [
+        -130.0,
+        -105.0,
+        -80.0,
+        -53.0,
+        -32.0,
+        -14.0,
+        20.0,
+        45.0
+      ],
+      "10": [
+        -130.0,
+        -105.0,
+        -80.0,
+        -65.0,
+        -53.0,
+        -32.0,
+        -14.0,
+        5.0,
+        25.0,
+        45.0
+      ],
+      "12": [
+        -130.0,
+        -117.0,
+        -105.0,
+        -80.0,
+        -65.0,
+        -53.0,
+        -32.0,
+        -14.0,
+        5.0,
+        25.0,
+        45.0,
+        55.0
+      ],
+      "16": [
+        -130.0,
+        -117.0,
+        -105.0,
+        -95.0,
+        -80.0,
+        -65.0,
+        -53.0,
+        -32.0,
+        -22.0,
+        -14.0,
+        5.0,
+        20.0,
+        30.0,
+        45.0,
+        55.0,
+        60.0
+      ]
+    },
+    "logtotal": 15.3,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_nfev": 350,
+    "oversample": 9,
+    "refine_oversample": 21,
+    "shift_anchor": 2374,
+    "noise": "expected_fluctuation",
+    "bounds": {
+      "cont0": [
+        -0.1,
+        0.1
+      ],
+      "cont1": [
+        -0.03,
+        0.03
+      ],
+      "zero": [
+        -0.02,
+        0.02
+      ],
+      "lsf_relative": [
+        0.6,
+        1.4
+      ],
+      "b": [
+        0.5,
+        30.0
+      ],
+      "logN": [
+        9,
+        17
+      ]
+    },
+    "selection_file": "pre_fit_selection.json",
+    "selection_rationale": "Fixed main absorption complex based on full unshifted raw profiles; weak 1611 included from outset to constrain saturated gas. Separate absorption around \u2212157 (2382) and \u2212170/+133 (1611) outside common window; identities not established. Left boundary wing sensitivity retained as limitation. All source-valid pixels retained, no residual-based masks; model adequacy judged before offsets.",
+    "pre_fit_limitations": [
+      "Weak 1611 overlaps a conservative strong-sky proxy near 5897 \u00c5; no exposure-specific sky correction verified.",
+      "The common window isolates the main complex only; a nearby blue 2382 feature has unknown identity and possible wings.",
+      "Both reference 2374 and strong 2382 contain saturated pixels; weak 1611 is included from the outset to constrain columns.",
+      "Selection after profile inspection is exploratory; no anomalous shift or fitted residual was used."
+    ]
+  },
+  "ndata": 436,
+  "ncomp": 16,
+  "expected_error_row": 2,
+  "oversample": 21,
+  "sequence": [
+    "One H1 from best saved primary H0; max600 evaluations.",
+    "One H0 cross-start from that H1; max500 evaluations.",
+    "Only if H0 improves by more than0.01 in chi2: one H1 cross-start from improved H0, max500 evaluations."
+  ],
+  "shift_anchor": 2374,
+  "free_shift_keys": [
+    1608,
+    1611,
+    2382
+  ],
+  "shift_bounds_km_s": [
+    -1,
+    1
+  ],
+  "predeclared_interpretation": "Report shifts, model adequacy, active bounds, first-order diagnostics and the objective improvement even if failed. Initial gate was a quality screen, not a population null test. No discovery significance, precision displacement, alpha estimate or cosmic-time point. Primary remains gated out regardless of delta.",
+  "original_files_protected": true,
+  "runner_sha256": "c7a3470c0e4b2695a4ea7cf19d530a48a31fcbea9cd274abf7cb1413fc69b450",
+  "engine_sha256": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416"
+}

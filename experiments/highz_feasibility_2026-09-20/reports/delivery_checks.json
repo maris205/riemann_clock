@@ -1,0 +1,168 @@
+{
+  "checked_utc": "2026-09-20T13:32:40.472744+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "syntax fetch_atomic_data.py",
+      "pass": true
+    },
+    {
+      "check": "syntax fetch_public_spectra.py",
+      "pass": true
+    },
+    {
+      "check": "syntax forecast_sensitivity.py",
+      "pass": true
+    },
+    {
+      "check": "syntax pixel_noise_pilot.py",
+      "pass": true
+    },
+    {
+      "check": "syntax plot_public_spectra.py",
+      "pass": true
+    },
+    {
+      "check": "syntax validate_forecast.py",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/LICENSE",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/Notes_FITS_Files.txt",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/DR1_quasars_master.csv",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/DR1_DLAs.csv",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/paper_accepted_2018-10-16.tex",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/catalog_portal_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/eso_release_announcement.html",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/espresso_README.md",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/espresso_github_tree.json",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/kodiaq_documentation.html",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/J034943-381030_Final_Spectrum.tar.gz",
+      "pass": true
+    },
+    {
+      "check": "source hash data/raw/J051707-441055_Final_Spectrum.tar.gz",
+      "pass": true
+    },
+    {
+      "check": "source hash data/atomic/nist_fe_ii_ground_lines.tsv",
+      "pass": true
+    },
+    {
+      "check": "source hash data/atomic/nist_mg_ii_ground_lines.tsv",
+      "pass": true
+    },
+    {
+      "check": "source hash data/atomic/nist_fe_ii_query.html",
+      "pass": true
+    },
+    {
+      "check": "source hash data/atomic/nist_asd_lineshelp.html",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_1608.4509_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_2344.2128_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_2374.4601_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_2382.7642_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_2586.6493_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J051707-441055_FeII_2600.1725_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_1608.4509_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_2344.2128_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_2374.4601_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_2382.7642_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_2586.6493_window.npz",
+      "pass": true
+    },
+    {
+      "check": "pixel input hash data/processed/J034943-381030_FeII_2600.1725_window.npz",
+      "pass": true
+    },
+    {
+      "check": "forecast_validation",
+      "pass": true,
+      "n_checks": 44
+    },
+    {
+      "check": "pixel_pilot_validation",
+      "pass": true,
+      "n_checks": 63
+    },
+    {
+      "check": "local links",
+      "pass": true,
+      "missing": []
+    }
+  ],
+  "new_scope": "All new material inside riemann_clock; main manuscript unchanged",
+  "artifacts": {
+    "experiment_protocol_cn.md": "131ef424a3b3c16adfc3e818a75418b1c366344c6ea9d6e7153449f734889948",
+    "figures/conditional_sensitivity.png": "d6d037952631380a07625feaf756ad0b95208195f53659fff8c02b21325d7527",
+    "figures/pixel_noise_pilot.png": "f39b60d26726663e27fe40a8f575a58717e2731f77d6767a21402ceb9298808b",
+    "figures/public_feii_windows.png": "7966d621bc085b4b9c258f033cdf2876ff969abd6c5549d46b07a75cd0463e9f"
+  }
+}

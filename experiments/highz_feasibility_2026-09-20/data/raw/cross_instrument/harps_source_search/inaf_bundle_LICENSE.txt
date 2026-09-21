@@ -1,0 +1,70 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://openaccess.inaf.it/server/api/core/bundles/cca7fce8-f723-4f41-b5e6-e753bd28081f/bitstreams"
+    }
+  },
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "49bbb0d9-7c08-4ad1-b8a2-08408c7ae412",
+      "uuid" : "49bbb0d9-7c08-4ad1-b8a2-08408c7ae412",
+      "name" : "license.txt",
+      "handle" : null,
+      "metadata" : {
+        "datacite.rights" : [ {
+          "value" : "open.access",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.source" : [ {
+          "value" : "Written by org.dspace.content.LicenseUtils",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "license.txt",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "LICENSE",
+      "sizeBytes" : 3690,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "549dbdca4d42f8c18b6b15b249778482"
+      },
+      "sequenceId" : 2,
+      "type" : "bitstream",
+      "uniqueType" : "core.bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/49bbb0d9-7c08-4ad1-b8a2-08408c7ae412/content"
+        },
+        "bundle" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/49bbb0d9-7c08-4ad1-b8a2-08408c7ae412/bundle"
+        },
+        "format" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/49bbb0d9-7c08-4ad1-b8a2-08408c7ae412/format"
+        },
+        "thumbnail" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/49bbb0d9-7c08-4ad1-b8a2-08408c7ae412/thumbnail"
+        },
+        "self" : {
+          "href" : "https://openaccess.inaf.it/server/api/core/bitstreams/49bbb0d9-7c08-4ad1-b8a2-08408c7ae412"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  }
+}

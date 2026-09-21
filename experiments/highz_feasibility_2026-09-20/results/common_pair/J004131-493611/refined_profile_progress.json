@@ -1,0 +1,131 @@
+{
+  "target": "J004131-493611",
+  "points": [
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_010_grid_cross_h0.json",
+      "D_m_s": -1000.0,
+      "chi2": 121.70892166811687,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_008_grid_cross_h0.json",
+      "D_m_s": -918.9412893046115,
+      "chi2": 115.16009019933603,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_006_grid_cross_h0.json",
+      "D_m_s": -719.2334789979926,
+      "chi2": 102.41399401278714,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_004_grid_warm.json",
+      "D_m_s": -519.5256686913738,
+      "chi2": 94.16929454482512,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_017_refine3.84_lower_0_cross_h0.json",
+      "D_m_s": -419.6717635380643,
+      "chi2": 91.35344015560038,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_019_refine3.84_lower_1_cross_h0.json",
+      "D_m_s": -369.74481096140954,
+      "chi2": 90.17253108982891,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_002_grid_cross_h0.json",
+      "D_m_s": -319.8178583847548,
+      "chi2": 89.14418561108337,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_015_refine1_lower_1_cross_h0.json",
+      "D_m_s": -269.89090580810006,
+      "chi2": 88.31441774546198,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_013_refine1_lower_0_cross_h0.json",
+      "D_m_s": -219.96395323144534,
+      "chi2": 87.72419369907396,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_000_grid_warm.json",
+      "D_m_s": -120.1100480781359,
+      "chi2": 87.25491207465684,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_001_grid_cross_h0.json",
+      "D_m_s": 0.0,
+      "chi2": 87.84485470959356,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_014_refine1_upper_0_warm.json",
+      "D_m_s": 39.7988811142415,
+      "chi2": 88.25300706911764,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_016_refine1_upper_1_warm.json",
+      "D_m_s": 59.69832167136225,
+      "chi2": 88.4924514957627,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_003_grid_warm.json",
+      "D_m_s": 79.597762228483,
+      "chi2": 88.75439468926412,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_018_refine3.84_upper_0_warm.json",
+      "D_m_s": 179.45166738179248,
+      "chi2": 90.36304645507468,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_020_refine3.84_upper_1_warm.json",
+      "D_m_s": 229.3786199584472,
+      "chi2": 91.12629523754264,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_005_grid_warm.json",
+      "D_m_s": 279.30557253510193,
+      "chi2": 91.98728996943282,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_007_grid_warm.json",
+      "D_m_s": 479.01338284172084,
+      "chi2": 96.17612947709215,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_009_grid_warm.json",
+      "D_m_s": 678.7211931483398,
+      "chi2": 101.27582203652734,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/refined_profile_011_grid_warm.json",
+      "D_m_s": 878.4290034549587,
+      "chi2": 107.38855107560838,
+      "optimizer_success": true
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_012_grid_warm.json",
+      "D_m_s": 1000.0,
+      "chi2": 111.62272763407115,
+      "optimizer_success": true
+    }
+  ]
+}

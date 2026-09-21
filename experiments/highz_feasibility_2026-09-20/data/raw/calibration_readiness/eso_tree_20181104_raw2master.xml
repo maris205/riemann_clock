@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<association category="SCIENCE_SKY" certified="true" complete="true"
+    mode="Raw2Master" type="main">
+    <mainFiles>
+        <file category="OBJ_SKY" name="ESPRE.2018-11-04T07:00:00.643"/>
+    </mainFiles>
+    <messages/>
+    <associatedFiles>
+        <association category="ABS_EFF_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="ABS_EFF_A" name="M.ESPRESSO.2020-08-20T19:46:31.790"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="BAD_PIXEL_MASK" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="BAD_PIXEL_MASK" name="M.ESPRESSO.2020-08-17T10:01:42.230"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="BLAZE_A" certified="true" complete="true"
+            match="calib_plan" type="main">
+            <mainFiles>
+                <file category="BLAZE_A" name="M.ESPRESSO.2020-08-20T15:11:51.526"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="BLAZE_B" certified="true" complete="true"
+            match="calib_plan" type="main">
+            <mainFiles>
+                <file category="BLAZE_B" name="M.ESPRESSO.2020-08-20T15:11:59.780"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="CCD_GEOM" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="CCD_GEOM" name="M.ESPRESSO.2023-03-16T14:19:11.956"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="DLL_MATRIX_FP_THAR_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="DLL_MATRIX_FP_THAR_B" name="M.ESPRESSO.2020-08-20T15:11:37.736"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="DLL_MATRIX_THAR_FP_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="DLL_MATRIX_THAR_FP_A" name="M.ESPRESSO.2020-08-20T15:11:17.736"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="EXT_TABLE" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="EXT_TABLE" name="M.ESPRESSO.2023-03-16T14:20:18.603"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="FLUX_TEMPLATE" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="FLUX_TEMPLATE" name="M.ESPRESSO.2023-03-16T14:20:22.226"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="FSPECTRUM_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="FSPECTRUM_A" name="M.ESPRESSO.2020-08-20T15:14:07.153"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="FSPECTRUM_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="FSPECTRUM_B" name="M.ESPRESSO.2020-08-20T15:14:16.793"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="HOT_PIXEL_MASK" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="HOT_PIXEL_MASK" name="M.ESPRESSO.2020-08-17T10:03:14.120"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="INST_CONFIG" certified="true"
+            complete="true" match="N/A" type="main">
+            <mainFiles>
+                <file category="INST_CONFIG" name="M.ESPRESSO.2025-03-31T10:11:51.493"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="MASTER_BIAS_RES" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="MASTER_BIAS_RES" name="M.ESPRESSO.2020-08-20T15:04:39.836"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="ORDER_PROFILE_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="ORDER_PROFILE_A" name="M.ESPRESSO.2020-08-20T15:13:02.290"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="ORDER_PROFILE_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="ORDER_PROFILE_B" name="M.ESPRESSO.2020-08-20T15:13:41.316"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="ORDER_TABLE_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="ORDER_TABLE_A" name="M.ESPRESSO.2020-08-20T15:15:30.960"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="ORDER_TABLE_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="ORDER_TABLE_B" name="M.ESPRESSO.2020-08-20T15:16:14.546"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="REL_EFF_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="REL_EFF_B" name="M.ESPRESSO.2020-08-21T20:08:34.933"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="S2D_BLAZE_THAR_FP_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="S2D_BLAZE_THAR_FP_B" name="M.ESPRESSO.2020-08-20T15:10:41.966"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="WAVE_MATRIX_FP_THAR_B" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="WAVE_MATRIX_FP_THAR_B" name="M.ESPRESSO.2020-08-20T15:19:06.353"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+        <association category="WAVE_MATRIX_THAR_FP_A" certified="true"
+            complete="true" match="calib_plan" type="main">
+            <mainFiles>
+                <file category="WAVE_MATRIX_THAR_FP_A" name="M.ESPRESSO.2020-08-20T15:18:43.546"/>
+            </mainFiles>
+            <messages/>
+            <associatedFiles/>
+        </association>
+    </associatedFiles>
+</association>

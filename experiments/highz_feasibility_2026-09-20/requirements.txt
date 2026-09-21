@@ -1,0 +1,7 @@
+# Python 3.12; compatible versions used or supported by this pilot.
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+mpmath>=1.3
+requests>=2.31
+astropy>=6.0

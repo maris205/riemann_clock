@@ -1,0 +1,273 @@
+{
+  "created_utc": "2026-09-20T13:31:24.773349+00:00",
+  "purpose": "Data-readiness pilot only; no cosmic-time, alpha-drift or Riemann-cutoff fit",
+  "catalog_rows": 475,
+  "final_spectra_count_reported_by_release": 467,
+  "catalog_final_spectra_count_by_positive_NumExp": 467,
+  "github_version": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19",
+  "sources": [
+    {
+      "file": "data/raw/README.md",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/README.md",
+      "bytes": 3971,
+      "sha256": "66c84d8d0264ba3b15aa132a4e27b143a77f337cc045341501a3b115c3954186",
+      "access_date_utc": "2026-09-20T13:22:50.947796+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/LICENSE",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/LICENSE",
+      "bytes": 18656,
+      "sha256": "4014722237c90b6f8effc35b6e04a47815c03ef14ee24683d6c1dfd0b9b644d0",
+      "access_date_utc": "2026-09-20T13:22:50.948023+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/Notes_FITS_Files.txt",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/Notes_FITS_Files.txt",
+      "bytes": 5453,
+      "sha256": "3fa9708cda6201c86f44195de91cc318d4ecf1d188de59756f015dd5fa7b957f",
+      "access_date_utc": "2026-09-20T13:22:50.948184+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/DR1_quasars_master.csv",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/DR1_quasars_master.csv",
+      "bytes": 251314,
+      "sha256": "558f892876a2de991d78870a9bdfae648d455daccfc02ea03a4192b0bf3d69a5",
+      "access_date_utc": "2026-09-20T13:22:50.948850+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/DR1_DLAs.csv",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/DLAs/DR1_DLAs.csv",
+      "bytes": 8524,
+      "sha256": "0b35445349beac4b9c18404b6ffc6c5f11158c34822bd46b8a03bb8ea6360533",
+      "access_date_utc": "2026-09-20T13:22:50.949009+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/paper_accepted_2018-10-16.tex",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/UVES_SQUAD_DR1/a0cdc8e7b99f2b01a45d919988af9d60e6447d19/Paper/src/paper_accepted_2018-10-16.tex",
+      "bytes": 112352,
+      "sha256": "808a1a0a8662f8d19ff6f627aaef160353c8faa022d5f218f6f9b55d43650191",
+      "access_date_utc": "2026-09-20T13:22:50.949313+00:00",
+      "github_commit_if_applicable": "a0cdc8e7b99f2b01a45d919988af9d60e6447d19"
+    },
+    {
+      "file": "data/raw/catalog_portal_metadata.json",
+      "url": "https://dmc.datacentral.org.au/api/3/action/package_show?id=uves-squad-dr1",
+      "bytes": 907607,
+      "sha256": "41cd3361940f583ddfbc3562f68cd38f47c94bdb005445c1966496210748dd7d",
+      "access_date_utc": "2026-09-20T13:22:50.952141+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/eso_release_announcement.html",
+      "url": "https://www.eso.org/sci/publications/announcements/sciann17192.html",
+      "bytes": 26603,
+      "sha256": "178867d1fd15e8c34e78e77c1c1247555750488cef96b28876a38f38b63336a9",
+      "access_date_utc": "2026-09-20T13:22:50.952444+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/espresso_README.md",
+      "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/README.md",
+      "bytes": 2762,
+      "sha256": "f8be2f8994fc3f72a9b939e53e440904aa28b864bf6728cfa153d9a0f9262aff",
+      "access_date_utc": "2026-09-20T13:22:52.312630+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/espresso_github_tree.json",
+      "url": "https://api.github.com/repos/MTMurphy77/ESPRESSO_HE0515-4414/git/trees/09ee2cb32fb57ace9cda2943e997930bc7813366?recursive=1",
+      "bytes": 11346,
+      "sha256": "d578a24e89a1a343a3c8e23f09fc18e4c706ffc07d61c042e7ddb308cd811fb4",
+      "access_date_utc": "2026-09-20T13:22:53.044378+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/kodiaq_documentation.html",
+      "url": "https://koa.ipac.caltech.edu/applications/KODIAQ/kodiaqDocument.html",
+      "bytes": 8029,
+      "sha256": "f50f38ba40d8c64e22ca03c5f5f2cad07fa596dfc728d399244f68d1346d473d",
+      "access_date_utc": "2026-09-20T13:22:55.771724+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/J034943-381030_Final_Spectrum.tar.gz",
+      "url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/b1ddfba2-62cf-4dbd-9b82-4460fb454688/download/j034943-381030finalspectrum.tar.gz",
+      "bytes": 11013445,
+      "sha256": "23ceb74316d17eb0779aebfabf83cdc0bfc3657bdca4afe4a19842120fbfefbc",
+      "access_date_utc": "2026-09-20T13:22:55.825539+00:00",
+      "github_commit_if_applicable": null
+    },
+    {
+      "file": "data/raw/J051707-441055_Final_Spectrum.tar.gz",
+      "url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/c4f30c35-51bc-4db8-acd9-5f9ab5f446c3/download/j051707-441055finalspectrum.tar.gz",
+      "bytes": 12512360,
+      "sha256": "1e1a587542a2ed64be8ab5e4c1febf1fed808d9a13915dc572296b4d104da399",
+      "access_date_utc": "2026-09-20T13:22:55.867410+00:00",
+      "github_commit_if_applicable": null
+    }
+  ],
+  "spectra": [
+    {
+      "target": "J051707-441055",
+      "alias": "HE 0515-4414",
+      "z_abs_reference": 1.1508,
+      "z_abs_source": "https://doi.org/10.1093/mnras/stw2543",
+      "half_window_km_s": 200,
+      "catalog": {
+        "Name_Adopt": "J051707-441055",
+        "RA_Adopt": "05:17:07.62",
+        "Dec_Adopt": "-44:10:55.6",
+        "zem_Adopt": "1.71",
+        "RA_UVES": "05:17:07.60",
+        "Dec_UVES": "-44:10:56.4",
+        "RA_SSS": "05:17:07.624",
+        "Dec_SSS": "-44:10:55.61",
+        "B_SSS": "15.297",
+        "R1_SSS": "14.586",
+        "R2_SSS": "14.778",
+        "I_SSS": "14.168",
+        "Name_SDSS": "",
+        "zem_SDSS": "",
+        "u_SDSS": "",
+        "g_SDSS": "",
+        "r_SDSS": "",
+        "i_SDSS": "",
+        "z_SDSS": "",
+        "Name_NED": "HE 0515-4414",
+        "zem_NED": "1.71",
+        "Name_SIMBAD": "QSO J0517-4410",
+        "zem_SIMBAD": "1.713",
+        "Spec_status": "0",
+        "NumExp": "51",
+        "ExpTime": "181652",
+        "WavStart": "3043.7848844158",
+        "WavEnd": "10428.923455595",
+        "WavCoverage": "3050.68-5822.24,5822.47-8536.93,8664.25-10087.55,10090.70-10255.59,10264.18-10428.92",
+        "Dispersion": "1.3",
+        "CNR": "109,112,246,277,195",
+        "ResPowerNom": "62.5,55.8,53.7,53.7,50.6",
+        "SlitWidths": "0.5,0.6,0.7,0.8",
+        "Binnings": "1x1,2x1",
+        "Settings": "346,437,520,580,860",
+        "Seeing": "0.41,0.77,2.37",
+        "ProgIDs": "072.A-0100(A),079.A-0404(A),082.A-0078(A),60.A-9022(A),66.A-0212(A)",
+        "PIObjNames": "he0515m4414,hem0515m44,hem0515m4414",
+        "DLAzabs": "",
+        "DLAlogNHI": "",
+        "DLAelogNHI": "",
+        "DLAReference": ""
+      },
+      "fits_sha256": "1edf93099391018733131a3fe52f98cd2ecc8775e05182825addaa8d355ec553",
+      "n_pixels": 283993,
+      "n_valid_pixels": 279787,
+      "wavelength_vacuum_heliocentric_AA_min_max": [
+        3043.7848844157825,
+        10428.92345559518
+      ],
+      "valid_wavelength_min_max_AA": [
+        3050.682480921404,
+        10428.92345559518
+      ],
+      "dispersion_km_s": 1.3,
+      "n_exposures": 51,
+      "exposure_seconds": 181652.0812,
+      "observation_date_range_from_exposure_info": [
+        "1999-12-14",
+        "2009-02-11"
+      ],
+      "exposure_count_note": "Use UP_NEXP for unique observation count; the ExposureInfo table repeats records for detector arms and extracted spectra",
+      "source_product": "Continuum-normalized coadded reduced spectrum, not raw photon data",
+      "processing": "Only FITS decoding, wavelength reconstruction and validity mask; no resampling, re-normalization or fitted line centroids",
+      "covariance": "Neighbouring pixels can be correlated by original redispersion; full pixel covariance is not supplied here",
+      "telluric_mask": "No additional telluric, sky, saturation or blend mask applied; valid flag is not proof of uncontaminated absorption"
+    },
+    {
+      "target": "J034943-381030",
+      "alias": "Q0347-383 / Q0347-3819",
+      "z_abs_reference": 3.025,
+      "z_abs_source": "SQUAD DR1 master catalogue DLAzabs",
+      "half_window_km_s": 150,
+      "catalog": {
+        "Name_Adopt": "J034943-381030",
+        "RA_Adopt": "03:49:43.64",
+        "Dec_Adopt": "-38:10:30.6",
+        "zem_Adopt": "3.205",
+        "RA_UVES": "03:49:43.63",
+        "Dec_UVES": "-38:10:32.1",
+        "RA_SSS": "03:49:43.645",
+        "Dec_SSS": "-38:10:30.66",
+        "B_SSS": "18.066",
+        "R1_SSS": "17.515",
+        "R2_SSS": "17.483",
+        "I_SSS": "17.285",
+        "Name_SDSS": "",
+        "zem_SDSS": "",
+        "u_SDSS": "",
+        "g_SDSS": "",
+        "r_SDSS": "",
+        "i_SDSS": "",
+        "z_SDSS": "",
+        "Name_NED": "[HB89] 0347-383",
+        "zem_NED": "3.205",
+        "Name_SIMBAD": "QSO B0347-3819",
+        "zem_SIMBAD": "3.222",
+        "Spec_status": "0",
+        "NumExp": "29",
+        "ExpTime": "141412",
+        "WavStart": "3284.5305356537",
+        "WavEnd": "10510.6205501512",
+        "WavCoverage": "3655.80-5578.30,5578.83-8915.74,8917.64-9767.48,9773.08-9924.99,9932.14-10013.13,10019.00-10087.61,10099.96-10255.70,10264.29-10420.00,10421.89-10429.26,10443.79-10477.95,10478.99-10495.73",
+        "Dispersion": "1.3",
+        "CNR": "0,62,30,94,76",
+        "ResPowerNom": "0.0,59.8,47.8,53.7,53.7",
+        "SlitWidths": "0.7,0.8,1.0",
+        "Binnings": "1x1,2x2",
+        "Settings": "390,427,430,437,580,760,800,860",
+        "Seeing": "0.50,1.09,2.20",
+        "ProgIDs": "083.A-0733(A),60.A-9022(A),68.A-0106(A),68.B-0115(A)",
+        "PIObjNames": "q0347m38,q0347m383,qsom0347,qsom0347m3819",
+        "DLAzabs": "3.025",
+        "DLAlogNHI": "20.73",
+        "DLAelogNHI": "0.05",
+        "DLAReference": "Zafar et al. (2013)"
+      },
+      "fits_sha256": "2b57efe512b36d3c3a5a27b7a3c49d697448400940e1b78f575b54b019a7bf17",
+      "n_pixels": 268238,
+      "n_valid_pixels": 241828,
+      "wavelength_vacuum_heliocentric_AA_min_max": [
+        3284.5305356536983,
+        10510.62055015116
+      ],
+      "valid_wavelength_min_max_AA": [
+        3655.795014039392,
+        10494.726048778764
+      ],
+      "dispersion_km_s": 1.3,
+      "n_exposures": 29,
+      "exposure_seconds": 141412.3859,
+      "observation_date_range_from_exposure_info": [
+        "1999-12-16",
+        "2009-09-23"
+      ],
+      "exposure_count_note": "Use UP_NEXP for unique observation count; the ExposureInfo table repeats records for detector arms and extracted spectra",
+      "source_product": "Continuum-normalized coadded reduced spectrum, not raw photon data",
+      "processing": "Only FITS decoding, wavelength reconstruction and validity mask; no resampling, re-normalization or fitted line centroids",
+      "covariance": "Neighbouring pixels can be correlated by original redispersion; full pixel covariance is not supplied here",
+      "telluric_mask": "No additional telluric, sky, saturation or blend mask applied; valid flag is not proof of uncontaminated absorption"
+    }
+  ],
+  "license_note": "GitHub metadata/code repository LICENSE says CC BY 4.0; spectrum-host CKAN portal says CC Attribution Share-Alike (version not specified). Preserve both notices and cite Murphy et al. (2019), DOI 10.1093/mnras/sty2834; do not silently relicense spectra under the repository notice.",
+  "downloaded_source_bytes": 24882422,
+  "limitations": [
+    "Two convenience examples, not a population sample",
+    "Emission redshift differs from absorber redshift",
+    "These are historical coadded observations, not 2026 acquisition data",
+    "No complete atomic/nuclear eigenvalue sequence and no direct Riemann-zero measurement",
+    "Rest wavelengths supplied for coverage checks only, not a vetted precision-constant line list"
+  ]
+}

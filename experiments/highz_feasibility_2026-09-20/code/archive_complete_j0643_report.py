@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+"""Report the complete bounded J0643 ordinary-model experiment, including failure."""
+from pathlib import Path
+import json,hashlib
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+ROOT=Path(__file__).resolve().parents[1];F=ROOT/'results/archive_complete/J064326-504112'
+def load(p):return json.loads(p.read_text())
+def main():
+ ordinary=load(F/'ordinary_model_summary.json');fit=load(F/(ordinary['selected_null']+'.json'));a=np.load(F/(fit['name']+'.npz'))
+ fig,axes=plt.subplots(4,2,figsize=(13,11),gridspec_kw={'width_ratios':[2,1]});edge=[]
+ for row,k in enumerate(fit['configuration']['lines']):
+  v=a[f'{k}_v'];flux=a[f'{k}_flux'];model=a[f'{k}_model'];error=a[f'{k}_error'];good=a[f'{k}_good'];r=(model-flux)/error
+  ax,rx=axes[row];ax.step(v,flux,where='mid',c='#3076a5',lw=.9,label='Native coadd');ax.plot(v,model,c='#c3493d',lw=1.3,label='Shared gas, no shifts');ax.fill_between(v,model-error,model+error,color='#c3493d',alpha=.15);ax.axhline(1,color='gray',lw=.5);ax.set_ylim(-.12,1.12);ax.text(.02,.08,f'Fe II {k}',transform=ax.transAxes);ax.set_ylabel('Normalized flux');ax.grid(alpha=.16)
+  rx.axhspan(-1,1,color='gray',alpha=.13);rx.axhline(0,c='gray',lw=.6);rx.step(v[good],r[good],where='mid',lw=.9);rx.set_ylabel('(model − data) / error');rx.grid(alpha=.16)
+  rowout={'line':k,'full_chi2':float(r[good]@r[good]),'ndata':int(good.sum()),'residual_extremes':[float(r[good].min()),float(r[good].max())]}
+  for name,mask in [('first_4_pixels',np.arange(len(v))<4),('last_4_pixels',np.arange(len(v))>=len(v)-4),('blue_20kms',v< -125),('red_20kms',v>80)]:
+   u=mask&good;rowout[name]={'npix':int(u.sum()),'chi2':float(r[u]@r[u]),'mean_standardized_residual':float(np.mean(r[u]))}
+  edge.append(rowout)
+ axes[0,0].legend(fontsize=8,loc='upper right');axes[-1,0].set_xlabel('Velocity at z = 2.659 (km/s)');axes[-1,1].set_xlabel('Velocity (km/s)');fig.suptitle('J064326−504112: bounded conventional fit; 1611 fails per-line adequacy',fontsize=13);fig.tight_layout();fig.savefig(F/'ordinary_profile_fit.pdf');fig.savefig(F/'ordinary_profile_fit.png',dpi=170);plt.close(fig)
+ fig,ax=plt.subplots(figsize=(7,4.2));x=[r['ncomp'] for r in ordinary['by_count']];ax.plot(x,[r['chi2']/r['nominal_ndf'] for r in ordinary['by_count']],'o-',label='Total χ² / nominal dof');
+ for k in fit['configuration']['lines']:ax.plot(x,[next(s['chi2_per_pixel'] for s in r['per_line'] if s['line']==k) for r in ordinary['by_count']],'o--',label=f'{k}: χ² / pixel',alpha=.8)
+ ax.axhline(1.8,c='gray',ls=':',label='Per-line diagnostic gate');ax.set_yscale('log');ax.set_xlabel('Shared gas components');ax.set_ylabel('Conditional diagonal-error residual measure');ax.legend(fontsize=8,ncol=2);ax.grid(alpha=.2);fig.tight_layout();fig.savefig(F/'ordinary_count_comparison.pdf');fig.savefig(F/'ordinary_count_comparison.png',dpi=160);plt.close(fig)
+ (F/'edge_residual_diagnostics.json').write_text(json.dumps({'fit':fit['name'],'definition':'Saved no-shift model residuals with fixed source-valid native pixels; diagnostic only, never used to clip/redefine the primary fit.','lines':edge},indent=2)+'\n')
+ lines=['# J064326−504112: completed bounded conventional-model campaign','', '**Outcome: the four-line primary fit does not pass its predeclared per-line adequacy gate. No relative-shift alternative, alpha estimate or cosmic-time point is reported.**','', 'The primary line set (1608, 1611, 2374, 2382), common [−145,+100] km/s window and initial gas-center maps were frozen before fitting shifts. All 436 source-valid native pixels were retained. Errors are the original FITS expected-fluctuation row with diagonal weighting. Weak 1611 was included from the outset to constrain saturation, with its pre-fit 5897 Å strong-sky proxy warning preserved.','', '| Gas components | Best ordinary χ² | Nominal dof | AICc | Successful stop |','|---:|---:|---:|---:|:---:|']
+ for r in ordinary['by_count']:lines.append(f"| {r['ncomp']} | {r['chi2']:.6f} | {r['nominal_ndf']} | {r['aicc']:.6f} | {r['optimizer_success']} |")
+ lines += ['',f"Three frozen starts were run per count (4, 6, 8, 10, 12, 16), with at most 350 objective evaluations each. All 18 initial fits stopped successfully; minimum ordinary-model AICc selected 16 components, the maximum searched count. Refinement at 21 subpixel integration points gives χ² = {fit['chi2']:.9f} for {fit['nominal_ndf']} nominal degrees of freedom. This does not establish an optimum over all gas architectures.",'','| Transition | Pixels | Ordinary χ² | χ² / pixel |','|---|---:|---:|---:|']
+ for r in fit['per_line']:lines.append(f"| {r['line']} | {r['ndata']} | {r['chi2']:.6f} | {r['chi2_per_pixel']:.6f} |")
+ lines += ['', 'The predeclared diagnostic gate requires successful stopping, total χ² / nominal dof ≤ 1.5, and every transition χ² / pixel ≤ 1.8. The weak 1611 line fails the last condition. The high-column core is saturated in the other transitions, so an apparently acceptable fit to those lines does not resolve the residual mismatch in the weak constraint. Possible sky residuals, unrelated absorption, continuum treatment, gas architecture or line response require further examination. This is not evidence that a varying constant is required.','', 'The initial selection audit independently reproduces all 436 native pixels from raw FITS. The selected blue boundary is a defensible local separation point, but nearby features are not identified and the main complex is not claimed to be an isolated complete absorber. Edge residual diagnostics are retained without clipping or changing the frozen window.','', 'A null-only explanatory omission of weak 1611, if present, must remain a separate control. It cannot overwrite the failed four-line primary fit or authorize a physical variation interpretation.','', 'Files: `config.json`, `campaign_protocol.json`, `ordinary_model_summary.json`, all individual fit JSON/NPZ files, `ordinary_profile_fit.pdf`, `ordinary_count_comparison.pdf`, and `edge_residual_diagnostics.json` under `results/archive_complete/J064326-504112/`.']
+ (ROOT/'reports/archive_complete_j0643_results.md').write_text('\n'.join(lines)+'\n')
+def sky_diagnostic():
+ fit=load(F/'n16_null_refined_os21.json');a=np.load(F/(fit['name']+'.npz'));wave=a['1611_wave'];r=(a['1611_model']-a['1611_flux'])/a['1611_error'];good=a['1611_good'];sky=np.zeros(len(wave),bool)
+ fig,axes=plt.subplots(2,1,figsize=(10,6.5),sharex=True,gridspec_kw={'height_ratios':[2,1]})
+ axes[0].step(wave,a['1611_flux'],where='mid',color='#3076a5',label='Native weak 1611 coadd');axes[0].plot(wave,a['1611_model'],color='#c3493d',label='Selected shared-gas null');axes[0].fill_between(wave,a['1611_model']-a['1611_error'],a['1611_model']+a['1611_error'],color='#c3493d',alpha=.16)
+ axes[1].step(wave,r,where='mid',color='#3076a5');axes[1].axhline(0,c='gray',lw=.6);axes[1].axhspan(-1,1,color='gray',alpha=.1)
+ for center in [5891.,5897.]:
+  lo=(center-1)*np.exp(-30/299792.458);hi=(center+1)*np.exp(30/299792.458);sky|=(wave>=lo)&(wave<=hi)
+  for ax in axes:ax.axvspan(lo,hi,color='#edb34a',alpha=.18,label='Conservative sky proxy, ±30 km/s padding' if center==5891 else None)
+ axes[0].set_ylabel('Normalized flux');axes[1].set_ylabel('(model − data) / error');axes[1].set_xlabel('Vacuum heliocentric wavelength (Å)');axes[0].set_ylim(.75,1.08);axes[0].set_xlim(wave.min(),wave.max());axes[0].legend(fontsize=8);axes[0].set_title('Weak1611 residuals: sky proxy is a warning, not an identified explanation')
+ for ax in axes:ax.grid(alpha=.15)
+ fig.tight_layout();fig.savefig(F/'weak1611_wavelength_diagnostic.pdf');fig.savefig(F/'weak1611_wavelength_diagnostic.png',dpi=170);plt.close(fig)
+ worst=np.argmax(abs(r));out={'fit':fit['name'],'sky_proxy_definition':'Archived approximate centers 5891,5897 Å ±1 Å with ±30 km/s padding; no exposure-specific sky diagnosis.','flagged_pixels':int(np.sum(sky&good)),'flagged_chi2':float(r[sky&good]@r[sky&good]),'unflagged_pixels':int(np.sum(~sky&good)),'unflagged_chi2':float(r[~sky&good]@r[~sky&good]),'largest_absolute_residual':{'wavelength_AA':float(wave[worst]),'velocity_km_s':float(a['1611_v'][worst]),'standardized_residual':float(r[worst]),'inside_sky_proxy':bool(sky[worst])},'interpretation':'Important residuals occur outside proxy intervals; cannot attribute failed weak-line adequacy to the sky warning alone. No pixels removed.'}
+ (F/'weak1611_wavelength_diagnostic.json').write_text(json.dumps(out,indent=2)+'\n')
+ report=ROOT/'reports/archive_complete_j0643_results.md';text=report.read_text();text+='\nThe largest weak 1611 residual is at %.6f Å (velocity %.3f km/s), %.3f in the saved standardized residual. It is outside the conservative sky proxy. The proxy flag alone therefore does not establish an explanation for the mismatch. `weak1611_wavelength_diagnostic.pdf` shows the wavelength mapping; all pixels remain in the primary fit.\n' % (wave[worst],a['1611_v'][worst],r[worst]);text+='\nThe selected primary has active `logb_14` (lower 0.5 km/s) and `zero_1611` (upper +0.02) bounds. Its recorded SciPy first-order optimality is %.6g, so successful ftol termination is not claimed as strong stationarity or a certified global minimum.\n' % fit['stationarity']['scipy_optimality']
+ if (F/'omit1611_null_only_summary.json').exists():
+  ctl=load(F/'omit1611_null_only_summary.json');text+='\nThe additional null-only weak 1611 omission retains the fixed 16 gas architecture and the other 327 native pixels. It gives χ²=%.9f for %d nominal degrees of freedom, successful stopping=%s, and the same conditional adequacy gate=%s. This localizes sensitivity to including the weak constraint, while also losing saturation information; it does not identify contamination and does not replace the failed primary. No displacement alternative was fitted.\n' % (ctl['chi2'],ctl['nominal_ndf'],ctl['optimizer_success'],ctl['passes_same_conditional_gate'])
+ report.write_text(text)
+def export_summary():
+ ordinary=load(F/'ordinary_model_summary.json');fit=load(F/(ordinary['selected_null']+'.json'));ctl=load(F/'omit1611_null_only_summary.json');fits=[]
+ for p in sorted(F.glob('*.json')):
+  d=load(p)
+  if all(k in d for k in ['optimizer_success','parameters','labels','source_hashes']):
+   fits.append({'name':d['name'],'ncomp':d['ncomp'],'free_shifts':d['free_shifts'],'ndata':d['ndata'],'chi2':d['chi2'],'optimizer_success':d['optimizer_success'],'record_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'arrays_sha256':hashlib.sha256(p.with_suffix('.npz').read_bytes()).hexdigest()})
+ summary={'target':fit['target'],'z_abs':2.659,'primary_lines':[1608,1611,2374,2382],'primary_window_km_s':[-145,100],'primary_ndata':436,'primary_ncomp':16,'primary_chi2':fit['chi2'],'primary_nominal_ndf':fit['nominal_ndf'],'primary_passes_adequacy':False,'primary_failure':'Weak1611 chi2 per pixel exceeds the predeclared 1.8 gate; conventional four-line model inadequate. Selected architecture at maximum searched count; bound and first-order caveats.','common_observable':'velocity(FeII2382)-velocity(FeII2374)','common_observable_status':'not_estimated_primary_due_model_failure','common_observable_m_s':None,'conditional_sigma_m_s':None,'relative_shift_alternatives_run':False,'null_only_control':ctl,'fit_count':len(fits),'all_saved_fits':fits,'interpretation':'Completed bounded campaign; inadequate primary retained. No missing result replaced with zero and no time-law datum inferred.','reports':['reports/archive_complete_j0643_selection_review.md','reports/archive_complete_j0643_results.md'],'source_hashes':fit['source_hashes']}
+ if (F/'independent_fit_review.json').exists():
+  audit=load(F/'independent_fit_review.json');summary['independent_validation']={'status':audit['status'],'checks_pass':audit['checks_pass'],'checks_total':audit['checks_total'],'path':'independent_fit_review.json'}
+  report=ROOT/'reports/archive_complete_j0643_results.md';text=report.read_text();text+='\nIndependent validation: %d/%d grouped mechanical checks PASS across all 20 saved fits, including exact objective/residual/Jacobian replay, raw source-pixel/error identity, and 25 representative finite-difference columns. At fixed selected parameters, increasing integration from 21 to 55 subpixels changes χ² by only %.3g. These checks validate calculation and reproducibility, not model completeness or physical variation. See `archive_complete_j0643_fit_review.md`.\n' % (audit['checks_pass'],audit['checks_total'],audit['primary_fixed_parameter_quadrature'][-1]['delta_from_os21']);report.write_text(text)
+ (F/'scientific_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+if __name__=='__main__':
+ main();sky_diagnostic();export_summary()
+

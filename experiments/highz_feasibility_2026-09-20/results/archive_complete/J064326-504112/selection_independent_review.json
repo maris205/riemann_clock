@@ -1,0 +1,448 @@
+{
+  "review_utc": "2026-09-21T03:48:03.193852+00:00",
+  "review_scope": "Independent pre-fit source and fixed-window selection audit only; no model fitted or fitted residual examined. Diagnostic uncertainties are diagonal supplied expected-fluctuation errors; not calibrated discovery significances.",
+  "target": "J064326-504112",
+  "z_abs_catalogue": 2.659,
+  "z_emission": 3.09,
+  "window_km_s": [
+    -145,
+    100
+  ],
+  "native_pixel_spacing_km_s": 2.249991556709879,
+  "total_pixels": 436,
+  "total_valid_positive_expected_pixels": 436,
+  "raw_FITS_SHA_verified": true,
+  "raw_FITS_full_wavelength_reconstructed": true,
+  "raw_FITS_selected_array_checks": {
+    "1608": {
+      "flux": true,
+      "error": true,
+      "expected_fluctuation": true,
+      "continuum": true,
+      "status": true,
+      "saved_window_indices": true
+    },
+    "1611": {
+      "flux": true,
+      "error": true,
+      "expected_fluctuation": true,
+      "continuum": true,
+      "status": true,
+      "saved_window_indices": true
+    },
+    "2374": {
+      "flux": true,
+      "error": true,
+      "expected_fluctuation": true,
+      "continuum": true,
+      "status": true,
+      "saved_window_indices": true
+    },
+    "2382": {
+      "flux": true,
+      "error": true,
+      "expected_fluctuation": true,
+      "continuum": true,
+      "status": true,
+      "saved_window_indices": true
+    }
+  },
+  "quasar_Lyalpha_plus_3000kms_AA": 5022.095818508637,
+  "lines": [
+    {
+      "line": 1608,
+      "isotope_weighted_reference_AA": 1608.4508522723688,
+      "sum_isotope_f": 0.05769998999999999,
+      "nominal_window_AA": [
+        5882.475815347957,
+        5887.285127913471
+      ],
+      "padded_window_AA": [
+        5881.88718998323,
+        5887.87429347271
+      ],
+      "actual_first_last_wavelength_AA": [
+        5882.480382896776,
+        5887.250405651155
+      ],
+      "native_pixels": 109,
+      "valid_positive_expected_pixels": 109,
+      "status_values": [
+        1
+      ],
+      "median_statistical_CNR": 55.407137111313716,
+      "median_expected_fluctuation_CNR": 56.19561621839047,
+      "minimum_flux": -0.006287343432660003,
+      "pixels_F_lt_0p1": 17,
+      "first_pixel": {
+        "v_km_s": -144.7672211159445,
+        "flux": 0.9889018259040332,
+        "expected_error": 0.017942481996238668
+      },
+      "last_pixel": {
+        "v_km_s": 98.23186700874753,
+        "flux": 0.9624705707706422,
+        "expected_error": 0.019596313178668872
+      },
+      "edge_summaries": [
+        {
+          "window_km_s": [
+            -145,
+            -137
+          ],
+          "npix": 4,
+          "weighted_flux": 0.9507599972117308,
+          "diagonal_standard_error": 0.0088497699478157,
+          "velocity_EW_km_s": 0.4377190526618886,
+          "velocity_EW_diagonal_error_km_s": 0.07966601607194844,
+          "EW_diagonal_signal_to_noise": 5.4944262841833735
+        },
+        {
+          "window_km_s": [
+            90,
+            100
+          ],
+          "npix": 4,
+          "weighted_flux": 0.9667873367210791,
+          "diagonal_standard_error": 0.009928106157152868,
+          "velocity_EW_km_s": 0.29824623325153043,
+          "velocity_EW_diagonal_error_km_s": 0.08937796156235457,
+          "EW_diagonal_signal_to_noise": 3.336910218560521
+        }
+      ],
+      "main_saturated_complex_summary": {
+        "window_km_s": [
+          -45,
+          40
+        ],
+        "npix": 38,
+        "weighted_flux": 0.13245830326418825,
+        "diagonal_standard_error": 0.0018121216362204904,
+        "velocity_EW_km_s": 68.30777181656399,
+        "velocity_EW_diagonal_error_km_s": 0.16730604135128396,
+        "EW_diagonal_signal_to_noise": 408.28036611745324
+      },
+      "full_window_summary": {
+        "window_km_s": [
+          -145,
+          100
+        ],
+        "npix": 109,
+        "weighted_flux": 0.43386578220428706,
+        "diagonal_standard_error": 0.001391574325391204,
+        "velocity_EW_km_s": 87.85861975569932,
+        "velocity_EW_diagonal_error_km_s": 0.3875645409710086,
+        "EW_diagonal_signal_to_noise": 226.69416437215162
+      },
+      "primary_telluric_overlap": false,
+      "broad_water_overlap": false,
+      "strong_sky_proxy_overlap": false,
+      "nominal_R": 47817.7,
+      "arc_R": 46754.35510268499,
+      "redward_of_quasar_Lyalpha_plus_3000kms": true,
+      "window_sha256": "a8d920d2a94585fc329c84ce4e31de32c4b47b8fa3776c5899aac06b00221eff"
+    },
+    {
+      "line": 1611,
+      "isotope_weighted_reference_AA": 1611.200368969589,
+      "sum_isotope_f": 0.00138,
+      "nominal_window_AA": [
+        5892.531432187255,
+        5897.348965883792
+      ],
+      "padded_window_AA": [
+        5891.941800615054,
+        5897.939138573924
+      ],
+      "actual_first_last_wavelength_AA": [
+        5892.554967550015,
+        5897.333159647071
+      ],
+      "native_pixels": 109,
+      "valid_positive_expected_pixels": 109,
+      "status_values": [
+        1
+      ],
+      "median_statistical_CNR": 50.2316952868711,
+      "median_expected_fluctuation_CNR": 50.147127174817385,
+      "minimum_flux": 0.8099103725079337,
+      "pixels_F_lt_0p1": 0,
+      "first_pixel": {
+        "v_km_s": -143.8026011838119,
+        "flux": 0.9895173839754741,
+        "expected_error": 0.01926471247326781
+      },
+      "last_pixel": {
+        "v_km_s": 99.1964869408914,
+        "flux": 0.9847754495043941,
+        "expected_error": 0.022884959891639124
+      },
+      "edge_summaries": [
+        {
+          "window_km_s": [
+            -145,
+            -137
+          ],
+          "npix": 4,
+          "weighted_flux": 1.0047374423675348,
+          "diagonal_standard_error": 0.00966616884141357,
+          "velocity_EW_km_s": -0.04503551224124878,
+          "velocity_EW_diagonal_error_km_s": 0.08702217218842347,
+          "EW_diagonal_signal_to_noise": -0.5175176751935852
+        },
+        {
+          "window_km_s": [
+            90,
+            100
+          ],
+          "npix": 5,
+          "weighted_flux": 0.9901051055412599,
+          "diagonal_standard_error": 0.010037929067937905,
+          "velocity_EW_km_s": 0.10994848801386484,
+          "velocity_EW_diagonal_error_km_s": 0.11301083410067708,
+          "EW_diagonal_signal_to_noise": 0.9729021902087359
+        }
+      ],
+      "main_saturated_complex_summary": {
+        "window_km_s": [
+          -45,
+          40
+        ],
+        "npix": 38,
+        "weighted_flux": 0.9165985864179413,
+        "diagonal_standard_error": 0.0032919886646409213,
+        "velocity_EW_km_s": 7.0154218267509725,
+        "velocity_EW_diagonal_error_km_s": 0.28452739499248497,
+        "EW_diagonal_signal_to_noise": 24.656401985250895
+      },
+      "full_window_summary": {
+        "window_km_s": [
+          -145,
+          100
+        ],
+        "npix": 109,
+        "weighted_flux": 0.9580504155635277,
+        "diagonal_standard_error": 0.0019438574720734398,
+        "velocity_EW_km_s": 10.093909949742402,
+        "velocity_EW_diagonal_error_km_s": 0.48250108796344626,
+        "EW_diagonal_signal_to_noise": 20.91997344989843
+      },
+      "primary_telluric_overlap": false,
+      "broad_water_overlap": false,
+      "strong_sky_proxy_overlap": true,
+      "nominal_R": 47817.7,
+      "arc_R": 46754.35510268499,
+      "redward_of_quasar_Lyalpha_plus_3000kms": true,
+      "window_sha256": "9909c7b15a74f9a01033fff0c9f3ede5559a40d5cddf31090230dce131338d7c"
+    },
+    {
+      "line": 2374,
+      "isotope_weighted_reference_AA": 2374.4600639902396,
+      "sum_isotope_f": 0.0313,
+      "nominal_window_AA": [
+        8683.948210913013,
+        8691.04791222246
+      ],
+      "padded_window_AA": [
+        8683.079258393127,
+        8691.917662199288
+      ],
+      "actual_first_last_wavelength_AA": [
+        8683.993529665844,
+        8691.035261051098
+      ],
+      "native_pixels": 109,
+      "valid_positive_expected_pixels": 109,
+      "status_values": [
+        1
+      ],
+      "median_statistical_CNR": 21.910630551662674,
+      "median_expected_fluctuation_CNR": 23.891315711739402,
+      "minimum_flux": -0.03213539029957955,
+      "pixels_F_lt_0p1": 15,
+      "first_pixel": {
+        "v_km_s": -143.43548297115734,
+        "flux": 1.0210831564801317,
+        "expected_error": 0.052689298591732305
+      },
+      "last_pixel": {
+        "v_km_s": 99.56360515356072,
+        "flux": 0.9657673187022172,
+        "expected_error": 0.039859125607261785
+      },
+      "edge_summaries": [
+        {
+          "window_km_s": [
+            -145,
+            -137
+          ],
+          "npix": 3,
+          "weighted_flux": 1.0397105874899322,
+          "diagonal_standard_error": 0.036614713309526446,
+          "velocity_EW_km_s": -0.3116067986558753,
+          "velocity_EW_diagonal_error_km_s": 0.2650996822828033,
+          "EW_diagonal_signal_to_noise": -1.1754325617163854
+        },
+        {
+          "window_km_s": [
+            90,
+            100
+          ],
+          "npix": 5,
+          "weighted_flux": 1.0049747223649728,
+          "diagonal_standard_error": 0.018114783812431173,
+          "velocity_EW_km_s": -0.07633125844981005,
+          "velocity_EW_diagonal_error_km_s": 0.20394928359149997,
+          "EW_diagonal_signal_to_noise": -0.3742658817213483
+        }
+      ],
+      "main_saturated_complex_summary": {
+        "window_km_s": [
+          -45,
+          40
+        ],
+        "npix": 38,
+        "weighted_flux": 0.1731467418753543,
+        "diagonal_standard_error": 0.004428733467337339,
+        "velocity_EW_km_s": 63.71902382545333,
+        "velocity_EW_diagonal_error_km_s": 0.4544804179340505,
+        "EW_diagonal_signal_to_noise": 140.20191258207208
+      },
+      "full_window_summary": {
+        "window_km_s": [
+          -145,
+          100
+        ],
+        "npix": 109,
+        "weighted_flux": 0.4703791432276153,
+        "diagonal_standard_error": 0.0034343596781948945,
+        "velocity_EW_km_s": 75.43363810090119,
+        "velocity_EW_diagonal_error_km_s": 1.047571247401057,
+        "EW_diagonal_signal_to_noise": 72.00812191824298
+      },
+      "primary_telluric_overlap": false,
+      "broad_water_overlap": false,
+      "strong_sky_proxy_overlap": false,
+      "nominal_R": 56935.86,
+      "arc_R": 54324.73282578291,
+      "redward_of_quasar_Lyalpha_plus_3000kms": true,
+      "window_sha256": "f875068a4a04d1f915eb66097d3b6934fa6e2abd69aee93f44e473a41a0f4df6"
+    },
+    {
+      "line": 2382,
+      "isotope_weighted_reference_AA": 2382.7639949541563,
+      "sum_isotope_f": 0.32,
+      "nominal_window_AA": [
+        8714.317602056391,
+        8721.442132349248
+      ],
+      "padded_window_AA": [
+        8713.445610647013,
+        8722.314924004422
+      ],
+      "actual_first_last_wavelength_AA": [
+        8714.35275407321,
+        8721.419103337616
+      ],
+      "native_pixels": 109,
+      "valid_positive_expected_pixels": 109,
+      "status_values": [
+        1
+      ],
+      "median_statistical_CNR": 35.12784722998824,
+      "median_expected_fluctuation_CNR": 37.03278779341449,
+      "minimum_flux": -0.033925888529825775,
+      "pixels_F_lt_0p1": 39,
+      "first_pixel": {
+        "v_km_s": -143.7906926563502,
+        "flux": 0.9712569871054633,
+        "expected_error": 0.03792134540745624
+      },
+      "last_pixel": {
+        "v_km_s": 99.2083954679815,
+        "flux": 0.9603701868878964,
+        "expected_error": 0.04021857551999978
+      },
+      "edge_summaries": [
+        {
+          "window_km_s": [
+            -145,
+            -137
+          ],
+          "npix": 4,
+          "weighted_flux": 0.8045943326686559,
+          "diagonal_standard_error": 0.017659237671376372,
+          "velocity_EW_km_s": 1.5347472624390606,
+          "velocity_EW_diagonal_error_km_s": 0.16083908467598457,
+          "EW_diagonal_signal_to_noise": 9.542128802404326
+        },
+        {
+          "window_km_s": [
+            90,
+            100
+          ],
+          "npix": 5,
+          "weighted_flux": 0.9748200742890841,
+          "diagonal_standard_error": 0.017765046006111545,
+          "velocity_EW_km_s": 0.28065251644320177,
+          "velocity_EW_diagonal_error_km_s": 0.19993398198404566,
+          "EW_diagonal_signal_to_noise": 1.4037259382229346
+        }
+      ],
+      "main_saturated_complex_summary": {
+        "window_km_s": [
+          -45,
+          40
+        ],
+        "npix": 38,
+        "weighted_flux": 0.010566934939274544,
+        "diagonal_standard_error": 0.0024003909093216575,
+        "velocity_EW_km_s": 83.90982804354321,
+        "velocity_EW_diagonal_error_km_s": 0.21100703533044626,
+        "EW_diagonal_signal_to_noise": 397.6636509400587
+      },
+      "full_window_summary": {
+        "window_km_s": [
+          -145,
+          100
+        ],
+        "npix": 109,
+        "weighted_flux": 0.13961991739520427,
+        "diagonal_standard_error": 0.001978924976653837,
+        "velocity_EW_km_s": 152.7564878993165,
+        "velocity_EW_diagonal_error_km_s": 0.6786497231533741,
+        "EW_diagonal_signal_to_noise": 225.08885318559794
+      },
+      "primary_telluric_overlap": false,
+      "broad_water_overlap": false,
+      "strong_sky_proxy_overlap": false,
+      "nominal_R": 56935.86,
+      "arc_R": 54324.73282578291,
+      "redward_of_quasar_Lyalpha_plus_3000kms": true,
+      "window_sha256": "9c137a1c8f6564a07a02898f652e314dd7d8d5272fd0d4eb7313d96e753c3049"
+    }
+  ],
+  "decision": "Conditional approval for exploratory main-complex conventional gas fit, retaining every source-valid pixel. No proof of blend-free full-system coverage or precision-calibration suitability.",
+  "recommendations": [
+    "Retain FeII1611 as an unsaturated saturation constraint, with explicit sky-feature uncertainty and a with/without1611 sensitivity comparison.",
+    "Freeze window and source-valid mask before fits; no fitted-residual clipping.",
+    "Describe the selected main complex rather than an isolated complete absorber. Blue boundary is a local near-continuum separation with limited clean margin; assess boundary sensitivity if conclusions depend on offsets.",
+    "Record nearby features outside the window without asserting their identity or excluding them as proven blends.",
+    "Treat 2382 deep saturation and 1608/2374 low-flux portions through shared nonlinear opacity; do not infer frequencies from their black cores alone.",
+    "Do not turn relative-shift improvement into alpha or cosmic-time-law evidence."
+  ],
+  "limitations": [
+    "Catalogue z_abs is rounded and supplies a coordinate origin only.",
+    "Broad atmospheric band tests are proxies; no exposure-specific sky/telluric subtraction or wavelength-calibration certification.",
+    "Adjacent pixel covariance and uncertainty in continuum/LSF remain outside this selection audit.",
+    "FeII1611 outside-window absorption near \u2212170 and +135 km/s, and 2382 near \u2212160 km/s, have not been identified."
+  ],
+  "source_sha256": {
+    "full_npz": "3ada82ab25d522d2d14930766ba88f398dd74f411d2250ef19ee857bb8025c26",
+    "metadata": "b90b241e4be34c7b8ca40e5de8ed27a69624340d78084b4685b98176a397f69d",
+    "archive_tar": "e6ecf8400f00fafc3a7bba7e2696ee36ec4c8792628be4733bd4011c68583da0",
+    "atomic": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "selection_main_image": "6a6a045799df8090165fd11c85c9ce28e5c7977756bc5af8a5ff19e313340ced",
+    "selection_full_image": "924887ae96f75d92951bb48da9a6c759472725124dd36bd9ca2b58eeb7157a5e"
+  }
+}

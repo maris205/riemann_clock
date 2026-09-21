@@ -1,0 +1,2 @@
+# Command for producing the final, combined spectrum (hes0515m4414.fits) from the UVES_popler Log (UPL) file (hes0515m4414.upl), using the atmospheric line mask (atmomask.dat). Note that you must first replace the file paths in the UPL file to point to your local directory containing the individual DRS-extracted exposures included in the "DRS_extracted_spectra" directory of this repository.
+UVES_popler hes0515m4414.upl -atmomask 1 atmomask.dat

@@ -1,0 +1,67 @@
+uves_clean_alternative: ndata=511 npar=146 initial chi2=1399.090141
+uves_clean_alternative: evaluation 25, chi2=1391.6992039
+uves_clean_alternative: evaluation 50, chi2=1391.3344035
+uves_clean_alternative: evaluation 75, chi2=1390.9976616
+uves_clean_alternative: evaluation 100, chi2=1390.8212264
+uves_clean_alternative: evaluation 125, chi2=1390.6742008
+uves_clean_alternative: evaluation 150, chi2=1390.5455567
+uves_clean_alternative: evaluation 175, chi2=1390.4319404
+uves_clean_alternative: evaluation 200, chi2=1390.3285085
+uves_clean_alternative: evaluation 225, chi2=1390.2320360
+{
+  "name": "uves_clean_alternative",
+  "free_shifts": true,
+  "configuration": {
+    "oversample": 7,
+    "exclude": [
+      2260,
+      2344,
+      2586
+    ],
+    "rho": 0.0,
+    "zero_nuisance": true,
+    "velocity_span": 5.0,
+    "continuum_span": 0.03
+  },
+  "ndata": 511,
+  "npar": 146,
+  "nominal_ndf": 365,
+  "chi2": 1390.1454416986978,
+  "chi2_per_nominal_ndf": 3.8086176484895833,
+  "nominal_chi2_survival": 2.529215584967651e-119,
+  "optimizer_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "nfev": 240,
+  "optimality": 2.1550258579300245,
+  "seconds": 42.75437378883362,
+  "jacobian_rank": 144,
+  "active_bounds": [
+    "zero_adjustment_2374",
+    "zero_adjustment_2600"
+  ],
+  "shifts_km_s": {
+    "2382": 0.08331023659526798,
+    "2600": 0.07590904375050868
+  },
+  "per_line": [
+    {
+      "line": 2374,
+      "ndata": 156,
+      "chi2": 576.0314061052084,
+      "chi2_per_pixel": 3.6925090134949254
+    },
+    {
+      "line": 2382,
+      "ndata": 178,
+      "chi2": 376.3297779055979,
+      "chi2_per_pixel": 2.1142122354247075
+    },
+    {
+      "line": 2600,
+      "ndata": 177,
+      "chi2": 437.7842576878912,
+      "chi2_per_pixel": 2.473357388067182
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}

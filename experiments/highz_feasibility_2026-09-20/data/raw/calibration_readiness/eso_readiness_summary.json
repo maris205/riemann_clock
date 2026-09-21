@@ -1,0 +1,109 @@
+{
+  "associations": [
+    {
+      "source_file": "eso_association_20181104_raw2master.xml",
+      "rows": 24,
+      "main_description": "category=\"SCIENCE_SKY\" certified=\"true\" complete=\"true\" mode=\"Raw2Master\" type=\"main\" messages=\"\"",
+      "listed_total_bytes": 2234203217,
+      "selected_products": [
+        {
+          "eso_category": "ORDER_PROFILE_A",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:13:02.290",
+          "content_length": "340459200"
+        },
+        {
+          "eso_category": "ORDER_PROFILE_B",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:13:41.316",
+          "content_length": "340459200"
+        },
+        {
+          "eso_category": "WAVE_MATRIX_FP_THAR_B",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:19:06.353",
+          "content_length": "12479040"
+        },
+        {
+          "eso_category": "WAVE_MATRIX_THAR_FP_A",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:18:43.546",
+          "content_length": "12479040"
+        }
+      ]
+    },
+    {
+      "source_file": "eso_association_20181104_raw2raw.xml",
+      "rows": 130,
+      "main_description": "category=\"SCIENCE_SKY\" certified=\"false\" complete=\"true\" mode=\"Raw2Raw\" type=\"main\" messages=\"\"",
+      "listed_total_bytes": 12027175229,
+      "selected_products": [
+        {
+          "eso_category": "LFC_FP",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/ESPRE.2018-11-04T11:03:18.276",
+          "content_length": "96319739"
+        },
+        {
+          "eso_category": "FP_LFC",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/ESPRE.2018-11-04T11:05:24.377",
+          "content_length": "95552567"
+        }
+      ]
+    },
+    {
+      "source_file": "eso_association_20200228_raw2master.xml",
+      "rows": 24,
+      "main_description": "category=\"SCIENCE_SKY\" certified=\"true\" complete=\"true\" mode=\"Raw2Master\" type=\"main\" messages=\"\"",
+      "listed_total_bytes": 2240435415,
+      "selected_products": [
+        {
+          "eso_category": "ORDER_PROFILE_A",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-09-07T23:59:22.123",
+          "content_length": "340459200"
+        },
+        {
+          "eso_category": "ORDER_PROFILE_B",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-09-07T23:59:56.713",
+          "content_length": "340459200"
+        },
+        {
+          "eso_category": "WAVE_MATRIX_FP_THAR_B",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-09-08T00:01:17.926",
+          "content_length": "12479040"
+        },
+        {
+          "eso_category": "WAVE_MATRIX_THAR_FP_A",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-09-08T00:00:52.600",
+          "content_length": "12479040"
+        }
+      ]
+    },
+    {
+      "source_file": "eso_association_20200228_raw2raw.xml",
+      "rows": 108,
+      "main_description": "category=\"SCIENCE_SKY\" certified=\"true\" complete=\"true\" mode=\"Raw2Raw\" type=\"main\" messages=\"\"",
+      "listed_total_bytes": 9724610219,
+      "selected_products": [
+        {
+          "eso_category": "LFC_FP",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/ESPRE.2020-02-28T11:05:28.563",
+          "content_length": "92743009"
+        },
+        {
+          "eso_category": "FP_LFC",
+          "access_url": "https://dataportal.eso.org/dataPortal/file/ESPRE.2020-02-28T11:11:15.816",
+          "content_length": "91886329"
+        }
+      ]
+    }
+  ],
+  "header_proof": "All17 local S2D primary headers contain ESO INS MODE SINGLEHR, ESO DET BINX2, ESO DET BINY1; rawscienceexample ESPRE.2018-11-04T07:00:00.643",
+  "historical_lfc_search": {
+    "wanted_name": "ESPRESSO_LFC_WAVE_MATRIX_A.fits",
+    "wanted_datamd5": [
+      "9e3cd8f4b1634624f42a9c8e4094719c",
+      "e7524cf800158ca0dbb9da7e31a737c2"
+    ],
+    "matched_products_found": false,
+    "bounded_search": "Two science Raw2Master association lists/trees; five matchedmode LFC rawframe datalink responses; TAP_SCHEMA.tables publictablelist; two current masterheaders. No claim that authors did not publish the products or that no other archive route exists.",
+    "result": "Five LFC datalinks contain rawfile, CalSelector service links, and nightlogs but no direct derivative LFC matrix or extracted calibration link. Two associated WAVE_MATRIX_THAR_FP_A header DATAMD5 values are 6337aef5219f317c5235306b400f492f and 6330f2a141c60224a517272f5e9b3bf5, distinct from the requested LFC hashes."
+  },
+  "interpretation": "ORDER_PROFILE_A/B are spatial cross-dispersion extraction profiles, not independently recovered spectral line-spread functions. Raw2Raw contains same-date automatically chosen LFC exposures, not necessarily the bespoke published calibration. Calibration availability is not evidence a 60m/s anomaly is corrected.",
+  "pipeline": "Official pipeline3.6.0 release2026-07-30 and manual2026-07-27 checked; no documentation of2024 non-Gaussian spectral-LSF method integration found; this is not a source-code proof of absence."
+}

@@ -1,0 +1,726 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-20T13:25:30.519274+00:00",
+  "method": "Independent quadrature, high-precision direct powers, six-bin regression and line-level injection; no import of forecast_sensitivity.py",
+  "source_summary_sha256": "544993eb59ebe9bb69216796c4d7e8cf51e35ec65fa2e98e8d3564e00e92f368",
+  "source_code_sha256": "29b94d6e915f4be33da57c6fa0405e666c85a937f490d54b30f7cbf82c9f622d",
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1",
+    "mpmath": "1.3.0"
+  },
+  "monte_carlo_seed": 71620493,
+  "n_checks": 44,
+  "checks": [
+    {
+      "check": "RMS response normalization",
+      "pass": true,
+      "detail": 1.0000000000000004
+    },
+    {
+      "check": "age and direct log powers z=0",
+      "pass": true,
+      "detail": {
+        "z": 0,
+        "quadrature_age_Gyr": 13.796234644007175,
+        "direct_high_precision_h2_minus_one": 0.0,
+        "G2_normalized": 0.0,
+        "age_difference_Gyr": 1.7763568394002505e-15
+      }
+    },
+    {
+      "check": "age and direct log powers z=1",
+      "pass": true,
+      "detail": {
+        "z": 1,
+        "quadrature_age_Gyr": 5.8456219440434385,
+        "direct_high_precision_h2_minus_one": 0.01235923858961636,
+        "G2_normalized": 0.4560308140269678,
+        "age_difference_Gyr": -6.217248937900877e-15
+      }
+    },
+    {
+      "check": "age and direct log powers z=1.1508",
+      "pass": true,
+      "detail": {
+        "z": 1.1508,
+        "quadrature_age_Gyr": 5.281458144158004,
+        "direct_high_precision_h2_minus_one": 0.013835111350944066,
+        "G2_normalized": 0.5104875228175855,
+        "age_difference_Gyr": 8.881784197001252e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=1.4",
+      "pass": true,
+      "detail": {
+        "z": 1.4,
+        "quadrature_age_Gyr": 4.521079371090574,
+        "direct_high_precision_h2_minus_one": 0.01610194251949185,
+        "G2_normalized": 0.5941289911458246,
+        "age_difference_Gyr": -8.881784197001252e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=2",
+      "pass": true,
+      "detail": {
+        "z": 2,
+        "quadrature_age_Gyr": 3.2733573601343737,
+        "direct_high_precision_h2_minus_one": 0.020835421652688976,
+        "G2_normalized": 0.7687847619394328,
+        "age_difference_Gyr": -4.440892098500626e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=3",
+      "pass": true,
+      "detail": {
+        "z": 3,
+        "quadrature_age_Gyr": 2.1420066561035647,
+        "direct_high_precision_h2_minus_one": 0.02710176200699781,
+        "G2_normalized": 1.0,
+        "age_difference_Gyr": -4.440892098500626e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=3.025",
+      "pass": true,
+      "detail": {
+        "z": 3.025,
+        "quadrature_age_Gyr": 2.1222982978041363,
+        "direct_high_precision_h2_minus_one": 0.027238990678172228,
+        "G2_normalized": 1.0050634593846328,
+        "age_difference_Gyr": -8.881784197001252e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=4",
+      "pass": true,
+      "detail": {
+        "z": 4,
+        "quadrature_age_Gyr": 1.536858456531533,
+        "direct_high_precision_h2_minus_one": 0.032047974957548714,
+        "G2_normalized": 1.1825052167926855,
+        "age_difference_Gyr": -4.440892098500626e-16
+      }
+    },
+    {
+      "check": "age and direct log powers z=5",
+      "pass": true,
+      "detail": {
+        "z": 5,
+        "quadrature_age_Gyr": 1.1705426102287835,
+        "direct_high_precision_h2_minus_one": 0.0361310418891323,
+        "G2_normalized": 1.333162097719074,
+        "age_difference_Gyr": 0.0
+      }
+    },
+    {
+      "check": "independent polynomial projection degree 1",
+      "pass": true,
+      "detail": {
+        "norm2": 3.8519020219788906,
+        "fraction": 0.641983670329815,
+        "max_nuisance_inner_product": 6.661338147750939e-16
+      }
+    },
+    {
+      "check": "independent polynomial projection degree 2",
+      "pass": true,
+      "detail": {
+        "norm2": 3.5501406803819204,
+        "fraction": 0.5916901133969866,
+        "max_nuisance_inner_product": 1.6653345369377348e-15
+      }
+    },
+    {
+      "check": "exact degeneracy common_shift",
+      "pass": true,
+      "detail": {
+        "residual_norm": 6.843874359417885e-16
+      }
+    },
+    {
+      "check": "exact degeneracy log_wavelength_slope",
+      "pass": true,
+      "detail": {
+        "residual_norm": 3.076740298213702e-15
+      }
+    },
+    {
+      "check": "six-bin sufficient-statistic regression UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "sigma_B": true,
+        "null_95_halfwidth": true,
+        "5sigma90power": true
+      }
+    },
+    {
+      "check": "unconstrained bin offsets destroy identifiability UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "bin_nuisance_rank": 6,
+        "with_cosmic_shape_rank": 6
+      }
+    },
+    {
+      "check": "extra aligned random floor UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "sigma_B_aligned_direct_covariance": 164.84458168350943,
+        "interpretation": "Known zero-mean Gaussian random-effect variance, not a bound for an arbitrary unknown systematic."
+      }
+    },
+    {
+      "check": "shape p=1 conditional distance UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 741835.6659382475,
+        "rms_after_offset_and_amplitude": 0.00019642940176304847
+      }
+    },
+    {
+      "check": "shape p=3 conditional distance UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 741855.1162447722,
+        "rms_after_offset_and_amplitude": 0.00019642425168456132
+      }
+    },
+    {
+      "check": "independent line-level MC snr=0 UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 0.0,
+        "n_simulations": 10000,
+        "residual_mean_sigma": -0.0011352859373322801,
+        "residual_sd_sigma": 0.9981955712182509,
+        "coverage_95": 0.9497,
+        "coverage_99_9percent_binomial_interval": [
+          0.9421131656531124,
+          0.9566012814221722
+        ],
+        "rejection_abs_snr_gt5": 0.0,
+        "analytic_rejection_probability": 5.733031437583866e-07,
+        "rejection_99_9percent_binomial_interval": [
+          0.0,
+          0.0007598014505380493
+        ]
+      }
+    },
+    {
+      "check": "independent line-level MC snr=6.28155 UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 986.6983161410053,
+        "n_simulations": 10000,
+        "residual_mean_sigma": -0.004885169963934449,
+        "residual_sd_sigma": 1.0029502732242255,
+        "coverage_95": 0.951,
+        "coverage_99_9percent_binomial_interval": [
+          0.9435007176692436,
+          0.9578116678646523
+        ],
+        "rejection_abs_snr_gt5": 0.897,
+        "analytic_rejection_probability": 0.8999999999999999,
+        "rejection_99_9percent_binomial_interval": [
+          0.8866469054554346,
+          0.9067494752230447
+        ]
+      }
+    },
+    {
+      "check": "original MC consistency entry 0 UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 1 UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 2 UVES_archive_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "six-bin sufficient-statistic regression ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "sigma_B": true,
+        "null_95_halfwidth": true,
+        "5sigma90power": true
+      }
+    },
+    {
+      "check": "unconstrained bin offsets destroy identifiability ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "bin_nuisance_rank": 6,
+        "with_cosmic_shape_rank": 6
+      }
+    },
+    {
+      "check": "extra aligned random floor ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "sigma_B_aligned_direct_covariance": 111.2893572244718,
+        "interpretation": "Known zero-mean Gaussian random-effect variance, not a bound for an arbitrary unknown systematic."
+      }
+    },
+    {
+      "check": "shape p=1 conditional distance ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 1632328.6452636078,
+        "rms_after_offset_and_amplitude": 2.0251198810917534e-05
+      }
+    },
+    {
+      "check": "shape p=3 conditional distance ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 1632334.1924343402,
+        "rms_after_offset_and_amplitude": 2.025112999115142e-05
+      }
+    },
+    {
+      "check": "independent line-level MC snr=0 ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 0.0,
+        "n_simulations": 10000,
+        "residual_mean_sigma": 0.016792023729540907,
+        "residual_sd_sigma": 0.9903000894758499,
+        "coverage_95": 0.9507,
+        "coverage_99_9percent_binomial_interval": [
+          0.9431803930101784,
+          0.957532468584418
+        ],
+        "rejection_abs_snr_gt5": 0.0,
+        "analytic_rejection_probability": 5.733031437583866e-07,
+        "rejection_99_9percent_binomial_interval": [
+          0.0,
+          0.0007598014505380493
+        ]
+      }
+    },
+    {
+      "check": "independent line-level MC snr=6.28155 ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 696.2419455479366,
+        "n_simulations": 10000,
+        "residual_mean_sigma": -0.014634488214184352,
+        "residual_sd_sigma": 1.001147967720809,
+        "coverage_95": 0.9461,
+        "coverage_99_9percent_binomial_interval": [
+          0.9382774956249964,
+          0.953242642816297
+        ],
+        "rejection_abs_snr_gt5": 0.8986,
+        "analytic_rejection_probability": 0.8999999999999999,
+        "rejection_99_9percent_binomial_interval": [
+          0.888314759118555,
+          0.908279160071972
+        ]
+      }
+    },
+    {
+      "check": "original MC consistency entry 0 ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 1 ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 2 ESPRESSO_narrow_redshift_planning",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "six-bin sufficient-statistic regression ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "sigma_B": true,
+        "null_95_halfwidth": true,
+        "5sigma90power": true
+      }
+    },
+    {
+      "check": "unconstrained bin offsets destroy identifiability ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "bin_nuisance_rank": 6,
+        "with_cosmic_shape_rank": 6
+      }
+    },
+    {
+      "check": "extra aligned random floor ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "sigma_B_aligned_direct_covariance": 15.769137307672356,
+        "interpretation": "Known zero-mean Gaussian random-effect variance, not a bound for an arbitrary unknown systematic."
+      }
+    },
+    {
+      "check": "shape p=1 conditional distance ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 69267.0713910744,
+        "rms_after_offset_and_amplitude": 0.00020494319837718945
+      }
+    },
+    {
+      "check": "shape p=3 conditional distance ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "B_for_expected_delta_chi2_25_mps": 69268.93336019653,
+        "rms_after_offset_and_amplitude": 0.00020493768944427165
+      }
+    },
+    {
+      "check": "independent line-level MC snr=0 ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 0.0,
+        "n_simulations": 10000,
+        "residual_mean_sigma": 0.0012024750618452578,
+        "residual_sd_sigma": 0.9887649407140084,
+        "coverage_95": 0.9532,
+        "coverage_99_9percent_binomial_interval": [
+          0.9458520478667117,
+          0.9598568403280815
+        ],
+        "rejection_abs_snr_gt5": 0.0,
+        "analytic_rejection_probability": 5.733031437583866e-07,
+        "rejection_99_9percent_binomial_interval": [
+          0.0,
+          0.0007598014505380493
+        ]
+      }
+    },
+    {
+      "check": "independent line-level MC snr=6.28155 ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "injected_B_mps": 93.94347377513074,
+        "n_simulations": 10000,
+        "residual_mean_sigma": 0.00784656888879015,
+        "residual_sd_sigma": 1.000979915298583,
+        "coverage_95": 0.9501,
+        "coverage_99_9percent_binomial_interval": [
+          0.9425399611411103,
+          0.9569738519944465
+        ],
+        "rejection_abs_snr_gt5": 0.9018,
+        "analytic_rejection_probability": 0.8999999999999999,
+        "rejection_99_9percent_binomial_interval": [
+          0.8916527754669746,
+          0.9113362178505713
+        ]
+      }
+    },
+    {
+      "check": "original MC consistency entry 0 ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 1 ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    },
+    {
+      "check": "original MC consistency entry 2 ANDES_conditional_2035plus",
+      "pass": true,
+      "detail": {
+        "n_simulations": 5000,
+        "interpretation": "Sampling consistency, not empirical verification of a 5-sigma null tail."
+      }
+    }
+  ],
+  "age_and_log_law": [
+    {
+      "z": 0,
+      "quadrature_age_Gyr": 13.796234644007175,
+      "direct_high_precision_h2_minus_one": 0.0,
+      "G2_normalized": 0.0,
+      "age_difference_Gyr": 1.7763568394002505e-15
+    },
+    {
+      "z": 1,
+      "quadrature_age_Gyr": 5.8456219440434385,
+      "direct_high_precision_h2_minus_one": 0.01235923858961636,
+      "G2_normalized": 0.4560308140269678,
+      "age_difference_Gyr": -6.217248937900877e-15
+    },
+    {
+      "z": 1.1508,
+      "quadrature_age_Gyr": 5.281458144158004,
+      "direct_high_precision_h2_minus_one": 0.013835111350944066,
+      "G2_normalized": 0.5104875228175855,
+      "age_difference_Gyr": 8.881784197001252e-16
+    },
+    {
+      "z": 1.4,
+      "quadrature_age_Gyr": 4.521079371090574,
+      "direct_high_precision_h2_minus_one": 0.01610194251949185,
+      "G2_normalized": 0.5941289911458246,
+      "age_difference_Gyr": -8.881784197001252e-16
+    },
+    {
+      "z": 2,
+      "quadrature_age_Gyr": 3.2733573601343737,
+      "direct_high_precision_h2_minus_one": 0.020835421652688976,
+      "G2_normalized": 0.7687847619394328,
+      "age_difference_Gyr": -4.440892098500626e-16
+    },
+    {
+      "z": 3,
+      "quadrature_age_Gyr": 2.1420066561035647,
+      "direct_high_precision_h2_minus_one": 0.02710176200699781,
+      "G2_normalized": 1.0,
+      "age_difference_Gyr": -4.440892098500626e-16
+    },
+    {
+      "z": 3.025,
+      "quadrature_age_Gyr": 2.1222982978041363,
+      "direct_high_precision_h2_minus_one": 0.027238990678172228,
+      "G2_normalized": 1.0050634593846328,
+      "age_difference_Gyr": -8.881784197001252e-16
+    },
+    {
+      "z": 4,
+      "quadrature_age_Gyr": 1.536858456531533,
+      "direct_high_precision_h2_minus_one": 0.032047974957548714,
+      "G2_normalized": 1.1825052167926855,
+      "age_difference_Gyr": -4.440892098500626e-16
+    },
+    {
+      "z": 5,
+      "quadrature_age_Gyr": 1.1705426102287835,
+      "direct_high_precision_h2_minus_one": 0.0361310418891323,
+      "G2_normalized": 1.333162097719074,
+      "age_difference_Gyr": 0.0
+    }
+  ],
+  "projections": {
+    "1": {
+      "norm2": 3.8519020219788906,
+      "fraction": 0.641983670329815,
+      "max_nuisance_inner_product": 6.661338147750939e-16
+    },
+    "2": {
+      "norm2": 3.5501406803819204,
+      "fraction": 0.5916901133969866,
+      "max_nuisance_inner_product": 1.6653345369377348e-15
+    }
+  },
+  "scenarios": {
+    "UVES_archive_planning": {
+      "sigma_B_mps_independent": 157.07875766764644,
+      "null_95_halfwidth_B_mps": 307.8687077648819,
+      "five_sigma_90percent_power_B_mps": 986.6983161410053,
+      "variance_single_bin_mean_mps2": 5096.120031854435,
+      "shape_separation": {
+        "1": {
+          "B_for_expected_delta_chi2_25_mps": 741835.6659382475,
+          "rms_after_offset_and_amplitude": 0.00019642940176304847
+        },
+        "3": {
+          "B_for_expected_delta_chi2_25_mps": 741855.1162447722,
+          "rms_after_offset_and_amplitude": 0.00019642425168456132
+        }
+      },
+      "line_level_monte_carlo": [
+        {
+          "injected_B_mps": 0.0,
+          "n_simulations": 10000,
+          "residual_mean_sigma": -0.0011352859373322801,
+          "residual_sd_sigma": 0.9981955712182509,
+          "coverage_95": 0.9497,
+          "coverage_99_9percent_binomial_interval": [
+            0.9421131656531124,
+            0.9566012814221722
+          ],
+          "rejection_abs_snr_gt5": 0.0,
+          "analytic_rejection_probability": 5.733031437583866e-07,
+          "rejection_99_9percent_binomial_interval": [
+            0.0,
+            0.0007598014505380493
+          ]
+        },
+        {
+          "injected_B_mps": 986.6983161410053,
+          "n_simulations": 10000,
+          "residual_mean_sigma": -0.004885169963934449,
+          "residual_sd_sigma": 1.0029502732242255,
+          "coverage_95": 0.951,
+          "coverage_99_9percent_binomial_interval": [
+            0.9435007176692436,
+            0.9578116678646523
+          ],
+          "rejection_abs_snr_gt5": 0.897,
+          "analytic_rejection_probability": 0.8999999999999999,
+          "rejection_99_9percent_binomial_interval": [
+            0.8866469054554346,
+            0.9067494752230447
+          ]
+        }
+      ]
+    },
+    "ESPRESSO_narrow_redshift_planning": {
+      "sigma_B_mps_independent": 110.83916740681465,
+      "null_95_halfwidth_B_mps": 217.24077619376254,
+      "five_sigma_90percent_power_B_mps": 696.2419455479366,
+      "variance_single_bin_mean_mps2": 262.2575019909022,
+      "shape_separation": {
+        "1": {
+          "B_for_expected_delta_chi2_25_mps": 1632328.6452636078,
+          "rms_after_offset_and_amplitude": 2.0251198810917534e-05
+        },
+        "3": {
+          "B_for_expected_delta_chi2_25_mps": 1632334.1924343402,
+          "rms_after_offset_and_amplitude": 2.025112999115142e-05
+        }
+      },
+      "line_level_monte_carlo": [
+        {
+          "injected_B_mps": 0.0,
+          "n_simulations": 10000,
+          "residual_mean_sigma": 0.016792023729540907,
+          "residual_sd_sigma": 0.9903000894758499,
+          "coverage_95": 0.9507,
+          "coverage_99_9percent_binomial_interval": [
+            0.9431803930101784,
+            0.957532468584418
+          ],
+          "rejection_abs_snr_gt5": 0.0,
+          "analytic_rejection_probability": 5.733031437583866e-07,
+          "rejection_99_9percent_binomial_interval": [
+            0.0,
+            0.0007598014505380493
+          ]
+        },
+        {
+          "injected_B_mps": 696.2419455479366,
+          "n_simulations": 10000,
+          "residual_mean_sigma": -0.014634488214184352,
+          "residual_sd_sigma": 1.001147967720809,
+          "coverage_95": 0.9461,
+          "coverage_99_9percent_binomial_interval": [
+            0.9382774956249964,
+            0.953242642816297
+          ],
+          "rejection_abs_snr_gt5": 0.8986,
+          "analytic_rejection_probability": 0.8999999999999999,
+          "rejection_99_9percent_binomial_interval": [
+            0.888314759118555,
+            0.908279160071972
+          ]
+        }
+      ]
+    },
+    "ANDES_conditional_2035plus": {
+      "sigma_B_mps_independent": 14.95545691138269,
+      "null_95_halfwidth_B_mps": 29.312156918650707,
+      "five_sigma_90percent_power_B_mps": 93.94347377513074,
+      "variance_single_bin_mean_mps2": 48.36508028668992,
+      "shape_separation": {
+        "1": {
+          "B_for_expected_delta_chi2_25_mps": 69267.0713910744,
+          "rms_after_offset_and_amplitude": 0.00020494319837718945
+        },
+        "3": {
+          "B_for_expected_delta_chi2_25_mps": 69268.93336019653,
+          "rms_after_offset_and_amplitude": 0.00020493768944427165
+        }
+      },
+      "line_level_monte_carlo": [
+        {
+          "injected_B_mps": 0.0,
+          "n_simulations": 10000,
+          "residual_mean_sigma": 0.0012024750618452578,
+          "residual_sd_sigma": 0.9887649407140084,
+          "coverage_95": 0.9532,
+          "coverage_99_9percent_binomial_interval": [
+            0.9458520478667117,
+            0.9598568403280815
+          ],
+          "rejection_abs_snr_gt5": 0.0,
+          "analytic_rejection_probability": 5.733031437583866e-07,
+          "rejection_99_9percent_binomial_interval": [
+            0.0,
+            0.0007598014505380493
+          ]
+        },
+        {
+          "injected_B_mps": 93.94347377513074,
+          "n_simulations": 10000,
+          "residual_mean_sigma": 0.00784656888879015,
+          "residual_sd_sigma": 1.000979915298583,
+          "coverage_95": 0.9501,
+          "coverage_99_9percent_binomial_interval": [
+            0.9425399611411103,
+            0.9569738519944465
+          ],
+          "rejection_abs_snr_gt5": 0.9018,
+          "analytic_rejection_probability": 0.8999999999999999,
+          "rejection_99_9percent_binomial_interval": [
+            0.8916527754669746,
+            0.9113362178505713
+          ]
+        }
+      ]
+    }
+  },
+  "sigma_B_infinite_N_at_fixed_six_bin_floor_mps": {
+    "UVES_archive_planning": 110.01898597138842,
+    "ESPRESSO_narrow_redshift_planning": 68.44304056294989,
+    "ANDES_conditional_2035plus": 10.752358443891923
+  },
+  "interpretive_limitations": [
+    "The response K is invented for an experimental-design calculation. It is not an atomic calculation, an alpha sensitivity, or an observed signal.",
+    "The forecast transfers a logarithmic time template to a deterministic line-centroid effect. The paper's extra error standard deviation is a different observable, and no equivalence has been derived.",
+    "The six redshift-bin floors have known Gaussian variances and zero-mean independent draws. Arbitrary free bin offsets or an arbitrary trend-aligned bias are unidentifiable from the proposed signal.",
+    "Equal independent centroid errors, six usable lines per object, equal bin populations, fixed K, and a correctly specified nuisance span are optimistic design assumptions requiring measurement in the pilot.",
+    "The polynomial nuisance is in log wavelength. Real intra-order distortions, blends, isotope mixtures, velocity subcomponents, and model-dependent covariance are not removed by this algebra automatically.",
+    "The Planck-time tstar, fixed exponent, and matter+Lambda age coordinate are assumptions. Normalizing at z=3 removes amplitude dependence, not physical uncertainty about the response law.",
+    "The 5000- or 10000-run Monte Carlo can assess ordinary coverage and approximately 90% power. It cannot establish a 5.7e-7 null false-positive rate; that tail is analytic under the ideal Gaussian model.",
+    "Shape separation thresholds use the expected squared residual against one fixed competitor after refitting its amplitude and intercept. They are not model-selection discovery significances.",
+    "Shape-separation amplitudes of 69 to 1632 km/s extrapolate the toy centroid model far beyond a validated response domain. They are evidence of weak exponent discrimination, not proposed physical target amplitudes.",
+    "The future-instrument scenario is conditional on delivered coverage, sensitivity, suitable objects, and systematic control; its name or numbers do not guarantee a commissioning date or a 2036 result."
+  ]
+}

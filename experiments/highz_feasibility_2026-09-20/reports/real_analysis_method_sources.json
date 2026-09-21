@@ -1,0 +1,18 @@
+[
+  {
+    "path": "data/raw/murphy2022_published_fig4.svg",
+    "url": "https://arxiv.org/html/2112.05819v1/fit_r_strong.svg",
+    "retrieved_utc": "2026-09-20T13:42:49.201098+00:00",
+    "bytes": 484672,
+    "sha256": "d628dcfc5f92527ce615ffb49a22a45b17055d9a3b1a2f7936a85a278a9de0d2",
+    "kind": "primary published source, archived without execution"
+  },
+  {
+    "path": "data/raw/murphy2022_fit_r.f13",
+    "url": "https://raw.githubusercontent.com/MTMurphy77/ESPRESSO_HE0515-4414/09ee2cb32fb57ace9cda2943e997930bc7813366/Fitting_results/fit_r.f13",
+    "retrieved_utc": "2026-09-20T13:42:50.412562+00:00",
+    "bytes": 20056,
+    "sha256": "b2df003f0c2f4938c229bd90f36e7e4285c85511702956eac90687c798c76e61",
+    "kind": "primary published source, archived without execution"
+  }
+]

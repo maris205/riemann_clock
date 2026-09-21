@@ -1,0 +1,20 @@
+{
+  "pass_": true,
+  "source_upl_sha256": "25ae3fad50d0c39d333bdf087658c088eef082b3cb244c4f79a7290377a4ca01",
+  "mask_artifact_sha256": "c63f177abf7590a3dcaf45557fbcb0eaa74ef15310177afbaf1e46ffb6d6149b",
+  "full_upl_action_types": {
+    "1": 2460,
+    "5": 304,
+    "6": 11,
+    "2": 6
+  },
+  "selected_action_count": 213,
+  "selected_action_counts_by_line": {
+    "2600": 65,
+    "2374": 30,
+    "2382": 118
+  },
+  "has_any_unclip": false,
+  "wavelength_frame": "Imported VAC_BARY preserved by the official ESPRESSO reader and FTESPR branch of UVES_wpol; no additional heliocentric or air/vacuum conversion.",
+  "source_code_manifest": "provenance_sources.json"
+}

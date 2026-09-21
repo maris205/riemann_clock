@@ -1,0 +1,93 @@
+{
+  "purpose": "Independent check from full processed coadd at preserved primary source_indices; no model fit",
+  "rows": [
+    {
+      "target": "J232128-105122",
+      "line": 2260,
+      "same_valid_pixels": 26,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.0461691301314575,
+      "range": [
+        0.9431143880055154,
+        1.0479359289725323
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "line": 2344,
+      "same_valid_pixels": 26,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 0.9971569801345557,
+      "range": [
+        0.9958101685787788,
+        0.9985346916853833
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "line": 2374,
+      "same_valid_pixels": 26,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.036082698172873,
+      "range": [
+        1.034393651473498,
+        1.0377842731027196
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "line": 2382,
+      "same_valid_pixels": 26,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.0443386712497449,
+      "range": [
+        1.0387540511134994,
+        1.0507802832080237
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "line": 2586,
+      "same_valid_pixels": 26,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.0463339304845531,
+      "range": [
+        1.0445996074717285,
+        1.0480818901413795
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "line": 1608,
+      "same_valid_pixels": 46,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.0196938441126129,
+      "range": [
+        1.016890263633468,
+        1.0225380517625458
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "line": 2374,
+      "same_valid_pixels": 46,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 0.9844260095796311,
+      "range": [
+        0.9821754051006457,
+        0.9867040323839361
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "line": 2382,
+      "same_valid_pixels": 46,
+      "expected_all_positive": true,
+      "expected_to_statistical_median": 1.0319694970826931,
+      "range": [
+        1.0291021615691995,
+        1.0348831499969888
+      ]
+    }
+  ]
+}

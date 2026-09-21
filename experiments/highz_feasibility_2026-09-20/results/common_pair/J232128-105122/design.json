@@ -1,0 +1,99 @@
+{
+  "target": "J232128-105122",
+  "z_abs": 1.629,
+  "ncomp": 3,
+  "grid_center_km_s": -0.33997055338286275,
+  "grid_scale_local_sigma_km_s": 0.17958149327149162,
+  "initial_grid_km_s": [
+    -0.8787150331973376,
+    -0.7889242865615917,
+    -0.699133539925846,
+    -0.6093427932901001,
+    -0.5195520466543544,
+    -0.42976130001860857,
+    -0.33997055338286275,
+    -0.25017980674711693,
+    -0.16038906011137113,
+    -0.07059831347562534,
+    0.0,
+    0.01919243316012048,
+    0.1089831797958663,
+    0.19877392643161207
+  ],
+  "profile_coordinate": "shift_2382",
+  "other_relative_shifts_float": [
+    2260,
+    2344,
+    2382,
+    2586
+  ],
+  "one_coordinate_fixed": true,
+  "max_nfev_per_fit": 300,
+  "starts_per_point": 2,
+  "adaptive_rounds_per_contour": 2,
+  "contours": [
+    1.0,
+    3.84
+  ],
+  "shift_bounds_km_s": [
+    -1.0,
+    1.0
+  ],
+  "initial_baseline": "results/common_pair/J232128-105122/full_from_h1.json",
+  "source_sha256": {
+    "code/common_pair_fit.py": "d2d8c754dc693d3b61e4acc109fae030fbb3661f9e36269d4329941f8b56b856",
+    "code/archive_profile_pilot.py": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "code/archive_profile_expected_noise.py": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10.dat": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "data/processed/archive_expansion/J232128-105122.npz": "c1f8d0207ee06a202ea673616ed46ca846156020c584076f475165115ecff831",
+    "data/processed/archive_expansion/J232128-105122_metadata.json": "060b00a9b92e9553652ed5ea8cead67919aae2e188add8239a2a6e9acb6e40c9",
+    "results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_null_s1_expected_os33_cross.json": "5bbd6e3d4cb490eeef80feaf22b3fabba26a9e98f02312aa460a78a97d476aea",
+    "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2260_window.npz": "2bd388f6de6e38f56b3bdfcf54d5140c0a3452f269ced2f3025ea3b6aabcaadb",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2344_window.npz": "49ddeb343465c28b5864997377dbdcda1476ac7d64a1a45900884e26c116492b",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2374_window.npz": "fbd33aac8e2fc79a26a0f04eb647f4ddd002e49000e2323914c350cedb08d509",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2382_window.npz": "f400c73bc49f262fdbf46b66bc8db8a4be7c908ce567473ad0c5db0f2b596f85",
+    "data/processed/archive_expansion/J232128-105122_z1.629_FeII2586_window.npz": "78aef2bb332652423e96d2269d9f9a3fc4ee28b6104ddb4dafb4ec9a2cf7add9"
+  },
+  "configuration": {
+    "z": 1.629,
+    "lines": [
+      2260,
+      2344,
+      2374,
+      2382,
+      2586
+    ],
+    "window": [
+      -30.0,
+      35.0
+    ],
+    "component_bounds": [
+      -20.0,
+      30.0
+    ],
+    "centers": [
+      2.0,
+      7.0,
+      12.0,
+      17.0,
+      22.0,
+      27.0
+    ],
+    "logtotal": 14.3
+  },
+  "lines": [
+    2260,
+    2344,
+    2374,
+    2382,
+    2586
+  ],
+  "anchor_line": 2374,
+  "target_line": 2382,
+  "oversample": 33,
+  "error_kind": "FITS primary row2 expected fluctuation; diagonal errors without reduced-chi-square rescaling",
+  "selection": "Frozen row1-selected architecture/windows/pixels; row2 selected H1 nuisance freedom; no model reselection",
+  "atomic_response": "D=v2382-v2374; sign-equivalent log energy/frequency-ratio perturbation Y=-D/c is kinematic only, not a theory response."
+}

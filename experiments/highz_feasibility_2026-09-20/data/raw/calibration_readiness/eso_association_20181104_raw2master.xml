@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+    <TABLE>
+      <INFO name="DOCUMENTATION" value="http://archive.eso.org/cms/application_support/calselectorInfo.html" />
+      <INFO name="QUERY" value=""><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Master&responseformat=votable]]></INFO>
+      <FIELD name="ID" datatype="char" ucd="meta.id;meta.main" arraysize="*" />
+      <FIELD name="access_url" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <FIELD name="service_def" datatype="char" ucd="meta.ref" arraysize="*" />
+      <FIELD name="error_message" datatype="char" ucd="meta.code.error" arraysize="*" />
+      <FIELD name="semantics" datatype="char" ucd="meta.code" arraysize="*" />
+      <FIELD name="description" datatype="char" ucd="meta.note" arraysize="*" />
+      <FIELD name="content_type" datatype="char" ucd="meta.code.mime" arraysize="*" />
+      <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+      <FIELD name="eso_category" datatype="char" ucd="meta.code.class;meta.dataset" arraysize="*" />
+      <FIELD name="eso_datalink" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/ESPRE.2018-11-04T07:00:00.643]]></TD>
+            <TD />
+            <TD />
+            <TD>#this</TD>
+            <TD>category="SCIENCE_SKY" certified="true" complete="true" mode="Raw2Master" type="main" messages=""</TD>
+            <TD>application/fits</TD>
+            <TD>58215697</TD>
+            <TD>OBJ_SKY</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T19:46:31.790]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>7179840</TD>
+            <TD>ABS_EFF_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T19:46:31.790</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-17T10:01:42.230]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>170268480</TD>
+            <TD>BAD_PIXEL_MASK</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-17T10:01:42.230</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:11:51.526]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>6284160</TD>
+            <TD>BLAZE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:11:51.526</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:11:59.780]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>6284160</TD>
+            <TD>BLAZE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:11:59.780</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2023-03-16T14:19:11.956]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25920</TD>
+            <TD>CCD_GEOM</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2023-03-16T14:19:11.956</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:11:37.736]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>12479040</TD>
+            <TD>DLL_MATRIX_FP_THAR_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:11:37.736</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:11:17.736]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>12479040</TD>
+            <TD>DLL_MATRIX_THAR_FP_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:11:17.736</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2023-03-16T14:20:18.603]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>8640</TD>
+            <TD>EXT_TABLE</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2023-03-16T14:20:18.603</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2023-03-16T14:20:22.226]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>54720</TD>
+            <TD>FLUX_TEMPLATE</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2023-03-16T14:20:22.226</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:14:07.153]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>18685440</TD>
+            <TD>FSPECTRUM_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:14:07.153</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:14:16.793]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>18685440</TD>
+            <TD>FSPECTRUM_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:14:16.793</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-17T10:03:14.120]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>170254080</TD>
+            <TD>HOT_PIXEL_MASK</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-17T10:03:14.120</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2025-03-31T10:11:51.493]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>51840</TD>
+            <TD>INST_CONFIG</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2025-03-31T10:11:51.493</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:04:39.836]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>340444800</TD>
+            <TD>MASTER_BIAS_RES</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:04:39.836</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:13:02.290]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>340459200</TD>
+            <TD>ORDER_PROFILE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:13:02.290</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:13:41.316]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>340459200</TD>
+            <TD>ORDER_PROFILE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:13:41.316</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:15:30.960]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>340499520</TD>
+            <TD>ORDER_TABLE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:15:30.960</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:16:14.546]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>340499520</TD>
+            <TD>ORDER_TABLE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:16:14.546</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-21T20:08:34.933]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>6272640</TD>
+            <TD>REL_EFF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-21T20:08:34.933</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:10:41.966]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>18653760</TD>
+            <TD>S2D_BLAZE_THAR_FP_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:10:41.966</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:19:06.353]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>12479040</TD>
+            <TD>WAVE_MATRIX_FP_THAR_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:19:06.353</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.ESPRESSO.2020-08-20T15:18:43.546]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>12479040</TD>
+            <TD>WAVE_MATRIX_THAR_FP_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.ESPRESSO.2020-08-20T15:18:43.546</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?ESPRE.2018-11-04T07:00:00.643</TD>
+            <TD><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=ESPRE.2018-11-04T07:00:00.643&mode=Raw2Master]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#calSelector_raw2master</TD>
+            <TD>Calibration cascade showing relations among all science and the master calibration files</TD>
+            <TD>application/xml</TD>
+            <TD>1000000</TD>
+            <TD>ASSOCIATION_TREE</TD>
+            <TD />
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>

@@ -1,0 +1,1055 @@
+{
+  "status": "PASS",
+  "checks_passed": 163,
+  "checks_total": 163,
+  "failed": [],
+  "checks": [
+    {
+      "name": "six declared redshifts",
+      "pass": true
+    },
+    {
+      "name": "fixed-design warning",
+      "pass": true
+    },
+    {
+      "name": "no data-dependent amplitude",
+      "pass": true
+    },
+    {
+      "name": "t0 via Friedmann quadrature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "fixed radiation-free background",
+      "pass": true
+    },
+    {
+      "name": "declared Planck time",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "six ages via Friedmann quadrature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.3322676295501878e-15
+      }
+    },
+    {
+      "name": "six normalized G2 values",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 7.882583474838611e-15
+      }
+    },
+    {
+      "name": "six unnormalized excesses",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.8388068845354155e-16
+      }
+    },
+    {
+      "name": "G2 endpoint span",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "targets match pre-existing readiness list",
+      "pass": true
+    },
+    {
+      "name": "redshifts match readiness list",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "four isotope components 2374",
+      "pass": true
+    },
+    {
+      "name": "four isotope components 2382",
+      "pass": true
+    },
+    {
+      "name": "laboratory reference wavelengths",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.547473508864641e-13
+      }
+    },
+    {
+      "name": "observed pair separations",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.666222715357435e-12
+      }
+    },
+    {
+      "name": "observed short wavelengths",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "observed long wavelengths",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.8189894035458565e-12
+      }
+    },
+    {
+      "name": "illustrative exact mimic slopes",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.0294876890147862e-13
+      }
+    },
+    {
+      "name": "positive D for reduced long/short frequency ratio",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.830642173052183e-08
+      }
+    },
+    {
+      "name": "laboratory pair error is the same for every target",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.0079788381744947e-07
+      }
+    },
+    {
+      "name": "100 m/s fractional frequency-ratio conversion",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "common_offset analytical ranks",
+      "pass": true
+    },
+    {
+      "name": "common_offset additional rank",
+      "pass": true
+    },
+    {
+      "name": "common_offset structural status",
+      "pass": true
+    },
+    {
+      "name": "common_offset response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.551115123125783e-15
+      }
+    },
+    {
+      "name": "common_offset squared response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.228728892196614e-16
+      }
+    },
+    {
+      "name": "common_offset information fraction",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.661338147750939e-16
+      }
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope analytical ranks",
+      "pass": true
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope additional rank",
+      "pass": true
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope structural status",
+      "pass": true
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.88418203051333e-15
+      }
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope squared response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.069335371460146e-16
+      }
+    },
+    {
+      "name": "common_offset_and_shared_wavelength_slope information fraction",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.969115396935564e-15
+      }
+    },
+    {
+      "name": "one_wavelength_slope_per_target analytical ranks",
+      "pass": true
+    },
+    {
+      "name": "one_wavelength_slope_per_target additional rank",
+      "pass": true
+    },
+    {
+      "name": "one_wavelength_slope_per_target structural status",
+      "pass": true
+    },
+    {
+      "name": "one_wavelength_slope_per_target response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "one_wavelength_slope_per_target squared response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "one_wavelength_slope_per_target information fraction",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target analytical ranks",
+      "pass": true
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target additional rank",
+      "pass": true
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target structural status",
+      "pass": true
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target squared response",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "one_environmental_pair_offset_per_target information fraction",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "exact per-target slope cancellation A=-231.0",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "exact per-target slope cancellation A=1.0",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "exact per-target slope cancellation A=100.0",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "exact per-target slope cancellation A=1000.0",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "rank result does not assert actual large errors",
+      "pass": true
+    },
+    {
+      "name": "hypothetical slope 50.0 propagation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.348877145181177e-14
+      }
+    },
+    {
+      "name": "hypothetical slope 50.0 extrema",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.348877145181177e-14
+      }
+    },
+    {
+      "name": "hypothetical slope 50.0 is not an adopted prior",
+      "pass": true
+    },
+    {
+      "name": "hypothetical slope 200.0 propagation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.339550858072471e-13
+      }
+    },
+    {
+      "name": "hypothetical slope 200.0 extrema",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.339550858072471e-13
+      }
+    },
+    {
+      "name": "hypothetical slope 200.0 is not an adopted prior",
+      "pass": true
+    },
+    {
+      "name": "hypothetical slope 500.0 propagation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.331113576787175e-13
+      }
+    },
+    {
+      "name": "hypothetical slope 500.0 extrema",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.331113576787175e-13
+      }
+    },
+    {
+      "name": "hypothetical slope 500.0 is not an adopted prior",
+      "pass": true
+    },
+    {
+      "name": "shared slope illustrative fitted parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.4279066817834973e-10
+      }
+    },
+    {
+      "name": "shared slope illustrative residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.507261313653089e-13
+      }
+    },
+    {
+      "name": "shared slope illustrative RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.9013237085328e-13
+      }
+    },
+    {
+      "name": "shared slope illustrative maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.324629626102251e-13
+      }
+    },
+    {
+      "name": "shared slope illustration requires external calibration",
+      "pass": true
+    },
+    {
+      "name": "inverse_log_p1 regression parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.8833827526759706e-15
+      }
+    },
+    {
+      "name": "inverse_log_p1 residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.8719027983802334e-15
+      }
+    },
+    {
+      "name": "inverse_log_p1 norm",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.059971538989849e-15
+      }
+    },
+    {
+      "name": "inverse_log_p1 centered correlation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "inverse_log_p1 relative curvature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.4947058308022463e-14
+      }
+    },
+    {
+      "name": "inverse_log_p1 arbitrary100m/s maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.3584246494910985e-13
+      }
+    },
+    {
+      "name": "inverse_log_p1 arbitrary100m/s RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.0657260624279417e-13
+      }
+    },
+    {
+      "name": "inverse_log_p1 Gaussian mean separation only",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 7.423306414011677e-10
+      }
+    },
+    {
+      "name": "inverse_log_p1 no observed-amplitude/significance claim",
+      "pass": true
+    },
+    {
+      "name": "inverse_log_p3 regression parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.4286809502681592e-15
+      }
+    },
+    {
+      "name": "inverse_log_p3 residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.40619762898109e-15
+      }
+    },
+    {
+      "name": "inverse_log_p3 norm",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.519713596440322e-15
+      }
+    },
+    {
+      "name": "inverse_log_p3 centered correlation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "inverse_log_p3 relative curvature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.2270922085676492e-14
+      }
+    },
+    {
+      "name": "inverse_log_p3 arbitrary100m/s maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.942091015256665e-13
+      }
+    },
+    {
+      "name": "inverse_log_p3 arbitrary100m/s RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.8451646460748705e-13
+      }
+    },
+    {
+      "name": "inverse_log_p3 Gaussian mean separation only",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.629683468872827e-10
+      }
+    },
+    {
+      "name": "inverse_log_p3 no observed-amplitude/significance claim",
+      "pass": true
+    },
+    {
+      "name": "log_cosmic_age regression parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.0880185641326534e-14
+      }
+    },
+    {
+      "name": "log_cosmic_age residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.022959908591474e-15
+      }
+    },
+    {
+      "name": "log_cosmic_age norm",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.211219027110973e-15
+      }
+    },
+    {
+      "name": "log_cosmic_age centered correlation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "log_cosmic_age relative curvature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.542178265454222e-14
+      }
+    },
+    {
+      "name": "log_cosmic_age arbitrary100m/s maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.022959908591474e-13
+      }
+    },
+    {
+      "name": "log_cosmic_age arbitrary100m/s RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.7604641622834833e-13
+      }
+    },
+    {
+      "name": "log_cosmic_age Gaussian mean separation only",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.505196216086915e-10
+      }
+    },
+    {
+      "name": "log_cosmic_age no observed-amplitude/significance claim",
+      "pass": true
+    },
+    {
+      "name": "linear_cosmic_age regression parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.864375403532904e-14
+      }
+    },
+    {
+      "name": "linear_cosmic_age residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.582340145693365e-15
+      }
+    },
+    {
+      "name": "linear_cosmic_age norm",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 8.98586760555986e-15
+      }
+    },
+    {
+      "name": "linear_cosmic_age centered correlation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.885780586188048e-15
+      }
+    },
+    {
+      "name": "linear_cosmic_age relative curvature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.52138326778595e-14
+      }
+    },
+    {
+      "name": "linear_cosmic_age arbitrary100m/s maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.204725539442734e-13
+      }
+    },
+    {
+      "name": "linear_cosmic_age arbitrary100m/s RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.6692870963861424e-13
+      }
+    },
+    {
+      "name": "linear_cosmic_age Gaussian mean separation only",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.462652883485134e-12
+      }
+    },
+    {
+      "name": "linear_cosmic_age no observed-amplitude/significance claim",
+      "pass": true
+    },
+    {
+      "name": "linear_redshift regression parameters",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.9396931817445875e-15
+      }
+    },
+    {
+      "name": "linear_redshift residual",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.412337245047638e-15
+      }
+    },
+    {
+      "name": "linear_redshift norm",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.579143034343929e-15
+      }
+    },
+    {
+      "name": "linear_redshift centered correlation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.4424906541753444e-15
+      }
+    },
+    {
+      "name": "linear_redshift relative curvature",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.6650183715968296e-14
+      }
+    },
+    {
+      "name": "linear_redshift arbitrary100m/s maximum",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.412337245047638e-13
+      }
+    },
+    {
+      "name": "linear_redshift arbitrary100m/s RMS",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.910760604242114e-13
+      }
+    },
+    {
+      "name": "linear_redshift Gaussian mean separation only",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.6399326341343112e-11
+      }
+    },
+    {
+      "name": "linear_redshift no observed-amplitude/significance claim",
+      "pass": true
+    },
+    {
+      "name": "forecast 0 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.481659405224491e-13
+      }
+    },
+    {
+      "name": "forecast 0 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 4.796163466380676e-14
+      }
+    },
+    {
+      "name": "forecast 0 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "forecast 1 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.542233338928781e-13
+      }
+    },
+    {
+      "name": "forecast 1 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.0125233984581428e-13
+      }
+    },
+    {
+      "name": "forecast 1 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.227674090131978e-16
+      }
+    },
+    {
+      "name": "forecast 2 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 6.110667527536862e-13
+      }
+    },
+    {
+      "name": "forecast 2 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.1723955140041653e-13
+      }
+    },
+    {
+      "name": "forecast 2 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.84486420422111e-14
+      }
+    },
+    {
+      "name": "forecast 3 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.2737367544323206e-13
+      }
+    },
+    {
+      "name": "forecast 3 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.9184653865522705e-13
+      }
+    },
+    {
+      "name": "forecast 3 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "forecast 4 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.5347723092418164e-12
+      }
+    },
+    {
+      "name": "forecast 4 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.7000623958883807e-13
+      }
+    },
+    {
+      "name": "forecast 4 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.227674090131978e-16
+      }
+    },
+    {
+      "name": "forecast 5 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.5631940186722204e-12
+      }
+    },
+    {
+      "name": "forecast 5 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.7711166694643907e-13
+      }
+    },
+    {
+      "name": "forecast 5 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.84486420422111e-14
+      }
+    },
+    {
+      "name": "forecast 6 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.5706550483591855e-12
+      }
+    },
+    {
+      "name": "forecast 6 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.0516032489249483e-12
+      }
+    },
+    {
+      "name": "forecast 6 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "forecast 7 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 2.2737367544323206e-12
+      }
+    },
+    {
+      "name": "forecast 7 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.7053025658242404e-13
+      }
+    },
+    {
+      "name": "forecast 7 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 9.227674090131978e-16
+      }
+    },
+    {
+      "name": "forecast 8 slope analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.9685589803848416e-12
+      }
+    },
+    {
+      "name": "forecast 8 endpoint analytical contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.1368683772161603e-12
+      }
+    },
+    {
+      "name": "forecast 8 common lab cancels contrast",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.84486420422111e-14
+      }
+    },
+    {
+      "name": "same-age control redshifts",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "same-age control age difference",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 5.129230373768223e-13
+      }
+    },
+    {
+      "name": "same-age control response difference",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "same-age control illustrative velocity difference",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 3.3306690738754696e-14
+      }
+    },
+    {
+      "name": "same-age control does not establish variation",
+      "pass": true
+    },
+    {
+      "name": "CSV target order",
+      "pass": true
+    },
+    {
+      "name": "CSV z_abs",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV cosmic_age_Gyr",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV G2_z3_normalized",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV h2_minus_1",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV observed_2374_AA",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV observed_2382_AA",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV observed_pair_separation_AA",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "CSV velocity_slope_m_s_per_AA_that_exactly_mimics_A_100_m_s",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "NPZ redshifts",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "NPZ time basis",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 7.882583474838611e-15
+      }
+    },
+    {
+      "name": "NPZ wavelength separation",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.666222715357435e-12
+      }
+    },
+    {
+      "name": "NPZ common offset",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "NPZ common slope",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.666222715357435e-12
+      }
+    },
+    {
+      "name": "NPZ per-target slopes",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 1.666222715357435e-12
+      }
+    },
+    {
+      "name": "NPZ per-target gas offsets",
+      "pass": true,
+      "detail": {
+        "maximum_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "source hash results/archive_expansion/quality_summary.json",
+      "pass": true
+    },
+    {
+      "name": "source hash data/raw/espresso_null/MM_VPFIT_2013-11-10.dat",
+      "pass": true
+    },
+    {
+      "name": "source hash code/cross_age_design.py",
+      "pass": true
+    },
+    {
+      "name": "figure exists png",
+      "pass": true
+    },
+    {
+      "name": "figure exists pdf",
+      "pass": true
+    }
+  ],
+  "scope": "Independent fixed-design mathematics and artifact audit only. No measured cosmic-time amplitude or discovery significance is inferred.",
+  "independent_methods": [
+    "Cosmic age by numerical Friedmann-time integration",
+    "Closed-form centered regressions",
+    "Explicit nuisance reparameterization",
+    "Analytical Gaussian contrast variance",
+    "Constructed wavelength/frequency sign and shared-laboratory-error check"
+  ],
+  "source_hashes": {
+    "code/cross_age_design.py": "5658b4636d2052a5de80663639f5f34fccd7abde5b39d7d17dba931a202eee3f",
+    "code/cross_age_validate.py": "f01afd8f485dc4f17d9119e37c44c54c963f039cf171401be31e297ff419f201",
+    "results/cross_age/design.json": "33da248e400ccda8a694cbec6ed4e0dfb36c8101817856af343c6fce0bf7deb5"
+  },
+  "python": "3.12.3"
+}

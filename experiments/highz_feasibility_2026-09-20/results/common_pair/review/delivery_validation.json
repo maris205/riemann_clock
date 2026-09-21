@@ -1,0 +1,526 @@
+{
+  "scope": "Final export/schema/table/source-and-visual review only; no model evaluations, fits or full numerical-audit rerun.",
+  "passed": true,
+  "n_checks": 126,
+  "n_selected_profile_points": [
+    22,
+    21
+  ],
+  "manual_visual_inspection": true,
+  "export_hashes": {
+    "code/common_pair_report.py": "09b4a9f80b2064e40faa12c1d152732f56a501c38b2dd5bb8fd5af164916a168",
+    "reports/common_pair_results_cn.md": "c2a801a071ad8431c84f9e1b79745234cb1f133d4e1da433ddace1affa54f425",
+    "results/common_pair/harmonized_measurements.json": "61cabdfda1a1394d1126ef27189205a1c162a6e19300309b727a697772ace947",
+    "results/common_pair/common_pair_profiles.png": "40b80fff217a6e52147c75b9f10f1f05d3d479e189638594cd8fbd45abcb2d68",
+    "results/common_pair/common_pair_profiles.pdf": "0090524cffde247bbdbb67217af281b6d3e96161e4beaed093e1f30d0ea47c6b",
+    "results/common_pair/refined_summary.json": "fc91e39749a148a7a4b69d24e0f33895db3081e97abe8d9b4de926dd9059e857"
+  },
+  "validator_sha256": "454b02223aefa11e01579ad3b9c28b1a100f88b19e682c6699a803cca39fde45",
+  "checks": [
+    {
+      "name": "export provenance input_summary_sha256",
+      "passed": true
+    },
+    {
+      "name": "export provenance export_script_sha256",
+      "passed": true
+    },
+    {
+      "name": "export provenance harmonized_sha256",
+      "passed": true
+    },
+    {
+      "name": "export provenance report_sha256",
+      "passed": true
+    },
+    {
+      "name": "export provenance figure_pdf_sha256",
+      "passed": true
+    },
+    {
+      "name": "target inventory",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field target",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field z_abs",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field D_m_s",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field conditional_sigma_m_s",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field profile_grid_D_m_s",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field profile_delta_chi2",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field active_bounds",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field profile_all_selected_terminated",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field profile_contours_closed",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field profile_baseline_resolved_to_tolerance",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field unrestricted_reference_gap_chi2",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field point_estimate_reference_file",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field point_estimate_reference_sha256",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field ndata",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field ncomp",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field lines",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field oversample",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field sourcefit_paths",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field sourcefit_hashes",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 copied field full_comparison",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 source summary hash",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 profile coordinates from selected points",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 profile objective values from selected points",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 other floating shifts",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 fixed-coordinate and reference excluded from other shifts",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 reference anchor",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 target transition",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 unit",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 ratio sign minusD/c",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 ratio is kinematic-only",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 no accepted precision or time claim",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 conditional connected contour",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 interval profile_delta1_interval_m_s",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket coordinate 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket value 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket provenance 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket order clarified 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket coordinate 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket value 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket provenance 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket order clarified 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 interval profile_delta3p84_interval_m_s",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket coordinate 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket value 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket provenance 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket order clarified 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket coordinate 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket value 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket provenance 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 bracket order clarified 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 primary report table exact",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 fair-comparison report table exact",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field target",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field z_abs",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field D_m_s",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field conditional_sigma_m_s",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field profile_grid_D_m_s",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field profile_delta_chi2",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field active_bounds",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field profile_all_selected_terminated",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field profile_contours_closed",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field profile_baseline_resolved_to_tolerance",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field unrestricted_reference_gap_chi2",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field point_estimate_reference_file",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field point_estimate_reference_sha256",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field ndata",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field ncomp",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field lines",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field oversample",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field sourcefit_paths",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field sourcefit_hashes",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 copied field full_comparison",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 source summary hash",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 profile coordinates from selected points",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 profile objective values from selected points",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 other floating shifts",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 fixed-coordinate and reference excluded from other shifts",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 reference anchor",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 target transition",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 unit",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 ratio sign minusD/c",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 ratio is kinematic-only",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 no accepted precision or time claim",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 conditional connected contour",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 interval profile_delta1_interval_m_s",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket coordinate 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket value 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket provenance 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket order clarified 1.0 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket coordinate 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket value 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket provenance 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket order clarified 1.0 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 interval profile_delta3p84_interval_m_s",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket coordinate 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket value 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket provenance 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket order clarified 3.84 lower",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket coordinate 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket value 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket provenance 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 bracket order clarified 3.84 upper",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 primary report table exact",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 fair-comparison report table exact",
+      "passed": true
+    },
+    {
+      "name": "plot x only final summary grid",
+      "passed": true
+    },
+    {
+      "name": "plot y only final summary objective values",
+      "passed": true
+    },
+    {
+      "name": "plot does not scan historical products",
+      "passed": true
+    },
+    {
+      "name": "plot x sort shared by y",
+      "passed": true
+    },
+    {
+      "name": "plot local tangent uses reported scale",
+      "passed": true
+    },
+    {
+      "name": "plot distinguishes contour from calibrated coverage",
+      "passed": true
+    },
+    {
+      "name": "report denies alpha/time discovery",
+      "passed": true
+    },
+    {
+      "name": "report distinguishes D0 from fullH0",
+      "passed": true
+    },
+    {
+      "name": "report discloses first-stage exporter failure",
+      "passed": true
+    },
+    {
+      "name": "report link common_pair_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "report link ../results/common_pair/common_pair_profiles.png",
+      "passed": true
+    },
+    {
+      "name": "report link ../results/common_pair/refined_summary.json",
+      "passed": true
+    },
+    {
+      "name": "report link ../results/common_pair/harmonized_measurements.json",
+      "passed": true
+    },
+    {
+      "name": "report link ../results/common_pair/common_pair_profiles.pdf",
+      "passed": true
+    },
+    {
+      "name": "report link ../results/common_pair/review/validation.json",
+      "passed": true
+    },
+    {
+      "name": "visual PNG inspected, clear labels and no text clipping",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

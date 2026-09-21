@@ -1,0 +1,37 @@
+J064326-504112 omit1611_n16_null_only_os21 50 303.1086154091404
+J064326-504112 omit1611_n16_null_only_os21 100 303.0625141677494
+J064326-504112 omit1611_n16_null_only_os21 150 300.5402253694052
+J064326-504112 omit1611_n16_null_only_os21 DONE 300.2483620828069 1.12452570068467 True
+{
+  "name": "omit1611_n16_null_only_os21",
+  "target": "J064326-504112",
+  "ndata": 327,
+  "ncomp": 16,
+  "chi2": 300.2483620828069,
+  "nominal_ndf": 267,
+  "optimizer_success": true,
+  "per_line": [
+    {
+      "line": 1608,
+      "ndata": 109,
+      "chi2": 97.56215771027203,
+      "chi2_per_pixel": 0.8950656670667159
+    },
+    {
+      "line": 2374,
+      "ndata": 109,
+      "chi2": 115.14725077061928,
+      "chi2_per_pixel": 1.0563967960607274
+    },
+    {
+      "line": 2382,
+      "ndata": 109,
+      "chi2": 87.53895360191555,
+      "chi2_per_pixel": 0.8031096660726197
+    }
+  ],
+  "passes_same_conditional_gate": true,
+  "no_relative_shifts_fitted": true,
+  "primary_still_inadequate": true,
+  "interpretation": "After failed four-line primary, fixed16 null-only diagnostic omitting weak1611. Sky-proxy warning was documented before primary. Same remaining native pixels/window/expected errors, start from primary gas; no architecture reselection or free shifts. This does not replace primary."
+}

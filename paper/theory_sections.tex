@@ -1,0 +1,236 @@
+\section{What a finite-resource zero estimate means}
+\label{sec:operational}
+
+The empirical distinction between a central residual and a reported
+interpolation error motivates a definition based on a complete measurement
+protocol. Nothing in this observational definition makes the mathematical
+ordinate $\gamma_j$ evolve with cosmic time.
+
+A protocol $\mathcal P$ specifies an encoding, a measured signal, a likelihood
+$p(y\mid\theta,\boldsymbol\eta,\mathcal P)$, an estimator, and resources
+such as interrogation duration, repetitions, bandwidth, and calibration.
+Here $\theta$ is an unknown signal coordinate and $\boldsymbol\eta$ denotes
+nuisance parameters. The ideal encoding places the relevant signal feature
+at $\theta=\gamma_j$. For a tolerance $\Delta_j>0$ and a chosen error
+probability $\epsilon_{\rm conf}$, a pointwise operational requirement is
+\begin{equation}
+ \Pr_{\mathcal P}\!\left(
+   |\widehat\gamma_j-\gamma_j|\leq\Delta_j
+ \right)\geq 1-\epsilon_{\rm conf}.
+ \label{eq:accessible_criterion}
+\end{equation}
+Coverage must be justified over the declared nuisance-parameter range, not
+only at a fitted calibration value. The tolerance may be absolute or relative
+to a specified neighboring gap, but the choice must precede the comparison.
+An uncertainty bar without its coverage and systematic-error model does not
+establish Eq.~\eqref{eq:accessible_criterion}.
+
+Inference in this definition uses the measured response. Returning a known
+ordinate from a table is excluded as an independent analog measurement.
+For a validation experiment, blinded signal coordinates or held-out target
+windows can prevent reference information from being counted as experimental
+precision. Engineered responses remain useful tests of control and encoding,
+even when their construction already uses a mathematical function.
+
+For a resource budget $\mathbf R$, let $\mathcal A(\mathbf R)$ contain the
+targets meeting Eq.~\eqref{eq:accessible_criterion} in the declared protocol
+class. An isolated-target height is
+$T_{\rm target}=\sup\{\gamma_j:j\in\mathcal A(\mathbf R)\}$.
+A complete-prefix requirement is stronger: one jointly budgeted procedure
+must estimate every target through $J$, with simultaneous coverage
+\begin{equation}
+ \Pr\!\left(\bigcap_{j=1}^{J}
+  \{|\widehat\gamma_j-\gamma_j|\leq\Delta_j\}\right)
+ \geq1-\epsilon_{\rm conf}.
+ \label{eq:prefix_coverage}
+\end{equation}
+The corresponding height is $\gamma_J$. Pointwise coverage does not imply
+this joint guarantee, and isolated successful estimates need not form a
+contiguous prefix. A scan ending at its largest reported target therefore
+does not measure a fundamental maximum height.
+
+\subsection{An illustrative quantum precision calculation}
+
+Consider the frequency encoding $\omega=\kappa\theta$, where $\kappa$ has
+units of inverse time. An initially equatorial qubit evolves under
+\begin{equation}
+ H_\theta=\frac{\hbar\kappa\theta}{2}\sigma_z,
+ \qquad U_\theta(\tau)=\exp(-i\kappa\theta\tau\sigma_z/2).
+\end{equation}
+The quantum Fisher information per ideal independent interrogation is
+$F_Q=(\kappa\tau)^2$. Under the regularity and local unbiasedness assumptions
+of the quantum Cram\'er--Rao framework, $M$ independent trials obey
+\begin{equation}
+ \operatorname{Var}(\widehat\theta)
+ \geq\frac{1}{M F_Q}
+ =\frac{1}{M\kappa^2\tau^2}.
+ \label{eq:ramsey_qfi}
+\end{equation}
+This is an elementary example within quantum estimation theory
+\cite{BraunsteinCaves1994,Giovannetti2006}, not a universal noise model for
+every Riemann-zero implementation. For a binary Ramsey signal
+$p_+=[1+V\cos(\kappa\theta\tau+\phi)]/2$ with known, parameter-independent
+visibility $V$, operation at quadrature gives classical Fisher information
+$F=V^2(\kappa\tau)^2$ per shot. Its local statistical bound becomes
+$\sigma_\theta\geq1/(V\kappa\tau\sqrt M)$.
+
+A lower bound is not an achieved uncertainty or a coverage guarantee.
+Bias, uncertain visibility, correlated shots, and calibration require their
+own model. Moreover, the phase is periodic: local Fisher information does
+not resolve global aliases without additional interrogation times or prior
+range information. A finite-window Fourier width of order $2\pi/\tau$
+likewise does not establish a universal prohibition on more precise parameter
+estimation; protocols using quantum sensing or external synchronization can
+change the relevant resolution behavior \cite{Gefen2019,Boss2017}.
+Finite precision follows here from a specified finite-information
+experiment under specified assumptions; it does not prove a nonzero error
+floor shared by every physically possible protocol.
+
+\subsection{Mean density as a conditional illustration}
+
+The smooth Riemann--von Mangoldt count is
+\begin{equation}
+ \overline N(T)=\frac{T}{2\pi}\log\frac{T}{2\pi}
+ -\frac{T}{2\pi}+\frac78,
+ \qquad
+ \overline d(T)\simeq\frac{2\pi}{\log(T/2\pi)}.
+ \label{eq:mean_spacing}
+\end{equation}
+The second expression describes the asymptotic mean spacing, not the smallest
+individual gap. If a working model supplies an achieved, dimensionless
+resolution scale $\delta$ and uses the illustrative criterion
+$\delta\leq q\overline d(T)$, with prescribed $0<q<1$, its crossover is
+\begin{equation}
+ T_{\rm env}=2\pi\exp\!\left(\frac{2\pi q}{\delta}\right).
+ \label{eq:mean_envelope}
+\end{equation}
+This is a mean-density illustration in the asymptotic regime. It is neither
+an apparatus-independent bound nor a statement that all lower zeros are
+resolvable. It assumes a usable resolution scale rather than substituting a
+Cram\'er--Rao lower bound as if it were attained. Bandwidth, signal amplitude,
+individual gaps, and calibration may restrict the experiment first. A
+conversion from an RMS error to a confidence tolerance additionally requires
+a probability model. The exponential sensitivity of
+Eq.~\eqref{eq:mean_envelope} makes an absolute height forecast especially
+unstable without these ingredients.
+
+\section{A conditional cosmic-time extension}
+\label{sec:cosmic_extension}
+
+\subsection{Motivation from the published dynamical model}
+
+The recently published numerical study of a non-autonomous quadratic map
+\cite{Wang2026Spectral} investigates a schedule of the form
+\begin{equation}
+ x_{n+1}=1-\lambda_n x_n^2,
+ \qquad
+ \lambda_n=\mu_c+\frac{k_1}{\log^2n}
+                  +\frac{k_2}{\log^3n},\qquad n>1.
+ \label{eq:published_map}
+\end{equation}
+Its leading inverse-log-squared term is a heuristic numerical ansatz. The
+motivation combines the known logarithmic spectral density with an assumed
+square-root response of an eigenphase spacing to a structural perturbation.
+The resulting transfer-operator correspondence is not a demonstrated
+isomorphism or a self-adjoint Hilbert--P\'olya Hamiltonian. The paper reports
+larger out-of-sample errors and local spacing statistics inconsistent with
+GUE, so its global spectral correspondence is not evidence of matching every
+statistical property of the zeta zeros.
+
+Two further assumptions are required to use this motivation here: a mapping
+from iteration or spectral scale to cosmic age, and a response law connecting
+the evolving structural parameter to a measured precision scale. Neither is
+supplied by the numerical correspondence. In particular, preserving the
+power two in a noise amplitude assumes a suitable response relation; it
+does not follow solely from copying the map schedule.
+
+We therefore introduce the separately testable candidate
+\begin{equation}
+ \delta_{\rm c}(t)=\delta_{{\rm c}0}
+ \left[\frac{\log(t_0/t_*)}{\log(t/t_*)}\right]^p,
+ \qquad t>t_*,\quad \delta_{{\rm c}0}\geq0,
+ \label{eq:cosmic_ansatz}
+\end{equation}
+with $p=2$ as the primary hypothesis. Here $\delta_{\rm c}$ is a proposed
+contribution to the standard deviation of an encoded ordinate estimator,
+not a change in the mathematical ordinate. The scale $t_*$ makes the logarithm
+dimensionless, and $t_0$ is a normalization epoch. The amplitude and transfer
+to a particular apparatus are not fixed by the earlier map coefficients.
+The case $\delta_{{\rm c}0}=0$ is a permitted null model. Neither the
+singularity at $t=t_*$ nor an extrapolation into that regime is claimed to
+describe early-universe physics.
+
+For a fixed estimator and protocol, one possible phenomenological error
+model is
+\begin{equation}
+ \operatorname{MSE}(\widehat\gamma_j)
+ =b_j^2+\sigma_{{\rm stat},j}^2+\sigma_{{\rm cal},j}^2
+  +\delta_{{\rm c},j}^2(t).
+ \label{eq:conditional_budget}
+\end{equation}
+This decomposition assumes that the three random error components have zero
+mean and are mutually uncorrelated; $b_j$ is the remaining bias. Correlations
+require covariance terms. Calibration uncertainty is not automatically
+independent random noise, and $\delta_{{\rm c},j}$ may differ across encodings.
+Calling it a floor further assumes that the specified component survives
+the averaging and control operations allowed by the protocol. Independent
+per-shot noise instead decreases on repetition; a correlation model is
+needed before asserting an irreducible floor.
+
+For $\delta_{{\rm c}0}>0$, Eq.~\eqref{eq:cosmic_ansatz} gives
+\begin{equation}
+ \frac{d\log\delta_{\rm c}}{dt}
+ =-\frac{p}{t\log(t/t_*)}.
+ \label{eq:cosmic_derivative}
+\end{equation}
+As a scale illustration, choose $t_0=13.8\,\mathrm{Gyr}$ and
+$t_*=5.391247\times10^{-44}\,\mathrm{s}$, a conventional Planck-time-scale
+normalization rather than an inferred parameter. Using a Julian year,
+$\log(t_0/t_*)=140.24423$. For $p=2$, the present fractional rate is
+$-1.0334\times10^{-12}\,\mathrm{yr}^{-1}$, corresponding to approximately
+$-5.17\times10^{-13}$ in half a year. This is the fractional change of the
+hypothesized component, not an observed drift or the fractional change of
+the total experimental uncertainty. Its amplitude remains unspecified.
+
+\subsection{Resource growth, identifiability, and falsification}
+
+Let $\mathfrak P(t)$ be the feasible set of protocols including their
+calibrated performance at age $t$. If
+$\mathfrak P(t_1)\subseteq\mathfrak P(t_2)$ for $t_2>t_1$, with the same
+target and confidence criterion, optimization over these sets makes either
+accessible-height definition nondecreasing. This is a conditional consequence
+of set inclusion. Cosmic age alone does not establish the inclusion:
+usable energy, causal access, coherence, and calibration stability need not
+improve monotonically. Even in Eq.~\eqref{eq:conditional_budget}, a decreasing
+cosmic component does not improve the total error if other components grow.
+
+Entropy and energy limits motivate explicit resource accounting
+\cite{Bekenstein1981,MargolusLevitin1998,Lloyd2002}. Converting them into a
+zero-height limit would additionally require an encoding, a task definition,
+and a justified computational or measurement cost. An explicit table of $J$
+values at $b$ bits per value requires roughly $Jb$ bits; an algorithm plus an
+index may be far shorter. Finite storage therefore does not by itself select
+a largest zero index. The rigorous interval-arithmetic verification of RH
+through ordinate $3\times10^{12}$ \cite{PlattTrudgian2021} is a separate
+category of evidence from analog spectroscopy, but rules out interpreting
+an ordinate of order $4200$ as a general limit on physically computable
+zero information.
+
+The available experiments provide no controlled comparison of the same
+calibrated apparatus at substantially different cosmic ages. Within each
+dataset, changing the zero index or a drive parameter does not vary cosmic
+age. A single-epoch residual budget generally cannot identify
+$\delta_{{\rm c}0}$ separately from unknown calibration and model discrepancy,
+and it cannot select $p=2$ over a constant or another slow time dependence.
+Publication dates do not constitute an aging series.
+
+A discriminating test would first fix the encoding, estimator, nuisance
+model, and allowed averaging operations, then check the resource dependence
+on held-out targets. Repeated independently calibrated measurements could
+test the signed drift in Eq.~\eqref{eq:cosmic_derivative}, provided a
+nonzero component and sufficient sensitivity were established. A specified
+positive-amplitude model could be excluded by a sufficiently stringent
+upper limit or by incompatible drift or resource scaling. The unrestricted
+family allowing arbitrarily small amplitude cannot be ruled out by a finite
+null result. Poor estimates, improved estimates, and null drift must not all
+be treated as confirmation of cosmic aging.

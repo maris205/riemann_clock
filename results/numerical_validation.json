@@ -1,0 +1,78 @@
+{
+  "source_file_hashes_matched": 17,
+  "original_external_files_unchanged_if_available": 3,
+  "he2021_transcription": {
+    "matched_records": 269,
+    "records_by_drive": {
+      "5": 29,
+      "8": 80,
+      "12": 80,
+      "16": 80
+    },
+    "rounded_zero_sigma_keys": [
+      [
+        74,
+        8
+      ]
+    ],
+    "index80_sigmas": [
+      5.76,
+      0.05,
+      0.16
+    ]
+  },
+  "mathematical_references": {
+    "entries_recomputed": 83,
+    "precision_digits": 50,
+    "max_absolute_difference": "3.8005166916430249171547860770504372162211340963094e-32",
+    "max_zeta_residual": "1.4967998019031187000191855623601611936130149950364e-47",
+    "gamma80": "201.26475194370378873301613342754817322240286363919",
+    "gamma81": "202.49359451414053427768666063786431582102024489942",
+    "N76": 19,
+    "N4200": 3681,
+    "certified_interval_proof": false
+  },
+  "he2021_diagnostics": {
+    "matched_rows": 269,
+    "matched_group_summaries": 15,
+    "source_reference_discrepancy_indices": [
+      22,
+      23
+    ],
+    "beyond18_residual_exceeds_gap_indices": {
+      "8": [
+        41,
+        79,
+        80
+      ],
+      "12": [
+        54
+      ],
+      "16": [
+        35,
+        72
+      ]
+    },
+    "index80_neighbor_gap": "1.2288425704367455446705272103161425986173812602333"
+  },
+  "wei2026_data_integrity": {
+    "time_scan_rows": 110,
+    "beta_scan_rows": 18,
+    "numeric_cells_exactly_matched_to_npz": 1024,
+    "root_uncertainties_explicitly_missing": true,
+    "upstream_code_executed": false
+  },
+  "conditional_resource_scenarios": {
+    "rows": 483,
+    "q": 0.25,
+    "identities_and_monotonicity_pass": true,
+    "not_empirical_limits": true
+  },
+  "conditional_aging": {
+    "rows": 603,
+    "derivative_per_year": "-0.000000000001033393955134821710273924104517569293984041474687",
+    "halfyear_fractional_change": "-0.00000000000051669697755785017082006176065748165377231842973566",
+    "age_behavior_not_fitted": true
+  },
+  "status": "PASS: internal numerical and transcription consistency checks"
+}

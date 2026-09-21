@@ -1,0 +1,811 @@
+{
+  "created_utc": "2026-09-20T17:30:02.395093+00:00",
+  "scope_policy_sha256": "7823ab8e390d96aa2569a6206b396c1c76c7a5c4c0b130342cc405e8b9c99089",
+  "n_absorbers": 36,
+  "n_unique_sightlines": 32,
+  "sources": [
+    {
+      "target": "J000815-095854",
+      "z_abs": 1.768,
+      "rank_score": 40.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/41a8ca34-6d42-4d8d-b678-14f1ed36b454/download/j000815-095854finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J000815-095854_Final_Spectrum.tar.gz",
+      "archive_bytes": 4528928,
+      "archive_sha256": "46424871169f82f164ebfdc1e3ac2e5bcd741519e765f6b89eae4f4499e5114f",
+      "fits_sha256": "eabe877bfd66c75ab61ce28215700d0e37105f7859c09ae7681efddf403dc89a",
+      "access_date_utc": "2026-09-20T17:29:35.031116+00:00",
+      "pixels": 127000,
+      "valid_pixels": 96219,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 6,
+      "exposure_s": 21600.0093,
+      "observation_date_range": [
+        "2005-10-31",
+        "2005-12-07"
+      ],
+      "wavelength_AA_range": [
+        3282.5751667380373,
+        9465.763751140006
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "rank_score": 62.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/e85a996a-9c27-470f-8508-9fca6c8cbd9b/download/j004131-493611finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J004131-493611_Final_Spectrum.tar.gz",
+      "archive_bytes": 5335488,
+      "archive_sha256": "7dc120a527aa87863c2f38d46c38a1c5b2154e68e0e92be60762e128e301847b",
+      "fits_sha256": "bb7135120247c7743de05acf6f6046491a23a0cbd9d2cbce80bf07908cf85148",
+      "access_date_utc": "2026-09-20T17:29:29.849593+00:00",
+      "pixels": 126934,
+      "valid_pixels": 122907,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 14691.0098,
+      "observation_date_range": [
+        "2001-11-18",
+        "2003-11-03"
+      ],
+      "wavelength_AA_range": [
+        3284.3796094920995,
+        9465.755931603928
+      ]
+    },
+    {
+      "target": "J010311+131617",
+      "z_abs": 2.309,
+      "rank_score": 48.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/fd3c8ea2-1df2-43c5-943d-ca66a46d5a50/download/j010311131617finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J010311+131617_Final_Spectrum.tar.gz",
+      "archive_bytes": 5608831,
+      "archive_sha256": "5994d50c8ac22c1fd0f1d93b90bc8c61e8e9288ef56761c4f1c5580d2549bac3",
+      "fits_sha256": "21da340575aff7f82c03e1ee03a581f4ac76a14f1e01be3bb742d8670cc51c0d",
+      "access_date_utc": "2026-09-20T17:29:35.203517+00:00",
+      "pixels": 138669,
+      "valid_pixels": 123245,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 22600.01,
+      "observation_date_range": [
+        "2001-09-16",
+        "2004-10-09"
+      ],
+      "wavelength_AA_range": [
+        3281.7803085303553,
+        10430.642616743147
+      ]
+    },
+    {
+      "target": "J010516-184642",
+      "z_abs": 2.37,
+      "rank_score": 30.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/99a59c2d-7b36-422e-9873-79060ae8d705/download/j010516-184642finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J010516-184642_Final_Spectrum.tar.gz",
+      "archive_bytes": 5648935,
+      "archive_sha256": "9a5a1120be7c42b7e5e449b4704cef16a21f4133584bdeb8b8c93df5a9d5ab28",
+      "fits_sha256": "5b26810f1111b452e4c427786dd4d824cbe2c5100b321212a5fa9a09a3b210cd",
+      "access_date_utc": "2026-09-20T17:29:37.108495+00:00",
+      "pixels": 138446,
+      "valid_pixels": 127073,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 4,
+      "exposure_s": 18900.0194,
+      "observation_date_range": [
+        "2001-10-01",
+        "2001-10-17"
+      ],
+      "wavelength_AA_range": [
+        3288.0880485035286,
+        10431.274642748742
+      ]
+    },
+    {
+      "target": "J012517-001828",
+      "z_abs": 1.761,
+      "rank_score": 26.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/ddac1c15-ef8f-4161-8f7f-d02fac753ae2/download/j012517-001828finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J012517-001828_Final_Spectrum.tar.gz",
+      "archive_bytes": 3624692,
+      "archive_sha256": "0b95f93c7570d38fc186d887e8254aece9fd991fe3f21aeb2f94f9485540e242",
+      "fits_sha256": "4c135b0dcbdd18bd1a94fe04e181278ca74bd1274d65d49dd228931a7dc53f92",
+      "access_date_utc": "2026-09-20T17:29:35.505401+00:00",
+      "pixels": 84713,
+      "valid_pixels": 79991,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 4,
+      "exposure_s": 13200.0062,
+      "observation_date_range": [
+        "2005-11-01",
+        "2005-11-22"
+      ],
+      "wavelength_AA_range": [
+        3282.7277134231167,
+        6653.172390397945
+      ]
+    },
+    {
+      "target": "J021857+081727",
+      "z_abs": 2.293,
+      "rank_score": 42.0,
+      "n_strong_eligible": 5,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/cb5bb7b9-1ad6-4284-9345-984ff5f1c836/download/j021857081727finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J021857+081727_Final_Spectrum.tar.gz",
+      "archive_bytes": 6146756,
+      "archive_sha256": "e383b3cb066a0e441f7ad23342dce0bedb27184eb831f9195579c2b119d6230b",
+      "fits_sha256": "5ed77f518517cc72dfcf067260fbcbb8c7e7956d00f90518dc0a9d9ee17049b2",
+      "access_date_utc": "2026-09-20T17:29:36.989538+00:00",
+      "pixels": 147611,
+      "valid_pixels": 133917,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 10,
+      "exposure_s": 37200.0166,
+      "observation_date_range": [
+        "2003-10-29",
+        "2004-09-27"
+      ],
+      "wavelength_AA_range": [
+        3045.6194723544454,
+        10429.455782469278
+      ]
+    },
+    {
+      "target": "J040718-441013",
+      "z_abs": 2.551,
+      "rank_score": 63.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/b2fd25e2-787d-41a1-9601-7c5659eb4339/download/j040718-441013finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J040718-441013_Final_Spectrum.tar.gz",
+      "archive_bytes": 11914312,
+      "archive_sha256": "949a73601032d57493146287955a56a859848114b2c63ba2ff129f0c7a9a2df1",
+      "fits_sha256": "76d883e9b07be7f73e7ab685264f19deee525cf52be7c5bbad2dad9b395e209b",
+      "access_date_utc": "2026-09-20T17:29:37.684880+00:00",
+      "pixels": 266557,
+      "valid_pixels": 264409,
+      "native_dispersion_km_s": 1.3,
+      "n_exposures": 38,
+      "exposure_s": 174983.0884,
+      "observation_date_range": [
+        "2001-10-11",
+        "2012-12-04"
+      ],
+      "wavelength_AA_range": [
+        3282.7372659946673,
+        10428.586559890377
+      ]
+    },
+    {
+      "target": "J041656-284340",
+      "z_abs": 1.719,
+      "rank_score": 21.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/4addcd80-386d-4b64-ba52-55c9faf5179a/download/j041656-284340finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J041656-284340_Final_Spectrum.tar.gz",
+      "archive_bytes": 3282352,
+      "archive_sha256": "1c62921ea7a29be84d6b17aca8deeb850425e9a99916dd835e0732ad6d8e1101",
+      "fits_sha256": "cbdb59e9d2ed092fcb8f60b0a522256d5e635f0c7ee1402a07821c6b12f92cda",
+      "access_date_utc": "2026-09-20T17:29:39.825712+00:00",
+      "pixels": 92947,
+      "valid_pixels": 69349,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 4,
+      "exposure_s": 6319.0028,
+      "observation_date_range": [
+        "2003-11-02",
+        "2003-11-03"
+      ],
+      "wavelength_AA_range": [
+        3064.529954790468,
+        6652.3965734749345
+      ]
+    },
+    {
+      "target": "J044017-433308",
+      "z_abs": 2.347,
+      "rank_score": 23.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/0a3823d3-4075-4f3e-aa76-5cdd0d728ebf/download/j044017-433308finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J044017-433308_Final_Spectrum.tar.gz",
+      "archive_bytes": 5458305,
+      "archive_sha256": "1ece70be75468495fc22952b44cab52de5068cec4c348eefdaf0aeb89a1a9146",
+      "fits_sha256": "48e0dd7782ab1aae941d79cf11bbd2ceffdeb4a2246c492676c38ed5a5606ce2",
+      "access_date_utc": "2026-09-20T17:29:41.156064+00:00",
+      "pixels": 146868,
+      "valid_pixels": 115920,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 6,
+      "exposure_s": 22125.0104,
+      "observation_date_range": [
+        "2002-09-07",
+        "2003-10-30"
+      ],
+      "wavelength_AA_range": [
+        3064.5228515684653,
+        10429.368528764126
+      ]
+    },
+    {
+      "target": "J044534-354704",
+      "z_abs": 2.408,
+      "rank_score": 28.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/7e254781-bf15-45cc-800d-3396bb62c494/download/j044534-354704finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J044534-354704_Final_Spectrum.tar.gz",
+      "archive_bytes": 4277799,
+      "archive_sha256": "d3e56d2a532dd132cbf9f4f30041c5c1ec9d9bd74b62cc8ffcea74bca6539343",
+      "fits_sha256": "a04781fcec2db1870030610bd896ac40c62565f7f163eb29067dbd3ceb00a3c2",
+      "access_date_utc": "2026-09-20T17:29:43.075226+00:00",
+      "pixels": 110767,
+      "valid_pixels": 92672,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 3,
+      "exposure_s": 10625.0027,
+      "observation_date_range": [
+        "2003-10-31",
+        "2003-11-03"
+      ],
+      "wavelength_AA_range": [
+        3758.7242206816245,
+        9466.552150871208
+      ]
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "rank_score": 36.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/af9bfdf6-1e2c-495b-b1ff-30b52ed38587/download/j053007-250329finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J053007-250329_Final_Spectrum.tar.gz",
+      "archive_bytes": 7497682,
+      "archive_sha256": "18dfb96a040c2e3b891eaad8d82ebaa1beb7e0cca6308d568454ac264dc49c0c",
+      "fits_sha256": "29b25b07bef18fd78978076d38be798c8fca042984671ced5a7a33aa880c36ff",
+      "access_date_utc": "2026-09-20T17:29:38.577095+00:00",
+      "pixels": 184675,
+      "valid_pixels": 162513,
+      "native_dispersion_km_s": 2.0,
+      "n_exposures": 31,
+      "exposure_s": 108539.1313,
+      "observation_date_range": [
+        "2001-02-03",
+        "2009-02-26"
+      ],
+      "wavelength_AA_range": [
+        3042.0348901168427,
+        10428.42100746285
+      ]
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "rank_score": 29.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/aa3c0de4-e513-44b3-b341-6e623b3a089f/download/j064326-504112finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J064326-504112_Final_Spectrum.tar.gz",
+      "archive_bytes": 6842169,
+      "archive_sha256": "e6ecf8400f00fafc3a7bba7e2696ee36ec4c8792628be4733bd4011c68583da0",
+      "fits_sha256": "4eac56a04bcc4572b66cd66f3505d770e7f73647082689efa9521edd82ae5eef",
+      "access_date_utc": "2026-09-20T17:29:43.314259+00:00",
+      "pixels": 153710,
+      "valid_pixels": 150704,
+      "native_dispersion_km_s": 2.25,
+      "n_exposures": 21,
+      "exposure_s": 84329.0244,
+      "observation_date_range": [
+        "2003-11-02",
+        "2008-02-10"
+      ],
+      "wavelength_AA_range": [
+        3282.908274374153,
+        10405.56696963511
+      ]
+    },
+    {
+      "target": "J084424+124546",
+      "z_abs": 1.864,
+      "rank_score": 47.0,
+      "n_strong_eligible": 6,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/490da179-e237-4dea-b160-34a5aedbad5b/download/j084424124546finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J084424+124546_Final_Spectrum.tar.gz",
+      "archive_bytes": 6063447,
+      "archive_sha256": "b67d64ca81a2d21a9a66b6fec50ea25176b2108724c64539a9316319304fc435",
+      "fits_sha256": "17689203d03f0c1b85ac245b60755dbeb456b6f0ec4e5fc81fea75b63979bae9",
+      "access_date_utc": "2026-09-20T17:29:43.673398+00:00",
+      "pixels": 138619,
+      "valid_pixels": 134069,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 12,
+      "exposure_s": 37255.02,
+      "observation_date_range": [
+        "2000-04-29",
+        "2009-04-29"
+      ],
+      "wavelength_AA_range": [
+        3282.9545132607095,
+        10430.024908078034
+      ]
+    },
+    {
+      "target": "J091613+070224",
+      "z_abs": 2.618,
+      "rank_score": 57.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/9243ac3d-488c-4fb3-b885-f55e2d9c476a/download/j091613070224finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J091613+070224_Final_Spectrum.tar.gz",
+      "archive_bytes": 6232281,
+      "archive_sha256": "c09f75d89de90cb3a6674b09ba9957d6087c6049a03f3ea96aa049a2389c4259",
+      "fits_sha256": "72ac5c295065b448a223e840d8d1ae901244e852b935c32bba1a99591571c00a",
+      "access_date_utc": "2026-09-20T17:29:47.143187+00:00",
+      "pixels": 138617,
+      "valid_pixels": 137795,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 21,
+      "exposure_s": 77525.1034,
+      "observation_date_range": [
+        "2002-01-17",
+        "2007-03-15"
+      ],
+      "wavelength_AA_range": [
+        3282.6990790505724,
+        10429.03944911027
+      ]
+    },
+    {
+      "target": "J115122+020426",
+      "z_abs": 1.969,
+      "rank_score": 31.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/573b8e9a-0309-4af6-8b7e-20d71ee36c05/download/j115122020426finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J115122+020426_Final_Spectrum.tar.gz",
+      "archive_bytes": 5597312,
+      "archive_sha256": "e0092a39bf0925e58bef58679fc1e3a88921a4dcb851566475dbcd7673aad997",
+      "fits_sha256": "392825496a898325907bdf77f034e57d5badd865b64bc84c6a84f3e7e80e8c92",
+      "access_date_utc": "2026-09-20T17:29:46.587515+00:00",
+      "pixels": 127003,
+      "valid_pixels": 123407,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 14,
+      "exposure_s": 52771.0152,
+      "observation_date_range": [
+        "2008-03-10",
+        "2014-03-06"
+      ],
+      "wavelength_AA_range": [
+        3282.9072822233525,
+        9466.958286359439
+      ]
+    },
+    {
+      "target": "J115411+063427",
+      "z_abs": 1.775,
+      "rank_score": 25.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/e6149d6e-d48f-4562-b7d4-53b60e3547ec/download/j115411063427finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J115411+063427_Final_Spectrum.tar.gz",
+      "archive_bytes": 6451782,
+      "archive_sha256": "043a12d9c96e71adce36954aa8db8d725478686351285674d41925573cd6d35e",
+      "fits_sha256": "7e672201084d05420b46b79d34d7fffef155cb36adca5b25cdf18c4b79d3a523",
+      "access_date_utc": "2026-09-20T17:29:48.558566+00:00",
+      "pixels": 147363,
+      "valid_pixels": 142219,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 6,
+      "exposure_s": 21600.0107,
+      "observation_date_range": [
+        "2000-05-28",
+        "2000-05-31"
+      ],
+      "wavelength_AA_range": [
+        3052.1489850910475,
+        10430.222577532662
+      ]
+    },
+    {
+      "target": "J115538+053050",
+      "z_abs": 2.608,
+      "rank_score": 27.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/9bea4f03-a613-4d57-8180-472acbfb8043/download/j115538053050finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J115538+053050_Final_Spectrum.tar.gz",
+      "archive_bytes": 4711996,
+      "archive_sha256": "8507ee30f1f7d253ba11b70b81b9e30561998a154bffa80388ce1cfbf5014f0f",
+      "fits_sha256": "e64da6e6193c14beff7bba4d353e37926f361e56fa5f3bedce21eb91bf8aee35",
+      "access_date_utc": "2026-09-20T17:29:48.337895+00:00",
+      "pixels": 127003,
+      "valid_pixels": 100918,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 18600.0078,
+      "observation_date_range": [
+        "2006-01-29",
+        "2008-02-03"
+      ],
+      "wavelength_AA_range": [
+        3282.9650936071753,
+        9467.124997725943
+      ]
+    },
+    {
+      "target": "J115944+011206",
+      "z_abs": 1.944,
+      "rank_score": 29.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/e85d94d2-852a-48bf-91ed-be9e85a40e71/download/j115944011206finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J115944+011206_Final_Spectrum.tar.gz",
+      "archive_bytes": 6046229,
+      "archive_sha256": "f908acaee9843cf93eac4fb1f6e07b3c4db7683c6830868a04baf6f69d80f2fb",
+      "fits_sha256": "b2ba21f1a55126463845b097e5d2b84909f71e9606e8e8b59153e75c7172bc6f",
+      "access_date_utc": "2026-09-20T17:29:54.056150+00:00",
+      "pixels": 135863,
+      "valid_pixels": 133078,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 13,
+      "exposure_s": 27760.0392,
+      "observation_date_range": [
+        "2000-04-30",
+        "2007-06-07"
+      ],
+      "wavelength_AA_range": [
+        3049.166474192074,
+        9467.176112271194
+      ]
+    },
+    {
+      "target": "J120550+020131",
+      "z_abs": 1.747,
+      "rank_score": 21.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/70d0f559-e1d4-49b7-be38-d402034a1b71/download/j120550020131finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J120550+020131_Final_Spectrum.tar.gz",
+      "archive_bytes": 3002481,
+      "archive_sha256": "8220366b00684b6978d8781f050e6a3a5b089f77a16874cee1459c6ab8ec2b97",
+      "fits_sha256": "dd5faaae425eebc5d885eb4a73134e36f91d7d9b6650028d6f2d58bf2a6ed4fb",
+      "access_date_utc": "2026-09-20T17:29:51.648403+00:00",
+      "pixels": 87530,
+      "valid_pixels": 77895,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 1,
+      "exposure_s": 3000.0014,
+      "observation_date_range": [
+        "2004-05-17",
+        "2004-05-17"
+      ],
+      "wavelength_AA_range": [
+        3284.4055894069033,
+        6814.794683014101
+      ]
+    },
+    {
+      "target": "J124924-023339",
+      "z_abs": 1.781,
+      "rank_score": 54.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/b0849332-78c4-4106-9e5e-391943572867/download/j124924-023339finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J124924-023339_Final_Spectrum.tar.gz",
+      "archive_bytes": 5434742,
+      "archive_sha256": "6be259c6454b7f0c02c4bc30e1d33af3b3da50584d7f7026e17a32e47129b9de",
+      "fits_sha256": "92615f5ae70c37b496ddd25afe9bd0f2a4bdec1596edd1e1ec4111ef0910186c",
+      "access_date_utc": "2026-09-20T17:29:55.793709+00:00",
+      "pixels": 126996,
+      "valid_pixels": 121440,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 7,
+      "exposure_s": 27000.0117,
+      "observation_date_range": [
+        "2001-06-25",
+        "2006-03-23"
+      ],
+      "wavelength_AA_range": [
+        3282.948876975068,
+        9466.525623524312
+      ]
+    },
+    {
+      "target": "J133335+164903",
+      "z_abs": 1.776,
+      "rank_score": 135.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/40974087-6acd-41f7-90cc-554b10ad62dc/download/j133335164903finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J133335+164903_Final_Spectrum.tar.gz",
+      "archive_bytes": 12441596,
+      "archive_sha256": "5903c6cba19010aebb8585bd5b6508ac88d96229ee28075753222d688796cc46",
+      "fits_sha256": "af51759e651593ee2a35269fc0a95bcd3a7c4a3ad5af91102791d55fa1146076",
+      "access_date_utc": "2026-09-20T17:29:50.555013+00:00",
+      "pixels": 283891,
+      "valid_pixels": 279955,
+      "native_dispersion_km_s": 1.3,
+      "n_exposures": 14,
+      "exposure_s": 71100.0618,
+      "observation_date_range": [
+        "2001-06-24",
+        "2012-03-31"
+      ],
+      "wavelength_AA_range": [
+        3044.925131398808,
+        10428.216812102793
+      ]
+    },
+    {
+      "target": "J141217+091624",
+      "z_abs": 2.019,
+      "rank_score": 21.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/735236d2-89c6-400b-b4b2-cf87c46658ff/download/j141217091624finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J141217+091624_Final_Spectrum.tar.gz",
+      "archive_bytes": 6069385,
+      "archive_sha256": "a1d60171480e5bd6b69c31a262ed87be25c84ede4e3ac0c15b945f084c2c4a10",
+      "fits_sha256": "a29ee0466ce3f7b0cb67332b77ddd2fd80a4dcb8a8e3d69f69fbc4b7def968a7",
+      "access_date_utc": "2026-09-20T17:29:55.525741+00:00",
+      "pixels": 147615,
+      "valid_pixels": 133283,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 15,
+      "exposure_s": 51950.01,
+      "observation_date_range": [
+        "2000-05-31",
+        "2002-08-05"
+      ],
+      "wavelength_AA_range": [
+        3045.1516129590295,
+        10428.20147926191
+      ]
+    },
+    {
+      "target": "J214159-441325",
+      "z_abs": 2.383,
+      "rank_score": 38.0,
+      "n_strong_eligible": 5,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/c26bd1fc-47e4-4c83-9ed4-fae6e5a7c91e/download/j214159-441325finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J214159-441325_Final_Spectrum.tar.gz",
+      "archive_bytes": 5050746,
+      "archive_sha256": "308bd8cad4d1b9b7166b404144082caa1d9d0987970f9a59413fe0755fec8b62",
+      "fits_sha256": "d04e25ee979e1afe7e47269decdb729d3717cf94ba5ec7a9c0db1a4b84610400",
+      "access_date_utc": "2026-09-20T17:29:55.927621+00:00",
+      "pixels": 125690,
+      "valid_pixels": 109741,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 6,
+      "exposure_s": 26820.0146,
+      "observation_date_range": [
+        "2001-06-15",
+        "2001-07-24"
+      ],
+      "wavelength_AA_range": [
+        3656.3479614054017,
+        10429.036565976963
+      ]
+    },
+    {
+      "target": "J220852-194359",
+      "z_abs": 2.076,
+      "rank_score": 72.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/8c953aaf-33a0-4c73-ab5e-bf78db2b40e2/download/j220852-194359finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J220852-194359_Final_Spectrum.tar.gz",
+      "archive_bytes": 12588243,
+      "archive_sha256": "ddfc32a8a0d7386517de89aba6619047809e8ed8c419ab08db7c6e8de35aed74",
+      "fits_sha256": "dcc95c83a6a87583fcdb49b46898efd5366207d47c864740f8eac10805de19ba",
+      "access_date_utc": "2026-09-20T17:29:53.753244+00:00",
+      "pixels": 283417,
+      "valid_pixels": 281773,
+      "native_dispersion_km_s": 1.3,
+      "n_exposures": 27,
+      "exposure_s": 140103.0476,
+      "observation_date_range": [
+        "2000-05-29",
+        "2012-09-14"
+      ],
+      "wavelength_AA_range": [
+        3045.4230028455404,
+        10408.506088002934
+      ]
+    },
+    {
+      "target": "J224708-601545",
+      "z_abs": 2.331,
+      "rank_score": 56.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/857d9742-dd79-432c-9e60-ba96647324b4/download/j224708-601545finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J224708-601545_Final_Spectrum.tar.gz",
+      "archive_bytes": 8091812,
+      "archive_sha256": "9c4637b55e41fd01191465cf90c5f2d07b8683c8146ef2dd9c4d89e6c85c6cd8",
+      "fits_sha256": "10ed53163df04c12263363ac908c1fd98aafbc6176c70801e770e7b683409527",
+      "access_date_utc": "2026-09-20T17:29:59.437507+00:00",
+      "pixels": 184151,
+      "valid_pixels": 180393,
+      "native_dispersion_km_s": 2.0,
+      "n_exposures": 11,
+      "exposure_s": 46200.0201,
+      "observation_date_range": [
+        "2000-06-04",
+        "2004-10-10"
+      ],
+      "wavelength_AA_range": [
+        3053.037498549215,
+        10429.616099020035
+      ]
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "rank_score": 46.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/f4aa788a-b4f2-45a7-a4fb-b281e16285d3/download/j225719-100104finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J225719-100104_Final_Spectrum.tar.gz",
+      "archive_bytes": 5922560,
+      "archive_sha256": "93fb2cac5cd888d209c7380b70d2c71e58700b0f0c3273183b243bfe3f6c6470",
+      "fits_sha256": "2b28311e10cfc4623f909fe28c7a5495f78455975465c03958071f056fc3825b",
+      "access_date_utc": "2026-09-20T17:29:55.658220+00:00",
+      "pixels": 136012,
+      "valid_pixels": 131793,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 26400.0074,
+      "observation_date_range": [
+        "2008-06-28",
+        "2008-06-30"
+      ],
+      "wavelength_AA_range": [
+        3045.4160868937374,
+        9467.28775671679
+      ]
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "rank_score": 52.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/71166ef6-25b0-4342-b200-c2559921fd4b/download/j232128-105122finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J232128-105122_Final_Spectrum.tar.gz",
+      "archive_bytes": 4059085,
+      "archive_sha256": "bfa1adf08b73d279ce6a09a4c7c414e1f681c9cb6ba91e360fb4eb9abb7a9476",
+      "fits_sha256": "3ed3029bad660c572e22b8f83b92e07ed8a350c2af7d5f176cf29672ab63e2ad",
+      "access_date_utc": "2026-09-20T17:29:56.689893+00:00",
+      "pixels": 96603,
+      "valid_pixels": 93948,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 5,
+      "exposure_s": 23400.0071,
+      "observation_date_range": [
+        "2003-10-31",
+        "2004-09-19"
+      ],
+      "wavelength_AA_range": [
+        3044.8105144163023,
+        6814.204155935494
+      ]
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "rank_score": 23.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/0859b9a1-8863-4852-a58c-5c82702649ff/download/j233156-090802finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J233156-090802_Final_Spectrum.tar.gz",
+      "archive_bytes": 5269465,
+      "archive_sha256": "07e4ae515bb8356cc89c843e2b0bc17a616d4ff8cbd3608424ef191d5da306b6",
+      "fits_sha256": "034bf70596baa5ff0079ce8c878875fc65bb36bc01175a67ddc1c57470f2cad3",
+      "access_date_utc": "2026-09-20T17:30:00.710714+00:00",
+      "pixels": 127001,
+      "valid_pixels": 113705,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 11,
+      "exposure_s": 40975.0201,
+      "observation_date_range": [
+        "2007-10-07",
+        "2007-11-27"
+      ],
+      "wavelength_AA_range": [
+        3282.6022283171856,
+        9465.920723605133
+      ]
+    },
+    {
+      "target": "J234512-433814",
+      "z_abs": 2.612,
+      "rank_score": 24.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/ad11200d-9c89-4a57-9f9f-3904bff7308e/download/j234512-433814finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J234512-433814_Final_Spectrum.tar.gz",
+      "archive_bytes": 4295707,
+      "archive_sha256": "16ed8392ba880eb0b75a9bea90aa695a207f3de974636904be0d5f782cb87c14",
+      "fits_sha256": "635eba4bdcdbc8d18de108aeeb625cdb135fe2abc7d04c31ca160dcbdc74b59e",
+      "access_date_utc": "2026-09-20T17:30:01.598856+00:00",
+      "pixels": 110763,
+      "valid_pixels": 92746,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 4,
+      "exposure_s": 14400.0059,
+      "observation_date_range": [
+        "2004-10-06",
+        "2004-10-07"
+      ],
+      "wavelength_AA_range": [
+        3758.5891198657823,
+        9465.896139833192
+      ]
+    },
+    {
+      "target": "J234628+124858",
+      "z_abs": 2.431,
+      "rank_score": 55.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/ccdd1cb4-c0b3-4c77-875f-2619087a6577/download/j234628124858finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J234628+124858_Final_Spectrum.tar.gz",
+      "archive_bytes": 6253599,
+      "archive_sha256": "71ec07d2a8d8ae009009529436690ce66a33b4a79cfaf49790663a72827c672c",
+      "fits_sha256": "0a035ac734e1a7a2a8335c46cfda06bc777f8b80d47286004c7a49797a365bf1",
+      "access_date_utc": "2026-09-20T17:30:01.340847+00:00",
+      "pixels": 145559,
+      "valid_pixels": 140061,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 8,
+      "exposure_s": 28200.012,
+      "observation_date_range": [
+        "2001-08-13",
+        "2007-09-16"
+      ],
+      "wavelength_AA_range": [
+        3046.679688088234,
+        10256.07665110002
+      ]
+    },
+    {
+      "target": "J235057-005209",
+      "z_abs": 2.426,
+      "rank_score": 24.0,
+      "n_strong_eligible": 3,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/ffabef9d-1dc3-4ffe-8433-32f3c718af3f/download/j235057-005209finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J235057-005209_Final_Spectrum.tar.gz",
+      "archive_bytes": 6504432,
+      "archive_sha256": "01e6a1318011dfb2bf6368712b79ef0e7ff4517dfca25513505fc0553884748a",
+      "fits_sha256": "3f9c0a832a6c050e592e585cff43625141aa4ad903e74ebf646d72867069ca77",
+      "access_date_utc": "2026-09-20T17:30:02.366989+00:00",
+      "pixels": 170100,
+      "valid_pixels": 139391,
+      "native_dispersion_km_s": 2.0,
+      "n_exposures": 18,
+      "exposure_s": 85500.0238,
+      "observation_date_range": [
+        "2003-10-29",
+        "2007-08-21"
+      ],
+      "wavelength_AA_range": [
+        3043.549813482575,
+        9466.877537912445
+      ]
+    },
+    {
+      "target": "J235129-142756",
+      "z_abs": 2.279,
+      "rank_score": 64.0,
+      "n_strong_eligible": 4,
+      "archive_url": "https://dmc.datacentral.org.au/dataset/c4bad1eb-7e80-49c8-981e-ce44654f79ca/resource/8d348647-3fcb-4a76-bf13-bf87fb11c6cd/download/j235129-142756finalspectrum.tar.gz",
+      "archive_file": "data/raw/archive_expansion/J235129-142756_Final_Spectrum.tar.gz",
+      "archive_bytes": 4394308,
+      "archive_sha256": "ead8737618d6ed8100d1d48309e4b122498cd81c52eff33dd160d8c05950171b",
+      "fits_sha256": "90f486163b96683fc4cb220931a517b4cb82254cd16ffcbaa27bd3d5e953348d",
+      "access_date_utc": "2026-09-20T17:30:00.266389+00:00",
+      "pixels": 130631,
+      "valid_pixels": 92122,
+      "native_dispersion_km_s": 2.5,
+      "n_exposures": 3,
+      "exposure_s": 10350.0026,
+      "observation_date_range": [
+        "2002-11-05",
+        "2002-11-05"
+      ],
+      "wavelength_AA_range": [
+        3285.7280159901484,
+        9766.133618141894
+      ]
+    }
+  ],
+  "failures": [],
+  "total_archive_bytes": 194647457,
+  "license": "Spectrum portal CC BY-SA, version unspecified; metadata/code CC BY4.0. Cite Murphy et al.2019 DOI10.1093/mnras/sty2834."
+}

@@ -1,0 +1,61 @@
+uves_clean_null: ndata=511 npar=144 initial chi2=12829.906687
+uves_clean_null: evaluation 25, chi2=1472.4371019
+uves_clean_null: evaluation 50, chi2=1431.6688025
+uves_clean_null: evaluation 75, chi2=1417.1977327
+uves_clean_null: evaluation 100, chi2=1408.2710548
+uves_clean_null: evaluation 125, chi2=1401.7942430
+uves_clean_null: evaluation 150, chi2=1399.3056324
+{
+  "name": "uves_clean_null",
+  "free_shifts": false,
+  "configuration": {
+    "oversample": 7,
+    "exclude": [
+      2260,
+      2344,
+      2586
+    ],
+    "rho": 0.0,
+    "zero_nuisance": true,
+    "velocity_span": 5.0,
+    "continuum_span": 0.03
+  },
+  "ndata": 511,
+  "npar": 144,
+  "nominal_ndf": 367,
+  "chi2": 1399.0901130580285,
+  "chi2_per_nominal_ndf": 3.8122346404850913,
+  "nominal_chi2_survival": 3.545259746210126e-120,
+  "optimizer_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "nfev": 160,
+  "optimality": 19.710091972657526,
+  "seconds": 27.075671195983887,
+  "jacobian_rank": 142,
+  "active_bounds": [
+    "zero_adjustment_2374",
+    "zero_adjustment_2600"
+  ],
+  "shifts_km_s": {},
+  "per_line": [
+    {
+      "line": 2374,
+      "ndata": 156,
+      "chi2": 574.760355322118,
+      "chi2_per_pixel": 3.684361252064859
+    },
+    {
+      "line": 2382,
+      "ndata": 178,
+      "chi2": 376.8542983046385,
+      "chi2_per_pixel": 2.117158979239542
+    },
+    {
+      "line": 2600,
+      "ndata": 177,
+      "chi2": 447.4754594312722,
+      "chi2_per_pixel": 2.5281099402896734
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}

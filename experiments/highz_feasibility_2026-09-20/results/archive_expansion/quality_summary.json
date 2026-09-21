@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-09-20T17:35:52.590349+00:00",
+  "candidate_absorbers": 36,
+  "downloaded_unique_sightlines": 32,
+  "actual_windows": 324,
+  "computational_readiness_count": 6,
+  "readiness_candidates": [
+    {
+      "target": "J004131-493611",
+      "z_abs": 2.248,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 8,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J053007-250329",
+      "z_abs": 2.141,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 29,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J064326-504112",
+      "z_abs": 2.659,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 21,
+      "edge_absorption_warning_lines": [
+        "1608"
+      ],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J225719-100104",
+      "z_abs": 1.836,
+      "strict_detected_strong_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 25,
+      "edge_absorption_warning_lines": [
+        "2344",
+        "2374",
+        "2382"
+      ],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J232128-105122",
+      "z_abs": 1.629,
+      "strict_detected_strong_lines": [
+        "2344",
+        "2374",
+        "2382",
+        "2586"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374",
+        "2586"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 7,
+      "edge_absorption_warning_lines": [],
+      "artifact_warning_candidate_lines": []
+    },
+    {
+      "target": "J233156-090802",
+      "z_abs": 2.143,
+      "strict_detected_strong_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "resolved_weak_line_candidates": [
+        "2374"
+      ],
+      "common_5km_s_grid_points_with_3line_absorption": 29,
+      "edge_absorption_warning_lines": [
+        "1608",
+        "2374",
+        "2382"
+      ],
+      "artifact_warning_candidate_lines": []
+    }
+  ],
+  "no_inference": [
+    "No physical line shifts estimated",
+    "No alpha measurement",
+    "No time-law fit",
+    "No calibrated precision-constant measurement certified"
+  ],
+  "hashes": {
+    "code/archive_quality.py": "b7b2a6dadd13ebb325d08ff6b24f486497a4474b24ffe814ebe45cdc98c70948",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10_noiso.dat": "28c6bc93b1bfa1ab58b06f534d32489de2cc8a935a3f9f74396d15a6f0c18390",
+    "results/archive_expansion/actual_quality_policy.json": "d6a0b4d3e46224b7750a4d52c35d4d5f5f4c018abae57d26a31f675652b0b5a0",
+    "results/archive_expansion/absorber_quality.json": "deb0f0d67f5d7403fda13d9fc1c412291fb0e4d6847096726796dcc8625fe77f",
+    "results/archive_expansion/window_quality.csv": "ac367310fbec99836a22c0816862bf2ef8a0452f83a35b05f1ed1350877be8d2"
+  }
+}

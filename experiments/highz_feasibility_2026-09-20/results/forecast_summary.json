@@ -1,0 +1,320 @@
+{
+  "status": "SYNTHETIC CONDITIONAL DESIGN; no observed parameter estimates",
+  "date": "2026-09-20",
+  "seed": 20260920,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.16.1"
+  },
+  "background": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "flat": true,
+    "radiation": false,
+    "t0_Gyr": 13.796234644007173,
+    "tstar_s": 5.391247e-44
+  },
+  "synthetic_response": {
+    "rest_vacuum_wavelength_grid_A_lookup_only": [
+      1608.4509,
+      2344.2128,
+      2374.4601,
+      2382.7642,
+      2586.6493,
+      2600.1725
+    ],
+    "K": [
+      -1.4458880781356398,
+      0.43376642344069194,
+      1.4458880781356398,
+      -1.0121216546949479,
+      0.7229440390678199,
+      -0.28917761562712796
+    ],
+    "K_origin": "arbitrary toy values; NOT atomic coefficients or alpha q values",
+    "norm_definition": "RMS(K)=1; B is unprojected mode amplitude at z=3 in m/s"
+  },
+  "response_retained_squared_norm": {
+    "1": {
+      "norm2": 3.8519020219788906,
+      "fraction": 0.641983670329815,
+      "projected_K": [
+        -0.12832130947573495,
+        0.36886031033457756,
+        1.3339287912224669,
+        -1.1368940829296332,
+        0.29684294656553384,
+        -0.7344166557172096
+      ]
+    },
+    "2": {
+      "norm2": 3.550140680381922,
+      "fraction": 0.591690113396987,
+      "projected_K": [
+        -0.0016553615787857634,
+        0.11116015833916026,
+        1.1278128715692324,
+        -1.3282255451772524,
+        0.5442045104449775,
+        -0.45329663359733163
+      ]
+    }
+  },
+  "scenarios": {
+    "UVES_archive_planning": {
+      "n_independent_sightlines_assumed": 24,
+      "z_range": [
+        1.0,
+        3.0
+      ],
+      "sigma_line_mps_assumed": 200.0,
+      "six_bin_correlated_floor_mps_assumed": 50.0,
+      "sigma_single_absorber_mode_mps": 101.90426942683874,
+      "sigma_B_at_z3_mps": 157.07875766764673,
+      "null_95_interval_halfwidth_B_mps": 307.86870776488246,
+      "B_mps_for_5sigma_test_90percent_power": 986.6983161410071,
+      "sigma_B_with_extra_trend_aligned_floor_mps": 164.84458168350966,
+      "signal_shape_discrimination": {
+        "1": {
+          "B_mps_for_expected_delta_chi2_25": 741835.6659380868,
+          "rms_shape_residual_after_offset_and_amplitude": 0.00019642940176309103,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        },
+        "3": {
+          "B_mps_for_expected_delta_chi2_25": 741855.1162446284,
+          "rms_shape_residual_after_offset_and_amplitude": 0.00019642425168459935,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        }
+      },
+      "coverage_all_six_minmax_A": [
+        3216.9018,
+        10400.69
+      ],
+      "sigma_B_quadratic_calibration_mps": 160.44359267250343,
+      "background_shape_max_fraction_change_70_030": 0.0037242773807119045
+    },
+    "ESPRESSO_narrow_redshift_planning": {
+      "n_independent_sightlines_assumed": 24,
+      "z_range": [
+        1.4,
+        2.0
+      ],
+      "sigma_line_mps_assumed": 50.0,
+      "six_bin_correlated_floor_mps_assumed": 10.0,
+      "sigma_single_absorber_mode_mps": 25.476067356709684,
+      "sigma_B_at_z3_mps": 110.83916740681681,
+      "null_95_interval_halfwidth_B_mps": 217.24077619376678,
+      "B_mps_for_5sigma_test_90percent_power": 696.2419455479502,
+      "sigma_B_with_extra_trend_aligned_floor_mps": 111.28935722447301,
+      "signal_shape_discrimination": {
+        "1": {
+          "B_mps_for_expected_delta_chi2_25": 1632328.6452639485,
+          "rms_shape_residual_after_offset_and_amplitude": 2.0251198810913306e-05,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        },
+        "3": {
+          "B_mps_for_expected_delta_chi2_25": 1632334.1924309575,
+          "rms_shape_residual_after_offset_and_amplitude": 2.025112999119339e-05,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        }
+      },
+      "coverage_all_six_minmax_A": [
+        3860.2821599999997,
+        7800.5175
+      ],
+      "sigma_B_quadratic_calibration_mps": 113.71628628572192,
+      "background_shape_max_fraction_change_70_030": 0.0025287434306432433
+    },
+    "ANDES_conditional_2035plus": {
+      "n_independent_sightlines_assumed": 60,
+      "z_range": [
+        1.5,
+        4.0
+      ],
+      "sigma_line_mps_assumed": 30.0,
+      "six_bin_correlated_floor_mps_assumed": 5.0,
+      "sigma_single_absorber_mode_mps": 15.28564041402581,
+      "sigma_B_at_z3_mps": 14.955456911382734,
+      "null_95_interval_halfwidth_B_mps": 29.312156918650793,
+      "B_mps_for_5sigma_test_90percent_power": 93.94347377513103,
+      "sigma_B_with_extra_trend_aligned_floor_mps": 15.769137307672402,
+      "signal_shape_discrimination": {
+        "1": {
+          "B_mps_for_expected_delta_chi2_25": 69267.0713910889,
+          "rms_shape_residual_after_offset_and_amplitude": 0.0002049431983771465,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        },
+        "3": {
+          "B_mps_for_expected_delta_chi2_25": 69268.93336018838,
+          "rms_shape_residual_after_offset_and_amplitude": 0.0002049376894442957,
+          "note": "Expected Gaussian separation from one fixed competitor; not a discovery significance or 90%-power result."
+        }
+      },
+      "coverage_all_six_minmax_A": [
+        4021.12725,
+        13000.862500000001
+      ],
+      "sigma_B_quadratic_calibration_mps": 15.259427689622195,
+      "background_shape_max_fraction_change_70_030": 0.002280197459923472
+    }
+  },
+  "monte_carlo": {
+    "UVES_archive_planning": [
+      {
+        "injected_B_mps": 0.0,
+        "injected_snr": 0.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": 0.0006922826468818308,
+        "residual_std_in_sigma": 1.0076985892584132,
+        "coverage_95": 0.9478,
+        "fraction_abs_snr_gt5": 0.0,
+        "analytic_fraction_abs_snr_gt5": 5.733031437583866e-07
+      },
+      {
+        "injected_B_mps": 471.23627300294015,
+        "injected_snr": 3.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": -0.009525298688675458,
+        "residual_std_in_sigma": 0.9996627076027629,
+        "coverage_95": 0.9486,
+        "fraction_abs_snr_gt5": 0.0234,
+        "analytic_fraction_abs_snr_gt5": 0.022750131948179816
+      },
+      {
+        "injected_B_mps": 986.6983161410071,
+        "injected_snr": 6.2815515655446,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": -0.012805092071568111,
+        "residual_std_in_sigma": 0.9978853795337752,
+        "coverage_95": 0.9482,
+        "fraction_abs_snr_gt5": 0.9052,
+        "analytic_fraction_abs_snr_gt5": 0.8999999999999999
+      }
+    ],
+    "ESPRESSO_narrow_redshift_planning": [
+      {
+        "injected_B_mps": 0.0,
+        "injected_snr": 0.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": -0.016207903098560128,
+        "residual_std_in_sigma": 1.0025425723597232,
+        "coverage_95": 0.9508,
+        "fraction_abs_snr_gt5": 0.0,
+        "analytic_fraction_abs_snr_gt5": 5.733031437583866e-07
+      },
+      {
+        "injected_B_mps": 332.5175022204504,
+        "injected_snr": 3.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": 0.018305594042781106,
+        "residual_std_in_sigma": 0.9894904772063554,
+        "coverage_95": 0.9518,
+        "fraction_abs_snr_gt5": 0.0218,
+        "analytic_fraction_abs_snr_gt5": 0.022750131948179816
+      },
+      {
+        "injected_B_mps": 696.2419455479502,
+        "injected_snr": 6.2815515655446,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": 0.01421277245847391,
+        "residual_std_in_sigma": 1.0048485558518574,
+        "coverage_95": 0.9486,
+        "fraction_abs_snr_gt5": 0.8994,
+        "analytic_fraction_abs_snr_gt5": 0.8999999999999999
+      }
+    ],
+    "ANDES_conditional_2035plus": [
+      {
+        "injected_B_mps": 0.0,
+        "injected_snr": 0.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": 0.004823564767888257,
+        "residual_std_in_sigma": 0.9970567506310725,
+        "coverage_95": 0.9538,
+        "fraction_abs_snr_gt5": 0.0,
+        "analytic_fraction_abs_snr_gt5": 5.733031437583866e-07
+      },
+      {
+        "injected_B_mps": 44.866370734148205,
+        "injected_snr": 3.0,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": -0.007355448834464069,
+        "residual_std_in_sigma": 1.0084870173850773,
+        "coverage_95": 0.9474,
+        "fraction_abs_snr_gt5": 0.0228,
+        "analytic_fraction_abs_snr_gt5": 0.022750131948179816
+      },
+      {
+        "injected_B_mps": 93.94347377513103,
+        "injected_snr": 6.2815515655446,
+        "n_simulations": 5000,
+        "mean_bias_in_sigma": -0.022501708822900132,
+        "residual_std_in_sigma": 0.9907255910604507,
+        "coverage_95": 0.9522,
+        "fraction_abs_snr_gt5": 0.8932,
+        "analytic_fraction_abs_snr_gt5": 0.8999999999999999
+      }
+    ]
+  },
+  "degenerate_response_norm2": {
+    "common_shift": 1.4791141972893971e-30,
+    "log_wavelength_slope": 4.812051521848172e-29
+  },
+  "time_leverage": [
+    {
+      "z": 0,
+      "age_Gyr": 13.796234644007173,
+      "h2_minus_one": -0.0,
+      "G2_z3_normalized": -0.0
+    },
+    {
+      "z": 1,
+      "age_Gyr": 5.845621944043445,
+      "h2_minus_one": 0.012359238589616343,
+      "G2_z3_normalized": 0.45603081402696727
+    },
+    {
+      "z": 1.1508,
+      "age_Gyr": 5.2814581441580035,
+      "h2_minus_one": 0.013835111350944064,
+      "G2_z3_normalized": 0.5104875228175855
+    },
+    {
+      "z": 1.4,
+      "age_Gyr": 4.521079371090575,
+      "h2_minus_one": 0.016101942519491846,
+      "G2_z3_normalized": 0.5941289911458246
+    },
+    {
+      "z": 2,
+      "age_Gyr": 3.273357360134374,
+      "h2_minus_one": 0.020835421652688972,
+      "G2_z3_normalized": 0.7687847619394328
+    },
+    {
+      "z": 3,
+      "age_Gyr": 2.142006656103565,
+      "h2_minus_one": 0.027101762006997807,
+      "G2_z3_normalized": 1.0
+    },
+    {
+      "z": 3.025,
+      "age_Gyr": 2.122298297804137,
+      "h2_minus_one": 0.027238990678172217,
+      "G2_z3_normalized": 1.0050634593846326
+    },
+    {
+      "z": 4,
+      "age_Gyr": 1.5368584565315335,
+      "h2_minus_one": 0.03204797495754871,
+      "G2_z3_normalized": 1.1825052167926855
+    },
+    {
+      "z": 5,
+      "age_Gyr": 1.1705426102287835,
+      "h2_minus_one": 0.0361310418891323,
+      "G2_z3_normalized": 1.3331620977190741
+    }
+  ]
+}

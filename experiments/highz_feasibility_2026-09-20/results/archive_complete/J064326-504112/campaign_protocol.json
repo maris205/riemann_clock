@@ -1,0 +1,45 @@
+{
+  "frozen_utc": "2026-09-21T03:50:47.858949+00:00",
+  "configuration_file": "/root/autodl-tmp/dsc_world/riemann_clock/experiments/highz_feasibility_2026-09-20/results/archive_complete/J064326-504112/config.json",
+  "configuration_sha256": "8bc7d81274781e63015163014cf6ce213a4a4f7d1bc7c7770eb0f22c57ff2379",
+  "nuisance_bounds": {
+    "continuum_constant": 0.1,
+    "continuum_slope_per_100km_s": 0.03,
+    "zero": 0.02,
+    "lsf_factors": [
+      0.6,
+      1.4
+    ],
+    "b_km_s": [
+      0.5,
+      30.0
+    ],
+    "log10_column": [
+      9.0,
+      17.0
+    ],
+    "shift_km_s": [
+      -1.0,
+      1.0
+    ]
+  },
+  "counts": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "initial_max_nfev": 350,
+  "initial_oversample": 9,
+  "final_oversample": 21,
+  "selection": "Minimum null AICc among saved successful stops. Also retain best incomplete endpoint. No component selection by displacement or free-shift improvement.",
+  "adequacy_gate": "Conditional diagnostic only: null chi2/nominaldof<=1.5 and every line chi2/pixel<=1.8, successful optimizer termination. Does not prove model validity.",
+  "bounded_continuation": "One extra null continuation for each best count if initial best stop unsuccessful; chosen-null OS21; H1 from that null and its seed; H0 cross from H1. Fixed-profile at most7points for2382 if possible."
+}

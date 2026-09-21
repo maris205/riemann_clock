@@ -1,0 +1,1200 @@
+{
+  "coadd_same_fixed_template": {
+    "exposure_index": -1,
+    "date_obs": "combined",
+    "common_velocity_km_s": 0.01757607275728349,
+    "relative_m_s": [
+      -42.796204736418424,
+      -39.56088137576116
+    ],
+    "covariance_m2_s2": [
+      [
+        276.72899215543157,
+        159.4414357958728
+      ],
+      [
+        159.4414357958728,
+        228.69675429271314
+      ]
+    ]
+  },
+  "trace_difference": {
+    "n_exposures": 17,
+    "exposure_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "mean_relative_m_s": [
+      -28.115001781348347,
+      8.205567294806665
+    ],
+    "conditional_covariance_m2_s2": [
+      [
+        1084.1786800934267,
+        632.6987132619714
+      ],
+      [
+        632.6987132619713,
+        896.9757383660223
+      ]
+    ],
+    "conditional_sigma_m_s": [
+      32.926868665171106,
+      29.949553224814927
+    ],
+    "heterogeneity_chi2": 41.05191815917919,
+    "heterogeneity_ndf": 32,
+    "conditional_heterogeneity_p": 0.13110011057518708,
+    "points": [
+      {
+        "exposure_index": 0,
+        "relative_m_s": [
+          -123.45464191989389,
+          -130.3179852035358
+        ],
+        "covariance_m2_s2": [
+          [
+            10059.884003371579,
+            6120.52201426847
+          ],
+          [
+            6120.52201426847,
+            8664.271010197834
+          ]
+        ]
+      },
+      {
+        "exposure_index": 1,
+        "relative_m_s": [
+          -258.8055621219208,
+          -28.83177436987809
+        ],
+        "covariance_m2_s2": [
+          [
+            30201.613516797595,
+            16797.074648331527
+          ],
+          [
+            16797.074648331527,
+            24757.298739229285
+          ]
+        ]
+      },
+      {
+        "exposure_index": 2,
+        "relative_m_s": [
+          304.2585409007014,
+          84.09896680089464
+        ],
+        "covariance_m2_s2": [
+          [
+            19888.231782918177,
+            10825.741863060608
+          ],
+          [
+            10825.741863060608,
+            15776.678303177252
+          ]
+        ]
+      },
+      {
+        "exposure_index": 3,
+        "relative_m_s": [
+          24.81876874528063,
+          -27.63862997405311
+        ],
+        "covariance_m2_s2": [
+          [
+            13796.049871649473,
+            8068.557370889446
+          ],
+          [
+            8068.557370889446,
+            11642.275181942154
+          ]
+        ]
+      },
+      {
+        "exposure_index": 4,
+        "relative_m_s": [
+          -27.607999257462048,
+          80.29736430806835
+        ],
+        "covariance_m2_s2": [
+          [
+            13529.455775304661,
+            8660.26988157262
+          ],
+          [
+            8660.26988157262,
+            11762.275559590218
+          ]
+        ]
+      },
+      {
+        "exposure_index": 5,
+        "relative_m_s": [
+          179.5601018522707,
+          135.21776294681285
+        ],
+        "covariance_m2_s2": [
+          [
+            13395.541150976442,
+            7827.02982330223
+          ],
+          [
+            7827.02982330223,
+            11522.996479429868
+          ]
+        ]
+      },
+      {
+        "exposure_index": 6,
+        "relative_m_s": [
+          18.78478122339774,
+          -3.3464236524830824
+        ],
+        "covariance_m2_s2": [
+          [
+            15874.391978241334,
+            9463.761974564044
+          ],
+          [
+            9463.761974564044,
+            13487.387883988784
+          ]
+        ]
+      },
+      {
+        "exposure_index": 7,
+        "relative_m_s": [
+          -28.93715521150574,
+          67.28854173750662
+        ],
+        "covariance_m2_s2": [
+          [
+            15077.345154616265,
+            9065.350261152367
+          ],
+          [
+            9065.350261152367,
+            13303.174134444143
+          ]
+        ]
+      },
+      {
+        "exposure_index": 8,
+        "relative_m_s": [
+          -159.09859458686157,
+          -162.79570139457775
+        ],
+        "covariance_m2_s2": [
+          [
+            26841.191018264162,
+            14981.59293813452
+          ],
+          [
+            14981.59293813452,
+            21696.096852844814
+          ]
+        ]
+      },
+      {
+        "exposure_index": 9,
+        "relative_m_s": [
+          -185.00725677965508,
+          -86.2944161475298
+        ],
+        "covariance_m2_s2": [
+          [
+            11952.520470406498,
+            7142.394849485866
+          ],
+          [
+            7142.394849485866,
+            9728.449962994237
+          ]
+        ]
+      },
+      {
+        "exposure_index": 10,
+        "relative_m_s": [
+          -875.4775268990824,
+          -947.8347771424353
+        ],
+        "covariance_m2_s2": [
+          [
+            656858.9928301687,
+            265913.81541783013
+          ],
+          [
+            265913.81541783013,
+            400304.2078840412
+          ]
+        ]
+      },
+      {
+        "exposure_index": 11,
+        "relative_m_s": [
+          358.7558989978295,
+          257.7693209233764
+        ],
+        "covariance_m2_s2": [
+          [
+            25741.207788206804,
+            13042.954325822182
+          ],
+          [
+            13042.954325822182,
+            20009.313243410827
+          ]
+        ]
+      },
+      {
+        "exposure_index": 12,
+        "relative_m_s": [
+          -64.52680434017368,
+          -314.9630163871035
+        ],
+        "covariance_m2_s2": [
+          [
+            42601.87145373044,
+            21484.919155178897
+          ],
+          [
+            21484.919155178897,
+            31711.556109703524
+          ]
+        ]
+      },
+      {
+        "exposure_index": 13,
+        "relative_m_s": [
+          -41.44014811166909,
+          125.36256689944919
+        ],
+        "covariance_m2_s2": [
+          [
+            26440.71806986936,
+            14919.531290261297
+          ],
+          [
+            14919.531290261297,
+            20575.285112517337
+          ]
+        ]
+      },
+      {
+        "exposure_index": 14,
+        "relative_m_s": [
+          -142.13408223755513,
+          -78.99551101921253
+        ],
+        "covariance_m2_s2": [
+          [
+            18546.15209262949,
+            10778.351077491217
+          ],
+          [
+            10778.351077491217,
+            15079.37026583522
+          ]
+        ]
+      },
+      {
+        "exposure_index": 15,
+        "relative_m_s": [
+          -2.9524543676776744,
+          76.20304407713789
+        ],
+        "covariance_m2_s2": [
+          [
+            18577.951293079233,
+            10633.116459461766
+          ],
+          [
+            10633.116459461766,
+            14469.05614075096
+          ]
+        ]
+      },
+      {
+        "exposure_index": 16,
+        "relative_m_s": [
+          -198.67324248934838,
+          83.89406543410993
+        ],
+        "covariance_m2_s2": [
+          [
+            17551.47956624736,
+            10267.5978938117
+          ],
+          [
+            10267.5978938117,
+            14111.193172846448
+          ]
+        ]
+      }
+    ],
+    "zero_difference_chi2": 1.8769511950913413,
+    "zero_difference_ndf": 2,
+    "conditional_zero_difference_p": 0.3912237634912235,
+    "definition": "trace0 minus trace1",
+    "shared_anchor_cancelled": false
+  },
+  "order_difference": {
+    "n_exposures": 17,
+    "exposure_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "mean_relative_m_s": [
+      -10.527688923747716,
+      -60.247117024263524
+    ],
+    "conditional_covariance_m2_s2": [
+      [
+        478.26750075488735,
+        0.0
+      ],
+      [
+        0.0,
+        279.54267203051154
+      ]
+    ],
+    "conditional_sigma_m_s": [
+      21.869327853294607,
+      16.719529659368757
+    ],
+    "heterogeneity_chi2": 43.16090093214755,
+    "heterogeneity_ndf": 32,
+    "conditional_heterogeneity_p": 0.0899847276791984,
+    "points": [
+      {
+        "exposure_index": 0,
+        "relative_m_s": [
+          -55.54181920056076,
+          -71.68992818925692
+        ],
+        "covariance_m2_s2": [
+          [
+            4367.905471200839,
+            0.0
+          ],
+          [
+            0.0,
+            2746.2384882288025
+          ]
+        ]
+      },
+      {
+        "exposure_index": 1,
+        "relative_m_s": [
+          -284.69165979043555,
+          12.34565387977218
+        ],
+        "covariance_m2_s2": [
+          [
+            14477.133903812095,
+            0.0
+          ],
+          [
+            0.0,
+            8506.248750851362
+          ]
+        ]
+      },
+      {
+        "exposure_index": 2,
+        "relative_m_s": [
+          41.684157008267704,
+          -127.88029129380662
+        ],
+        "covariance_m2_s2": [
+          [
+            9146.404055620585,
+            0.0
+          ],
+          [
+            0.0,
+            5302.207609744693
+          ]
+        ]
+      },
+      {
+        "exposure_index": 3,
+        "relative_m_s": [
+          17.085535919876662,
+          -106.7265783956973
+        ],
+        "covariance_m2_s2": [
+          [
+            6180.773124182049,
+            0.0
+          ],
+          [
+            0.0,
+            3815.5436927390156
+          ]
+        ]
+      },
+      {
+        "exposure_index": 4,
+        "relative_m_s": [
+          -11.342563188738573,
+          -61.186239911814084
+        ],
+        "covariance_m2_s2": [
+          [
+            5172.720512949278,
+            0.0
+          ],
+          [
+            0.0,
+            3281.417074736369
+          ]
+        ]
+      },
+      {
+        "exposure_index": 5,
+        "relative_m_s": [
+          -115.08997893405632,
+          -162.27522479825367
+        ],
+        "covariance_m2_s2": [
+          [
+            6293.234895650424,
+            0.0
+          ],
+          [
+            0.0,
+            3928.165948534274
+          ]
+        ]
+      },
+      {
+        "exposure_index": 6,
+        "relative_m_s": [
+          118.31195041532993,
+          -11.800475657465364
+        ],
+        "covariance_m2_s2": [
+          [
+            6774.421153910145,
+            0.0
+          ],
+          [
+            0.0,
+            4219.120901243802
+          ]
+        ]
+      },
+      {
+        "exposure_index": 7,
+        "relative_m_s": [
+          60.08593896696627,
+          -15.964400544972637
+        ],
+        "covariance_m2_s2": [
+          [
+            6361.178333877693,
+            0.0
+          ],
+          [
+            0.0,
+            4682.4561817625545
+          ]
+        ]
+      },
+      {
+        "exposure_index": 8,
+        "relative_m_s": [
+          36.19994722030832,
+          73.36112216939209
+        ],
+        "covariance_m2_s2": [
+          [
+            12088.829035207002,
+            0.0
+          ],
+          [
+            0.0,
+            7054.794251896462
+          ]
+        ]
+      },
+      {
+        "exposure_index": 9,
+        "relative_m_s": [
+          -35.81489787699324,
+          23.879928977935453
+        ],
+        "covariance_m2_s2": [
+          [
+            4902.434767445343,
+            0.0
+          ],
+          [
+            0.0,
+            2673.9540979750386
+          ]
+        ]
+      },
+      {
+        "exposure_index": 10,
+        "relative_m_s": [
+          244.9656989713717,
+          -655.9885615099685
+        ],
+        "covariance_m2_s2": [
+          [
+            396578.0159462359,
+            0.0
+          ],
+          [
+            0.0,
+            139885.5908412967
+          ]
+        ]
+      },
+      {
+        "exposure_index": 11,
+        "relative_m_s": [
+          72.23167856701046,
+          33.47052773985251
+        ],
+        "covariance_m2_s2": [
+          [
+            13267.665025408925,
+            0.0
+          ],
+          [
+            0.0,
+            7545.274521723072
+          ]
+        ]
+      },
+      {
+        "exposure_index": 12,
+        "relative_m_s": [
+          -386.89151957136784,
+          -78.58886579623827
+        ],
+        "covariance_m2_s2": [
+          [
+            21891.425855107478,
+            0.0
+          ],
+          [
+            0.0,
+            10772.018390425079
+          ]
+        ]
+      },
+      {
+        "exposure_index": 13,
+        "relative_m_s": [
+          -102.6331785581663,
+          -73.22217672467225
+        ],
+        "covariance_m2_s2": [
+          [
+            11787.865770033295,
+            0.0
+          ],
+          [
+            0.0,
+            5947.945245064311
+          ]
+        ]
+      },
+      {
+        "exposure_index": 14,
+        "relative_m_s": [
+          -33.693885910064765,
+          -97.82148519526457
+        ],
+        "covariance_m2_s2": [
+          [
+            8118.308862133548,
+            0.0
+          ],
+          [
+            0.0,
+            4645.033807621121
+          ]
+        ]
+      },
+      {
+        "exposure_index": 15,
+        "relative_m_s": [
+          209.83709984986754,
+          -168.88431063650197
+        ],
+        "covariance_m2_s2": [
+          [
+            8487.238498410125,
+            0.0
+          ],
+          [
+            0.0,
+            3972.245653300562
+          ]
+        ]
+      },
+      {
+        "exposure_index": 16,
+        "relative_m_s": [
+          5.232995350825753,
+          -33.816076080862764
+        ],
+        "covariance_m2_s2": [
+          [
+            7776.736619758617,
+            0.0
+          ],
+          [
+            0.0,
+            3974.6272735581315
+          ]
+        ]
+      }
+    ],
+    "zero_difference_chi2": 13.216212890458245,
+    "zero_difference_ndf": 2,
+    "conditional_zero_difference_p": 0.001349384865945609,
+    "definition": "lower_order minus upper_order",
+    "shared_anchor_cancelled": true
+  },
+  "order_difference_free_lsf": {
+    "n_exposures": 17,
+    "exposure_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "mean_relative_m_s": [
+      -11.061225126589834,
+      -57.66859272515415
+    ],
+    "conditional_covariance_m2_s2": [
+      [
+        489.70688233232244,
+        0.0
+      ],
+      [
+        0.0,
+        276.75467299825215
+      ]
+    ],
+    "conditional_sigma_m_s": [
+      22.129321777504217,
+      16.63594520904214
+    ],
+    "heterogeneity_chi2": 43.45203189737865,
+    "heterogeneity_ndf": 32,
+    "conditional_heterogeneity_p": 0.0852472810831069,
+    "points": [
+      {
+        "exposure_index": 0,
+        "relative_m_s": [
+          -69.82976406676286,
+          -80.50969087049835
+        ],
+        "covariance_m2_s2": [
+          [
+            4613.480794644107,
+            0.0
+          ],
+          [
+            0.0,
+            2833.337749934647
+          ]
+        ]
+      },
+      {
+        "exposure_index": 1,
+        "relative_m_s": [
+          -275.42526323881214,
+          14.069814624027844
+        ],
+        "covariance_m2_s2": [
+          [
+            14161.969451651568,
+            0.0
+          ],
+          [
+            0.0,
+            8861.982439458008
+          ]
+        ]
+      },
+      {
+        "exposure_index": 2,
+        "relative_m_s": [
+          33.805730939174786,
+          -130.90284445521354
+        ],
+        "covariance_m2_s2": [
+          [
+            9080.968340163552,
+            0.0
+          ],
+          [
+            0.0,
+            5370.998888768809
+          ]
+        ]
+      },
+      {
+        "exposure_index": 3,
+        "relative_m_s": [
+          17.097967418951328,
+          -103.85499463318537
+        ],
+        "covariance_m2_s2": [
+          [
+            6222.566711638742,
+            0.0
+          ],
+          [
+            0.0,
+            3665.763705147444
+          ]
+        ]
+      },
+      {
+        "exposure_index": 4,
+        "relative_m_s": [
+          -11.192116115985238,
+          -46.075848767100204
+        ],
+        "covariance_m2_s2": [
+          [
+            5088.041738337474,
+            0.0
+          ],
+          [
+            0.0,
+            3099.946483994466
+          ]
+        ]
+      },
+      {
+        "exposure_index": 5,
+        "relative_m_s": [
+          -115.38597180748225,
+          -163.69461267678741
+        ],
+        "covariance_m2_s2": [
+          [
+            6223.576007024747,
+            0.0
+          ],
+          [
+            0.0,
+            3697.8650950723973
+          ]
+        ]
+      },
+      {
+        "exposure_index": 6,
+        "relative_m_s": [
+          116.12045824666636,
+          -13.11832242342837
+        ],
+        "covariance_m2_s2": [
+          [
+            6598.508756407443,
+            0.0
+          ],
+          [
+            0.0,
+            4049.052641586787
+          ]
+        ]
+      },
+      {
+        "exposure_index": 7,
+        "relative_m_s": [
+          55.81894055275893,
+          -19.112249082468797
+        ],
+        "covariance_m2_s2": [
+          [
+            6663.538817811862,
+            0.0
+          ],
+          [
+            0.0,
+            4735.003608358993
+          ]
+        ]
+      },
+      {
+        "exposure_index": 8,
+        "relative_m_s": [
+          41.27791852383565,
+          74.9930495243839
+        ],
+        "covariance_m2_s2": [
+          [
+            12750.926034819902,
+            0.0
+          ],
+          [
+            0.0,
+            7288.2205130625
+          ]
+        ]
+      },
+      {
+        "exposure_index": 9,
+        "relative_m_s": [
+          -25.140055968853854,
+          33.3389623104417
+        ],
+        "covariance_m2_s2": [
+          [
+            5200.577434504218,
+            0.0
+          ],
+          [
+            0.0,
+            2551.5047446952276
+          ]
+        ]
+      },
+      {
+        "exposure_index": 10,
+        "relative_m_s": [
+          255.51795148375845,
+          -574.824994655028
+        ],
+        "covariance_m2_s2": [
+          [
+            440086.573229453,
+            0.0
+          ],
+          [
+            0.0,
+            144619.8610228061
+          ]
+        ]
+      },
+      {
+        "exposure_index": 11,
+        "relative_m_s": [
+          73.7795251422272,
+          32.53557919358634
+        ],
+        "covariance_m2_s2": [
+          [
+            12685.792819293645,
+            0.0
+          ],
+          [
+            0.0,
+            7591.717016741557
+          ]
+        ]
+      },
+      {
+        "exposure_index": 12,
+        "relative_m_s": [
+          -395.221434658827,
+          -39.69223402049121
+        ],
+        "covariance_m2_s2": [
+          [
+            23635.684323598904,
+            0.0
+          ],
+          [
+            0.0,
+            12153.353133759756
+          ]
+        ]
+      },
+      {
+        "exposure_index": 13,
+        "relative_m_s": [
+          -107.58817199646042,
+          -65.60282295022161
+        ],
+        "covariance_m2_s2": [
+          [
+            12873.900049575424,
+            0.0
+          ],
+          [
+            0.0,
+            6416.9395995350205
+          ]
+        ]
+      },
+      {
+        "exposure_index": 14,
+        "relative_m_s": [
+          -37.99367759737393,
+          -94.60999997822591
+        ],
+        "covariance_m2_s2": [
+          [
+            8436.73336914976,
+            0.0
+          ],
+          [
+            0.0,
+            4727.71503292861
+          ]
+        ]
+      },
+      {
+        "exposure_index": 15,
+        "relative_m_s": [
+          226.03416403021913,
+          -167.74109770099338
+        ],
+        "covariance_m2_s2": [
+          [
+            9340.66574206455,
+            0.0
+          ],
+          [
+            0.0,
+            3825.670835582837
+          ]
+        ]
+      },
+      {
+        "exposure_index": 16,
+        "relative_m_s": [
+          6.853652421734772,
+          -33.86470217246178
+        ],
+        "covariance_m2_s2": [
+          [
+            7835.773269761865,
+            0.0
+          ],
+          [
+            0.0,
+            3867.436820454004
+          ]
+        ]
+      }
+    ],
+    "zero_difference_chi2": 12.266503963840309,
+    "zero_difference_ndf": 2,
+    "conditional_zero_difference_p": 0.0021695142554098313,
+    "definition": "lower_order_free_lsf minus upper_order_free_lsf",
+    "shared_anchor_cancelled": true
+  },
+  "bound_active_fits": [
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 5,
+      "line": 2600,
+      "fwhm_km_s": 1.6000000000000003
+    },
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 8,
+      "line": 2374,
+      "fwhm_km_s": 1.6000000000067123
+    },
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 10,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 12,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 12,
+      "line": 2600,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "free_lsf",
+      "exposure_index": 13,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 1,
+      "line": 2382,
+      "fwhm_km_s": 1.6000000000000008
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 1,
+      "line": 2600,
+      "fwhm_km_s": 1.600000000000034
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 5,
+      "line": 2600,
+      "fwhm_km_s": 1.6000000000000003
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 8,
+      "line": 2374,
+      "fwhm_km_s": 1.6000000000067123
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 10,
+      "line": 2382,
+      "fwhm_km_s": 2.599999999999983
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 10,
+      "line": 2600,
+      "fwhm_km_s": 1.6000000000279773
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 11,
+      "line": 2382,
+      "fwhm_km_s": 1.6000000000572099
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 12,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999983
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 12,
+      "line": 2600,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "lower_order_free_lsf",
+      "exposure_index": 16,
+      "line": 2600,
+      "fwhm_km_s": 1.6000000000000003
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 0,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999983
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 1,
+      "line": 2600,
+      "fwhm_km_s": 2.599999999999997
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 4,
+      "line": 2600,
+      "fwhm_km_s": 1.6000000000000003
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 8,
+      "line": 2374,
+      "fwhm_km_s": 1.6000000000067123
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 8,
+      "line": 2382,
+      "fwhm_km_s": 2.59999999999994
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 10,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 10,
+      "line": 2600,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 12,
+      "line": 2600,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 13,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    },
+    {
+      "configuration": "upper_order_free_lsf",
+      "exposure_index": 15,
+      "line": 2382,
+      "fwhm_km_s": 2.5999999999999996
+    }
+  ],
+  "total_good_native_pixels": 76064,
+  "total_published_mask_transferred_rejections": 2274,
+  "total_atmospheric_mask_transferred_rejections": 433,
+  "conditional_covariance_warning": "All reported error bars and p-values condition on the fixed coadd-derived gas template and diagonal native ERRDATA; order and trace comparisons are diagnostic, post-inspection, and not calibrated discovery tests."
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Bounded primary-source and small metadata check; no CCD reduction or calibration science fit performed.",
+  "original_native_product_count": 17,
+  "pipeline_versions": {
+    "espdr/2.2.3": 17
+  },
+  "instrument_modes": {
+    "SINGLEHR": 17
+  },
+  "target_repository_tree_sha": "09ee2cb32fb57ace9cda2943e997930bc7813366",
+  "target_repository_tree_file_sha256": "d578a24e89a1a343a3c8e23f09fc18e4c706ffc07d61c042e7ddb308cd811fb4",
+  "target_repository_paths_matching_lsf_calibration_wave_matrix_thfp": [],
+  "retrieval_caveats": [
+    "Archive CalSelector is current default association, not proof it duplicates published manually selected LFC calibration.",
+    "FITS pipeline ORDER_PROFILE is not automatically a spectral nonGaussian LSF.",
+    "Generic post2022 LSF demonstration does not determine source epoch2018-2020 LSF.",
+    "Publisher HTTP403 encountered; arXiv primaryfulltextsuccess. No claim of publicationdata nonavailability."
+  ],
+  "science_binning": [
+    {
+      "bin_x": 2,
+      "bin_y": 1,
+      "count": 17
+    }
+  ],
+  "representative_science_calibration_hashes": [
+    {
+      "index": 0,
+      "raw_frame": "ESPRE.2018-11-04T07:00:00.643.fits",
+      "lfc_A_DATAMD5": "9e3cd8f4b1634624f42a9c8e4094719c",
+      "lfc_A_file": "ESPRESSO_LFC_WAVE_MATRIX_A.fits",
+      "lfc_A_category": "WAVE_MATRIX_LFC_FP_A"
+    },
+    {
+      "index": 10,
+      "raw_frame": "ESPRE.2020-02-28T01:14:22.246.fits",
+      "lfc_A_DATAMD5": "e7524cf800158ca0dbb9da7e31a737c2",
+      "lfc_A_file": "ESPRESSO_LFC_WAVE_MATRIX_A.fits",
+      "lfc_A_category": "WAVE_MATRIX_LFC_FP_A"
+    }
+  ],
+  "native_hdus": [
+    "PRIMARY",
+    "SCIDATA",
+    "ERRDATA",
+    "QUALDATA",
+    "WAVEDATA_VAC_BARY",
+    "WAVEDATA_AIR_BARY",
+    "DLLDATA_VAC_BARY",
+    "DLLDATA_AIR_BARY"
+  ],
+  "note_on_existing_wavelength_arrays": "The archived published native science S2D files already contain their LFC-calibrated barycentric wavelength arrays; these arrays are reusable but are not an independent instrumental-response measurement."
+}

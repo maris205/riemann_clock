@@ -1,0 +1,122 @@
+J232128-105122_n3_null_s1_expected_os33 chi 75.15888749425406 red 0.7441474009332085 ok True bound ['zero_2260', 'zero_2374']
+J232128-105122_n3_shift_s1_expected_os33 chi 68.99884189363918 red 0.7113282669447338 ok True bound ['zero_2260', 'zero_2374']
+J232128-105122_n3_null_s1_expected_os33_cross chi 75.15888744313844 red 0.7441474004271132 ok True bound ['zero_2260', 'zero_2374']
+J004131-493611_n6_null_s3_expected_os33 chi 110.03574321280172 red 1.0188494741926084 ok True bound ['zero_2374']
+J004131-493611_n6_shift_s3_expected_os33 chi 104.53408491517065 red 0.9861706124072703 ok True bound ['zero_2374']
+J004131-493611_n6_null_s3_expected_os33_cross chi 110.03574625663883 red 1.0188495023762856 ok True bound ['zero_2374']
+{
+  "error_kind": "FITS primary row2 expected fluctuation",
+  "scope": "Sensitivity using frozen row1 selected components, lines, windows and masks; not a new model selection and not a covariance model.",
+  "comparisons": [
+    {
+      "target": "J232128-105122",
+      "ncomp": 3,
+      "ndata": 130,
+      "nominal_ndf_null": 101,
+      "extra_shifts": 4,
+      "row1_null": "J232128-105122_n3_null_s1_os33",
+      "row1_alternative": "J232128-105122_n3_shift_s1_os33",
+      "row1_chi2_null": 80.59285379437945,
+      "row1_chi2_alternative": 73.74856538299974,
+      "row1_delta_chi2": 6.844288411379708,
+      "expected_null": "J232128-105122_n3_null_s1_expected_os33_cross",
+      "expected_alternative": "J232128-105122_n3_shift_s1_expected_os33",
+      "expected_chi2_null": 75.15888744313844,
+      "expected_chi2_alternative": 68.99884189363918,
+      "expected_delta_chi2": 6.160045549499259,
+      "both_optimizer_success": true,
+      "null_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2260",
+        "zero_2374"
+      ],
+      "per_line_error_ratio": [
+        {
+          "line": 2260,
+          "n": 26,
+          "median_expected_over_statistical": 1.0461691301314575,
+          "min_expected_over_statistical": 0.9431143880055154,
+          "max_expected_over_statistical": 1.0479359289725323
+        },
+        {
+          "line": 2344,
+          "n": 26,
+          "median_expected_over_statistical": 0.9971569801345557,
+          "min_expected_over_statistical": 0.9958101685787788,
+          "max_expected_over_statistical": 0.9985346916853833
+        },
+        {
+          "line": 2374,
+          "n": 26,
+          "median_expected_over_statistical": 1.036082698172873,
+          "min_expected_over_statistical": 1.034393651473498,
+          "max_expected_over_statistical": 1.0377842731027196
+        },
+        {
+          "line": 2382,
+          "n": 26,
+          "median_expected_over_statistical": 1.0443386712497449,
+          "min_expected_over_statistical": 1.0387540511134994,
+          "max_expected_over_statistical": 1.0507802832080237
+        },
+        {
+          "line": 2586,
+          "n": 26,
+          "median_expected_over_statistical": 1.0463339304845531,
+          "min_expected_over_statistical": 1.0445996074717285,
+          "max_expected_over_statistical": 1.0480818901413795
+        }
+      ]
+    },
+    {
+      "target": "J004131-493611",
+      "ncomp": 6,
+      "ndata": 138,
+      "nominal_ndf_null": 108,
+      "extra_shifts": 2,
+      "row1_null": "J004131-493611_n6_null_s3_os33",
+      "row1_alternative": "J004131-493611_n6_shift_s3_os33",
+      "row1_chi2_null": 113.18866766618387,
+      "row1_chi2_alternative": 107.52756948193438,
+      "row1_delta_chi2": 5.6610981842494965,
+      "expected_null": "J004131-493611_n6_null_s3_expected_os33",
+      "expected_alternative": "J004131-493611_n6_shift_s3_expected_os33",
+      "expected_chi2_null": 110.03574321280172,
+      "expected_chi2_alternative": 104.53408491517065,
+      "expected_delta_chi2": 5.501658297631067,
+      "both_optimizer_success": true,
+      "null_active_bounds": [
+        "zero_2374"
+      ],
+      "alternative_active_bounds": [
+        "zero_2374"
+      ],
+      "per_line_error_ratio": [
+        {
+          "line": 1608,
+          "n": 46,
+          "median_expected_over_statistical": 1.0196938441126129,
+          "min_expected_over_statistical": 1.016890263633468,
+          "max_expected_over_statistical": 1.0225380517625458
+        },
+        {
+          "line": 2374,
+          "n": 46,
+          "median_expected_over_statistical": 0.9844260095796311,
+          "min_expected_over_statistical": 0.9821754051006457,
+          "max_expected_over_statistical": 0.9867040323839361
+        },
+        {
+          "line": 2382,
+          "n": 46,
+          "median_expected_over_statistical": 1.0319694970826931,
+          "min_expected_over_statistical": 1.0291021615691995,
+          "max_expected_over_statistical": 1.0348831499969888
+        }
+      ]
+    }
+  ]
+}

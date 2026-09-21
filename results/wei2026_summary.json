@@ -1,0 +1,176 @@
+{
+  "article_doi": "10.1038/s41467-026-74935-8",
+  "publication_date": "2026-07-01",
+  "arxiv_first_public_date": "2025-11-14",
+  "repository_commit": "a8b0b38202d6f330297212f8755c8df04242f9d6",
+  "data_level": "Authors' processed NMR means and SD, not raw repeated signals or shots.",
+  "time_scan_points": 110,
+  "beta_scan_points": 18,
+  "plotted_quantity": "abs_mean directly from authors' processed products; no rescaling",
+  "error_bars": "abs_std; one reported standard deviation, not standard errors or root uncertainties",
+  "time_definition": "u = epsilon_0 * laboratory_time / hbar; not cosmic age",
+  "physical_experiment_scope": "Five-qubit NMR; first five zero neighborhoods only",
+  "high_zero_scope": "The trillionth-zero results in the source are numerical simulations",
+  "reference_calculation": {
+    "method": "mpmath.zetazero",
+    "decimal_precision": 45,
+    "mpmath_version": "1.3.0"
+  },
+  "source_csv_sha256": {
+    "wei2026_processed_tscan.csv": "6946b14d7694c844ec94360ca001074cc04d1dcb2ad7811e84fef5531947240d",
+    "wei2026_processed_beta_scan.csv": "39285fb5af6f2c3b812236613d1d098003959969fa833e9d87d6a7170af30482",
+    "wei2026_published_zero_estimates.csv": "606a0a11ddcdbd69622732a215f2c74daff2ed0af265fc362b63021641837604"
+  },
+  "root_estimates": [
+    {
+      "zero_index": 1,
+      "reference_ordinate_40digits": "14.13472514173469379045725198356247027078",
+      "reported_ordinate": "14.12",
+      "residual_reported_minus_reference": -0.01472514173469379,
+      "root_standard_deviation": null
+    },
+    {
+      "zero_index": 2,
+      "reference_ordinate_40digits": "21.02203963877155499262847959389690277733",
+      "reported_ordinate": "20.96",
+      "residual_reported_minus_reference": -0.062039638771554995,
+      "root_standard_deviation": null
+    },
+    {
+      "zero_index": 3,
+      "reference_ordinate_40digits": "25.01085758014568876321379099256282181866",
+      "reported_ordinate": "25.09",
+      "residual_reported_minus_reference": 0.07914241985431124,
+      "root_standard_deviation": null
+    },
+    {
+      "zero_index": 4,
+      "reference_ordinate_40digits": "30.42487612585951321031189753058409132018",
+      "reported_ordinate": "30.44",
+      "residual_reported_minus_reference": 0.01512387414048679,
+      "root_standard_deviation": null
+    },
+    {
+      "zero_index": 5,
+      "reference_ordinate_40digits": "32.93506158773918969066236896407490348881",
+      "reported_ordinate": "32.93",
+      "residual_reported_minus_reference": -0.0050615877391896906,
+      "root_standard_deviation": null
+    }
+  ],
+  "root_residual_descriptive_summary": {
+    "mean_absolute_residual": 0.035218532448047304,
+    "maximum_absolute_residual": 0.07914241985431124,
+    "fit_performed_here": false,
+    "no_chi_squared": "Root standard deviations and full covariance are not published in this subset."
+  },
+  "sampled_neighborhood_centers": [
+    {
+      "zero_index": 1,
+      "beta": 0.5,
+      "points": 11,
+      "center_time": 14.134725,
+      "center_minus_reference": -1.4173469509159986e-07,
+      "center_abs_mean": 0.04930489044290288,
+      "center_abs_std": 0.0131333772223485,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 1,
+      "beta": 0.3,
+      "points": 11,
+      "center_time": 14.134725,
+      "center_minus_reference": -1.4173469509159986e-07,
+      "center_abs_mean": 0.05192160940276555,
+      "center_abs_std": 0.004095031536302212,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 2,
+      "beta": 0.5,
+      "points": 11,
+      "center_time": 21.02204,
+      "center_minus_reference": 3.6122844448982505e-07,
+      "center_abs_mean": 0.06316023468592069,
+      "center_abs_std": 0.01665841978126775,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 2,
+      "beta": 0.3,
+      "points": 11,
+      "center_time": 21.02204,
+      "center_minus_reference": 3.6122844448982505e-07,
+      "center_abs_mean": 0.0738470668468887,
+      "center_abs_std": 0.008474500561861352,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 3,
+      "beta": 0.5,
+      "points": 11,
+      "center_time": 25.010857,
+      "center_minus_reference": -5.801456879339639e-07,
+      "center_abs_mean": 0.05607511152547795,
+      "center_abs_std": 0.016922698723124876,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 3,
+      "beta": 0.3,
+      "points": 11,
+      "center_time": 25.010857,
+      "center_minus_reference": -5.801456879339639e-07,
+      "center_abs_mean": 0.10256692949706218,
+      "center_abs_std": 0.0032308939436147834,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 4,
+      "beta": 0.5,
+      "points": 11,
+      "center_time": 30.424876,
+      "center_minus_reference": -1.2585951125743122e-07,
+      "center_abs_mean": 0.04554655218907975,
+      "center_abs_std": 0.001980834571589732,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 4,
+      "beta": 0.3,
+      "points": 11,
+      "center_time": 30.424876,
+      "center_minus_reference": -1.2585951125743122e-07,
+      "center_abs_mean": 0.0861701182348832,
+      "center_abs_std": 0.005740400602371005,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 5,
+      "beta": 0.5,
+      "points": 11,
+      "center_time": 32.935061,
+      "center_minus_reference": -5.877391942021859e-07,
+      "center_abs_mean": 0.05017256761397949,
+      "center_abs_std": 0.010308582424131223,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    },
+    {
+      "zero_index": 5,
+      "beta": 0.3,
+      "points": 11,
+      "center_time": 32.935061,
+      "center_minus_reference": -5.877391942021859e-07,
+      "center_abs_mean": 0.10729894695731966,
+      "center_abs_std": 0.008000113234205526,
+      "interpretation": "A sampled coherence value, not a fitted root or noise-floor estimate."
+    }
+  ],
+  "warnings": [
+    "The source's rounded polynomial-fit root values are transcribed, not fitted again here.",
+    "Means and standard deviations are retained; repeated signals and full covariance are unavailable.",
+    "Nonzero sampled minima are not estimates of a universal residual floor.",
+    "The beta scan and time scan are separate data series, not repetitions to pool.",
+    "Formal publication lies in the last six months; first public preprint does not."
+  ]
+}

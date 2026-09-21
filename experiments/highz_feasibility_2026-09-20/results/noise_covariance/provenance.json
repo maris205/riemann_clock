@@ -1,0 +1,14 @@
+{
+  "script_sha256": "ae42bba073934818c03baaf32308107a18417dcd03be5ec45c1b288ec9c1e1f4",
+  "control_source_sha256": "53f14e33a145ee4774b1310e63897b0113deee5c84f4c3ab89423aa235a24e76",
+  "baseline_sha256": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7",
+  "dependency_sha256": {
+    "code/espresso_conventional_null.py": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+    "code/espresso_null_local_controls.py": "b31dabb55bd96c2cc5072329c1800ecc21e289d52a5f71dc416680be5b7553da",
+    "data/raw/espresso_null/MM_VPFIT_2013-11-10.dat": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "data/raw/espresso_null/fit_r_iso.f18": "b3bb6f655b6cfd18978617312ec62908ce212b57c150bed10da196212a8fd2df",
+    "data/raw/espresso_null/fit_c_iso.f13": "10baddad7472b8a2c4f731f96022efc6d5d7f73a72b613611c7bb0c0196d9517",
+    "data/raw/espresso_null/fit_l_iso.f13": "751c14e3b1482b3c994d739d921345b95906abb6e0d695984d548d966d9577f6",
+    "data/raw/espresso_null/fit_r_iso.f13": "139b4b0ead5bdd19bc06da2b2b9f93b927c264427c424dbacb6aba5d3e4511a5"
+  }
+}

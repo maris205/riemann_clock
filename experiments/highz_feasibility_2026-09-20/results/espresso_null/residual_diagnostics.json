@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2260,
+    "ndata": 277,
+    "normalized_residual_mean": 0.0039325824785376344,
+    "rms": 0.8094385241603211,
+    "adjacent_residual_correlation": 0.4642290376998532,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  },
+  {
+    "line": 2344,
+    "ndata": 430,
+    "normalized_residual_mean": 0.010623804343880659,
+    "rms": 0.9454411418303805,
+    "adjacent_residual_correlation": 0.35434809953209817,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  },
+  {
+    "line": 2374,
+    "ndata": 508,
+    "normalized_residual_mean": 0.00034918771074160396,
+    "rms": 0.8815974549958091,
+    "adjacent_residual_correlation": 0.46376839792864083,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  },
+  {
+    "line": 2382,
+    "ndata": 579,
+    "normalized_residual_mean": 0.05521106802456752,
+    "rms": 0.901906582077198,
+    "adjacent_residual_correlation": 0.3126949471478293,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  },
+  {
+    "line": 2586,
+    "ndata": 560,
+    "normalized_residual_mean": 0.00039440703365142745,
+    "rms": 0.8422556907645257,
+    "adjacent_residual_correlation": 0.3840035531936919,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  },
+  {
+    "line": 2600,
+    "ndata": 577,
+    "normalized_residual_mean": 0.0027000601139616116,
+    "rms": 0.9088229803741483,
+    "adjacent_residual_correlation": 0.3055498717038036,
+    "interpretation": "Residual correlation diagnostic, not an independently measured noise covariance"
+  }
+]

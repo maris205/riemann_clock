@@ -1,0 +1,112 @@
+{
+  "case": "core01_gls",
+  "null": "core01_gls_null",
+  "alternative": "core01_gls_alternative_cross",
+  "ndata": 2692,
+  "added_parameters": 5,
+  "delta_chi2": 23.692889894344944,
+  "null_success": true,
+  "alternative_success": true,
+  "shifts_m_s": {
+    "2260": 78.16067528484399,
+    "2344": -34.81481678866052,
+    "2382": -100.11260750636674,
+    "2586": 1.8706983024250274,
+    "2600": -103.72394051222844
+  },
+  "selection": "Minimum recorded objective for each hypothesis, including unfinished endpoints if lower. Never silently omit lower capped endpoints.",
+  "initial_null_candidates": [
+    {
+      "file": "results/saturation_controls/core01_null_cross_continued_alternative.json",
+      "chi2": 1932.1702837327377
+    },
+    {
+      "file": "results/empirical_gls/tapered_null_cross.json",
+      "chi2": 1946.366127230091
+    }
+  ],
+  "mask_audit": [
+    {
+      "line": 2260,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 277,
+      "removed_pixels": 0,
+      "retained_pixels": 277
+    },
+    {
+      "line": 2344,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 430,
+      "removed_pixels": 0,
+      "retained_pixels": 430
+    },
+    {
+      "line": 2374,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 508,
+      "removed_pixels": 0,
+      "retained_pixels": 508
+    },
+    {
+      "line": 2382,
+      "threshold": 0.1,
+      "padding_km_s": 0.0,
+      "original_pixels": 579,
+      "removed_pixels": 125,
+      "retained_pixels": 454
+    },
+    {
+      "line": 2586,
+      "threshold": null,
+      "padding_km_s": 0.0,
+      "original_pixels": 560,
+      "removed_pixels": 0,
+      "retained_pixels": 560
+    },
+    {
+      "line": 2600,
+      "threshold": 0.1,
+      "padding_km_s": 0.0,
+      "original_pixels": 577,
+      "removed_pixels": 114,
+      "retained_pixels": 463
+    }
+  ],
+  "recorded_trials": [
+    {
+      "name": "core01_gls_null",
+      "free_shifts": false,
+      "chi2": 1931.8960292678112,
+      "optimizer_success": true,
+      "nfev": 36,
+      "optimality": 0.05047054542432872
+    },
+    {
+      "name": "core01_gls_alternative",
+      "free_shifts": true,
+      "chi2": 1908.206375273376,
+      "optimizer_success": true,
+      "nfev": 106,
+      "optimality": 0.08200307063805684
+    },
+    {
+      "name": "core01_gls_alternative_cross",
+      "free_shifts": true,
+      "chi2": 1908.2031393734662,
+      "optimizer_success": true,
+      "nfev": 34,
+      "optimality": 0.07414757455626846
+    },
+    {
+      "name": "core01_gls_null_cross",
+      "free_shifts": false,
+      "chi2": 1931.9294982944837,
+      "optimizer_success": true,
+      "nfev": 66,
+      "optimality": 7.916440778822396
+    }
+  ]
+}

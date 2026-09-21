@@ -1,0 +1,112 @@
+[
+  {
+    "path": "he2021_supplement.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41534-021-00446-7/MediaObjects/41534_2021_446_MOESM1_ESM.pdf",
+    "bytes": 210130,
+    "sha256": "e4e6ff97993d6fd756d06a960ecad75a3128b2966cf69a6d19a0d155c7cff382",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": null
+  },
+  {
+    "path": "he2021_table1.html",
+    "url": "https://www.nature.com/articles/s41534-021-00446-7/tables/1",
+    "bytes": 167874,
+    "sha256": "ffc0ac08bb74b8dd8656b0db2bed04abb27dc4e1217e3c4f543ac30b13b92e21",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": null
+  },
+  {
+    "path": "wei2026/README.md",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/README.md",
+    "bytes": 3910,
+    "sha256": "50da15e116a5ca9d81a9f9c42f0deb85e35b39915b8338d458ccb29b95e4660c",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/LICENSE",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/LICENSE",
+    "bytes": 1172,
+    "sha256": "c47a40896c188dd14c07f113feb35363aa7957ab5a3a63a57b6f32ad59b7394c",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/Fig4.py",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/Fig4.py",
+    "bytes": 14354,
+    "sha256": "ed4c31c578c98b96f3437eb097749350efd00198189a3aa9ddc6c3aaa0499253",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/data.py",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/data.py",
+    "bytes": 1116,
+    "sha256": "a94d3fc297e5eb3acd23a7710b6eb002886a6f1dd3237c18cae77e8ac1d25400",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/data2.py",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/data2.py",
+    "bytes": 1280,
+    "sha256": "23757c070cd65296b18c0b21cbd31d85671337a6118f014171a8fb7cd6918885",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/exp/beta_scan_exp.npz",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/exp/beta_scan_exp.npz",
+    "bytes": 3764,
+    "sha256": "2ff8095f1d012bd60ec0139f76912e1b5b983df19596c41a27a52838ec51d2f9",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/exp/tscan_beta03_exp.npz",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/exp/tscan_beta03_exp.npz",
+    "bytes": 7386,
+    "sha256": "7629091b3acb1e4bccb3a15ffaedfacddc31376ba51604e459019dacd6c55acd",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/exp/tscan_beta05_exp.npz",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/exp/tscan_beta05_exp.npz",
+    "bytes": 7386,
+    "sha256": "722e4ec7070e361bae8378317275c507ea325bded3b946be50225a09aa361113",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/theory/beta_scan_theory.npz",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/theory/beta_scan_theory.npz",
+    "bytes": 1834,
+    "sha256": "8d0fe1b2de6b7285ee82019563d9b9ed1f2b72458664481f650dcabd595d0ce0",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026/data/theory/tscan_beta05_theory.npz",
+    "url": "https://raw.githubusercontent.com/lqf2025/Riemann-data/a8b0b38202d6f330297212f8755c8df04242f9d6/data/theory/tscan_beta05_theory.npz",
+    "bytes": 146310,
+    "sha256": "43722d95dffd40b6b23b6a1ecc7e4ddc508af0dfe77b4ea45dfd4f93b29aed28",
+    "accessed_utc": "2026-09-20",
+    "upstream_git_sha": "a8b0b38202d6f330297212f8755c8df04242f9d6"
+  },
+  {
+    "path": "wei2026_article.html",
+    "url": "https://www.nature.com/articles/s41467-026-74935-8",
+    "bytes": 490865,
+    "sha256": "d59954272cc2bd864863b5fb05598ee4092c1724f358e6c293e724ccdd49a9d7",
+    "accessed_utc": "2026-09-20"
+  },
+  {
+    "path": "wei2026_supplement.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-74935-8/MediaObjects/41467_2026_74935_MOESM1_ESM.pdf",
+    "bytes": 1927528,
+    "sha256": "85afa2ece9b24c8917b40298059ee4c78d3069d07815fee2e1ff20a5ad476567",
+    "accessed_utc": "2026-09-20"
+  }
+]

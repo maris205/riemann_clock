@@ -1,0 +1,3111 @@
+{
+  "scope": "Independent original FITS row2, unchanged native masks/architecture, weight/Jacobian/objective replay and selected result bookkeeping; no physical significance certification.",
+  "passed": true,
+  "n_checks": 615,
+  "n_saved_fits": 6,
+  "sensitivity_script_sha256": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+  "validator_sha256": "d4b168bf53f53ca401349d19b9dbb52a82359137d62dafa3e98af7abe3613958",
+  "summary_sha256": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+  "results": [
+    {
+      "target": "J232128-105122",
+      "ncomp": 3,
+      "ndata": 130,
+      "extra_shifts": 4,
+      "row1_delta_chi2": 6.844288411379708,
+      "row2_delta_chi2": 6.160045549499259,
+      "row2_chi2_null": 75.15888744313844,
+      "row2_chi2_alternative": 68.99884189363918,
+      "both_optimizer_success": true
+    },
+    {
+      "target": "J004131-493611",
+      "ncomp": 6,
+      "ndata": 138,
+      "extra_shifts": 2,
+      "row1_delta_chi2": 5.6610981842494965,
+      "row2_delta_chi2": 5.501658297631067,
+      "row2_chi2_null": 110.03574321280172,
+      "row2_chi2_alternative": 104.53408491517065,
+      "both_optimizer_success": true
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "J232128-105122 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 raw FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 row2 label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 full row2 raw array",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 archive hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 raw FITS hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 row2 label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 full row2 raw array",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 independent residual reweighting",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII1608 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33 FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross independent residual reweighting",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 5.684341886080802e-14
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII1608 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_null_s3_expected_os33_cross FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 independent residual reweighting",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 5.684341886080802e-14
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII1608 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611_n6_shift_s3_expected_os33 FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 independent residual reweighting",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2260 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2344 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33 FeII2586 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross independent residual reweighting",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2260 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2344 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_null_s1_expected_os33_cross FeII2586 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 same native indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 same mask",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 source raw row1 statistical error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 source raw row2 expected fluctuation",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 frozen retained expected errors finite positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 raw source flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 independent residual reweighting",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 independent analytic Jacobian reweighting",
+      "passed": true,
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 frozen labels and architecture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 same dimension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 sampling33",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 error kind disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 wrapper hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 base model hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 coadd hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 atomic hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 source windows hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 explicit frozen-selection metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 termination status consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 finite recorded optimality",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 feasible optimized parameters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 objective",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 objective per nominal ndf",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 saved residual",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 saved Jacobian",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 saved parameter vector",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2260 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2344 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2374 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2382 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved model",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 recorded line chi2",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved v",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved error",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122_n3_shift_s1_expected_os33 FeII2586 saved source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "two target summaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 exact primary selection provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 frozen component count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 frozen data dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 both selected fits terminated successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 extra shifts count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 summary row1 null",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 summary row1 alternative",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 summary row1 delta",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 summary expected null",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 summary expected alternative",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 summary expected delta",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2260_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2260_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2260_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2260_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2260_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2260_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2260_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2260_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2260_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2260_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2260_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2260_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2344_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2344_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2344_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2344_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2344_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2344_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2344_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2344_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2344_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2344_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2344_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2344_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2586_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2586_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2586_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2586_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2586_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2586_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2586_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2586_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2586_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H0 old to expected 2586_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 H1 old to expected 2586_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 expected H0 H1 2586_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio retained count 2260",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 line ratio median 2260",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio min 2260",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio max 2260",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio retained count 2344",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 line ratio median 2344",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio min 2344",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio max 2344",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio retained count 2374",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 line ratio median 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio min 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio max 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio retained count 2382",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 line ratio median 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio min 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio max 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio retained count 2586",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J232128-105122 line ratio median 2586",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio min 2586",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J232128-105122 line ratio max 2586",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 exact primary selection provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 frozen component count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 frozen data dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 both selected fits terminated successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 extra shifts count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 summary row1 null",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 summary row1 alternative",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 summary row1 delta",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 summary expected null",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 summary expected alternative",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 summary expected delta",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 1608_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 1608_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 1608_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 1608_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 1608_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 1608_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 1608_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 1608_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 1608_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 1608_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 1608_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 1608_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2374_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2374_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2374_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2374_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2382_source_indices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2382_good",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2382_wave",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H0 old to expected 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 H1 old to expected 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 expected H0 H1 2382_flux",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio retained count 1608",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 line ratio median 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio min 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio max 1608",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio retained count 2374",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 line ratio median 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio min 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio max 2374",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio retained count 2382",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "J004131-493611 line ratio median 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio min 2382",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "J004131-493611 line ratio max 2382",
+      "passed": true,
+      "detail": 0.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "riemann_clock/paper/riemann_clock.pdf",
+  "sha256": "45a384bae1a301498fcce6f55c148d14d11ced1311d15e4c842696dbfbbae741",
+  "declared_page_count": 35,
+  "enumerated_page_count": 35,
+  "reader_page_count": 35,
+  "warnings": [],
+  "generated_at": "2026-09-20T17:59:12.538693+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

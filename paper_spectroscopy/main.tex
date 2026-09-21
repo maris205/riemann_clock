@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,longtable,xcolor}
+\usepackage[round,authoryear]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Instrument and Gas-Model Sensitivity of Fe II Relative-Frequency Tests in Archival Quasar Spectra},pdfauthor={Liang Wang}}
+\setlength{\emergencystretch}{3em}
+\graphicspath{{figures/}{../figures/}}
+\input{numbers.tex}
+\title{Instrument and Gas-Model Sensitivity of Fe II Relative-Frequency Tests in Archival Quasar Spectra}
+\author{Liang Wang\thanks{\href{mailto:wangliang.f@gmail.com}{wangliang.f@gmail.com}}}
+\date{September 21, 2026}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Small relative shifts between absorption transitions can reflect gas structure, calibration and instrumental response as well as atomic-frequency changes. We examine these dependencies using public Fe\,II spectra. Joint fits to six ESPRESSO transitions in the $z\simeq1.1508$ absorber towards HE\,0515$-$4414 compare laboratory-frequency relations with additional relative shifts. Their conditional preference depends on pixel covariance, strong-core exclusions and gas architecture. Continuum controls measure correlated noise, while derivative projections quantify the information removed by masking. Native-pixel fits to all 17 public exposures compare the same transition in overlapping orders. A centred positive asymmetric response family retains a 2600 order contrast near $-59\,\mathrm{m\,s^{-1}}$; this does not isolate its instrumental or model origin. We also screen 36 catalogued absorbers in 32 UVES spectra, identifying six candidates under stated quality criteria. A common 2382/2374 descriptor permits an explicit cross-age identifiability analysis. Unrestricted target-specific differential offsets span the age response, while finite smooth-distortion scenarios are suppressed by the pair's small separation. At the six redshifts, normalized inverse-logarithmic schedules with powers 1, 2 and 3 have nearly indistinguishable shapes after fitting an intercept and amplitude. The contribution is a reproducible sensitivity and identifiability study. It establishes neither a calibrated fine-structure-constant variation nor a preferred cosmic-age law.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+Quasar absorption spectra test laboratory transition-frequency relations in material observed at earlier cosmic epochs. Unresolved gas structure, saturation and wavelength-dependent instrumental errors can mimic differential shifts even between lines of one ion. The relevant observable is therefore a parameter of a joint spectral model whose reference transition, nuisance freedom and error convention must be stated explicitly.
+
+\citet{Murphy2022ESPRESSO} released combined and extracted ESPRESSO spectra and modelling inputs for the exceptionally high signal-to-noise $z\simeq1.1508$ absorber towards HE\,0515$-$4414. Their multi-ion result, $\Delta\alpha/\alpha=1.3\pm1.3_{\rm stat}\pm0.4_{\rm sys}$ parts per million, is consistent with no variation. Our Fe\,II analysis examines the stability of relative line-displacement diagnostics under selected absorption and instrument assumptions. It does not replace that result or reproduce its complete uncertainty budget.
+
+These concerns are established. \citet{WhitmoreMurphy2015} characterized relevant wavelength distortions. For the same ESPRESSO absorber, \citet{Lee2023Models} examined model construction and the treatment of a temporarily fixed constant using an ensemble more extensive than our fixed-architecture controls. \citet{Schmidt2024LSF} measured position- and slice-dependent non-Gaussian instrumental profiles, demonstrating why a Gaussian width alone is incomplete. We do not claim the first recognition of these effects.
+
+We connect three diagnostics: matched-pixel conventional/free-shift comparisons under covariance, masking and gas-structure changes; native-exposure comparisons of the same transition in overlapping orders; and catalogue screening followed by actual-pixel checks and physical-profile fits. Available spectra, usable multiplets and calibrated frequency measurements are separate quantities. The additional contribution is to examine the identifiability of a common pair descriptor across absorbers, before interpreting any apparent age dependence.
+
+An improved objective under extra shifts is conditional on the models and weights, without automatic calibration over component selection or instrumental uncertainty. Conversely, a baseline quadratic statistic below unity per nominal degree of freedom does not invalidate a relative preference on the same data. Both distinctions matter when formal errors are small.
+
+The analysis is exploratory: controls follow inspection of earlier results, and archive pilot windows were chosen after profile inspection. Section~\ref{sec:methods} defines the tests; Sec.~\ref{sec:results} reports their outcomes; Sec.~\ref{sec:identifiability} examines cross-age identifiability; and Sec.~\ref{sec:discussion} describes the remaining requirements. Section~\ref{sec:prospective} outlines a prospective prediction test, detailed in Appendix~\ref{app:prediction}.
+
+\input{methods.tex}
+\input{results.tex}
+\input{discussion.tex}
+
+\section*{Data and code availability}
+The analysis code, source manifests, processed arrays, numerical endpoints and validation reports accompany this manuscript in the \texttt{riemann\_clock} project. Public ESPRESSO products and atomic/component inputs are provided by the \citet{Murphy2022ESPRESSO} data release, archived at \url{https://doi.org/10.5281/zenodo.5512490}. The UVES spectra and source catalogues are from SQUAD DR1 \citep{Murphy2019SQUAD}. Source URLs, repository revisions, file sizes and hashes are recorded in the accompanying manifests; third-party files retain their original provenance and applicable terms. The accompanying records distinguish historical observations, products reprocessed later, and calculations performed in this study. The availability of a paper describing another reduction is not treated as acquisition of its science arrays or response matrices.
+
+\section*{Author and assistance statement}
+Liang Wang supplied the research questions and source projects. AI assistance was used in literature retrieval, source auditing, code preparation, numerical checking and manuscript drafting. Responsibility for the scientific claims and submitted version remains with the author. No institutional affiliation, funding source, competing-interest declaration or external peer-review status is inferred in this draft.
+
+\appendix
+\input{prediction_appendix.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,16 @@
+{
+  "date_utc": "2026-09-20",
+  "primary_initializations": {
+    "null": "published final isotope component values; alpha fixed zero",
+    "alternative_from_published": "same published values; extra shifts initialized zero",
+    "alternative": "null.json nuisance estimates; extra shifts zero",
+    "null_cross": "alternative_from_published.json nuisance estimates; extra shifts removed"
+  },
+  "initial_robustness_pairs": "Each null initialized from published component values; each alternative initialized from its own null",
+  "followup_controls": "opacity_zero, omit_saturated and wider_bounds nulls initialized from null.json; alternatives initialized from their own null",
+  "continued_attempts": "expected_fluctuation_null, omit_blended_alternative and omit_saturated_null continued from their saved final parameters; original budget-limited attempts retained",
+  "selection": "Lowest chi-square converged saved candidate for each specified configuration; all earlier attempts retained. No global-optimality certification.",
+  "tolerances": {"ftol": 1e-7, "xtol": 1e-8, "gtol": 1e-6, "max_nfev_per_attempt": 350},
+  "implementation_note": "An initial output-serialization failure from a NumPy integer was fixed before saved science fits; unpublished exploratory jobs were restarted. Added opacity/zero/bound controls preserve the default physical model. Source checks and saved-point replays verify the final implementation.",
+  "not_preregistered": true
+}

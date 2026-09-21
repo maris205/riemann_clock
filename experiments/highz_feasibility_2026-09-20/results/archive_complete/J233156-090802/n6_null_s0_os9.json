@@ -1,0 +1,361 @@
+{
+  "name": "n6_null_s0_os9",
+  "target": "J233156-090802",
+  "configuration": {
+    "target": "J233156-090802",
+    "z": 2.143,
+    "lines": [
+      1608,
+      2374,
+      2382
+    ],
+    "window": [
+      -480.0,
+      500.0
+    ],
+    "component_bounds": [
+      -465.0,
+      480.0
+    ],
+    "centers": [
+      -425.0,
+      -400.0,
+      -375.0,
+      -355.0,
+      -335.0,
+      -315.0,
+      -295.0,
+      -270.0,
+      -240.0,
+      -220.0,
+      -200.0,
+      -150.0,
+      -115.0,
+      -80.0,
+      25.0,
+      72.0,
+      180.0,
+      360.0,
+      455.0
+    ],
+    "logtotal": 15.4,
+    "component_counts": [
+      6,
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "max_nfev": 350,
+    "selection_stage": "Frozen after raw profile and AOD inspection, before nonlinear or relative-shift fitting.",
+    "selection_reason": "Before any fit, independent raw-profile review showed weak 2374 counterparts to detached red 2382 clouds; expand all three native windows to [-480,+500] km/s to include them alongside dominant complex. Same-gas1611 overlaps red1608 region and its opacity is explicitly summed with1608 before transmission and instrumental integration.",
+    "excluded_lines": {
+      "1611": "Not a fourth independent region: blue1611 overlaps strong1608 from same gas, while1611 opacity is explicitly included inside1608 region.",
+      "2249,2260,2344": "Retain earlier broad atmospheric-water warnings.",
+      "2586,2600": "Retain earlier coverage/quality exclusions."
+    },
+    "outside_window_features": "Finite [-480,+500] exploratory window includes visible dominant and detached red Fe candidates. No residual clipping; complete cosmic/kinematic population is not claimed.",
+    "limitations": [
+      "Exploratory data-inspected selection, not blind confirmation.",
+      "Strong 2382 saturated across roughly 400 km/s.",
+      "Twenty-six shared gas components may still be insufficient; inadequacy is retained as an outcome.",
+      "No alpha or cosmic-time-law parameter is fitted.",
+      "Region1608 nuisance shift moves both1608 and neighboring1611; it is not an isolated-transition measurement.",
+      "Broad-band avoidance does not establish absence of weak tellurics or blends."
+    ],
+    "pixel_diagnostics": {
+      "1608": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "1611": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "2374": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      },
+      "2382": {
+        "within_window": 392,
+        "source_valid_expected_noise": 392,
+        "native_dv_km_s": 2.499989576113876
+      }
+    },
+    "source_sha256": "80276c58831dc457e9c7f02521ef4883311fa9c2057e5a4306454c607c13b4d0",
+    "selection_script_sha256": "ff40e30b6feb9c71e0fc88abac3384288b112edcb17c67296b354140af62561e",
+    "frozen_utc": "2026-09-21T03:44:10.511005+00:00",
+    "counts_amendment": "Before any fit: campaign review of 630 km/s full-system span increased finite count grid to [6,10,14,18,22,26]. Initial proposal preserved in selection_initial_counts.json. No shift result existed at amendment.",
+    "campaign_bounds": {
+      "continuum0": [
+        -0.1,
+        0.1
+      ],
+      "continuum_slope_per100km_s": [
+        -0.03,
+        0.03
+      ],
+      "zero": [
+        -0.02,
+        0.02
+      ],
+      "lsf_relative": [
+        0.6,
+        1.4
+      ],
+      "b_km_s": [
+        0.5,
+        30
+      ],
+      "logN": [
+        9,
+        17
+      ]
+    },
+    "opacity_lines": {
+      "1608": [
+        1608,
+        1611
+      ]
+    },
+    "neighbor_opacity_adapter": "code/archive_complete_j2331_model.py",
+    "neighbor_opacity_adapter_sha256": "9167a0fffb5bbb1e05b252241e23a05f56d72c11a133182b67a9904bbc5c2a20",
+    "expansion_amendment": "Approved and frozen before any nonlinear fit; previous common window saved in selection_dominant_complex_before_expansion.json."
+  },
+  "ncomp": 6,
+  "free_shifts": false,
+  "seed": 0,
+  "oversample": 9,
+  "max_nfev": 350,
+  "ndata": 1176,
+  "npar": 30,
+  "nominal_ndf": 1146,
+  "chi2": 16868.952844732452,
+  "chi2_per_ndf": 14.719854140255194,
+  "aicc": 16930.577298880922,
+  "optimizer_success": true,
+  "optimizer_status": 2,
+  "message": "`ftol` termination condition is satisfied.",
+  "nfev": 43,
+  "seconds": 4.5698323249816895,
+  "labels": [
+    "logN_0",
+    "logN_1",
+    "logN_2",
+    "logN_3",
+    "logN_4",
+    "logN_5",
+    "v_0",
+    "v_1",
+    "v_2",
+    "v_3",
+    "v_4",
+    "v_5",
+    "logb_0",
+    "logb_1",
+    "logb_2",
+    "logb_3",
+    "logb_4",
+    "logb_5",
+    "cont0_1608",
+    "cont1_1608",
+    "zero_1608",
+    "logfwhm_1608",
+    "cont0_2374",
+    "cont1_2374",
+    "zero_2374",
+    "logfwhm_2374",
+    "cont0_2382",
+    "cont1_2382",
+    "zero_2382",
+    "logfwhm_2382"
+  ],
+  "parameters": [
+    14.278298676728934,
+    14.528035469602496,
+    14.362944939964194,
+    15.553152098664214,
+    14.167251526386236,
+    12.706527794086421,
+    -376.7770601300599,
+    -306.89083208691505,
+    -221.09201949713182,
+    -112.6510459014409,
+    1.0648303219195192,
+    457.60278333353256,
+    3.401197381662155,
+    3.401197381662155,
+    3.401197381662155,
+    3.401197381662155,
+    3.401197381662155,
+    0.9561308872617776,
+    -0.09999999999999999,
+    0.006257632174429287,
+    0.019999999999999997,
+    2.3234724708311525,
+    -0.06892442264531226,
+    0.006548312202252786,
+    0.019999999999999997,
+    2.3234724708311525,
+    -0.09999999999999999,
+    -0.002664482716208,
+    0.015041831940188056,
+    2.3234724708311525
+  ],
+  "initial_parameters": [
+    14.149832754289617,
+    14.687562473878291,
+    14.750510635913708,
+    14.972628723575195,
+    14.532399088680686,
+    14.256834027421652,
+    -425.0,
+    -343.0,
+    -264.0,
+    -159.99999999999997,
+    43.80000000000002,
+    455.0,
+    1.6094379124341003,
+    1.6094379124341003,
+    1.6094379124341003,
+    1.6094379124341003,
+    1.6094379124341003,
+    1.6094379124341003,
+    -0.09,
+    0.0,
+    0.0,
+    1.98700023420994,
+    -0.06177566667634893,
+    0.0,
+    0.0,
+    1.98700023420994,
+    -0.09,
+    0.0,
+    0.0,
+    1.98700023420994
+  ],
+  "bounds_lower": [
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    -465.0,
+    -465.0,
+    -465.0,
+    -465.0,
+    -465.0,
+    -465.0,
+    -0.6931471805599453,
+    -0.6931471805599453,
+    -0.6931471805599453,
+    -0.6931471805599453,
+    -0.6931471805599453,
+    -0.6931471805599453,
+    -0.1,
+    -0.03,
+    -0.02,
+    1.4761746104439493,
+    -0.1,
+    -0.03,
+    -0.02,
+    1.4761746104439493,
+    -0.1,
+    -0.03,
+    -0.02,
+    1.4761746104439493
+  ],
+  "bounds_upper": [
+    17.0,
+    17.0,
+    17.0,
+    17.0,
+    17.0,
+    17.0,
+    480.0,
+    480.0,
+    480.0,
+    480.0,
+    480.0,
+    480.0,
+    3.4011973816621555,
+    3.4011973816621555,
+    3.4011973816621555,
+    3.4011973816621555,
+    3.4011973816621555,
+    3.4011973816621555,
+    0.1,
+    0.03,
+    0.02,
+    2.323472470831153,
+    0.1,
+    0.03,
+    0.02,
+    2.323472470831153,
+    0.1,
+    0.03,
+    0.02,
+    2.323472470831153
+  ],
+  "active_bounds": [
+    "logb_0",
+    "logb_1",
+    "logb_2",
+    "logb_3",
+    "logb_4",
+    "cont0_1608",
+    "zero_1608",
+    "logfwhm_1608",
+    "zero_2374",
+    "logfwhm_2374",
+    "cont0_2382",
+    "logfwhm_2382"
+  ],
+  "shifts_m_s": {},
+  "fixed_2382_shift_km_s": null,
+  "error_kind": "FITS primary zero-based row2 normalized expected fluctuation; diagonal weighting",
+  "stationarity": {
+    "scipy_optimality": 15.933014552221536,
+    "independent_coleman_li": 15.933014552221534,
+    "normalized_gradient_mapping_inf": 0.9066423916720211,
+    "column_normalized_gradient_inf": 49.841713874699934,
+    "interpretation": "Recorded first-order diagnostics; ftol/xtol termination does not prove a global optimum or eliminate weak/bound-active nuisance directions."
+  },
+  "per_line": [
+    {
+      "line": 1608,
+      "ndata": 392,
+      "chi2": 2691.3375982444622,
+      "chi2_per_pixel": 6.86565713837873
+    },
+    {
+      "line": 2374,
+      "ndata": 392,
+      "chi2": 3916.0636788842194,
+      "chi2_per_pixel": 9.98995836450056
+    },
+    {
+      "line": 2382,
+      "ndata": 392,
+      "chi2": 10261.551567603765,
+      "chi2_per_pixel": 26.17742746837695
+    }
+  ],
+  "source_hashes": {
+    "coadd": "80276c58831dc457e9c7f02521ef4883311fa9c2057e5a4306454c607c13b4d0",
+    "metadata": "8de3e433997ddb7a532815d6542c621e4c881af71f765ef23b4e8c9aa8c8f839",
+    "atomic": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "base_model": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "adapter": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416"
+  }
+}

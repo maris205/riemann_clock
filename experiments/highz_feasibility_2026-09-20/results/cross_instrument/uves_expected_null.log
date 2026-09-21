@@ -1,0 +1,76 @@
+uves_expected_null: ndata=511 npar=147 initial chi2=407.055965
+uves_expected_null: evaluation 25, chi2=406.9549358
+uves_expected_null: evaluation 50, chi2=406.9302277
+uves_expected_null: evaluation 75, chi2=406.8686679
+uves_expected_null: evaluation 100, chi2=406.8066393
+uves_expected_null: evaluation 125, chi2=406.7319785
+uves_expected_null: evaluation 150, chi2=406.6633041
+uves_expected_null: evaluation 175, chi2=406.6095901
+uves_expected_null: evaluation 200, chi2=406.5435684
+uves_expected_null: evaluation 225, chi2=406.4329728
+uves_expected_null: evaluation 250, chi2=406.0214083
+uves_expected_null: evaluation 275, chi2=405.7559171
+uves_expected_null: evaluation 300, chi2=405.6355803
+uves_expected_null: evaluation 325, chi2=405.5522539
+uves_expected_null: evaluation 350, chi2=405.4285241
+{
+  "name": "uves_expected_null",
+  "free_shifts": false,
+  "configuration": {
+    "oversample": 21,
+    "exclude": [
+      2260,
+      2344,
+      2586
+    ],
+    "rho": 0.0,
+    "error_row": 2,
+    "zero_nuisance": true,
+    "velocity_span": 5.0,
+    "continuum_span": 0.03
+  },
+  "ndata": 511,
+  "npar": 147,
+  "nominal_ndf": 364,
+  "chi2": 405.42852410688243,
+  "chi2_per_nominal_ndf": 1.1138146266672595,
+  "nominal_chi2_survival": 0.06612833627697481,
+  "optimizer_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "nfev": 350,
+  "optimality": 0.688615282600649,
+  "seconds": 257.9915089607239,
+  "jacobian_rank": 147,
+  "active_bounds": [
+    "v_3",
+    "v_25",
+    "v_27",
+    "v_32",
+    "logb_2",
+    "logb_22",
+    "logb_36",
+    "zero_adjustment_2374"
+  ],
+  "shifts_km_s": {},
+  "per_line": [
+    {
+      "line": 2374,
+      "ndata": 156,
+      "chi2": 99.24941463368123,
+      "chi2_per_pixel": 0.6362141963697514
+    },
+    {
+      "line": 2382,
+      "ndata": 178,
+      "chi2": 152.7978174437785,
+      "chi2_per_pixel": 0.8584147047403288
+    },
+    {
+      "line": 2600,
+      "ndata": 177,
+      "chi2": 153.3812920294226,
+      "chi2_per_pixel": 0.8665609719176419
+    }
+  ],
+  "interpretation": "Conditional six-FeII, one-absorber test; no cosmic-time law fitted. Nominal diagonal-noise metrics are not discovery significances."
+}

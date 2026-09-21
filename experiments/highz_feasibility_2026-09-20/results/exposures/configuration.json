@@ -1,0 +1,25 @@
+{
+  "completed_utc": "2026-09-20T17:34:00Z",
+  "template_source": "results/espresso_null/null_cross.json",
+  "template_sha256": "9a726ee6e82a5613fadcf149661621243c430dd0c19ce5a2ae65bcd275d7ffa7",
+  "script_sha256": "87d26c6d5deb7d80f49b55efcf9eedbec47b834c25176643dd3804aa5d561f6f",
+  "quadrature": 7,
+  "grid_step_km_s": 0.025,
+  "selected_lines": [
+    2374,
+    2382,
+    2600
+  ],
+  "configurations": [
+    "primary",
+    "free_lsf",
+    "trace0",
+    "trace1",
+    "lower_order",
+    "upper_order",
+    "published_template",
+    "lower_order_free_lsf",
+    "upper_order_free_lsf"
+  ],
+  "interpretation": "Fixed shared gas-template native-pixel consistency diagnostic, not full gas refit or independent astrophysical confirmation; template estimated from same coadd. Conditional diagonal ERRDATA covariance, no empirical extracted-pixel covariance available. Exposure/epoch differences test observing systematics, not cosmic time law."
+}

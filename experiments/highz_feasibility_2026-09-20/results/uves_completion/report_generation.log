@@ -1,0 +1,252 @@
+{
+  "cases": [
+    {
+      "name": "bounded_h0",
+      "wide": false,
+      "free": false,
+      "chi2": 397.8933444935101,
+      "nfev": 1800,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "optimizer_status": 0,
+      "optimizer_success": false,
+      "column_normalized_jacobian_condition": 159502.77213522152,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 2.097251018981669,
+      "box_mapping": 0.9632732983195659,
+      "worst_mapping_parameter": "logb_28",
+      "stationary": false,
+      "shifts_m_s": {},
+      "lsf_scale": {
+        "2374": 0.6579546612449484,
+        "2382": 0.6652575062192974,
+        "2600": 0.673810149548671
+      },
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "json_sha256": "b461ba90c1aeb5a3928bcd189707929bc2b834f0e229e571b5e3abbb78268c67"
+    },
+    {
+      "name": "bounded_h1",
+      "wide": false,
+      "free": true,
+      "chi2": 388.10859556189683,
+      "nfev": 1800,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "optimizer_status": 0,
+      "optimizer_success": false,
+      "column_normalized_jacobian_condition": 1077516.7361438556,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 0.0211666597747811,
+      "box_mapping": 0.04988976444140614,
+      "worst_mapping_parameter": "logN_27",
+      "stationary": false,
+      "shifts_m_s": {
+        "2382": -139.91059974590814,
+        "2600": -132.03675054202122
+      },
+      "lsf_scale": {
+        "2374": 0.65,
+        "2382": 0.6591634717301654,
+        "2600": 0.6669191694758496
+      },
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "log_lsf_scale_2374"
+      ],
+      "json_sha256": "74c138a8d14348adb99f81082c40cf478d3d2930820e26788deb120d6d388e32"
+    },
+    {
+      "name": "wide_h0",
+      "wide": true,
+      "free": false,
+      "chi2": 397.905461381982,
+      "nfev": 1800,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "optimizer_status": 0,
+      "optimizer_success": false,
+      "column_normalized_jacobian_condition": 156517.51036411923,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 0.03063035564458739,
+      "box_mapping": 0.07158324975317387,
+      "worst_mapping_parameter": "logN_39",
+      "stationary": false,
+      "shifts_m_s": {},
+      "lsf_scale": {
+        "2374": 0.657994471672099,
+        "2382": 0.665302186058523,
+        "2600": 0.6738580848725065
+      },
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "json_sha256": "13c066a82d22f4662edeaa8cdb88ce80b9b3e73a33577a012b2c7df570df242c"
+    },
+    {
+      "name": "wide_h0_cross_bounded",
+      "wide": true,
+      "free": false,
+      "chi2": 397.8553566088117,
+      "nfev": 400,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "optimizer_status": 0,
+      "optimizer_success": false,
+      "column_normalized_jacobian_condition": 153310.70417092976,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 0.031946745837766945,
+      "box_mapping": 0.09699201118881301,
+      "worst_mapping_parameter": "logN_39",
+      "stationary": false,
+      "shifts_m_s": {},
+      "lsf_scale": {
+        "2374": 0.657796769030162,
+        "2382": 0.6650642893754872,
+        "2600": 0.6736150804284254
+      },
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36"
+      ],
+      "json_sha256": "beacf398b792ad102fcebd4d7bb206ab1c9820e455d8cc6bdfd857b1ead418af"
+    },
+    {
+      "name": "wide_h1",
+      "wide": true,
+      "free": true,
+      "chi2": 387.7717101580977,
+      "nfev": 1800,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "optimizer_status": 0,
+      "optimizer_success": false,
+      "column_normalized_jacobian_condition": 949953.168047419,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "optimality": 0.01579228137813394,
+      "box_mapping": 0.03363581089191481,
+      "worst_mapping_parameter": "logN_27",
+      "stationary": false,
+      "shifts_m_s": {
+        "2382": -144.5813834929964,
+        "2600": -136.2845160078379
+      },
+      "lsf_scale": {
+        "2374": 0.637958253387184,
+        "2382": 0.6542563534485717,
+        "2600": 0.6619540409503984
+      },
+      "active_bounds": [
+        "v_3",
+        "v_15",
+        "v_20",
+        "v_25",
+        "v_27",
+        "v_28",
+        "v_32",
+        "logb_2",
+        "logb_17",
+        "logb_20",
+        "logb_22",
+        "logb_34",
+        "logb_36",
+        "zero_adjustment_2374"
+      ],
+      "json_sha256": "f0f4bd9235716ec2f3badf1ff0b5eeeba515150ef89eeb941a7f129e09de749e"
+    }
+  ],
+  "pairs": [
+    {
+      "wide": false,
+      "null": "wide_h0_cross_bounded",
+      "alternative": "bounded_h1",
+      "delta_chi2": 9.746761046914855,
+      "stationary_both": false,
+      "selection": "Lowest saved objective among parameter vectors feasible in this domain; no stationarity transfer between bounds",
+      "null_from_other_bounds": true,
+      "alternative_from_other_bounds": false,
+      "candidates_null": [
+        "bounded_h0",
+        "wide_h0",
+        "wide_h0_cross_bounded"
+      ],
+      "candidates_alternative": [
+        "bounded_h1"
+      ]
+    },
+    {
+      "wide": true,
+      "null": "wide_h0_cross_bounded",
+      "alternative": "wide_h1",
+      "delta_chi2": 10.083646450714014,
+      "stationary_both": false,
+      "selection": "Lowest saved objective among parameter vectors feasible in this domain; no stationarity transfer between bounds",
+      "null_from_other_bounds": false,
+      "alternative_from_other_bounds": false,
+      "candidates_null": [
+        "bounded_h0",
+        "wide_h0",
+        "wide_h0_cross_bounded"
+      ],
+      "candidates_alternative": [
+        "bounded_h1",
+        "wide_h1"
+      ]
+    }
+  ],
+  "scope": "Expected-fluctuation error array only; three UVES FeII lines; 45-component architecture; no cosmic-time law or calibrated significance."
+}

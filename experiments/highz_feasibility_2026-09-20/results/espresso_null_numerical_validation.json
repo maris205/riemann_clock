@@ -1,0 +1,361 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "CGS optical-depth coefficient",
+      "passed": true,
+      "model": 1.49736415e-15,
+      "independent": 1.4973641483561679e-15,
+      "relative_difference": 1.0978171705033901e-09
+    },
+    {
+      "name": "all initial arrays finite",
+      "passed": true
+    },
+    {
+      "name": "shared gas dimension",
+      "passed": true,
+      "gas_parameters": 135,
+      "total_parameters": 152
+    },
+    {
+      "name": "anchored differential shifts",
+      "passed": true
+    },
+    {
+      "name": "pixel centering 2260",
+      "passed": true,
+      "max_error_km_s": 1.9022294850401522e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2260",
+      "passed": true,
+      "max_flux_difference": 7.968681270398292e-11
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2260",
+      "passed": true,
+      "pixels": 277
+    },
+    {
+      "name": "pixel centering 2344",
+      "passed": true,
+      "max_error_km_s": 1.9451817934168503e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2344",
+      "passed": true,
+      "max_flux_difference": 4.0032316350746555e-10
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2344",
+      "passed": true,
+      "pixels": 430
+    },
+    {
+      "name": "pixel centering 2374",
+      "passed": true,
+      "max_error_km_s": 2.807070131893852e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2374",
+      "passed": true,
+      "max_flux_difference": 3.884308430457395e-10
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2374",
+      "passed": true,
+      "pixels": 508
+    },
+    {
+      "name": "pixel centering 2382",
+      "passed": true,
+      "max_error_km_s": 2.176818725274643e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2382",
+      "passed": true,
+      "max_flux_difference": 4.053217206312354e-10
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2382",
+      "passed": true,
+      "pixels": 579
+    },
+    {
+      "name": "pixel centering 2586",
+      "passed": true,
+      "max_error_km_s": 3.0113511684248806e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2586",
+      "passed": true,
+      "max_flux_difference": 4.081331383964937e-10
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2586",
+      "passed": true,
+      "pixels": 560
+    },
+    {
+      "name": "pixel centering 2600",
+      "passed": true,
+      "max_error_km_s": 2.7473845420900034e-10
+    },
+    {
+      "name": "independent CGS/Voigt/convolution 2600",
+      "passed": true,
+      "max_flux_difference": 4.034890199733354e-10
+    },
+    {
+      "name": "finite positive noise on accepted pixels 2600",
+      "passed": true,
+      "pixels": 577
+    },
+    {
+      "name": "Jacobian logN_0",
+      "passed": true,
+      "relative_l2_error": 1.9826583060898415e-09,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian logN_13",
+      "passed": true,
+      "relative_l2_error": 4.882092770795048e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian logN_37",
+      "passed": true,
+      "relative_l2_error": 7.701629789211248e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian logN_44",
+      "passed": true,
+      "relative_l2_error": 6.99194138337417e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian v_0",
+      "passed": true,
+      "relative_l2_error": 1.02910959399143e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian v_13",
+      "passed": true,
+      "relative_l2_error": 9.48937362169432e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian v_37",
+      "passed": true,
+      "relative_l2_error": 9.094549479349229e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian v_44",
+      "passed": true,
+      "relative_l2_error": 1.1338128959255034e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian logb_0",
+      "passed": true,
+      "relative_l2_error": 7.150750381184412e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian logb_13",
+      "passed": true,
+      "relative_l2_error": 1.0583969144851661e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian logb_37",
+      "passed": true,
+      "relative_l2_error": 2.086006042788023e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian logb_44",
+      "passed": true,
+      "relative_l2_error": 7.1889046253853335e-09,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian continuum0_2260",
+      "passed": true,
+      "relative_l2_error": 5.054581345899004e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian continuum1_2260",
+      "passed": true,
+      "relative_l2_error": 9.94805193692567e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian continuum0_2600",
+      "passed": true,
+      "relative_l2_error": 7.0783176711275495e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian continuum1_2600",
+      "passed": true,
+      "relative_l2_error": 5.544112341331338e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "Jacobian shift_2260",
+      "passed": true,
+      "relative_l2_error": 2.6324382446345356e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian shift_2600",
+      "passed": true,
+      "relative_l2_error": 2.2355026610343674e-08,
+      "step": 0.0001
+    },
+    {
+      "name": "Jacobian mixed direction 0",
+      "passed": true,
+      "relative_l2_error": 3.195093786810745e-08
+    },
+    {
+      "name": "Jacobian mixed direction 1",
+      "passed": true,
+      "relative_l2_error": 2.8610373010448554e-08
+    },
+    {
+      "name": "Jacobian mixed direction 2",
+      "passed": true,
+      "relative_l2_error": 2.361428330224052e-08
+    },
+    {
+      "name": "oversampling 9 versus 18",
+      "passed": true,
+      "noise_weighted_squared_model_difference": 9.029443292427604e-05,
+      "max_difference_in_sigma": 0.001692743771910088,
+      "chi2_difference": -0.05762762387576004
+    },
+    {
+      "name": "oversampling 9 versus 27",
+      "passed": true,
+      "noise_weighted_squared_model_difference": 0.00012683123384358858,
+      "max_difference_in_sigma": 0.002006205659639715,
+      "chi2_difference": -0.06827794034097678
+    },
+    {
+      "name": "oversampling 18 versus 27",
+      "passed": true,
+      "noise_weighted_squared_model_difference": 3.0961890318694736e-06,
+      "max_difference_in_sigma": 0.0003134618877296269
+    },
+    {
+      "name": "common-shift derivative identity 2260",
+      "passed": true,
+      "relative_l2_error": 2.8775798619293196e-16
+    },
+    {
+      "name": "common-shift derivative identity 2344",
+      "passed": true,
+      "relative_l2_error": 2.4515276768054856e-16
+    },
+    {
+      "name": "common-shift derivative identity 2382",
+      "passed": true,
+      "relative_l2_error": 2.5419530585566576e-16
+    },
+    {
+      "name": "common-shift derivative identity 2586",
+      "passed": true,
+      "relative_l2_error": 2.900146028976498e-16
+    },
+    {
+      "name": "common-shift derivative identity 2600",
+      "passed": true,
+      "relative_l2_error": 2.627471293441465e-16
+    },
+    {
+      "name": "extended independent profile 2260",
+      "passed": true,
+      "max_flux_difference": 7.988143480019971e-11
+    },
+    {
+      "name": "extended independent profile 2344",
+      "passed": true,
+      "max_flux_difference": 4.019863886206565e-10
+    },
+    {
+      "name": "extended independent profile 2374",
+      "passed": true,
+      "max_flux_difference": 3.8803321666947e-10
+    },
+    {
+      "name": "extended independent profile 2382",
+      "passed": true,
+      "max_flux_difference": 4.04483890825702e-10
+    },
+    {
+      "name": "extended independent profile 2586",
+      "passed": true,
+      "max_flux_difference": 4.0056841177360525e-10
+    },
+    {
+      "name": "extended independent profile 2600",
+      "passed": true,
+      "max_flux_difference": 4.037536416312548e-10
+    },
+    {
+      "name": "extended Jacobian log_strength_2260",
+      "passed": true,
+      "relative_l2_error": 2.574623842797476e-10,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian log_strength_2382",
+      "passed": true,
+      "relative_l2_error": 3.1146070735792435e-11,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian log_strength_2600",
+      "passed": true,
+      "relative_l2_error": 3.1493563290758336e-11,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian zero_adjustment_2260",
+      "passed": true,
+      "relative_l2_error": 7.573608944089293e-11,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian zero_adjustment_2374",
+      "passed": true,
+      "relative_l2_error": 1.3236132007955467e-11,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian zero_adjustment_2600",
+      "passed": true,
+      "relative_l2_error": 1.7327559622724604e-12,
+      "step": 1e-05
+    },
+    {
+      "name": "extended Jacobian shift_2382",
+      "passed": true,
+      "relative_l2_error": 1.7521840406791707e-08,
+      "step": 0.0001
+    }
+  ],
+  "passed": 64,
+  "count": 64,
+  "root_source_sha256": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+  "validator_sha256": "bf24b39c1aa232c328773b413fc76d1cfb08ec72d97c5c6d8dae9a599c26f68a",
+  "limitation": "Implementation verification at perturbed published parameters; no complete nonlinear optimizer replay or statistical discovery calibration."
+}

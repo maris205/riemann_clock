@@ -1,0 +1,279 @@
+{
+  "target": "J064326-504112",
+  "z_abs": 2.659,
+  "primary_lines": [
+    1608,
+    1611,
+    2374,
+    2382
+  ],
+  "primary_window_km_s": [
+    -145,
+    100
+  ],
+  "primary_ndata": 436,
+  "primary_ncomp": 16,
+  "primary_chi2": 532.2252737539015,
+  "primary_nominal_ndf": 372,
+  "primary_passes_adequacy": false,
+  "primary_failure": "Weak1611 chi2 per pixel exceeds the predeclared 1.8 gate; conventional four-line model inadequate. Selected architecture at maximum searched count; bound and first-order caveats.",
+  "common_observable": "velocity(FeII2382)-velocity(FeII2374)",
+  "common_observable_status": "not_estimated_primary_due_model_failure",
+  "common_observable_m_s": null,
+  "conditional_sigma_m_s": null,
+  "relative_shift_alternatives_run": false,
+  "null_only_control": {
+    "name": "omit1611_n16_null_only_os21",
+    "target": "J064326-504112",
+    "ndata": 327,
+    "ncomp": 16,
+    "chi2": 300.2483620828069,
+    "nominal_ndf": 267,
+    "optimizer_success": true,
+    "per_line": [
+      {
+        "line": 1608,
+        "ndata": 109,
+        "chi2": 97.56215771027203,
+        "chi2_per_pixel": 0.8950656670667159
+      },
+      {
+        "line": 2374,
+        "ndata": 109,
+        "chi2": 115.14725077061928,
+        "chi2_per_pixel": 1.0563967960607274
+      },
+      {
+        "line": 2382,
+        "ndata": 109,
+        "chi2": 87.53895360191555,
+        "chi2_per_pixel": 0.8031096660726197
+      }
+    ],
+    "passes_same_conditional_gate": true,
+    "no_relative_shifts_fitted": true,
+    "primary_still_inadequate": true,
+    "interpretation": "After failed four-line primary, fixed16 null-only diagnostic omitting weak1611. Sky-proxy warning was documented before primary. Same remaining native pixels/window/expected errors, start from primary gas; no architecture reselection or free shifts. This does not replace primary."
+  },
+  "fit_count": 20,
+  "all_saved_fits": [
+    {
+      "name": "n10_null_s0_os9",
+      "ncomp": 10,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 720.550094143851,
+      "optimizer_success": true,
+      "record_sha256": "e7b49c5026a91fcc3aeab0bff17ca8c896c3810d8376876bf8cb4fa019caad4d",
+      "arrays_sha256": "e91a80387b722ca20de798da1e98fd7defd1cc3531bed34c77528baf24112c39"
+    },
+    {
+      "name": "n10_null_s1_os9",
+      "ncomp": 10,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 623.0236243659311,
+      "optimizer_success": true,
+      "record_sha256": "aec65b48e814540a4549e0805107aaaa9fe23fb9694920beb93b13502e972df4",
+      "arrays_sha256": "137fb56cb6b12afb5e294670f31197c5ccdc487db9ed18b695036b8255bcf098"
+    },
+    {
+      "name": "n10_null_s2_os9",
+      "ncomp": 10,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 623.0236166387185,
+      "optimizer_success": true,
+      "record_sha256": "600ba2ea5976585e5488c8d4ebe7df4d740c1f1018cc385ff99b11a832963e2b",
+      "arrays_sha256": "f873b9cd988210139ad6a0de6683ee7a9659cb7c5afe1c6b8d794083ab7fc7ca"
+    },
+    {
+      "name": "n12_null_s0_os9",
+      "ncomp": 12,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 597.5615205279307,
+      "optimizer_success": true,
+      "record_sha256": "5f38a08eb5bc2b0c8feb0cde05e40a56deacd7544c4e27cf296a361a6c8d4fb0",
+      "arrays_sha256": "dc39c66f7f521274a904de53a580ec9fc637ec93f071af34ec69edc74b8e2f22"
+    },
+    {
+      "name": "n12_null_s1_os9",
+      "ncomp": 12,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 597.5615216287619,
+      "optimizer_success": true,
+      "record_sha256": "8601993776073741ed8f5a2e7d1f2f52f7c209d323c37da94edc1fd4f5635cff",
+      "arrays_sha256": "c55fefabe3df272381d915c44375f38a848a445454be97ab7407084fb741f7e0"
+    },
+    {
+      "name": "n12_null_s2_os9",
+      "ncomp": 12,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 581.7015466690208,
+      "optimizer_success": true,
+      "record_sha256": "6dbc660f68092f60b630cdc34b6042a5ed78abeb0f81ae6d9d0a3fb96c9f1583",
+      "arrays_sha256": "1f9e20c64400c865b91bf04dd30e6e8186afd9c91e4f9b126f178a25dcd3c9bf"
+    },
+    {
+      "name": "n16_null_refined_os21",
+      "ncomp": 16,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 532.2252737539015,
+      "optimizer_success": true,
+      "record_sha256": "eef7aecd8b0f7e4fd04f4922351e59dd983adfb541ec1112422e756c9061e721",
+      "arrays_sha256": "91f3b8f5a14f5d40c771b9173480b95674d856ac451c62ebfaa7f11cd56451f1"
+    },
+    {
+      "name": "n16_null_s0_os9",
+      "ncomp": 16,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 533.698513603102,
+      "optimizer_success": true,
+      "record_sha256": "31b00736d34d3b7431a99e4f89744fd2ba814b92984c3a0cc052d6fc7225b24c",
+      "arrays_sha256": "a64b839495f52d0b29ec042235ee33d34de12b91acc48dab35b1554830f506db"
+    },
+    {
+      "name": "n16_null_s1_os9",
+      "ncomp": 16,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 536.6785224221361,
+      "optimizer_success": true,
+      "record_sha256": "1db9a894bfe191ffb2178964d60b91387a63d787b4461712390f8884e4a21eef",
+      "arrays_sha256": "d619c12078564b68d4ab376463758727ff6b69646e1a86679eaeb42e15f2abc6"
+    },
+    {
+      "name": "n16_null_s2_os9",
+      "ncomp": 16,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 532.2270163139742,
+      "optimizer_success": true,
+      "record_sha256": "3708eb73d66450b3ce4f3cacea1bb84780fca6252a3bfec4933d8205db7995c4",
+      "arrays_sha256": "11952ed8b76805d42ccf02e7db810cda9c9600e8e213669645d28a84910d3a58"
+    },
+    {
+      "name": "n4_null_s0_os9",
+      "ncomp": 4,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 4294.84185770916,
+      "optimizer_success": true,
+      "record_sha256": "d01ca91495037fca5ed46f349eb3c116650bc78f050f0396063e3c7d08b9a0b5",
+      "arrays_sha256": "85c1a9dc6c5a1f690e93828f3e3bd4f36c2d2739a2852e72fb6b02d1f70433c9"
+    },
+    {
+      "name": "n4_null_s1_os9",
+      "ncomp": 4,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 4294.841841572208,
+      "optimizer_success": true,
+      "record_sha256": "f624f580339431adf0067860c48dfc17c5a62b183b2d19fe95951c63c4a2d409",
+      "arrays_sha256": "fe1c6771f822c581859cbe7e7f13c29ba29c5096ebcd6b38685ba27dd60af42f"
+    },
+    {
+      "name": "n4_null_s2_os9",
+      "ncomp": 4,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 4294.8418388759455,
+      "optimizer_success": true,
+      "record_sha256": "ce5ebe751c0b6e6f67d23c2aa552ab7117e098a6b1dd309131e4905831da2a99",
+      "arrays_sha256": "f81a184e499e492c777b6a3da9d101c2397b332211cdfe53d32080fa70be2ec1"
+    },
+    {
+      "name": "n6_null_s0_os9",
+      "ncomp": 6,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 1526.0901845867654,
+      "optimizer_success": true,
+      "record_sha256": "3463cda8ad566da14287c681d0c04597313a22fe9793eef42315b535c3e5d581",
+      "arrays_sha256": "ca0fd87817cdb85cf5ccbda2db714be31a4d19d0895c73ecb5c6234c4cfbf84c"
+    },
+    {
+      "name": "n6_null_s1_os9",
+      "ncomp": 6,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 1526.0901839868668,
+      "optimizer_success": true,
+      "record_sha256": "48a4239eb33c5935749409094766590c6edb44687b35fad9d96585c647ace7c9",
+      "arrays_sha256": "f42a2d9feabaa2bcf723ab699becbc56101e91bd72df81f01823b8628de4bcb3"
+    },
+    {
+      "name": "n6_null_s2_os9",
+      "ncomp": 6,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 1526.090181393597,
+      "optimizer_success": true,
+      "record_sha256": "0c3f0ce0e5188e14bf2bfc11aeb60aaebc0a1e8d6214acc299546d6044843300",
+      "arrays_sha256": "4e18ba910f96b6cf1e62b4af62a84cc2554d2739ac917c227e2e775f5cf30f90"
+    },
+    {
+      "name": "n8_null_s0_os9",
+      "ncomp": 8,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 934.4772023216366,
+      "optimizer_success": true,
+      "record_sha256": "f574c625e527fe6d16a9b9d348686de521b99276238727e35a57fc531badc3b0",
+      "arrays_sha256": "51ef81b0f6fc074f3f0c39ef6f9f4c794526c6922d23f74c79b649efb577f9ee"
+    },
+    {
+      "name": "n8_null_s1_os9",
+      "ncomp": 8,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 934.4772032390333,
+      "optimizer_success": true,
+      "record_sha256": "90d0617111dd1779234b2c41645419a1cb544d7a40e23381e9c1db24088b0ffc",
+      "arrays_sha256": "58e846e370f5712902adde28b71c8bac011cf654241d5b89d6a178f8c78e0a37"
+    },
+    {
+      "name": "n8_null_s2_os9",
+      "ncomp": 8,
+      "free_shifts": false,
+      "ndata": 436,
+      "chi2": 879.9088394299667,
+      "optimizer_success": true,
+      "record_sha256": "962f46f34a286e6757c52e76ae4f1d5864f97d5787c924ce23ac46814e882ec9",
+      "arrays_sha256": "ba2bafced8bf45dcd2d22cbc9f2047ebd396d283d25ddc26bedea91eeb3c0c30"
+    },
+    {
+      "name": "omit1611_n16_null_only_os21",
+      "ncomp": 16,
+      "free_shifts": false,
+      "ndata": 327,
+      "chi2": 300.2483620828069,
+      "optimizer_success": true,
+      "record_sha256": "cbdec6958fd869e406e781432e5a48b76fac728cffe1cf5a4eeb77b18670fe91",
+      "arrays_sha256": "052165332125166cc12d30799d8e273fcf787e93de0ca3b109fc04c51729c0f8"
+    }
+  ],
+  "interpretation": "Completed bounded campaign; inadequate primary retained. No missing result replaced with zero and no time-law datum inferred.",
+  "reports": [
+    "reports/archive_complete_j0643_selection_review.md",
+    "reports/archive_complete_j0643_results.md"
+  ],
+  "source_hashes": {
+    "coadd": "3ada82ab25d522d2d14930766ba88f398dd74f411d2250ef19ee857bb8025c26",
+    "metadata": "b90b241e4be34c7b8ca40e5de8ed27a69624340d78084b4685b98176a397f69d",
+    "atomic": "0bbf88665e1e6d108fc9390d7854ccb1fdb97e993cb9ca80183b65b27b52983a",
+    "base_model": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+    "adapter": "6bd3871b82bc61c4fea1d8e8c91bc22db78c055c06770d0cc242ef39f5182416"
+  },
+  "independent_validation": {
+    "status": "PASS",
+    "checks_pass": 304,
+    "checks_total": 304,
+    "path": "independent_fit_review.json"
+  }
+}

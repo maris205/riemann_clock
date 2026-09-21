@@ -1,0 +1,81 @@
+START core01_null 2692 147
+START core03_padded_null 2473 147
+core03_padded_null 25 1732.225016282047
+core01_null 25 2015.2822588850363
+core03_padded_null 50 1730.0293502702552
+core01_null 50 2014.079103921519
+core03_padded_null 75 1727.41140888998
+core01_null 75 2013.616971898626
+DONE core01_null 2013.591679166955 True
+START core01_alternative 2692 152
+core03_padded_null 100 1726.7629920841023
+core01_alternative 25 1974.3897860417167
+core03_padded_null 125 1726.0028354924898
+core01_alternative 50 1973.327505142378
+core03_padded_null 150 1725.4106171463047
+core01_alternative 75 1972.7211455484546
+core03_padded_null 175 1724.4856532326978
+core01_alternative 100 1972.0390286232803
+core03_padded_null 200 1723.490396089399
+core01_alternative 125 1970.8490894914369
+core03_padded_null 225 1723.2215162930577
+core01_alternative 150 1969.1056044843958
+core03_padded_null 250 1723.1233867219676
+core01_alternative 175 1968.3040568426834
+core03_padded_null 275 1723.0102547432477
+core01_alternative 200 1967.7269748767399
+core03_padded_null 300 1722.9660856750777
+DONE core03_padded_null 1722.966048895096 True
+START core03_padded_alternative 2473 152
+core01_alternative 225 1967.418060400385
+core03_padded_alternative 25 1709.7162441303515
+core01_alternative 250 1967.2644464639493
+DONE core03_padded_alternative 1709.692447799813 True
+START core03_padded_alternative_cross 2473 152
+core01_alternative 275 1967.1333368468408
+core03_padded_alternative_cross 25 1718.9571836799985
+DONE core01_alternative 1967.0916027263495 True
+START core01_alternative_cross 2692 152
+core03_padded_alternative_cross 50 1717.274039062569
+core01_alternative_cross 25 1984.2071687428486
+core03_padded_alternative_cross 75 1716.3695283135794
+core01_alternative_cross 50 1976.7444680750177
+core03_padded_alternative_cross 100 1715.6619023512665
+core01_alternative_cross 75 1975.890607221148
+core03_padded_alternative_cross 125 1715.3092589342582
+core01_alternative_cross 100 1974.839087175147
+core03_padded_alternative_cross 150 1714.9842531916668
+core01_alternative_cross 125 1970.9258978257008
+core03_padded_alternative_cross 175 1714.7192366102079
+core01_alternative_cross 150 1969.2390002602147
+core03_padded_alternative_cross 200 1714.4393747348286
+core01_alternative_cross 175 1967.7866269482706
+core03_padded_alternative_cross 225 1714.1336744957785
+core01_alternative_cross 200 1967.4185905837815
+core03_padded_alternative_cross 250 1711.4805489344294
+core01_alternative_cross 225 1967.2093970335725
+core03_padded_alternative_cross 275 1710.4167296093256
+core01_alternative_cross 250 1967.0350092127069
+core03_padded_alternative_cross 300 1710.1075226050998
+core01_alternative_cross 275 1966.727826545463
+DONE core03_padded_alternative_cross 1710.0002457746955 True
+START core03_padded_null_cross 2473 147
+core01_alternative_cross 300 1966.2974309369156
+core03_padded_null_cross 25 1724.657596104409
+core01_alternative_cross 325 1965.9535805523449
+core03_padded_null_cross 50 1722.9824202366124
+core01_alternative_cross 350 1964.356306211508
+DONE core01_alternative_cross 1964.356306211508 False
+START core01_null_cross 2692 147
+core03_padded_null_cross 75 1722.956586017732
+DONE core03_padded_null_cross 1722.956423170439 True
+core01_null_cross 25 2017.3406339926084
+core01_null_cross 50 2008.6797249232402
+core01_null_cross 75 2008.2125830857185
+core01_null_cross 100 2007.6963960359908
+core01_null_cross 125 2008.5804644151012
+core01_null_cross 150 2006.903286341122
+core01_null_cross 175 2005.3545284878776
+DONE core01_null_cross 2004.6987536911017 True
+{"case": "core01", "null": "core01_null_cross", "alternative": "core01_alternative", "ndata": 2692, "added_parameters": 5, "delta_chi2": 37.607150964752236, "null_success": true, "alternative_success": true, "shifts_m_s": {"2260": 89.73802053457015, "2344": -38.508110494752145, "2382": -106.19079312511857, "2586": -1.9913178781983103, "2600": -109.03320308399717}, "mask_audit": [{"line": 2260, "threshold": null, "padding_km_s": 0.0, "original_pixels": 277, "removed_pixels": 0, "retained_pixels": 277}, {"line": 2344, "threshold": null, "padding_km_s": 0.0, "original_pixels": 430, "removed_pixels": 0, "retained_pixels": 430}, {"line": 2374, "threshold": null, "padding_km_s": 0.0, "original_pixels": 508, "removed_pixels": 0, "retained_pixels": 508}, {"line": 2382, "threshold": 0.1, "padding_km_s": 0.0, "original_pixels": 579, "removed_pixels": 125, "retained_pixels": 454}, {"line": 2586, "threshold": null, "padding_km_s": 0.0, "original_pixels": 560, "removed_pixels": 0, "retained_pixels": 560}, {"line": 2600, "threshold": 0.1, "padding_km_s": 0.0, "original_pixels": 577, "removed_pixels": 114, "retained_pixels": 463}]}
+{"case": "core03_padded", "null": "core03_padded_null_cross", "alternative": "core03_padded_alternative", "ndata": 2473, "added_parameters": 5, "delta_chi2": 13.263975370625985, "null_success": true, "alternative_success": true, "shifts_m_s": {"2260": 90.70992144810673, "2344": -37.353095705953315, "2382": -103.73848958803187, "2586": -1.6677531721095291, "2600": -88.16510510451084}, "mask_audit": [{"line": 2260, "threshold": null, "padding_km_s": 1.0, "original_pixels": 277, "removed_pixels": 0, "retained_pixels": 277}, {"line": 2344, "threshold": null, "padding_km_s": 1.0, "original_pixels": 430, "removed_pixels": 0, "retained_pixels": 430}, {"line": 2374, "threshold": null, "padding_km_s": 1.0, "original_pixels": 508, "removed_pixels": 0, "retained_pixels": 508}, {"line": 2382, "threshold": 0.3, "padding_km_s": 1.0, "original_pixels": 579, "removed_pixels": 244, "retained_pixels": 335}, {"line": 2586, "threshold": null, "padding_km_s": 1.0, "original_pixels": 560, "removed_pixels": 0, "retained_pixels": 560}, {"line": 2600, "threshold": 0.3, "padding_km_s": 1.0, "original_pixels": 577, "removed_pixels": 214, "retained_pixels": 363}]}

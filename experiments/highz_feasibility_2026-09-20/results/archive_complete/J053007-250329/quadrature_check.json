@@ -1,0 +1,61 @@
+{
+  "method": "Replay identical saved parameters at higher pixel-integration subdivisions; no reoptimization.",
+  "cases": {
+    "null": {
+      "name": "n16_null_refined_os21",
+      "oversamples": {
+        "9": {
+          "chi2": 482.2990589329187,
+          "chi2_minus_os55": 0.0005712569163165426,
+          "max_abs_flux_vs_os55": 0.00014269310165626603
+        },
+        "21": {
+          "chi2": 482.29846556457426,
+          "chi2_minus_os55": -2.211142810892852e-05,
+          "max_abs_flux_vs_os55": 2.30274444807943e-05
+        },
+        "33": {
+          "chi2": 482.29847624577155,
+          "chi2_minus_os55": -1.1430230813402886e-05,
+          "max_abs_flux_vs_os55": 6.985925215530209e-06
+        },
+        "55": {
+          "chi2": 482.29848767600237,
+          "chi2_minus_os55": 0.0,
+          "max_abs_flux_vs_os55": 0.0
+        }
+      }
+    },
+    "alternative": {
+      "name": "n16_shift_fromnull_os21",
+      "oversamples": {
+        "9": {
+          "chi2": 478.12304800099866,
+          "chi2_minus_os55": 0.0005991292878206878,
+          "max_abs_flux_vs_os55": 0.00013993540716639163
+        },
+        "21": {
+          "chi2": 478.12242819501773,
+          "chi2_minus_os55": -2.067669311145437e-05,
+          "max_abs_flux_vs_os55": 2.2490767699223646e-05
+        },
+        "33": {
+          "chi2": 478.1224379117717,
+          "chi2_minus_os55": -1.0959939118038164e-05,
+          "max_abs_flux_vs_os55": 6.823163901548135e-06
+        },
+        "55": {
+          "chi2": 478.12244887171084,
+          "chi2_minus_os55": 0.0,
+          "max_abs_flux_vs_os55": 0.0
+        }
+      }
+    }
+  },
+  "delta_chi2_by_os": {
+    "9": 4.176010931920018,
+    "21": 4.176037369556525,
+    "33": 4.176038333999827,
+    "55": 4.176038804291522
+  }
+}

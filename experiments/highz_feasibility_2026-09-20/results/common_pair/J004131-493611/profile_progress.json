@@ -1,0 +1,249 @@
+{
+  "target": "J004131-493611",
+  "points": [
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_013_grid_warm.json",
+      "fixed_shift_km_s": -0.9554839958974943,
+      "D_m_s": -955.4839958974943,
+      "chi2": 127.90011605716171,
+      "optimizer_success": true,
+      "nfev": 11,
+      "optimality": 0.010025903350046201
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_010_grid_warm.json",
+      "fixed_shift_km_s": -0.7919699994626388,
+      "D_m_s": -791.9699994626388,
+      "chi2": 119.349172846272,
+      "optimizer_success": true,
+      "nfev": 15,
+      "optimality": 0.023982286058652418
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_008_grid_warm.json",
+      "fixed_shift_km_s": -0.6284560030277834,
+      "D_m_s": -628.4560030277834,
+      "chi2": 113.28189631035633,
+      "optimizer_success": true,
+      "nfev": 20,
+      "optimality": 0.018755995572594997
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_007_grid_warm.json",
+      "fixed_shift_km_s": -0.4649420065929279,
+      "D_m_s": -464.9420065929279,
+      "chi2": 109.57515236621646,
+      "optimizer_success": true,
+      "nfev": 29,
+      "optimality": 0.08195726886727978
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_004_grid_warm.json",
+      "fixed_shift_km_s": -0.3014280101580724,
+      "D_m_s": -301.4280101580724,
+      "chi2": 106.78974669116113,
+      "optimizer_success": true,
+      "nfev": 36,
+      "optimality": 0.07262816774643993
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_003_grid_cross_null.json",
+      "fixed_shift_km_s": -0.137914013723217,
+      "D_m_s": -137.91401372321698,
+      "chi2": 105.0666452712718,
+      "optimizer_success": true,
+      "nfev": 22,
+      "optimality": 0.01486770071678464
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_014_refine1_lower_0_cross_null.json",
+      "fixed_shift_km_s": -0.12901203090067645,
+      "D_m_s": -129.01203090067645,
+      "chi2": 105.0088690867845,
+      "optimizer_success": true,
+      "nfev": 20,
+      "optimality": 0.004200094380402867
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_018_refine3.84_lower_0_cross_null.json",
+      "fixed_shift_km_s": -0.12678653519504132,
+      "D_m_s": -126.78653519504132,
+      "chi2": 104.99496941431914,
+      "optimizer_success": true,
+      "nfev": 26,
+      "optimality": 0.033515227976821084
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_020_refine3.84_lower_1_warm.json",
+      "fixed_shift_km_s": -0.12567378734222376,
+      "D_m_s": -125.67378734222376,
+      "chi2": 104.98810106384474,
+      "optimizer_success": true,
+      "nfev": 10,
+      "optimality": 0.003946141467502594
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_016_refine1_lower_1_warm.json",
+      "fixed_shift_km_s": -0.12456103948940617,
+      "D_m_s": -124.56103948940617,
+      "chi2": 87.25583782923638,
+      "optimizer_success": true,
+      "nfev": 4,
+      "optimality": 0.007061072769784473
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_015_refine1_upper_0_warm.json",
+      "fixed_shift_km_s": -0.06005502403906795,
+      "D_m_s": -60.05502403906795,
+      "chi2": 87.41836850433968,
+      "optimizer_success": true,
+      "nfev": 8,
+      "optimality": 0.008797551692760284
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_019_refine3.84_upper_0_warm.json",
+      "fixed_shift_km_s": -0.04504126802930097,
+      "D_m_s": -45.041268029300966,
+      "chi2": 87.50283386427952,
+      "optimizer_success": true,
+      "nfev": 5,
+      "optimality": 0.007566457713034955
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_021_refine3.84_upper_1_warm.json",
+      "fixed_shift_km_s": -0.03753439002441747,
+      "D_m_s": -37.53439002441747,
+      "chi2": 104.61105480444068,
+      "optimizer_success": true,
+      "nfev": 15,
+      "optimality": 0.011742860479698185
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_017_refine1_upper_1_warm.json",
+      "fixed_shift_km_s": -0.030027512019533974,
+      "D_m_s": -30.027512019533976,
+      "chi2": 104.59370231702758,
+      "optimizer_success": true,
+      "nfev": 15,
+      "optimality": 0.03083560945626823
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_001_grid_cross_null.json",
+      "fixed_shift_km_s": 0.0,
+      "D_m_s": 0.0,
+      "chi2": 104.54657480653604,
+      "optimizer_success": true,
+      "nfev": 30,
+      "optimality": 0.029412601090273025
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_000_grid_warm.json",
+      "fixed_shift_km_s": 0.025599982711638478,
+      "D_m_s": 25.59998271163848,
+      "chi2": 104.53408353754818,
+      "optimizer_success": true,
+      "nfev": 5,
+      "optimality": 0.004359552567024376
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_002_grid_warm.json",
+      "fixed_shift_km_s": 0.18911397914649392,
+      "D_m_s": 189.1139791464939,
+      "chi2": 90.54623103995321,
+      "optimizer_success": true,
+      "nfev": 158,
+      "optimality": 0.015209491007453687
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_005_grid_cross_null.json",
+      "fixed_shift_km_s": 0.3526279755813494,
+      "D_m_s": 352.6279755813494,
+      "chi2": 93.40680021009751,
+      "optimizer_success": true,
+      "nfev": 142,
+      "optimality": 0.032347572476078085
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_006_grid_warm.json",
+      "fixed_shift_km_s": 0.5161419720162048,
+      "D_m_s": 516.1419720162048,
+      "chi2": 97.05433217746497,
+      "optimizer_success": true,
+      "nfev": 17,
+      "optimality": 0.015921880670118033
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_009_grid_warm.json",
+      "fixed_shift_km_s": 0.6796559684510602,
+      "D_m_s": 679.6559684510603,
+      "chi2": 101.30198974351546,
+      "optimizer_success": true,
+      "nfev": 15,
+      "optimality": 0.01030790718049385
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_011_grid_warm.json",
+      "fixed_shift_km_s": 0.8431699648859157,
+      "D_m_s": 843.1699648859156,
+      "chi2": 106.23262462594724,
+      "optimizer_success": true,
+      "nfev": 12,
+      "optimality": 0.01194749294909239
+    },
+    {
+      "fit_file": "results/common_pair/J004131-493611/profile_012_grid_warm.json",
+      "fixed_shift_km_s": 1.0,
+      "D_m_s": 1000.0,
+      "chi2": 111.62272763407115,
+      "optimizer_success": true,
+      "nfev": 16,
+      "optimality": 0.02373901849911406
+    }
+  ],
+  "recorded_fits": [
+    "results/common_pair/J004131-493611/profile_000_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_000_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_001_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_001_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_002_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_002_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_003_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_003_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_004_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_004_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_005_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_005_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_006_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_006_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_007_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_007_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_008_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_008_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_009_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_009_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_010_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_010_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_011_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_011_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_012_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_012_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_013_grid_warm.json",
+    "results/common_pair/J004131-493611/profile_013_grid_cross_null.json",
+    "results/common_pair/J004131-493611/profile_014_refine1_lower_0_warm.json",
+    "results/common_pair/J004131-493611/profile_014_refine1_lower_0_cross_null.json",
+    "results/common_pair/J004131-493611/profile_015_refine1_upper_0_warm.json",
+    "results/common_pair/J004131-493611/profile_015_refine1_upper_0_cross_null.json",
+    "results/common_pair/J004131-493611/profile_016_refine1_lower_1_warm.json",
+    "results/common_pair/J004131-493611/profile_016_refine1_lower_1_cross_null.json",
+    "results/common_pair/J004131-493611/profile_017_refine1_upper_1_warm.json",
+    "results/common_pair/J004131-493611/profile_017_refine1_upper_1_cross_null.json",
+    "results/common_pair/J004131-493611/profile_018_refine3.84_lower_0_warm.json",
+    "results/common_pair/J004131-493611/profile_018_refine3.84_lower_0_cross_null.json",
+    "results/common_pair/J004131-493611/profile_019_refine3.84_upper_0_warm.json",
+    "results/common_pair/J004131-493611/profile_019_refine3.84_upper_0_cross_null.json",
+    "results/common_pair/J004131-493611/profile_020_refine3.84_lower_1_warm.json",
+    "results/common_pair/J004131-493611/profile_020_refine3.84_lower_1_cross_null.json",
+    "results/common_pair/J004131-493611/profile_021_refine3.84_upper_1_warm.json",
+    "results/common_pair/J004131-493611/profile_021_refine3.84_upper_1_cross_null.json"
+  ]
+}

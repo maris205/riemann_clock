@@ -1,0 +1,9 @@
+{
+  "code/archive_profile_pilot.py": "f6b0f8ef92d5bc5e00a02dee2d4ce6e386836af78712148823d9deba5992ce20",
+  "code/archive_profile_expected_noise.py": "17461732846869389dc6a83eada36963b17f83d234888e2d0df510303be6b018",
+  "results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+  "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.json": "7a65ecaa72b4aa133bd2fc495d95878d99ac165a36414d1d35d8cf1f6677a0f2",
+  "results/archive_expansion/profile_pilot/expected_noise/J232128-105122_n3_shift_s1_expected_os33.npz": "0665ddf5886bdb06cda8d6689190ffd47918b7fca147c51ee67da2ffa3793b43",
+  "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_shift_s3_expected_os33.json": "ef5da7e671ae1b6d3195d8b57f635c11e96b9d315c38c17d2284621874cdea72",
+  "results/archive_expansion/profile_pilot/expected_noise/J004131-493611_n6_shift_s3_expected_os33.npz": "50a4a971d570d705ef03ed7911e2f9fe5c81d2aca9ece3a5aa1e33b8f8bbefbe"
+}

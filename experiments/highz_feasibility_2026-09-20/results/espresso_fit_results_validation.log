@@ -1,0 +1,354 @@
+PASS alternative parameter labels
+PASS alternative ndata
+PASS alternative objective reconstruction
+PASS alternative parameters in bounds
+PASS alternative saved residuals
+PASS alternative saved Jacobian
+PASS alternative reported rank
+PASS alternative saved profile 2260
+PASS alternative line objective 2260
+PASS alternative mask 2260
+PASS alternative saved profile 2344
+PASS alternative line objective 2344
+PASS alternative mask 2344
+PASS alternative saved profile 2374
+PASS alternative line objective 2374
+PASS alternative mask 2374
+PASS alternative saved profile 2382
+PASS alternative line objective 2382
+PASS alternative mask 2382
+PASS alternative saved profile 2586
+PASS alternative line objective 2586
+PASS alternative mask 2586
+PASS alternative saved profile 2600
+PASS alternative line objective 2600
+PASS alternative mask 2600
+PASS alternative projected shift rank
+PASS alternative_from_published parameter labels
+PASS alternative_from_published ndata
+PASS alternative_from_published objective reconstruction
+PASS alternative_from_published parameters in bounds
+PASS alternative_from_published saved residuals
+PASS alternative_from_published saved Jacobian
+PASS alternative_from_published reported rank
+PASS alternative_from_published saved profile 2260
+PASS alternative_from_published line objective 2260
+PASS alternative_from_published mask 2260
+PASS alternative_from_published saved profile 2344
+PASS alternative_from_published line objective 2344
+PASS alternative_from_published mask 2344
+PASS alternative_from_published saved profile 2374
+PASS alternative_from_published line objective 2374
+PASS alternative_from_published mask 2374
+PASS alternative_from_published saved profile 2382
+PASS alternative_from_published line objective 2382
+PASS alternative_from_published mask 2382
+PASS alternative_from_published saved profile 2586
+PASS alternative_from_published line objective 2586
+PASS alternative_from_published mask 2586
+PASS alternative_from_published saved profile 2600
+PASS alternative_from_published line objective 2600
+PASS alternative_from_published mask 2600
+PASS alternative_from_published projected shift rank
+PASS ar1_rho03_alternative parameter labels
+PASS ar1_rho03_alternative ndata
+PASS ar1_rho03_alternative objective reconstruction
+PASS ar1_rho03_alternative parameters in bounds
+PASS ar1_rho03_alternative saved residuals
+PASS ar1_rho03_alternative saved Jacobian
+PASS ar1_rho03_alternative reported rank
+PASS ar1_rho03_alternative saved profile 2260
+PASS ar1_rho03_alternative line objective 2260
+PASS ar1_rho03_alternative mask 2260
+PASS ar1_rho03_alternative saved profile 2344
+PASS ar1_rho03_alternative line objective 2344
+PASS ar1_rho03_alternative mask 2344
+PASS ar1_rho03_alternative saved profile 2374
+PASS ar1_rho03_alternative line objective 2374
+PASS ar1_rho03_alternative mask 2374
+PASS ar1_rho03_alternative saved profile 2382
+PASS ar1_rho03_alternative line objective 2382
+PASS ar1_rho03_alternative mask 2382
+PASS ar1_rho03_alternative saved profile 2586
+PASS ar1_rho03_alternative line objective 2586
+PASS ar1_rho03_alternative mask 2586
+PASS ar1_rho03_alternative saved profile 2600
+PASS ar1_rho03_alternative line objective 2600
+PASS ar1_rho03_alternative mask 2600
+PASS ar1_rho03_alternative projected shift rank
+PASS ar1_rho03_null parameter labels
+PASS ar1_rho03_null ndata
+PASS ar1_rho03_null objective reconstruction
+PASS ar1_rho03_null parameters in bounds
+PASS ar1_rho03_null saved residuals
+PASS ar1_rho03_null saved Jacobian
+PASS ar1_rho03_null reported rank
+PASS ar1_rho03_null saved profile 2260
+PASS ar1_rho03_null line objective 2260
+PASS ar1_rho03_null mask 2260
+PASS ar1_rho03_null saved profile 2344
+PASS ar1_rho03_null line objective 2344
+PASS ar1_rho03_null mask 2344
+PASS ar1_rho03_null saved profile 2374
+PASS ar1_rho03_null line objective 2374
+PASS ar1_rho03_null mask 2374
+PASS ar1_rho03_null saved profile 2382
+PASS ar1_rho03_null line objective 2382
+PASS ar1_rho03_null mask 2382
+PASS ar1_rho03_null saved profile 2586
+PASS ar1_rho03_null line objective 2586
+PASS ar1_rho03_null mask 2586
+PASS ar1_rho03_null saved profile 2600
+PASS ar1_rho03_null line objective 2600
+PASS ar1_rho03_null mask 2600
+PASS expected_fluctuation_null parameter labels
+PASS expected_fluctuation_null ndata
+PASS expected_fluctuation_null objective reconstruction
+PASS expected_fluctuation_null parameters in bounds
+PASS expected_fluctuation_null saved residuals
+PASS expected_fluctuation_null saved Jacobian
+PASS expected_fluctuation_null reported rank
+PASS expected_fluctuation_null saved profile 2260
+PASS expected_fluctuation_null line objective 2260
+PASS expected_fluctuation_null mask 2260
+PASS expected_fluctuation_null saved profile 2344
+PASS expected_fluctuation_null line objective 2344
+PASS expected_fluctuation_null mask 2344
+PASS expected_fluctuation_null saved profile 2374
+PASS expected_fluctuation_null line objective 2374
+PASS expected_fluctuation_null mask 2374
+PASS expected_fluctuation_null saved profile 2382
+PASS expected_fluctuation_null line objective 2382
+PASS expected_fluctuation_null mask 2382
+PASS expected_fluctuation_null saved profile 2586
+PASS expected_fluctuation_null line objective 2586
+PASS expected_fluctuation_null mask 2586
+PASS expected_fluctuation_null saved profile 2600
+PASS expected_fluctuation_null line objective 2600
+PASS expected_fluctuation_null mask 2600
+PASS lsf_minus3pct_alternative parameter labels
+PASS lsf_minus3pct_alternative ndata
+PASS lsf_minus3pct_alternative objective reconstruction
+PASS lsf_minus3pct_alternative parameters in bounds
+PASS lsf_minus3pct_alternative saved residuals
+PASS lsf_minus3pct_alternative saved Jacobian
+PASS lsf_minus3pct_alternative reported rank
+PASS lsf_minus3pct_alternative saved profile 2260
+PASS lsf_minus3pct_alternative line objective 2260
+PASS lsf_minus3pct_alternative mask 2260
+PASS lsf_minus3pct_alternative saved profile 2344
+PASS lsf_minus3pct_alternative line objective 2344
+PASS lsf_minus3pct_alternative mask 2344
+PASS lsf_minus3pct_alternative saved profile 2374
+PASS lsf_minus3pct_alternative line objective 2374
+PASS lsf_minus3pct_alternative mask 2374
+PASS lsf_minus3pct_alternative saved profile 2382
+PASS lsf_minus3pct_alternative line objective 2382
+PASS lsf_minus3pct_alternative mask 2382
+PASS lsf_minus3pct_alternative saved profile 2586
+PASS lsf_minus3pct_alternative line objective 2586
+PASS lsf_minus3pct_alternative mask 2586
+PASS lsf_minus3pct_alternative saved profile 2600
+PASS lsf_minus3pct_alternative line objective 2600
+PASS lsf_minus3pct_alternative mask 2600
+PASS lsf_minus3pct_alternative projected shift rank
+PASS lsf_minus3pct_null parameter labels
+PASS lsf_minus3pct_null ndata
+PASS lsf_minus3pct_null objective reconstruction
+PASS lsf_minus3pct_null parameters in bounds
+PASS lsf_minus3pct_null saved residuals
+PASS lsf_minus3pct_null saved Jacobian
+PASS lsf_minus3pct_null reported rank
+PASS lsf_minus3pct_null saved profile 2260
+PASS lsf_minus3pct_null line objective 2260
+PASS lsf_minus3pct_null mask 2260
+PASS lsf_minus3pct_null saved profile 2344
+PASS lsf_minus3pct_null line objective 2344
+PASS lsf_minus3pct_null mask 2344
+PASS lsf_minus3pct_null saved profile 2374
+PASS lsf_minus3pct_null line objective 2374
+PASS lsf_minus3pct_null mask 2374
+PASS lsf_minus3pct_null saved profile 2382
+PASS lsf_minus3pct_null line objective 2382
+PASS lsf_minus3pct_null mask 2382
+PASS lsf_minus3pct_null saved profile 2586
+PASS lsf_minus3pct_null line objective 2586
+PASS lsf_minus3pct_null mask 2586
+PASS lsf_minus3pct_null saved profile 2600
+PASS lsf_minus3pct_null line objective 2600
+PASS lsf_minus3pct_null mask 2600
+PASS lsf_plus3pct_alternative parameter labels
+PASS lsf_plus3pct_alternative ndata
+PASS lsf_plus3pct_alternative objective reconstruction
+PASS lsf_plus3pct_alternative parameters in bounds
+PASS lsf_plus3pct_alternative saved residuals
+PASS lsf_plus3pct_alternative saved Jacobian
+PASS lsf_plus3pct_alternative reported rank
+PASS lsf_plus3pct_alternative saved profile 2260
+PASS lsf_plus3pct_alternative line objective 2260
+PASS lsf_plus3pct_alternative mask 2260
+PASS lsf_plus3pct_alternative saved profile 2344
+PASS lsf_plus3pct_alternative line objective 2344
+PASS lsf_plus3pct_alternative mask 2344
+PASS lsf_plus3pct_alternative saved profile 2374
+PASS lsf_plus3pct_alternative line objective 2374
+PASS lsf_plus3pct_alternative mask 2374
+PASS lsf_plus3pct_alternative saved profile 2382
+PASS lsf_plus3pct_alternative line objective 2382
+PASS lsf_plus3pct_alternative mask 2382
+PASS lsf_plus3pct_alternative saved profile 2586
+PASS lsf_plus3pct_alternative line objective 2586
+PASS lsf_plus3pct_alternative mask 2586
+PASS lsf_plus3pct_alternative saved profile 2600
+PASS lsf_plus3pct_alternative line objective 2600
+PASS lsf_plus3pct_alternative mask 2600
+PASS lsf_plus3pct_alternative projected shift rank
+PASS lsf_plus3pct_null parameter labels
+PASS lsf_plus3pct_null ndata
+PASS lsf_plus3pct_null objective reconstruction
+PASS lsf_plus3pct_null parameters in bounds
+PASS lsf_plus3pct_null saved residuals
+PASS lsf_plus3pct_null saved Jacobian
+PASS lsf_plus3pct_null reported rank
+PASS lsf_plus3pct_null saved profile 2260
+PASS lsf_plus3pct_null line objective 2260
+PASS lsf_plus3pct_null mask 2260
+PASS lsf_plus3pct_null saved profile 2344
+PASS lsf_plus3pct_null line objective 2344
+PASS lsf_plus3pct_null mask 2344
+PASS lsf_plus3pct_null saved profile 2374
+PASS lsf_plus3pct_null line objective 2374
+PASS lsf_plus3pct_null mask 2374
+PASS lsf_plus3pct_null saved profile 2382
+PASS lsf_plus3pct_null line objective 2382
+PASS lsf_plus3pct_null mask 2382
+PASS lsf_plus3pct_null saved profile 2586
+PASS lsf_plus3pct_null line objective 2586
+PASS lsf_plus3pct_null mask 2586
+PASS lsf_plus3pct_null saved profile 2600
+PASS lsf_plus3pct_null line objective 2600
+PASS lsf_plus3pct_null mask 2600
+PASS null parameter labels
+PASS null ndata
+PASS null objective reconstruction
+PASS null parameters in bounds
+PASS null saved residuals
+PASS null saved Jacobian
+PASS null reported rank
+PASS null saved profile 2260
+PASS null line objective 2260
+PASS null mask 2260
+PASS null saved profile 2344
+PASS null line objective 2344
+PASS null mask 2344
+PASS null saved profile 2374
+PASS null line objective 2374
+PASS null mask 2374
+PASS null saved profile 2382
+PASS null line objective 2382
+PASS null mask 2382
+PASS null saved profile 2586
+PASS null line objective 2586
+PASS null mask 2586
+PASS null saved profile 2600
+PASS null line objective 2600
+PASS null mask 2600
+PASS omit_blended_alternative parameter labels
+PASS omit_blended_alternative ndata
+PASS omit_blended_alternative objective reconstruction
+PASS omit_blended_alternative parameters in bounds
+PASS omit_blended_alternative saved residuals
+PASS omit_blended_alternative saved Jacobian
+PASS omit_blended_alternative reported rank
+PASS omit_blended_alternative saved profile 2260
+PASS omit_blended_alternative line objective 2260
+PASS omit_blended_alternative mask 2260
+PASS omit_blended_alternative saved profile 2374
+PASS omit_blended_alternative line objective 2374
+PASS omit_blended_alternative mask 2374
+PASS omit_blended_alternative saved profile 2382
+PASS omit_blended_alternative line objective 2382
+PASS omit_blended_alternative mask 2382
+PASS omit_blended_alternative saved profile 2600
+PASS omit_blended_alternative line objective 2600
+PASS omit_blended_alternative mask 2600
+PASS omit_blended_alternative projected shift rank
+PASS omit_blended_null parameter labels
+PASS omit_blended_null ndata
+PASS omit_blended_null objective reconstruction
+PASS omit_blended_null parameters in bounds
+PASS omit_blended_null saved residuals
+PASS omit_blended_null saved Jacobian
+PASS omit_blended_null reported rank
+PASS omit_blended_null saved profile 2260
+PASS omit_blended_null line objective 2260
+PASS omit_blended_null mask 2260
+PASS omit_blended_null saved profile 2374
+PASS omit_blended_null line objective 2374
+PASS omit_blended_null mask 2374
+PASS omit_blended_null saved profile 2382
+PASS omit_blended_null line objective 2382
+PASS omit_blended_null mask 2382
+PASS omit_blended_null saved profile 2600
+PASS omit_blended_null line objective 2600
+PASS omit_blended_null mask 2600
+PASS opacity_zero_alternative parameter labels
+PASS opacity_zero_alternative ndata
+PASS opacity_zero_alternative objective reconstruction
+PASS opacity_zero_alternative parameters in bounds
+PASS opacity_zero_alternative saved residuals
+PASS opacity_zero_alternative saved Jacobian
+PASS opacity_zero_alternative reported rank
+PASS opacity_zero_alternative saved profile 2260
+PASS opacity_zero_alternative line objective 2260
+PASS opacity_zero_alternative mask 2260
+PASS opacity_zero_alternative saved profile 2344
+PASS opacity_zero_alternative line objective 2344
+PASS opacity_zero_alternative mask 2344
+PASS opacity_zero_alternative saved profile 2374
+PASS opacity_zero_alternative line objective 2374
+PASS opacity_zero_alternative mask 2374
+PASS opacity_zero_alternative saved profile 2382
+PASS opacity_zero_alternative line objective 2382
+PASS opacity_zero_alternative mask 2382
+PASS opacity_zero_alternative saved profile 2586
+PASS opacity_zero_alternative line objective 2586
+PASS opacity_zero_alternative mask 2586
+PASS opacity_zero_alternative saved profile 2600
+PASS opacity_zero_alternative line objective 2600
+PASS opacity_zero_alternative mask 2600
+PASS opacity_zero_alternative projected shift rank
+PASS opacity_zero_null parameter labels
+PASS opacity_zero_null ndata
+PASS opacity_zero_null objective reconstruction
+PASS opacity_zero_null parameters in bounds
+PASS opacity_zero_null saved residuals
+PASS opacity_zero_null saved Jacobian
+PASS opacity_zero_null reported rank
+PASS opacity_zero_null saved profile 2260
+PASS opacity_zero_null line objective 2260
+PASS opacity_zero_null mask 2260
+PASS opacity_zero_null saved profile 2344
+PASS opacity_zero_null line objective 2344
+PASS opacity_zero_null mask 2344
+PASS opacity_zero_null saved profile 2374
+PASS opacity_zero_null line objective 2374
+PASS opacity_zero_null mask 2374
+PASS opacity_zero_null saved profile 2382
+PASS opacity_zero_null line objective 2382
+PASS opacity_zero_null mask 2382
+PASS opacity_zero_null saved profile 2586
+PASS opacity_zero_null line objective 2586
+PASS opacity_zero_null mask 2586
+PASS opacity_zero_null saved profile 2600
+PASS opacity_zero_null line objective 2600
+PASS opacity_zero_null mask 2600
+{
+  "status": "PASS",
+  "result_count": 14,
+  "passed": 345,
+  "count": 345,
+  "model_source_sha256": "424dc9e32cb9bb0a3eece533c64d44ae2582f1edc4b8fa4b14889c6e4db142de",
+  "validator_sha256": "31031a7c2b356e2cea7d1cfdaf4157496f793bdf36e000d2cfc2bddb3a4e1c02",
+  "limitation": "Saved-point replay and local rank audit, not independent nonlinear optimization or calibrated significance."
+}

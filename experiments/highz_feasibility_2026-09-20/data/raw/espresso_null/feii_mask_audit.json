@@ -1,0 +1,214 @@
+[
+  {
+    "region": {
+      "index": 5,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 4862.1,
+      "end_AA": 4863.9,
+      "fwhm_km_s": 2.1,
+      "description": "5: FeII2260"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2260.779108,
+    "n_core": 277,
+    "n_valid": 277,
+    "n_invalid": 0,
+    "status_counts": {
+      "1": 277
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.814758555073564,
+      0.8910512926164131,
+      0.893155593028445,
+      0.895288948542886,
+      0.8957941912878118
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": []
+  },
+  {
+    "region": {
+      "index": 6,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 5040.51,
+      "end_AA": 5043.98,
+      "fwhm_km_s": 2.1,
+      "description": "6: FeII2344"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2344.212747,
+    "n_core": 515,
+    "n_valid": 430,
+    "n_invalid": 85,
+    "status_counts": {
+      "-7": 63,
+      "-5": 22,
+      "1": 430
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.8613738226647908,
+      0.9145505526937283,
+      0.918078180495023,
+      0.9207982935137295,
+      0.924776448742796
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": [
+      {
+        "first_pixel": 215410,
+        "last_pixel": 215431,
+        "w_start_AA": 5041.848089977045,
+        "w_end_AA": 5041.989361339635,
+        "v_start_km_s": -4.0597389185679456,
+        "v_end_km_s": 4.340259406502966,
+        "status": [
+          -5
+        ]
+      },
+      {
+        "first_pixel": 215623,
+        "last_pixel": 215685,
+        "w_start_AA": 5043.281168780148,
+        "w_end_AA": 5043.6983856233865,
+        "v_start_km_s": 81.15115821616502,
+        "v_end_km_s": 105.95888088650047,
+        "status": [
+          -7
+        ]
+      }
+    ]
+  },
+  {
+    "region": {
+      "index": 7,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 5105.59,
+      "end_AA": 5109.05,
+      "fwhm_km_s": 2.1,
+      "description": "7: FeII2374"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2374.460064,
+    "n_core": 508,
+    "n_valid": 508,
+    "n_invalid": 0,
+    "status_counts": {
+      "1": 508
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.8557328510971333,
+      0.8953550275775388,
+      0.8993386413732037,
+      0.9034630070725337,
+      0.9045370838734809
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": []
+  },
+  {
+    "region": {
+      "index": 8,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 5123.39,
+      "end_AA": 5127.35,
+      "fwhm_km_s": 2.1,
+      "description": "8: FeII2382"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2382.763995,
+    "n_core": 579,
+    "n_valid": 579,
+    "n_invalid": 0,
+    "status_counts": {
+      "1": 579
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.8715658679703766,
+      0.9169152642689008,
+      0.9210429033269852,
+      0.9250519071558005,
+      0.9368097979248592
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": []
+  },
+  {
+    "region": {
+      "index": 10,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 5561.82,
+      "end_AA": 5566.1,
+      "fwhm_km_s": 2.05,
+      "description": "10: FeII2586"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2586.649312,
+    "n_core": 577,
+    "n_valid": 560,
+    "n_invalid": 17,
+    "status_counts": {
+      "-7": 17,
+      "1": 560
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.8079616349021871,
+      0.8795130809445212,
+      0.8834025389208653,
+      0.887991516303026,
+      0.8887996677975992
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": [
+      {
+        "first_pixel": 289273,
+        "last_pixel": 289289,
+        "w_start_AA": 5564.041945099835,
+        "w_end_AA": 5564.160728023966,
+        "v_start_km_s": 37.43595862062475,
+        "v_end_km_s": 43.83682185957457,
+        "status": [
+          -7
+        ]
+      }
+    ]
+  },
+  {
+    "region": {
+      "index": 12,
+      "filename": "hes0515m4414.fits",
+      "extension": 1,
+      "start_AA": 5590.81,
+      "end_AA": 5595.12,
+      "fwhm_km_s": 2.05,
+      "description": "12: FeII2600"
+    },
+    "reference_z": 1.150793,
+    "lab_composite_AA": 2600.172114,
+    "n_core": 577,
+    "n_valid": 577,
+    "n_invalid": 0,
+    "status_counts": {
+      "1": 577
+    },
+    "error_ratio_fluct_to_norm_quantiles": [
+      0.9000833334636057,
+      0.9178987307201706,
+      0.9215613322167308,
+      0.9281546874329237,
+      0.9344927591851313
+    ],
+    "status_invalid_but_error_positive": 0,
+    "status_valid_but_error_negative": 0,
+    "masked_spans": []
+  }
+]

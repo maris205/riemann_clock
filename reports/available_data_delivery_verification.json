@@ -1,0 +1,841 @@
+{
+  "status": "PASS",
+  "count": 204,
+  "passed": 204,
+  "checks": [
+    {
+      "name": "PDF read preflight PASS",
+      "passed": true
+    },
+    {
+      "name": "Preflight identifies current PDF",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 45 components in compiled table",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 45 components report matches precise value",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 45 components objective identity",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 45 components adds five shifts",
+      "passed": true
+    },
+    {
+      "name": "Joint $F<0.1$ mask + GLS in compiled table",
+      "passed": true
+    },
+    {
+      "name": "Joint $F<0.1$ mask + GLS report matches precise value",
+      "passed": true
+    },
+    {
+      "name": "Joint $F<0.1$ mask + GLS objective identity",
+      "passed": true
+    },
+    {
+      "name": "Joint $F<0.1$ mask + GLS adds five shifts",
+      "passed": true
+    },
+    {
+      "name": "Joint padded $F<0.3$ mask + GLS in compiled table",
+      "passed": true
+    },
+    {
+      "name": "Joint padded $F<0.3$ mask + GLS report matches precise value",
+      "passed": true
+    },
+    {
+      "name": "Joint padded $F<0.3$ mask + GLS objective identity",
+      "passed": true
+    },
+    {
+      "name": "Joint padded $F<0.3$ mask + GLS adds five shifts",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 40 components in compiled table",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 40 components report matches precise value",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 40 components objective identity",
+      "passed": true
+    },
+    {
+      "name": "Full pixels, 40 components adds five shifts",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/empirical_gls/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/espresso_null/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/gas_structure/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/saturation_controls/core01_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/saturation_controls/core03_padded_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/mask_information/information.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_null_cross.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/empirical_gls/tapered_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_null.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core01_gls_alternative_cross.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_null_cross.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/joint_controls/core03_gls_alternative.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/gas_structure/merged40_null_cross.json",
+      "passed": true
+    },
+    {
+      "name": "Export source hash experiments/highz_feasibility_2026-09-20/results/gas_structure/merged40_alternative_from_null.json",
+      "passed": true
+    },
+    {
+      "name": "core01_gls saved paired identity",
+      "passed": true
+    },
+    {
+      "name": "core01_gls same pixels",
+      "passed": true
+    },
+    {
+      "name": "core03_gls saved paired identity",
+      "passed": true
+    },
+    {
+      "name": "core03_gls same pixels",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122row1 objective identity",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122row1 PDF value",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122row1 report value",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122expected objective identity",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122expected PDF value",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122expected report value",
+      "passed": true
+    },
+    {
+      "name": "J232128-105122 noise control stops successfully",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611row1 objective identity",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611row1 PDF value",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611row1 report value",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611expected objective identity",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611expected PDF value",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611expected report value",
+      "passed": true
+    },
+    {
+      "name": "J004131-493611 noise control stops successfully",
+      "passed": true
+    },
+    {
+      "name": "Archive counts 36/32/324/6",
+      "passed": true
+    },
+    {
+      "name": "Native exposure valid-pixel count",
+      "passed": true
+    },
+    {
+      "name": "Order contrasts and errors in PDF",
+      "passed": true
+    },
+    {
+      "name": "UVES five explicit nonstationary capped endpoints",
+      "passed": true
+    },
+    {
+      "name": "UVES finite difference disclosed False",
+      "passed": true
+    },
+    {
+      "name": "UVES finite difference disclosed True",
+      "passed": true
+    },
+    {
+      "name": "UVES limits retained in prose",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit joint_controls_review/validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit gas_structure/independent_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit exposures/validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit archive_expansion/independent_catalogue_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit archive_expansion/independent_data_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit archive_expansion/independent_diagnostics_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit archive_expansion/profile_pilot/independent_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit archive_expansion/profile_pilot/expected_noise/independent_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Separate numerical audit uves_completion/validation.json",
+      "passed": true
+    },
+    {
+      "name": "Information internal checks",
+      "passed": true
+    },
+    {
+      "name": "Information independent audit baseline source",
+      "passed": true
+    },
+    {
+      "name": "full independent information pixel count",
+      "passed": true
+    },
+    {
+      "name": "full independent information value 1e-08",
+      "passed": true
+    },
+    {
+      "name": "full independent information value 1e-10",
+      "passed": true
+    },
+    {
+      "name": "full independent information value 1e-12",
+      "passed": true
+    },
+    {
+      "name": "core01 independent information pixel count",
+      "passed": true
+    },
+    {
+      "name": "core01 independent information value 1e-08",
+      "passed": true
+    },
+    {
+      "name": "core01 independent information value 1e-10",
+      "passed": true
+    },
+    {
+      "name": "core01 independent information value 1e-12",
+      "passed": true
+    },
+    {
+      "name": "core03_padded independent information pixel count",
+      "passed": true
+    },
+    {
+      "name": "core03_padded independent information value 1e-08",
+      "passed": true
+    },
+    {
+      "name": "core03_padded independent information value 1e-10",
+      "passed": true
+    },
+    {
+      "name": "core03_padded independent information value 1e-12",
+      "passed": true
+    },
+    {
+      "name": "Validated original core unchanged",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> readme_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> paper/riemann_clock.pdf",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> paper/main.tex",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> paper/theory_sections.tex",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/revision_report_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/numerical_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/citation_checks.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/draft_internal_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/lambda_cosmos_comparison_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/joint_controls_information.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/results/exposures/exposure_consistency.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/results/archive_expansion/archive_line_readiness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/archive_profile_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> reports/available_data_delivery_verification.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/he2021_precision.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/wei2026_experiment.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/conditional_resources.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/resource_precision_heatmap.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/highz_observed_profiles.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/highz_observed_registration.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> data/raw/wei2026/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/readme.md#espresso-conventional-null-test",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/conventional_followup_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> figures/espresso_noise_controls.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme.md -> experiments/highz_feasibility_2026-09-20/reports/cross_instrument_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> readme.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> paper/riemann_clock.pdf",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/revision_report_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/numerical_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/experimental_sources_audit.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/citation_checks.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/lambda_cosmos_comparison_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/experiment_protocol_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/joint_controls_information.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/results/exposures/exposure_consistency.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/results/archive_expansion/archive_line_readiness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/archive_profile_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> reports/available_data_delivery_verification.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/highz_observed_profiles.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/highz_observed_registration.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/readme.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/resource_precision_heatmap.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/readme.md#espresso-conventional-null-test",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/conventional_followup_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> figures/espresso_noise_controls.png",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> experiments/highz_feasibility_2026-09-20/reports/cross_instrument_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/available_data_campaign_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/joint_controls_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/mask_information_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/gas_structure_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/exposure_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/exposures/exposure_consistency.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/archive_expansion_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/archive_expansion/archive_line_readiness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/archive_profile_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/archive_profile_expected_noise_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/uves_completion_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> experiment_protocol_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/public_spectra_audit.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> figures/public_feii_windows.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/atomic_response_audit.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/instrument_roadmap.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> figures/conditional_sensitivity.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> figures/pixel_noise_pilot.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/forecast_summary.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/forecast_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/pixel_pilot_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/protocol_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/existing_data_results_and_outlook_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/observed_profile_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/observed_registration.csv",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/data_informed_design.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/observed_metrics_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/registration_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/highz_manuscript_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> data/source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> data/atomic/source_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/conventional_null_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> figures/espresso_conventional_null.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> figures/espresso_null_robustness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/espresso_null/comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/espresso_null_run_provenance.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/espresso_null_method_audit.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/espresso_null_numerical_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> results/espresso_fit_results_validation.json",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/espresso_null_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/espresso_velocity_split_local_controls_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/conventional_followup_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/readme.md -> reports/cross_instrument_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> available_data_campaign_plan_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> joint_controls_independent_review.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> mask_information_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> gas_structure_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> ../../../figures/joint_controls_information.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> exposure_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> exposure_validation.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> ../results/exposures/exposure_consistency.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> archive_expansion_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> ../results/archive_expansion/archive_line_readiness.png",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> archive_profile_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> ../results/archive_expansion/profile_pilot/archive_profile_fits.pdf",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> archive_profile_expected_noise_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> uves_completion_results_cn.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> cross_instrument_harps_availability.md",
+      "passed": true
+    },
+    {
+      "name": "Local link experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md -> available_data_science_review.md",
+      "passed": true
+    },
+    {
+      "name": "No undefined references or overfull boxes",
+      "passed": true
+    },
+    {
+      "name": "New figure, table and retained heatmap in PDF",
+      "passed": true
+    },
+    {
+      "name": "Single-column manuscript",
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-09-20T18:02:52.082117+00:00",
+  "page_count": 35,
+  "artifact_sha256": {
+    "paper/riemann_clock.pdf": "45a384bae1a301498fcce6f55c148d14d11ced1311d15e4c842696dbfbbae741",
+    "paper/main.tex": "3659b77ac2b694e99c6722b460d9a8e5f6acce75fb3025994d42f48b4e4a5423",
+    "paper/highz_analysis.tex": "0f69231bc368b86b113f65648776f748a18b41798cdd5834d9e9f7a946a6dd48",
+    "paper/available_data_section.tex": "a4ec8409b4a974011c137998597dc6267f71b7bf99941cac1334327be0485dd3",
+    "paper/available_data_table.tex": "91a4effd18027405cacc777b60e6cbeb14758d638e50f41930de747f026c12ad",
+    "figures/joint_controls_information.pdf": "3e4eb7e247043e286e85a6363099ffdd2db3227d98015a0d3067122a48e98c73",
+    "figures/resource_precision_heatmap.pdf": "6cab7fd9153baf0a0c3b854766c464d8ed631b250c034724bb233ecb99b74bd8",
+    "experiments/highz_feasibility_2026-09-20/reports/available_data_campaign_results_cn.md": "228e79605a1d37858a0d1993470140d33b2e7257aa75de13c24e78e87b32a51c",
+    "experiments/highz_feasibility_2026-09-20/results/exposures/summary.json": "d52445738c5eb1cc5e6d218ff6fa9ffb420ff77ac4ddafab2d76d0f0357a2612",
+    "experiments/highz_feasibility_2026-09-20/results/exposures/diagnostics.json": "31d27d1685c0fb46b7c47fcb595b69e16e322d61a797329bd01b8b5f85c6f40d",
+    "experiments/highz_feasibility_2026-09-20/results/archive_expansion/quality_summary.json": "8ec5b396e52e9bc3eac94da0d79aea537b82242fe80210c6f22e295bd7261354",
+    "experiments/highz_feasibility_2026-09-20/results/archive_expansion/profile_pilot/expected_noise/summary.json": "801dc7a3af8ce16b031ba3884f42a1d56416b6081cdf041c0f577ec68b806aef",
+    "experiments/highz_feasibility_2026-09-20/results/uves_completion/summary.json": "52173ac04bd8db1ed2c1ef162e3555f9d1251e8bd6ffd45780f0068c062b56ae"
+  },
+  "scope": "Delivery consistency, not additional physical evidence or optimizer convergence."
+}

@@ -1,0 +1,418 @@
+{
+  "fits": [
+    {
+      "name": "uves_clean_alternative",
+      "free_shifts": true,
+      "chi2": 1390.1454416986978,
+      "ndata": 511,
+      "npar": 146,
+      "rank": 144,
+      "success": false,
+      "nfev": 240,
+      "optimality": 2.1550258579300245,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": 83.31023659526798,
+      "shift2600_m_s": 75.90904375050867,
+      "bound_count": 2,
+      "lsf_fwhm_km_s": {
+        "2374": 5.583143213647198,
+        "2382": 5.583143213647198,
+        "2600": 5.583143213647198
+      },
+      "source_sha256": "1aa7a0bcf55a16c0ae850e5d2a8ac1349d9af3a5b737d3e15981f9fdbdc2991c"
+    },
+    {
+      "name": "uves_clean_null",
+      "free_shifts": false,
+      "chi2": 1399.0901130580285,
+      "ndata": 511,
+      "npar": 144,
+      "rank": 142,
+      "success": false,
+      "nfev": 160,
+      "optimality": 19.710091972657526,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 2,
+      "lsf_fwhm_km_s": {
+        "2374": 5.583143213647198,
+        "2382": 5.583143213647198,
+        "2600": 5.583143213647198
+      },
+      "source_sha256": "6d26dd07cbc022d5580a1e47c20eeb41c0e83aa31f7f82aa75b36f83d776913c"
+    },
+    {
+      "name": "uves_expected_alternative",
+      "free_shifts": true,
+      "chi2": 388.5064208045242,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 148,
+      "success": false,
+      "nfev": 350,
+      "optimality": 0.05238442543933414,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": -139.82839922694654,
+      "shift2600_m_s": -131.91453272502608,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.629043088870679,
+        "2382": 3.6891643468343336,
+        "2600": 3.7314752103816495
+      },
+      "source_sha256": "32b39d2a2317266b5b77a3c9f5e4fb14cedb217c3f4236d1942822f1ca45cf69"
+    },
+    {
+      "name": "uves_expected_alternative_continued",
+      "free_shifts": true,
+      "chi2": 388.1353622700115,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "success": true,
+      "nfev": 385,
+      "optimality": 0.04114619692047106,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": -140.23113142270964,
+      "shift2600_m_s": -132.27058295342533,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.629043088870679,
+        "2382": 3.680375731713307,
+        "2600": 3.723345696958441
+      },
+      "source_sha256": "e955656d4d94adc247f0bda8ec1a1aeae5ba4c97e829e8150c2d1c2b543728c2"
+    },
+    {
+      "name": "uves_expected_null",
+      "free_shifts": false,
+      "chi2": 405.42852410688243,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 350,
+      "optimality": 0.688615282600649,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 8,
+      "lsf_fwhm_km_s": {
+        "2374": 3.945622532232959,
+        "2382": 3.944478534754535,
+        "2600": 4.003398216430654
+      },
+      "source_sha256": "d1801548139b23f663e932767f919be0d6487ad2cc536b1b11f0c5a7d1c60dc0"
+    },
+    {
+      "name": "uves_expected_null_continued",
+      "free_shifts": false,
+      "chi2": 398.1177618787831,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 500,
+      "optimality": 0.3869989456108965,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.676942009507206,
+        "2382": 3.718635784067873,
+        "2600": 3.7658450988280165
+      },
+      "source_sha256": "2481becf6fac109f9643eed08337a140914a7eda3b2cb96dc4a0f54ed8a41e23"
+    },
+    {
+      "name": "uves_expected_null_cross",
+      "free_shifts": false,
+      "chi2": 398.3954932578505,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 400,
+      "optimality": 1.351683096984568,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 11,
+      "lsf_fwhm_km_s": {
+        "2374": 3.677410053008907,
+        "2382": 3.7216907602712657,
+        "2600": 3.768190402282705
+      },
+      "source_sha256": "a8d5b7b495cecc800e312e7737281c9998f8138cb232add51c4769c163b752ec"
+    },
+    {
+      "name": "uves_flex_alternative",
+      "free_shifts": true,
+      "chi2": 445.97248857276895,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 148,
+      "success": false,
+      "nfev": 220,
+      "optimality": 2.400870573722729,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": -68.32718401494365,
+      "shift2600_m_s": -63.996737610744454,
+      "bound_count": 0,
+      "lsf_fwhm_km_s": {
+        "2374": 3.955319714916993,
+        "2382": 3.8982016848440595,
+        "2600": 3.9584077522274836
+      },
+      "source_sha256": "0ebbf3cd8ea3530c7618a936c8df6959d4f65a6d44696140ab4d09e2007f946a"
+    },
+    {
+      "name": "uves_flex_alternative_polished",
+      "free_shifts": true,
+      "chi2": 442.1872816981399,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "success": false,
+      "nfev": 600,
+      "optimality": 5.736022136563684,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": -72.24551159951852,
+      "shift2600_m_s": -67.48227418929216,
+      "bound_count": 0,
+      "lsf_fwhm_km_s": {
+        "2374": 3.955202743348033,
+        "2382": 3.885140998689132,
+        "2600": 3.9446193484610523
+      },
+      "source_sha256": "71c0a0385fac00e926ca2395d395a637fa83ae4c4e3a42da8a3d73bd98356257"
+    },
+    {
+      "name": "uves_flex_null",
+      "free_shifts": false,
+      "chi2": 451.9928918896496,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 146,
+      "success": false,
+      "nfev": 200,
+      "optimality": 6.013362608806552,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 0,
+      "lsf_fwhm_km_s": {
+        "2374": 3.992732862839882,
+        "2382": 3.9367602945087143,
+        "2600": 3.9990632043892704
+      },
+      "source_sha256": "311bc187ae02f99034db315c57fd0279d38f6da2463e4aa371ff814521906c10"
+    },
+    {
+      "name": "uves_flex_null_polished",
+      "free_shifts": false,
+      "chi2": 446.2018237351645,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 600,
+      "optimality": 4.302073873397747,
+      "oversample": 7,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 0,
+      "lsf_fwhm_km_s": {
+        "2374": 4.008075396737371,
+        "2382": 3.908754648321606,
+        "2600": 3.9699750920721413
+      },
+      "source_sha256": "a3c1d3c728304ca3dccfb1df6be746ba2e9d6d055b972141cbec12fe7ba1b86f"
+    },
+    {
+      "name": "uves_opacity_alternative",
+      "free_shifts": true,
+      "chi2": 386.56988290981104,
+      "ndata": 511,
+      "npar": 151,
+      "rank": 151,
+      "success": false,
+      "nfev": 350,
+      "optimality": 0.15886429357273454,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": -139.75123110579352,
+      "shift2600_m_s": -130.9428669309536,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.629043088870679,
+        "2382": 3.629084378181599,
+        "2600": 3.6597419245514007
+      },
+      "source_sha256": "06f97d297ac9320f57a4592185d8dd6c4154e363c103640fd7627bbcf3f1d6b5"
+    },
+    {
+      "name": "uves_opacity_null",
+      "free_shifts": false,
+      "chi2": 396.724228365658,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "success": false,
+      "nfev": 350,
+      "optimality": 1.3217902666356314,
+      "oversample": 21,
+      "error_row": 2,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.657580310940303,
+        "2382": 3.660126572258296,
+        "2600": 3.6939077273223195
+      },
+      "source_sha256": "170db5290ed65883822d7e2618be666a4b48b821eb11250e4ff4096870e3dcc4"
+    },
+    {
+      "name": "uves_refined_alternative",
+      "free_shifts": true,
+      "chi2": 406.84729243541074,
+      "ndata": 511,
+      "npar": 149,
+      "rank": 149,
+      "success": true,
+      "nfev": 554,
+      "optimality": 0.001894662638571249,
+      "oversample": 21,
+      "error_row": 1,
+      "shift2382_m_s": -139.22183477799734,
+      "shift2600_m_s": -131.66044223408093,
+      "bound_count": 12,
+      "lsf_fwhm_km_s": {
+        "2374": 3.629043088870679,
+        "2382": 3.6969225658961102,
+        "2600": 3.7389750261023202
+      },
+      "source_sha256": "05d47210fc4f29338548b245c73f09baf212afb8192831a20748b6120c7dcd3c"
+    },
+    {
+      "name": "uves_refined_null",
+      "free_shifts": false,
+      "chi2": 427.11878714129205,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 700,
+      "optimality": 0.4778069595568757,
+      "oversample": 21,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 8,
+      "lsf_fwhm_km_s": {
+        "2374": 3.9789513646681343,
+        "2382": 3.9098954506725647,
+        "2600": 3.9637067068442566
+      },
+      "source_sha256": "3c05ca58274754630d01e2528b145e0fa15938f4c296da6b906adf8d9236eaa8"
+    },
+    {
+      "name": "uves_refined_null_continued",
+      "free_shifts": false,
+      "chi2": 417.8407497606547,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 500,
+      "optimality": 0.14851684015510713,
+      "oversample": 21,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 11,
+      "lsf_fwhm_km_s": {
+        "2374": 3.6778646294736714,
+        "2382": 3.724086607617538,
+        "2600": 3.7713900192142944
+      },
+      "source_sha256": "832b7a076ab3d4640a76851b18b45056d1045eaf450cbc5098d14426819e5890"
+    },
+    {
+      "name": "uves_refined_null_cross",
+      "free_shifts": false,
+      "chi2": 418.2560956562324,
+      "ndata": 511,
+      "npar": 147,
+      "rank": 147,
+      "success": false,
+      "nfev": 400,
+      "optimality": 0.6808733928096345,
+      "oversample": 21,
+      "error_row": 1,
+      "shift2382_m_s": 0,
+      "shift2600_m_s": 0,
+      "bound_count": 11,
+      "lsf_fwhm_km_s": {
+        "2374": 3.678131708881618,
+        "2382": 3.728345309847288,
+        "2600": 3.774700457021109
+      },
+      "source_sha256": "879aa4586e537d8bb2869616b788372a40063c4586306b7ba86fb7a4aa2d2922"
+    }
+  ],
+  "scope": "Conditional independent-instrument data test with shared ESPRESSO-informed component architecture; not independent gas-model selection.",
+  "inference": "No calibrated global significance, no alpha estimate, no inverse-log-squared time fit. Residual wavelength-calibration uncertainty and covariance not established.",
+  "refined": {
+    "null": "uves_refined_null_continued",
+    "alternative": "uves_refined_alternative",
+    "delta_chi2": 10.99345732524398,
+    "extra_parameters": 2,
+    "both_optimizers_converged": false,
+    "candidates": [
+      "uves_refined_alternative",
+      "uves_refined_null",
+      "uves_refined_null_continued",
+      "uves_refined_null_cross"
+    ]
+  },
+  "expected": {
+    "null": "uves_expected_null_continued",
+    "alternative": "uves_expected_alternative_continued",
+    "delta_chi2": 9.982399608771573,
+    "extra_parameters": 2,
+    "both_optimizers_converged": false,
+    "candidates": [
+      "uves_expected_alternative",
+      "uves_expected_alternative_continued",
+      "uves_expected_null",
+      "uves_expected_null_continued",
+      "uves_expected_null_cross"
+    ]
+  },
+  "opacity": {
+    "null": "uves_opacity_null",
+    "alternative": "uves_opacity_alternative",
+    "delta_chi2": 10.154345455846965,
+    "extra_parameters": 2,
+    "both_optimizers_converged": false,
+    "candidates": [
+      "uves_opacity_alternative",
+      "uves_opacity_null"
+    ]
+  }
+}
