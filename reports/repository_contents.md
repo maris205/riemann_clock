@@ -10,6 +10,30 @@ Build directories, local Python dependencies and caches are ignored. The large
 third-party downloads below are also ignored; their source URLs and checksums
 remain in the supplied manifests. The original local files are preserved.
 
+## Restore from the public Hugging Face snapshot
+
+The [public dataset](https://huggingface.co/datasets/dnagpt/riemann-clock-spectra)
+contains all 52 source spectrum products listed below, plus 424 processed files.
+These are historical extracted/reduced/coadded products and their derivatives;
+they are not new observations or original detector frames.
+
+From the project root, run:
+
+```bash
+python code/fetch_huggingface_spectra.py
+```
+
+This standard-library command requires no token. It reads the immutable dataset
+revision and manifest hash from [the release record](../data/huggingface_release.json),
+checks each file's size and SHA-256, and restores files to their original project
+paths. Existing matching files are retained; a mismatch stops without overwriting.
+Unlike re-running the original fetch/processing scripts, this restore command does
+not regenerate source manifests or processed arrays. Use `--include-processed` to
+also restore the 424 processed files, `--verify-only` to check existing files, or
+`--dry-run` to list the required paths and total size.
+
+## Original-source recovery alternatives
+
 | Files omitted from Git | Recovery script in the spectroscopy experiment |
 | --- | --- |
 | 17 ESPRESSO S2D exposure FITS files | `code/exposure_fetch.py` |

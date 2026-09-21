@@ -1,15 +1,15 @@
 {
   "pdf": "riemann_clock/paper_spectroscopy/feii_relative_frequencies.pdf",
-  "pdf_sha256": "b44ff7c46b1922e8b4619f0bb565a584d7f2809fbeb55a67026079411745c172",
+  "pdf_sha256": "28d64f728f4d5f7200df2f5c92a79963d266a00fbcccd24c50502dbca7435044",
   "page_count": 20,
-  "revision": "Repository URL and raw-source recovery statement added to data availability; scientific sections unchanged.",
-  "reviewed_pages": "Current PDF: data availability and continuation on pp15–16. Earlier prediction integration reviewed pp15–20 of the preceding PDF; those scientific source sections are unchanged.",
+  "revision": "Public Hugging Face spectral mirror and pinned recovery method added to data availability; scientific sections unchanged.",
+  "reviewed_pages": "Current PDF pp15–16: data/code links and continued declarations. Earlier scientific figure and appendix reviews apply to unchanged source sections.",
   "findings": [
-    "Current data availability URL and its continuation render without clipping on pp15–16",
-    "Repository URI annotation targets https://github.com/maris205/riemann_clock",
+    "Data availability and continuation render without clipping on pp15–16",
+    "PDF URI annotations target the intended GitHub repository and Hugging Face dataset",
     "Single-column layout and total20pages retained",
     "No undefined references or overfull boxes in final compilation",
-    "Scientific section, equation, table and figure sources unchanged from preceding publication snapshot"
+    "Scientific model, equation, table and figure sources unchanged by data publication"
   ],
   "science_review": "spectroscopy_prediction_integration_review.md",
   "limitations": "Scoped visual and internal scientific review; no external peer review or physical-detection certification.",
@@ -18,6 +18,6 @@
     "paper_spectroscopy/discussion.tex": "b6489d36c846649293d3324908c0cfd880e45493ba6158f1ab974c79760631d6",
     "reports/spectroscopy_prediction_integration_review.md": "b226b02c2710aa865cfee774b7a403e807b0be3304a6fe3496a1f55b2580dedf"
   },
-  "previous_pdf_sha256": "43c56476f3469df44deca214b7b42c60d53530c573858797b0af427c6eb4068d",
-  "generated_utc": "2026-09-21T06:56:59.326296+00:00"
+  "previous_pdf_sha256": "b44ff7c46b1922e8b4619f0bb565a584d7f2809fbeb55a67026079411745c172",
+  "generated_utc": "2026-09-21T08:12:27.673031+00:00"
 }

@@ -1,0 +1,16 @@
+{
+  "repo_id": "dnagpt/riemann-clock-spectra",
+  "repo_url": "https://huggingface.co/datasets/dnagpt/riemann-clock-spectra",
+  "manifest_sha256": "d024ad0a8030042cb9d3fc751d9fb7a84eb12827450e15a0db85ab700b7afec0",
+  "analysis_base_commit": "321ae1cd48d69fe4d1091326167a8aaa65f2e597",
+  "source_spectrum_count": 52,
+  "source_spectrum_bytes": 1366293902,
+  "processed_count": 424,
+  "processed_bytes": 260049012,
+  "revision": "beb28bc35ed6f0182935582f39b6dfa495d3b9c2",
+  "revision_url": "https://huggingface.co/datasets/dnagpt/riemann-clock-spectra/commit/beb28bc35ed6f0182935582f39b6dfa495d3b9c2",
+  "published_utc": "2026-09-21T08:09:24.185107+00:00",
+  "public": true,
+  "package_files_including_manifest": 510,
+  "package_bytes_including_manifest": 1629979693
+}

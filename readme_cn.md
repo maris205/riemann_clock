@@ -9,7 +9,13 @@ git clone git@github.com:maris205/riemann_clock.git
 cd riemann_clock
 ```
 
-仓库包含两份论文 PDF、处理后的数据和已保存的拟合结果。体积较大的第三方原始光谱文件未纳入 Git，本地原件保留；下载方法及校验说明见[仓库内容与原始文件恢复指南](reports/repository_contents.md)。
+仓库包含两份论文 PDF、处理后的数据和已保存的拟合结果。[Hugging Face 公开光谱数据集](https://huggingface.co/datasets/dnagpt/riemann-clock-spectra)提供 52 份下载的光谱产品和 424 份处理后文件，并保留原始来源及逐文件校验值。恢复 Git 中未包含的大型光谱文件：
+
+```bash
+python code/fetch_huggingface_spectra.py
+```
+
+无需令牌，也无需额外安装 Python 包。脚本使用[固定的数据集版本](data/huggingface_release.json)，检查 SHA-256，已有文件会先校验并保留。加 `--include-processed` 可同时恢复处理后的数组；`--verify-only` 只校验现有文件。原始发布方的下载方法仍保留在[恢复指南](reports/repository_contents.md)。
 
 本项目重新整理“物理测量的黎曼零点精度有限，其可达高度可能随宇宙时间增加”的设想。**数学零点本身保持不变；拟研究的是指定物理系统如何估计它，以及估计能力是否存在额外的宇宙时间依赖。**
 

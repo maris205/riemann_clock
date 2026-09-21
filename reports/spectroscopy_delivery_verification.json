@@ -1,6 +1,6 @@
 {
   "scope": "Focused-manuscript delivery integrity, selected number recomputation, exported table/source identity, local link and final build audit only. No new nonlinear fits, significance calibration, coverage guarantee, physical detection certification or publication acceptance claim.",
-  "generated_utc": "2026-09-21T06:55:30.527643+00:00",
+  "generated_utc": "2026-09-21T08:09:25.033339+00:00",
   "passed": true,
   "checks_passed": 72,
   "checks_total": 72,
@@ -330,7 +330,7 @@
       "name": "Local links in both project READMEs, experiment README and new summary resolve",
       "passed": true,
       "detail": {
-        "links_checked": 152,
+        "links_checked": 154,
         "missing": []
       }
     },
@@ -363,7 +363,7 @@
       "passed": true,
       "detail": {
         "pages": 20,
-        "sha256": "b44ff7c46b1922e8b4619f0bb565a584d7f2809fbeb55a67026079411745c172"
+        "sha256": "28d64f728f4d5f7200df2f5c92a79963d266a00fbcccd24c50502dbca7435044"
       }
     },
     {
@@ -393,7 +393,7 @@
     "paper_spectroscopy/control_table.tex": "05ec29d370fb67edbce6cf3356eeef83f73a66a0b65eba14949b097f426f4d98",
     "paper_spectroscopy/cross_age_results.tex": "1af84fd0e5712510b1a935592117888c2bb7c37d54ddd11ce87792e988ca7311",
     "paper_spectroscopy/discussion.tex": "b6489d36c846649293d3324908c0cfd880e45493ba6158f1ab974c79760631d6",
-    "paper_spectroscopy/main.tex": "c022605d28d1c3357ac98d376e00f33da94a4f95bb9490530131c683949ecb5a",
+    "paper_spectroscopy/main.tex": "e4005bee8b5bb7d5ed7185ab61e9cfc5fdd9632817e29d41c1e25a8e4c785223",
     "paper_spectroscopy/methods.tex": "369b4a148283e8b3aecca3aa3b6a2d643f72ca0e5d5f7c2c0d403a9a51456a12",
     "paper_spectroscopy/numbers.tex": "96fd22e99698f2b5a78c888f8d405f0059d754aef002156b8ffc1c5c1b3b8cf5",
     "paper_spectroscopy/order_results.tex": "1568fb734c644214dd3ded69effd329f1224d4bf9b5f6882f832c1c19bda19ce",
@@ -440,9 +440,9 @@
     "experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/source_hash_manifest.json": "d04e7929288b85a5e1c5792b0ec1e5e8f6d28f6674d75f3dffbe6e880d104433",
     "experiments/highz_feasibility_2026-09-20/data/raw/calibration_readiness/validation.json": "1ed36e72b13e0b7dd177c983d63e5428540d670a2b3b94f5eaacfe85c8983ee5",
     "data/raw/spectroscopy_literature/manifest.json": "88db32bade69669601b9dfc789fc90c42e6e182277504e042173a4a131c1752b",
-    "readme.md": "ae68886ffc606ecca458283c0c437f0b740bcc80efd4cefb47e6e1aa2e591a13",
-    "readme_cn.md": "c4918934b091e9ad9f5c949b33e14dcb261e19fefc40547d86c9ee088020ee99",
-    "experiments/highz_feasibility_2026-09-20/readme.md": "2592beee59b681eb1651d83c0a62abe834da5d8d73b65c84b505d95d46af4c8d",
+    "readme.md": "6487631ffe325f7116f084afdbb38134ecd8e4d18e6d62fb0f686e73293022ea",
+    "readme_cn.md": "1902ad8a47f5f34ca65c32e353060063e03bfaf7711fe7ef02dc02c6327dd89d",
+    "experiments/highz_feasibility_2026-09-20/readme.md": "a92a265c2be4906662fe76c52a60bbba0902b67202bcbdedee7d55b4fd20b8bf",
     "experiments/highz_feasibility_2026-09-20/reports/publication_followup_results_cn.md": "fdb745502628623ed1f7af6aa66bb67c4d5e04a41123ae819e307ff385129649",
     "experiments/prediction_test_2026-09-21/results/design.json": "e9a465af25e9e3a960799b2433f0f4700eacbd75cd564d4b3811b223aee11a37",
     "experiments/prediction_test_2026-09-21/figures/prediction_design.pdf": "8d8b46c93b445eb94e2481d80c9b057edf7535d3456bd171245744a04ca5f1d4",
@@ -450,8 +450,8 @@
     "experiments/prediction_test_2026-09-21/reports/instrument_feasibility_cn.md": "331aee6b208efa03828ffe319008228feb672aed5bf21369390f5f6acf7eb617",
     "experiments/prediction_test_2026-09-21/reports/prediction_logic_review.md": "ad90ccd4c2165566ded1f6b5d57b5673b45406a2900624b660f1d12c6f864493",
     "experiments/prediction_test_2026-09-21/prediction_protocol_cn.md": "ce52d216df371ff962e0e6d6b426d3ddd78432031efaba12bcc296bea39de6b3",
-    "reports/spectroscopy_pdf_preflight.json": "40e498274a2cbaf844acaf655b4e82ac3a2f2693aaa879616b5ec1510cf76b27",
-    "build_spectroscopy/main.log": "c1e2ebf84dec79a363a02d42575cc6bfc20183541c48f973018ce7dee7cb160e",
+    "reports/spectroscopy_pdf_preflight.json": "0a649b64f7f72254e814d6b2e5d9768f2f37e8521cff73f6f5e0a655c5bd4429",
+    "build_spectroscopy/main.log": "fdf7f1d5595b38c653a1142ad79840d95e0bc1c30522eddd42040c5a31095638",
     "build_spectroscopy/main.blg": "e1cfc26ad983d4b36bd36b29614e5c44d88ad512f9a942ad714d43ffaec1236d"
   },
   "validator_sha256": "d5b4b502e03962360a0b2a8b7dd23a668ee49f6e7108639373b160fe3dc9879b"

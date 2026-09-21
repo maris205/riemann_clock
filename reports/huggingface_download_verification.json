@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-09-21T08:13:55.307576+00:00",
+  "repo_id": "dnagpt/riemann-clock-spectra",
+  "revision": "beb28bc35ed6f0182935582f39b6dfa495d3b9c2",
+  "anonymous_download": true,
+  "fresh_download_file": "source/espresso_null/hes0515m4414.fits",
+  "fresh_download_bytes": 39666240,
+  "fresh_download_sha256": "53f14e33a145ee4774b1310e63897b0113deee5c84f4c3ab89423aa235a24e76",
+  "fresh_download_matches_original": true,
+  "local_manifest_verification": {
+    "verified_files": 476,
+    "verified_bytes": 1626342914,
+    "passed": true
+  },
+  "viewer": {
+    "configs": [
+      "source_products",
+      "processed_files"
+    ],
+    "split": "catalogue",
+    "pending": [],
+    "failed": []
+  },
+  "source_code_sha256": {
+    "code/fetch_huggingface_spectra.py": "719fdb1bc6cf4aa91304e2dd10694688aab7ee36d0e255eec160bcf2cdf78e8e",
+    "code/verify_huggingface_release.py": "8ccf89643ea9eec768c3c3563b3df51e95c2257e498538acf2ddb07d28b77706",
+    "code/prepare_huggingface_dataset.py": "c0d4555bce621c470098a7d0729d52e6c9de85c30c55688966c89e9567c89605"
+  }
+}

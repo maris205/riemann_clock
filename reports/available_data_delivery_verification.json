@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "count": 237,
-  "passed": 237,
+  "count": 239,
+  "passed": 239,
   "checks": [
     {
       "name": "PDF read preflight PASS",
@@ -340,6 +340,10 @@
       "passed": true
     },
     {
+      "name": "Local link readme.md -> data/huggingface_release.json",
+      "passed": true
+    },
+    {
       "name": "Local link readme.md -> reports/repository_contents.md",
       "passed": true
     },
@@ -509,6 +513,10 @@
     },
     {
       "name": "Local link readme_cn.md -> readme.md",
+      "passed": true
+    },
+    {
+      "name": "Local link readme_cn.md -> data/huggingface_release.json",
       "passed": true
     },
     {
@@ -952,11 +960,11 @@
       "passed": true
     }
   ],
-  "generated_at": "2026-09-21T06:56:59.163179+00:00",
+  "generated_at": "2026-09-21T08:09:25.521979+00:00",
   "page_count": 35,
   "artifact_sha256": {
-    "paper/riemann_clock.pdf": "412a2481989ad2dfa6f99f1f6cf6d2b3f16136aa14331ee23bf5595bedbbef07",
-    "paper/main.tex": "e75e865fa0396b9cc6179d1bc004b4175762cacad470fb4a28e6771508d6db2e",
+    "paper/riemann_clock.pdf": "694890be1889702a58f964f19102cc48ee0ca5890338b4f7c049d8d311e9e687",
+    "paper/main.tex": "b5558844c40caaa39ebcc24edcf650ba7baeb82e29004eb9cbad2fa12bb5bb44",
     "paper/highz_analysis.tex": "0f69231bc368b86b113f65648776f748a18b41798cdd5834d9e9f7a946a6dd48",
     "paper/available_data_section.tex": "a4ec8409b4a974011c137998597dc6267f71b7bf99941cac1334327be0485dd3",
     "paper/available_data_table.tex": "91a4effd18027405cacc777b60e6cbeb14758d638e50f41930de747f026c12ad",

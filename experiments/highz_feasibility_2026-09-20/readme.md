@@ -49,6 +49,12 @@ The central unresolved requirement is an **independently specified physical resp
 
 ## Reproduce
 
+The [public Hugging Face mirror](https://huggingface.co/datasets/dnagpt/riemann-clock-spectra)
+provides the 52 downloaded spectrum products and 424 processed files. From this
+experiment directory, `python ../../code/fetch_huggingface_spectra.py` restores the
+large spectrum files at a pinned revision, verifies their checksums and preserves
+the supplied manifests. It requires no authentication or additional Python packages.
+
 Use Python 3.12 and the packages in [requirements.txt](requirements.txt), preferably in a virtual environment. Processed spectra, saved fits, small source snapshots and source manifests are included. Large third-party FITS files and spectrum archives are omitted from Git; restore them using the [repository contents and recovery guide](../../reports/repository_contents.md) before raw-data checks or new fits. Fetch scripts retrieve missing files and do not execute upstream code. Some retrieval scripts also regenerate manifests or processed arrays, so preserve the supplied snapshots before rerunning them.
 
 ```bash

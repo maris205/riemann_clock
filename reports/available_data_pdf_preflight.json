@@ -2,11 +2,11 @@
   "schema": "pdf_read_preflight/1",
   "verdict": "PASS",
   "file": "riemann_clock/paper/riemann_clock.pdf",
-  "sha256": "412a2481989ad2dfa6f99f1f6cf6d2b3f16136aa14331ee23bf5595bedbbef07",
+  "sha256": "694890be1889702a58f964f19102cc48ee0ca5890338b4f7c049d8d311e9e687",
   "declared_page_count": 35,
   "enumerated_page_count": 35,
   "reader_page_count": 35,
   "warnings": [],
-  "generated_at": "2026-09-21T06:54:43.561152+00:00",
+  "generated_at": "2026-09-21T07:46:42.577813+00:00",
   "tool": "pdf_read_preflight/1.0.0"
 }

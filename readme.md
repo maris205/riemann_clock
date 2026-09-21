@@ -10,9 +10,20 @@ git clone git@github.com:maris205/riemann_clock.git
 cd riemann_clock
 ```
 
-Both manuscript PDFs, processed data and saved fit results are included. See the
-[repository contents and recovery guide](reports/repository_contents.md) for
-restoring the large third-party raw spectra omitted from Git.
+Both manuscript PDFs, processed data and saved fit results are included.
+The public [spectral dataset on Hugging Face](https://huggingface.co/datasets/dnagpt/riemann-clock-spectra)
+contains the 52 downloaded spectrum products and 424 processed files, with source
+attribution and per-file checksums. Restore the spectrum products omitted from Git:
+
+```bash
+python code/fetch_huggingface_spectra.py
+```
+
+No authentication or additional Python packages are required. The command uses a
+[pinned dataset revision](data/huggingface_release.json), verifies SHA-256 values,
+and preserves existing files. Add `--include-processed` to restore processed arrays
+as well, or `--verify-only` to check files already present. See the
+[recovery guide](reports/repository_contents.md) for the original-source alternatives.
 
 An exploratory study of **finite-resource physical estimates of Riemann zeros**, with a separately stated hypothesis that an additional uncertainty scale may evolve with cosmic age.
 
